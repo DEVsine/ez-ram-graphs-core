@@ -1,0 +1,5 @@
+Django>=4.2,<5.0
+djangorestframework>=3.14.0
+django-neomodel>=0.2.0
+neomodel>=5.0.0
+neo4j>=5.0.0
