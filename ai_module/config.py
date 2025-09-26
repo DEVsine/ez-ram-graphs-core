@@ -74,9 +74,5 @@ class AIConfig:
     )
 
     # Provider-specific keys (for convenience; not required by callers)
-    # openai_api_key: str | None = os.getenv("OPENAI_API_KEY")
-    # gemini_api_key: str | None = os.getenv("GEMINI_API_KEY")
-    openai_api_key: str | None = (
-        "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"
-    )
-    gemini_api_key: str | None = "AIzaSyDLwvFl4XW38LFCWEci2QCQNvoFetTSgz4"
+    openai_api_key: str | None = os.getenv("OPENAI_API_KEY")
+    gemini_api_key: str | None = os.getenv("GEMINI_API_KEY")
