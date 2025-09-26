@@ -1,15 +1,7 @@
 from __future__ import annotations
-
 import os
 from dataclasses import dataclass
-
-try:  # Prefer Django settings when available
-    from django.conf import settings as dj_settings  # type: ignore
-
-    _HAS_DJANGO = True
-except Exception:  # pragma: no cover
-    dj_settings = None  # type: ignore
-    _HAS_DJANGO = False
+from django.conf import settings as dj_settings  # type: ignore
 
 
 def _getenv_bool(name: str, default: bool) -> bool:
@@ -20,8 +12,6 @@ def _getenv_bool(name: str, default: bool) -> bool:
 
 
 def _get_from_django_ai(key: str):
-    if not _HAS_DJANGO:
-        return None
     try:
         # Only access settings if configured
         if not getattr(dj_settings, "configured", False):
@@ -58,21 +48,13 @@ def _get_bool(key: str, default: bool) -> bool:
 class AIConfig:
     # Core configuration
     provider: str = _get("provider", "openai")
-    model: str = _get("model", "gpt-4o-mini")
+    model: str = _get("model", "gpt-5")
     temperature: float = float(_get("temperature", 0.0))
     max_tokens: int = int(_get("max_tokens", 1024))
     rps: float = float(_get("rps", 2.0))
     parallelism: int = int(_get("parallelism", 4))
     json_only: bool = _get_bool("json_only", True)
 
-    # Credentials (generic preferred; provider-specific env fallbacks)
-    api_key: str | None = (
-        _get_from_django_ai("api_key")
-        or os.getenv("AI_API_KEY")
-        or os.getenv("OPENAI_API_KEY")
-        or os.getenv("GEMINI_API_KEY")
-    )
-
     # Provider-specific keys (for convenience; not required by callers)
-    openai_api_key: str | None = os.getenv("OPENAI_API_KEY")
-    gemini_api_key: str | None = os.getenv("GEMINI_API_KEY")
+    openai_api_key: str | None = dj_settings.OPENAI_API_KEY
+    gemini_api_key: str | None = dj_settings.GEMINI_API_KEY
