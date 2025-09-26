@@ -1,0 +1,15 @@
+[project]
+name = "ez-ram"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11.5"
+dependencies = [
+    "django>=4.2,<5.0",
+    "django-neomodel>=0.2.0",
+    "djangorestframework>=3.14.0",
+    "google-genai>=1.39.0",
+    "neo4j>=5.0.0",
+    "neomodel>=5.0.0",
+    "openai>=1.109.1",
+]
