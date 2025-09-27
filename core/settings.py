@@ -200,17 +200,17 @@ LOGGING = {
         },
     },
     "root": {
-        "handlers": ["console", "file"],
+        "handlers": ["console"],
         "level": "INFO",
     },
     "loggers": {
         "django": {
-            "handlers": ["console", "file"],
+            "handlers": ["console"],
             "level": os.getenv("DJANGO_LOG_LEVEL", "INFO"),
             "propagate": False,
         },
         "neomodel": {
-            "handlers": ["console", "file"],
+            "handlers": ["console"],
             "level": "INFO",
             "propagate": False,
         },
