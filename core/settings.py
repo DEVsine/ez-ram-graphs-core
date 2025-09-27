@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
+    "rest_framework.authtoken",
     "django_neomodel",
     "knowledge",
     "student",
@@ -90,8 +91,12 @@ WSGI_APPLICATION = "core.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": os.environ.get("POSTGRES_DB", "ez_ram"),
+        "USER": os.environ.get("POSTGRES_USER", "postgres"),
+        "PASSWORD": os.environ.get("POSTGRES_PASSWORD", ""),
+        "HOST": os.environ.get("POSTGRES_HOST", "localhost"),
+        "PORT": os.environ.get("POSTGRES_PORT", "5432"),
     }
 }
 
@@ -140,27 +145,10 @@ STATIC_URL = "/static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # Neo4j Database Configuration
-# Production-ready configuration with environment variable support
-
-# Primary connection method - use environment variable or default
 NEOMODEL_NEO4J_BOLT_URL = os.environ.get(
     "NEO4J_BOLT_URL",
     "bolt://sine:new_password@192.168.1.40:7687",  # @ symbol encoded as %40
 )
-
-# Alternative: Build URL from separate components
-NEO4J_HOST = os.environ.get("NEO4J_HOST", "192.168.1.40")
-NEO4J_PORT = os.environ.get("NEO4J_PORT", "7687")
-NEO4J_USERNAME = os.environ.get("NEO4J_USERNAME", "sine")
-NEO4J_PASSWORD = os.environ.get("NEO4J_PASSWORD", "new_password")
-
-# Fallback configurations (uncomment to use)
-# For testing different credentials:
-# NEOMODEL_NEO4J_BOLT_URL = f'bolt://neo4j:password@{NEO4J_HOST}:{NEO4J_PORT}'
-# NEOMODEL_NEO4J_BOLT_URL = f'bolt://neo4j:neo4j@{NEO4J_HOST}:{NEO4J_PORT}'
-
-# For local Neo4j Desktop:
-# NEOMODEL_NEO4J_BOLT_URL = 'bolt://neo4j:password@localhost:7687'
 
 # Neo4j additional settings
 NEOMODEL_SIGNALS = True
@@ -181,6 +169,7 @@ REST_FRAMEWORK = {
         "rest_framework.renderers.JSONRenderer",
         "rest_framework.renderers.BrowsableAPIRenderer",
     ],
+    "EXCEPTION_HANDLER": "core.exceptions.custom_exception_handler",
 }
 
 # Logging Configuration
@@ -198,12 +187,12 @@ LOGGING = {
         },
     },
     "handlers": {
-        "file": {
-            "level": "INFO",
-            "class": "logging.FileHandler",
-            "filename": os.path.join(BASE_DIR, "django.log"),
-            "formatter": "verbose",
-        },
+        # "file": {
+        #     "level": "INFO",
+        #     "class": "logging.FileHandler",
+        #     "filename": os.path.join(BASE_DIR, "django.log"),
+        #     "formatter": "verbose",
+        # },
         "console": {
             "level": "DEBUG",
             "class": "logging.StreamHandler",
