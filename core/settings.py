@@ -147,7 +147,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # Neo4j Database Configuration
 NEOMODEL_NEO4J_BOLT_URL = os.environ.get(
     "NEO4J_BOLT_URL",
-    "bolt://sine:new_password@192.168.1.40:7687",  # @ symbol encoded as %40
+    "bolt://sine:new_password@192.168.1.40:7687/ram1111-v4",  # @ symbol encoded as %40
 )
 
 # Neo4j additional settings

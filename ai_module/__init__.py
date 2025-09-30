@@ -28,4 +28,6 @@ from .tasks.builtin import nl2cypher as _nl2cypher  # noqa: F401
 from .tasks.builtin import summarize as _summarize  # noqa: F401
 from .tasks.builtin import classify as _classify  # noqa: F401
 from .tasks.builtin import extract as _extract  # noqa: F401
+from .tasks.builtin import question_generation as _question_generation  # noqa: F401
+from .tasks.builtin import question_validation as _question_validation  # noqa: F401
 

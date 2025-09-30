@@ -56,5 +56,6 @@ class AIConfig:
     json_only: bool = _get_bool("json_only", True)
 
     # Provider-specific keys (for convenience; not required by callers)
+    api_key: str | None = dj_settings.OPENAI_API_KEY
     openai_api_key: str | None = dj_settings.OPENAI_API_KEY
     gemini_api_key: str | None = dj_settings.GEMINI_API_KEY

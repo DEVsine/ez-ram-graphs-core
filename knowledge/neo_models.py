@@ -5,7 +5,6 @@ from neomodel import (
     RelationshipFrom,
     UniqueIdProperty,
 )
-from quiz.neo_models import Quiz, Choice
 
 
 class Knowledge(StructuredNode):
@@ -22,5 +21,5 @@ class Knowledge(StructuredNode):
     depends_on = RelationshipTo("Knowledge", "DEPENDS_ON")
 
     # Reverse edges for convenience/introspection
-    related_quizzes = RelationshipFrom("Quiz", "RELATED_TO")
-    related_choices = RelationshipFrom("Choice", "RELATED_TO")
+    related_quizzes = RelationshipFrom("quiz.neo_models.Quiz", "RELATED_TO")
+    related_choices = RelationshipFrom("quiz.neo_models.Choice", "RELATED_TO")
