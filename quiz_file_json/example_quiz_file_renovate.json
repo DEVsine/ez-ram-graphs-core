@@ -1,0 +1,298 @@
+[
+  {
+    "id": "quiz_001",
+    "quiz_text": "She is ___ for class.",
+    "question_style": "fill_in_blank",
+    "knowledge_name": "Adverbs of Frequency with Be",
+    "choices": [
+      {
+        "choice_letter": "A",
+        "choice_text": "often late",
+        "is_correct": true,
+        "answer_explanation": "ถูกต้อง! เมื่อใช้ verb to be (am, is, are) adverbs of frequency (often, always, usually, etc.) ต้องวางไว้หลัง be verb เช่น 'She is often late' ไม่ใช่ 'She often is late'"
+      },
+      {
+        "choice_letter": "B",
+        "choice_text": "late often",
+        "is_correct": false,
+        "answer_explanation": "ผิด! คำว่า 'late' เป็น adjective ต้องมาหลัง adverb of frequency ไม่ใช่มาก่อน ลำดับที่ถูกต้องคือ be + adverb + adjective"
+      },
+      {
+        "choice_letter": "C",
+        "choice_text": "is often",
+        "is_correct": false,
+        "answer_explanation": "ผิด! ประโยคนี้มี 'is' อยู่แล้ว ไม่ต้องใส่ 'is' อีกครั้ง และขาด adjective 'late' ที่ต้องตามหลัง adverb"
+      },
+      {
+        "choice_letter": "D",
+        "choice_text": "often is late",
+        "is_correct": false,
+        "answer_explanation": "ผิด! Adverb of frequency ต้องวางหลัง be verb ไม่ใช่หน้า be verb และประโยคนี้มี 'is' ซ้ำซ้อน"
+      }
+    ],
+    "generation_metadata": {
+      "created_at": "2025-01-15T10:30:00",
+      "ai_model_used": "openai",
+      "generation_session_id": "session_001"
+    }
+  },
+  {
+    "id": "quiz_002",
+    "quiz_text": "I am ___ tired after work.",
+    "question_style": "fill_in_blank",
+    "knowledge_name": "Adverbs of Frequency with Be",
+    "choices": [
+      {
+        "choice_letter": "A",
+        "choice_text": "usually",
+        "is_correct": true,
+        "answer_explanation": "ถูกต้อง! Adverb of frequency 'usually' ต้องวางหลัง be verb (am) ดังนั้นประโยคที่ถูกต้องคือ 'I am usually tired after work'"
+      },
+      {
+        "choice_letter": "B",
+        "choice_text": "usually am",
+        "is_correct": false,
+        "answer_explanation": "ผิด! ประโยคนี้มี 'am' อยู่แล้ว ไม่ต้องใส่ 'am' อีกครั้ง และ adverb ต้องอยู่หลัง be verb ไม่ใช่หน้า"
+      },
+      {
+        "choice_letter": "C",
+        "choice_text": "am usually",
+        "is_correct": false,
+        "answer_explanation": "ผิด! ประโยคนี้มี 'am' ซ้ำซ้อน เพราะมี 'am' อยู่ในประโยคแล้ว"
+      },
+      {
+        "choice_letter": "D",
+        "choice_text": "am usual",
+        "is_correct": false,
+        "answer_explanation": "ผิด! 'usual' เป็น adjective ไม่ใช่ adverb และประโยคนี้มี 'am' ซ้ำซ้อน ต้องใช้ 'usually' (adverb) แทน"
+      }
+    ],
+    "generation_metadata": {
+      "created_at": "2025-01-15T10:31:00",
+      "ai_model_used": "openai",
+      "generation_session_id": "session_001"
+    }
+  },
+  {
+    "id": "quiz_003",
+    "quiz_text": "They are ___ hungry at night.",
+    "question_style": "fill_in_blank",
+    "knowledge_name": "Adverbs of Frequency with Be",
+    "choices": [
+      {
+        "choice_letter": "A",
+        "choice_text": "always",
+        "is_correct": true,
+        "answer_explanation": "ถูกต้อง! Adverb of frequency 'always' ต้องวางหลัง be verb (are) ประโยคที่ถูกต้องคือ 'They are always hungry at night'"
+      },
+      {
+        "choice_letter": "B",
+        "choice_text": "are always",
+        "is_correct": false,
+        "answer_explanation": "ผิด! ประโยคนี้มี 'are' อยู่แล้ว ไม่ต้องใส่ 'are' อีกครั้ง"
+      },
+      {
+        "choice_letter": "C",
+        "choice_text": "always are",
+        "is_correct": false,
+        "answer_explanation": "ผิด! Adverb of frequency ต้องวางหลัง be verb ไม่ใช่หน้า และประโยคนี้มี 'are' ซ้ำซ้อน"
+      },
+      {
+        "choice_letter": "D",
+        "choice_text": "always hungry are",
+        "is_correct": false,
+        "answer_explanation": "ผิด! โครงสร้างประโยคผิด ลำดับคำที่ถูกต้องคือ be + adverb + adjective ไม่ใช่ adverb + adjective + be"
+      }
+    ],
+    "generation_metadata": {
+      "created_at": "2025-01-15T10:32:00",
+      "ai_model_used": "openai",
+      "generation_session_id": "session_001"
+    }
+  },
+  {
+    "id": "quiz_004",
+    "quiz_text": "Which sentence correctly uses the adverb of frequency with 'be' verb?",
+    "question_style": "multiple_choice",
+    "knowledge_name": "Adverbs of Frequency with Be",
+    "choices": [
+      {
+        "choice_letter": "A",
+        "choice_text": "He is sometimes late to school.",
+        "is_correct": true,
+        "answer_explanation": "ถูกต้อง! โครงสร้างที่ถูกต้องคือ subject + be + adverb of frequency + adjective/complement ดังนั้น 'He is sometimes late' ถูกต้อง"
+      },
+      {
+        "choice_letter": "B",
+        "choice_text": "He sometimes is late to school.",
+        "is_correct": false,
+        "answer_explanation": "ผิด! Adverb of frequency ต้องวางหลัง be verb ไม่ใช่หน้า be verb ประโยคที่ถูกต้องคือ 'He is sometimes late'"
+      },
+      {
+        "choice_letter": "C",
+        "choice_text": "He is late sometimes to school.",
+        "is_correct": false,
+        "answer_explanation": "ผิด! แม้ว่าไวยากรณ์จะไม่ผิดมาก แต่ตำแหน่งที่เป็นธรรมชาติและถูกต้องที่สุดของ adverb of frequency คือหลัง be verb โดยตรง ไม่ใช่ท้ายประโยค"
+      },
+      {
+        "choice_letter": "D",
+        "choice_text": "He sometimes late is to school.",
+        "is_correct": false,
+        "answer_explanation": "ผิด! โครงสร้างประโยคผิดทั้งหมด ลำดับคำไม่ถูกต้อง ต้องเป็น subject + be + adverb + adjective"
+      }
+    ],
+    "generation_metadata": {
+      "created_at": "2025-01-15T10:33:00",
+      "ai_model_used": "openai",
+      "generation_session_id": "session_001"
+    }
+  },
+  {
+    "id": "quiz_005",
+    "quiz_text": "We are ___ busy on Mondays.",
+    "question_style": "fill_in_blank",
+    "knowledge_name": "Adverbs of Frequency with Be",
+    "choices": [
+      {
+        "choice_letter": "A",
+        "choice_text": "often",
+        "is_correct": true,
+        "answer_explanation": "ถูกต้อง! Adverb of frequency 'often' ต้องวางหลัง be verb (are) ประโยคที่ถูกต้องคือ 'We are often busy on Mondays'"
+      },
+      {
+        "choice_letter": "B",
+        "choice_text": "are often",
+        "is_correct": false,
+        "answer_explanation": "ผิด! ประโยคนี้มี 'are' อยู่แล้ว ไม่ต้องใส่ 'are' อีกครั้ง"
+      },
+      {
+        "choice_letter": "C",
+        "choice_text": "often are",
+        "is_correct": false,
+        "answer_explanation": "ผิด! Adverb of frequency ต้องวางหลัง be verb ไม่ใช่หน้า และประโยคนี้มี 'are' ซ้ำซ้อน"
+      },
+      {
+        "choice_letter": "D",
+        "choice_text": "often busy are",
+        "is_correct": false,
+        "answer_explanation": "ผิด! โครงสร้างประโยคผิด ลำดับคำที่ถูกต้องคือ be + adverb + adjective ไม่ใช่ adverb + adjective + be"
+      }
+    ],
+    "generation_metadata": {
+      "created_at": "2025-01-15T10:34:00",
+      "ai_model_used": "openai",
+      "generation_session_id": "session_001"
+    }
+  },
+  {
+    "id": "quiz_006",
+    "quiz_text": "The missing word in 'She ___ happy with her job' should be:",
+    "question_style": "missing_word",
+    "knowledge_name": "Adverbs of Frequency with Be",
+    "choices": [
+      {
+        "choice_letter": "A",
+        "choice_text": "is always",
+        "is_correct": true,
+        "answer_explanation": "ถูกต้อง! ประโยคต้องการทั้ง be verb และ adverb of frequency โครงสร้างที่ถูกต้องคือ 'She is always happy' (subject + be + adverb + adjective)"
+      },
+      {
+        "choice_letter": "B",
+        "choice_text": "always is",
+        "is_correct": false,
+        "answer_explanation": "ผิด! Adverb of frequency ต้องวางหลัง be verb ไม่ใช่หน้า be verb ลำดับที่ถูกต้องคือ 'is always' ไม่ใช่ 'always is'"
+      },
+      {
+        "choice_letter": "C",
+        "choice_text": "always",
+        "is_correct": false,
+        "answer_explanation": "ผิด! ประโยคขาด be verb (is) ต้องมีทั้ง be verb และ adverb of frequency"
+      },
+      {
+        "choice_letter": "D",
+        "choice_text": "is",
+        "is_correct": false,
+        "answer_explanation": "ผิด! แม้ว่าจะมี be verb แต่ขาด adverb of frequency ที่ต้องการในประโยคนี้ เพื่อให้สมบูรณ์ต้องเป็น 'is always'"
+      }
+    ],
+    "generation_metadata": {
+      "created_at": "2025-01-15T10:35:00",
+      "ai_model_used": "openai",
+      "generation_session_id": "session_001"
+    }
+  },
+  {
+    "id": "quiz_007",
+    "quiz_text": "I am ___ nervous before exams.",
+    "question_style": "fill_in_blank",
+    "knowledge_name": "Adverbs of Frequency with Be",
+    "choices": [
+      {
+        "choice_letter": "A",
+        "choice_text": "usually",
+        "is_correct": true,
+        "answer_explanation": "ถูกต้อง! Adverb of frequency 'usually' ต้องวางหลัง be verb (am) ประโยคที่ถูกต้องคือ 'I am usually nervous before exams'"
+      },
+      {
+        "choice_letter": "B",
+        "choice_text": "am usually",
+        "is_correct": false,
+        "answer_explanation": "ผิด! ประโยคนี้มี 'am' อยู่แล้ว ไม่ต้องใส่ 'am' อีกครั้ง"
+      },
+      {
+        "choice_letter": "C",
+        "choice_text": "usually am",
+        "is_correct": false,
+        "answer_explanation": "ผิด! Adverb of frequency ต้องวางหลัง be verb ไม่ใช่หน้า และประโยคนี้มี 'am' ซ้ำซ้อน"
+      },
+      {
+        "choice_letter": "D",
+        "choice_text": "am usual",
+        "is_correct": false,
+        "answer_explanation": "ผิด! 'usual' เป็น adjective ไม่ใช่ adverb และประโยคนี้มี 'am' ซ้ำซ้อน ต้องใช้ 'usually' (adverb) แทน"
+      }
+    ],
+    "generation_metadata": {
+      "created_at": "2025-01-15T10:36:00",
+      "ai_model_used": "openai",
+      "generation_session_id": "session_001"
+    }
+  },
+  {
+    "id": "quiz_008",
+    "quiz_text": "They are ___ excited about the trip.",
+    "question_style": "fill_in_blank",
+    "knowledge_name": "Adverbs of Frequency with Be",
+    "choices": [
+      {
+        "choice_letter": "A",
+        "choice_text": "never",
+        "is_correct": true,
+        "answer_explanation": "ถูกต้อง! Adverb of frequency 'never' ต้องวางหลัง be verb (are) ประโยคที่ถูกต้องคือ 'They are never excited about the trip'"
+      },
+      {
+        "choice_letter": "B",
+        "choice_text": "are never",
+        "is_correct": false,
+        "answer_explanation": "ผิด! ประโยคนี้มี 'are' อยู่แล้ว ไม่ต้องใส่ 'are' อีกครั้ง"
+      },
+      {
+        "choice_letter": "C",
+        "choice_text": "never are",
+        "is_correct": false,
+        "answer_explanation": "ผิด! Adverb of frequency ต้องวางหลัง be verb ไม่ใช่หน้า และประโยคนี้มี 'are' ซ้ำซ้อน"
+      },
+      {
+        "choice_letter": "D",
+        "choice_text": "never excited are",
+        "is_correct": false,
+        "answer_explanation": "ผิด! โครงสร้างประโยคผิด ลำดับคำที่ถูกต้องคือ be + adverb + adjective ไม่ใช่ adverb + adjective + be"
+      }
+    ],
+    "generation_metadata": {
+      "created_at": "2025-01-15T10:37:00",
+      "ai_model_used": "openai",
+      "generation_session_id": "session_001"
+    }
+  }
+]

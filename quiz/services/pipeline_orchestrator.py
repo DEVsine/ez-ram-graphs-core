@@ -10,6 +10,8 @@ from quiz.services.bulk_generation_service import BulkGenerationService, BulkGen
 from quiz.services.validation_service import ValidationService
 from quiz.services.terminal_interface import TerminalInterface
 from quiz.services.neo4j_persistence_service import Neo4jPersistenceService
+from quiz.services.json_export_service import JSONExportService
+from quiz.models.export_data import ExportConfig, ExportResult, ExportFormat
 from ai_module.config import AIConfig
 
 logger = logging.getLogger(__name__)
@@ -49,6 +51,7 @@ class PipelineResult:
     saved_to_neo4j: bool = False
     neo4j_session_id: Optional[str] = None
     saved_quiz_count: int = 0
+    export_results: Optional[dict] = None  # Dict[ExportFormat, ExportResult]
     
     @property
     def questions_generated(self) -> int:
@@ -80,6 +83,7 @@ class QuestionPipelineOrchestrator:
         self.validation_service = ValidationService(ai_config)
         self.terminal_interface = TerminalInterface()
         self.persistence_service = Neo4jPersistenceService()
+        self.export_service = JSONExportService()
         
         # Pipeline configuration
         self.total_steps = 5
@@ -91,7 +95,10 @@ class QuestionPipelineOrchestrator:
         style: Optional[QuestionStyle] = None,
         count: int = 10,
         auto_mode: bool = False,
-        progress_callback: Optional[callable] = None
+        progress_callback: Optional[callable] = None,
+        export_json: bool = False,
+        export_format: str = "complete",
+        export_dir: Optional[str] = None
     ) -> PipelineResult:
         """Run the complete question management pipeline"""
         logger.info("Starting complete question management pipeline")
@@ -122,12 +129,13 @@ class QuestionPipelineOrchestrator:
             )
             self._update_progress(4, "Question Validation", 1.0, progress_callback)
             
-            # Step 5: Results Review and Neo4j Persistence
-            self._update_progress(5, "Results Review", 0.0, progress_callback)
-            neo4j_result = self._step_5_review_results(
-                selected_knowledge, generation_result, validation_result, auto_mode
+            # Step 5: Results Review, Neo4j Persistence, and JSON Export
+            self._update_progress(5, "Results Review & Export", 0.0, progress_callback)
+            neo4j_result, export_results = self._step_5_review_results(
+                selected_knowledge, generation_result, validation_result, auto_mode,
+                export_json, export_format, export_dir
             )
-            self._update_progress(5, "Results Review", 1.0, progress_callback)
+            self._update_progress(5, "Results Review & Export", 1.0, progress_callback)
             
             # Create final result
             pipeline_time = time.time() - start_time
@@ -141,7 +149,8 @@ class QuestionPipelineOrchestrator:
                 success=True,
                 saved_to_neo4j=neo4j_result.get('saved', False),
                 neo4j_session_id=neo4j_result.get('session_id'),
-                saved_quiz_count=neo4j_result.get('saved_count', 0)
+                saved_quiz_count=neo4j_result.get('saved_count', 0),
+                export_results=export_results
             )
             
             logger.info(f"Pipeline completed successfully in {pipeline_time:.1f}s")
@@ -296,12 +305,16 @@ class QuestionPipelineOrchestrator:
         knowledge_node: Knowledge,
         generation_result: BulkGenerationResult,
         validation_result: BatchValidationResult,
-        auto_mode: bool
-    ) -> dict:
-        """Step 5: Review results and save to Neo4j if approved"""
-        logger.info("Step 5: Results review and Neo4j persistence")
+        auto_mode: bool,
+        export_json: bool = False,
+        export_format: str = "complete",
+        export_dir: Optional[str] = None
+    ) -> tuple:
+        """Step 5: Review results, save to Neo4j, and export to JSON if approved"""
+        logger.info("Step 5: Results review, Neo4j persistence, and JSON export")
 
         neo4j_result = {'saved': False, 'session_id': None, 'saved_count': 0}
+        export_results = {}
 
         if not auto_mode:
             # Interactive review
@@ -334,6 +347,17 @@ class QuestionPipelineOrchestrator:
                     'saved_count': len(saved_quizzes)
                 }
 
+                # Export to JSON if requested
+                if export_json:
+                    export_results = self._export_approved_questions(
+                        generation_result.questions,
+                        knowledge_node,
+                        generation_result,
+                        validation_result,
+                        export_format,
+                        export_dir
+                    )
+
             else:
                 print("❌ Questions not approved. Pipeline completed for review.")
         else:
@@ -364,13 +388,116 @@ class QuestionPipelineOrchestrator:
 
                 logger.info(f"Auto-approved and saved {len(saved_quizzes)} questions to Neo4j")
 
+                # Export to JSON if requested
+                if export_json:
+                    export_results = self._export_approved_questions(
+                        generation_result.questions,
+                        knowledge_node,
+                        generation_result,
+                        validation_result,
+                        export_format,
+                        export_dir
+                    )
+
             else:
                 print(f"🤖 Questions not auto-approved (avg score: {avg_score:.2f} < {auto_approval_threshold})")
                 logger.info(f"Auto mode: Generated {generation_result.total_generated} questions, "
                            f"average validation score: {avg_score:.2f} - not saved")
 
-        return neo4j_result
-    
+        return neo4j_result, export_results
+
+    def _export_approved_questions(
+        self,
+        questions: List[QuestionData],
+        knowledge_node: Knowledge,
+        generation_result: BulkGenerationResult,
+        validation_result: BatchValidationResult,
+        export_format: str = "complete",
+        export_dir: Optional[str] = None
+    ) -> dict:
+        """Export approved questions to JSON files"""
+        logger.info(f"Exporting {len(questions)} approved questions")
+
+        export_results = {}
+
+        try:
+            # Configure export service
+            if export_dir:
+                self.export_service.config.output_directory = export_dir
+
+            # Export based on format
+            if export_format == "all":
+                print("\n📤 Exporting questions to all formats...")
+                results = self.export_service.export_all_formats(
+                    questions,
+                    knowledge_node,
+                    generation_result,
+                    validation_result
+                )
+                export_results = results
+
+                # Display results for each format
+                for fmt, result in results.items():
+                    if result.success:
+                        print(f"  ✅ {fmt.value.title()}: {result.file_path} ({result.file_size_kb:.2f} KB)")
+                    else:
+                        print(f"  ❌ {fmt.value.title()}: {result.error_message}")
+
+            elif export_format == "complete":
+                print("\n📤 Exporting questions to complete format...")
+                result = self.export_service.export_questions_complete(
+                    questions,
+                    knowledge_node,
+                    generation_result,
+                    validation_result
+                )
+                export_results[ExportFormat.COMPLETE] = result
+
+                if result.success:
+                    print(f"  ✅ Exported {result.questions_exported} questions")
+                    print(f"  📁 File: {result.file_path}")
+                    print(f"  📊 Size: {result.file_size_kb:.2f} KB")
+                else:
+                    print(f"  ❌ Export failed: {result.error_message}")
+
+            elif export_format == "legacy":
+                print("\n📤 Exporting questions to legacy format...")
+                result = self.export_service.export_questions_legacy(
+                    questions,
+                    knowledge_node
+                )
+                export_results[ExportFormat.LEGACY] = result
+
+                if result.success:
+                    print(f"  ✅ Exported {result.questions_exported} questions")
+                    print(f"  📁 File: {result.file_path}")
+                    print(f"  📊 Size: {result.file_size_kb:.2f} KB")
+                else:
+                    print(f"  ❌ Export failed: {result.error_message}")
+
+            elif export_format == "mapping":
+                print("\n📤 Exporting questions to mapping format...")
+                result = self.export_service.export_questions_mapping(
+                    questions,
+                    knowledge_node
+                )
+                export_results[ExportFormat.MAPPING] = result
+
+                if result.success:
+                    print(f"  ✅ Exported {result.questions_exported} questions")
+                    print(f"  📁 File: {result.file_path}")
+                    print(f"  📊 Size: {result.file_size_kb:.2f} KB")
+                else:
+                    print(f"  ❌ Export failed: {result.error_message}")
+
+            logger.info(f"Export completed: {len(export_results)} format(s)")
+
+        except Exception as e:
+            logger.error(f"Failed to export questions: {e}")
+            print(f"\n❌ Export failed: {e}")
+
+        return export_results
+
     def display_pipeline_progress(self, progress: PipelineProgress) -> None:
         """Display pipeline progress bar"""
         overall_percentage = progress.overall_progress

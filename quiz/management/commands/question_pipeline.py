@@ -49,6 +49,29 @@ class Command(BaseCommand):
             action='store_true',
             help='Show detailed validation results for each question',
         )
+        parser.add_argument(
+            '--export-json',
+            action='store_true',
+            help='Export approved questions to JSON files',
+        )
+        parser.add_argument(
+            '--export-format',
+            type=str,
+            choices=['complete', 'legacy', 'mapping', 'all'],
+            default='complete',
+            help='JSON export format (default: complete)',
+        )
+        parser.add_argument(
+            '--export-dir',
+            type=str,
+            default='quiz_file_json',
+            help='Directory for JSON exports (default: quiz_file_json)',
+        )
+        parser.add_argument(
+            '--no-export',
+            action='store_true',
+            help='Disable JSON export even if --export-json is set',
+        )
     
     def handle(self, *args, **options):
         self.stdout.write("🚀 Question Management Pipeline")
@@ -76,12 +99,18 @@ class Command(BaseCommand):
             # Run complete pipeline
             self.stdout.write("\n🎯 Starting complete pipeline...")
             
+            # Determine if export should be enabled
+            export_enabled = options['export_json'] and not options['no_export']
+
             result = orchestrator.run_complete_pipeline(
                 knowledge_id=options['knowledge_id'],
                 style=selected_style,
                 count=options['count'],
                 auto_mode=options['auto'],
-                progress_callback=self.display_progress
+                progress_callback=self.display_progress,
+                export_json=export_enabled,
+                export_format=options['export_format'],
+                export_dir=options['export_dir']
             )
             
             if not result.success:
@@ -116,6 +145,17 @@ class Command(BaseCommand):
             else:
                 self.stdout.write(f"\n💾 Neo4j Database:")
                 self.stdout.write(f"   Status: ❌ Not saved to database")
+
+            # JSON export results
+            if result.export_results:
+                self.stdout.write(f"\n📤 JSON Export:")
+                for fmt, export_result in result.export_results.items():
+                    if export_result.success:
+                        self.stdout.write(f"   ✅ {fmt.value.title()}: {export_result.questions_exported} questions")
+                        self.stdout.write(f"      File: {export_result.file_path}")
+                        self.stdout.write(f"      Size: {export_result.file_size_kb:.2f} KB")
+                    else:
+                        self.stdout.write(f"   ❌ {fmt.value.title()}: {export_result.error_message}")
             
         except Exception as e:
             logger.error(f"Pipeline execution failed: {e}")

@@ -1,0 +1,112 @@
+[
+  {
+    "question": "She is ___ for class.",
+    "choices": [
+      "often late",
+      "late often",
+      "is often",
+      "often is late"
+    ],
+    "answer": "often late",
+    "answer_description": "คำตอบคือ 'often late' เพราะเมื่อใช้ verb to be (am, is, are) adverbs of frequency ต้องวางไว้หลัง be เช่น She is often late."
+  },
+  {
+    "question": "I am ___ tired after work.",
+    "choices": [
+      "usually",
+      "usually am",
+      "am usually",
+      "am usual"
+    ],
+    "answer": "usually",
+    "answer_description": "คำตอบคือ 'usually' เพราะเมื่อใช้ verb to be (am) adverb of frequency ต้องวางไว้หลัง am เช่น I am usually tired."
+  },
+  {
+    "question": "They are ___ hungry at night.",
+    "choices": [
+      "always",
+      "are always",
+      "always are",
+      "always hungry are"
+    ],
+    "answer": "always",
+    "answer_description": "คำตอบคือ 'always' เพราะเมื่อใช้ verb to be (are) adverb ต้องวางหลัง be เช่น They are always hungry."
+  },
+  {
+    "question": "He is ___ late to school.",
+    "choices": [
+      "sometimes",
+      "is sometimes",
+      "sometimes is",
+      "sometimes late is"
+    ],
+    "answer": "sometimes",
+    "answer_description": "คำตอบคือ 'sometimes' เพราะ adverbs of frequency ต้องวางหลัง be เช่น He is sometimes late."
+  },
+  {
+    "question": "We are ___ busy on Mondays.",
+    "choices": [
+      "often",
+      "are often",
+      "often are",
+      "often busy are"
+    ],
+    "answer": "often",
+    "answer_description": "คำตอบคือ 'often' เพราะเมื่อใช้ verb to be (are) adverb ต้องวางหลัง are เช่น We are often busy."
+  },
+  {
+    "question": "She is ___ happy with her job.",
+    "choices": [
+      "always",
+      "is always",
+      "always is",
+      "always happy is"
+    ],
+    "answer": "always",
+    "answer_description": "คำตอบคือ 'always' เพราะเมื่อใช้ verb to be (is) adverb ต้องวางหลัง be เช่น She is always happy."
+  },
+  {
+    "question": "I am ___ nervous before exams.",
+    "choices": [
+      "usually",
+      "am usually",
+      "usually am",
+      "am usual"
+    ],
+    "answer": "usually",
+    "answer_description": "คำตอบคือ 'usually' เพราะ adverb of frequency ต้องวางหลัง be เช่น I am usually nervous."
+  },
+  {
+    "question": "They are ___ excited about the trip.",
+    "choices": [
+      "never",
+      "are never",
+      "never are",
+      "never excited are"
+    ],
+    "answer": "never",
+    "answer_description": "คำตอบคือ 'never' เพราะเมื่อใช้ verb to be (are) adverb ต้องวางหลัง be เช่น They are never excited."
+  },
+  {
+    "question": "He is ___ angry with his friends.",
+    "choices": [
+      "sometimes",
+      "is sometimes",
+      "sometimes is",
+      "sometimes angry is"
+    ],
+    "answer": "sometimes",
+    "answer_description": "คำตอบคือ 'sometimes' เพราะ adverb ต้องวางหลัง be เช่น He is sometimes angry."
+  },
+  {
+    "question": "We are ___ ready for school in the morning.",
+    "choices": [
+      "always",
+      "are always",
+      "always are",
+      "always ready are"
+    ],
+    "answer": "always",
+    "answer_description": "คำตอบคือ 'always' เพราะเมื่อใช้ verb to be (are) adverb ต้องวางหลัง be เช่น We are always ready."
+  }
+]

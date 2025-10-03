@@ -26,15 +26,6 @@ class Quiz(StructuredNode):
     generation_time = FloatProperty()
     generation_success_rate = FloatProperty()
 
-    # Validation data
-    validation_score = FloatProperty()
-    is_validated = BooleanProperty(default=False)
-    spelling_grammar_score = FloatProperty()
-    explanation_quality_score = FloatProperty()
-    knowledge_relevance_score = FloatProperty()
-    clarity_score = FloatProperty()
-    single_correct_answer = BooleanProperty()
-
     # relationships
     has_choice = RelationshipTo("Choice", "HAS_CHOICE")
     related_to = RelationshipTo("Knowledge", "RELATED_TO")
