@@ -13,6 +13,8 @@ dependencies = [
     "google-genai>=1.39.0",
     "neo4j>=5.0.0",
     "neomodel>=5.0.0",
+    "numpy>=2.3.3",
     "openai>=1.109.1",
     "psycopg[binary]>=3.2.10",
+    "sentence-transformers>=5.1.1",
 ]

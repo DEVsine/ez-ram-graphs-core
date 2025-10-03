@@ -1,0 +1,822 @@
+{
+  "name": "RAM1111",
+  "nest": [
+    {
+      "name": "Auxiliary Verbs and Modal Verbs",
+      "nest": [
+        {
+          "name": "Core Concepts",
+          "nest": []
+        },
+        {
+          "name": "Auxiliary Verbs",
+          "nest": []
+        },
+        {
+          "name": "Modal Verbs — Meanings & Functions",
+          "nest": []
+        },
+        {
+          "name": "Modal Structures (Forms)",
+          "nest": []
+        },
+        {
+          "name": "Semi-modals & Related Forms",
+          "nest": []
+        },
+        {
+          "name": "Auxiliaries/Modals in Context (from Unit Readings)",
+          "nest": []
+        },
+        {
+          "name": "Question/Negation/Tag Patterns",
+          "nest": []
+        },
+        {
+          "name": "Register & Politeness",
+          "nest": []
+        },
+        {
+          "name": "Exercises/Drills referencing Modals",
+          "nest": []
+        },
+        {
+          "name": "Quick Reference",
+          "nest": []
+        }
+      ]
+    },
+    {
+      "name": "Cause-Effect and Reasons",
+      "nest": [
+        {
+          "name": "Cause Clauses (Reasons)",
+          "nest": [
+            {
+              "name": "because",
+              "nest": []
+            }
+          ]
+        },
+        {
+          "name": "Effect Clauses (Results)",
+          "nest": []
+        },
+        {
+          "name": "Cause and Effect with Adjective/Adverb Patterns",
+          "nest": []
+        },
+        {
+          "name": "Prepositional Phrases for Cause",
+          "nest": []
+        },
+        {
+          "name": "Linking Devices for Reason/Result",
+          "nest": []
+        },
+        {
+          "name": "Common Errors",
+          "nest": []
+        }
+      ]
+    },
+    {
+      "name": "Comparisons",
+      "nest": [
+        {
+          "name": "Degrees of Comparison",
+          "nest": [
+            {
+              "name": "Comparative Degree",
+              "nest": []
+            },
+            {
+              "name": "Superlative Degree",
+              "nest": []
+            }
+          ]
+        },
+        {
+          "name": "Equality and Inequality",
+          "nest": []
+        },
+        {
+          "name": "Intensifiers and Mitigators",
+          "nest": []
+        },
+        {
+          "name": "Adverbs in Comparison",
+          "nest": []
+        },
+        {
+          "name": "Quantifier-Based Comparisons",
+          "nest": []
+        },
+        {
+          "name": "Common Errors",
+          "nest": []
+        }
+      ]
+    },
+    {
+      "name": "Conditional Sentences",
+      "nest": [
+        {
+          "name": "Core Types of Conditionals",
+          "nest": [
+            {
+              "name": "Zero Conditional (General Truths/Routines)",
+              "nest": []
+            },
+            {
+              "name": "First Conditional (Real Future Possibility)",
+              "nest": []
+            },
+            {
+              "name": "Second Conditional (Unreal/Hypothetical Present/Future)",
+              "nest": []
+            },
+            {
+              "name": "Third Conditional (Unreal Past & Consequence)",
+              "nest": []
+            },
+            {
+              "name": "Mixed Conditionals",
+              "nest": []
+            }
+          ]
+        },
+        {
+          "name": "Conditional Linkers & Equivalents",
+          "nest": []
+        },
+        {
+          "name": "Verb Forms & Time Reference",
+          "nest": []
+        },
+        {
+          "name": "Inversion, Ellipsis, and Reduced Forms",
+          "nest": []
+        },
+        {
+          "name": "Punctuation, Word Order & Prosody",
+          "nest": []
+        },
+        {
+          "name": "Pragmatics & Register",
+          "nest": []
+        },
+        {
+          "name": "Common Errors & Troublespots",
+          "nest": []
+        }
+      ]
+    },
+    {
+      "name": "Determiners and Adjectives",
+      "nest": [
+        {
+          "name": "Determiners",
+          "nest": [
+            {
+              "name": "Articles",
+              "nest": [
+                {
+                  "name": "Indefinite (a / an)",
+                  "nest": []
+                },
+                {
+                  "name": "Definite (the)",
+                  "nest": []
+                }
+              ]
+            },
+            {
+              "name": "Demonstratives",
+              "nest": []
+            },
+            {
+              "name": "Possessive Determiners",
+              "nest": []
+            },
+            {
+              "name": "Quantifiers",
+              "nest": [
+                {
+                  "name": "Count vs. Non-count",
+                  "nest": []
+                }
+              ]
+            },
+            {
+              "name": "Interrogative & Relative Determiners",
+              "nest": []
+            },
+            {
+              "name": "Numbers and Other Determiners",
+              "nest": []
+            }
+          ]
+        },
+        {
+          "name": "Adjectives",
+          "nest": [
+            {
+              "name": "Adjective Order (Attributive)",
+              "nest": [
+                {
+                  "name": "Canonical Order",
+                  "nest": []
+                }
+              ]
+            },
+            {
+              "name": "Comparatives and Superlatives",
+              "nest": []
+            },
+            {
+              "name": "Gradable vs Non-gradable Adjectives",
+              "nest": []
+            },
+            {
+              "name": "Adjectives with Prepositions",
+              "nest": []
+            },
+            {
+              "name": "Attributive-Only & Predicative-Only",
+              "nest": []
+            },
+            {
+              "name": "Adjective vs Adverb (Linking Verbs)",
+              "nest": []
+            }
+          ]
+        },
+        {
+          "name": "Determiner–Adjective–Noun Synergy",
+          "nest": [
+            {
+              "name": "Noun Phrase Template",
+              "nest": []
+            }
+          ]
+        },
+        {
+          "name": "Common Errors & Troublespots",
+          "nest": []
+        }
+      ]
+    },
+    {
+      "name": "Passive Voice",
+      "nest": [
+        {
+          "name": "Active vs Passive: Concepts & Core Form",
+          "nest": []
+        },
+        {
+          "name": "Forms Across Tenses & Aspects",
+          "nest": []
+        },
+        {
+          "name": "Agent (by-phrase) vs Agentless Passive",
+          "nest": []
+        },
+        {
+          "name": "Transformations & Constraints",
+          "nest": []
+        },
+        {
+          "name": "Special Passive Patterns",
+          "nest": []
+        },
+        {
+          "name": "Practice Frames (Exam-style)",
+          "nest": []
+        }
+      ]
+    },
+    {
+      "name": "Pronouns",
+      "nest": [
+        {
+          "name": "Personal Pronouns",
+          "nest": [
+            {
+              "name": "Subject Pronouns",
+              "nest": [
+                {
+                  "name": "First Person",
+                  "nest": [
+                    {
+                      "name": "We: Inclusive vs. Exclusive (เชิงบริบทภาษาอังกฤษ)",
+                      "nest": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Second Person",
+                  "nest": []
+                },
+                {
+                  "name": "Third Person",
+                  "nest": []
+                }
+              ]
+            },
+            {
+              "name": "Object Pronouns",
+              "nest": []
+            }
+          ]
+        },
+        {
+          "name": "Possessive Pronouns",
+          "nest": []
+        },
+        {
+          "name": "Demonstrative Pronouns",
+          "nest": []
+        },
+        {
+          "name": "Indefinite Pronouns",
+          "nest": []
+        },
+        {
+          "name": "Reflexive & Intensive Pronouns",
+          "nest": []
+        },
+        {
+          "name": "Relative Pronouns",
+          "nest": []
+        }
+      ]
+    },
+    {
+      "name": "Questions",
+      "nest": [
+        {
+          "name": "Yes/No Questions",
+          "nest": [
+            {
+              "name": "With Auxiliary Verbs",
+              "nest": []
+            }
+          ]
+        },
+        {
+          "name": "Wh- Questions",
+          "nest": []
+        },
+        {
+          "name": "Tag Questions",
+          "nest": []
+        },
+        {
+          "name": "Alternative Questions",
+          "nest": []
+        },
+        {
+          "name": "Indirect Questions",
+          "nest": []
+        },
+        {
+          "name": "Question Formation Rules",
+          "nest": []
+        },
+        {
+          "name": "Common Errors",
+          "nest": []
+        }
+      ]
+    },
+    {
+      "name": "12tens",
+      "nest": [
+        {
+          "name": "Future",
+          "nest": [
+            {
+              "name": "Future Continuous Tense",
+              "nest": [
+                {
+                  "name": "Form and Structure",
+                  "nest": []
+                },
+                {
+                  "name": "Uses",
+                  "nest": []
+                },
+                {
+                  "name": "Time Expressions",
+                  "nest": []
+                },
+                {
+                  "name": "Comparison with Other Tenses",
+                  "nest": []
+                },
+                {
+                  "name": "Common Errors and Troublespots",
+                  "nest": []
+                }
+              ]
+            },
+            {
+              "name": "Future Perfect Continuous Tense",
+              "nest": [
+                {
+                  "name": "Form and Structure",
+                  "nest": []
+                },
+                {
+                  "name": "Uses",
+                  "nest": []
+                },
+                {
+                  "name": "Time Expressions",
+                  "nest": []
+                },
+                {
+                  "name": "Comparison with Other Tenses",
+                  "nest": []
+                },
+                {
+                  "name": "Common Errors and Troublespots",
+                  "nest": []
+                }
+              ]
+            },
+            {
+              "name": "Future Perfect Tense",
+              "nest": [
+                {
+                  "name": "Form and Structure",
+                  "nest": []
+                },
+                {
+                  "name": "Uses",
+                  "nest": []
+                },
+                {
+                  "name": "Time Expressions",
+                  "nest": []
+                },
+                {
+                  "name": "Comparison with Other Tenses",
+                  "nest": []
+                },
+                {
+                  "name": "Common Errors and Troublespots",
+                  "nest": []
+                }
+              ]
+            },
+            {
+              "name": "Future Simple Tense",
+              "nest": [
+                {
+                  "name": "Form and Structure",
+                  "nest": []
+                },
+                {
+                  "name": "Uses",
+                  "nest": []
+                },
+                {
+                  "name": "Time Expressions",
+                  "nest": []
+                },
+                {
+                  "name": "Comparison with Other Tenses",
+                  "nest": []
+                },
+                {
+                  "name": "Common Errors and Troublespots",
+                  "nest": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Past",
+          "nest": [
+            {
+              "name": "Past Continuous Tense",
+              "nest": [
+                {
+                  "name": "Form and Structure",
+                  "nest": []
+                },
+                {
+                  "name": "Uses",
+                  "nest": []
+                },
+                {
+                  "name": "Comparison with Past Simple",
+                  "nest": []
+                },
+                {
+                  "name": "Time Expressions",
+                  "nest": []
+                },
+                {
+                  "name": "Subject–Verb Agreement",
+                  "nest": []
+                },
+                {
+                  "name": "Common Errors and Troublespots",
+                  "nest": []
+                },
+                {
+                  "name": "Passive Voice",
+                  "nest": []
+                }
+              ]
+            },
+            {
+              "name": "Past Perfect Continuous Tense",
+              "nest": [
+                {
+                  "name": "Form and Structure",
+                  "nest": []
+                },
+                {
+                  "name": "Uses",
+                  "nest": []
+                },
+                {
+                  "name": "Time Expressions",
+                  "nest": []
+                },
+                {
+                  "name": "Comparison with Other Tenses",
+                  "nest": []
+                },
+                {
+                  "name": "Common Errors and Troublespots",
+                  "nest": []
+                }
+              ]
+            },
+            {
+              "name": "Past Perfect Tense",
+              "nest": [
+                {
+                  "name": "Form and Structure",
+                  "nest": []
+                },
+                {
+                  "name": "Uses",
+                  "nest": []
+                },
+                {
+                  "name": "Time Expressions",
+                  "nest": []
+                },
+                {
+                  "name": "Special Grammar Points",
+                  "nest": []
+                },
+                {
+                  "name": "Common Errors and Troublespots",
+                  "nest": []
+                }
+              ]
+            },
+            {
+              "name": "Past Simple Tense",
+              "nest": [
+                {
+                  "name": "Form and Structure",
+                  "nest": [
+                    {
+                      "name": "Affirmative Statements",
+                      "nest": [
+                        {
+                          "name": "Regular Verbs",
+                          "nest": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Negative Statements",
+                      "nest": []
+                    },
+                    {
+                      "name": "Questions",
+                      "nest": []
+                    },
+                    {
+                      "name": "Verb Be in Past Simple",
+                      "nest": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Uses",
+                  "nest": []
+                },
+                {
+                  "name": "Time Expressions",
+                  "nest": []
+                },
+                {
+                  "name": "Special Grammar Points",
+                  "nest": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Present",
+          "nest": [
+            {
+              "name": "Present Continuous Tense",
+              "nest": [
+                {
+                  "name": "Form and Structure",
+                  "nest": [
+                    {
+                      "name": "Affirmative Statements",
+                      "nest": []
+                    },
+                    {
+                      "name": "Negative Statements",
+                      "nest": []
+                    },
+                    {
+                      "name": "Yes/No Questions",
+                      "nest": []
+                    },
+                    {
+                      "name": "Wh- Questions",
+                      "nest": []
+                    },
+                    {
+                      "name": "Spelling Rules for -ing",
+                      "nest": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Uses",
+                  "nest": []
+                },
+                {
+                  "name": "Time Expressions and Adverbs of Frequency",
+                  "nest": []
+                },
+                {
+                  "name": "Subject–Verb Agreement",
+                  "nest": []
+                },
+                {
+                  "name": "Do-Support and Interaction",
+                  "nest": []
+                },
+                {
+                  "name": "Contrast with Present Simple",
+                  "nest": []
+                },
+                {
+                  "name": "Common Errors and Troublespots",
+                  "nest": []
+                },
+                {
+                  "name": "Passive Voice",
+                  "nest": []
+                }
+              ]
+            },
+            {
+              "name": "Present Perfect Continuous Tense",
+              "nest": [
+                {
+                  "name": "Form and Structure",
+                  "nest": [
+                    {
+                      "name": "Affirmative Statements",
+                      "nest": []
+                    },
+                    {
+                      "name": "Negative Statements",
+                      "nest": []
+                    },
+                    {
+                      "name": "Yes/No Questions",
+                      "nest": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Uses",
+                  "nest": [
+                    {
+                      "name": "Actions Continuing Up to Now",
+                      "nest": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Time Expressions",
+                  "nest": []
+                },
+                {
+                  "name": "Contrast with Present Perfect Simple",
+                  "nest": []
+                },
+                {
+                  "name": "Common Errors",
+                  "nest": []
+                }
+              ]
+            },
+            {
+              "name": "Present Perfect Tense",
+              "nest": [
+                {
+                  "name": "Form and Structure",
+                  "nest": []
+                },
+                {
+                  "name": "Uses",
+                  "nest": []
+                },
+                {
+                  "name": "Time Expressions",
+                  "nest": []
+                },
+                {
+                  "name": "Common Errors and Troublespots",
+                  "nest": []
+                }
+              ]
+            },
+            {
+              "name": "Present Simple Tense",
+              "nest": [
+                {
+                  "name": "Form and Structure",
+                  "nest": [
+                    {
+                      "name": "Affirmative Statements",
+                      "nest": [
+                        {
+                          "name": "With Lexical Verbs",
+                          "nest": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Negative Statements",
+                      "nest": []
+                    },
+                    {
+                      "name": "Yes/No Questions",
+                      "nest": []
+                    },
+                    {
+                      "name": "Wh- Questions",
+                      "nest": []
+                    },
+                    {
+                      "name": "Spelling Rules for 3rd Person -s",
+                      "nest": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Uses",
+                  "nest": [
+                    {
+                      "name": "Performative Verbs",
+                      "nest": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Time Expressions and Adverbs of Frequency",
+                  "nest": []
+                },
+                {
+                  "name": "Subject–Verb Agreement",
+                  "nest": []
+                },
+                {
+                  "name": "Do-Support and Interaction",
+                  "nest": []
+                },
+                {
+                  "name": "Common Errors and Troublespots",
+                  "nest": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

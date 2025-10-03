@@ -17,7 +17,7 @@ class Quiz(StructuredNode):
 
     # relationships
     has_choice = RelationshipTo("Choice", "HAS_CHOICE")
-    related_to = RelationshipTo("Knowledge", "RELATED_TO")
+    related_to = RelationshipTo("knowledge.neo_models.Knowledge", "RELATED_TO")
 
 
 class Choice(StructuredNode):
@@ -36,4 +36,4 @@ class Choice(StructuredNode):
     # relationships
     # Choice <-HAS_CHOICE- Quiz (reverse)
     belongs_to = RelationshipFrom("Quiz", "HAS_CHOICE")
-    related_to = RelationshipTo("Knowledge", "RELATED_TO")
+    related_to = RelationshipTo("knowledge.neo_models.Knowledge", "RELATED_TO")

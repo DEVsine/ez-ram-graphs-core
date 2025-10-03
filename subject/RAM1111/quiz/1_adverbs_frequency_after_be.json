@@ -1,0 +1,292 @@
+[
+  {
+    "question": "___ she like pizza?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิดจ้า 😅 เพราะประธานคือ **she** (บุรุษที่ 3 เอกพจน์) ต้องใช้ **Does** ไม่ใช่ Do เช่น `Does she like pizza?`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "is_correct": true,
+        "answer_description": "ถูกต้องเลย 🎉 เวลาสร้างคำถามแบบ Yes/No ใน **Present Simple Tense** ถ้าประธานคือ **he/she/it** ต้องใช้ **Does + subject + base verb** เช่น `Does she like pizza?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิดนะ ✋ `Is` ใช้กับกริยา **be** เช่น `Is she a teacher?` แต่ที่นี่เรามี **lexical verb** (like) → ต้องใช้ **Does**"
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "is_correct": false,
+        "answer_description": "ไม่ถูกจ้า 🙃 `Has` ใช้กับ **Present Perfect** เช่น `Has she eaten yet?` แต่โครงสร้างนี้ถามเรื่องความชอบปัจจุบัน ต้องใช้ `Does`"
+      }
+    ]
+  },
+  {
+    "question": "___ they play football on weekends?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ✅ เพราะประธานคือ **they** ใช้รูป **Do + subject + base verb** เช่น `Do they play football on weekends?`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "is_correct": false,
+        "answer_description": "ผิดจ้า 😅 `Does` ใช้กับ **he/she/it** เท่านั้น ถ้าใช้กับ **they** จะผิด เช่น ❌ `Does they play football?`"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่นะ ✋ `Are` ใช้กับกริยา be เช่น `Are they students?` แต่ในประโยคนี้กริยาแท้คือ `play`"
+      },
+      {
+        "index": 4,
+        "text": "Have",
+        "is_correct": false,
+        "answer_description": "ผิดจ้า 😅 `Have` ใช้สร้าง Present Perfect เช่น `Have they played?` แต่ที่นี่เป็น Yes/No Question ของ Present Simple → ต้องใช้ Do"
+      }
+    ]
+  },
+  {
+    "question": "___ your brother watch TV every evening?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิดน้า 😅 ประธานคือ **your brother** → เอกพจน์ ต้องใช้ `Does`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "is_correct": true,
+        "answer_description": "ถูกต้องเลย 🎉 เพราะ `your brother` เป็นบุรุษที่ 3 เอกพจน์ ต้องใช้โครงสร้าง `Does + subject + base verb` เช่น `Does your brother watch TV every evening?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิด ✋ `Is` ใช้กับกริยา be เช่น `Is your brother at home?` แต่ที่นี่เป็นกริยาแท้ (watch) → ต้องใช้ `Does`"
+      },
+      {
+        "index": 4,
+        "text": "Did",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่จ้า 🙃 `Did` ใช้กับ Past Simple เช่น `Did your brother watch TV yesterday?` แต่ที่นี่เป็น Present Simple"
+      }
+    ]
+  },
+  {
+    "question": "___ you study English every day?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ✅ ประธานคือ **you** → ใช้ `Do` เช่น `Do you study English every day?`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "is_correct": false,
+        "answer_description": "ผิดจ้า 😅 `Does` ใช้กับ **he/she/it** เท่านั้น ไม่ใช้กับ **you**"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "is_correct": false,
+        "answer_description": "ไม่ถูกนะ ✋ `Are` ใช้กับกริยา be เช่น `Are you a student?` แต่ที่นี่เป็นกริยาแท้ (study)"
+      },
+      {
+        "index": 4,
+        "text": "Have",
+        "is_correct": false,
+        "answer_description": "ผิดจ้า 🙃 `Have` ใช้ใน Perfect Tense เช่น `Have you studied English?` แต่ที่นี่เป็น Present Simple Habit"
+      }
+    ]
+  },
+  {
+    "question": "___ it rain a lot in July?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิดนะ 😅 เพราะประธานคือ **it** → ต้องใช้ Does"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "is_correct": true,
+        "answer_description": "ถูกต้องเลย 🎉 ประธานคือ **it** (บุรุษที่ 3 เอกพจน์) → ใช้ `Does + subject + base verb` เช่น `Does it rain a lot in July?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิด ✋ `Is` ใช้กับกริยา be เช่น `Is it rainy?` แต่ถ้ามีคำว่า **rain** เป็นกริยาแท้ ต้องใช้ Does"
+      },
+      {
+        "index": 4,
+        "text": "Did",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่นะ 🙃 `Did` เป็น Past Simple เช่น `Did it rain yesterday?` แต่ประโยคนี้ถามเป็นปัจจุบัน"
+      }
+    ]
+  },
+  {
+    "question": "___ we need more time?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ✅ เพราะประธานคือ **we** ต้องใช้ `Do` เช่น `Do we need more time?`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "is_correct": false,
+        "answer_description": "ผิดจ้า 😅 `Does` ใช้กับ **he/she/it** แต่ที่นี่คือ **we**"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่นะ ✋ `Is` ใช้กับกริยา be เช่น `Is it enough time?`"
+      },
+      {
+        "index": 4,
+        "text": "Have",
+        "is_correct": false,
+        "answer_description": "ผิดจ้า 🙃 `Have` จะทำให้กลายเป็น Present Perfect เช่น `Have we needed...?` ซึ่งไม่ใช่"
+      }
+    ]
+  },
+  {
+    "question": "___ she work on Saturdays?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิดจ้า 😅 เพราะประธานคือ **she** ต้องใช้ `Does`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "is_correct": true,
+        "answer_description": "ถูกต้องเลย 🎉 ใช้โครงสร้าง `Does + subject + base verb` เช่น `Does she work on Saturdays?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ไม่ถูกนะ ✋ `Is` ใช้กับกริยา be เช่น `Is she busy on Saturdays?` แต่ที่นี่เป็นกริยาแท้"
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "is_correct": false,
+        "answer_description": "ผิดจ้า 🙃 `Has` ใช้กับ Perfect Tense เช่น `Has she worked?`"
+      }
+    ]
+  },
+  {
+    "question": "___ you like coffee?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ✅ ใช้ `Do + subject + base verb` เช่น `Do you like coffee?`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "is_correct": false,
+        "answer_description": "ผิดจ้า 😅 `Does` ใช้กับ **he/she/it** เท่านั้น ไม่ใช่กับ **you**"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ไม่ถูกนะ ✋ `Is` ใช้กับกริยา be เช่น `Is it coffee?`"
+      },
+      {
+        "index": 4,
+        "text": "Have",
+        "is_correct": false,
+        "answer_description": "ผิด 🙃 `Have you liked...` ใช้กับ Perfect Tense ไม่ใช่ Present Simple Habit"
+      }
+    ]
+  },
+  {
+    "question": "___ your parents speak English?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "is_correct": true,
+        "answer_description": "ถูกต้องเลย 🎉 เพราะ `your parents` = plural → ใช้ `Do` เช่น `Do your parents speak English?`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "is_correct": false,
+        "answer_description": "ผิดจ้า 😅 `Does` ใช้กับ singular (he/she/it) แต่ `parents` เป็นพหูพจน์"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่ ✋ `Are your parents English?` → แบบนี้เป็น adj. แต่ที่นี่กริยาแท้คือ speak"
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "is_correct": false,
+        "answer_description": "ผิด 🙃 `Has` ใช้กับ Present Perfect เช่น `Has your parent spoken English?`"
+      }
+    ]
+  },
+  {
+    "question": "___ she play the piano?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิดจ้า 😅 เพราะประธานคือ **she** ต้องใช้ `Does`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ✅ ใช้ `Does + subject + base verb` เช่น `Does she play the piano?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่ ✋ `Is she playing the piano?` → นี่เป็น Present Continuous ไม่ใช่ Present Simple"
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "is_correct": false,
+        "answer_description": "ผิด 🙃 `Has she played the piano?` → นี่เป็น Present Perfect"
+      }
+    ]
+  }
+]

@@ -16,7 +16,7 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path
-from student.api import SuggestQuizAPI
+from student.api_views import SuggestQuizAPI
 
 urlpatterns = [
     path("admin/", admin.site.urls),
