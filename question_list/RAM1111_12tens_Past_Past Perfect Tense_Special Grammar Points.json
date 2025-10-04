@@ -1,0 +1,321 @@
+[
+  {
+    "question": "By the time we ___, they had finished dinner.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "arrived",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะโครงสร้างกับวลี **By the time** มักเป็น `By the time + Past Simple, Past Perfect` ดังนั้นช่องว่างควรเป็น **Past Simple**: `arrived` และอีกประโยคใช้ **Past Perfect**: `had finished`. รูปแบบที่ถูกคือ **By the time + Past Simple**, **Past Perfect** เช่น `By the time we arrived, they had finished dinner.`"
+      },
+      {
+        "index": 2,
+        "text": "had arrived",
+        "is_correct": false,
+        "answer_description": "ผิดจุด เพราะถ้าใช้ `had arrived` จะกลายเป็น `By the time + Past Perfect, Past Perfect` ซึ่งไม่ใช่รูปแบบมาตรฐาน. ปกติเราจะใช้ `By the time + Past Simple, Past Perfect` เช่น `By the time we arrived, they had finished dinner.`"
+      },
+      {
+        "index": 3,
+        "text": "were arriving",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `were arriving` เป็น **Past Continuous** ไม่ตรงกับแพตเทิร์นที่ใช้กับ **By the time** ในกรณีสรุปเหตุการณ์เสร็จสิ้น. ควรใช้ `arrived` คู่กับ `had finished` เช่น `By the time we arrived, they had finished dinner.`"
+      },
+      {
+        "index": 4,
+        "text": "have arrived",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `have arrived` เป็น **Present Perfect** ซึ่งไม่เข้ากับบริบทอดีตที่มี `had finished`. รูปที่ถูกคือ `arrived` ในอดีตตรง เช่น `By the time we arrived, ...`"
+      }
+    ]
+  },
+  {
+    "question": "After she ___ the email, she went to bed.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had sent",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเหตุการณ์ส่งอีเมลเกิดก่อนการเข้านอน จึงใช้รูปแบบ **Past Perfect**: **had + V3** → `had sent`. แพตเทิร์นชัดๆ คือ **After + Past Perfect, Past Simple** เช่น `After she had sent the email, she went to bed.`"
+      },
+      {
+        "index": 2,
+        "text": "sent",
+        "is_correct": false,
+        "answer_description": "ยังไม่ชัดเรื่องลำดับเวลา ถ้าใช้ `sent` ทั้งสองฝั่งเป็น Past Simple อาจไม่เน้นว่าอะไรเกิดก่อน. เพื่อเน้นว่าการส่งเกิดก่อน ควรใช้ `had sent` เช่น `After she had sent the email, she went to bed.`"
+      },
+      {
+        "index": 3,
+        "text": "has sent",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะ `has sent` เป็น **Present Perfect** ใช้กับปัจจุบัน/ผลถึงปัจจุบัน ไม่ใช่ลำดับเหตุการณ์ในอดีต. ที่ถูกคือ `had sent` เพื่อชี้ว่าเสร็จสิ้นก่อนอีกเหตุการณ์หนึ่งในอดีต."
+      },
+      {
+        "index": 4,
+        "text": "had been sending",
+        "is_correct": false,
+        "answer_description": "รูปนี้เป็น **Past Perfect Continuous** เน้นความต่อเนื่อง ไม่ใช่การเสร็จสิ้น. ประโยคนี้ต้องการเน้นว่า “ส่งเสร็จแล้ว” ก่อนเข้านอน จึงควรใช้ `had sent` แทน เช่น `After she had sent the email, ...`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ the report before he left.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had finished",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะต้องการบอกว่า “เขาทำรายงานเสร็จก่อนออกไป” จึงใช้ **Past Perfect**: **had + V3** → `had finished`. แพตเทิร์นคือ **Past Perfect + before + Past Simple** เช่น `He had finished the report before he left.`"
+      },
+      {
+        "index": 2,
+        "text": "finished",
+        "is_correct": false,
+        "answer_description": "ไม่ชัดเรื่องลำดับเวลา ถ้าใช้ Past Simple ทั้งสองฝั่ง (`finished` และ `left`) จะไม่เน้นว่าอันไหนมาก่อน. ถ้าต้องการเน้นว่า “เสร็จก่อน” ใช้ `had finished` จะตรงกว่า."
+      },
+      {
+        "index": 3,
+        "text": "has finished",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะ `has finished` เป็น **Present Perfect** ไม่ใช้กับเหตุการณ์ที่เกิดและจบในอดีตพร้อมลำดับชัดเจน. ที่ถูกคือ `had finished ... before he left`."
+      },
+      {
+        "index": 4,
+        "text": "was finished",
+        "is_correct": false,
+        "answer_description": "นี่เป็นรูป **Passive** ของ Past Simple (`was finished`) ซึ่งไม่สื่อว่าเขาเป็นผู้ทำให้เสร็จ และยังไม่ชี้ลำดับชัด. ประโยคนี้ต้องการ Active + Past Perfect: `had finished`."
+      }
+    ]
+  },
+  {
+    "question": "She ___ already left when I called.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had already left",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Past Perfect** กับคำบอกเวลาอย่าง **already** เพื่อเน้นว่าเหตุการณ์เกิดขึ้นก่อนอีกเหตุการณ์ในอดีต. รูปแบบที่ชัดคือ **had + already + V3** เช่น `She had already left when I called.`"
+      },
+      {
+        "index": 2,
+        "text": "already left",
+        "is_correct": false,
+        "answer_description": "ยังขาดกริยาช่วย `had` ทำให้ไม่ใช่รูป Past Perfect เต็มรูปแบบ. ควรเขียนเป็น `had already left` เพื่อเน้นว่าเธอออกไปก่อนตอนที่ฉันโทร."
+      },
+      {
+        "index": 3,
+        "text": "has already left",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะ `has already left` เป็น **Present Perfect** ซึ่งไม่เข้ากับเหตุการณ์ในอดีตที่อีกเหตุการณ์คือ `I called`. ที่ถูกคือ `had already left`."
+      },
+      {
+        "index": 4,
+        "text": "had been already left",
+        "is_correct": false,
+        "answer_description": "ผิดโครงสร้าง เพราะใช้ `had been + V3` แบบ Passive และวาง `already` ผิดที่ แถมความหมายเพี้ยน. ควรใช้ Active: `had already left`."
+      }
+    ]
+  },
+  {
+    "question": "We didn’t start until he ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had arrived",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อต้องการเน้นว่า “เราไม่เริ่มจนกระทั่งเขามาถึง (และเขามาถึงก่อนเริ่ม)” ใช้ **Past Perfect** ในอนุประโยค: **had + V3** → `had arrived`. แพตเทิร์น: **Past Simple (main) + until + Past Perfect (sub)** เช่น `We didn’t start until he had arrived.`"
+      },
+      {
+        "index": 2,
+        "text": "arrived",
+        "is_correct": false,
+        "answer_description": "แม้บางครั้งจะพบ `until + Past Simple` ได้ แต่ในที่นี้ต้องการเน้นลำดับชัดว่า “การมาถึง” เสร็จก่อน “การเริ่ม” จึงใช้ Past Perfect จะชัดกว่า. รูปที่เน้นลำดับคือ `until he had arrived`."
+      },
+      {
+        "index": 3,
+        "text": "was arrived",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `arrive` ไม่ใช้ Passive ว่า `was arrived`. กริยา `arrive` เป็นอกรรมกริยา ควรใช้ `had arrived` ถ้าต้องการ Past Perfect."
+      },
+      {
+        "index": 4,
+        "text": "had been arriving",
+        "is_correct": false,
+        "answer_description": "เป็น **Past Perfect Continuous** ที่เน้นความต่อเนื่อง (กำลังมาถึง) ซึ่งไม่เข้ากับความหมาย “มาถึงแล้ว” ก่อนเริ่ม. ควรใช้รูปเสร็จสิ้น `had arrived`."
+      }
+    ]
+  },
+  {
+    "question": "How many books ___ before the sale ended?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had you bought",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง สำหรับคำถามใน **Past Perfect** ใช้ลำดับ **had + subject + V3** → `had you bought`. แพตเทิร์นคำถาม: **Had + S + V3 + ... ?** เช่น `Had you bought many books before the sale ended?`"
+      },
+      {
+        "index": 2,
+        "text": "did you buy",
+        "is_correct": false,
+        "answer_description": "นี่เป็น **Past Simple** ซึ่งไม่เน้นเหตุการณ์ที่เกิด “ก่อน” อีกเหตุการณ์ในอดีต. ถ้าต้องการชี้ว่าซื้อก่อนที่งานลดราคาจะจบ ใช้ `had you bought` จะชัดเจนกว่า."
+      },
+      {
+        "index": 3,
+        "text": "have you bought",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะเป็น **Present Perfect** ใช้กับปัจจุบัน/ผลปัจจุบัน ไม่ใช่ลำดับในอดีต. ที่ถูกคือ `had you bought ... before the sale ended?`"
+      },
+      {
+        "index": 4,
+        "text": "had bought you",
+        "is_correct": false,
+        "answer_description": "สลับตำแหน่งประธานผิด ที่รูปคำถามต้องเป็น `had + subject + V3` ไม่ใช่ `had + V3 + subject`. รูปที่ถูกคือ `had you bought`."
+      }
+    ]
+  },
+  {
+    "question": "By 1900, the bridge ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had been completed",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็นรูป **Past Perfect Passive**: **had + been + V3** เพื่อบอกว่าสะพานถูกสร้างเสร็จก่อนปี 1900. แพตเทิร์นคือ **By + time, had been + V3** เช่น `By 1900, the bridge had been completed.`"
+      },
+      {
+        "index": 2,
+        "text": "had completed",
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย เพราะ `had completed` ต้องการกรรม (ผู้ทำ + ได้ทำเสร็จอะไร) แต่ประธานคือ `the bridge` ซึ่งเป็นสิ่งของจึงควรใช้ Passive. รูปที่ถูกคือ `had been completed`."
+      },
+      {
+        "index": 3,
+        "text": "was completed",
+        "is_correct": false,
+        "answer_description": "แม้ `was completed` จะถูกใน **Past Simple Passive** แต่ไม่เน้นว่าเสร็จก่อนจุดเวลาอดีตหนึ่งจุด. การใช้ **Past Perfect** (`had been completed`) ชี้ชัดว่า “ก่อนปี 1900” เสร็จแล้ว."
+      },
+      {
+        "index": 4,
+        "text": "has been completed",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะเป็น **Present Perfect Passive** ใช้กับปัจจุบัน ไม่ใช่อ้างอิงปี 1900. ที่ถูกคือ `had been completed`."
+      }
+    ]
+  },
+  {
+    "question": "No sooner ___ than it started to rain.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had we arrived",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างพิเศษ **No sooner + had + S + V3 + than + Past Simple** ใช้เน้นว่าอย่างหนึ่งเกิดขึ้นทันทีอีกอย่าง. แพตเทิร์นที่ต้องจำคือ **had + S + V3** หลัง `No sooner` เช่น `No sooner had we arrived than it started to rain.`"
+      },
+      {
+        "index": 2,
+        "text": "we had arrived",
+        "is_correct": false,
+        "answer_description": "ผิดรูปแบบ เพราะหลัง `No sooner` ต้อง **ผกผัน** เป็น `had + S + V3` ไม่ใช่เรียงปกติ. ที่ถูกคือ `No sooner had we arrived than ...`"
+      },
+      {
+        "index": 3,
+        "text": "did we arrive",
+        "is_correct": false,
+        "answer_description": "ผิดกาลและผิดรูปแบบ โครงสร้างนี้ต้องใช้ **Past Perfect** ไม่ใช่ `did + V1`. รูปที่ถูกคือ `had we arrived` หลัง `No sooner`."
+      },
+      {
+        "index": 4,
+        "text": "had arrived we",
+        "is_correct": false,
+        "answer_description": "สลับตำแหน่งผิด โครงสร้างผกผันต้องเป็น `had + subject + V3`. รูปที่ถูกคือ `had we arrived` ก่อน `than`."
+      }
+    ]
+  },
+  {
+    "question": "He said he ___ the keys.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had lost",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อรายงานคำพูดในอดีตและเหตุการณ์เกิดก่อนการพูด ใช้ **Past Perfect**: **had + V3** → `had lost`. แพตเทิร์น: **said (Past) + (that) + S + had + V3** เช่น `He said he had lost the keys.`"
+      },
+      {
+        "index": 2,
+        "text": "lost",
+        "is_correct": false,
+        "answer_description": "ยังไม่ชี้ว่าการทำกุญแจหายเกิดก่อนการพูดอย่างชัดเจน เพราะเป็น **Past Simple**. ในรายงานคำพูดที่ต้องการลำดับ ใช้ `had lost` จะชัดว่าหายก่อนพูด."
+      },
+      {
+        "index": 3,
+        "text": "has lost",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะเป็น **Present Perfect** ซึ่งขัดกับกริยา `said` ที่เป็นอดีต และไม่แสดงลำดับเวลาในอดีต. ควรใช้ `had lost`."
+      },
+      {
+        "index": 4,
+        "text": "was losing",
+        "is_correct": false,
+        "answer_description": "รูป **Past Continuous** (`was losing`) เน้นความต่อเนื่องระหว่างทำกุญแจหาย ซึ่งไม่ใช่ความหมายที่ต้องการ. ควรใช้ Past Perfect: `had lost` เพื่อบอกว่าเกิดก่อนการพูด."
+      }
+    ]
+  },
+  {
+    "question": "If I ___ earlier, I would have caught the train.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had left",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ในเงื่อนไขที่เป็นอดีตไม่เป็นจริง (**Third Conditional**) ใช้ **Past Perfect** ใน if-clause: **had + V3** → `had left`. แพตเทิร์น: **If + Past Perfect, S + would have + V3** เช่น `If I had left earlier, I would have caught the train.`"
+      },
+      {
+        "index": 2,
+        "text": "left",
+        "is_correct": false,
+        "answer_description": "เป็น **Past Simple** ซึ่งไม่ตรงกับรูปแบบ Third Conditional ที่ต้องใช้ **Past Perfect** ใน if-clause. รูปที่ถูกคือ `If I had left earlier, ...`"
+      },
+      {
+        "index": 3,
+        "text": "have left",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะเป็น **Present Perfect** ไม่ใช้ในโครงสร้างเงื่อนไขอดีตไม่เป็นจริง. ต้องใช้ `had left` คู่กับ `would have caught`."
+      },
+      {
+        "index": 4,
+        "text": "had been leaving",
+        "is_correct": false,
+        "answer_description": "เป็น **Past Perfect Continuous** เน้นความต่อเนื่อง ไม่เหมาะกับเงื่อนไขผลลัพธ์แนวสมมติที่ต้องการเหตุการณ์สมบูรณ์. ใช้ `had left` จะตรงประเด็นกว่า."
+      }
+    ]
+  },
+  {
+    "question": "When I got to the station, the train ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had already departed",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ต้องการเน้นว่า “รถไฟออกไปก่อน” ที่ฉันไปถึง จึงใช้ **Past Perfect**: **had + already + V3** → `had already departed`. แพตเทิร์น: **Past Simple + Past Perfect** เพื่อบอกเหตุการณ์ที่เกิดก่อน เช่น `When I got to the station, the train had already departed.`"
+      },
+      {
+        "index": 2,
+        "text": "already departed",
+        "is_correct": false,
+        "answer_description": "ยังขาดกริยาช่วย `had` ทำให้ไม่เป็น Past Perfect สมบูรณ์. ที่ถูกคือ `had already departed` เพื่อชี้ว่ามันเกิดก่อน `got`."
+      },
+      {
+        "index": 3,
+        "text": "has already departed",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะเป็น **Present Perfect** ไม่สอดคล้องกับ `got` ซึ่งเป็นอดีต. ต้องใช้ `had already departed`."
+      },
+      {
+        "index": 4,
+        "text": "was already departing",
+        "is_correct": false,
+        "answer_description": "นี่คือ **Past Continuous** (กำลังออก) ซึ่งความหมายจะเปลี่ยนเป็น “รถไฟกำลังออกตอนที่ฉันไปถึง”. แต่โจทย์ต้องการสื่อว่าออกไปแล้ว จึงใช้ `had already departed`."
+      }
+    ]
+  }
+]

@@ -1,0 +1,292 @@
+[
+  {
+    "question": "By next Friday, they ___ the new website.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have launched",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง จับโครงสร้าง **Future Perfect** ได้สวยเลย: __will have + V3__ → `will have launched`. ใช้เมื่อพูดถึงงานที่จะเสร็จ “ก่อนถึง” เวลาในอนาคต เช่น `By next Friday, they will have launched the new website.` ตัวบอกเวลาอย่าง **by + time** เป็นสัญญาณสำคัญของรูปนี้นะ!"
+      },
+      {
+        "index": 2,
+        "text": "will launch",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะนี่คือ **Future Simple** (`will + V1`) ซึ่งเน้นการกระทำในอนาคตเฉยๆ ไม่ได้เน้นว่า “เสร็จก่อนเวลาใด”. ถ้าต้องการสื่อว่าเสร็จสิ้นก่อนถึงวันศุกร์หน้า ควรใช้ `will have launched` แทน เช่น `By next Friday, they will have launched...`"
+      },
+      {
+        "index": 3,
+        "text": "have launched",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Perfect** (`have/has + V3`) ใช้กับปัจจุบัน ไม่ใช่อนาคต. ประโยคที่มีตัวบอกเวลาอนาคตอย่าง `By next Friday` ต้องใช้ Future Perfect: `will have launched`."
+      },
+      {
+        "index": 4,
+        "text": "will have launching",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะหลัง `will have` ต้องใช้ **V3** ไม่ใช่ `V-ing`. รูปที่ถูกคือ `will have launched` เช่น `They will have launched the site by then.`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ her thesis by the time the conference starts.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have finished",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้โครงสร้าง Future Perfect: __will have + V3__ → `will have finished`. เมื่อมีอนุประโยคเวลา `by the time + Present Simple` เราใช้อนุประโยคหลักเป็น Future Perfect เช่น `She will have finished her thesis by the time the conference starts.`"
+      },
+      {
+        "index": 2,
+        "text": "will finish",
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง เพราะ `will finish` ไม่ได้เน้นว่า “เสร็จเรียบร้อยก่อน” การเริ่มของงานประชุม. รูปที่ถูกคือ `will have finished` เพื่อชี้ให้เห็นความเสร็จสิ้นก่อนอีกเหตุการณ์ เช่น `...by the time the conference starts`."
+      },
+      {
+        "index": 3,
+        "text": "has finished",
+        "is_correct": false,
+        "answer_description": "ผิดเวลา เพราะเป็น **Present Perfect** ใช้กับปัจจุบัน แต่ประโยคนี้อ้างอิงอนาคตด้วย `by the time ... starts`. ต้องใช้ `will have finished` เพื่อให้ตรงกับอนาคต."
+      },
+      {
+        "index": 4,
+        "text": "will have been finished",
+        "is_correct": false,
+        "answer_description": "โครงสร้างนี้เป็น **Future Perfect Passive** ซึ่งจะสื่อว่า “ถูกทำเสร็จโดย...” แต่ประธานคือ `She` ผู้ลงมือทำเอง จึงควรใช้ Active: `will have finished`. ถ้าจะใช้ Passive ต้องเป็นสิ่งของ เช่น `The thesis will have been finished by Friday.`"
+      }
+    ]
+  },
+  {
+    "question": "By 2030, we ___ enough data to publish the report.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have collected",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตรงสูตร **Future Perfect**: __will have + V3__ → `will have collected`. ใช้เมื่อพูดถึงความเสร็จสิ้นก่อนปี/เวลาหนึ่งในอนาคต เช่น `By 2030, we will have collected enough data.`"
+      },
+      {
+        "index": 2,
+        "text": "will be collecting",
+        "is_correct": false,
+        "answer_description": "นี่คือ **Future Continuous** (`will be + V-ing`) เน้น “กำลังทำอยู่ในอนาคต” ไม่ใช่ “ทำเสร็จแล้วก่อนเวลา”. ถ้าจะสื่อว่าเสร็จสิ้นก่อนปี 2030 ต้องใช้ `will have collected`."
+      },
+      {
+        "index": 3,
+        "text": "collected",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปอดีตกาลธรรมดา ไม่สัมพันธ์กับตัวบอกเวลาอนาคต `By 2030`. ควรใช้ Future Perfect: `will have collected` เพื่อชี้ว่าเสร็จสิ้นก่อนถึงปีนั้น."
+      },
+      {
+        "index": 4,
+        "text": "will have been collecting",
+        "is_correct": false,
+        "answer_description": "นี่คือ **Future Perfect Continuous** (`will have been + V-ing`) เน้น “ระยะเวลา” ของการกระทำก่อนเวลาอนาคต เช่น `will have been collecting data for 5 years`. แต่ประโยคนี้เน้นผลลัพธ์ว่า “เก็บข้อมูลได้พอแล้ว” จึงควรใช้ `will have collected`."
+      }
+    ]
+  },
+  {
+    "question": "I ___ the application before the deadline.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have submitted",
+        "is_correct": true,
+        "answer_description": "เยี่ยมมาก โครงสร้างถูกต้อง: __will have + V3__ → `will have submitted`. ใช้กับตัวบอกเวลาอย่าง `before the deadline` เพื่อเน้นว่าทำเสร็จ “ก่อนถึง” เส้นตาย เช่น `I will have submitted the application before the deadline.`"
+      },
+      {
+        "index": 2,
+        "text": "will submit",
+        "is_correct": false,
+        "answer_description": "แม้จะพูดถึงอนาคตได้ แต่ไม่ชัดว่าทำเสร็จก่อนเส้นตาย. ถ้าต้องการเน้นความเสร็จสิ้นก่อนเวลา ให้ใช้ Future Perfect: `will have submitted`."
+      },
+      {
+        "index": 3,
+        "text": "have submitted",
+        "is_correct": false,
+        "answer_description": "นี่คือ **Present Perfect** ใช้กับปัจจุบัน ไม่สอดคล้องกับบริบทที่อิงเวลาอนาคต (`before the deadline` ในที่นี้ตีความเป็นเดดไลน์ที่จะมาถึง). รูปที่ถูกคือ `will have submitted`."
+      },
+      {
+        "index": 4,
+        "text": "will have submit",
+        "is_correct": false,
+        "answer_description": "ผิดรูปกริยา เพราะหลัง `will have` ต้องเป็น **V3** ไม่ใช่ V1. ควรเป็น `will have submitted` เช่น `I will have submitted it by then.`"
+      }
+    ]
+  },
+  {
+    "question": "By the time you arrive, we ___ dinner.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have prepared",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างหลักเป็น Future Perfect: __will have + V3__ → `will have prepared`, ส่วนอนุประโยคเวลาใช้ Present Simple: `by the time you arrive`. ตัวอย่างครบ: `By the time you arrive, we will have prepared dinner.`"
+      },
+      {
+        "index": 2,
+        "text": "will prepare",
+        "is_correct": false,
+        "answer_description": "ยังไม่เน้น “เสร็จแล้วก่อนคุณมาถึง”. เพื่อสื่อความเสร็จสิ้นก่อนเหตุการณ์อนาคต ต้องใช้ Future Perfect: `will have prepared` ไม่ใช่ `will prepare`."
+      },
+      {
+        "index": 3,
+        "text": "will have been prepared",
+        "is_correct": false,
+        "answer_description": "นี่คือรูป **Passive** แต่ประธาน `we` คือผู้กระทำ จึงไม่เหมาะ. รูปที่ถูกควรเป็น Active: `we will have prepared dinner`. Passive เหมาะกับวัตถุ เช่น `Dinner will have been prepared by then.`"
+      },
+      {
+        "index": 4,
+        "text": "will have preparing",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะหลัง `will have` ต้องใช้ **V3** ไม่ใช่ `V-ing`. รูปที่ถูกคือ `will have prepared` เช่น `...we will have prepared dinner.`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ the contract by the end of this week, won’t they?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have signed",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง และเข้ากับแท็กคาถามท้ายด้วยนะ รูปหลักเป็น __will have + V3__ → `will have signed`. ตัวอย่างทั้งประโยค: `They will have signed the contract by the end of this week, won’t they?` ใช้ `by the end of this week` เพื่อชี้เส้นตายอนาคตชัดๆ."
+      },
+      {
+        "index": 2,
+        "text": "will sign",
+        "is_correct": false,
+        "answer_description": "ไม่เน้นว่าลงนามเสร็จก่อนสิ้นสัปดาห์ แค่บอกว่าจะทำ. หากต้องการสื่อความเสร็จสิ้นก่อนเวลา ให้ใช้ Future Perfect: `will have signed`."
+      },
+      {
+        "index": 3,
+        "text": "have signed",
+        "is_correct": false,
+        "answer_description": "เป็น **Present Perfect** ใช้กับตอนนี้ ไม่สัมพันธ์กับตัวบอกเวลาอนาคต `by the end of this week`. ควรใช้ `will have signed` เพื่อเชื่อมกับอนาคต."
+      },
+      {
+        "index": 4,
+        "text": "will have been signing",
+        "is_correct": false,
+        "answer_description": "นี่คือ **Future Perfect Continuous** เน้น “กำลังทำต่อเนื่องก่อนเวลา” ไม่เน้นผลลัพธ์เสร็จสิ้น. ประโยคนี้ต้องการผลว่า “ลงนามเสร็จแล้ว” จึงควรใช้ `will have signed`."
+      }
+    ]
+  },
+  {
+    "question": "By noon tomorrow, the report ___ to all managers.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been sent",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็นรูป **Future Perfect Passive**: __will have been + V3__ → `will have been sent`. ใช้เมื่อเน้นผลว่า “รายงานถูกส่งเสร็จแล้ว” ก่อนเที่ยง เช่น `By noon tomorrow, the report will have been sent to all managers.`"
+      },
+      {
+        "index": 2,
+        "text": "will have sent",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น Active แต่ประธานคือ `the report` (สิ่งของ) ไม่ใช่ผู้กระทำ. ถ้าจะใช้ Active ต้องมีผู้กระทำ เช่น `We will have sent the report...`; หากต้องการคงประธานเดิม ให้ใช้ Passive: `will have been sent`."
+      },
+      {
+        "index": 3,
+        "text": "will be sent",
+        "is_correct": false,
+        "answer_description": "นี่คือ **Future Simple Passive** (`will be + V3`) สื่อว่าจะถูกส่ง แต่ไม่ได้บอกว่า “เสร็จแล้วก่อนเที่ยง”. เพื่อเน้นเสร็จสิ้นก่อนเวลา ใช้ Future Perfect Passive: `will have been sent`."
+      },
+      {
+        "index": 4,
+        "text": "has been sent",
+        "is_correct": false,
+        "answer_description": "เป็น **Present Perfect Passive** ใช้กับปัจจุบัน ไม่ตรงกับตัวบอกเวลาอนาคต `By noon tomorrow`. รูปที่ถูกคือ `will have been sent`."
+      }
+    ]
+  },
+  {
+    "question": "I ___ already ___ the files by the time you check.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have, uploaded",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง จัดวางคำกริยาช่วยและ V3 ครบถ้วน: __will have + V3__ และตำแหน่งของ **already** ไว้กลางโครงสร้างได้ เช่น `will have already uploaded`. ตัวอย่าง: `I will have already uploaded the files by the time you check.`"
+      },
+      {
+        "index": 2,
+        "text": "will, upload",
+        "is_correct": false,
+        "answer_description": "นี่เป็นเพียง **Future Simple** (`will + V1`) และยังขาดการรองรับคำว่า `already` ในโครงสร้าง Future Perfect. ประโยคต้องการเน้นว่า “อัปโหลดเสร็จแล้วก่อนที่คุณจะเช็ก” จึงควรใช้ `will have uploaded`."
+      },
+      {
+        "index": 3,
+        "text": "have, upload",
+        "is_correct": false,
+        "answer_description": "ผิดทั้งกาลและรูป เพราะ `have + V1` ไม่ถูกต้อง ต้องใช้ V3 หลัง `have`. สำหรับอนาคตพร้อมตัวบอกเวลา `by the time...` ให้ใช้ Future Perfect: `will have uploaded`."
+      },
+      {
+        "index": 4,
+        "text": "will have, uploading",
+        "is_correct": false,
+        "answer_description": "ผิดรูป V เพราะหลัง `will have` ต้องตามด้วย **V3**, ไม่ใช่ `V-ing`. รูปที่ถูกคือ `will have uploaded` หรือ `will have already uploaded`."
+      }
+    ]
+  },
+  {
+    "question": "Will she ___ the book by then?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "have finished",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างประโยคคำถามของ Future Perfect คือ `Will + subject + __have + V3__ ...?` ดังนั้น `Will she have finished the book by then?` เป็นรูปที่ใช่ ใช้ถามว่าทำเสร็จ “ก่อนตอนนั้น” หรือยัง"
+      },
+      {
+        "index": 2,
+        "text": "has finished",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะเป็น **Present Perfect** และยังผิดรูปประโยคคำถามซึ่งควรขึ้นต้นด้วย `Will`. รูปถามที่ถูกต้องคือ `Will she have finished ...?`"
+      },
+      {
+        "index": 3,
+        "text": "finish",
+        "is_correct": false,
+        "answer_description": "ผิดโครงสร้าง เพราะหลัง `Will she` ต้องมี `have + V3` ใน Future Perfect. รูปที่ถูกคือ `Will she have finished the book by then?` ไม่ใช่ `Will she finish` สำหรับความเสร็จสิ้นก่อนเวลา."
+      },
+      {
+        "index": 4,
+        "text": "have been finished",
+        "is_correct": false,
+        "answer_description": "นี่เป็น Passive และยังขาดกริยาช่วย `will` ในคำถาม. ถ้าจะถามใน Future Perfect Active ให้ใช้ `Will she have finished ...?`; ถ้าเป็น Passive อาจเป็น `Will the book have been finished by then?`"
+      }
+    ]
+  },
+  {
+    "question": "By this time next year, I ___ my degree.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have earned",
+        "is_correct": true,
+        "answer_description": "ถูกต้องตามสูตร Future Perfect: __will have + V3__ → `will have earned`. ใช้เมื่อเราต้องการบอกว่า “ได้ปริญญาเรียบร้อยแล้ว” ก่อนถึงเวลานั้น เช่น `By this time next year, I will have earned my degree.`"
+      },
+      {
+        "index": 2,
+        "text": "will be earning",
+        "is_correct": false,
+        "answer_description": "นี่คือ Future Continuous (`will be + V-ing`) เน้นการกระทำที่กำลังเกิด ณ ช่วงอนาคต แต่ไม่ชี้ว่าจบแล้ว. ประโยคนี้ต้องการเน้นผลสำเร็จ จึงใช้ `will have earned`."
+      },
+      {
+        "index": 3,
+        "text": "will have earn",
+        "is_correct": false,
+        "answer_description": "ผิดรูป V เพราะหลัง `will have` ต้องเป็น **V3** ไม่ใช่ V1. ที่ถูกคือ `will have earned` เช่น `I will have earned my degree.`"
+      },
+      {
+        "index": 4,
+        "text": "have earned",
+        "is_correct": false,
+        "answer_description": "เป็น Present Perfect ใช้บอกผลถึงปัจจุบัน ไม่ตรงกับอนาคตที่มี `By this time next year`. จึงต้องใช้ Future Perfect: `will have earned`."
+      }
+    ]
+  }
+]

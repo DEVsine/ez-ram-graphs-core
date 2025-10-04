@@ -1,0 +1,292 @@
+[
+  {
+    "question": "I ___ my keys yesterday, but I found them this morning.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "lost",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ Past Simple ใช้กับเหตุการณ์ที่เสร็จสิ้นแล้วในอดีตพร้อมตัวบอกเวลา เช่น **yesterday** โครงสร้างคือ **Subject + V2** เช่น `I lost my keys yesterday.` นี่คือรูป **V2** ของกริยาไม่ปกติ (irregular) คำว่า `lose → lost` ตัวอย่างเพิ่ม: `She lost her wallet last night.`"
+      },
+      {
+        "index": 2,
+        "text": "lose",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `lose` เป็นรูป **V1** ซึ่งใช้กับ Present Simple ไม่ใช่ Past Simple ในประโยคที่มี `yesterday` ต้องใช้ **V2** เช่น `lost` ตัวอย่างที่ถูก: `I lost my keys yesterday.`"
+      },
+      {
+        "index": 3,
+        "text": "was losing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่เป็นรูป **Past Continuous** (`was/were + V-ing`) ใช้บอกเหตุการณ์ที่กำลังดำเนินในอดีต ไม่เหมาะเมื่อเราพูดถึงการกระทำที่เสร็จสิ้นแล้วพร้อมเวลาแน่นอน เช่น `yesterday` ควรใช้ Past Simple: `I lost my keys yesterday.`"
+      },
+      {
+        "index": 4,
+        "text": "have lost",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่เป็น **Present Perfect** (`have/has + V3`) เน้นผลลัพธ์ถึงปัจจุบัน และปกติไม่ใช้ร่วมกับตัวบอกเวลาเฉพาะเจาะจงอย่าง `yesterday` ประโยคที่ถูกควรเป็น Past Simple: `I lost my keys yesterday.`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ to London last year for a conference.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "went",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีตัวบอกเวลาชัดเจน **last year** ต้องใช้ Past Simple รูป **V2** ของ `go` คือ `went` โครงสร้างที่ถูกคือ **Subject + V2 + time expression** เช่น `She went to London last year.`"
+      },
+      {
+        "index": 2,
+        "text": "goes",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `goes` เป็น Present Simple (บุรุษที่ 3 เอกพจน์) ไม่ใช้กับเหตุการณ์ในอดีตที่จบแล้ว มี `last year` จึงควรใช้ Past Simple ตัวอย่างที่ถูก: `She went to London last year.`"
+      },
+      {
+        "index": 3,
+        "text": "was go",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้างนี้ผิดไวยากรณ์ เราไม่ใช้ `was + base verb` แบบนี้ หากต้องการ Past Simple ของ `go` ให้ใช้ `went` เช่น `She went to London last year.`"
+      },
+      {
+        "index": 4,
+        "text": "has gone",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `has gone` เป็น Present Perfect และมักไม่ใช้กับเวลาเฉพาะอย่าง `last year` เราต้องใช้ Past Simple: `went` เช่น `She went to London last year.`"
+      }
+    ]
+  },
+  {
+    "question": "We ___ dinner at 7 pm and then watched a movie.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "ate",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นลำดับเหตุการณ์ในอดีต (กินข้าว → ดูหนัง) จึงใช้ Past Simple ทั้งคู่ รูป **V2** ของ `eat` คือ `ate` โครงสร้างที่เน้นลำดับคือ **Subject + V2, and then + V2** เช่น `We ate dinner and then watched a movie.`"
+      },
+      {
+        "index": 2,
+        "text": "were eating",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Continuous** ใช้บรรยายเหตุการณ์กำลังดำเนิน ไม่เหมาะเมื่อเราต้องการลำดับเหตุการณ์ที่เสร็จแล้ว ควรใช้ Past Simple: `ate ... watched` เช่น `We ate dinner and then watched a movie.`"
+      },
+      {
+        "index": 3,
+        "text": "eat",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `eat` เป็นรูปปัจจุบัน ในประโยคนี้พูดถึงเหตุการณ์ที่เกิดขึ้นและจบในอดีต จึงต้องใช้ **V2**: `ate` เช่น `We ate dinner at 7 pm.`"
+      },
+      {
+        "index": 4,
+        "text": "have eaten",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Present Perfect ซึ่งไม่เน้นเวลาเฉพาะและไม่เหมาะเมื่อกล่าวถึงลำดับเหตุการณ์ในอดีต ควรใช้ Past Simple ทั้งสองเหตุการณ์: `ate` และ `watched`."
+      }
+    ]
+  },
+  {
+    "question": "They ___ the report two days ago.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "finished",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีตัวบอกเวลา **two days ago** ต้องใช้ Past Simple รูป **V2** ของกริยาปกติคือเติม `-ed`: `finish → finished` โครงสร้างคือ **Subject + V2 + time expression** เช่น `They finished the report two days ago.`"
+      },
+      {
+        "index": 2,
+        "text": "finish",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **V1** และไม่สอดคล้องกับ `two days ago` ซึ่งบอกอดีต ควรใช้ Past Simple: `finished` เช่น `They finished the report two days ago.`"
+      },
+      {
+        "index": 3,
+        "text": "were finished",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกลายเป็นรูปถูกกระทำ (passive) โดยไม่จำเป็น และยังไม่สอดคล้องกับประธานที่เป็นผู้กระทำ รายนี้ต้องการ Active: `They finished the report two days ago.`"
+      },
+      {
+        "index": 4,
+        "text": "have finished",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Present Perfect ซึ่งไม่ควรใช้คู่กับเวลาเฉพาะอย่าง `two days ago` ทางที่ถูกคือ Past Simple: `finished`."
+      }
+    ]
+  },
+  {
+    "question": "My brother didn’t ___ any messages last night.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "send",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคปฏิเสธของ Past Simple ใช้โครงสร้าง __`didn't + V1`__ ไม่ผันกริยาหลัก เช่น `My brother didn't send any messages last night.` ใช้กรอบเวลาอดีต `last night` ชัดเจน"
+      },
+      {
+        "index": 2,
+        "text": "sent",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `didn't` ต้องใช้ **V1** ไม่ใช่ **V2** ดังนั้น `sent` จึงผิด ตัวอย่างที่ถูก: `didn't send` เช่น `He didn't send it.`"
+      },
+      {
+        "index": 3,
+        "text": "was sending",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Continuous** และรูปปฏิเสธของ Past Simple ไม่ใช้ `was/were + V-ing` ในที่นี้เราต้องการ Past Simple ปฏิเสธ: `didn't send`."
+      },
+      {
+        "index": 4,
+        "text": "have sent",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Present Perfect และไม่เข้ากับตัวบอกเวลา `last night` ประโยคนี้ควรเป็น Past Simple ปฏิเสธ: `didn't send`."
+      }
+    ]
+  },
+  {
+    "question": "___ you see the match on TV yesterday?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Did",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคคำถาม Past Simple ใช้โครงสร้าง __`Did + subject + V1 + ...?`__ เมื่อมีตัวบอกเวลาชัดเจน `yesterday` ตัวอย่าง: `Did you see the match yesterday?` และคำตอบสั้น: `Yes, I did.`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Do` เป็นตัวช่วยของ Present Simple ไม่ใช่ Past Simple เมื่อมี `yesterday` ต้องใช้ `Did` เช่น `Did you see ...?`"
+      },
+      {
+        "index": 3,
+        "text": "Have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Have` นำหน้า Present Perfect ซึ่งไม่เข้ากับตัวบอกเวลาเฉพาะ `yesterday` โครงสร้างที่ถูกคือ `Did you see ...?`"
+      },
+      {
+        "index": 4,
+        "text": "Were",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Were` ใช้กับกริยา be หรือ Past Continuous ไม่ใช่คำถาม Past Simple กับกริยาทั่วไป (`see`) ที่ถูกต้องคือ `Did you see ...?`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ very tired after the game, so he went to bed early.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "was",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกริยา **be** ใน Past Simple ผันเป็น `was/were` สำหรับประธานเอกพจน์บุรุษที่ 3 ใช้ `was` โครงสร้างคือ **Subject + was/were + complement** เช่น `He was very tired after the game.` แล้วจึง `went to bed` ต่อเป็นลำดับเหตุการณ์"
+      },
+      {
+        "index": 2,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `is` เป็น Present Simple ไม่ใช่อดีต ประโยคนี้เป็นอดีต (สังเกต `went`) จึงต้องใช้ `was`: `He was very tired...`"
+      },
+      {
+        "index": 3,
+        "text": "were",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `were` ใช้กับ **you/we/they** หรือพหูพจน์ แต่ประธานคือ `He` ต้องใช้ `was` ตัวอย่างที่ถูก: `He was very tired.`"
+      },
+      {
+        "index": 4,
+        "text": "be",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `be` เป็นรูปพื้นฐาน ไม่ใช้เดี่ยวๆ ใน Past Simple ต้องผันเป็น `was/were` เช่น `He was very tired.`"
+      }
+    ]
+  },
+  {
+    "question": "We ___ many photos during our trip last summer.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "took",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีตัวบอกเวลา **last summer** ใช้ Past Simple รูป **V2** ของ `take` คือ `took` โครงสร้าง __`Subject + V2 + object + time expression`__ เช่น `We took many photos last summer.`"
+      },
+      {
+        "index": 2,
+        "text": "take",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปปัจจุบัน ในอดีตควรใช้ V2: `took` ตัวอย่างที่ถูก: `We took many photos last summer.`"
+      },
+      {
+        "index": 3,
+        "text": "were taken",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกลายเป็น **passive voice** (รูปถูกกระทำ) ความหมายจะเปลี่ยนเป็นรูปภาพถูกถ่ายโดยใครบางคน ไม่ตรงกับเจตนาที่ `We` เป็นผู้ถ่าย ควรใช้ `took`"
+      },
+      {
+        "index": 4,
+        "text": "have taken",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Present Perfect และไม่เข้ากับ `last summer` ซึ่งเป็นเวลาเฉพาะ ควรใช้ Past Simple: `took`."
+      }
+    ]
+  },
+  {
+    "question": "The meeting ___ at 9 and ended at 10 yesterday.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "started",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นเหตุการณ์ที่เริ่มและจบในอดีต และมี `yesterday` จึงใช้ Past Simple รูป **V2** ของกริยาปกติคือเติม `-ed`: `start → started` โครงสร้างลำดับเหตุการณ์: **V2 ... and V2** เช่น `started ... ended`"
+      },
+      {
+        "index": 2,
+        "text": "starts",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Present Simple ไม่สอดคล้องกับ `yesterday` สำหรับอดีตต้องใช้ `started` และ `ended` เช่น `The meeting started at 9 and ended at 10 yesterday.`"
+      },
+      {
+        "index": 3,
+        "text": "was starting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Past Continuous ซึ่งใช้บอกกำลังกระทำ ไม่เหมาะกับการระบุเวลาชัดเจนว่าเริ่มและจบเมื่อไร ใช้ Past Simple: `started ... ended`"
+      },
+      {
+        "index": 4,
+        "text": "has started",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Present Perfect และไม่ใช้กับ `yesterday` ที่ระบุเวลาเฉพาะ ควรใช้ Past Simple: `started`."
+      }
+    ]
+  },
+  {
+    "question": "I ___ him five minutes ago at the bus stop.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "saw",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีตัวบอกเวลา **ago** จึงใช้ Past Simple รูป **V2** ของ `see` คือ `saw` โครงสร้างเน้นเวลาอดีต: **Subject + V2 + time expression (… ago)** เช่น `I saw him five minutes ago.`"
+      },
+      {
+        "index": 2,
+        "text": "have seen",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Present Perfect ซึ่งไม่ใช้ร่วมกับ `ago` ที่เป็นเวลาเฉพาะ ต้องใช้ Past Simple เช่น `I saw him five minutes ago.`"
+      },
+      {
+        "index": 3,
+        "text": "see",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป V1 ใช้กับปัจจุบัน แต่ที่นี่เป็นอดีตชัดเจน (`ago`) ต้องใช้ V2: `saw` เช่น `I saw him...`"
+      },
+      {
+        "index": 4,
+        "text": "was seeing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Past Continuous ไม่เหมาะกับเหตุการณ์สั้นๆ จุดเวลาเฉพาะ (`five minutes ago`) ควรใช้ Past Simple: `saw`."
+      }
+    ]
+  }
+]

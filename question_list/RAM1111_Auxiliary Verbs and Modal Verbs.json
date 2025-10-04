@@ -1,0 +1,321 @@
+[
+  {
+    "question": "__ you like coffee?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะถามประโยค **Present Simple** กับประธาน `you` ต้องใช้ **auxiliary do** ตามแพทเทิร์น __Do/Does + subject + base verb__. ตัวอย่าง: `Do you like coffee?` หรือ `Do they play football?`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Does** ใช้กับประธานเอกพจน์บุคคลที่ 3 เช่น `he/she/it` ตามแพทเทิร์น `Does + he like ...?`. สำหรับ `you` ต้องใช้ `Do` เช่น `Do you like coffee?`"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Are** เป็นกริยา **be** ใช้กับ Verb-ing หรือ adjective/noun ไม่ใช่กริยาแท้รูป base verb แบบ `like`. ตัวอย่างที่ถูกกับ `are` คือ `Are you tired?` ไม่ใช่ `Are you like coffee?`"
+      },
+      {
+        "index": 4,
+        "text": "Did",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะ **Did** ใช้ถาม **Past Simple** เช่น `Did you like the movie?` แต่ประโยคนี้ถามเรื่องทั่วไปปัจจุบัน ต้องใช้ `Do`."
+      }
+    ]
+  },
+  {
+    "question": "She ___ speak Japanese.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "can",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **modal verb can** แสดงความสามารถปัจจุบัน ตามแพทเทิร์น __subject + can + base verb__. ตัวอย่าง: `She can speak Japanese.` หรือ `I can swim.`"
+      },
+      {
+        "index": 2,
+        "text": "could",
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะ เพราะ **could** มักใช้ความสามารถในอดีตหรือใช้แบบสุภาพ/เป็นไปได้ เช่น `When I was young, I could run fast.` สำหรับความสามารถตอนนี้ใช้ `can`."
+      },
+      {
+        "index": 3,
+        "text": "is can",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะ **modal verbs** ไม่ใช้ร่วมกับกริยา be ข้างหน้า ไม่ต้องมี `is`. โครงสร้างที่ถูกคือ `She can speak ...` ไม่ใช่ `She is can speak ...`"
+      },
+      {
+        "index": 4,
+        "text": "has can",
+        "is_correct": false,
+        "answer_description": "ผิดไวยากรณ์ เพราะ **modal verb** ไม่ต้องใช้กับ **have** ข้างหน้า รูปที่ถูกคือ `can + base verb` เช่น `She can speak ...`"
+      }
+    ]
+  },
+  {
+    "question": "You ___ wear a helmet here. It's the rule.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "must",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **must** ใช้แสดงข้อบังคับ/กฎ ตามแพทเทิร์น __subject + must + base verb__. ตัวอย่าง: `You must wear a helmet.` หรือ `Visitors must show ID.`"
+      },
+      {
+        "index": 2,
+        "text": "should",
+        "is_correct": false,
+        "answer_description": "ยังไม่แรงพอ เพราะ **should** คือคำแนะนำ ไม่ใช่กฎ เช่น `You should wear a jacket` (แนะนำ). ประโยคนี้บอกว่าเป็นกฎ ต้องใช้ `must`."
+      },
+      {
+        "index": 3,
+        "text": "might",
+        "is_correct": false,
+        "answer_description": "ไม่ตรงความหมาย เพราะ **might** ใช้แสดงความเป็นไปได้ เช่น `It might rain.` ไม่ได้ใช้สื่อข้อบังคับ จึงไม่เข้ากับ `It's the rule.`"
+      },
+      {
+        "index": 4,
+        "text": "can",
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย เพราะ **can** แปลว่า สามารถ/อนุญาต เช่น `You can wear a helmet` (คุณสามารถใส่ได้). แต่โจทย์บอกเป็นกฎ ต้องใช้ `must`."
+      }
+    ]
+  },
+  {
+    "question": "___ I open the window?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "May",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **may** ขออนุญาตอย่างสุภาพ ตามแพทเทิร์น __May + subject + base verb?__. ตัวอย่าง: `May I open the window?` หรือ `May I come in?`"
+      },
+      {
+        "index": 2,
+        "text": "Can",
+        "is_correct": false,
+        "answer_description": "แม้ในภาษาพูดจะใช้ได้ แต่ **can** เน้นความสามารถมากกว่า (`Can I open...` = ฉันทำได้ไหม). ข้อสอบนี้เน้น **permission** ทางการ ควรใช้ `May`."
+      },
+      {
+        "index": 3,
+        "text": "Should",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่คำขออนุญาต เพราะ **should** ใช้ให้คำแนะนำ เช่น `Should I open the window?` = ควรเปิดดีไหม (ถามความเห็น) ไม่ใช่การขออนุญาต."
+      },
+      {
+        "index": 4,
+        "text": "Must",
+        "is_correct": false,
+        "answer_description": "ผิดหน้าที่ เพราะ **must** เป็นข้อบังคับ/ความจำเป็น ไม่ใช้ถามเพื่อขออนุญาต เช่น `Must I open the window?` ฟังแปลกและเข้มเกินไป."
+      }
+    ]
+  },
+  {
+    "question": "They ___ watching a movie now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **Present Continuous** คือ __be (am/is/are) + V-ing__. กับประธาน `they` ต้องใช้ `are`: `They are watching a movie now.`"
+      },
+      {
+        "index": 2,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะ `is` ใช้กับ `he/she/it` ไม่ใช่ `they`. ตัวอย่างที่ถูก: `He is watching TV.` แต่กับ `they` ต้องเป็น `are`."
+      },
+      {
+        "index": 3,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ไม่เข้ารูป เพราะ **do** ไม่ได้ใช้กับ **V-ing** ใน continuous. โครงสร้างถูกต้องคือ `be + V-ing` ไม่ใช่ `do + V-ing`."
+      },
+      {
+        "index": 4,
+        "text": "will",
+        "is_correct": false,
+        "answer_description": "ผิดกาลและโครงสร้าง เพราะ `will` ต้องตามด้วย base verb เช่น `will watch`, ไม่ใช่ `will watching`. และประโยคมี `now` จึงควรใช้ `are watching`."
+      }
+    ]
+  },
+  {
+    "question": "He ___ finished his homework.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "has",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **Present Perfect** ใช้ __have/has + past participle__. ประธาน `He` จึงใช้ `has`: `He has finished his homework.`"
+      },
+      {
+        "index": 2,
+        "text": "have",
+        "is_correct": false,
+        "answer_description": "ผิดรูปกับประธานเดี่ยว `He` เพราะ `he/she/it` ต้องใช้ `has`. `have` ใช้กับ `I/you/we/they` เช่น `They have finished.`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ไม่ถูก เพราะ **be** ไม่ได้ใช้สร้าง Present Perfect. ต้องใช้ `has/have + V3` ไม่ใช่ `is + V3` ในกรณีนี้."
+      },
+      {
+        "index": 4,
+        "text": "did",
+        "is_correct": false,
+        "answer_description": "ผิดกาลและโครงสร้าง เพราะ `did` ใช้ Past Simple เช่น `He did his homework.` แต่ที่นี่ต้องการ Perfect: `has finished`."
+      }
+    ]
+  },
+  {
+    "question": "Tom ___ not like spicy food.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "does",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคปฏิเสธ **Present Simple** ใช้ __does not/doesn't + base verb__ กับประธานเอกพจน์บุคคลที่ 3. ตัวอย่าง: `Tom does not like spicy food.` หรือ `She doesn't play tennis.`"
+      },
+      {
+        "index": 2,
+        "text": "has",
+        "is_correct": false,
+        "answer_description": "ผิดหน้าที่ เพราะ **has** เป็น auxiliary ของ **Present Perfect** ไม่ใช้ทำปฏิเสธ Present Simple ของกริยาแท้ `like`. ต้องใช้ `does not like`."
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ใช้ไม่ได้ เพราะ **be** ไม่ได้ช่วยกริยาแท้ใน Present Simple แบบนี้. `Tom is not like spicy food` ผิดความหมายและโครงสร้าง ควรเป็น `does not like`."
+      },
+      {
+        "index": 4,
+        "text": "did",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะ `did not` ใช้กับ Past Simple เช่น `Tom did not like it yesterday.` ในปัจจุบันต้องใช้ `does not`."
+      }
+    ]
+  },
+  {
+    "question": "When ___ you arrive?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "did",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง การถาม **Past Simple** ใช้ __Did + subject + base verb__. ตัวอย่าง: `When did you arrive?` หรือ `Did she call you yesterday?`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะ `do` ใช้ถามปัจจุบัน (Present Simple) เช่น `When do you arrive?` ซึ่งหมายถึงตามตารางทั่วไป ไม่ใช่เหตุการณ์ในอดีต."
+      },
+      {
+        "index": 3,
+        "text": "have",
+        "is_correct": false,
+        "answer_description": "ไม่ตรงโครงสร้าง เพราะถ้าเป็น Present Perfect ต้องเป็น `When have you arrived?` ซึ่งปกติไม่ใช้ถามเวลาเกิดเหตุโดยตรงในอังกฤษมาตรฐาน ควรใช้ `did`."
+      },
+      {
+        "index": 4,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `are` ใช้กับ continuous หรือคำคุณศัพท์ เช่น `When are you arriving?` (แผนอนาคต). ประโยคนี้ถามอดีต ควรใช้ `did`."
+      }
+    ]
+  },
+  {
+    "question": "You ___ see a doctor if the pain continues.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "should",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **should** ให้คำแนะนำ ตามแพทเทิร์น __subject + should + base verb__. ตัวอย่าง: `You should see a doctor.` หรือ `You should rest.`"
+      },
+      {
+        "index": 2,
+        "text": "must",
+        "is_correct": false,
+        "answer_description": "แรงเกินไป เพราะ **must** คือข้อบังคับ/จำเป็นแบบหลีกเลี่ยงไม่ได้ เช่น `You must stop.` ที่นี่เป็นคำแนะนำจึงใช้ `should` จะเหมาะกว่า."
+      },
+      {
+        "index": 3,
+        "text": "can",
+        "is_correct": false,
+        "answer_description": "ไม่ตรงเจตนา เพราะ **can** แปลว่า สามารถ/มีโอกาสทำได้ เช่น `You can see a doctor` (ทำได้ถ้าอยาก). แต่โจทย์ต้องการคำแนะนำ ควรใช้ `should`."
+      },
+      {
+        "index": 4,
+        "text": "might",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่คำแนะนำโดยตรง เพราะ **might** แสดงความเป็นไปได้ เช่น `It might help.` แต่ไม่ได้บอกว่า “ควรทำ” จึงไม่ชัดเจนเท่า `should`."
+      }
+    ]
+  },
+  {
+    "question": "Are they coming? — Yes, they ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำตอบสั้นต้องใช้ **auxiliary** ตัวเดียวกับคำถาม ตามแพทเทิร์น __Short answer: Yes/No, subject + auxiliary__. ตัวอย่าง: `Are they coming? — Yes, they are.`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำถามใช้ **be (Are)** ในรูป continuous จึงต้องตอบด้วย `are` ไม่ใช่ `do`. ตัวอย่างที่ใช้ `do` คือ `Do they work? — Yes, they do.`"
+      },
+      {
+        "index": 3,
+        "text": "will",
+        "is_correct": false,
+        "answer_description": "ไม่ตรงกับ auxiliary ในคำถาม คำถามใช้ `Are` จึงต้องตอบ `are`. ถ้าเป็น `Will they come?` ถึงจะตอบ `Yes, they will.`"
+      },
+      {
+        "index": 4,
+        "text": "has",
+        "is_correct": false,
+        "answer_description": "ผิดชนิดของ auxiliary เพราะ `has` ใช้กับ Present Perfect (`Has he finished? — Yes, he has.`). ที่นี่เป็น `Are they ...?` ต้องตอบ `are`."
+      }
+    ]
+  },
+  {
+    "question": "It ___ rain later, so take an umbrella.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "might",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **might** ใช้แสดงความเป็นไปได้ไม่แน่ใจ ตามแพทเทิร์น __subject + might + base verb__. ตัวอย่าง: `It might rain later.` หรือ `She might come.`"
+      },
+      {
+        "index": 2,
+        "text": "must",
+        "is_correct": false,
+        "answer_description": "ความหมายแรงไป เพราะ **must** มักใช้กับการอนุมานมั่นใจหรือข้อบังคับ เช่น `It must be true.` ที่นี่แค่คาดว่าอาจจะฝนตก ควรใช้ `might`."
+      },
+      {
+        "index": 3,
+        "text": "can",
+        "is_correct": false,
+        "answer_description": "ไม่เป็นธรรมชาติในบริบทพยากรณ์อากาศ เพราะ **can** คือ “สามารถ/มีศักยภาพ” เช่น `It can rain in summer.` (ทั่วไป). คาดการณ์เฉพาะหน้าควรใช้ `might` หรือ `may`."
+      },
+      {
+        "index": 4,
+        "text": "should",
+        "is_correct": false,
+        "answer_description": "ไม่ตรงหน้าที่ เพราะ **should** ใช้ให้คำแนะนำ เช่น `You should take an umbrella.` แต่ส่วนแรกของประโยคต้องการบอกความเป็นไปได้ ควรใช้ `might`."
+      }
+    ]
+  }
+]

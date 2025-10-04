@@ -1,0 +1,321 @@
+[
+  {
+    "question": "At 8 p.m. tomorrow, I ___ dinner.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be cooking",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Future Continuous** เพื่อบอกการกระทำที่กำลังดำเนินอยู่ในช่วงเวลาเฉพาะในอนาคต โครงสร้างคือ __will be + V-ing__. เช่น: `At 8 p.m. tomorrow, I will be cooking dinner.` ใช้ได้ดีเวลาเน้นว่า “ช่วงนั้นกำลังทำอยู่” ไม่ใช่แค่จะทำครั้งเดียวแล้วจบ"
+      },
+      {
+        "index": 2,
+        "text": "will cook",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **will + V1** เน้น “การตัดสินใจ/การคาดการณ์” โดยไม่โฟกัสว่าช่วงนั้นกำลังทำอยู่ เช่น `I will cook dinner tomorrow` ฟังเหมือนบอกแผนโดยรวม แต่โจทย์ต้องการภาพระหว่างเวลา 8 โมงที่กำลังทำอยู่"
+      },
+      {
+        "index": 3,
+        "text": "am cooking",
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะ เพราะ **Present Continuous** ใช้บอกแผนอนาคตได้ก็จริง (`I am cooking tomorrow at 8 p.m.`) แต่โจทย์เน้น “ระหว่างเวลา 8 โมงกำลังทำอยู่” ซึ่งรูปที่ชัดที่สุดคือ **Future Continuous** เพื่อเน้นสถานะกำลังดำเนิน"
+      },
+      {
+        "index": 4,
+        "text": "cook",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **V1 เดี่ยวๆ** ไม่เข้ากับกาลอนาคตในประโยคนี้ และไม่แสดงความกำลังดำเนินอยู่ด้วย เช่น `I cook at 8 p.m. tomorrow` ฟังแปลกและไม่เป็นธรรมชาติ"
+      }
+    ]
+  },
+  {
+    "question": "When you arrive, she ___ TV.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be watching",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Future Continuous** เพื่อบอกว่าขณะที่อีกเหตุการณ์เกิดขึ้นในอนาคต เธอจะอยู่ในระหว่างกระทำ โครงสร้างคือ __will be + V-ing__. ตัวอย่าง: `When you arrive, she will be watching TV.`"
+      },
+      {
+        "index": 2,
+        "text": "will watch",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **will + V1** เน้นการกระทำเป็นจุดๆ ไม่ได้สื่อว่าช่วงนั้นกำลังทำอยู่ เช่น `She will watch TV when you arrive` ฟังเหมือนเริ่มดู “หลัง” มาถึง ไม่ใช่กำลังดูอยู่ตอนนั้น"
+      },
+      {
+        "index": 3,
+        "text": "watches",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Present Simple** ใช้กับตารางเวลา/ความจริงทั่วไป ไม่สื่ออนาคตและไม่สื่อความกำลังดำเนิน เช่น `She watches TV` เป็นนิสัยทั่วไป ไม่ใช่สถานการณ์อนาคตตอนที่คุณมาถึง"
+      },
+      {
+        "index": 4,
+        "text": "is watching",
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง เพราะ **Present Continuous** ใช้กับตอนนี้หรือแผนอนาคตบางอย่าง แต่ในโครงสร้าง “When + future time” เราควรใช้ **Future Continuous** ในประโยคหลักเพื่อสื่อ “กำลังทำอยู่ในอนาคต” ชัดกว่า"
+      }
+    ]
+  },
+  {
+    "question": "Will you be ___ the meeting tomorrow?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "attending",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคสุภาพถามถึงแผน/การเข้าร่วมในอนาคตใช้ **Future Continuous**: __will be + V-ing__ จึงใช้ `attending` ได้พอดี เช่น: `Will you be attending the meeting tomorrow?` ฟังสุภาพและเป็นธรรมชาติ"
+      },
+      {
+        "index": 2,
+        "text": "attend",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้าง **will be + V-ing** ต้องใช้รูป V-ing ไม่ใช่ V1 เช่น `Will you be attend` ผิดรูป ควรเป็น `Will you be attending...`"
+      },
+      {
+        "index": 3,
+        "text": "to attend",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจากหลัง **be** ใน Future Continuous ต้องเป็น **V-ing** ไม่ใช่ **to + V1** เช่น `will be to attend` ไม่เป็นธรรมชาติ ควรเป็น `will be attending`"
+      },
+      {
+        "index": 4,
+        "text": "be attending",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะขาดกริยาช่วยหน้า เช่น `Will you be attending ...` ถึงจะถูก ถ้าใส่เฉพาะ `be attending` ในช่องว่าง ประโยคจะไม่ครบองค์ประกอบ"
+      }
+    ]
+  },
+  {
+    "question": "Don't call me at 9; I ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be sleeping",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Future Continuous** เพื่อบอกว่าช่วงเวลา 9 โมง “กำลังนอนอยู่” โครงสร้างคือ __will be + V-ing__. ตัวอย่าง: `Don't call me at 9; I will be sleeping.`"
+      },
+      {
+        "index": 2,
+        "text": "will sleep",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **will + V1** ไม่สื่อ “กำลังดำเนินอยู่” แค่บอกว่าจะนอนในอนาคต เช่น `I will sleep at 9` ฟังเป็นแผนมากกว่า ไม่ได้เน้นสถานะกำลังหลับช่วงนั้น"
+      },
+      {
+        "index": 3,
+        "text": "am sleeping",
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะ เพราะ **am/is/are + V-ing** สื่อปัจจุบันหรือแผนอนาคต แต่คำใบ้ `at 9` ในอนาคต ต้องการรูปที่เน้น “กำลังทำในอนาคต” คือ Future Continuous จะชัดกว่า"
+      },
+      {
+        "index": 4,
+        "text": "sleep",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **V1 เดี่ยวๆ** ไม่เข้ากับบริบทอนาคตและไม่สื่อความกำลังดำเนิน เช่น `I sleep at 9` จะเป็นนิสัยทั่วไป ไม่ใช่เหตุการณ์เฉพาะพรุ่งนี้"
+      }
+    ]
+  },
+  {
+    "question": "By the time you get home, I ___ dinner.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have cooked",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Future Perfect** เพื่อบอกว่างานจะ “เสร็จสิ้นก่อน” อีกเหตุการณ์ในอนาคต โครงสร้างคือ __will have + V3__. เช่น: `By the time you get home, I will have cooked dinner.` ต่างจาก Future Continuous ที่เน้น “กำลังทำอยู่”"
+      },
+      {
+        "index": 2,
+        "text": "will be cooking",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะ Future Continuous (`will be cooking`) เน้นกำลังทำอยู่ตอนนั้น แต่คำว่า `By the time...` สื่อว่า “ก่อนเวลานั้น” ควรเสร็จแล้ว จึงต้องใช้ **Future Perfect**"
+      },
+      {
+        "index": 3,
+        "text": "cook",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **V1 เดี่ยวๆ** ไม่สื่ออนาคตและไม่สื่อความเสร็จสมบูรณ์ก่อนเวลา เช่น `I cook dinner` ฟังเป็นนิสัย ไม่ใช่เหตุการณ์ที่จะเสร็จก่อนคุณกลับถึงบ้าน"
+      },
+      {
+        "index": 4,
+        "text": "am cooking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Present Continuous** ไม่สื่อความ “เสร็จสิ้นก่อนเวลาในอนาคต” และไม่เข้ากับตัวบอกเวลา `By the time...` ที่ควรใช้ **Future Perfect**"
+      }
+    ]
+  },
+  {
+    "question": "The train ___ at 6 a.m. tomorrow.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "leaves",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตารางเวลา/กำหนดการใช้ **Present Simple** ได้ โครงสร้างคือ __S + V1__ เช่น: `The train leaves at 6 a.m. tomorrow.` ตรงนี้ไม่จำเป็นต้องใช้อนาคตกาล เพราะพูดถึงตารางที่แน่นอน"
+      },
+      {
+        "index": 2,
+        "text": "will be leaving",
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะ เพราะ **Future Continuous** เน้น “กำลังออกในช่วงเวลา” แต่ประโยคตารางรถไฟควรใช้ **Present Simple** เพื่อสื่อกำหนดการที่แน่นอน เช่นตารางเดินรถ"
+      },
+      {
+        "index": 3,
+        "text": "will leave",
+        "is_correct": false,
+        "answer_description": "ผิดในเชิงธรรมชาติของภาษา แม้ไม่ผิดไวยากรณ์ แต่เมื่อพูดถึงตารางเวลา มาตรฐานคือใช้ **Present Simple** เช่น `The train leaves at 6.` ฟังมั่นคงกว่า"
+      },
+      {
+        "index": 4,
+        "text": "is leaving",
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ตัวเลือกที่ดีที่สุด เพราะ **Present Continuous** ใช้กับแผนส่วนบุคคลที่กำหนดแล้ว แต่สำหรับตารางสาธารณะ (รถไฟ/เครื่องบิน) ใช้ **Present Simple** จะถูกต้องและเป็นธรรมชาติ"
+      }
+    ]
+  },
+  {
+    "question": "Look at those clouds; it ___ soon.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is going to rain",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **be going to** เมื่อมีหลักฐานในปัจจุบันชี้ว่าจะเกิดขึ้น โครงสร้างคือ __am/is/are + going to + V1__. เช่น: `Look at those clouds; it is going to rain soon.` ต่างจาก Future Continuous ที่เน้น “กำลังเกิดในช่วงเวลา”"
+      },
+      {
+        "index": 2,
+        "text": "will be raining",
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะ เพราะ **Future Continuous** ใช้เน้นสภาพกำลังดำเนินในช่วงเวลา ไม่ใช่การคาดเดาจากหลักฐานตรงหน้า ในบริบทนี้ควรใช้ **be going to**"
+      },
+      {
+        "index": 3,
+        "text": "rains",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Present Simple** รูปนี้ใช้กับความจริงทั่วไป (`It rains in the rainy season.`) ไม่ใช่การคาดการณ์อิงหลักฐานปัจจุบัน"
+      },
+      {
+        "index": 4,
+        "text": "will rain",
+        "is_correct": false,
+        "answer_description": "ไม่ตรงที่สุด ถึงแม้ใช้ได้ในการคาดการณ์ทั่วไป แต่เมื่อมี “หลักฐานให้เห็น” เช่นเมฆดำ ควรใช้ **be going to** เพื่อเน้นเห็นเค้าลางแล้ว"
+      }
+    ]
+  },
+  {
+    "question": "This time next week, they ___ in Paris.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be staying",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Future Continuous** เพื่อบอกสภาพที่ “กำลังดำเนินอยู่” ณ เวลาเฉพาะในอนาคต โครงสร้างคือ __will be + V-ing__. เช่น: `This time next week, they will be staying in Paris.`"
+      },
+      {
+        "index": 2,
+        "text": "will stay",
+        "is_correct": false,
+        "answer_description": "ผิดในเจตนา เพราะ **will + V1** ไม่ได้สื่อภาพ “กำลังทำอยู่ตอนนั้น” แค่บอกว่าจะพัก แต่ไม่เน้นสถานะช่วงเวลานั้น เช่น `They will stay in Paris next week`"
+      },
+      {
+        "index": 3,
+        "text": "are staying",
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่คำตอบดีที่สุด ถึงแม้จะใช้บอกแผนอนาคตได้ แต่คำใบ้ `This time next week` เน้นช่วงเวลาที่กำลังดำเนินอยู่ ซึ่ง **Future Continuous** ตรงกว่า"
+      },
+      {
+        "index": 4,
+        "text": "will have stayed",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะ **Future Perfect** (`will have + V3`) สื่อว่า “เสร็จสิ้นก่อนเวลา” แต่ที่นี่ต้องการภาพว่าช่วงเวลานั้นกำลังพักอยู่ ไม่ใช่ทำเสร็จแล้ว"
+      }
+    ]
+  },
+  {
+    "question": "From 9 to 12 tomorrow, the lab ___ maintenance.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be undergoing",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Future Continuous** เพื่อเน้นช่วงเวลาต่อเนื่องในอนาคต (9 ถึง 12) โครงสร้างคือ __will be + V-ing__. เช่น: `From 9 to 12 tomorrow, the lab will be undergoing maintenance.`"
+      },
+      {
+        "index": 2,
+        "text": "will undergo",
+        "is_correct": false,
+        "answer_description": "ผิดในน้ำเสียง เพราะ **will + V1** ไม่เน้นความต่อเนื่องตลอดช่วงเวลา ฟังเหมือนการกระทำจุดเดียว ไม่ใช่ยืดตั้งแต่ 9 ถึง 12"
+      },
+      {
+        "index": 3,
+        "text": "undergoes",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เนื่องจาก **Present Simple** จะเหมาะกับตารางเวลาถาวร/ความจริงทั่วไป แต่ที่นี่เป็นเหตุการณ์ชั่วคราวในอนาคตช่วงหนึ่ง จึงควรใช้ **Future Continuous**"
+      },
+      {
+        "index": 4,
+        "text": "is undergoing",
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะ เพราะ **Present Continuous** สื่อปัจจุบันหรือแผนที่กำหนด แต่เมื่อเน้นช่วงเวลาอนาคตเฉพาะเจาะจง การใช้ **Future Continuous** จะชัดและเป็นธรรมชาติกว่า"
+      }
+    ]
+  },
+  {
+    "question": "What ___ your flight leave tomorrow?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "does",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตารางเที่ยวบินเป็นกำหนดการแน่นอน ใช้ **Present Simple** ในประโยคคำถาม: โครงสร้าง __Wh- + do/does + S + V1__ เช่น: `What time does your flight leave tomorrow?`"
+      },
+      {
+        "index": 2,
+        "text": "will",
+        "is_correct": false,
+        "answer_description": "ผิดในธรรมชาติภาษา สำหรับตารางเวลาใช้ **Present Simple** ไม่ใช่ **will** เช่นไม่พูด `What will your flight leave?` แต่พูด `What time does your flight leave?`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะถ้าจะใช้ **be + V-ing** ต้องเป็น `What time is your flight leaving?` ซึ่งยังสู้รูปตารางเวลา **Present Simple** ไม่ได้ และที่สำคัญ ช่องว่างนี้ต้องการ **does**"
+      },
+      {
+        "index": 4,
+        "text": "will be",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่ใช่โครงสร้างคำถามของ **Future Continuous** และไม่เข้ากับกริยาแท้ `leave` ในรูปประโยคคำถามเกี่ยวกับตารางเวลา ควรใช้ **does**"
+      }
+    ]
+  },
+  {
+    "question": "At noon, the team ___ a client, so please email instead.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be meeting",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Future Continuous** เพื่อบอกว่าช่วงเที่ยง “กำลังประชุมอยู่” โครงสร้างคือ __will be + V-ing__. ตัวอย่าง: `At noon, the team will be meeting a client.` จึงขอให้ติดต่อทางอีเมลแทน"
+      },
+      {
+        "index": 2,
+        "text": "meets",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ **Present Simple** จะสื่อเป็นตารางเวลาประจำ ถ้าเป็นนัดครั้งเดียวเฉพาะคราว ใช้ **Future Continuous** เพื่อเน้นสถานะกำลังประชุมช่วงเวลานั้นดีกว่า"
+      },
+      {
+        "index": 3,
+        "text": "will meet",
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรงเจตนา เพราะ **will + V1** ไม่เน้นว่าช่วงเที่ยงกำลังประชุมอยู่ เพียงบอกว่าจะมีการพบ ซึ่งไม่สอดคล้องกับเหตุผลที่ให้ “อีเมลแทน” ในช่วงเวลานั้น"
+      },
+      {
+        "index": 4,
+        "text": "are meeting",
+        "is_correct": false,
+        "answer_description": "แม้ใช้บอกแผนอนาคตได้ แต่เมื่อประโยคเน้นสถานะ “กำลังยุ่งอยู่ตอนเที่ยง” การใช้ **Future Continuous** จะชัดและเป็นธรรมชาติกว่า"
+      }
+    ]
+  }
+]

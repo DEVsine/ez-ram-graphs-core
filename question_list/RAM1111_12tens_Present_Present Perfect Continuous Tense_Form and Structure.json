@@ -1,0 +1,321 @@
+[
+  {
+    "question": "She ___ for three hours.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "has been studying",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **Present Perfect Continuous** คือ __has/have + been + V-ing__ ใช้บอกการกระทำที่เริ่มในอดีตและยังดำเนินต่อเนื่องถึงปัจจุบัน เช่น `She has been studying for three hours.` หมายถึงเธอเริ่มอ่านมาตั้งแต่ก่อนหน้านี้และตอนนี้ยังอ่านอยู่หรือเพิ่งหยุดไม่นาน ตัวบอกเวลาอย่าง **for + ระยะเวลา** ใช้ได้สวยเลยในรูปนี้"
+      },
+      {
+        "index": 2,
+        "text": "has been study",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **been** ต้องเป็นกริยา **V-ing** ไม่ใช่รูปฐาน (`study`) โครงสร้างที่ถูกต้องคือ `has been studying` เช่น `She has been studying since 5 p.m.`"
+      },
+      {
+        "index": 3,
+        "text": "is studying",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่คือ **Present Continuous** (กำลังกระทำตอนนี้) แต่ประโยคมีตัวบอกระยะเวลา **for three hours** ซึ่งสื่อช่วงเวลาตั้งแต่อดีตถึงปัจจุบัน ควรใช้ Present Perfect Continuous เช่น `She has been studying for three hours.`"
+      },
+      {
+        "index": 4,
+        "text": "has studied",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่คือ **Present Perfect Simple** ซึ่งเน้นผลลัพธ์ ไม่เน้นความต่อเนื่อง หากอยากเน้นว่าทำต่อเนื่องมาหลายชั่วโมง ควรใช้ `has been studying` เช่น `She has been studying all morning.`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ since morning.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "haven't been working",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปปฏิเสธของ Present Perfect Continuous คือ __has/have + not + been + V-ing__ เช่น `They haven't been working since morning.` ใช้กับ **since + จุดเวลา** เพื่อบอกว่าไม่ได้ทำมาตั้งแต่เช้าและยังไม่ทำจนถึงตอนนี้"
+      },
+      {
+        "index": 2,
+        "text": "don't work",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่คือ **Present Simple** ใช้บอกความจริงทั่วไป/นิสัย ไม่ได้เชื่อมต่อเวลาตั้งแต่เช้าถึงปัจจุบัน ถ้าจะสื่อช่วงเวลาต่อเนื่องต้องใช้ `have/has been + V-ing` เช่น `They haven't been working since morning.`"
+      },
+      {
+        "index": 3,
+        "text": "haven't worked",
+        "is_correct": false,
+        "answer_description": "เกือบใช่ แต่เป็น **Present Perfect Simple** เน้นผลว่า \"ยังไม่ได้ทำ\" ไม่เน้นความต่อเนื่อง ถ้าต้องการเน้นช่วงตั้งแต่เช้าถึงตอนนี้ แนะนำ `haven't been working` เช่น `They haven't been working since morning.`"
+      },
+      {
+        "index": 4,
+        "text": "aren't working",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Present Continuous** ใช้กับตอนนี้เฉพาะหน้า ไม่ได้สื่อช่วงเวลา **since morning** ซึ่งต่อเนื่องจากอดีตถึงปัจจุบัน รูปที่เหมาะคือ `have/has been + V-ing`"
+      }
+    ]
+  },
+  {
+    "question": "___ you ___ here long?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Have; been waiting",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคคำถามของ Present Perfect Continuous ใช้ __Have/Has + subject + been + V-ing?__ เช่น `Have you been waiting here long?` ใช้ถามว่ารอมาเป็นเวลานานแค่ไหนต่อเนื่องมาถึงปัจจุบัน"
+      },
+      {
+        "index": 2,
+        "text": "Are; waiting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่เป็นรูป **Present Continuous** (`Are you waiting?`) ซึ่งถามเหตุการณ์ตอนนี้เท่านั้น ไม่เน้นความต่อเนื่องจากอดีต คำถามเรื่อง \"นานแค่ไหน\" ควรใช้ `Have you been waiting ...?`"
+      },
+      {
+        "index": 3,
+        "text": "Do; wait",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่คือ **Present Simple** (`Do you wait...`) ใช้ถามนิสัย/ความถี่ ไม่ใช่การกระทำที่เริ่มในอดีตและต่อเนื่องถึงปัจจุบัน ควรใช้ `Have you been waiting here long?`"
+      },
+      {
+        "index": 4,
+        "text": "Have; waited",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะเป็น **Present Perfect Simple** (`have + V3`) แต่เราต้องการ **been + V-ing** เพื่อเน้นความต่อเนื่อง รูปถูกควรเป็น `Have you been waiting ...?`"
+      }
+    ]
+  },
+  {
+    "question": "How long ___ he ___ the piano?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "has; been playing",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคำถามคือ __How long + has/have + subject + been + V-ing?__ เช่น `How long has he been playing the piano?` ใช้เมื่ออยากรู้ระยะเวลาที่ทำสิ่งนั้นต่อเนื่องมาถึงปัจจุบัน"
+      },
+      {
+        "index": 2,
+        "text": "does; play",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Simple** ถามนิสัย เช่น `How often does he play?` แต่คำว่า **How long** ต้องการรูปที่เน้นระยะเวลาต่อเนื่อง ควรใช้ `has been playing`"
+      },
+      {
+        "index": 3,
+        "text": "is; playing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Present Continuous** ไม่ได้สื่อระยะเวลาตั้งแต่อดีตถึงปัจจุบัน ควรใช้ `has been playing` เช่น `He has been playing for two years.`"
+      },
+      {
+        "index": 4,
+        "text": "has; played",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะเป็น **Present Perfect Simple** (`has + V3`) ซึ่งไม่เน้นความต่อเนื่อง หากต้องการเน้นทำมาตลอดให้ใช้ `has been playing`"
+      }
+    ]
+  },
+  {
+    "question": "— Have you been reading that book? — Yes, I ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "have",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำตอบสั้นของ Present Perfect/Perfect Continuous ใช้ __Yes/No + subject + have/has__ โดยไม่ต้องใส่ `been + V-ing` ซ้ำ เช่น `Yes, I have.` ถ้าจะตอบยาวค่อยบอก `Yes, I have been reading it.`"
+      },
+      {
+        "index": 2,
+        "text": "have been",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทคำตอบสั้น เพราะรูปสั้นไม่ตามด้วย `been` หรือกริยาอีก ควรใช้แค่ `Yes, I have.` ถ้าจะตอบเต็มค่อยว่า `Yes, I have been reading it.`"
+      },
+      {
+        "index": 3,
+        "text": "am",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `am` เป็นกริยา **be** ของ Present Continuous ไม่ใช่คำช่วยของ Present Perfect Continuous คำตอบสั้นที่ถูกคือ `have/has` เช่น `Yes, I have.`"
+      },
+      {
+        "index": 4,
+        "text": "did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `did` เป็นอดีตกาลของ **do** ไม่เกี่ยวกับโครงสร้าง Present Perfect Continuous คำตอบสั้นควรใช้ `have/has` เช่น `Yes, I have.`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ always ___ to improve her English.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "has always been trying",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง วาง **adverb of frequency** (always) ไว้หลัง **has** ได้ และโครงสร้างหลักยังเป็น __has/have + been + V-ing__ เช่น `She has always been trying to improve her English.` รูปนี้ทั้งถูกไวยากรณ์และเป็นธรรมชาติในการพูด"
+      },
+      {
+        "index": 2,
+        "text": "has been always trying",
+        "is_correct": false,
+        "answer_description": "ไม่เป็นธรรมชาติ แม้บางครั้งพบได้ แต่รูปวาง **always** หลัง `has` จะลื่นกว่าและเป็นมาตรฐาน เช่น `She has always been trying ...` หลีกเลี่ยงการคั่น `been` กับ `trying` ด้วย adverb"
+      },
+      {
+        "index": 3,
+        "text": "is always trying",
+        "is_correct": false,
+        "answer_description": "ผิดประเด็น เพราะนี่คือ **Present Continuous** ไม่ใช่ **Present Perfect Continuous** ที่เน้นความต่อเนื่องจากอดีตถึงปัจจุบัน โครงสร้างที่ต้องการคือ `has/have + been + V-ing`"
+      },
+      {
+        "index": 4,
+        "text": "has always tried",
+        "is_correct": false,
+        "answer_description": "ผิดรูปกาล เพราะนี่คือ **Present Perfect Simple** (`has + V3`) ไม่ใช่รูปต่อเนื่อง ถ้าต้องการเน้นความพยายามอย่างต่อเนื่อง ใช้ `has always been trying` จะตรงกว่า"
+      }
+    ]
+  },
+  {
+    "question": "We ___ since 8 a.m.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been waiting",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __have/has + been + V-ing__ กับ **since + จุดเวลา** เพื่อบอกว่าทำต่อเนื่องมาจนถึงตอนนี้ เช่น `We have been waiting since 8 a.m.` แปลว่าเริ่มรอตั้งแต่ 8 โมงเช้าและตอนนี้ยังรออยู่หรือเพิ่งหยุด"
+      },
+      {
+        "index": 2,
+        "text": "have waited",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะเป็น **Present Perfect Simple** ซึ่งไม่เน้นความต่อเนื่อง หากต้องการสื่อระยะเวลาต่อเนื่องกับ `since` ใช้ `have been waiting` ดีกว่า เช่น `We have been waiting since 8 a.m.`"
+      },
+      {
+        "index": 3,
+        "text": "are waiting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **are waiting** สื่อเฉพาะตอนนี้ ไม่เชื่อมตั้งแต่อดีตถึงปัจจุบัน ในเมื่อมี `since 8 a.m.` ควรใช้ `have been waiting`"
+      },
+      {
+        "index": 4,
+        "text": "have been wait",
+        "is_correct": false,
+        "answer_description": "ผิดรูป หลัง `been` ต้องตามด้วย **V-ing** ไม่ใช่รูปฐาน รูปที่ถูกคือ `have been waiting` เช่น `We have been waiting for two hours.`"
+      }
+    ]
+  },
+  {
+    "question": "Why are you so tired? I ___ all afternoon.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been running",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __have/has + been + V-ing__ เพื่อเน้นกิจกรรมที่เพิ่งเกิดต่อเนื่องและมีผลถึงตอนนี้ เช่น `I have been running all afternoon.` จึงอธิบายได้ว่าทำไมถึงเหนื่อยตอนนี้"
+      },
+      {
+        "index": 2,
+        "text": "am running",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous** เน้นเหตุการณ์ตอนนี้ ไม่ได้ชี้ว่าทำมาทั้งบ่าย ควรใช้ Present Perfect Continuous เพื่อเชื่อมอดีตกับปัจจุบัน เช่น `I have been running ...`"
+      },
+      {
+        "index": 3,
+        "text": "have run",
+        "is_correct": false,
+        "answer_description": "ผิดรูปกาล เพราะเป็น **Present Perfect Simple** ซึ่งเน้นผล ไม่เน้นระยะเวลาหรือความต่อเนื่อง ถ้าจะเน้นว่าทำมาตลอดบ่าย ใช้ `have been running`"
+      },
+      {
+        "index": 4,
+        "text": "had been running",
+        "is_correct": false,
+        "answer_description": "ผิดกาล นี่คือ **Past Perfect Continuous** ใช้เชื่อมเหตุการณ์ในอดีตสองจุด แต่บริบทนี้เชื่อมถึงปัจจุบัน ควรใช้ `have been running`"
+      }
+    ]
+  },
+  {
+    "question": "Who ___ been using my laptop?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "has",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อ **who** เป็นประธานเอกพจน์ เราใช้ __has + been + V-ing__ โดย `who` ทำหน้าที่เป็นประธาน เช่น `Who has been using my laptop?` โครงสร้างนี้ถามหาผู้กระทำที่ใช้มาต่อเนื่อง"
+      },
+      {
+        "index": 2,
+        "text": "have",
+        "is_correct": false,
+        "answer_description": "ผิด ในคำถามที่ `who` เป็นประธานโดยปริยาย มักใช้รูปเอกพจน์ **has** ไม่ใช้ **have** เช่น `Who has been using my laptop?`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะจะกลายเป็น **is + V-ing** (Present Continuous) ไม่ใช่รูป Perfect Continuous ที่ต้องมี `has/have + been + V-ing`"
+      },
+      {
+        "index": 4,
+        "text": "does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `does` ใช้กับ **Present Simple** โครงสร้างที่ถูกต้องสำหรับกาลนี้คือ `has been using` ไม่ใช่ `does use`"
+      }
+    ]
+  },
+  {
+    "question": "It ___ raining all day.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "has been",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน **It** ใช้ __has + been + V-ing__ ดังนั้นต้องเป็น `It has been raining all day.` ตัวกริยาแท้คือ `raining` ที่ถูกละไว้ในช่องว่างหลัง `been` ในความเข้าใจ เช่นประโยคเต็ม: `It has been raining all day.`"
+      },
+      {
+        "index": 2,
+        "text": "is been raining",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะห้ามใช้ `is + been` โครงสร้างที่ถูกคือ `has/have + been + V-ing` เช่น `has been raining`"
+      },
+      {
+        "index": 3,
+        "text": "has being raining",
+        "is_correct": false,
+        "answer_description": "ผิดมาก เพราะ `being` ใช้ใน passive ไม่ใช่กับ Perfect Continuous รูปที่ถูกคือ `has been raining`"
+      },
+      {
+        "index": 4,
+        "text": "have been",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะประธาน **It** เป็นเอกพจน์ ต้องใช้ **has** ไม่ใช่ **have** รูปถูกคือ `It has been raining all day.`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ not ___ well lately.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "has; been sleeping",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปปฏิเสธวาง `not` หลัง **has** และก่อน **been**: __has/have + not + been + V-ing__ เช่น `He has not been sleeping well lately.` ใช้สื่อว่าช่วงนี้นอนต่อเนื่องไม่ดีมาถึงปัจจุบัน"
+      },
+      {
+        "index": 2,
+        "text": "is; sleeping",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกลายเป็น **Present Continuous** ไม่ใช่ Present Perfect Continuous และยังไม่ใช่รูปปฏิเสธด้วย หากต้องการรูปปฏิเสธต่อเนื่องต้องใช้ `has not been sleeping`"
+      },
+      {
+        "index": 3,
+        "text": "has; slept",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะเป็น **Present Perfect Simple** (`has + V3`) ซึ่งไม่เน้นความต่อเนื่อง ถ้าจะสื่อว่าช่วงนี้นอนไม่ดีต่อเนื่อง ควรใช้ `has not been sleeping`"
+      },
+      {
+        "index": 4,
+        "text": "have; been sleeping",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะประธาน `He` เป็นเอกพจน์ ต้องใช้ **has** และยังขาด `not` ในรูปปฏิเสธ รูปที่ถูกต้องคือ `He has not been sleeping well lately.`"
+      }
+    ]
+  }
+]

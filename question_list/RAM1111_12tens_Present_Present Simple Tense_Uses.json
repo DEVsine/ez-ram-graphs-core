@@ -1,0 +1,321 @@
+[
+  {
+    "question": "He ___ to the gym every morning.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "go",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเป็น **he (บุรุษที่สามเอกพจน์)** ต้องเติม -s ที่กริยาใน Present Simple เช่น `He goes to the gym.` ไม่ใช่ `He go ...` โครงสร้างที่ถูกคือ **Subject (he) + V1+s (goes)**."
+      },
+      {
+        "index": 2,
+        "text": "goes",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __Subject (he) + V1+s (goes)__ ใน Present Simple เพื่อบอก **นิสัย/กิจวัตร** เช่น `He goes to the gym every morning.` ตัวอย่างใช้จริง: `She reads before bed.`"
+      },
+      {
+        "index": 3,
+        "text": "is go",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา **be + V1** มาใช้ ซึ่งไม่ใช่โครงสร้างของ Present Simple สำหรับกิจวัตร ประโยคถูกต้องควรเป็น `He goes ...` ไม่ใช่ `He is go ...` หากจะใช้ต่อเนื่องต้องเป็น **be + V-ing** เช่น `He is going now` (แต่ความหมายเปลี่ยนเป็นตอนนี้)."
+      },
+      {
+        "index": 4,
+        "text": "going",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยาช่วย **be** และยังไม่ใช่รูป Present Simple สำหรับกิจวัตร ประโยคที่ถูกต้องคือ `He goes to the gym every morning.` ถ้าจะใช้รูปต่อเนื่องต้องเป็น `He is going to the gym now.`"
+      }
+    ]
+  },
+  {
+    "question": "Water ___ at 100°C.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "boils",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็น **ความจริงทั่วไป (general truth)** ใช้ __Subject + V1(s)__: `Water boils at 100°C.` อีกตัวอย่าง: `The sun rises in the east.`"
+      },
+      {
+        "index": 2,
+        "text": "boil",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **Water** ถือเป็นเอกพจน์ กริยาจึงต้องเติม -s เป็น `boils` ไม่ใช่ `boil` โครงสร้างถูกคือ **Subject (singular) + V1+s**."
+      },
+      {
+        "index": 3,
+        "text": "is boiling",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `is boiling` เป็น **Present Continuous** ใช้กับเหตุการณ์กำลังเกิดตอนนี้ แต่ประโยคนี้พูดถึงข้อเท็จจริงตายตัว ต้องใช้ Present Simple: `Water boils at 100°C.`"
+      },
+      {
+        "index": 4,
+        "text": "boilses",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปคำกริยาไม่มี `boilses` การเติม -s ที่ถูกต้องคือ `boils` เช่น `Water boils ...` อย่าเติม -es ซ้ำซ้อนแบบนี้นะ"
+      }
+    ]
+  },
+  {
+    "question": "They ___ soccer on weekends.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "often play",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง การวาง **adverb of frequency (often)** กับกริยาทั่วไป ให้ใช้ __adverb + V1__: `They often play soccer on weekends.` ตัวอย่างเพิ่ม: `I usually eat at home.`"
+      },
+      {
+        "index": 2,
+        "text": "play often",
+        "is_correct": false,
+        "answer_description": "พอใช้ได้ในบางบริบท แต่ตำแหน่งมาตรฐานของ **adverb of frequency** ควรอยู่หน้า **กริยาหลัก** เช่น `often play` มากกว่า `play often` เพื่อความเป็นธรรมชาติ เช่น `They often play ...`"
+      },
+      {
+        "index": 3,
+        "text": "are often play",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนำ **be (are)** มาใช้กับ **V1** ตรงๆ ซึ่งผิดรูป ต้องเป็น `are often playing` ถ้าจะใช้ต่อเนื่อง แต่ที่ถูกสำหรับกิจวัตรคือ `often play` เช่น `They often play ...`"
+      },
+      {
+        "index": 4,
+        "text": "plays often",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเป็น **They (พหูพจน์)** กริยาไม่เติม -s ต้องเป็น `play` ไม่ใช่ `plays` โครงสร้างที่ถูกคือ `They often play ...`"
+      }
+    ]
+  },
+  {
+    "question": "The train ___ at 6:30 tomorrow morning.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "leaves",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ Present Simple กับ **ตารางเวลา/กำหนดการ** แม้พูดถึงอนาคตก็ตาม โครงสร้างคือ __Subject + V1(s)__: `The train leaves at 6:30 tomorrow morning.` ตัวอย่างคล้ายกัน: `The museum opens at 9 a.m.`"
+      },
+      {
+        "index": 2,
+        "text": "leave",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเป็นเอกพจน์ (**the train**) ต้องเติม -s เป็น `leaves` ไม่ใช่ `leave` เช่น `The bus arrives at 8.`"
+      },
+      {
+        "index": 3,
+        "text": "is leaving",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทตารางเวลา โดยปกติ **ตารางเวลา** ใช้ Present Simple ไม่ใช่ Present Continuous จึงควรใช้ `leaves` เช่น `The train leaves at 6:30.`"
+      },
+      {
+        "index": 4,
+        "text": "will leaves",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `will` ต้องตามด้วย **กริยาช่องพื้นฐาน (V1)** จึงควรเป็น `will leave` แต่ประโยคตารางเวลาใช้ Present Simple จะธรรมชาติกว่า: `The train leaves ...`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ coffee because it makes her anxious.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "doesn't drink",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างปฏิเสธใน Present Simple คือ __do/does + not + V1__: `She doesn't drink coffee.` ใช้กับนิสัย/ความชอบ เช่น `He doesn't eat meat.`"
+      },
+      {
+        "index": 2,
+        "text": "don't drink",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **She** ต้องใช้ **doesn't** ไม่ใช่ **don't** โครงสร้างที่ถูกคือ `She doesn't drink coffee.`"
+      },
+      {
+        "index": 3,
+        "text": "isn't drink",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา **be + not** มาใช้กับ **V1** ซึ่งไม่ถูกต้อง ควรใช้ `doesn't + V1` เช่น `She doesn't drink ...` ไม่ใช่ `She isn't drink ...`"
+      },
+      {
+        "index": 4,
+        "text": "doesn't drinks",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเมื่อมี **doesn't** แล้ว กริยาหลักต้องเป็น **รูปพื้นฐาน (V1)** ไม่เติม -s ดังนั้นควรเป็น `doesn't drink` ไม่ใช่ `doesn't drinks`"
+      }
+    ]
+  },
+  {
+    "question": "___ your brother live near here?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Does",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคำถาม Present Simple สำหรับบุรุษที่สามเอกพจน์คือ __Does + subject + V1__ เช่น `Does your brother live near here?` ตัวอย่างเพิ่ม: `Does she like pasta?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **your brother (เอกพจน์)** ต้องใช้ **Does** ไม่ใช่ **Do** เช่น `Does he live ...` ไม่ใช่ `Do he live ...`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำถามนี้ใช้กริยาแท้ **live** ไม่ใช่กริยา **be** โครงสร้างต้องเป็น `Does/Do + subject + V1` เช่น `Does your brother live ...`"
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Has` ใช้กับ Present Perfect ไม่ได้ใช้ในการถาม Present Simple แบบนี้ โครงสร้างที่ถูกคือ `Does your brother live ... ?`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ this song; it's my favorite.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "love",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยา **love** เป็น **stative verb** มักใช้ Present Simple เพื่อบอกความรู้สึก/ความคิดเห็น โครงสร้างคือ __Subject + V1__: `I love this song.` ตัวอย่างเพิ่ม: `She hates spiders.`"
+      },
+      {
+        "index": 2,
+        "text": "am loving",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **stative verbs** อย่าง `love, like, know` ไม่ค่อยใช้รูปต่อเนื่อง `be + V-ing` จึงควรใช้ `I love this song.` ไม่ใช่ `I am loving this song.`"
+      },
+      {
+        "index": 3,
+        "text": "loves",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **I** กริยาต้องเป็นรูปพื้นฐาน `love` ไม่เติม -s ตัวอย่างที่ถูก: `I love this song.`"
+      },
+      {
+        "index": 4,
+        "text": "loving",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยาช่วยและรูปแบบไม่ครบ ประโยคต้องมี **กริยาแท้** ใน Present Simple: `I love this song.` ไม่ใช่ `I loving ...`"
+      }
+    ]
+  },
+  {
+    "question": "My dad ___ in a bank.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "works",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ Present Simple เพื่อบอก **อาชีพ/สภาพถาวร** โครงสร้างคือ __Subject + V1(s)__: `My dad works in a bank.` ตัวอย่าง: `She teaches English.`"
+      },
+      {
+        "index": 2,
+        "text": "is working",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะ `is working` บอกกำลังทำอยู่ตอนนี้ ส่วนประโยคนี้บอกงานประจำ ควรใช้ Present Simple: `My dad works in a bank.`"
+      },
+      {
+        "index": 3,
+        "text": "work",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **My dad (เอกพจน์)** ต้องเติม -s เป็น `works` ไม่ใช่ `work` เช่น `He works at a hospital.`"
+      },
+      {
+        "index": 4,
+        "text": "working",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยาช่วย และไม่ใช่รูป Present Simple ประโยคที่ถูกต้องคือ `My dad works in a bank.`"
+      }
+    ]
+  },
+  {
+    "question": "The museum ___ open on Mondays.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อใช้คำคุณศัพท์/สภาพ เช่น `open` ให้ใช้กริยา **be** โครงสร้างคือ __Subject + be__: `The museum is open on Mondays.` ตัวอย่าง: `The store is closed on Sundays.`"
+      },
+      {
+        "index": 2,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **The museum** เป็นเอกพจน์ ต้องใช้ `is` ไม่ใช่ `are` ประโยคที่ถูกคือ `The museum is open on Mondays.`"
+      },
+      {
+        "index": 3,
+        "text": "opens",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ `open` ที่นี่เป็น **adjective** ไม่ใช่กริยา ถ้าจะใช้กริยา ควรพูดว่า `The museum opens at 10.` แต่รูปประโยคนี้ต้องใช้ `is open` เพื่อบอกสภาพ"
+      },
+      {
+        "index": 4,
+        "text": "open",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยา **be** ต้องเป็น `is open` ไม่ใช่ `open` เฉยๆ โครงสร้างที่ถูก: `The museum is open ...`"
+      }
+    ]
+  },
+  {
+    "question": "If it ___, the roads get slippery.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "rains",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **Zero Conditional** ใช้ Present Simple ทั้งสองข้าง โครงสร้างคือ __If + Present Simple, Present Simple__: `If it rains, the roads get slippery.` ตัวอย่าง: `If you heat ice, it melts.`"
+      },
+      {
+        "index": 2,
+        "text": "raining",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `if` ต้องใช้ **กริยาแท้รูป Present Simple** ไม่ใช่ V-ing ควรเป็น `If it rains, ...` ไม่ใช่ `If it raining, ...`"
+      },
+      {
+        "index": 3,
+        "text": "is rain",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา **be + noun/verb** มาใช้ผิดที่ ควรใช้กริยารูปธรรมดา `rains` ใน Present Simple: `If it rains, ...`"
+      },
+      {
+        "index": 4,
+        "text": "rain",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **it** (เอกพจน์) ต้องเติม -s เป็น `rains` ตามกฎ Present Simple: `It rains ...`"
+      }
+    ]
+  },
+  {
+    "question": "He usually ___ breakfast at 7 a.m.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "has",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อใช้ **adverb of frequency (usually)** กับกริยาทั่วไป ใช้โครงสร้าง __adverb + V1(s)__ และเพราะประธานเป็น **He** กริยาจึงเป็น `has`: `He usually has breakfast at 7 a.m.` ตัวอย่าง: `She always has coffee in the morning.`"
+      },
+      {
+        "index": 2,
+        "text": "have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **He** ต้องใช้กริยาที่เติม -s ใน Present Simple ดังนั้นควรเป็น `has` ไม่ใช่ `have` เช่น `He has lunch at noon.`"
+      },
+      {
+        "index": 3,
+        "text": "is having",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทกิจวัตร เพราะ `is having` เป็นรูปต่อเนื่อง ใช้กับเหตุการณ์กำลังเกิดตอนนี้ แต่ประโยคนี้เป็นกิจวัตร ควรใช้ `has`: `He usually has breakfast ...`"
+      },
+      {
+        "index": 4,
+        "text": "hases",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกริยา `have` ผันไม่ปกติ เมื่อเป็นบุรุษที่สามเอกพจน์ใช้ `has` ไม่ใช่ `hases` ตัวอย่างที่ถูก: `He has breakfast.`"
+      }
+    ]
+  }
+]

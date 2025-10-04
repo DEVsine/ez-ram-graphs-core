@@ -1,0 +1,292 @@
+[
+  {
+    "question": "She ___ English for three years.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "has been studying",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **She** ใช้ **has** ตามโครงสร้าง __`has/have + been + V-ing`__ ของ Present Perfect Continuous (affirmative). ใช้กับระยะเวลา `for three years` เพื่อบอกว่าทำต่อเนื่องมาตั้งแต่อดีตจนถึงปัจจุบัน เช่น: `She has been studying English for three years.`"
+      },
+      {
+        "index": 2,
+        "text": "is studying",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **Present Continuous** (`be + V-ing`) ซึ่งเน้นตอนนี้ขณะพูด แต่ประโยคมีระยะเวลา `for three years` ควรใช้ **have/has been + V-ing**. ตัวอย่างที่ถูก: `She has been studying English for three years.` ไม่ใช่ `She is studying English for three years.`"
+      },
+      {
+        "index": 3,
+        "text": "has studied",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Perfect Simple** ไม่เน้นความต่อเนื่อง โดยเฉพาะเมื่อมีระยะเวลา `for ...` ที่ต้องการความต่อเนื่องควรใช้ **has been studying**. เปรียบเทียบ: `She has studied English` (พูดกว้างๆ) vs `She has been studying English for three years` (ต่อเนื่อง)."
+      },
+      {
+        "index": 4,
+        "text": "had been studying",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Perfect Continuous** ใช้กับอดีตก่อนอดีตอีกชั้นหนึ่ง แต่บริบทนี้พูดถึงจนถึงปัจจุบัน. รูปที่ถูกคือ **`has been studying`** เช่น: `She has been studying English for three years.`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ since 7 a.m.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been working",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **They** ใช้ **have** และตามด้วย **been + V-ing** เป็นโครงสร้าง __`have/has + been + V-ing`__. ใช้คำบอกเวลา `since 7 a.m.` เพื่อชี้จุดเริ่มต้นและความต่อเนื่องจนถึงปัจจุบัน เช่น: `They have been working since 7 a.m.`"
+      },
+      {
+        "index": 2,
+        "text": "are working",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **Present Continuous** `be + V-ing` ซึ่งยังไม่สื่อความต่อเนื่องจากอดีตถึงปัจจุบันแบบมีจุดเริ่ม `since`. ควรใช้ **have been + V-ing**: `They have been working since 7 a.m.`"
+      },
+      {
+        "index": 3,
+        "text": "have worked",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Perfect Simple** ซึ่งมักใช้เน้นผลลัพธ์ ไม่เน้นกระบวนการต่อเนื่อง โดยเฉพาะเมื่อมี `since` ควรใช้รูปต่อเนื่อง. รูปที่ถูก: **`have been working`**."
+      },
+      {
+        "index": 4,
+        "text": "has been working",
+        "is_correct": false,
+        "answer_description": "ผิดที่สอดคล้องประธาน-กริยา เพราะ **They** ต้องใช้ **have** ไม่ใช่ **has**. ที่ถูกคือ `They have been working since 7 a.m.` ตามโครงสร้าง **have + been + V-ing**."
+      }
+    ]
+  },
+  {
+    "question": "I ___ this song all day.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been listening to",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน **I** ใช้ **have** ตามด้วย **been + V-ing** และต้องใส่บุพบท **to** กับกริยา listen: __`have been listening to`__. ตัวอย่าง: `I have been listening to this song all day.` ใช้ `all day` เน้นทำต่อเนื่องตลอดทั้งวัน."
+      },
+      {
+        "index": 2,
+        "text": "am listening",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น **Present Continuous** ซึ่งไม่แสดงระยะเวลาต่อเนื่องทั้งวันให้ชัดเท่า Present Perfect Continuous. สำหรับ `all day` ควรใช้ `have been listening to` เช่น: `I have been listening to this song all day.`"
+      },
+      {
+        "index": 3,
+        "text": "have listened",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น **Present Perfect Simple** ไม่เน้นกระบวนการยาวๆ ตลอดวัน. เมื่อเน้นความต่อเนื่อง ใช้โครงสร้าง **`have been + V-ing`**: `I have been listening to this song all day.`"
+      },
+      {
+        "index": 4,
+        "text": "have been listen",
+        "is_correct": false,
+        "answer_description": "ผิดรูปคำกริยา หลัง **been** ต้องเป็น **V-ing** ไม่ใช่รูป base verb. ควรเป็น `have been listening (to)` เช่น: `I have been listening to this song all day.`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ for the bus for half an hour.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "has been waiting",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **He** ใช้ **has** และตามด้วย **been + V-ing**: โครงสร้าง __`has been waiting`__. ใช้กับระยะเวลา `for half an hour` เพื่อเน้นว่ารออย่างต่อเนื่องจนถึงตอนนี้ เช่น: `He has been waiting for the bus for half an hour.`"
+      },
+      {
+        "index": 2,
+        "text": "is waiting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะแม้ `is waiting` จะถูกในบางบริบท แต่เมื่อมีระยะเวลา `for half an hour` ควรใช้ Present Perfect Continuous เพื่อสื่อว่ารอต่อเนื่องมาตั้งแต่อดีต. ที่ถูก: `has been waiting`."
+      },
+      {
+        "index": 3,
+        "text": "has waited",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Present Perfect Simple** (has waited) ไม่เน้นความต่อเนื่องของการรอเมื่อมี `for ...`. โครงสร้างที่ถูกคือ **`has been waiting`**."
+      },
+      {
+        "index": 4,
+        "text": "had been waiting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Perfect Continuous** ใช้กับเหตุการณ์ก่อนอดีตอีกชั้นหนึ่ง ไม่ใช่ปัจจุบัน. ที่ถูกคือ `He has been waiting for the bus for half an hour.`"
+      }
+    ]
+  },
+  {
+    "question": "We ___ a lot of emails lately.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been sending",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน **We** ใช้ **have** และตามด้วย **been + V-ing**: __`have been sending`__. คำว่า `lately`/`recently` มักใช้กับ Present Perfect (โดยเฉพาะ continuous) เพื่อสื่อกิจกรรมที่เกิดบ่อยต่อเนื่องช่วงหลังๆ เช่น: `We have been sending a lot of emails lately.`"
+      },
+      {
+        "index": 2,
+        "text": "are sending",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น **Present Continuous** ซึ่งเน้นขณะนี้ มากกว่าความต่อเนื่องช่วงระยะหลังๆ (`lately`). ที่เหมาะคือ **have been + V-ing**: `We have been sending a lot of emails lately.`"
+      },
+      {
+        "index": 3,
+        "text": "have sent",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ **Present Perfect Simple** เน้นผลว่า 'ได้ส่งแล้ว' แต่ประโยคต้องการความต่อเนื่อง/เกิดซ้ำๆ ช่วงหลังๆ. เลยควรใช้ **`have been sending`**."
+      },
+      {
+        "index": 4,
+        "text": "has been sending",
+        "is_correct": false,
+        "answer_description": "ผิดที่สอดคล้องประธาน เพราะ **We** ต้องใช้ **have** ไม่ใช่ **has**. ควรเป็น: `We have been sending a lot of emails lately.`"
+      }
+    ]
+  },
+  {
+    "question": "It ___ all morning.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "has been raining",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน **It** (พูดถึงอากาศ) ใช้ **has** และ **been + V-ing**: __`has been raining`__. ใช้กับช่วงเวลา `all morning` เพื่อบอกว่าฝนตกต่อเนื่องมาตลอดเช้านี้ เช่น: `It has been raining all morning.`"
+      },
+      {
+        "index": 2,
+        "text": "is raining",
+        "is_correct": false,
+        "answer_description": "ผิดบริบท เพราะ `is raining` เน้นตอนนี้ แต่ `all morning` สื่อความต่อเนื่องยาวตั้งแต่เช้า ควรใช้ Present Perfect Continuous. ที่ถูก: `It has been raining all morning.`"
+      },
+      {
+        "index": 3,
+        "text": "has rained",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ **has rained** (Present Perfect Simple) ไม่เน้นความต่อเนื่องของกระบวนการตลอดช่วงเวลา. ควรใช้ **`has been raining`** เพื่อเน้นตกเรื่อยๆ เช้านี้."
+      },
+      {
+        "index": 4,
+        "text": "have been raining",
+        "is_correct": false,
+        "answer_description": "ผิดสอดคล้องประธาน เพราะ **It** ต้องใช้ **has** ไม่ใช่ **have**. ประโยคที่ถูกคือ: `It has been raining all morning.`"
+      }
+    ]
+  },
+  {
+    "question": "My friends ___ to get fit recently.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been exercising",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธานพหูพจน์ **My friends** ใช้ **have** + **been + V-ing** ตามโครงสร้าง __`have/has + been + V-ing`__. คำว่า `recently` ชี้ช่วงเวลาล่าสุดที่ยังต่อเนื่อง เช่น: `My friends have been exercising to get fit recently.`"
+      },
+      {
+        "index": 2,
+        "text": "are exercising",
+        "is_correct": false,
+        "answer_description": "ผิดบริบท แม้จะถูกในบางกรณี แต่ `recently` มักเข้าคู่กับ Present Perfect (โดยเฉพาะ continuous) เพื่อสื่อความต่อเนื่องช่วงหลังๆ. รูปที่เหมาะคือ **have been exercising**."
+      },
+      {
+        "index": 3,
+        "text": "has been exercising",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะใช้ **has** กับประธานพหูพจน์ **My friends** ซึ่งควรใช้ **have**. ที่ถูก: `My friends have been exercising recently.`"
+      },
+      {
+        "index": 4,
+        "text": "have exercised",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะเป็น **Present Perfect Simple** เน้นผล ไม่เน้นกระบวนการที่เกิดต่อเนื่องช่วงหลังๆ. โครงสร้างที่ควรใช้คือ **`have been exercising`**."
+      }
+    ]
+  },
+  {
+    "question": "She ___ a lot of coffee today.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "has been drinking",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะต้องการสื่อว่าดื่มเรื่อยๆ มาทั้งวันจนตอนนี้ ใช้โครงสร้าง __`has been + V-ing`__: `She has been drinking a lot of coffee today.` ใช้ `today` เพื่อบอกช่วงเวลาที่ยังไม่จบและต่อเนื่อง."
+      },
+      {
+        "index": 2,
+        "text": "is drinking",
+        "is_correct": false,
+        "answer_description": "ผิดบริบท เพราะ `is drinking` เน้นขณะนี้ แต่ `today` สื่อกิจกรรมที่เกิดหลายครั้ง/ต่อเนื่องทั้งวัน ควรใช้ Present Perfect Continuous. ที่ถูก: `has been drinking`."
+      },
+      {
+        "index": 3,
+        "text": "has drank",
+        "is_correct": false,
+        "answer_description": "ผิดรูปกริยา เพราะหลัง **has/have** ต้องใช้ **V3 (past participle)** ของ drink คือ **drunk** ไม่ใช่ drank และยังไม่ใช่รูปต่อเนื่องด้วย. สำหรับความต่อเนื่องควรใช้ **`has been drinking`**."
+      },
+      {
+        "index": 4,
+        "text": "has drunk",
+        "is_correct": false,
+        "answer_description": "แม้เป็น Present Perfect Simple ที่รูปถูก แต่ไม่เน้นความต่อเนื่องตลอดทั้งวันเท่า **Present Perfect Continuous**. ประโยคนี้ควรใช้: `She has been drinking a lot of coffee today.`"
+      }
+    ]
+  },
+  {
+    "question": "You ___ too fast lately.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been driving",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้กับประธาน **You** เป็นโครงสร้าง __`have + been + V-ing`__ เพื่อบอกพฤติกรรมที่เกิดซ้ำๆ ช่วงหลังๆ (`lately`). ตัวอย่าง: `You have been driving too fast lately.`"
+      },
+      {
+        "index": 2,
+        "text": "are driving",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `are driving` เน้นเฉพาะตอนนี้ ไม่สื่อแนวโน้มช่วงหลังๆ (`lately`). ใช้ **Present Perfect Continuous** จะตรงกว่า: `have been driving`."
+      },
+      {
+        "index": 3,
+        "text": "have drove",
+        "is_correct": false,
+        "answer_description": "ผิดรูปกริยา หลัง **have** ต้องใช้ **V3** ของ drive คือ **driven** ไม่ใช่ drove และอีกอย่างควรใช้รูปต่อเนื่องเพื่อสื่อพฤติกรรมช่วงหลังๆ: `have been driving`."
+      },
+      {
+        "index": 4,
+        "text": "has been driving",
+        "is_correct": false,
+        "answer_description": "ผิดสอดคล้องประธาน เพราะ **You** ต้องใช้ **have** ไม่ใช่ **has**. คำตอบที่ถูกคือ: `You have been driving too fast lately.`"
+      }
+    ]
+  },
+  {
+    "question": "The team ___ better this season.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "has been playing",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **The team** นับเป็นเอกพจน์โดยความหมาย ใช้ **has + been + V-ing**: โครงสร้าง __`has been playing`__. `this season` ชี้ช่วงเวลาที่ยังดำเนินอยู่ จึงเหมาะกับ Present Perfect Continuous เช่น: `The team has been playing better this season.`"
+      },
+      {
+        "index": 2,
+        "text": "is playing",
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง เพราะ `is playing` เน้นแมตช์ตอนนี้ แต่ `this season` พูดถึงแนวโน้มทั้งฤดูกาล ควรใช้ **has been playing** เพื่อสื่อความต่อเนื่องตลอดฤดูกาล."
+      },
+      {
+        "index": 3,
+        "text": "have been playing",
+        "is_correct": false,
+        "answer_description": "ผิดสอดคล้องประธาน ในอังกฤษ/อเมริกันส่วนใหญ่ **team** มักถือเป็นเอกพจน์เมื่อเน้นหน่วยเดียว จึงใช้ **has** ไม่ใช่ **have**. ที่ถูก: `The team has been playing better this season.`"
+      },
+      {
+        "index": 4,
+        "text": "has played",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะเป็น **Present Perfect Simple** เน้นผล แต่เราต้องการสื่อกระบวนการ/ฟอร์มที่ดีขึ้นอย่างต่อเนื่องตลอดฤดูกาล. ใช้รูปต่อเนื่อง: **`has been playing`** จะชัดกว่า."
+      }
+    ]
+  }
+]

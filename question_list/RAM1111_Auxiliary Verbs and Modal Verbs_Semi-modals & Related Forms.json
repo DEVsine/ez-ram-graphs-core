@@ -1,0 +1,292 @@
+[
+  {
+    "question": "She ___ wear a helmet at the factory.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "has to",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกฎ/ความจำเป็นใช้กึ่งโมดัล **have to** และเมื่อประธานเป็นเอกพจน์บุคคลที่ 3 (She/He/It) ต้องใช้รูป **has to** ตามด้วยกริยาช่องพื้นฐาน เช่น `She has to wear a helmet.` โครงสร้างที่ถูกคือ __has to + base verb__. ตัวอย่างใช้งาน: `She has to wear a helmet at the factory for safety.`"
+      },
+      {
+        "index": 2,
+        "text": "have to",
+        "is_correct": false,
+        "answer_description": "ผิดที่สอดคล้องกับประธาน เพราะกับ **She/He/It** ต้องเป็น **has to** ไม่ใช่ **have to** เช่น `She has to finish her work.` ไม่ใช่ `She have to finish...`"
+      },
+      {
+        "index": 3,
+        "text": "must to",
+        "is_correct": false,
+        "answer_description": "ผิดที่รูปแบบ เพราะ **must** เป็นโมดัลแท้ ไม่ตามด้วย **to** ต้องเป็น `must + base verb` เช่น `She must wear a helmet.` ดังนั้น `must to wear` จึงผิดไวยากรณ์"
+      },
+      {
+        "index": 4,
+        "text": "is have to",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเอา **be** มาวางหน้ากึ่งโมดัล **have to** ซึ่งไม่ต้องการ **be** โครงสร้างถูกควรเป็น `has to + verb` เช่น `She has to wear...` ไม่ใช่ `She is have to wear...`"
+      }
+    ]
+  },
+  {
+    "question": "When the system opens next week, we ___ submit the form online.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be able to",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้แสดง **ความสามารถในอนาคต** ด้วยกึ่งโมดัล **be able to** ในรูปอนาคต: __will be able to + base verb__. ตัวอย่าง: `We will be able to submit the form online next week.`"
+      },
+      {
+        "index": 2,
+        "text": "are able to",
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะกับเวลาที่เป็นอนาคตที่ผูกกับเหตุการณ์ `when the system opens next week` ควรใช้รูปอนาคต `will be able to` จะชัดกว่า เช่น `We will be able to submit...`"
+      },
+      {
+        "index": 3,
+        "text": "could to",
+        "is_correct": false,
+        "answer_description": "ผิดรูปแบบ เพราะ **could** ไม่ตามด้วย **to** โครงสร้างต้องเป็น `could + base verb` เช่น `We could submit...` ไม่ใช่ `could to submit`"
+      },
+      {
+        "index": 4,
+        "text": "will can",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโมดัล **will** และ **can** ไม่ซ้อนกัน ไม่สามารถใช้ `will can` ได้ ถ้าต้องการความสามารถอนาคตให้ใช้ `will be able to` เช่น `We will be able to submit...`"
+      }
+    ]
+  },
+  {
+    "question": "Students ___ submit the assignment by Friday.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are supposed to",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **be supposed to** เพื่อบอก “คาดว่า/ควรจะตามกฎหรือความคาดหวัง” โครงสร้างคือ __be + supposed to + base verb__. ตัวอย่าง: `Students are supposed to submit the assignment by Friday.`"
+      },
+      {
+        "index": 2,
+        "text": "supposed to",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะขาดกริยา **be** ต้องเป็น `are supposed to` (หรือ `is/was/were` ตามประธานและกาล) เช่น `They are supposed to arrive on time.`"
+      },
+      {
+        "index": 3,
+        "text": "are suppose to",
+        "is_correct": false,
+        "answer_description": "ผิดที่รูปคำกริยา ต้องเป็น **supposed** (มี -ed) ไม่ใช่ **suppose** เช่น `We are supposed to read this chapter.`"
+      },
+      {
+        "index": 4,
+        "text": "are supposed submit",
+        "is_correct": false,
+        "answer_description": "ผิดโครงสร้าง เพราะหลัง **supposed** ต้องมี **to**: `be supposed to + verb` เช่น `Students are supposed to submit...` ไม่ใช่ `supposed submit`"
+      }
+    ]
+  },
+  {
+    "question": "You ___ use a dictionary in this test.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are allowed to",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **be allowed to** เพื่อบอก “ได้รับอนุญาต” โครงสร้างคือ __be + allowed to + base verb__. ตัวอย่าง: `You are allowed to use a dictionary in this test.`"
+      },
+      {
+        "index": 2,
+        "text": "allowed to",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะขาดกริยา **be** ต้องเป็น `are allowed to` (หรือ `is/was/were` ตามประธานและกาล) เช่น `She is allowed to leave early.`"
+      },
+      {
+        "index": 3,
+        "text": "are allow to",
+        "is_correct": false,
+        "answer_description": "ผิดรูปคำกริยา ควรใช้ `allowed` (Past participle) หลัง **be** เช่น `They are allowed to...` ไม่ใช่ `are allow to`"
+      },
+      {
+        "index": 4,
+        "text": "can allowed to",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะใช้โมดัลซ้อนกัน `can + allowed` ไม่ได้ ถ้าจะใช้ **can** ให้ตามด้วยฐาน `can use...` หรือใช้ `be allowed to` ตัวใดตัวหนึ่ง เช่น `You are allowed to use...`"
+      }
+    ]
+  },
+  {
+    "question": "You ___ leave now, or you'll miss the flight.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had better",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **had better** ใช้ให้คำแนะนำแรงๆ/เตือน โดยตามด้วยกริยาช่องพื้นฐาน โครงสร้างคือ __had better + base verb__. ตัวอย่าง: `You had better leave now.`"
+      },
+      {
+        "index": 2,
+        "text": "have better",
+        "is_correct": false,
+        "answer_description": "ผิดรูปคงที่ ต้องใช้ **had** ไม่ใช่ **have** เช่น `You had better see a doctor.` ไม่ใช่ `You have better...`"
+      },
+      {
+        "index": 3,
+        "text": "would better",
+        "is_correct": false,
+        "answer_description": "ผิดโครงสร้าง คำคงที่คือ **had better** ไม่ใช่ **would better** เช่น `You had better not be late.`"
+      },
+      {
+        "index": 4,
+        "text": "had better to",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะหลัง **had better** ไม่ใส่ **to** ต้องตามด้วยกริยาฐาน เช่น `You had better leave now.` ไม่ใช่ `had better to leave`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ stay home than go out tonight.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "would rather",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **would rather** เพื่อบอกความชอบหนึ่งมากกว่าอีกอย่าง โครงสร้างคือ __would rather + base verb + than + base verb__. ตัวอย่าง: `I would rather stay home than go out tonight.`"
+      },
+      {
+        "index": 2,
+        "text": "prefer to",
+        "is_correct": false,
+        "answer_description": "ยังไม่พอดีกับรูปประโยคนี้ เพราะ **prefer** มักใช้กับรูปแบบ `prefer to A rather than B` ถ้าจะใช้ต้องเขียนใหม่เป็น `I prefer to stay home rather than go out.` ประโยคที่มีคำว่า `than` อย่างเดียวเหมาะกับ **would rather** มากกว่า"
+      },
+      {
+        "index": 3,
+        "text": "would prefer to than",
+        "is_correct": false,
+        "answer_description": "ผิดรูปแบบ เพราะ **prefer** กับ **than** ต้องใช้ `rather than` เช่น `I would prefer to stay home rather than go out.` รูป `to than` ไม่ถูกต้อง"
+      },
+      {
+        "index": 4,
+        "text": "would rather to",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะหลัง **would rather** ไม่ใส่ **to** ต้องตามด้วยกริยาช่องพื้นฐาน เช่น `I would rather stay...` ไม่ใช่ `would rather to stay`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ getting up early; it's part of her routine.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is used to",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง แยกแยะระหว่าง **be used to (คุ้นชินกับ + คำนาม/gerund)** กับ **used to (เคยในอดีต)** ที่นี่พูดถึงความเคยชินปัจจุบันจึงใช้ __be + used to + noun/gerund__. ตัวอย่าง: `She is used to getting up early.`"
+      },
+      {
+        "index": 2,
+        "text": "used to",
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย เพราะ **used to + base verb** หมายถึง “เคยทำในอดีต ตอนนี้ไม่ทำแล้ว” เช่น `She used to get up early (but not now).` แต่ประโยคนี้บอกว่าเป็นกิจวัตรปัจจุบัน"
+      },
+      {
+        "index": 3,
+        "text": "was used to",
+        "is_correct": false,
+        "answer_description": "ผิดกาลเวลา ประโยคอธิบายกิจวัตรปัจจุบัน (`it's part of her routine`) จึงควรใช้ `is used to` ไม่ใช่ `was used to` ซึ่งสื่ออดีต เช่น `She was used to...`"
+      },
+      {
+        "index": 4,
+        "text": "is use to",
+        "is_correct": false,
+        "answer_description": "ผิดรูปคำ ต้องเป็น **used** (มี -d) ไม่ใช่ **use** โครงสร้างถูกคือ `be used to + noun/gerund` เช่น `She is used to waking up early.`"
+      }
+    ]
+  },
+  {
+    "question": "We ___ visit Grandma this weekend; it's already planned.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are going to",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **be going to** เพื่อบอกแผนที่วางไว้แล้ว โครงสร้างคือ __be + going to + base verb__. ตัวอย่าง: `We are going to visit Grandma this weekend.`"
+      },
+      {
+        "index": 2,
+        "text": "will",
+        "is_correct": false,
+        "answer_description": "แม้ `will` ใช้พูดถึงอนาคตได้ แต่ถ้าต้องการเน้น “มีแผนแล้ว” ใช้ **be going to** จะชัดกว่า เช่น `We are going to visit...` ส่วน `We will visit...` มักกลางๆ หรือเพิ่งตัดสินใจตอนพูด"
+      },
+      {
+        "index": 3,
+        "text": "going to",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะขาดกริยา **be** ต้องเป็น `are going to` (หรือ `am/is` ตามประธาน) เช่น `They are going to travel.`"
+      },
+      {
+        "index": 4,
+        "text": "are going visit",
+        "is_correct": false,
+        "answer_description": "ผิดรูปแบบ เพราะต้องมี **to** ก่อนกริยาหลัก โครงสร้างถูกคือ `be going to + base verb` เช่น `are going to visit`"
+      }
+    ]
+  },
+  {
+    "question": "I've ___ finish this by 5.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "got to",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปไม่เป็นทางการของ **have got to** เมื่อลดรูปกับ `I have` จะเป็น `I've` แล้วตามด้วย __got to + base verb__. ตัวอย่าง: `I've got to finish this by 5.` เทียบได้กับ `I have to finish...`"
+      },
+      {
+        "index": 2,
+        "text": "have got to",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะซ้ำกริยา `have` กับ `I've` ถ้าจะใช้เต็มๆ ต้องเป็น `I have got to...` ไม่ใช่ `I've have got to...` ดังนั้นในช่องว่างควรใส่เฉพาะ `got to`"
+      },
+      {
+        "index": 3,
+        "text": "to got",
+        "is_correct": false,
+        "answer_description": "ผิดลำดับคำและรูปกริยา โครงสร้างถูกต้องคือ `have got to + base verb` หรือ `have to + base verb` เช่น `I've got to go.` ไม่ใช่ `to got`"
+      },
+      {
+        "index": 4,
+        "text": "got",
+        "is_correct": false,
+        "answer_description": "ไม่ครบโครงสร้าง เพราะต้องเป็น `got to + verb` เพื่อสื่อความจำเป็น เช่น `I've got to finish...` คำว่า `I've got finish...` จะผิดรูป"
+      }
+    ]
+  },
+  {
+    "question": "You ___ bring any money; the tickets are free.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "don't need to",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **need to** ในรูปปฏิเสธเพื่อบอกว่า “ไม่จำเป็นต้อง” โครงสร้างคือ __do/does/did + not + need to + base verb__. ตัวอย่าง: `You don't need to bring any money.`"
+      },
+      {
+        "index": 2,
+        "text": "needn't to",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะ **needn't** (เมื่อใช้เป็นโมดัล) ไม่ตามด้วย **to** ต้องเป็น `needn't + base verb` เช่น `You needn't bring any money.` ดังนั้น `needn't to bring` จึงผิด"
+      },
+      {
+        "index": 3,
+        "text": "don't need",
+        "is_correct": false,
+        "answer_description": "ยังไม่ครบโครงสร้าง เพราะขาด **to** ก่อนกริยาหลัก ต้องเป็น `don't need to + verb` เช่น `You don't need to pay.` ไม่ใช่ `don't need pay`"
+      },
+      {
+        "index": 4,
+        "text": "doesn't need to",
+        "is_correct": false,
+        "answer_description": "ผิดการสอดคล้องประธาน เนื่องจากประธานคือ **You** ต้องใช้ `don't` ไม่ใช่ `doesn't` รูปที่ถูกคือ `You don't need to bring...`"
+      }
+    ]
+  }
+]

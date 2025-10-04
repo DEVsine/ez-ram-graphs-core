@@ -1,0 +1,292 @@
+[
+  {
+    "question": "___ you listening to the podcast right now?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Are",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะการถามใน **Present Continuous** ใช้ **โครงสร้าง: `be + subject + V-ing`** ดังนั้นต้องขึ้นต้นด้วย `Are` สำหรับประธาน **you**. ตัวอย่าง: `Are you listening to the podcast right now?` หรือ `Are you studying now?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **do-support** ใช้กับ Present Simple ไม่ใช่ Present Continuous. ถ้าใช้ Continuous ต้องใช้ `be` เช่น `Are you listening?` ไม่ใช่ `Do you listening?`"
+      },
+      {
+        "index": 3,
+        "text": "Did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Did` เป็นอดีตกาล และยังไม่เข้ากับรูป **V-ing** ของ Present Continuous. ประโยคที่ถูกควรเป็น `Are you listening...?` ไม่ใช่ `Did you listening...?`"
+      },
+      {
+        "index": 4,
+        "text": "Have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Have` ใช้กับ Present Perfect ไม่ใช่ Present Continuous. รูปที่ถูกคือ `Are you listening...?` ตัวอย่าง: `Are you watching TV?`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ not working tonight.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคปฏิเสธใน **Present Continuous** ใช้ **โครงสร้าง: `subject + be + not + V-ing`** ดังนั้นต้องเป็น `She is not working tonight.` ตัวอย่างใช้งาน: `She is not studying now.`"
+      },
+      {
+        "index": 2,
+        "text": "does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `does not + V` เป็นรูป **Present Simple** ไม่ใช่ Continuous. ถ้าจะใช้ Continuous ต้อง: `She is not working...` ไม่ใช่ `She does not working...`"
+      },
+      {
+        "index": 3,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลเดียวกันกับ `does`—เป็นรูปช่วยของ Present Simple. รูปที่ถูกคือ `She is not working tonight.`"
+      },
+      {
+        "index": 4,
+        "text": "has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `has` ใช้กับ Present Perfect และไม่เข้ากับ **V-ing**. ประโยคที่ถูกควรเป็น `She is not working tonight.`"
+      }
+    ]
+  },
+  {
+    "question": "Are they joining us for dinner? — Yes, they ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำตอบสั้นใน Continuous ต้องใช้ **กริยาช่วยเดียวกับคำถาม** ดังนั้นใช้ **โครงสร้าง: `Yes/No + subject + be`** เช่น `Yes, they are.` ตัวอย่าง: `Are you coming? — Yes, I am.`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใน Present Continuous ไม่ใช้ `do/does` สำหรับคำตอบสั้น. ต้องใช้ `be` ให้ตรงกับคำถาม: `Are they...? — Yes, they are.`"
+      },
+      {
+        "index": 3,
+        "text": "will",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `will` เป็นอนาคต ไม่ตรงกับคำถามที่ใช้ Present Continuous. คำตอบที่ถูกคือ `Yes, they are.`"
+      },
+      {
+        "index": 4,
+        "text": "have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `have` สื่อถึง Present Perfect. สำหรับ Continuous ต้องตอบด้วย `be`: `Yes, they are.`"
+      }
+    ]
+  },
+  {
+    "question": "What ___ you doing?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง การตั้งคำถามใน Present Continuous ใช้ **โครงสร้าง: `Wh- + be + subject + V-ing`** ดังนั้น `What are you doing?` จึงถูกต้อง. ตัวอย่างเพิ่ม: `Where are you going?`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ **do-support** กับ Present Simple เท่านั้น. รูปที่ถูกต้องคือ `What are you doing?` ไม่ใช่ `What do you doing?`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ `you` ต้องใช้ `are` ไม่ใช่ `is`. ตัวอย่างที่ถูก: `What are you reading?`"
+      },
+      {
+        "index": 4,
+        "text": "be",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `be` ต้องผันตามประธานก่อนใช้งาน. ควรเป็น `are` สำหรับ `you`: `What are you doing?`"
+      }
+    ]
+  },
+  {
+    "question": "He isn't studying, ___?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is he",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ปลายหางคำถาม (tag question) ของ Present Continuous ใช้ **กริยาช่วยตัวเดิม (`be`) และกลับบวกลบ** ดังนั้น `He isn't ... , is he?` จึงถูก. ตัวอย่าง: `She's working, isn't she?` และ `They aren't coming, are they?`"
+      },
+      {
+        "index": 2,
+        "text": "isn't he",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะต้องสลับขั้วจากประโยคหลักที่เป็นปฏิเสธ (`isn't`) ให้เป็นบวกในแท็ก (`is he`). รูปถูกคือ `He isn't studying, is he?`"
+      },
+      {
+        "index": 3,
+        "text": "does he",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะแท็กของ Present Continuous ต้องใช้ `be` ไม่ใช่ `do/does`. ตัวอย่างเปรียบเทียบ: `He studies, doesn't he?` (Present Simple) แต่ `He is studying, isn't he?` (Present Continuous)."
+      },
+      {
+        "index": 4,
+        "text": "doesn't he",
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลเดียวกัน—ใช้ `do-support` ผิดเทนส์. สำหรับ Continuous ต้องใช้ `is he` หรือ `isn't he` ตามขั้วของประโยคหลัก."
+      }
+    ]
+  },
+  {
+    "question": "Sorry, I can't talk. I ___ to a client.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "am talking",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกำลังกระทำอยู่ตอนนี้ ใช้ **โครงสร้าง: `subject + be + V-ing`** เป็น Present Continuous: `I am talking to a client.` ตัวอย่างใช้ในชีวิตจริง: `I am driving right now.`"
+      },
+      {
+        "index": 2,
+        "text": "talk",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปกริยาธรรมดา `talk` เป็น Present Simple ใช้บอกกิจวัตร ไม่ใช่สิ่งที่กำลังเกิดตอนนี้. ควรใช้ `am talking` เช่น `I am talking now.`"
+      },
+      {
+        "index": 3,
+        "text": "am talk",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `be` ต้องเป็น **V-ing** ไม่ใช่รูปฐาน. รูปที่ถูกคือ `am talking` เช่น `I am working.`"
+      },
+      {
+        "index": 4,
+        "text": "do talk",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `do + V1` เน้นย้ำใน Present Simple เท่านั้น. กำลังคุยอยู่ตอนนี้ต้องใช้ `am talking`."
+      }
+    ]
+  },
+  {
+    "question": "___ you coming with us?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Aren't",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำถามปฏิเสธแบบย่อใน Present Continuous ใช้ **โครงสร้าง: `Aren't/Isn't + subject + V-ing`** เช่น `Aren't you coming with us?` ใช้เมื่อชวนหรือคาดหวังคำตอบบวก. ตัวอย่าง: `Isn't he joining us?`"
+      },
+      {
+        "index": 2,
+        "text": "Don't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Don't` เป็นของ Present Simple ไม่ใช่ Continuous. รูปถูกควรเป็น `Aren't you coming...?`"
+      },
+      {
+        "index": 3,
+        "text": "Isn't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ `you` ต้องใช้ `are` ไม่ใช่ `is`. รูปที่ถูก: `Aren't you coming...?`"
+      },
+      {
+        "index": 4,
+        "text": "Weren't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นอดีตกาลของ `are` (`were`). ประโยคนี้อยู่ปัจจุบัน จึงต้องใช้ `Aren't you ...?`"
+      }
+    ]
+  },
+  {
+    "question": "Who ___ making that noise?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อ `Who` เป็นประธาน มักใช้รูปเอกพจน์ และใน Present Continuous ใช้ **โครงสร้าง: `be + V-ing`** จึงเป็น `Who is making ...?` ตัวอย่าง: `Who is calling?`"
+      },
+      {
+        "index": 2,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะในคำถามแบบ `Who` เป็นประธาน มักใช้ `is` แม้คนที่ตอบอาจมากกว่าหนึ่ง. รูปถูก: `Who is making that noise?`"
+      },
+      {
+        "index": 3,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ `do` กับ Present Simple ไม่ใช่ Continuous. ต้องใช้ `is/are + V-ing` เช่น `Who is talking?`"
+      },
+      {
+        "index": 4,
+        "text": "does",
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลเดียวกัน—เป็น Present Simple. รูปที่ถูกคือ `Who is making that noise?`"
+      }
+    ]
+  },
+  {
+    "question": "Are we ___ at 3 p.m.?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "meeting",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง หลัง `be` ใน Present Continuous ต้องตามด้วย **V-ing** ดังนั้น `Are we meeting at 3 p.m.?` จึงถูก. ตัวอย่าง: `Are we having a call later?`"
+      },
+      {
+        "index": 2,
+        "text": "meet",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปฐาน ไม่ใช่ **V-ing**. รูปถูกคือ `Are we meeting ...?` เช่น `Are we meeting tomorrow?`"
+      },
+      {
+        "index": 3,
+        "text": "to meet",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Infinitive ไม่ใช่ Present Continuous. ควรใช้ `meeting` เพื่อสื่อถึงแผน/นัดหมายที่กำลังคุยกันตอนนี้."
+      },
+      {
+        "index": 4,
+        "text": "met",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นอดีตกาล/รูปช่อง 3 ไม่เข้ากับโครงสร้าง Continuous. รูปถูก: `Are we meeting at 3 p.m.?`"
+      }
+    ]
+  },
+  {
+    "question": "Why ___ he not coming?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำถามแบบมี `Wh-` ใน Present Continuous ใช้ **โครงสร้าง: `Wh- + be + subject + V-ing`** ดังนั้น `Why is he not coming?` จึงถูกต้อง. ตัวอย่าง: `Why is she leaving early?`"
+      },
+      {
+        "index": 2,
+        "text": "does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `does` เป็นของ Present Simple และไม่ตามด้วย **V-ing**. รูปถูกคือ `Why is he not coming?` ไม่ใช่ `Why does he not coming?`"
+      },
+      {
+        "index": 3,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลเดียวกัน—เป็น do-support ของ Present Simple. Continuous ต้องใช้ `is/are + V-ing` เช่น `Why is he leaving?`"
+      },
+      {
+        "index": 4,
+        "text": "has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `has` ชี้ไปที่ Present Perfect ไม่เข้ากับรูป `coming` ที่เป็น **V-ing**. ใช้ `is` จะถูกต้อง: `Why is he not coming?`"
+      }
+    ]
+  }
+]

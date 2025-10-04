@@ -1,0 +1,292 @@
+[
+  {
+    "question": "This is ___ movie I've ever seen.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the funniest",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **superlative** กับโครงสร้าง __`the + superlative (-est)` + `I've ever`__ เพื่อเปรียบเทียบที่สุดในประสบการณ์ เช่น `This is the funniest movie I've ever seen.` แปลว่าเป็นหนังที่ตลกที่สุดเท่าที่เคยดูมา ตัวอย่างเพิ่ม: `That was the scariest story I've ever heard.`"
+      },
+      {
+        "index": 2,
+        "text": "most funny",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำคุณศัพท์สั้นอย่าง **funny** ใช้รูป **-est** ไม่ใช้ `most` จึงควรเป็น `the funniest` ไม่ใช่ `most funny` เช่น: `She is the funniest person in class.` ไม่ใช่ `She is most funny in class.`"
+      },
+      {
+        "index": 3,
+        "text": "funnier",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `funnier` เป็นรูป **comparative** (กว่า) ไม่ใช่ **superlative** (ที่สุด) ที่ต้องการในประโยคนี้ เราต้องใช้ `the funniest` เช่น: `This is the funniest movie I've ever seen.`"
+      },
+      {
+        "index": 4,
+        "text": "funniest",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาด **`the`** หน้า superlative รูปที่ถูกต้องคือ `the funniest` เช่น: `This is the funniest movie I've ever seen.` การลืม `the` ทำให้โครงสร้างไม่สมบูรณ์"
+      }
+    ]
+  },
+  {
+    "question": "Mount Everest is ___ mountain in the world.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the highest",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้รูป **superlative** แบบ __`the + adjective-est`__ กับคำสั้นอย่าง `high → the highest` เมื่อพูดถึง \"ที่สุดในโลก\" เช่น `Mount Everest is the highest mountain in the world.` ตัวอย่างเพิ่ม: `It’s the tallest building in the city.`"
+      },
+      {
+        "index": 2,
+        "text": "higher",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `higher` คือรูป **comparative** (กว่า) ใช้เมื่อเทียบสองสิ่ง เช่น `A is higher than B.` แต่ที่นี่ต้องการรูปที่สุด (superlative) จึงควรเป็น `the highest`"
+      },
+      {
+        "index": 3,
+        "text": "highest",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะลืมคำกำกับ **`the`** หน้า superlative โครงสร้างที่ถูกคือ `the highest` เช่น `This is the highest peak.`"
+      },
+      {
+        "index": 4,
+        "text": "the most high",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำคุณศัพท์สั้นอย่าง `high` ใช้รูป **-est** ไม่ใช้ `most` จึงต้องเป็น `the highest` ไม่ใช่ `the most high` เช่น: `the highest score` ไม่ใช่ `the most high score`"
+      }
+    ]
+  },
+  {
+    "question": "Of all the students, Mia writes ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the most neatly",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **superlative adverb** แบบ __`the most + adverb`__ กับคำกริยาวิเศษณ์ที่ไม่มีรูป -est เช่น `neatly → the most neatly` ตัวอย่าง: `Mia writes the most neatly in the class.` หรือ `He speaks the most clearly of all.`"
+      },
+      {
+        "index": 2,
+        "text": "the neatest",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `the neatest` เป็น **adjective** ไม่ใช่ **adverb** ประโยคนี้ต้องขยายกริยา `writes` จึงควรใช้ adverb: `the most neatly` ตัวอย่างเปรียบเทียบ: `She is the neatest student` (adj) vs `She writes the most neatly` (adv)"
+      },
+      {
+        "index": 3,
+        "text": "more neatly",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `more neatly` เป็นรูป **comparative** (กว่า) แต่ประโยคมี `Of all the students` ชี้ชัดว่าเป็นการเปรียบเทียบที่สุด ต้องใช้ **superlative**: `the most neatly`"
+      },
+      {
+        "index": 4,
+        "text": "most neat",
+        "is_correct": false,
+        "answer_description": "ผิด ทั้งรูปคำและตำแหน่ง ควรใช้ **adverb** `neatly` และต้องมี `the` นำหน้าเป็น `the most neatly` ไม่ใช่ `most neat` เช่น: `She writes the most neatly of all.`"
+      }
+    ]
+  },
+  {
+    "question": "January is usually ___ month of the year in Canada.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the coldest",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **superlative** แบบ __`the + adjective-est`__ เนื่องจาก `cold` เป็นคำสั้น: `cold → the coldest` ตัวอย่าง: `January is the coldest month of the year in many places.`"
+      },
+      {
+        "index": 2,
+        "text": "colder",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **comparative** (กว่า) ใช้เทียบสองสิ่งเท่านั้น ที่นี่พูดถึง \"ที่สุดของปี\" ต้องใช้ `the coldest`"
+      },
+      {
+        "index": 3,
+        "text": "coldest",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะลืม **`the`** หน้า superlative รูปที่ถูกคือ `the coldest` เช่น: `It’s the coldest day this winter.`"
+      },
+      {
+        "index": 4,
+        "text": "the most cold",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำสั้น `cold` ใช้รูป **-est** ไม่ใช้ `most` จึงควรเป็น `the coldest` ไม่ใช่ `the most cold`"
+      }
+    ]
+  },
+  {
+    "question": "This puzzle is one of ___ in the book.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the hardest puzzles",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง `one of` ต้องตามด้วย __`the + superlative + plural noun`__ เช่น `one of the hardest puzzles` ตัวอย่าง: `This is one of the most interesting books I’ve read.`"
+      },
+      {
+        "index": 2,
+        "text": "the most hard puzzles",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำว่า `hard` เป็นคำสั้น ใช้รูป **-est** ไม่ใช่ `most` จึงควรเป็น `the hardest puzzles` ไม่ใช่ `the most hard puzzles`"
+      },
+      {
+        "index": 3,
+        "text": "hardest puzzle",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `one of` ต้องเป็นคำนาม **พหูพจน์** และควรมี `the` นำหน้า superlative รูปที่ถูกคือ `one of the hardest puzzles`"
+      },
+      {
+        "index": 4,
+        "text": "the harder puzzles",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `harder` เป็นรูป **comparative** ไม่ใช่ **superlative** และไม่ตรงกับโครงสร้าง `one of the + superlative + plural noun` เช่น `one of the hardest puzzles`"
+      }
+    ]
+  },
+  {
+    "question": "Who is ___ in your family?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the oldest",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อถามถึงคนที่ \"แก่ที่สุด/โตที่สุด\" ใช้รูป **superlative** แบบ __`the + adjective-est`__: `old → the oldest` ตัวอย่าง: `She is the oldest in her family.`"
+      },
+      {
+        "index": 2,
+        "text": "older",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **comparative** (กว่า) ใช้เทียบสองคน เช่น `Tom is older than Tim.` คำถามนี้ถามถึงคนที่ \"ที่สุด\" ในกลุ่ม จึงต้องใช้ `the oldest`"
+      },
+      {
+        "index": 3,
+        "text": "oldest",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาด **`the`** หน้า superlative ควรเป็น `the oldest` เช่น: `Who is the oldest in your family?`"
+      },
+      {
+        "index": 4,
+        "text": "most old",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำว่า `old` เป็นคำสั้น ใช้รูป **-est** ไม่ใช่ `most` จึงควรใช้ `the oldest` ไม่ใช่ `most old`"
+      }
+    ]
+  },
+  {
+    "question": "This road is ___ way to the airport.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the quickest",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **superlative** แบบ __`the + adjective-est`__ กับคำสั้น `quick → the quickest` เมื่อหมายถึง \"ทางที่เร็วที่สุด\" เช่น `This is the quickest way to the airport.`"
+      },
+      {
+        "index": 2,
+        "text": "the most quick",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `quick` เป็นคำสั้น ควรใช้ `-est` ไม่ใช่ `most` ดังนั้นต้องใช้ `the quickest` ไม่ใช่ `the most quick`"
+      },
+      {
+        "index": 3,
+        "text": "quicker",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **comparative** ใช้เทียบสองทาง เช่น `This road is quicker than that one.` แต่ประโยคนี้ต้องการรูปที่สุด จึงควรเป็น `the quickest`"
+      },
+      {
+        "index": 4,
+        "text": "quickest",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะลืม **`the`** หน้า superlative รูปที่ถูกต้องคือ `the quickest` เช่น: `It’s the quickest route.`"
+      }
+    ]
+  },
+  {
+    "question": "He worked ___ of all.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the most diligently",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **superlative adverb** แบบ __`the most + adverb`__ กับคำกริยาวิเศษณ์ที่ไม่มีรูป -est เช่น `diligently → the most diligently` ตัวอย่าง: `He worked the most diligently of all the interns.`"
+      },
+      {
+        "index": 2,
+        "text": "most diligent",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ **adjective** (`diligent`) แทนที่จะใช้ **adverb** (`diligently`) และยังขาด `the` ด้วย รูปที่ถูกคือ `the most diligently`"
+      },
+      {
+        "index": 3,
+        "text": "the more diligent",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **comparative** (`more`) ไม่ใช่ **superlative** และยังใช้ adjective แทน adverb ควรเป็น `the most diligently` เพื่อขยายกริยา `worked`"
+      },
+      {
+        "index": 4,
+        "text": "the most diligent",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ **adjective** (`diligent`) แทน **adverb** ที่ต้องการขยายกริยา `worked` รูปถูกต้องคือ `the most diligently` เช่น: `She studied the most diligently.`"
+      }
+    ]
+  },
+  {
+    "question": "This is ___ advice you can give.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the least helpful",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้รูป **superlative of inferiority** แบบ __`the least + adjective`__ เพื่อบอกว่า \"น้อยที่สุด/แย่น้อยสุด\" เช่น `This is the least helpful advice you can give.` ตัวอย่างเพิ่ม: `That was the least interesting part.`"
+      },
+      {
+        "index": 2,
+        "text": "least helpful",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะลืม **`the`** หน้า `least` ในรูป superlative ต้องใช้ `the least helpful` เช่น: `It’s the least helpful comment.`"
+      },
+      {
+        "index": 3,
+        "text": "the less helpful",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `less` เป็นรูป **comparative** ไม่ใช่ **superlative** รูปที่ถูกสำหรับที่สุดคือต้องใช้ `the least helpful`"
+      },
+      {
+        "index": 4,
+        "text": "the most least helpful",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะซ้อนรูป superlative สองแบบ (`most` และ `least`) ซึ่งขัดกัน ต้องเลือกอย่างใดอย่างหนึ่ง ที่นี่ต้องการความหมาย \"น้อยที่สุด\" จึงใช้ `the least helpful`"
+      }
+    ]
+  },
+  {
+    "question": "It was ___ day of my life.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the happiest",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำลงท้ายด้วย `-y` เช่น `happy` เปลี่ยนเป็น `i` แล้วเติม **-est**: __`happy → the happiest`__ ตัวอย่าง: `It was the happiest day of my life.` หรือ `This is the funniest joke.`"
+      },
+      {
+        "index": 2,
+        "text": "happier",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **comparative** (กว่า) ไม่ใช่รูป **superlative** ที่ต้องใช้ในบริบท \"ที่สุดในชีวิต\" ควรใช้ `the happiest`"
+      },
+      {
+        "index": 3,
+        "text": "happiest",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะลืมคำ **`the`** หน้า superlative รูปที่ถูกคือ `the happiest` เช่น: `She is the happiest person today.`"
+      },
+      {
+        "index": 4,
+        "text": "the most happy",
+        "is_correct": false,
+        "answer_description": "ผิด แม้สื่อความหมายได้ แต่ไม่เป็นธรรมชาติเมื่อคำสั้นอย่าง `happy` ใช้รูป **-est** จึงควรเป็น `the happiest` มากกว่า เช่น: `the happiest moment`"
+      }
+    ]
+  }
+]

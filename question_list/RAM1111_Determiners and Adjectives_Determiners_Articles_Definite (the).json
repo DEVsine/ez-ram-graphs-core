@@ -1,0 +1,292 @@
+[
+  {
+    "question": "___ sun rises in the east.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะสิ่งที่มีเพียงหนึ่งเดียวในโลกใช้ __the + unique noun__ เช่น **the sun**, **the moon**. ตัวอย่าง: `The sun rises in the east.` และ `The moon looks bright tonight.` การใช้ **the** ช่วยชี้เฉพาะว่าสิ่งนั้น “อันเดียว” ที่ทุกคนรู้จักเหมือนกัน"
+      },
+      {
+        "index": 2,
+        "text": "a",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **a** ใช้กับสิ่งที่ไม่เฉพาะเจาะจงหรือกล่าวถึงครั้งแรก เช่น `a book`, `a car`. แต่ **sun** เป็นสิ่งที่มีเพียงหนึ่งเดียว จึงต้องใช้ **the**, ไม่ใช่ `a sun`."
+      },
+      {
+        "index": 3,
+        "text": "an",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **an** ใช้หน้าคำนามเสียงสระที่เป็นแบบไม่เฉพาะเจาะจง เช่น `an apple`, `an idea`. ในที่นี้เราหมายถึงดวงอาทิตย์ดวงเดียวที่รู้จักร่วมกัน จึงต้องเป็น `the sun`."
+      },
+      {
+        "index": 4,
+        "text": "— (no article)",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำนามเอกพจน์นับได้อย่าง `sun` ต้องมีตัวกำหนด และเมื่อเป็นสิ่งเฉพาะต้องใช้ `the`. รูป `Sun rises in the east.` จึงไม่ถูก ต้องเป็น `The sun rises in the east.`"
+      }
+    ]
+  },
+  {
+    "question": "This is ___ best idea we've had.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะขั้นสูงสุดต้องใช้ __the + superlative adjective__ เช่น **the best**, **the tallest**. ตัวอย่าง: `This is the best idea we've had.` และ `She is the smartest in the class.` รูปแบบนี้ชี้ว่าเหนือกว่าทั้งหมด"
+      },
+      {
+        "index": 2,
+        "text": "a",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขั้นสูงสุดไม่ใช้ **a/an** ต้องใช้ **the** เสมอ เช่น `the fastest`, ไม่ใช่ `a fastest`. ถ้าอยากพูดแบบไม่สุด ๆ ใช้ `a better idea` (ขั้นกว่า) แทน"
+      },
+      {
+        "index": 3,
+        "text": "an",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **an** ใช้กับเสียงสระในคำนาม/คุณศัพท์ที่ไม่เฉพาะเจาะจง เช่น `an interesting idea`. แต่เมื่อเป็นขั้นสูงสุดต้องใช้ `the best` ไม่ใช่ `an best`"
+      },
+      {
+        "index": 4,
+        "text": "— (no article)",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหน้า superlative ต้องมี **the** เสมอ เช่น `the most important`, `the biggest`. ประโยคที่เว้นว่างจะกลายเป็น `This is best idea...` ซึ่งผิดหลัก"
+      }
+    ]
+  },
+  {
+    "question": "He lives on ___ third floor.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะลำดับที่ใช้ __the + ordinal number__ เช่น **the first**, **the second**, **the third**. ตัวอย่าง: `He lives on the third floor.` และ `My office is on the first floor.` ใช้ **the** เพื่อชี้ตำแหน่งลำดับที่ชัดเจน"
+      },
+      {
+        "index": 2,
+        "text": "a",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหน้าเลขลำดับ (ordinal numbers) ต้องใช้ **the** ไม่ใช่ **a/an**. ตัวอย่างที่ถูกต้องคือ `the third floor` ไม่ใช่ `a third floor`"
+      },
+      {
+        "index": 3,
+        "text": "an",
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลเดียวกับข้อก่อน เลขลำดับต้องใช้ **the**. รูป `an third floor` ผิดทั้งรูปเสียงและไวยากรณ์"
+      },
+      {
+        "index": 4,
+        "text": "— (no article)",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเมื่อระบุชั้นแบบเฉพาะเจาะจงต้องใช้ `the` เช่น `on the third floor`. การละคำนำหน้านามทำให้ความหมายไม่ครบ"
+      }
+    ]
+  },
+  {
+    "question": "I bought a laptop. ___ laptop is very fast.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "The",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อกล่าวถึงคำนามเดิมซ้ำครั้งที่สองใช้ __the + noun (mentioned earlier)__ เพื่อชี้เฉพาะสิ่งนั้น. ตัวอย่าง: `I saw a dog. The dog was friendly.` เช่นเดียวกัน `I bought a laptop. The laptop is very fast.`"
+      },
+      {
+        "index": 2,
+        "text": "A",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **a** ใช้เมื่อพูดถึงสิ่งใหม่หรือไม่เฉพาะเจาะจง หากใช้ `A laptop is very fast` จะเหมือนพูดโดยรวม ไม่ได้ชี้ไปที่เครื่องที่เพิ่งซื้อ"
+      },
+      {
+        "index": 3,
+        "text": "An",
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลเดียวกับ `A` และยังขัดกับเสียงขึ้นต้นของ `laptop` ที่เป็นพยัญชนะ จึงควรใช้ `a` ถ้าไม่เฉพาะ แต่ที่ถูกคือ `the laptop`"
+      },
+      {
+        "index": 4,
+        "text": "— (no article)",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำนามเอกพจน์นับได้อย่าง `laptop` ต้องมีตัวกำหนด และเมื่ออ้างถึงสิ่งที่รู้กันแล้ว ต้องใช้ `the`. ตัวอย่างผิด: `Laptop is very fast.`"
+      }
+    ]
+  },
+  {
+    "question": "Can you pass ___ book on the table?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะวลีบอกตำแหน่งทำให้คำนามเฉพาะเจาะจง ใช้ __the + noun + prepositional phrase__ เช่น **the book on the table**, **the man in the blue shirt**. ตัวอย่าง: `Please open the door next to you.` และ `Pass me the book on the table.`"
+      },
+      {
+        "index": 2,
+        "text": "a",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเราชี้เฉพาะเล่มที่อยู่ `on the table` จึงต้องใช้ **the**. ถ้าใช้ `a book on the table` จะเน้น “หนังสือหนึ่งเล่มใดก็ได้” ไม่เฉพาะเจาะจง"
+      },
+      {
+        "index": 3,
+        "text": "this",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะประโยคต้องการเติมคำนำหน้านามแบบ article มากกว่า demonstrative ถ้าจะใช้ `this` ต้องเขียน `this book` และน้ำเสียงจะหมายถึงเล่มใกล้ผู้พูด ไม่เท่ากับโครงสร้างที่ชี้ด้วยวลีขยาย"
+      },
+      {
+        "index": 4,
+        "text": "— (no article)",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำนามเอกพจน์นับได้ `book` ต้องมีตัวกำหนด และเมื่อมีวลีบอกตำแหน่งที่ทำให้เฉพาะเจาะจง จึงใช้ `the book on the table` ไม่ใช่การละคำนำหน้า"
+      }
+    ]
+  },
+  {
+    "question": "She plays ___ piano very well.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อตามหลังคำว่า play เพื่อพูดถึงความสามารถเล่นเครื่องดนตรี ใช้ __play the + instrument__ เช่น **play the piano**, **play the guitar**. ตัวอย่าง: `She plays the piano very well.` และ `He plays the violin.`"
+      },
+      {
+        "index": 2,
+        "text": "a",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะปกติเมื่อพูดถึงการเล่นเครื่องดนตรีในความหมายทั่วไปจะใช้ **the** ไม่ใช่ **a**. `play a piano` ใช้ได้เฉพาะบางบริบทที่เน้น “พีอาโนตัวหนึ่ง” ซึ่งไม่ใช่รูปมาตรฐานของความสามารถ"
+      },
+      {
+        "index": 3,
+        "text": "— (no article)",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปมาตรฐานคือ `play the + instrument` เช่น `play the drums`, `play the piano`. การละคำนำหน้าไม่เป็นธรรมชาติในโครงสร้างนี้"
+      },
+      {
+        "index": 4,
+        "text": "her",
+        "is_correct": false,
+        "answer_description": "ผิดในเชิงหลักทั่วไป เพราะเราพูดถึงความสามารถ ไม่ได้ชี้ว่าเป็น “เปียโนของเธอ” ถ้าจะเน้นความเป็นเจ้าของจึงค่อยใช้ `her piano`. รูปมาตรฐานคือ `play the piano`"
+      }
+    ]
+  },
+  {
+    "question": "___ Nile is the longest river in Africa.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "The",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ชื่อแม่น้ำ ทะเล มหาสมุทร ใช้ __the + proper name__ เสมอ เช่น **the Nile**, **the Amazon**, **the Pacific**. ตัวอย่าง: `The Nile is in Africa.` และ `The Amazon flows through South America.`"
+      },
+      {
+        "index": 2,
+        "text": "A",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะชื่อเฉพาะของแม่น้ำต้องใช้ **the** ไม่ใช้ **a/an**. `A Nile` ไม่มีความหมายที่ถูกต้องตามหลักไวยากรณ์"
+      },
+      {
+        "index": 3,
+        "text": "An",
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลเดียวกับ `A` และรูปเสียงก็ไม่เกี่ยว เพราะชื่อเฉพาะต้องใช้ `the` เช่น `the Nile`, `the Thames`"
+      },
+      {
+        "index": 4,
+        "text": "— (no article)",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะชื่อแม่น้ำต้องมี **the** เสมอ เช่น `the Nile`, ไม่ใช่ `Nile` เฉย ๆ ต่างจากชื่อภูเขาเดี่ยว เช่น `Mount Everest` ที่ไม่ต้องใช้ the"
+      }
+    ]
+  },
+  {
+    "question": "I read ___ New York Times every morning.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ชื่อหนังสือพิมพ์ใช้ __the + newspaper name__ เสมอ เช่น **the New York Times**, **the Guardian**. ตัวอย่าง: `I read the New York Times every morning.` และ `She writes for the Guardian.`"
+      },
+      {
+        "index": 2,
+        "text": "a",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะชื่อเฉพาะของหนังสือพิมพ์ต้องใช้ **the** ไม่ใช้ **a/an**. ถ้าจะพูดทั่วไปว่าอ่านหนังสือพิมพ์ฉบับหนึ่ง ใช้ `a newspaper` แต่เมื่อระบุชื่อ ต้องเป็น `the New York Times`"
+      },
+      {
+        "index": 3,
+        "text": "— (no article)",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปที่ถูกคือ `the New York Times` ไม่ใช่ `New York Times` เฉย ๆ. กฎนี้คล้ายกับ `the Washington Post`, `the Times`"
+      },
+      {
+        "index": 4,
+        "text": "an",
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลเดียวกัน ชื่อหนังสือพิมพ์ต้องใช้ `the`. `an New York Times` ก็ผิดรูปเสียงด้วย"
+      }
+    ]
+  },
+  {
+    "question": "___ rich should pay more taxes, some people say.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "The",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อตามด้วยคุณศัพท์เพื่อพูดถึง “คนกลุ่มนั้น” ใช้ __the + adjective (plural meaning)__ เช่น **the rich**, **the poor**, **the elderly**. ตัวอย่าง: `The rich often have access to better education.` และ `We should help the poor.`"
+      },
+      {
+        "index": 2,
+        "text": "A",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **a/an + adjective** ไม่สามารถใช้แทนกลุ่มคนทั่วไปแบบพหูพจน์ได้. ถ้าจะพูดถึงคนรวยคนหนึ่ง ต้องใช้คำนาม เช่น `a rich person`"
+      },
+      {
+        "index": 3,
+        "text": "— (no article)",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะถ้าจะพูดถึง “คนรวยทั้งกลุ่ม” ต้องใช้ `the + adjective` เช่น `the rich`, ไม่ใช่ละคำนำหน้า. `Rich should pay...` ฟังแปลกและผิดหลัก"
+      },
+      {
+        "index": 4,
+        "text": "Some",
+        "is_correct": false,
+        "answer_description": "ผิดในความหมาย เพราะ `Some rich` จะหมายถึง “คนรวยบางคน” ไม่ใช่กลุ่มทั้งหมดตามที่ประโยคทั่วไปกำลังกล่าว. ถ้าต้องการความหมายนี้จริง ๆ ควรใช้ `some rich people`"
+      }
+    ]
+  },
+  {
+    "question": "___ internet has changed the way we live.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "The",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำบางคำที่เป็นระบบ/สิ่งเฉพาะระดับโลกใช้ __the + noun__ เช่น **the internet**, **the radio**, **the news**. ตัวอย่าง: `The internet has changed the way we live.` และ `I heard it on the radio.`"
+      },
+      {
+        "index": 2,
+        "text": "An",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเราไม่ได้พูดถึงอินเทอร์เน็ต “อันหนึ่ง” แต่พูดถึงระบบเฉพาะที่ทุกคนรู้จัก ต้องใช้ `the internet` ไม่ใช่ `an internet`"
+      },
+      {
+        "index": 3,
+        "text": "A",
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลเดียวกัน อินเทอร์เน็ตเป็นระบบเฉพาะ ใช้ `the` เท่านั้น. รูป `a internet` ยังผิดเสียงอีกด้วย"
+      },
+      {
+        "index": 4,
+        "text": "— (no article)",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปมาตรฐานคือ `the internet` ไม่ใช่ `internet` เฉย ๆ. ต่างจากคำทั่วไปบางคำที่ไม่ต้องใช้ article เช่น `I love music.`"
+      }
+    ]
+  }
+]

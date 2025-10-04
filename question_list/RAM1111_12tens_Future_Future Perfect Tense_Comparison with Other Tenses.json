@@ -1,0 +1,292 @@
+[
+  {
+    "question": "By the time you get home, I ___ dinner.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have cooked",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ Future Perfect ใช้โครงสร้าง **`will have + V3`** เพื่อบอกว่า “เสร็จสิ้นก่อนเวลาในอนาคต” เช่นในประโยคนี้มีตัวบอกเวลา `By the time you get home` ชัดเจนว่าอีกเหตุการณ์หนึ่งจะเสร็จก่อนอนาคต. ตัวอย่าง: `By the time you get home, I will have cooked dinner.` แพทเทิร์นสำคัญ: **`will have + cooked`** ใช้ตอนพูดถึงงานที่ “ทำเสร็จแล้ว” ก่อนอีกเหตุการณ์หนึ่งในอนาคต."
+      },
+      {
+        "index": 2,
+        "text": "will cook",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Future Simple (will + V1)** เน้นการกระทำในอนาคตทั่วไป ไม่ได้สื่อว่า “เสร็จก่อนเวลาในอนาคต”. ถ้าพูดว่า `I will cook dinner` จะเป็นแค่ทำในอนาคต แต่ไม่ชัดว่าเสร็จก่อนที่คุณจะถึงบ้าน. กับ `By the time...` เราควรใช้ **Future Perfect** แทน."
+      },
+      {
+        "index": 3,
+        "text": "will be cooking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Future Continuous (will be + V-ing)** เน้น “กำลังกระทำอยู่ในอนาคตช่วงเวลาใดช่วงเวลาหนึ่ง” ไม่ได้เน้นว่าเสร็จสิ้น. เช่น `I will be cooking at 7 pm` = กำลังทำอยู่ตอน 1 ทุ่ม แต่ประโยคนี้ต้องการ “เสร็จแล้วก่อนที่คุณจะถึงบ้าน”."
+      },
+      {
+        "index": 4,
+        "text": "have cooked",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Present Perfect (have/has + V3)** ใช้กับปัจจุบัน ไม่ใช่อนาคตที่กำหนดไว้ด้วย `By the time...` ที่อ้างถึงอนาคต. ตัวอย่างที่ถูกควรเป็น `will have cooked` เพื่อสื่อว่าเสร็จสิ้นก่อนเหตุการณ์ในอนาคต."
+      }
+    ]
+  },
+  {
+    "question": "They ___ the report by next Monday.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have finished",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีตัวบอกเวลาอนาคตชัดเจน `by next Monday` จึงใช้ **Future Perfect: `will have + V3`** เพื่อสื่อว่า “จะเสร็จก่อนถึงวันจันทร์หน้า”. ตัวอย่าง: `They will have finished the report by next Monday.` โฟกัสคือ “ความเสร็จสิ้นก่อนอนาคต”."
+      },
+      {
+        "index": 2,
+        "text": "will finish",
+        "is_correct": false,
+        "answer_description": "ยังไม่แม่น เพราะ **Future Simple** ไม่เน้นว่ามัน “เสร็จแล้วก่อนถึงจุดเวลา” เพียงพูดว่าจะทำในอนาคต. กับคำว่า `by next Monday` เราต้องการน้ำหนักว่าเสร็จก่อนถึงวันนั้น จึงควรใช้ **Future Perfect**."
+      },
+      {
+        "index": 3,
+        "text": "will be finishing",
+        "is_correct": false,
+        "answer_description": "ผิดจุด เพราะ **Future Continuous** บอกว่ากำลังทำอยู่ ณ ช่วงเวลาหนึ่งในอนาคต เช่น `They will be finishing on Monday` = กำลังจะจบตอนวันจันทร์ แต่ไม่ได้ยืนยันว่า “เสร็จก่อนถึงจุดเวลา”. ที่นี่เราต้องการความเสร็จสิ้นก่อน จึงใช้ Future Perfect."
+      },
+      {
+        "index": 4,
+        "text": "had finished",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Past Perfect (had + V3)** ใช้เปรียบเทียบ “ก่อนอีกเหตุการณ์หนึ่งในอดีต” ไม่ใช่อนาคต. ประโยคนี้พูดถึง `by next Monday` ซึ่งเป็นอนาคต ต้องใช้ **will have finished**."
+      }
+    ]
+  },
+  {
+    "question": "By 2030, many cities ___ smart transport systems.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have implemented",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Future Perfect: `will have + V3`** เพื่อบอกว่า “จะได้ดำเนินการเสร็จแล้วก่อนถึงปี 2030”. ตัวอย่าง: `By 2030, many cities will have implemented smart transport systems.` โครงสร้างเน้นผลลัพธ์ที่เสร็จสิ้นก่อนเวลาอนาคต."
+      },
+      {
+        "index": 2,
+        "text": "will implement",
+        "is_correct": false,
+        "answer_description": "ยังไม่เฉพาะเจาะจง เพราะ **Future Simple** แค่บอกว่าจะทำในอนาคต แต่ไม่ชี้ว่า “เสร็จภายในปี 2030”. เมื่อมี `By + ปี/เวลา` ควรใช้ **Future Perfect** เพื่อย้ำว่าเสร็จสิ้นก่อนถึงจุดเวลานั้น."
+      },
+      {
+        "index": 3,
+        "text": "will be implementing",
+        "is_correct": false,
+        "answer_description": "ไม่ตรง เพราะ **Future Continuous** แปลว่า “กำลังดำเนินการอยู่” ในช่วงอนาคต เช่น `will be implementing in 2030` แต่ประโยคนี้ต้องการ “ทำเสร็จแล้วก่อนถึง 2030”. ดังนั้นต้องใช้ Future Perfect."
+      },
+      {
+        "index": 4,
+        "text": "have implemented",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะ **Present Perfect** ใช้กับช่วงเวลาถึงปัจจุบัน ไม่ใช่อนาคตอย่างปี 2030. ถ้าจะเน้นว่า ‘เสร็จภายในปี 2030’ ต้องใช้ **will have implemented**."
+      }
+    ]
+  },
+  {
+    "question": "When you call at 8 p.m., I ___ my workout.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have finished",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเราต้องการสื่อว่า “ตอนที่คุณโทรมา (ในอนาคต 2 ทุ่ม) ฉันจะทำเวิร์กเอาต์เสร็จแล้ว”. ใช้ **Future Perfect: `will have + V3`** เช่น `I will have finished my workout.` เน้นผลลัพธ์ที่เสร็จก่อนเวลาในอนาคต."
+      },
+      {
+        "index": 2,
+        "text": "will be finishing",
+        "is_correct": false,
+        "answer_description": "ใกล้เคียงแต่ไม่ตรง เพราะ **Future Continuous** เน้น “กำลังทำอยู่ตอน 2 ทุ่ม” เช่น `I will be finishing at 8 p.m.` แต่โจทย์ต้องการสื่อว่าเสร็จแล้วก่อนโทร จึงไม่เหมาะเท่า Future Perfect."
+      },
+      {
+        "index": 3,
+        "text": "finish",
+        "is_correct": false,
+        "answer_description": "ผิดรูปแบบ เพราะ **Present Simple** ไม่ใช้กับอนาคตลักษณะนี้ โดยเฉพาะเมื่อมีเวลาเฉพาะเจาะจง `at 8 p.m.` และความหมายต้องการ “เสร็จแล้วก่อนถึงเวลา”. ต้องใช้ **Future Perfect** แทน."
+      },
+      {
+        "index": 4,
+        "text": "will have been finishing",
+        "is_correct": false,
+        "answer_description": "สับสนกาล เพราะ **Future Perfect Continuous (will have been + V-ing)** เน้น “ระยะเวลาที่กำลังกระทำต่อเนื่องมาจนถึงอนาคต” ไม่ได้โฟกัสผลว่า “เสร็จแล้ว”. ที่นี่เราต้องการผลลัพธ์เสร็จสิ้น จึงใช้ Future Perfect."
+      }
+    ]
+  },
+  {
+    "question": "By the end of this course, you ___ 20 essays.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have written",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะต้องการบอกว่า “เมื่อจบคอร์ส (อนาคต) คุณจะเขียนครบแล้ว 20 บทความ”. ใช้ **Future Perfect: `will have + V3`** เช่น `You will have written 20 essays.` โครงสร้างนี้เน้นจำนวน/ผลงานที่เสร็จภายในจุดเวลาอนาคต."
+      },
+      {
+        "index": 2,
+        "text": "will write",
+        "is_correct": false,
+        "answer_description": "ยังไม่ยืนยันว่า ‘ครบแล้ว’ ก่อนจุดเวลา เพราะ **Future Simple** แค่พูดว่าจะทำในอนาคต. กับ `By the end of this course` ควรใช้ **Future Perfect** เพื่อย้ำความเสร็จสิ้น."
+      },
+      {
+        "index": 3,
+        "text": "have written",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะ **Present Perfect** ใช้กับปัจจุบัน ไม่ใช่อนาคตอย่าง `By the end of this course`. ต้องใช้ **will have written** เพื่อสื่อว่าเสร็จแล้วภายในจุดเวลานั้นในอนาคต."
+      },
+      {
+        "index": 4,
+        "text": "had written",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Past Perfect** ใช้เทียบกับเหตุการณ์ในอดีต ไม่ใช่อนาคต. ที่นี่เป็นอนาคตตอนจบคอร์ส ควรใช้ **Future Perfect**."
+      }
+    ]
+  },
+  {
+    "question": "She ___ the presentation before the meeting starts.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have prepared",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีคำว่า `before the meeting starts` บอกว่าเธอจะเตรียม “เสร็จก่อนที่การประชุมจะเริ่ม” ในอนาคต. ใช้ **Future Perfect: `will have + V3`** เช่น `She will have prepared the presentation before the meeting starts.` เน้นผลลัพธ์เสร็จสิ้นก่อนอีกเหตุการณ์อนาคต."
+      },
+      {
+        "index": 2,
+        "text": "will be preparing",
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย เพราะ **Future Continuous** บอกว่ากำลังเตรียมอยู่ ณ เวลาอนาคต ไม่ได้ยืนยันว่า “เสร็จแล้วก่อนเริ่มประชุม”. ที่นี่ต้องการผลเสร็จสิ้น จึงใช้ Future Perfect."
+      },
+      {
+        "index": 3,
+        "text": "is preparing",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เนื่องจาก **Present Continuous** ใช้กับตอนนี้หรืออนาคตตามตารางเวลา แต่ประโยคนี้ต้องการเทียบเหตุการณ์อนาคตสองอย่างและเน้นว่า “เสร็จก่อน”. ใช้ **will have prepared** จะชัดกว่า."
+      },
+      {
+        "index": 4,
+        "text": "will prepare",
+        "is_correct": false,
+        "answer_description": "ยังไม่เน้นว่าเสร็จสิ้นก่อน เพราะ **Future Simple** แค่บอกว่าจะเตรียมในอนาคต. กับ `before the meeting starts` เราควรใช้ **Future Perfect** เพื่อชี้ว่า “ทำเสร็จแล้วก่อนเริ่ม”."
+      }
+    ]
+  },
+  {
+    "question": "At 10 a.m. tomorrow, we ___ for two hours.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been studying",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคนี้เน้น “ระยะเวลา” จนถึงอนาคต 10 โมง จึงใช้ **Future Perfect Continuous: `will have been + V-ing`** เพื่อสื่อว่าทำต่อเนื่องมาเป็นเวลา 2 ชั่วโมง. ตัวอย่าง: `At 10 a.m. tomorrow, we will have been studying for two hours.` ใช้เมื่อเน้นความต่อเนื่องไม่ใช่แค่ผลเสร็จสิ้น."
+      },
+      {
+        "index": 2,
+        "text": "will have studied",
+        "is_correct": false,
+        "answer_description": "ใกล้เคียงแต่ความหมายต่างกัน เพราะ **Future Perfect (will have + V3)** เน้นผล “เสร็จแล้ว” มากกว่า แต่ที่นี่มี `for two hours` เน้นระยะเวลาต่อเนื่อง จึงเหมาะกับ **Future Perfect Continuous** มากกว่า."
+      },
+      {
+        "index": 3,
+        "text": "will be studying",
+        "is_correct": false,
+        "answer_description": "ยังไม่ครบ เพราะ **Future Continuous** บอกว่ากำลังทำอยู่ตอน 10 โมง แต่ไม่ได้สรุป “เป็นเวลานานเท่าไรจนถึงตอนนั้น”. เมื่อมี `for two hours` ที่เน้นระยะเวลาต่อเนื่องถึงจุดเวลาอนาคต ควรใช้ **Future Perfect Continuous**."
+      },
+      {
+        "index": 4,
+        "text": "study",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะ **Present Simple** ไม่สื่ออนาคตและไม่รองรับการเน้นระยะเวลาแบบ `for two hours` ในบริบทนี้. ทางที่ถูกคือใช้ **will have been studying** เพื่อเน้นความต่อเนื่องถึงอนาคต."
+      }
+    ]
+  },
+  {
+    "question": "By the time the movie starts, we ___ our seats.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have found",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะต้องการสื่อว่า “ก่อนหนังเริ่ม เราจะหาเก้าอี้เจอแล้ว”. ใช้ **Future Perfect: `will have + V3`** เช่น `We will have found our seats.` โครงสร้างนี้เน้นผลลัพธ์ที่เสร็จสิ้นก่อนเหตุการณ์อนาคตอีกเหตุการณ์."
+      },
+      {
+        "index": 2,
+        "text": "will find",
+        "is_correct": false,
+        "answer_description": "ยังไม่ชัดว่าเสร็จก่อน เพราะ **Future Simple** แค่บอกว่าจะหา ไม่ได้เน้นว่า “เสร็จแล้วก่อนหนังเริ่ม”. กับ `By the time...` ควรใช้ **Future Perfect** เพื่อย้ำความเสร็จสิ้น."
+      },
+      {
+        "index": 3,
+        "text": "will be finding",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Future Continuous** ฟังแปลกกับกริยา “find” ที่เป็นเหตุการณ์สั้นๆ และยังไม่สื่อว่าทำเสร็จก่อนหนังเริ่ม. เราต้องการผลเสร็จสิ้น ใช้ Future Perfect เหมาะกว่า."
+      },
+      {
+        "index": 4,
+        "text": "had found",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะ **Past Perfect** ใช้กับอดีต ไม่เกี่ยวกับอนาคตที่มี `By the time the movie starts`. ต้องใช้ **will have found** เพื่อชี้ว่าเสร็จแล้วก่อนถึงเวลานั้นในอนาคต."
+      }
+    ]
+  },
+  {
+    "question": "He ___ all the emails before noon tomorrow.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have replied to",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมี `before noon tomorrow` บอกชัดว่า “จะตอบอีเมลเสร็จก่อนเที่ยงพรุ่งนี้”. ใช้ **Future Perfect: `will have + V3`** เช่น `He will have replied to all the emails.` เน้นผลลัพธ์เสร็จสิ้นก่อนเวลาในอนาคต."
+      },
+      {
+        "index": 2,
+        "text": "will reply to",
+        "is_correct": false,
+        "answer_description": "ยังไม่ยืนยันว่าเสร็จสิ้นก่อนเวลา เพราะ **Future Simple** แค่พูดว่าจะตอบ แต่ไม่บอกว่าตอบครบก่อนเที่ยง. เมื่อมี `before + time` ควรใช้ **Future Perfect** เพื่อเน้นความเสร็จสิ้น."
+      },
+      {
+        "index": 3,
+        "text": "is replying to",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะ **Present Continuous** ใช้กับตอนนี้หรือแผนใกล้ๆ ไม่ใช่การเทียบว่า “เสร็จก่อนเวลาอนาคต”. ที่นี่ต้องการ **Future Perfect**."
+      },
+      {
+        "index": 4,
+        "text": "will have been replying to",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ **Future Perfect Continuous** เน้นระยะเวลาที่กำลังกระทำจนถึงอนาคต เช่น `for two hours`. ที่นี่เราเน้นผลว่า “ตอบเสร็จแล้ว” จึงควรใช้ **will have replied to**."
+      }
+    ]
+  },
+  {
+    "question": "This time next week, I ___ the final draft.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have completed",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ `This time next week` ชี้จุดเวลาในอนาคต และเราต้องการบอกว่า “เสร็จแล้ว” ก่อนถึงเวลานั้น. ใช้ **Future Perfect: `will have + V3`** เช่น `I will have completed the final draft.` โฟกัสคือผลเสร็จสิ้นก่อนอนาคต."
+      },
+      {
+        "index": 2,
+        "text": "will be completing",
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะ **Future Continuous** บอกว่ากำลังทำอยู่ช่วงเวลานั้น ไม่ได้สรุปว่า “เสร็จแล้ว”. โจทย์ต้องการน้ำหนักผลลัพธ์ จึงใช้ **Future Perfect**."
+      },
+      {
+        "index": 3,
+        "text": "will complete",
+        "is_correct": false,
+        "answer_description": "ไม่ผิดไวยากรณ์ แต่ไม่แม่นความหมายเท่า **Future Perfect** เพราะไม่ได้ยืนยันว่า “จะเสร็จแล้วก่อนถึงเวลานั้น”. เมื่อชี้จุดเวลาอนาคตแบบนี้และเน้นผลเสร็จสิ้น ควรใช้ `will have completed`."
+      },
+      {
+        "index": 4,
+        "text": "have completed",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะ **Present Perfect** ใช้กับช่วงจนถึงปัจจุบัน ไม่ใช่บอกผลลัพธ์ในอนาคต. สำหรับการเน้นว่า ‘จะเสร็จแล้วภายในสัปดาห์หน้า’ ต้องใช้ **Future Perfect**."
+      }
+    ]
+  }
+]

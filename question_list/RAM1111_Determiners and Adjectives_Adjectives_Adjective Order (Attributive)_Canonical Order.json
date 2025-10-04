@@ -1,0 +1,321 @@
+[
+  {
+    "question": "She bought a ___ handbag.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "beautiful small red Italian leather",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตามลำดับคุณศัพท์เชิงบรรยายแบบมาตรฐาน (__Opinion + Size + Color + Origin + Material + Noun__) จึงได้ `beautiful (ความเห็น) + small (ขนาด) + red (สี) + Italian (แหล่งกำเนิด) + leather (วัสดุ) + handbag`. ตัวอย่าง: `She bought a beautiful small red Italian leather handbag.` ลองจำเป็นแพตเทิร์นคงที่ก่อน แล้วค่อยสลับคำตามหมวดนี้จะปลอดภัยมากๆนะ!"
+      },
+      {
+        "index": 2,
+        "text": "small beautiful Italian red leather",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะวาง **Size (small)** ไว้หน้าความเห็น (**Opinion: beautiful**) ซึ่งสวนทางกับลำดับที่ถูกต้องต้องเป็น **Opinion ก่อน Size**. ควรเรียงให้ได้เป็น `beautiful small red Italian leather handbag` ไม่ใช่ `small beautiful ...`"
+      },
+      {
+        "index": 3,
+        "text": "beautiful red small leather Italian",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสลับตำแหน่ง **Color (red)** มาไว้หน้า **Size (small)** และยังสลับ **Material (leather)** กับ **Origin (Italian)** อีกด้วย. ลำดับที่ถูกคือ `beautiful (Opinion) + small (Size) + red (Color) + Italian (Origin) + leather (Material)`."
+      },
+      {
+        "index": 4,
+        "text": "Italian leather beautiful small red",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา **Origin/Material** มานำหน้า **Opinion/Size/Color** ซึ่งขัดกับลำดับมาตรฐาน. รูปที่ถูกควรเป็น `beautiful small red Italian leather handbag` ไม่ใช่ `Italian leather ...` นำหน้า."
+      }
+    ]
+  },
+  {
+    "question": "They live in a ___ house.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "spacious old English brick",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ลำดับที่ใช้คือ __Opinion + Age + Origin + Material + Noun__. ได้เป็น `spacious (ความเห็น) + old (อายุ) + English (แหล่งกำเนิด) + brick (วัสดุ) + house`. ตัวอย่าง: `They live in a spacious old English brick house.` เรียงแบบนี้อ่านลื่นและเป็นธรรมชาติแบบเจ้าของภาษาเลย"
+      },
+      {
+        "index": 2,
+        "text": "old spacious brick English",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสลับลำดับ **Opinion** กับ **Age** และสลับ **Origin** กับ **Material** (`brick English`) ซึ่งควรเป็น `English brick`. ลำดับถูกคือ `spacious old English brick house`."
+      },
+      {
+        "index": 3,
+        "text": "English spacious old brick",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจากเอา **Origin (English)** มานำก่อน **Opinion (spacious)** และ **Age (old)** ซึ่งขัดกับกฎ. ต้องจัดเป็น `spacious (Opinion) + old (Age) + English (Origin) + brick (Material)`."
+      },
+      {
+        "index": 4,
+        "text": "spacious brick old English",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา **Material (brick)** ไว้ก่อน **Age (old)** และ **Origin (English)** ซึ่งผิดลำดับ. เวอร์ชันที่ถูกต้องคือ `spacious old English brick house`."
+      }
+    ]
+  },
+  {
+    "question": "He wore a ___ tie.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "ugly wide blue silk",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตามลำดับ __Opinion + Size/Shape + Color + Material + Noun__. จึงได้ `ugly (ความเห็น) + wide (ขนาด/ทรง) + blue (สี) + silk (วัสดุ) + tie`. ตัวอย่าง: `He wore a(n) ugly wide blue silk tie.`"
+      },
+      {
+        "index": 2,
+        "text": "blue ugly silk wide",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเริ่มด้วย **Color (blue)** แทนที่จะเป็น **Opinion (ugly)** และยังสลับตำแหน่ง **Material (silk)** กับ **Size/Shape (wide)** อีก. รูปที่ถูกคือ `ugly wide blue silk tie`."
+      },
+      {
+        "index": 3,
+        "text": "ugly silk blue wide",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะวาง **Material (silk)** ไว้ก่อน **Color (blue)** และ **Size/Shape (wide)** ซึ่งไม่ตรงลำดับมาตรฐาน. เรียงใหม่ให้เป็น `ugly (Opinion) + wide (Size/Shape) + blue (Color) + silk (Material)`."
+      },
+      {
+        "index": 4,
+        "text": "silk blue ugly wide",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจากยก **Material** ขึ้นต้นและวาง **Opinion** ไว้กลางประโยค ซึ่งสวนกฎ. โครงสร้างที่ควรเป็นคือ `ugly wide blue silk tie`."
+      }
+    ]
+  },
+  {
+    "question": "I want those ___ boots.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "practical tall black Spanish leather hiking",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ลำดับครบถ้วนเป็น __Opinion + Size + Color + Origin + Material + Purpose + Noun__. ได้ `practical (ความเห็น) + tall (ขนาด/ความสูง) + black (สี) + Spanish (แหล่งกำเนิด) + leather (วัสดุ) + hiking (วัตถุประสงค์) + boots`. ตัวอย่าง: `I want those practical tall black Spanish leather hiking boots.`"
+      },
+      {
+        "index": 2,
+        "text": "black practical Spanish hiking leather",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา **Color** นำหน้า **Opinion** และวาง **Purpose (hiking)** ไว้ก่อน **Material (leather)** ซึ่งควรเป็น Material ก่อน Purpose. ลำดับที่ถูกเป็น `practical ... black Spanish leather hiking boots`."
+      },
+      {
+        "index": 3,
+        "text": "tall Spanish black leather practical hiking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสลับตำแหน่งหลายหมวด เช่นเอา **Origin** ไว้หน้า **Color** และเอา **Opinion (practical)** ไปท้ายสุด. ที่ถูกต้องคือ `practical (Opinion) + tall (Size) + black (Color) + Spanish (Origin) + leather (Material) + hiking (Purpose)`."
+      },
+      {
+        "index": 4,
+        "text": "Spanish leather practical tall black hiking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเริ่มจาก **Origin + Material** ก่อน **Opinion/Size/Color** ซึ่งผิดลำดับ. ควรเป็น `practical tall black Spanish leather hiking boots`."
+      }
+    ]
+  },
+  {
+    "question": "We moved into an ___ apartment.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "affordable small new",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตามลำดับ __Opinion + Size + Age + Noun__. จึงได้ `affordable (ความเห็น) + small (ขนาด) + new (อายุ/ความใหม่) + apartment`. ตัวอย่าง: `We moved into an affordable small new apartment.`"
+      },
+      {
+        "index": 2,
+        "text": "new affordable small",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา **Age (new)** นำหน้า **Opinion (affordable)** ซึ่งกลับลำดับ. ที่ถูกต้องควรเริ่มด้วยความเห็นก่อน: `affordable small new apartment`."
+      },
+      {
+        "index": 3,
+        "text": "small new affordable",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจากวาง **Opinion (affordable)** ไว้ท้ายสุด ทั้งที่ควรอยู่หน้า **Size** และ **Age**. การเรียงที่ถูกคือ `affordable (Opinion) + small (Size) + new (Age)`."
+      },
+      {
+        "index": 4,
+        "text": "new small affordable",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะทั้งลำดับ Opinion/Size/Age ไม่เป็นไปตามกฎ โดยเฉพาะเอา **Opinion** ไว้หลังสุด. รูปที่ถูกต้องคือ `affordable small new apartment`."
+      }
+    ]
+  },
+  {
+    "question": "She adopted a ___ cat.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "cute little round-faced white Persian",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตามลำดับ __Opinion + Size + Shape + Color + Origin + Noun__. ได้ `cute (ความเห็น) + little (ขนาด) + round-faced (ทรง/ลักษณะ) + white (สี) + Persian (แหล่งกำเนิด) + cat`. ตัวอย่าง: `She adopted a cute little round-faced white Persian cat.`"
+      },
+      {
+        "index": 2,
+        "text": "white cute Persian little round-faced",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา **Color (white)** มานำหน้า **Opinion (cute)** และวาง **Origin (Persian)** ไว้ก่อน **Size/Shape** ซึ่งไม่ตรงกฎ. คำตอบที่ถูกคือ `cute little round-faced white Persian cat`."
+      },
+      {
+        "index": 3,
+        "text": "little cute white Persian round-faced",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสลับตำแหน่ง **Shape (round-faced)** ไว้ท้ายสุดหลัง **Origin** ซึ่งผิดลำดับ. โครงสร้างที่ถูกต้อง: `cute (Opinion) + little (Size) + round-faced (Shape) + white (Color) + Persian (Origin)`."
+      },
+      {
+        "index": 4,
+        "text": "Persian white cute little round-faced",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเริ่มด้วย **Origin** แทนที่จะเป็น **Opinion** และยังจัดลำดับ Shape/Color ไม่ถูก. ที่ถูกคือ `cute little round-faced white Persian cat`."
+      }
+    ]
+  },
+  {
+    "question": "He collects ___ vases.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "rare tall antique Chinese porcelain",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ลำดับคือ __Opinion + Size + Age + Origin + Material + Noun__. ได้ `rare (ความเห็น) + tall (ขนาด/ความสูง) + antique (อายุ) + Chinese (แหล่งกำเนิด) + porcelain (วัสดุ) + vases`. ตัวอย่าง: `He collects rare tall antique Chinese porcelain vases.`"
+      },
+      {
+        "index": 2,
+        "text": "antique rare Chinese tall porcelain",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา **Age (antique)** นำหน้า **Opinion (rare)** และยังสลับ **Size (tall)** กับ **Origin (Chinese)**. เรียงใหม่ตามกฎจะได้ `rare tall antique Chinese porcelain vases`."
+      },
+      {
+        "index": 3,
+        "text": "tall Chinese porcelain rare antique",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะวาง **Material** ไว้ต้น และเอา **Opinion/Age** ไปท้ายสุด ซึ่งผิดหลัก. ลำดับถูกควรเป็น `rare (Opinion) + tall (Size) + antique (Age) + Chinese (Origin) + porcelain (Material)`."
+      },
+      {
+        "index": 4,
+        "text": "rare antique porcelain Chinese tall",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสลับ **Origin (Chinese)** กับ **Material (porcelain)** และวาง **Size (tall)** ไว้ท้าย. โครงสร้างที่ถูกต้องคือ `rare tall antique Chinese porcelain vases`."
+      }
+    ]
+  },
+  {
+    "question": "I need a ___ table.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "sturdy large rectangular brown wooden dining",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตามลำดับ __Opinion + Size + Shape + Color + Material + Purpose + Noun__. ได้ `sturdy (ความเห็น) + large (ขนาด) + rectangular (ทรง) + brown (สี) + wooden (วัสดุ) + dining (วัตถุประสงค์) + table`. ตัวอย่าง: `I need a sturdy large rectangular brown wooden dining table.`"
+      },
+      {
+        "index": 2,
+        "text": "large sturdy brown rectangular dining wooden",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสลับ **Opinion (sturdy)** กับ **Size (large)** และสลับ **Shape (rectangular)** กับ **Color (brown)** รวมทั้งวาง **Purpose** ก่อน **Material**. ควรเป็น `sturdy large rectangular brown wooden dining table`."
+      },
+      {
+        "index": 3,
+        "text": "wooden dining sturdy large rectangular brown",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเริ่มจาก **Material + Purpose** ซึ่งควรไปท้าย ส่วน **Opinion/Size/Shape/Color** ควรนำหน้า. รูปที่ถูกต้องคือ `sturdy large rectangular brown wooden dining table`."
+      },
+      {
+        "index": 4,
+        "text": "rectangular large sturdy wooden brown dining",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสลับลำดับหลายส่วน เช่น **Shape** นำหน้า **Opinion/Size** และ **Color (brown)** ไว้หลัง **Material (wooden)**. ใช้แพตเทิร์นมาตรฐานจะได้ `sturdy large rectangular brown wooden dining table`."
+      }
+    ]
+  },
+  {
+    "question": "We watched a ___ documentary.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "fascinating short old American",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ลำดับคือ __Opinion + Size/Length + Age + Origin + Noun__. ได้ `fascinating (ความเห็น) + short (ความยาว) + old (อายุ) + American (แหล่งกำเนิด) + documentary`. ตัวอย่าง: `We watched a fascinating short old American documentary.`"
+      },
+      {
+        "index": 2,
+        "text": "old fascinating American short",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา **Age (old)** นำหน้า **Opinion (fascinating)** และสลับตำแหน่ง **Size/Length (short)** ไปท้าย. ลองจัดใหม่เป็น `fascinating short old American documentary` จะถูกต้อง."
+      },
+      {
+        "index": 3,
+        "text": "American fascinating short old",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเริ่มด้วย **Origin** ซึ่งควรไปหลัง **Opinion/Size/Age**. โครงสร้างที่ถูกต้องคือ `fascinating (Opinion) + short (Size/Length) + old (Age) + American (Origin)`."
+      },
+      {
+        "index": 4,
+        "text": "short American fascinating old",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสลับลำดับหลายส่วน โดยเฉพาะวาง **Opinion (fascinating)** ไว้กลางและเอา **Origin** มาไว้ก่อน **Age**. เรียงใหม่เป็น `fascinating short old American documentary` จะโอเค."
+      }
+    ]
+  },
+  {
+    "question": "She bought three ___ notebooks.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "handy small blue Japanese leather",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคมีตัวเลขอยู่แล้ว (`three`) จากนั้นลำดับคุณศัพท์ควรเป็น __Opinion + Size + Color + Origin + Material + Noun__. จึงได้ `handy (ความเห็น) + small (ขนาด) + blue (สี) + Japanese (แหล่งกำเนิด) + leather (วัสดุ) + notebooks`. ตัวอย่าง: `She bought three handy small blue Japanese leather notebooks.`"
+      },
+      {
+        "index": 2,
+        "text": "blue handy leather Japanese small",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา **Color (blue)** นำหน้า **Opinion (handy)** และวาง **Material (leather)** ไว้ก่อน **Origin (Japanese)** รวมทั้งสลับ **Size (small)** ไปท้าย. เรียงใหม่ตามกฎจะได้ `handy small blue Japanese leather notebooks`."
+      },
+      {
+        "index": 3,
+        "text": "Japanese leather handy small blue",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเริ่มด้วย **Origin + Material** ก่อน **Opinion/Size/Color** ซึ่งผิดลำดับมาตรฐาน. โครงสร้างที่ถูกต้องคือ `handy (Opinion) + small (Size) + blue (Color) + Japanese (Origin) + leather (Material)`."
+      },
+      {
+        "index": 4,
+        "text": "small handy Japanese blue leather",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสลับลำดับ **Opinion (handy)** กับ **Size (small)** และสลับ **Color (blue)** กับ **Origin (Japanese)**. คำตอบที่ถูกคือ `handy small blue Japanese leather`."
+      }
+    ]
+  },
+  {
+    "question": "She found an ___ vase at the market.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "elegant small oval blue French glass",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ลำดับคือ __Opinion + Size + Shape + Color + Origin + Material + Noun__. ได้ `elegant (ความเห็น) + small (ขนาด) + oval (ทรง) + blue (สี) + French (แหล่งกำเนิด) + glass (วัสดุ) + vase`. ตัวอย่าง: `She found an elegant small oval blue French glass vase.`"
+      },
+      {
+        "index": 2,
+        "text": "small elegant blue oval glass French",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสลับ **Opinion (elegant)** กับ **Size (small)** และสลับตำแหน่ง **Shape (oval)** กับ **Color (blue)** รวมถึง **Origin/Material** ก็สลับที่. ที่ถูกคือ `elegant small oval blue French glass vase`."
+      },
+      {
+        "index": 3,
+        "text": "French glass elegant small blue oval",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเริ่มด้วย **Origin + Material** ซึ่งควรอยู่ท้าย ก่อนคำนาม. ใช้แพตเทิร์นมาตรฐานจะได้ `elegant small oval blue French glass vase`."
+      },
+      {
+        "index": 4,
+        "text": "elegant oval small French blue glass",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสลับ **Size** กับ **Shape** และสลับ **Color (blue)** กับ **Origin (French)**. ลำดับที่ถูกต้องคือ `elegant (Opinion) + small (Size) + oval (Shape) + blue (Color) + French (Origin) + glass (Material)`."
+      }
+    ]
+  }
+]

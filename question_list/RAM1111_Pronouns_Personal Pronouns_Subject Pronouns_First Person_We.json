@@ -1,0 +1,292 @@
+[
+  {
+    "question": "___ are excited about the trip.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "We",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะตำแหน่งหน้ากริยาเป็น **ประธานประโยค (subject)** ต้องใช้สรรพนาม **subject pronoun** คือ __We + are + adjective__ เช่น `We are excited about the trip.` ใช้ `we` เมื่อผู้พูดรวมตัวเองกับคนอื่น เช่น `We are ready.`"
+      },
+      {
+        "index": 2,
+        "text": "Us",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **us** เป็น **object pronoun** ใช้ตำแหน่งกรรม ไม่ใช่ประธาน เช่น `The teacher called us.` แต่ประโยคนี้ต้องการประธาน จึงต้องเป็น `We are ...` ไม่ใช่ `Us are ...`"
+      },
+      {
+        "index": 3,
+        "text": "Our",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **our** เป็น **possessive adjective** ใช้นำหน้านาม เช่น `our trip` หรือ `our plan` ไม่สามารถอยู่เดี่ยวๆ เป็นประธานได้ ประโยคที่ถูกต้องจึงต้องใช้ `We are ...`"
+      },
+      {
+        "index": 4,
+        "text": "Ours",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **ours** เป็น **possessive pronoun** ใช้แทนนามที่เป็นของเรา เช่น `This bag is ours.` ไม่ใช้เป็นประธานหน้ากริยา `are` ในประโยคนี้ จึงไม่ถูกต้อง"
+      }
+    ]
+  },
+  {
+    "question": "___ live near the university.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "We",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธานพหูพจน์ใช้ **we** และจับคู่กับกริยารูปพื้นฐาน: __We + live + ...__ เช่น `We live near the university.` หรือ `We study together.` รูปนี้สอดคล้องกับหลัก **subject pronoun (first person plural)**"
+      },
+      {
+        "index": 2,
+        "text": "Us",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `us` ใช้เป็นกรรมของกริยาหรือบุพบท เช่น `They help us.` หรือ `for us` แต่ที่ช่องว่างเป็นตำแหน่งประธาน ควรใช้ `We live ...`"
+      },
+      {
+        "index": 3,
+        "text": "We are",
+        "is_correct": false,
+        "answer_description": "ผิดที่โครงสร้างกริยา เพราะหลัง `are` ต้องตามด้วยส่วนขยาย เช่น adj/ V-ing/ phrase ไม่ใช่กริยาหลัก `live` ตรงๆ ตัวอย่างที่ถูก: `We are happy.` หรือ `We live near...` (ไม่ควรรวม `are` กับ `live`)"
+      },
+      {
+        "index": 4,
+        "text": "Ourselves",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **ourselves** เป็น **reflexive pronoun** ใช้เมื่อประธานกับกรรมเป็นคนเดียวกัน เช่น `We hurt ourselves.` ไม่ใช้เป็นประธานเดี่ยวๆ หน้ากริยา `live`"
+      }
+    ]
+  },
+  {
+    "question": "___ are not ready yet.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "We",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธานพหูพจน์ใช้ __We + are (aren't) + complement__ เช่น `We are not ready yet.` หรือ `We aren’t busy today.` โครงสร้างนี้แสดงสถานะ/ลักษณะของกลุ่มเราชัดเจน"
+      },
+      {
+        "index": 2,
+        "text": "Us",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `us` เป็นรูปกรรม ใช้หลังบุพบทหรือกริยาบางตัว เช่น `for us` หรือ `They told us.` ไม่ใช้เป็นประธานหน้า `are` ดังนั้นต้องใช้ `We are ...`"
+      },
+      {
+        "index": 3,
+        "text": "We is",
+        "is_correct": false,
+        "answer_description": "ผิดเรื่อง **subject-verb agreement** ประธานพหูพจน์ `we` ต้องใช้ `are` ไม่ใช่ `is` ตัวอย่างถูกคือ `We are not ready.` ส่วน `He is not ready.` ใช้กับประธานเอกพจน์"
+      },
+      {
+        "index": 4,
+        "text": "Our",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะ `our` เป็นคำบอกความเป็นเจ้าของ (possessive adjective) ต้องตามด้วยคำนาม เช่น `our team` ไม่สามารถใช้เป็นประธานเดี่ยวๆ หน้า `are` ได้ จึงไม่ตรงตำแหน่งนี้"
+      }
+    ]
+  },
+  {
+    "question": "___ don't like spicy food.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "We",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ในประโยคปฏิเสธของ **Present Simple** สำหรับประธานพหูพจน์ ใช้รูป __We + do not (don’t) + base verb__ เช่น `We don’t like spicy food.` หรือ `We don’t play chess.`"
+      },
+      {
+        "index": 2,
+        "text": "Us",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `us` ไม่ใช่ประธาน ใช้เป็นกรรม เช่น `Give us some water.` ในประโยคนี้ต้องการประธานก่อน `don’t` จึงต้องเป็น `We don’t ...`"
+      },
+      {
+        "index": 3,
+        "text": "Ours",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `ours` เป็น **possessive pronoun** ใช้แทนนาม เช่น `The choice is ours.` ไม่วางหน้ากริยา `don’t` เพื่อเป็นประธาน"
+      },
+      {
+        "index": 4,
+        "text": "We doesn’t",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะผสมรูปเอกพจน์กับพหูพจน์ `we` ต้องใช้ `don’t` ไม่ใช่ `doesn’t` รูปที่ถูกคือ `We don’t like ...` ส่วน `He/She/It doesn’t like ...` ใช้กับเอกพจน์"
+      }
+    ]
+  },
+  {
+    "question": "___ are meeting at 6 p.m.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "We",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใน **Present Continuous** ใช้ __We + are + V-ing__ เพื่อบอกแผนหรือสิ่งที่กำลังเกิดขึ้น เช่น `We are meeting at 6 p.m.` และ `We are studying now.` ตรงกับประธานพหูพจน์"
+      },
+      {
+        "index": 2,
+        "text": "Us",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `us` เป็นกรรม ไม่ใช่ประธาน ไม่สามารถวางหน้า `are` ได้ เช่นจะพูดว่า `They are meeting us.` (พวกเขานัดพบพวกเรา) แต่ถ้าเราคือประธานต้องใช้ `We are ...`"
+      },
+      {
+        "index": 3,
+        "text": "We is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานพหูพจน์ `we` ต้องใช้ `are` ไม่ใช่ `is` โครงสร้างที่ถูกต้องคือ `We are meeting ...` ไม่ใช่ `We is meeting ...`"
+      },
+      {
+        "index": 4,
+        "text": "Ourselves",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `ourselves` เป็นสรรพนามสะท้อน ใช้เป็นกรรมเมื่อต้องการเน้นว่ากระทำกับตัวเอง เช่น `We prepared ourselves.` ไม่สามารถใช้แทนประธานในประโยคนี้ได้"
+      }
+    ]
+  },
+  {
+    "question": "___ have finished the project.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "We",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใน **Present Perfect** สำหรับประธานพหูพจน์ใช้ __We + have + V3__ เช่น `We have finished the project.` หรือ `We have seen that movie.` จับคู่ `we` กับ `have` เสมอ (ไม่ใช้ `has`)"
+      },
+      {
+        "index": 2,
+        "text": "Us",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `us` เป็นรูปกรรม ไม่ใช้เป็นประธานหน้าช่วยกริยา `have` ตัวอย่างที่ถูก: `They helped us.` แต่ถ้าประธานคือพวกเรา ต้องพูดว่า `We have ...`"
+      },
+      {
+        "index": 3,
+        "text": "We has",
+        "is_correct": false,
+        "answer_description": "ผิดเรื่องจับคู่กริยา `we` ต้องใช้ `have` ไม่ใช่ `has` ตัวอย่างที่ถูก: `We have done our homework.` ส่วน `He has done his homework.` ใช้กับเอกพจน์"
+      },
+      {
+        "index": 4,
+        "text": "Our",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `our` เป็นคำบอกความเป็นเจ้าของ ต้องตามด้วยคำนาม เช่น `our project` ไม่สามารถอยู่หน้า `have` เพื่อเป็นประธานได้ ดังนั้นต้องใช้ `We have ...`"
+      }
+    ]
+  },
+  {
+    "question": "___ can join the meeting tomorrow.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "We",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อใช้ **modal verb** โครงสร้างคือ __We + can + base verb__ เช่น `We can join the meeting.` หรือ `We can help.` ใช้ `we` เป็นประธานเพื่อบอกความสามารถ/ความยินยอม"
+      },
+      {
+        "index": 2,
+        "text": "Us",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลังจาก modal verb ต้องมีประธานก่อน ซึ่งตำแหน่งนี้เป็นประธาน ต้องใช้ `We` ไม่ใช่ `Us` เช่น `They can invite us.` (เราเป็นกรรม) แต่ถ้าเราจะเข้าร่วมเองต้อง `We can ...`"
+      },
+      {
+        "index": 3,
+        "text": "Ours",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `ours` เป็น possessive pronoun ใช้แทนนามที่เป็นของเรา เช่น `The choice is ours.` ไม่ใช่ประธานหน้ากริยา `can`"
+      },
+      {
+        "index": 4,
+        "text": "We are can",
+        "is_correct": false,
+        "answer_description": "ผิดโครงสร้าง modal verb เพราะ modal ห้ามตามด้วย `be` หรือกริยาช่วยอื่นๆ ซ้อนกัน ต้องเป็น `We can + V1` เช่น `We can join.` ไม่ใช่ `We are can join.`"
+      }
+    ]
+  },
+  {
+    "question": "___ usually take the bus to school.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "We",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใน Present Simple ใช้ __We + adverb of frequency + base verb__ เช่น `We usually take the bus.` หรือ `We often study together.` ใช้ `we` เป็นประธานพหูพจน์ตรงตามกฎ"
+      },
+      {
+        "index": 2,
+        "text": "Us",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะตำแหน่งนี้ต้องการประธาน `we` ไม่ใช่กรรม `us` ตัวอย่างที่ถูก: `They see us every day.` (เราเป็นกรรม) แต่ถ้าเราเป็นผู้กระทำ: `We usually take ...`"
+      },
+      {
+        "index": 3,
+        "text": "Our",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `our` ต้องตามด้วยคำนาม เช่น `our bus` หรือ `our schedule` ไม่สามารถวางเดี่ยวๆ เป็นประธานได้ โครงสร้างที่ถูกคือ `We usually take ...`"
+      },
+      {
+        "index": 4,
+        "text": "We takes",
+        "is_correct": false,
+        "answer_description": "ผิดเรื่องเติม s ที่กริยา เพราะประธานพหูพจน์ `we` ใช้กริยารูปพื้นฐาน `take` ไม่ใช่ `takes` ตัวอย่างถูก: `We take the bus.` ส่วน `He takes the bus.` ใช้กับเอกพจน์"
+      }
+    ]
+  },
+  {
+    "question": "___ are from the same hometown, aren't we?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "We",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคพร้อม **question tag** ใช้ __We + are + ... , aren’t we?__ เช่น `We are from the same hometown, aren’t we?` รูปนี้สอดคล้องกันระหว่างประธานหลักกับประธานในแท็ก"
+      },
+      {
+        "index": 2,
+        "text": "Us",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `us` ไม่ใช่ประธาน จึงวางหน้า `are` ไม่ได้ ตัวอย่างที่ถูก: `You are with us, aren’t you?` (เราเป็นกรรม) แต่ถ้าเราคือประธานต้องเป็น `We are ... , aren’t we?`"
+      },
+      {
+        "index": 3,
+        "text": "We is",
+        "is_correct": false,
+        "answer_description": "ผิดเรื่องการจับคู่กริยา `we` ต้องใช้ `are` ไม่ใช่ `is` ตัวอย่างถูก: `We are late, aren’t we?` การใช้ `We is ...` เป็นโครงสร้างที่ผิด"
+      },
+      {
+        "index": 4,
+        "text": "Ours",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `ours` เป็น possessive pronoun ใช้แทนนาม เช่น `The decision is ours.` ไม่ใช่ประธานหน้ากริยา `are` ในประโยคหลัก"
+      }
+    ]
+  },
+  {
+    "question": "___ should bring our IDs to the test center.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "We",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อใช้ modal `should` โครงสร้างคือ __We + should + base verb__ เช่น `We should bring our IDs.` หรือ `We should study more.` ใช้ `our` ต่อท้ายเพื่อแสดงความเป็นเจ้าของบัตรของพวกเรา"
+      },
+      {
+        "index": 2,
+        "text": "Us",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะตำแหน่งนี้เป็นประธาน จึงต้องใช้ `We` ไม่ใช่ `Us` ตัวอย่างเปรียบเทียบ: `Please remind us to bring IDs.` (เราเป็นกรรม) แต่ถ้าเราจะทำเอง: `We should bring ...`"
+      },
+      {
+        "index": 3,
+        "text": "Ourselves",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `ourselves` เป็น reflexive pronoun ใช้เมื่อกรรมอ้างกลับมาที่ประธาน เช่น `We prepared ourselves.` ไม่ใช้เป็นประธานหน้ากริยา `should`"
+      },
+      {
+        "index": 4,
+        "text": "Our",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจาก `our` ต้องตามด้วยคำนามและไม่ทำหน้าที่เป็นประธาน เช่น `Our team should ...` หากไม่มีคำนามตามหลัง จะใช้เป็นประธานไม่ได้ ต้องเป็น `We should ...`"
+      }
+    ]
+  }
+]

@@ -1,0 +1,321 @@
+[
+  {
+    "question": "Would you like ___ tea?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "some",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเวลาชวน/เสนอ (*offers*) หรือขอร้องอย่างสุภาพ เรามักใช้ **some** กับคำนามนับไม่ได้/พหูพจน์ โครงสร้างที่ควรจำคือ __`Would you like + some + noun?`__. ตัวอย่าง: `Would you like some tea?` หรือ `Can I have some water?`"
+      },
+      {
+        "index": 2,
+        "text": "any",
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะในประโยคชวนแบบสุภาพ เพราะ **any** มักใช้กับประโยคปฏิเสธ/คำถามทั่วไป เช่น `Do you have any tea?` แต่ถ้าชวนหรือเสนอควรใช้ **some** จะเป็นธรรมชาติกว่า เช่น `Would you like some tea?`"
+      },
+      {
+        "index": 3,
+        "text": "no",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะ **no** ต้องตามด้วยคำนามตรงๆ และไม่ได้เข้ากับประโยคชวน เช่น `Would you like no tea?` ฟังแปลกและหมายถึง “ไม่อยากชาเลยใช่ไหม” ซึ่งไม่ใช่การชวนปกติ ใช้ **some** จะถูกกว่า: `Would you like some tea?`"
+      },
+      {
+        "index": 4,
+        "text": "many",
+        "is_correct": false,
+        "answer_description": "ผิดชนิดคำ เพราะ **many** ใช้กับคำนามนับได้พหูพจน์ และมักต้องมีคำนามตามหลัง (`many cups`) ในที่นี้ช่องว่างต้องการคำสรรพนามไม่เจาะจงแบบ **some** เช่น `some tea` ไม่ใช่ `many` เดี่ยวๆ"
+      }
+    ]
+  },
+  {
+    "question": "I don't have ___ time to finish this today.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "any",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคปฏิเสธใช้ **any** กับคำนามนับไม่ได้/พหูพจน์ ตามแพตเทิร์น __`don't/doesn't + have + any + noun`__. ตัวอย่าง: `I don't have any time.` หรือ `She doesn't have any money.`"
+      },
+      {
+        "index": 2,
+        "text": "no",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะเพราะจะเกิดโครงสร้างปฏิเสธซ้อนกับ `don't` เช่น `I don't have no time` เป็น **double negative** ซึ่งผิด ควรใช้ `I don't have any time` หรือถ้าอยากใช้ **no** ให้ตัด `don't` ออก: `I have no time.`"
+      },
+      {
+        "index": 3,
+        "text": "some",
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย เพราะ **some** ใช้ในประโยคบอกเล่าหรือข้อเสนอ/คำขอมากกว่า เช่น `I have some time.` แต่ประโยคนี้เป็นปฏิเสธด้วย `don't` จึงต้องใช้ **any**: `I don't have any time.`"
+      },
+      {
+        "index": 4,
+        "text": "nothing",
+        "is_correct": false,
+        "answer_description": "ใช้ผิดที่ เพราะ **nothing** เป็นสรรพนาม ไม่ได้ใช้ตามหลัง `have` แบบ `have nothing time` ไม่ได้ ถ้าจะใช้ให้ถูกต้องต้องเปลี่ยนโครงสร้างเป็น `I have nothing to do.` หรือใช้แบบเดิมด้วย **any**: `I don't have any time.`"
+      }
+    ]
+  },
+  {
+    "question": "The classroom is empty; ___ is here.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "No one",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะต้องการสื่อว่า “ไม่มีใครอยู่เลย” จึงใช้ **no one** กับกริยาเอกพจน์ แพตเทิร์นคือ __`No one + singular verb`__. ตัวอย่าง: `No one is here.` หรือ `No one knows the answer.`"
+      },
+      {
+        "index": 2,
+        "text": "Someone",
+        "is_correct": false,
+        "answer_description": "ไม่ตรงความหมาย เพราะ **someone** แปลว่า “มีใครบางคน” ซึ่งขัดกับคำว่า `empty` ที่สื่อว่าไม่มีคนอยู่ เช่น `Someone is here` จะหมายถึงมีคนอยู่ ไม่เข้ากับบริบทห้องว่าง"
+      },
+      {
+        "index": 3,
+        "text": "Anyone",
+        "is_correct": false,
+        "answer_description": "ใช้ไม่เหมาะในประโยคบอกเล่าแบบยืนยัน เพราะ **anyone** มักใช้ในคำถาม/ปฏิเสธ เช่น `Is anyone here?` หรือ `I don't see anyone.` ถ้าจะบอกว่าไม่มีใคร ให้ใช้ `No one is here.`"
+      },
+      {
+        "index": 4,
+        "text": "Everyone",
+        "is_correct": false,
+        "answer_description": "ขัดกับบริบท เพราะ **everyone** แปลว่า “ทุกคน” ซึ่งตรงข้ามกับ `empty` เช่น `Everyone is here` หมายถึงทุกคนมาแล้ว จึงไม่สอดคล้องกับห้องที่ว่างเปล่า"
+      }
+    ]
+  },
+  {
+    "question": "Everyone ___ ready for the trip.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **everyone** นับเป็นเอกพจน์ ต้องใช้กริยาเอกพจน์ แพตเทิร์นคือ __`everyone + is/has + ...`__. ตัวอย่าง: `Everyone is ready.` และ `Everyone has a ticket.`"
+      },
+      {
+        "index": 2,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิดหลักสอดคล้องระหว่างประธาน-กริยา เพราะ **everyone** เป็นเอกพจน์ จึงห้ามใช้ `are` ต้องใช้ `is` เช่น `Everyone is here.`"
+      },
+      {
+        "index": 3,
+        "text": "be",
+        "is_correct": false,
+        "answer_description": "ผิดรูปกริยา ประโยคบอกเล่าปัจจุบันต้องผันตามประธาน ไม่ใช้ `be` รูปดิบๆ ต้องเป็น `is` เนื่องจาก `everyone` เป็นเอกพจน์"
+      },
+      {
+        "index": 4,
+        "text": "were",
+        "is_correct": false,
+        "answer_description": "ผิดกาลและผิดการสอดคล้อง เพราะ `were` เป็นอดีตกาลพหูพจน์ แต่ `everyone` ต้องใช้เอกพจน์ปัจจุบัน `is` ในประโยคนี้"
+      }
+    ]
+  },
+  {
+    "question": "Is there ___ I can help you with?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "anything",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะในประโยคคำถามทั่วไปนิยมใช้ **any-** words แพตเทิร์นคือ __`Is there + any(thing) ... ?`__. ตัวอย่าง: `Is there anything I can do?` หรือ `Do you need anything?`"
+      },
+      {
+        "index": 2,
+        "text": "something",
+        "is_correct": false,
+        "answer_description": "ไม่เป็นธรรมชาติเท่า **anything** ในคำถามทั่วไป เพราะ **something** มักใช้เมื่อผู้พูดคาดว่า “น่าจะมีอะไรบางอย่าง” อยู่แล้ว เช่น `I think there's something wrong.` แต่คำถามเปิดแบบนี้ให้ใช้ **anything**"
+      },
+      {
+        "index": 3,
+        "text": "nothing",
+        "is_correct": false,
+        "answer_description": "ใช้ไม่ถูกบริบท เพราะ **nothing** ให้ความหมายปฏิเสธในประโยคบอกเล่า เช่น `There is nothing I can do.` แต่ประโยคนี้เป็นคำถาม ควรใช้ `anything`"
+      },
+      {
+        "index": 4,
+        "text": "everything",
+        "is_correct": false,
+        "answer_description": "ความหมายเกินจริง `everything` = ทุกสิ่งทุกอย่าง ซึ่งไม่ใช่คำถามเปิดทั่วไป โครงสร้างคำถามมาตรฐานควรเป็น `Is there anything ...?` มากกว่า"
+      }
+    ]
+  },
+  {
+    "question": "There was ___ in the fridge, so we went out to eat.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "nothing",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **nothing** เพื่อบอกเชิงลบในประโยคบอกเล่า แพตเทิร์นคือ __`There is/was + nothing + ...`__. ตัวอย่าง: `There is nothing in the bag.` หรือ `There was nothing to eat.`"
+      },
+      {
+        "index": 2,
+        "text": "anything",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะเพราะ `There was anything...` ไม่ใช้ในบอกเล่าบวก ถ้าเป็นปฏิเสธหรือคำถามค่อยใช้ **anything** เช่น `There wasn't anything in the fridge.` หรือ `Was there anything to eat?`"
+      },
+      {
+        "index": 3,
+        "text": "something",
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย เพราะ **something** หมายถึง “มีอะไรบางอย่าง” แต่บริบทสื่อว่าไม่มีอะไรเหลือ จึงต้องใช้ **nothing** เช่น `There was nothing in the fridge.`"
+      },
+      {
+        "index": 4,
+        "text": "no",
+        "is_correct": false,
+        "answer_description": "ใช้รูปไม่ครบ เพราะ **no** ต้องตามด้วยคำนาม เช่น `There was no food in the fridge.` ถ้าจะเว้นคำนามไว้ ให้ใช้ **nothing** ซึ่งเป็นสรรพนามได้เอง"
+      }
+    ]
+  },
+  {
+    "question": "Each student ___ a locker.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "has",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **each** ถือเป็นเอกพจน์ ต้องใช้กริยาเอกพจน์ แพตเทิร์นคือ __`Each + singular noun + has/is`__. ตัวอย่าง: `Each student has a locker.` และ `Each seat is numbered.`"
+      },
+      {
+        "index": 2,
+        "text": "have",
+        "is_correct": false,
+        "answer_description": "ผิดการผันกริยา เพราะประธานเอกพจน์ (**each student**) ต้องใช้ `has` ไม่ใช่ `have` เช่น `Each member has a role.`"
+      },
+      {
+        "index": 3,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิดชนิดกริยาและจำนวน ประธานเป็นเอกพจน์จึงต้องใช้ `is/has` ไม่ใช่ `are` ตัวอย่างที่ถูก: `Each student has a locker.`"
+      },
+      {
+        "index": 4,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิดรูปและหน้าที่กริยา ประโยคบอกเล่าเชิงกรรมสิทธิ์ต้องใช้ `has` ไม่ใช่ `do` โครงสร้างที่ถูกคือ `Each student has ...`"
+      }
+    ]
+  },
+  {
+    "question": "Neither of the answers ___ correct.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **neither** ทำหน้าที่เป็นเอกพจน์แม้จะตามด้วย `of + plural noun` แพตเทิร์นคือ __`Neither of + plural noun + singular verb`__. ตัวอย่าง: `Neither of the options is good.` และ `Neither of them is available.`"
+      },
+      {
+        "index": 2,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิดหลักสอดคล้อง เพราะถึงแม้ `answers` เป็นพหูพจน์ แต่คำชี้เฉพาะ **neither** นับเป็นเอกพจน์ ต้องใช้ `is` เช่น `Neither of the plans is feasible.`"
+      },
+      {
+        "index": 3,
+        "text": "be",
+        "is_correct": false,
+        "answer_description": "ผิดรูปกริยา ประโยคปัจจุบันต้องผันกริยาตามประธานเอกพจน์ จึงใช้ `is` ไม่ใช่ `be`"
+      },
+      {
+        "index": 4,
+        "text": "were",
+        "is_correct": false,
+        "answer_description": "ผิดกาลและจำนวน เพราะ `were` เป็นอดีตกาลพหูพจน์ แต่ **neither** ต้องการกริยาเอกพจน์ปัจจุบัน `is` ในประโยคนี้"
+      }
+    ]
+  },
+  {
+    "question": "We couldn't find the keys ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "anywhere",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะในประโยคปฏิเสธ/รูปปฏิเสธใช้ **anywhere** เพื่อสื่อว่า “หาไม่เจอที่ไหนเลย” แพตเทิร์นคือ __`can't/couldn't + find + ... + anywhere`__. ตัวอย่าง: `I can't find my phone anywhere.`"
+      },
+      {
+        "index": 2,
+        "text": "somewhere",
+        "is_correct": false,
+        "answer_description": "ไม่สอดคล้องกับปฏิเสธ เพราะ **somewhere** มักใช้ในบอกเล่า เช่น `I left it somewhere.` ประโยคนี้เป็นปฏิเสธ `couldn't` จึงต้องใช้ **anywhere**"
+      },
+      {
+        "index": 3,
+        "text": "nowhere",
+        "is_correct": false,
+        "answer_description": "หลีกเลี่ยงเพราะจะเกิดนัยปฏิเสธซ้อนกับ `couldn't` เช่น `We couldn't find ... nowhere` เป็น **double negative** ควรใช้ `anywhere` หรือถ้าจะใช้ `nowhere` ให้เปลี่ยนเป็นบอกเล่า: `We found it nowhere.`"
+      },
+      {
+        "index": 4,
+        "text": "everywhere",
+        "is_correct": false,
+        "answer_description": "ความหมายไม่ตรง `everywhere` = ทุกที่ ซึ่งจะทำให้ประโยคกลายเป็น “หาเจอทุกที่” ไม่เข้ากับ `couldn't find` ที่เป็นปฏิเสธ"
+      }
+    ]
+  },
+  {
+    "question": "None of the information ___ accurate.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **information** เป็นคำนามนับไม่ได้ ใช้กริยาเอกพจน์ และเมื่อขึ้นต้นด้วย **none of** ที่ตามด้วยนามนับไม่ได้ ใช้กริยาเอกพจน์ แพตเทิร์นคือ __`None of + uncountable noun + singular verb`__. ตัวอย่าง: `None of the water is clean.`"
+      },
+      {
+        "index": 2,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `information` เป็นนามนับไม่ได้ จึงต้องใช้กริยาเอกพจน์ `is` ไม่ใช้ `are` เช่นเดียวกับ `news is` ไม่ใช่ `news are`"
+      },
+      {
+        "index": 3,
+        "text": "were",
+        "is_correct": false,
+        "answer_description": "ผิดกาลและจำนวน ประโยคกล่าวทั่วไปควรใช้ปัจจุบัน และ `information` ต้องใช้เอกพจน์ จึงควรเป็น `is`"
+      },
+      {
+        "index": 4,
+        "text": "have",
+        "is_correct": false,
+        "answer_description": "ผิดรูปกริยาและการสอดคล้อง ประธานเอกพจน์ต้องใช้ `has/is` ไม่ใช่ `have` ที่เป็นพหูพจน์"
+      }
+    ]
+  },
+  {
+    "question": "I need ___ to talk to about this problem.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "someone",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคบอกเล่าที่ผู้พูดต้องการ “ใครสักคน” ใช้ **someone** แพตเทิร์นคือ __`need/want + someone to + verb`__. ตัวอย่าง: `I need someone to help me.` หรือ `She wants someone to talk to.`"
+      },
+      {
+        "index": 2,
+        "text": "anyone",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่ตัวเลือกที่เป็นธรรมชาติที่สุดในบอกเล่า เพราะ **anyone** มักใช้ในปฏิเสธ/คำถาม เช่น `I don't need anyone.` หรือ `Does anyone know?` ในที่นี้ใช้ `someone` จะเหมาะกว่า"
+      },
+      {
+        "index": 3,
+        "text": "no one",
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย เพราะ **no one** แปลว่า “ไม่มีใคร” จะทำให้ประโยคกลายเป็น `I need no one ...` ซึ่งสื่อว่าไม่ต้องการใคร ตรงข้ามกับความตั้งใจของประโยค"
+      },
+      {
+        "index": 4,
+        "text": "everyone",
+        "is_correct": false,
+        "answer_description": "เกินความจำเป็นและความหมายเปลี่ยนเป็น “ต้องการคุยกับทุกคน” ซึ่งไม่ใช่เจตนา ประโยคนี้ต้องการ “ใครสักคน” จึงใช้ `someone`"
+      }
+    ]
+  }
+]

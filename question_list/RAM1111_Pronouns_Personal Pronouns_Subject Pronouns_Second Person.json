@@ -1,0 +1,321 @@
+[
+  {
+    "question": "___ are my best friend.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "You",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธานบุรุษที่สองใช้ **__you + are + complement__** เช่น `You are my best friend.` โครงสร้างนี้ใช้เมื่อพูดกับผู้ฟังโดยตรง. ตัวอย่างใช้จริง: `You are very kind.`"
+      },
+      {
+        "index": 2,
+        "text": "Your",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **your** เป็นคำคุณศัพท์แสดงความเป็นเจ้าของ (possessive adjective) ต้องตามด้วยคำนาม เช่น `your friend`. ถ้าจะเป็นประธานต้องใช้ **you**: `You are my best friend.`"
+      },
+      {
+        "index": 3,
+        "text": "Yours",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **yours** เป็นสรรพนามแสดงความเป็นเจ้าของ (possessive pronoun) ใช้แทนคำนามที่ละไว้ เช่น `This book is yours.` ประโยคนี้ต้องการประธานบุรุษที่สอง จึงต้องเป็น **you**."
+      },
+      {
+        "index": 4,
+        "text": "She",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **she** เป็นประธานบุรุษที่สามเอกพจน์ ไม่ใช่บุรุษที่สอง. ถ้าพูดกับผู้ฟังต้องใช้ **you**: `You are my best friend.` ไม่ใช่ `She are my best friend.`"
+      }
+    ]
+  },
+  {
+    "question": "Can ___ help me with this?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "you",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **__you + base verb__** หลัง modal verb เช่น `can`, `should`, `will` ได้โดยตรง: `Can you help me?` นี่คือการขอความช่วยเหลืออย่างสุภาพ. ตัวอย่างเพิ่มเติม: `Could you open the window?`"
+      },
+      {
+        "index": 2,
+        "text": "your",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **your** ต้องตามด้วยคำนาม เช่น `your help` ไม่สามารถยืนเดี่ยวเป็นประธานได้ในประโยคนี้. โครงสร้างที่ถูกคือ `Can you help me?`"
+      },
+      {
+        "index": 3,
+        "text": "they",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะเรากำลังถามผู้ฟังโดยตรง ต้องใช้บุรุษที่สอง **you**. ถ้าเป็นบุรุษที่สามค่อยใช้ `they`: `Can they help me?` (ถามถึงคนอื่น)."
+      },
+      {
+        "index": 4,
+        "text": "he",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **he** เป็นบุรุษที่สาม พูดถึงผู้ชายคนอื่น ไม่ใช่คนที่เรากำลังคุยด้วย. ประโยคที่ถูกเมื่อคุยกับผู้ฟังคือ `Can you help me?`"
+      }
+    ]
+  },
+  {
+    "question": "Mark and Lily, ___ are next in line.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "you",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อเรียกชื่อแล้วตามด้วยเครื่องหมายจุลภาค แปลว่าเรากำลัง **พูดกับ** เขาโดยตรง จึงใช้ **__you + are__**: `Mark and Lily, you are next in line.` ตัวอย่างคล้ายกัน: `Everyone, you are welcome to join.`"
+      },
+      {
+        "index": 2,
+        "text": "they",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะชื่อที่ตามด้วยจุลภาคคือคำขึ้นต้นที่ใช้เรียกคนตรงหน้า (vocative) ต้องใช้ **you** ไม่ใช่ **they**. `They are next in line` ใช้เมื่อพูดถึงเขา ไม่ได้พูดกับเขา."
+      },
+      {
+        "index": 3,
+        "text": "we",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **we** คือบุรุษที่หนึ่งพหูพจน์ (รวมผู้พูด) แต่ประโยคนี้กำลังบอกกับ Mark และ Lily โดยตรง จึงต้องใช้ **you**. ตัวอย่างผิด: `Mark and Lily, we are next in line.`"
+      },
+      {
+        "index": 4,
+        "text": "he",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **he** ใช้กับผู้ชายคนเดียวและเป็นบุรุษที่สาม ไม่ตรงกับการพูดกับ Mark และ Lily โดยตรง. ที่ถูกคือ `you are`."
+      }
+    ]
+  },
+  {
+    "question": "What do ___ think about this idea?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "you",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำถามแบบนี้ใช้รูป **__do + you + base verb__**: `What do you think?` เพราะ **you** ใช้กับกริยาช่องพื้นฐานโดยมีตัวช่วย `do/does`. ตัวอย่าง: `Do you agree?`"
+      },
+      {
+        "index": 2,
+        "text": "your",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **your** ต้องมีคำนามตาม เช่น `your opinion`. ถ้าจะถามผู้ฟังโดยตรงเป็นประธาน ต้องใช้ `you`: `What do you think?`"
+      },
+      {
+        "index": 3,
+        "text": "does you",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกับ **you** ต้องใช้ **do** ไม่ใช่ **does**. โครงสร้างที่ถูกคือ `What do you think?` ไม่ใช่ `What does you think?`"
+      },
+      {
+        "index": 4,
+        "text": "she",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำถามนี้ถามความเห็นของผู้ฟังโดยตรง ต้องใช้ **you**. ถ้าถามถึงผู้หญิงคนอื่นค่อยใช้ `What does she think?`"
+      }
+    ]
+  },
+  {
+    "question": "___ are not allowed in this area, sir.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "You",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **__You are + past participle/adjective__** เพื่อแจ้งกฎแก่ผู้ฟังโดยตรง: `You are not allowed...` ตัวอย่าง: `You are required to wear a badge.`"
+      },
+      {
+        "index": 2,
+        "text": "Your",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **your** ต้องตามด้วยคำนาม เช่น `Your presence is not allowed` (โครงสร้างอีกแบบ). ในช่องว่างนี้ต้องการประธานบุรุษที่สองเดี่ยวๆ คือ **You**."
+      },
+      {
+        "index": 3,
+        "text": "They",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะเราบอกกับคนตรงหน้า ควรใช้ **you**. ถ้าเราพูดถึงคนอื่นค่อยใช้ `They are not allowed in this area.`"
+      },
+      {
+        "index": 4,
+        "text": "He",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **He** เป็นบุรุษที่สามเอกพจน์ ไม่ใช่ผู้ฟัง. ประโยคกำลังกำชับคนที่คุยด้วยโดยตรง ต้องใช้ `You are not allowed...`"
+      }
+    ]
+  },
+  {
+    "question": "If ___ need anything, call me.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "you",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคเงื่อนไขแบบ If-clause ใช้รูป **__if + you + base verb__** ใน Present Simple: `If you need anything, call me.` ตัวอย่างเพิ่ม: `If you have time, text me.`"
+      },
+      {
+        "index": 2,
+        "text": "your",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **your** เป็นคำคุณศัพท์แสดงความเป็นเจ้าของ ต้องมีคำนามตาม เช่น `your needs`. ใน if-clause นี้ต้องการประธานคือ **you**."
+      },
+      {
+        "index": 3,
+        "text": "yours",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **yours** ใช้แทนคำนาม ไม่ได้ทำหน้าที่เป็นประธานบุรุษที่สองใน if-clause ได้โดยตรง. ใช้โครงสร้างที่ถูก: `If you need...`"
+      },
+      {
+        "index": 4,
+        "text": "he",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นบุรุษที่สาม ไม่ใช่ผู้ฟัง. ถ้าจะพูดถึงเขา: `If he needs anything, call me.` แต่โจทย์นี้ต้องการ **you**."
+      }
+    ]
+  },
+  {
+    "question": "___ usually arrive early, right?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "You",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **__You + adverb of frequency + base verb__**: `You usually arrive early.` เป็นการพูดกับผู้ฟังโดยตรง. ตัวอย่าง: `You often get here before 8.`"
+      },
+      {
+        "index": 2,
+        "text": "Your",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Your** ต้องมีคำนามตาม เช่น `Your team usually arrives early.` ถ้าพูดกับผู้ฟังโดยตรงให้ใช้ `You`."
+      },
+      {
+        "index": 3,
+        "text": "He",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นบุรุษที่สามเอกพจน์ และรูปกริยาจะเป็น `arrives` ไม่ใช่ `arrive`. ประโยคที่ถูกสำหรับ he: `He usually arrives early.`"
+      },
+      {
+        "index": 4,
+        "text": "They",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทการถามผู้ฟังโดยตรง เพราะต้องใช้ **you**. ถ้าพูดถึงคนอื่นหลายคนค่อยใช้ `They usually arrive early.`"
+      }
+    ]
+  },
+  {
+    "question": "___ and your team can join the meeting at 10.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "You",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อมีโครงสร้างร่วมประธาน ใช้ **__You and + noun + can + base verb__**: `You and your team can join...` เพราะเราพูดกับผู้ฟังโดยตรง. ตัวอย่าง: `You and your friend can sit here.`"
+      },
+      {
+        "index": 2,
+        "text": "Your",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขึ้นต้นด้วย **Your** จะกลายเป็นคุณศัพท์ ต้องตามด้วยคำนามทันทีและไม่เชื่อมแบบประธานร่วม เช่น `Your team can join...` ซึ่งไม่เท่ากับ `You and your team...`"
+      },
+      {
+        "index": 3,
+        "text": "She",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **She** เป็นบุรุษที่สามเอกพจน์ ไม่ใช่ผู้ฟัง และยังไม่เข้ากับ `and your team` เมื่อพูดกับผู้ฟังโดยตรง. ใช้ `You and your team...` จึงถูกต้อง."
+      },
+      {
+        "index": 4,
+        "text": "We",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะประโยคกำหนดให้ผู้ฟังและทีมของเขาเป็นผู้กระทำ ไม่รวมผู้พูด. ถ้าใช้ **we** จะหมายถึงรวมผู้พูดด้วย ซึ่งเปลี่ยนความหมาย."
+      }
+    ]
+  },
+  {
+    "question": "I saw the schedule. ___ are presenting first.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "You",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **__You are + -ing / complement__** เพื่อบอกตาราง/กำหนดการกับผู้ฟังโดยตรง: `You are presenting first.` ตัวอย่าง: `You are meeting the client at 2 PM.`"
+      },
+      {
+        "index": 2,
+        "text": "They",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะเรากำลังบอกผู้ฟังถึงตารางของเขาเอง ควรใช้ **you**. ถ้าพูดถึงอีกทีมค่อยใช้ `They are presenting first.`"
+      },
+      {
+        "index": 3,
+        "text": "He",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นบุรุษที่สามเอกพจน์ และรูปกริยาก็จะเปลี่ยนเป็น `is` ไม่ใช่ `are`. ที่ถูกคือ `You are presenting first.`"
+      },
+      {
+        "index": 4,
+        "text": "Your",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Your** ต้องตามด้วยคำนาม เช่น `Your team is presenting first.` แต่ช่องว่างนี้ต้องการประธานบุรุษที่สองเดี่ยวๆ คือ **You**."
+      }
+    ]
+  },
+  {
+    "question": "Students, ___ must bring your ID cards.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "you",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อมีคำเรียกขานเช่น `Students,` แปลว่าพูดกับพวกเขาโดยตรง จึงใช้ **__you + must + base verb__**: `Students, you must bring your ID cards.` ตัวอย่างคล้ายกัน: `Team, you must be on time.`"
+      },
+      {
+        "index": 2,
+        "text": "they",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Students,` เป็นการเรียกผู้ฟัง ต้องใช้ **you** ไม่ใช่ **they**. `They must bring...` ใช้เมื่อพูดถึงนักเรียนคนอื่นกับบุคคลที่สาม."
+      },
+      {
+        "index": 3,
+        "text": "we",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **we** รวมผู้พูดด้วย ซึ่งไม่ตรงกับคำสั่งที่บอกกับนักเรียนโดยตรง. ใช้รูป `You must bring...` จะชัดเจนว่าเป็นผู้ฟังต้องทำ."
+      },
+      {
+        "index": 4,
+        "text": "your",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **your** เป็นคำคุณศัพท์ ต้องมีคำนามตาม ไม่สามารถทำหน้าที่เป็นประธานได้. โครงสร้างที่ถูก: `You must bring your ID cards.`"
+      }
+    ]
+  },
+  {
+    "question": "___ aren't required to submit the form online.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "You",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **__You are not + past participle/adjective__** เพื่อบอกข้อกำหนดกับผู้ฟัง: `You aren't required to submit the form online.` ตัวอย่าง: `You aren't expected to stay late.`"
+      },
+      {
+        "index": 2,
+        "text": "He",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นบุรุษที่สามเอกพจน์ และจะต้องใช้ `isn't` ไม่ใช่ `aren't`. ถ้าพูดถึงเขา: `He isn't required to submit the form online.`"
+      },
+      {
+        "index": 3,
+        "text": "Your",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Your** ต้องตามด้วยคำนาม เช่น `Your application isn't required online.` แต่ช่องว่างนี้ต้องการประธานบุรุษที่สองคือ **You**."
+      },
+      {
+        "index": 4,
+        "text": "Hers",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **hers** เป็นสรรพนามแสดงความเป็นเจ้าของ ไม่ได้ทำหน้าที่เป็นประธานบุรุษที่สอง. ที่ถูกคือ `You aren't required...`"
+      }
+    ]
+  }
+]

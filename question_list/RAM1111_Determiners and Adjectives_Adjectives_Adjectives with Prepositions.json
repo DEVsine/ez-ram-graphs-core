@@ -1,0 +1,292 @@
+[
+  {
+    "question": "She is ___ math and always helps her friends.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "good at",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำคุณศัพท์ **good** ต้องใช้กับบุพบท **at** เมื่อพูดถึงความถนัดหรือความสามารถ: __good at + noun/gerund__. ตัวอย่าง: `She is good at math.` หรือ `He is good at playing chess.` ใช้โครงสร้างนี้เมื่ออยากบอกว่าใครเก่งเรื่องอะไรค่ะ"
+      },
+      {
+        "index": 2,
+        "text": "good in",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสำหรับความสามารถเฉพาะเรื่องควรใช้ **good at** ไม่ใช่ **good in** เช่น `good at math` ไม่ใช่ `good in math`. `good in` พบได้น้อยและมักใช้ในบริบทสถานที่ เช่น `good in class` (ซึ่งก็ยังไม่ธรรมดาเท่าไหร่)."
+      },
+      {
+        "index": 3,
+        "text": "good on",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **good on** ใช้กับบริบทอื่น เช่นชมเสื้อผ้า: `That shirt looks good on you.` แต่เมื่อพูดถึงความถนัดต้องใช้ `good at` เช่น `She is good at science.`"
+      },
+      {
+        "index": 4,
+        "text": "good for",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **good for** ใช้หมายถึง “ดีต่อ.../เป็นประโยชน์ต่อ...” เช่น `Milk is good for your bones.` ไม่ได้ใช้บอกความสามารถ ดังนั้นต้องเป็น `good at math` ค่ะ"
+      }
+    ]
+  },
+  {
+    "question": "Tom is ___ spiders, so he never goes near them.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "afraid of",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำคุณศัพท์ **afraid** จับคู่กับบุพบท **of** เสมอ: __afraid of + noun/gerund__. ตัวอย่าง: `Tom is afraid of spiders.` หรือ `She is afraid of flying.` โครงสร้างนี้ใช้เมื่อเรากลัวสิ่งใดค่ะ"
+      },
+      {
+        "index": 2,
+        "text": "afraid from",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเราไม่ใช้ **afraid from** ในความหมาย “กลัว” รูปที่ถูกคือ **afraid of** เช่น `He is afraid of dogs.` ถ้าใช้ `from` จะฟังแปลกและผิดหลักไวยากรณ์"
+      },
+      {
+        "index": 3,
+        "text": "afraid about",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **afraid about** ไม่ใช่คู่ปกติในการพูดถึงความกลัวสิ่งของ/สัตว์ ต้องใช้ **afraid of** เช่น `She is afraid of heights.` `about` มักใช้กับกริยา/โครงสร้างอื่น เช่น `worried about`"
+      },
+      {
+        "index": 4,
+        "text": "afraid with",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่มีรูป **afraid with** ในความหมายนี้ คู่ที่ถูกคือ `afraid of + สิ่งที่กลัว` เช่น `He is afraid of the dark.`"
+      }
+    ]
+  },
+  {
+    "question": "They're really ___ learning new languages.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "interested in",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำคุณศัพท์ **interested** ต้องตามด้วย **in** เพื่อบอกความสนใจ: __interested in + noun/gerund__. ตัวอย่าง: `They're interested in learning new languages.` หรือ `I'm interested in history.` ใช้โครงสร้างนี้เพื่อบอกสิ่งที่เราสนใจค่ะ"
+      },
+      {
+        "index": 2,
+        "text": "interested on",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเราไม่ใช้ **interested on** รูปที่ถูกคือ **interested in** เช่น `She is interested in coding.` การใช้ `on` จะผิดคู่วิสามานระหว่างคำคุณศัพท์กับบุพบท"
+      },
+      {
+        "index": 3,
+        "text": "interesting in",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะใช้รูปคำคุณศัพท์ผิด ระหว่าง **interested** (รู้สึกสนใจ) กับ **interesting** (น่าสนใจ) ต้องใช้ `interested in` เช่น `They are interested in music.` ไม่ใช่ `interesting in`"
+      },
+      {
+        "index": 4,
+        "text": "interested about",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **interested** ต้องเป็น **in** ไม่ใช่ **about** ตัวอย่างที่ถูก: `I'm interested in art.` `about` มักใช้กับคำอื่น เช่น `excited about`"
+      }
+    ]
+  },
+  {
+    "question": "Who is ___ organizing the school trip?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "responsible for",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **responsible** จับคู่กับ **for** เมื่อพูดถึงความรับผิดชอบ: __responsible for + noun/gerund__. ตัวอย่าง: `She is responsible for organizing the event.` หรือ `He's responsible for safety.`"
+      },
+      {
+        "index": 2,
+        "text": "responsible of",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคู่ที่ถูกคือ **responsible for**, ไม่ใช่ **of** เช่น `He is responsible for the budget.` การใช้ `of` ทำให้ผิดคู่วิสามานระหว่างคำคุณศัพท์กับบุพบท"
+      },
+      {
+        "index": 3,
+        "text": "responsible to",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะ **responsible to** ใช้บอกว่ารับผิดชอบต่อผู้บังคับบัญชา/หน่วยงาน เช่น `responsible to the manager` แต่เมื่อบอก “รับผิดชอบเรื่องอะไร” ต้องใช้ **responsible for** เช่น `responsible for organizing`"
+      },
+      {
+        "index": 4,
+        "text": "responsible with",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **responsible with** ไม่ใช่คู่มาตรฐาน รูปที่ถูกต้องคือ `responsible for + งาน/หน้าที่` เช่น `responsible for the project`"
+      }
+    ]
+  },
+  {
+    "question": "This model is very ___ the previous version.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "similar to",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำคุณศัพท์ **similar** ต้องใช้กับ **to** เพื่อบอกความคล้าย: __similar to + noun__. ตัวอย่าง: `This model is similar to the previous version.` หรือ `Her style is similar to mine.`"
+      },
+      {
+        "index": 2,
+        "text": "similar with",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเราไม่ใช้ **similar with** ในการเปรียบเทียบความคล้าย ควรใช้ **similar to** เช่น `similar to the old one` ไม่ใช่ `similar with the old one`"
+      },
+      {
+        "index": 3,
+        "text": "similar than",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **than** ใช้กับการเปรียบเทียบขั้นกว่า (comparative) เช่น `bigger than` แต่ **similar** ต้องใช้กับ **to**: `similar to` เช่น `This is similar to that.`"
+      },
+      {
+        "index": 4,
+        "text": "similar for",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคู่มาตรฐานคือ **similar to** ไม่ใช่ **similar for** ตัวอย่างที่ถูกต้อง: `The two songs are similar to each other.`"
+      }
+    ]
+  },
+  {
+    "question": "Her parents are very ___ her achievements.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "proud of",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **proud** ต้องตามด้วย **of** เพื่อบอกความภาคภูมิใจ: __proud of + noun/gerund__. ตัวอย่าง: `Her parents are proud of her achievements.` หรือ `I'm proud of you.`"
+      },
+      {
+        "index": 2,
+        "text": "proud for",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคู่ที่ถูกคือ **proud of** ไม่ใช่ **for** เช่น `We're proud of our team.` การใช้ `for` จะทำให้ประโยคผิดธรรมชาติ"
+      },
+      {
+        "index": 3,
+        "text": "proud about",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะแม้ `about` ใช้กับบางคำได้ แต่กับ **proud** ต้องใช้ **of** เช่น `She is proud of her work.` ไม่ใช่ `proud about her work`"
+      },
+      {
+        "index": 4,
+        "text": "proud with",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่มีรูป **proud with** ในความหมายนี้ รูปที่ถูกคือ `proud of + สิ่งที่ภูมิใจ` เช่น `proud of my students`"
+      }
+    ]
+  },
+  {
+    "question": "The kids are ___ their old toys; they want something new.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "bored with",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **bored** ใช้คู่กับ **with** เพื่อบอกว่าเบื่อสิ่งใด: __bored with + noun/gerund__. ตัวอย่าง: `The kids are bored with their old toys.` หรือ `I'm bored with waiting.`"
+      },
+      {
+        "index": 2,
+        "text": "bored of",
+        "is_correct": false,
+        "answer_description": "ผิดตามมาตรฐานไวยากรณ์ที่สอนในห้องเรียน ซึ่งนิยมใช้ **bored with** มากกว่า แม้ภาษาพูดบางที่พบ `bored of` แต่ในข้อสอบ/หลักไวยากรณ์ทางการควรใช้ `bored with` เช่น `bored with this game`"
+      },
+      {
+        "index": 3,
+        "text": "bored by with",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นการซ้อนบุพบท ทำให้โครงสร้างเกินจำเป็น เราใช้เพียง `bored with` เช่น `bored with the show` หรือ `bored by the show` (ใช้ตัวใดตัวหนึ่ง ไม่ใช่ทั้งคู่)"
+      },
+      {
+        "index": 4,
+        "text": "bored at",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **bored at** ไม่ใช่คู่มาตรฐานเมื่อบอกว่าเบื่อสิ่งใด ควรใช้ `bored with + noun/gerund` เช่น `bored with homework`"
+      }
+    ]
+  },
+  {
+    "question": "This city is ___ its street food.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "famous for",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **famous** ต้องใช้กับ **for** เพื่อบอกว่า “มีชื่อเสียงเรื่อง...” : __famous for + noun/gerund__. ตัวอย่าง: `This city is famous for its street food.` และ `The museum is famous for its paintings.`"
+      },
+      {
+        "index": 2,
+        "text": "famous of",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปมาตรฐานคือ **famous for** ไม่ใช่ **famous of** ตัวอย่างที่ถูก: `He is famous for his songs.` ไม่ใช่ `famous of his songs`"
+      },
+      {
+        "index": 3,
+        "text": "famous about",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **about** ไม่ใช่บุพบทคู่กับ **famous** ในความหมายนี้ ต้องใช้ **for** เช่น `The beach is famous for its sunset.`"
+      },
+      {
+        "index": 4,
+        "text": "famous with",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **famous with** ไม่เป็นคู่มาตรฐาน ถ้าจะบอกว่า “เป็นที่นิยมในหมู่...” มักใช้โครงสร้างอื่น เช่น `popular with teenagers` ส่วน **famous** ใช้ `famous for`"
+      }
+    ]
+  },
+  {
+    "question": "I'm ___ peanuts, so I have to be careful.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "allergic to",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **allergic** จับคู่กับ **to** เสมอ: __allergic to + noun__. ตัวอย่าง: `I'm allergic to peanuts.` หรือ `She is allergic to cats.` ใช้เมื่อต้องการบอกว่าแพ้อะไรค่ะ"
+      },
+      {
+        "index": 2,
+        "text": "allergic with",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่มีรูป **allergic with** ในความหมายนี้ โครงสร้างที่ถูกคือ `allergic to + สิ่งที่แพ้` เช่น `allergic to dust`"
+      },
+      {
+        "index": 3,
+        "text": "allergic of",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะบุพบทที่ถูกต้องคือ **to** ไม่ใช่ **of** ตัวอย่างที่ถูก: `He is allergic to pollen.`"
+      },
+      {
+        "index": 4,
+        "text": "allergic for",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **for** ไม่ได้ใช้กับ **allergic** ในการบอกการแพ้ สิ่งที่ถูกต้องคือ `allergic to + noun` เช่น `allergic to seafood`"
+      }
+    ]
+  },
+  {
+    "question": "Most customers are ___ the service they received.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "satisfied with",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **satisfied** ใช้คู่กับ **with** เมื่อบอกความพึงพอใจ: __satisfied with + noun/gerund__. ตัวอย่าง: `Customers are satisfied with the service.` หรือ `I'm satisfied with the result.`"
+      },
+      {
+        "index": 2,
+        "text": "satisfied of",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเราต้องใช้ **satisfied with** ไม่ใช่ **of** เช่น `She is satisfied with her score.` การใช้ `of` ทำให้ผิดคู่วิสามาน"
+      },
+      {
+        "index": 3,
+        "text": "satisfied by with",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นการใช้บุพบทซ้อนกันเกินความจำเป็น ถ้าจะใช้ `by` มักใช้ในความหมายถูกทำให้พอใจโดยสิ่งใด แต่ไม่ใช้พร้อม `with` รูปมาตรฐานที่เป็นกลางคือ `satisfied with + สิ่งที่พอใจ`"
+      },
+      {
+        "index": 4,
+        "text": "satisfied to",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **to** ไม่ใช่บุพบทที่คู่กับ **satisfied** ในความหมายนี้ ต้องใช้ `with` เท่านั้น เช่น `satisfied with the outcome`"
+      }
+    ]
+  }
+]

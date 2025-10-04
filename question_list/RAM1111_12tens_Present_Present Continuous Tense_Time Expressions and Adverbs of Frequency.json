@@ -1,0 +1,321 @@
+[
+  {
+    "question": "She ___ to the gym right now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is going",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีตัวบอกเวลาอย่าง **right now** จึงใช้ **Present Continuous** ตามโครงสร้าง __`be + V-ing`__. ตัวอย่าง: `She is going to the gym right now.` และ `I am studying right now.` ใช้เมื่อกำลังกระทำอยู่ขณะนี้เลย"
+      },
+      {
+        "index": 2,
+        "text": "goes",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `goes` เป็น **Present Simple** ใช้กับความจริงทั่วไปหรือกิจวัตร แต่มีคำว่า **right now** ซึ่งสื่อถึง “ตอนนี้เลย” จึงควรใช้ Present Continuous เช่น `She is going now.`"
+      },
+      {
+        "index": 3,
+        "text": "is go",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **be** ต้องตามด้วย **V-ing** ไม่ใช่ V1 ดังนั้น `is go` จึงผิด รูปที่ถูกคือ `is going` เช่น `She is going now.`"
+      },
+      {
+        "index": 4,
+        "text": "going",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยา **be** ก่อน V-ing โครงสร้าง Present Continuous ต้องเป็น `am/is/are + V-ing` เช่น `She is going to the gym.`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ the project at the moment.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are discussing",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีคำบอกเวลา **at the moment** จึงใช้ **Present Continuous** ตามแพตเทิร์น __`am/is/are + V-ing`__. ตัวอย่าง: `They are discussing the project at the moment.` หรือ `We are working at the moment.`"
+      },
+      {
+        "index": 2,
+        "text": "discuss",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `discuss` เป็น Present Simple ซึ่งใช้กับกิจวัตรหรือข้อเท็จจริงทั่วไป แต่ **at the moment** ชี้ว่ากำลังเกิดตอนนี้ ควรใช้ `are discussing`."
+      },
+      {
+        "index": 3,
+        "text": "are discuss",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `are` ต้องใช้รูป **V-ing** ไม่ใช่กริยาช่องพื้นฐาน จึงควรเป็น `are discussing` เช่น `They are discussing now.`"
+      },
+      {
+        "index": 4,
+        "text": "discussed",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `discussed` เป็น V2/V3 ใช้กับอดีตหรือ Passive ไม่เข้ากับ **at the moment** ซึ่งต้องใช้ Present Continuous เช่น `are discussing`."
+      }
+    ]
+  },
+  {
+    "question": "He is ___ leaving his dishes in the sink!",
+    "choices": [
+      {
+        "index": 1,
+        "text": "always",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **always** กับ Present Continuous เพื่อสื่ออารมณ์รำคาญ/บ่น แพตเทิร์นคือ __`be + always + V-ing`__. ตัวอย่าง: `He is always leaving his dishes in the sink.` และ `She is always borrowing my pens.`"
+      },
+      {
+        "index": 2,
+        "text": "usually",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะ `usually` มักใช้กับ **Present Simple** เพื่อบอกความถี่ปกติ เช่น `He usually leaves his dishes in the sink.` ถ้าจะบ่นรำคาญควรใช้ `always` กับ V-ing"
+      },
+      {
+        "index": 3,
+        "text": "often",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ `often` ปกติใช้กับ Present Simple เช่น `He often leaves his dishes...` ถ้าต้องการสื่ออารมณ์รำคาญใน Continuous ให้ใช้ `always` เช่น `He is always leaving...`"
+      },
+      {
+        "index": 4,
+        "text": "never",
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย เพราะ `never` แปลว่าไม่เคย ซึ่งขัดกับบริบทการบ่นว่าเขาชอบทิ้งจาน ตัวอย่างที่ถูก (บ่น) คือ `He is always leaving...` ถ้าจะบอกไม่เคย ให้ใช้ `He never leaves...` (Present Simple)"
+      }
+    ]
+  },
+  {
+    "question": "My roommate ___ always borrowing my clothes.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ต้องใช้โครงสร้าง __`be + always + V-ing`__ เพื่อสื่อความรำคาญใน Present Continuous. ตัวอย่าง: `My roommate is always borrowing my clothes.` และ `He is always taking my snacks.`"
+      },
+      {
+        "index": 2,
+        "text": "always is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะตำแหน่งของ adverb ต้องอยู่ระหว่าง **be** กับ **V-ing** ไม่ใช่วางหน้า `is` โครงสร้างที่ถูกคือ `is always borrowing` ไม่ใช่ `always is borrowing`."
+      },
+      {
+        "index": 3,
+        "text": "is borrowing always",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะวาง `always` หลัง V-ing ซึ่งผิดตำแหน่ง ควรเป็น `is always borrowing` เช่นในประโยค `She is always texting in class.`"
+      },
+      {
+        "index": 4,
+        "text": "always",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคขาดกริยา **be** และ V-ing โครงสร้างเต็มของ Present Continuous ที่สื่อการบ่นคือ `be + always + V-ing` เช่น `is always borrowing`."
+      }
+    ]
+  },
+  {
+    "question": "I can't talk; I ___ dinner now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "am cooking",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีคำว่า **now** จึงใช้ Present Continuous ตามแบบ __`am/is/are + V-ing`__. ตัวอย่าง: `I am cooking dinner now.` หรือ `I am eating right now.`"
+      },
+      {
+        "index": 2,
+        "text": "cook",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `cook` เป็น Present Simple ใช้กับกิจวัตร ไม่เข้ากับคำว่า **now** ที่ชี้ว่ากำลังเกิดตอนนี้ ควรใช้ `am cooking`."
+      },
+      {
+        "index": 3,
+        "text": "am cook",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `am` ต้องใช้ V-ing ไม่ใช่ V1 รูปที่ถูกคือ `am cooking` เช่น `I am cooking now.`"
+      },
+      {
+        "index": 4,
+        "text": "cooking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยา **be** โครงสร้างต้องเป็น `am cooking` ไม่ใช่ `cooking` ลอยๆ เช่น `I am cooking dinner.`"
+      }
+    ]
+  },
+  {
+    "question": "Shh! The baby ___ right now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is sleeping",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **right now** ชี้ว่ากำลังกระทำ ณ ขณะนี้ ใช้ __`be + V-ing`__ เป็น Present Continuous. ตัวอย่าง: `The baby is sleeping right now.` และ `She is studying at the moment.`"
+      },
+      {
+        "index": 2,
+        "text": "sleeps",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `sleeps` เป็น Present Simple ใช้บอกกิจวัตร เช่น `The baby sleeps every afternoon.` แต่ที่นี่มี `right now` ต้องใช้ `is sleeping`."
+      },
+      {
+        "index": 3,
+        "text": "sleep",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยา **be** และรูป V-ing โครงสร้างที่ถูกคือ `is sleeping` ไม่ใช่ `sleep`."
+      },
+      {
+        "index": 4,
+        "text": "is sleep",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `is` ต้องใช้ V-ing จึงควรเป็น `is sleeping` ไม่ใช่ `is sleep`."
+      }
+    ]
+  },
+  {
+    "question": "You are ___ interrupting me during meetings.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "constantly",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **constantly** กับ Present Continuous เพื่อเน้นความรำคาญ/เกิดซ้ำบ่อยในช่วงนี้ แพตเทิร์น __`be + adverb of frequency (annoyance) + V-ing`__. ตัวอย่าง: `You are constantly interrupting me.` และ `He is continually talking.`"
+      },
+      {
+        "index": 2,
+        "text": "often",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะกับ Present Continuous เพราะ `often` ปกติใช้กับ Present Simple เพื่อบอกความถี่ เช่น `You often interrupt me.` ถ้าจะบ่นใน Continuous ควรใช้ `always/constantly`."
+      },
+      {
+        "index": 3,
+        "text": "sometimes",
+        "is_correct": false,
+        "answer_description": "ผิดบริบท เพราะ `sometimes` เป็นความถี่ทั่วๆ ไป มักใช้กับ Present Simple เช่น `You sometimes interrupt me.` ถ้าจะใช้ Continuous เพื่อสื่อรำคาญ ให้ใช้ `constantly`/`always`."
+      },
+      {
+        "index": 4,
+        "text": "rarely",
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย เพราะ `rarely` แปลว่าแทบไม่เคย ไม่เข้ากับโทนประโยคที่ตำหนิซ้ำๆ ถ้าจะสื่อบ่นใน Continuous ให้ใช้ `constantly` เช่น `You are constantly interrupting me.`"
+      }
+    ]
+  },
+  {
+    "question": "She's not available; she ___ a client at the moment.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is meeting",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมี **at the moment** จึงใช้ Present Continuous ตามโครงสร้าง __`am/is/are + V-ing`__. ตัวอย่าง: `She is meeting a client at the moment.` หรือ `He is talking to a client right now.`"
+      },
+      {
+        "index": 2,
+        "text": "meets",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `meets` เป็น Present Simple ใช้กับตารางเวลาหรือกิจวัตร แต่ `at the moment` บอกว่ากำลังเกิดตอนนี้ จึงต้องใช้ `is meeting`."
+      },
+      {
+        "index": 3,
+        "text": "is meet",
+        "is_correct": false,
+        "answer_description": "ผิดรูป หลัง `is` ต้องตามด้วย V-ing จึงควรเป็น `is meeting` ไม่ใช่ `is meet`."
+      },
+      {
+        "index": 4,
+        "text": "meeting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยา **be** ก่อน V-ing ต้องใช้ `is meeting` เช่น `She is meeting a client.`"
+      }
+    ]
+  },
+  {
+    "question": "Why ___ noise now?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are you making",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมี **now** จึงใช้ Present Continuous กับคำถามตามแพตเทิร์น __`Wh- + be + subject + V-ing`__. ตัวอย่าง: `Why are you making noise now?` และ `What are you doing right now?`"
+      },
+      {
+        "index": 2,
+        "text": "do you make",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นโครงสร้างคำถามของ Present Simple (`do/does + V1`) ซึ่งใช้กับกิจวัตร ไม่เข้ากับ **now** ที่บอกว่ากำลังเกิดตอนนี้ ควรใช้ `are you making`."
+      },
+      {
+        "index": 3,
+        "text": "are you make",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `are` ต้องเป็น V-ing ไม่ใช่ V1 รูปที่ถูกคือ `are you making`."
+      },
+      {
+        "index": 4,
+        "text": "you are making",
+        "is_correct": false,
+        "answer_description": "ผิดรูปแบบคำถาม เพราะเป็นประโยคบอกเล่า ไม่ใช่คำถาม ถ้าจะถามต้องสลับตำแหน่งเป็น `Are you making...` เช่น `Are you making noise now?`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ on our nerves; he's always complaining these days.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is getting",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะพูดถึงสถานการณ์ชั่วคราว/ช่วงนี้ ใช้ Present Continuous ตามโครงสร้าง __`be + V-ing`__. ตัวอย่าง: `He is getting on our nerves these days.` และ `People are getting frustrated right now.`"
+      },
+      {
+        "index": 2,
+        "text": "gets",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะ `gets` (Present Simple) สื่อถึงนิสัยถาวร แต่มี `these days` และการบ่น `he's always complaining` ชี้สภาพชั่วคราว จึงควรใช้ `is getting`."
+      },
+      {
+        "index": 3,
+        "text": "is get",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `is` ต้องใช้ V-ing รูปที่ถูกคือ `is getting` ไม่ใช่ `is get`."
+      },
+      {
+        "index": 4,
+        "text": "getting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยา **be** ต้องเป็น `is getting` ตามโครงสร้าง Present Continuous เช่น `He is getting tired.`"
+      }
+    ]
+  },
+  {
+    "question": "Look! They ___ the stage right now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are setting up",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีตัวบอกเวลา **right now** และคำกระตุ้น `Look!` จึงใช้ Present Continuous ตามแพตเทิร์น __`am/is/are + V-ing`__. ตัวอย่าง: `They are setting up the stage right now.` และ `Look! She is performing now.`"
+      },
+      {
+        "index": 2,
+        "text": "set up",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `set up` ใน Present Simple ใช้บอกกิจวัตร/ความจริงทั่วไป ไม่เข้ากับ **right now** ที่หมายถึงตอนนี้เลย ควรใช้ `are setting up`."
+      },
+      {
+        "index": 3,
+        "text": "are set up",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกลายเป็น Passive (`are set up`) ซึ่งแปลว่าถูกจัดตั้งอยู่แล้ว ไม่ใช่กำลังกระทำอยู่ ณ ตอนนี้ รูปที่ถูกคือ Active: `are setting up`."
+      },
+      {
+        "index": 4,
+        "text": "are setting",
+        "is_correct": false,
+        "answer_description": "เกือบถูก แต่ขาด **particle** `up` ของ phrasal verb `set up` ทำให้ความหมายไม่สมบูรณ์ รูปที่ถูกต้องคือ `are setting up` เช่น `They are setting up the equipment.`"
+      }
+    ]
+  }
+]
