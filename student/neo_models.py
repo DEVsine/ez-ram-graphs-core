@@ -16,4 +16,4 @@ class Student(StructuredNode):
     username = StringProperty(required=True)
     db_id = StringProperty(required=True)
 
-    related_to = RelationshipTo("Knowledge", "RELATED_TO")
+    related_to = RelationshipTo("knowledge.neo_models.Knowledge", "RELATED_TO")

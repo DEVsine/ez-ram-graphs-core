@@ -1,3 +1,4 @@
+import traceback
 from typing import Any, Optional
 from rest_framework.views import APIView
 from rest_framework.response import Response
@@ -47,10 +48,13 @@ class BaseAPIView(APIView):
         code: str = "error",
         details: Optional[dict] = None,
     ) -> Response:
-        payload = {"error": {"code": code, "message": message, "details": details or {}}}
+        payload = {
+            "error": {"code": code, "message": message, "details": details or {}}
+        }
         return Response(payload, status=status_code)
 
     def handle_exception(self, exc):  # type: ignore[override]
+        traceback.print_exc()
         if isinstance(exc, APIError):
             return self.error(
                 status_code=exc.status_code,
@@ -59,4 +63,3 @@ class BaseAPIView(APIView):
                 details=exc.details,
             )
         return super().handle_exception(exc)
-
