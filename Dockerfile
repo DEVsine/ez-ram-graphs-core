@@ -19,14 +19,13 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 WORKDIR /app
 
 # Copy dependency files
-COPY pyproject.toml uv.lock* ./
-COPY requirements.txt ./
+COPY requirements-docker.txt ./
 
 # Install uv for faster dependency resolution (optional but recommended)
 RUN pip install uv
 
-# Install Python dependencies
-RUN uv pip install --system -r requirements.txt
+# Install Python dependencies (using minimal Docker requirements)
+RUN uv pip install --system -r requirements-docker.txt
 
 # Install production server
 RUN pip install gunicorn whitenoise
@@ -69,8 +68,8 @@ RUN chmod +x /app/docker-entrypoint.sh
 # Switch to non-root user
 USER django
 
-# Collect static files (can be overridden at runtime)
-RUN python manage.py collectstatic --noinput --clear || true
+# Collect static files (skip if .env not available - will run in entrypoint)
+# RUN python manage.py collectstatic --noinput --clear || true
 
 # Expose port
 EXPOSE 8000
