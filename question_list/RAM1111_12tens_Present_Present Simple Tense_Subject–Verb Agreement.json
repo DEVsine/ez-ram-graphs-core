@@ -1,0 +1,292 @@
+[
+  {
+    "question": "My brother ___ to the gym every morning.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "go",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเป็นเอกพจน์ **My brother (he)** ต้องใช้กริยาเติม **-s** ใน Present Simple ตามกฎ **Subject–Verb Agreement**. รูปที่ถูกคือ `goes` เช่น: `He goes to the gym every morning.` รูป `go` ใช้กับ `I/you/we/they` เท่านั้น."
+      },
+      {
+        "index": 2,
+        "text": "goes",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธานเอกพจน์ **he/she/it** ต้องใช้กริยาเติม **-s/-es** ใน Present Simple. โครงสร้างที่ถูกคือ __S (he/she/it) + V-s/es__ เช่น: `My brother goes to the gym every morning.` ใช้กรณี `go → goes` เมื่อประธานเป็นบุรุษที่ 3 เอกพจน์."
+      },
+      {
+        "index": 3,
+        "text": "going",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `going` เป็นรูป **V-ing** ไม่ใช่รูป Present Simple ที่ใช้บอกกิจวัตร. ตัวอย่างผิด: `My brother going to the gym...` ต้องมี `is` ถ้าจะใช้ V-ing (แต่จะกลายเป็น Present Continuous ซึ่งไม่ตรงโจทย์). รูปที่ถูกคือ `goes` ในประโยคบอกนิสัยหรือความถี่."
+      },
+      {
+        "index": 4,
+        "text": "gone",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `gone` เป็นรูป **Past Participle** ใช้กับ Perfect Tense เช่น `has gone`. แต่ที่นี่เป็น Present Simple บอกกิจวัตร จึงต้องใช้ `goes`. ตัวอย่างที่ถูก: `He goes every morning.`"
+      }
+    ]
+  },
+  {
+    "question": "She usually ___ coffee before work.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "drink",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **she** เป็นเอกพจน์ ต้องเติม **-s** ให้กริยาใน Present Simple. รูป `drink` ใช้กับ `I/you/we/they`. ตัวอย่างที่ถูกควรเป็น `She drinks coffee before work.`"
+      },
+      {
+        "index": 2,
+        "text": "drinks",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตามกฎ __S (he/she/it) + V-s__ เมื่ออยู่ใน Present Simple. ประโยคที่ถูกคือ `She usually drinks coffee before work.` *usually* เป็น adverb of frequency วางหน้ากริยาหลักได้พอดี."
+      },
+      {
+        "index": 3,
+        "text": "is drinking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous** ซึ่งเน้นกำลังกระทำตอนนี้ ไม่ใช่นิสัย/ความถี่. ประโยคนี้มีคำว่า *usually* บอกความเป็นกิจวัตร จึงควรใช้ Present Simple: `She usually drinks...`"
+      },
+      {
+        "index": 4,
+        "text": "drinkes",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะการเติม **-es** กับคำว่า `drink` ไม่ถูกหลักการสะกด. กริยาทั่วไปเติม **-s** เป็น `drinks` เช่น: `She drinks coffee.`"
+      }
+    ]
+  },
+  {
+    "question": "The children ___ in the park after school.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "plays",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **The children** เป็นพหูพจน์ ต้องใช้กริยา **ไม่เติม -s**. ตัวอย่างที่ถูกควรเป็น `The children play in the park.` `plays` ใช้กับประธานเอกพจน์เท่านั้น."
+      },
+      {
+        "index": 2,
+        "text": "play",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธานเป็นพหูพจน์ ใช้รูป __S (พหูพจน์) + V (base form)__ ใน Present Simple. ตัวอย่าง: `The children play in the park after school.` กฎนี้ใช้กับ `they` เช่นกัน: `They play...`"
+      },
+      {
+        "index": 3,
+        "text": "is playing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Present Continuous และยังใช้ `is` ซึ่งเข้ากับเอกพจน์ ไม่เข้ากับ `children` ที่เป็นพหูพจน์. ถ้าจะใช้ Continuous ต้องเป็น `are playing`, แต่ที่เหมาะสุดคือ Present Simple: `play`."
+      },
+      {
+        "index": 4,
+        "text": "plays are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้างสลับที่และใช้กริยาสองตัวผิดหลัก (`plays` + `are`). ใน Present Simple ใช้กริยาหลักตัวเดียวตามประธาน: `children + play` เท่านั้น."
+      }
+    ]
+  },
+  {
+    "question": "Our teacher ___ us homework every Friday.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "give",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **Our teacher (he/she)** เป็นเอกพจน์ ต้องเติม **-s** ที่กริยาใน Present Simple. รูปที่ถูกคือ `gives` เช่น: `Our teacher gives us homework every Friday.`"
+      },
+      {
+        "index": 2,
+        "text": "gives",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตามรูป __S (he/she/it) + V-s__ ใน Present Simple. ตัวอย่าง: `Our teacher gives us homework every Friday.` จำไว้ว่า `teacher` เป็นคำนามเอกพจน์ จึงต้องเติม -s ที่กริยา."
+      },
+      {
+        "index": 3,
+        "text": "is give",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `is + base verb` ไม่มีรูปนี้ในไวยากรณ์ปกติ (ถ้าจะใช้ Continuous ต้องเป็น `is giving`). แต่ที่นี่เป็นกิจวัตรประจำ สำนวนที่ถูกคือ Present Simple: `gives`."
+      },
+      {
+        "index": 4,
+        "text": "given",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `given` เป็นรูป Past Participle ใช้กับ Perfect/Passive ไม่ใช่ Present Simple. ข้อความนี้บอกความถี่ทุกวันศุกร์ จึงใช้ `gives` จะชัดที่สุด."
+      }
+    ]
+  },
+  {
+    "question": "My parents ___ in a small town.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "lives",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **My parents** เป็นพหูพจน์ ต้องใช้กริยารูปธรรมดา **ไม่เติม -s**. ควรเป็น `live` เช่น: `My parents live in a small town.`"
+      },
+      {
+        "index": 2,
+        "text": "live",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้รูป __S (พหูพจน์) + V (base form)__ กับประธานพหูพจน์. ตัวอย่าง: `My parents live in a small town.` ใช้หลักเดียวกับ `they live...`"
+      },
+      {
+        "index": 3,
+        "text": "are live",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้าง `be + base verb` ไม่ถูกในภาษาอังกฤษธรรมดา (ควรเป็น `are living` ถ้าเป็น Continuous). แต่ที่นี่เป็นข้อเท็จจริงทั่วไป จึงใช้ Present Simple: `live`."
+      },
+      {
+        "index": 4,
+        "text": "is living",
+        "is_correct": false,
+        "answer_description": "ผิด สองจุด: ใช้ `is` กับประธานพหูพจน์ไม่ได้ และยังใช้ Continuous แทน Simple. ประโยคข้อเท็จจริงทั่วไปใช้ `live` ดีกว่า: `My parents live...`"
+      }
+    ]
+  },
+  {
+    "question": "The company ___ new products every year.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "launch",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **The company (it)** เป็นเอกพจน์ จึงต้องเติม **-es** กับกริยาที่ลงท้ายด้วย `-ch` เป็น `launches`. `launch` ใช้กับประธานพหูพจน์เท่านั้น."
+      },
+      {
+        "index": 2,
+        "text": "launches",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตามรูป __S (he/she/it) + V-es__ เมื่อกริยาลงท้ายด้วย `-sh/-ch/-s/-x/-o`. ตัวอย่าง: `The company launches new products every year.` จำแพตเทิร์นนี้ไว้จะช่วยเวลาเติมกริยา."
+      },
+      {
+        "index": 3,
+        "text": "is launch",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้าง `is + base verb` ไม่ถูกต้อง (ถ้าเป็น Continuous ต้อง `is launching`). แต่เนื้อหาบอกความสม่ำเสมอทุกปี จึงใช้ Present Simple: `launches`."
+      },
+      {
+        "index": 4,
+        "text": "launche",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสะกดผิดกฎการเติม **-es**. คำที่ลงท้ายด้วย `-ch` ต้องเป็น `launches` ไม่ใช่ `launche`. ประโยคที่ถูก: `The company launches...`"
+      }
+    ]
+  },
+  {
+    "question": "Either my mom or my brothers ___ dinner on Sundays.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "cooks",
+        "is_correct": false,
+        "answer_description": "ระวัง! โครงสร้าง **Either A or B** ให้กริยาตามตัวใกล้สุด (B). ที่นี่คำว่า **my brothers** เป็นพหูพจน์ จึงต้องใช้ `cook` ไม่ใช่ `cooks`. ตัวอย่างที่ถูก: `Either my mom or my brothers cook dinner...`"
+      },
+      {
+        "index": 2,
+        "text": "cook",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะในโครงสร้าง __Either A or B__, กริยาต้องสอดคล้องกับ **B (ตัวหลังสุด)**. ที่นี่ `my brothers` เป็นพหูพจน์ จึงใช้ `cook` เช่น: `Either my mom or my brothers cook dinner on Sundays.`"
+      },
+      {
+        "index": 3,
+        "text": "cooking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป V-ing ไม่ใช่ Present Simple ที่ต้องการ. โครงสร้างที่ถูกควรเป็นกริยาพื้นฐานที่เข้ากับประธานพหูพจน์: `cook`, เช่น `...brothers cook dinner.`"
+      },
+      {
+        "index": 4,
+        "text": "is cook",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `is + base verb` ไม่ถูกต้อง และยังไม่ตรงกับประธานพหูพจน์ `brothers`. เลือกใช้ `cook` ใน Present Simple จะตรงหลักกว่า."
+      }
+    ]
+  },
+  {
+    "question": "Neither the manager nor the employees ___ happy with the plan.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้าง **Neither A nor B** ให้กริยาตาม **B (ตัวหลังสุด)**. ที่นี่ `employees` เป็นพหูพจน์ จึงใช้ `are` ไม่ใช่ `is`. ตัวอย่างที่ถูก: `...the employees are happy...`"
+      },
+      {
+        "index": 2,
+        "text": "are",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตามกฎ __Neither A nor B + V (ตาม B)__ ถ้า B เป็นพหูพจน์ ใช้ `are`. ประโยคที่ถูก: `Neither the manager nor the employees are happy with the plan.`"
+      },
+      {
+        "index": 3,
+        "text": "be",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `be` เป็นรูปฐาน ไม่สามารถวางเดี่ยวๆ ในประโยค Present Simple แบบนี้. ต้องผันให้ตรงกับประธาน: `are` สำหรับ `employees`."
+      },
+      {
+        "index": 4,
+        "text": "was",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `was` เป็นรูปอดีต (Past) ไม่ใช่ Present Simple. และยังไม่ตรงกับประธานพหูพจน์ที่ต้องการ `are`."
+      }
+    ]
+  },
+  {
+    "question": "Each student ___ a locker in the hallway.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำว่า **Each** ทำให้ประธานเป็นเอกพจน์เสมอ ต้องใช้กริยาเอกพจน์ `has`. `have` ใช้กับ `I/you/we/they` หรือประธานพหูพจน์."
+      },
+      {
+        "index": 2,
+        "text": "has",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ __Each + singular noun + has/verb-s__ เป็นรูปเอกพจน์. ตัวอย่าง: `Each student has a locker in the hallway.` จำว่า `Each/Every` ดึงกริยาเป็นเอกพจน์เสมอ."
+      },
+      {
+        "index": 3,
+        "text": "having",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป V-ing ไม่ใช่ Present Simple. ถ้าจะใช้ Continuous ต้องมี `is having` แต่ประโยคนี้บอกข้อเท็จจริงทั่วไป ใช้ `has` ดีกว่า."
+      },
+      {
+        "index": 4,
+        "text": "are having",
+        "is_correct": false,
+        "answer_description": "ผิด สองชั้น: ใช้ `are` กับประธานเอกพจน์ (`Each student`) และใช้ Continuous แทน Simple. รูปที่ถูกคือ `has` ใน Present Simple."
+      }
+    ]
+  },
+  {
+    "question": "The news ___ on at 7 p.m. every day.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะแม้คำว่า **news** ดูเหมือนพหูพจน์ แต่ถือเป็นนามเอกพจน์แบบนับไม่ได้ ใช้กับ `is`. ตัวอย่างที่ถูก: `The news is on at 7 p.m. every day.`"
+      },
+      {
+        "index": 2,
+        "text": "is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำนามพิเศษอย่าง **news** นับไม่ได้และถือเป็นเอกพจน์ ใช้โครงสร้าง __S (uncountable singular) + is__. เช่น: `The news is on at 7 p.m. every day.`"
+      },
+      {
+        "index": 3,
+        "text": "be",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `be` เป็นรูปฐาน ไม่ถูกในประโยคบอกเล่า Present Simple. ต้องผันเป็น `is` ให้สอดคล้องกับประธานเอกพจน์ `news`."
+      },
+      {
+        "index": 4,
+        "text": "were",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `were` เป็นรูปอดีตของ `are` และยังใช้กับพหูพจน์เป็นหลัก. ที่นี่ต้องใช้ปัจจุบันและเอกพจน์: `is`."
+      }
+    ]
+  }
+]

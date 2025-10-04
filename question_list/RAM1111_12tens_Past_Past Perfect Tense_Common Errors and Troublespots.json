@@ -1,0 +1,292 @@
+[
+  {
+    "question": "By the time we ___ at the station, the train had left.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "arrived",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างบอกลำดับเวลากับวลี **By the time + past simple**, เหตุการณ์อีกข้างต้องเป็น **past perfect** จึงได้รูป `By the time + past simple, had + past participle` เช่น: `By the time we arrived, the train had left.` เน้นแพตเทิร์นที่ถูก: **By the time + V2, had + V3**. ตัวอย่างใช้จริง: `By the time I arrived at work, my boss had already left.`"
+      },
+      {
+        "index": 2,
+        "text": "had arrived",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะวลี **By the time** มักใช้คู่กับ **past simple** ในอนุประโยค ไม่ใช่ **past perfect** เช่นควรเป็น `By the time we arrived, ...` ไม่ใช่ `By the time we had arrived, ...`. ถ้าใส่ past perfect ทั้งสองฝั่งจะทำให้ลำดับเวลาไม่ชัด เช่น `By the time we had arrived, the train had left` ฟังดูเกินจำเป็น."
+      },
+      {
+        "index": 3,
+        "text": "have arrived",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **present perfect** (have arrived) ไม่เข้ากับเหตุการณ์ในอดีตที่มีจุดอ้างอิงชัดเจน (`By the time ...`) เราควรใช้ **past simple** ฝั่งนี้แทน เช่น `we arrived`. ตัวอย่างที่ถูก: `By the time she arrived, the meeting had started.`"
+      },
+      {
+        "index": 4,
+        "text": "arriving",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะตำแหน่งนี้ต้องการกริยาแท้รูปช่องที่ 2 (past simple) ไม่ใช่รูป **-ing** เช่นควรเป็น `arrived` ไม่ใช่ `arriving`. ดูตัวอย่างที่ถูก: `By the time we arrived, the train had left.`"
+      }
+    ]
+  },
+  {
+    "question": "Before I ___ dinner, I had finished my homework.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "ate",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อใช้ **Before + past simple**, เหตุการณ์อีกฝั่งที่เกิดก่อนต้องเป็น **past perfect** แพตเทิร์นคือ **Before + V2, had + V3**. ตัวอย่าง: `Before I ate dinner, I had finished my homework.` และ `Before she left, she had packed her bag.`"
+      },
+      {
+        "index": 2,
+        "text": "had eaten",
+        "is_correct": false,
+        "answer_description": "ผิดจุด เพราะในอนุประโยคที่ขึ้นต้นด้วย **Before** มักใช้ **past simple** เพื่อบอกจุดอ้างอิง ขณะที่เหตุการณ์ที่เกิดก่อนกว่านั้นใช้ **past perfect** ในอีกประโยค เช่น `Before I ate, I had finished my homework.` ถ้าเขียน `Before I had eaten, I had finished ...` จะใช้ past perfect ซ้อนเกินจำเป็น"
+      },
+      {
+        "index": 3,
+        "text": "have eaten",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **present perfect** ไม่เหมาะกับบริบทอดีตที่มีเวลาอ้างอิงชัดเจน (`Before ...`). เราจึงใช้ **past simple** (`ate`) ในอนุประโยค และ **past perfect** ในอีกฝั่ง: `Before I ate, I had finished ...`"
+      },
+      {
+        "index": 4,
+        "text": "am eating",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่เป็น **present continuous** ไม่สัมพันธ์กับลำดับเวลาในอดีตที่ชัดเจน เราต้องใช้ **past simple** ในอนุประโยค `Before I ate ...` เพื่อเชื่อมกับ **had + V3** ในประโยคหลัก"
+      }
+    ]
+  },
+  {
+    "question": "She ___ her report when the boss called.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had finished",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **past perfect** เพื่อบอกว่าเหตุการณ์นี้เสร็จสิ้นก่อนอีกเหตุการณ์ในอดีต (`the boss called`). แพตเทิร์นที่ควรจำ: **had + past participle (V3)** เช่น `She had finished her report when the boss called.` ตัวอย่างเพิ่ม: `I had saved the file before the computer crashed.`"
+      },
+      {
+        "index": 2,
+        "text": "has finished",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **present perfect** ไม่เข้ากับอดีตที่มีจุดเวลาอ้างอิง (`when the boss called`). ในบริบทนี้ควรใช้ **past perfect**: `had finished` เพื่อชี้ว่าเสร็จแล้วก่อนโทรศัพท์ดัง"
+      },
+      {
+        "index": 3,
+        "text": "finished",
+        "is_correct": false,
+        "answer_description": "ระวัง จุดนี้ถ้าใช้ **past simple** ทั้งสองเหตุการณ์ (`finished` และ `called`) ลำดับเวลาไม่ชัดว่าอะไรเกิดก่อน ควรใช้ **had + V3** เพื่อเน้นว่าเธอทำรายงานเสร็จก่อน เช่น `She had finished ... when the boss called.`"
+      },
+      {
+        "index": 4,
+        "text": "was finished",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **passive** โดยไม่จำเป็นและไม่บอกลำดับเวลากับเหตุการณ์โทรศัพท์ ควรใช้รูป **active** และ **past perfect**: `She had finished her report ...`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ the window before we arrived.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had broken",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **had + past participle (V3)** เพื่อบอกว่าเหตุการณ์นี้เกิดขึ้นก่อนที่เราไปถึง แพตเทิร์นเน้น: **had + broken** (V3 ของ break). ตัวอย่าง: `He had broken the window before we arrived.` และ `They had left before I called.`"
+      },
+      {
+        "index": 2,
+        "text": "had broke",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะตามหลัง **had** ต้องเป็น **past participle (V3)** ไม่ใช่ V2 ดังนั้นควรเป็น `had broken` ไม่ใช่ `had broke`. ตัวอย่างที่ถูก: `She had written (ไม่ใช่ had wrote) the email before noon.`"
+      },
+      {
+        "index": 3,
+        "text": "broke",
+        "is_correct": false,
+        "answer_description": "ไม่ชัดลำดับเวลา ถ้าใช้ **past simple** ทั้งสองเหตุการณ์ (`broke` และ `arrived`) จะไม่รู้ว่าอะไรเกิดก่อน ควรใช้ **past perfect** กับเหตุการณ์ที่เกิดก่อน: `He had broken ... before we arrived.`"
+      },
+      {
+        "index": 4,
+        "text": "has broken",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะ **present perfect** ไม่เหมาะกับการเล่าลำดับเหตุการณ์ในอดีตที่มีเวลาอ้างอิง (`before we arrived`). รูปที่ถูกคือ **had broken** เพื่อชี้ว่าเกิดก่อนการมาถึง"
+      }
+    ]
+  },
+  {
+    "question": "When I got to the office, she ___ home.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had gone",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **had gone** เพื่อบอกว่าเธอ “ไปแล้ว” ก่อนที่ฉันจะไปถึงออฟฟิศ แพตเทิร์นที่ถูก: **When + past simple, had + V3** เช่น `When I got to the office, she had gone home.` อีกตัวอย่าง: `When we arrived, the guests had left.`"
+      },
+      {
+        "index": 2,
+        "text": "went",
+        "is_correct": false,
+        "answer_description": "ถ้าใช้ **past simple** ทั้งสองเหตุการณ์ (`went` และ `got`) จะไม่รู้ว่าอะไรเกิดก่อนหลัง ควรใช้ **past perfect** กับเหตุการณ์ที่เกิดก่อน: `she had gone (home)` เพื่อให้ความหมายว่าเธอไปแล้วก่อนฉันมาถึง"
+      },
+      {
+        "index": 3,
+        "text": "had been to home",
+        "is_correct": false,
+        "answer_description": "ผิดทั้งรูปและการใช้ เพราะ `be to home` ไม่เป็นธรรมชาติ และ **had been** หมายถึง “เคยไปมาแล้ว” ไม่ใช่ “ออกไปแล้ว”. ต้องการความหมายว่าเธอออกไปแล้วก่อน ดังนั้นใช้ `had gone (home)`"
+      },
+      {
+        "index": 4,
+        "text": "had been going home",
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย ใช้ **past perfect continuous** เน้น “กำลังกระทำต่อเนื่องก่อนอีกเหตุการณ์” แต่ที่ต้องการคือสถานะว่า “ไปแล้วเสร็จ” จึงใช้ **had gone** (สมบูรณ์แล้ว) ดีกว่า เช่น `she had gone home`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ seen the movie before last night.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "hadn't",
+        "is_correct": false,
+        "answer_description": "ยังไม่ครบ เพราะต้องตามด้วยกริยาช่องสาม: **hadn't + V3** ดังนั้น `hadn't` อย่างเดียวไม่พอ ตัวอย่างที่ถูกต้อง: `They hadn't seen the movie before last night.`"
+      },
+      {
+        "index": 2,
+        "text": "haven't",
+        "is_correct": false,
+        "answer_description": "ผิดกาล ประโยคพูดถึงอดีตที่มีเวลาอ้างอิง (`before last night`) จึงต้องใช้ **past perfect** ไม่ใช่ **present perfect**. รูปที่ถูกคือ `hadn't seen`"
+      },
+      {
+        "index": 3,
+        "text": "didn't",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะโครงสร้างปฏิเสธของ **past simple** ไม่บอกความหมาย “เกิดก่อนอีกเหตุการณ์ในอดีต” แบบ **past perfect**. ที่ถูกคือ `They **hadn't seen** the movie before last night.`"
+      },
+      {
+        "index": 4,
+        "text": "hadn't seen",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปปฏิเสธของ **past perfect** คือ **had not (hadn't) + past participle** เน้นว่า “ก่อนเมื่อคืนนี้ พวกเขายังไม่เคยดู” เช่น `They **hadn't seen** the movie before last night.` ตัวอย่างเพิ่ม: `I **hadn't finished** my work when he arrived.`"
+      }
+    ]
+  },
+  {
+    "question": "___ you finished the assignment before class started?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Had",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคคำถามของ **past perfect** ใช้รูป **Had + subject + V3** แพตเทิร์นที่ควรจำ: **Had + S + past participle ... ?** เช่น `Had you finished the assignment before class started?` ตัวอย่างเพิ่ม: `Had they left when you arrived?`"
+      },
+      {
+        "index": 2,
+        "text": "Did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Did + V1** เป็นรูปคำถามของ **past simple** ไม่ใช่ **past perfect**. ที่ถูกต้องคือขึ้นต้นด้วย **Had** และตามด้วย V3: `Had you finished ... ?`"
+      },
+      {
+        "index": 3,
+        "text": "Have",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะ **Have + S + V3** เป็น **present perfect** ซึ่งไม่สอดคล้องกับอีกเหตุการณ์ในอดีต (`class started`). ต้องใช้ `Had` เพื่อชี้ว่าการบ้านเสร็จก่อนชั้นเรียนเริ่ม"
+      },
+      {
+        "index": 4,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิดรูป `Do + V1` เป็นปัจจุบันธรรมดา ไม่ใช่โครงสร้างของ **past perfect**. รูปที่ถูกต้องคือ `Had you finished ... ?`"
+      }
+    ]
+  },
+  {
+    "question": "Yesterday I ___ to the museum and met my friend.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had gone",
+        "is_correct": false,
+        "answer_description": "ผิดการใช้ เพราะไม่มีเหตุการณ์อดีตอีกอันมาเป็นจุดอ้างอิง การใช้ **past perfect** ที่นี่จึงเกินจำเป็น ใช้ **past simple** ธรรมดาจะตรงกว่า: `I went to the museum and met my friend.`"
+      },
+      {
+        "index": 2,
+        "text": "went",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อเล่าเหตุการณ์อดีตแบบลำดับธรรมดาโดยไม่มีจุดอ้างอิงที่ต้องเทียบก่อน-หลัง ใช้ **past simple** เช่น `I went ... and met ...`. แพตเทิร์น: **V2 ... and V2 ...** เช่น `I visited the museum and took photos.`"
+      },
+      {
+        "index": 3,
+        "text": "have gone",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะมีตัวบอกเวลาอดีตชัดเจน `Yesterday` จึงไม่ใช้ **present perfect** (`have gone`). ใช้ **past simple**: `went` แทนจะถูกต้อง"
+      },
+      {
+        "index": 4,
+        "text": "was going",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ **past continuous** เน้นกำลังกระทำ ณ ช่วงเวลาใดช่วงหนึ่ง แต่ที่นี่เป็นการเล่าเหตุการณ์สำเร็จต่อเนื่องสองอย่าง ควรใช้ **past simple**: `went ... and met ...`"
+      }
+    ]
+  },
+  {
+    "question": "By 2010, I ___ him for five years.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had known",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กับกริยาเชิงสภาวะ (**stative verbs**) อย่าง **know, like, believe** เรามักใช้ **past perfect simple** ไม่ใช่ continuous. แพตเทิร์น: **By + time, had + V3 + for + duration** เช่น `By 2010, I had known him for five years.`"
+      },
+      {
+        "index": 2,
+        "text": "had been knowing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกริยา **know** เป็น **stative verb** ไม่ค่อยใช้รูป **continuous** ดังนั้น `had been knowing` ฟังแปลก ควรใช้ `had known` เช่น `I had known him for five years.`"
+      },
+      {
+        "index": 3,
+        "text": "knew",
+        "is_correct": false,
+        "answer_description": "ไม่แม่น เพราะมีตัวบอกขอบเขตเวลา **By 2010** และระยะเวลา **for five years** ควรใช้ **past perfect** เพื่อชี้ว่าความรู้นี้เริ่มก่อนและต่อเนื่องถึงจุดนั้น: `had known` ไม่ใช่ `knew` เฉยๆ"
+      },
+      {
+        "index": 4,
+        "text": "have known",
+        "is_correct": false,
+        "answer_description": "ผิดกาล `By 2010` ชี้อดีตชัดเจน จึงไม่ใช้ **present perfect**. ใช้ **past perfect**: `had known` เพื่อบอกว่าก่อนถึงปี 2010 ฉันรู้จักเขามาแล้ว 5 ปี"
+      }
+    ]
+  },
+  {
+    "question": "When the show started, we ___ our seats.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had found",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **had + V3** เพื่อบอกว่าการ “หา seat” เกิดเสร็จก่อนการเริ่มโชว์ แพตเทิร์น: **When + past simple, had + past participle** เช่น `When the show started, we had found our seats.` ตัวอย่างเพิ่ม: `When the class began, I had taken my notes out.`"
+      },
+      {
+        "index": 2,
+        "text": "found",
+        "is_correct": false,
+        "answer_description": "ถ้าใช้ **past simple** กับทั้งสองเหตุการณ์ ลำดับจะไม่ชัดเจนว่าอะไรเกิดก่อน ควรใช้ **past perfect** กับเหตุการณ์ที่เกิดก่อน: `we had found our seats` ก่อน `the show started`"
+      },
+      {
+        "index": 3,
+        "text": "have found",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะอีกเหตุการณ์อยู่ในอดีต (`started`) จึงไม่ใช้ **present perfect** ที่นี่ ใช้ `had found` จะชี้ลำดับเวลาได้ชัด"
+      },
+      {
+        "index": 4,
+        "text": "had been finding",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ **past perfect continuous** เน้นความต่อเนื่องก่อนอีกเหตุการณ์ แต่ที่นี่ต้องการผลลัพธ์ที่เสร็จแล้ว (ได้ที่นั่งแล้ว) จึงใช้ **past perfect simple**: `had found`"
+      }
+    ]
+  }
+]

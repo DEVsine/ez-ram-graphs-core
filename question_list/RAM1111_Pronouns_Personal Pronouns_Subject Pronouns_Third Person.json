@@ -1,0 +1,292 @@
+[
+  {
+    "question": "Mr. Tan is my English teacher. ___ gives us homework every Monday.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "He",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **Mr. Tan** เป็นผู้ชายคนเดียว ใช้สรรพนามบุคคลประธานบุรุษที่สามเอกพจน์ว่า **he**. โครงสร้างที่ควรจำคือ __he + กริยาช่องปัจจุบัน (เติม -s เมื่อเป็น Present Simple)__ เช่น `He gives us homework.` นึกภาพประโยคเต็ม: `Mr. Tan teaches English. He gives us homework every Monday.`"
+      },
+      {
+        "index": 2,
+        "text": "Him",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **him** เป็นสรรพนามกรรม (object pronoun) ใช้หลังคำกริยา/บุพบท ไม่ใช่เป็นประธาน. ประโยคนี้ต้องการประธานของกริยา `gives` จึงต้องใช้ **he** เช่น `He gives us homework.` ไม่ใช่ `Him gives...`"
+      },
+      {
+        "index": 3,
+        "text": "They",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **they** ใช้กับพหูพจน์ แต่ **Mr. Tan** เป็นคนเดียว. ถ้าประธานเป็นหลายคนค่อยใช้ `They give...` เช่น `Mr. Tan and Ms. Lee teach English. They give us homework.`"
+      },
+      {
+        "index": 4,
+        "text": "It",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **it** ใช้กับสิ่งของ สัตว์ (ไม่ระบุเพศ) หรือแนวคิด ไม่ใช้กับผู้ชายที่ระบุชัดเจน. ตัวอย่างที่ถูกของ it เช่น `The book is new. It is interesting.` แต่สำหรับครูผู้ชายต้องใช้ `He`."
+      }
+    ]
+  },
+  {
+    "question": "Sarah isn’t here today. ___ is sick.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "She",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **Sarah** เป็นผู้หญิงคนเดียว จึงใช้ประธานบุรุษที่สามเอกพจน์ **she**. รูปแบบที่ควรจำคือ __she + be (is/was) + complement__ เช่น `She is sick.` หรือ `She is a student.` ตัวอย่างใช้จริง: `Sarah has a fever. She is sick.`"
+      },
+      {
+        "index": 2,
+        "text": "Her",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **her** เป็นรูปกรรมหรือรูปแสดงความเป็นเจ้าของ (adjective) ไม่ใช่ประธาน. ประโยคต้องการประธานของ `is` จึงควรใช้ `She is sick.` ไม่ใช่ `Her is sick.`"
+      },
+      {
+        "index": 3,
+        "text": "They",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะกล่าวถึง **Sarah** คนเดียว ควรใช้เอกพจน์ `She`. `They` ปกติใช้กับหลายคน เช่น `Sarah and Tom are absent. They are sick.`"
+      },
+      {
+        "index": 4,
+        "text": "It",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **it** ใช้กับสิ่งของ/สัตว์/สถานการณ์ทั่วไป ไม่ใช้เรียกผู้หญิงที่ระบุชื่อชัดเจน. ตัวอย่างของ it: `The weather is nice. It is sunny.` แต่กรณีนี้ต้อง `She`."
+      }
+    ]
+  },
+  {
+    "question": "The cat looks hungry. ___ wants some food.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "It",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **the cat** เป็นสัตว์ (ไม่ได้ระบุเพศ) จึงใช้ **it** เป็นประธาน. รูปแบบจำง่าย: __it + กริยา (เติม -s เมื่อเป็น Present Simple)__ เช่น `It wants some food.` ตัวอย่าง: `The cat is meowing. It wants to eat.`"
+      },
+      {
+        "index": 2,
+        "text": "He",
+        "is_correct": false,
+        "answer_description": "มักไม่ใช้ **he** เว้นแต่จะระบุว่าเป็นแมวเพศผู้และต้องการเน้นเพศ. ในการอ้างสัตว์ทั่วไปใช้ `it` เช่น `The dog is sleeping. It is tired.` ดังนั้นที่ถูกคือ `It wants some food.`"
+      },
+      {
+        "index": 3,
+        "text": "She",
+        "is_correct": false,
+        "answer_description": "ไม่ควรใช้ **she** ถ้าไม่ได้ระบุว่าเป็นเพศเมียและต้องการเน้นเพศ. โดยทั่วไปกับสัตว์หรือสิ่งของใช้ `it` เช่น `The bird is small. It sings.`"
+      },
+      {
+        "index": 4,
+        "text": "They",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **they** ใช้กับพหูพจน์ แต่ **the cat** เป็นตัวเดียว. หากมีหลายตัวค่อยใช้ `They want some food.` เช่น `The cats are hungry. They want food.`"
+      }
+    ]
+  },
+  {
+    "question": "Lisa and Mike are at the park. ___ are playing basketball.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "They",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกล่าวถึงคน **สองคน** (Lisa และ Mike) จึงใช้ **they** เป็นประธานพหูพจน์. รูปแบบจำง่าย: __they + กริยาพหูพจน์ (ไม่เติม -s)__ เช่น `They are playing.` ตัวอย่างเต็ม: `Lisa and Mike are at the park. They are playing basketball.`"
+      },
+      {
+        "index": 2,
+        "text": "He",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **he** ใช้กับผู้ชายคนเดียว แต่ที่นี่มีสองคน (หญิงและชาย). ถ้าผู้ชายคนเดียวค่อยใช้ `He is playing.`"
+      },
+      {
+        "index": 3,
+        "text": "She",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **she** ใช้กับผู้หญิงคนเดียว แต่ประธานที่แท้จริงคือสองคน. ถ้า Lisa คนเดียวอาจเป็น `She is playing.` แต่ในที่นี้ต้อง `They are playing.`"
+      },
+      {
+        "index": 4,
+        "text": "It",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **it** ใช้กับสิ่งของ/สัตว์/สิ่งที่เป็นเอกพจน์ ไม่ใช่คนสองคน. เมื่อเป็นหลายคนต้องใช้ `They` เช่น `They are friends.`"
+      }
+    ]
+  },
+  {
+    "question": "The movie looks boring, but ___ is actually very funny.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "it",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **the movie** เป็นสิ่งของเอกพจน์ ใช้สรรพนามประธาน **it**. แพตเทิร์นที่ควรจำ: __It + be (is/was) + adjective/noun__ เช่น `It is very funny.` ประโยคตัวอย่าง: `I watched the movie. It is actually very funny.`"
+      },
+      {
+        "index": 2,
+        "text": "they",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **they** เป็นพหูพจน์ แต่ **the movie** เป็นเอกพจน์. ถ้าเป็นหลายเรื่อง: `The movies look boring, but they are funny.`"
+      },
+      {
+        "index": 3,
+        "text": "he",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **he** ใช้กับผู้ชาย ไม่ใช่กับสิ่งของอย่าง `movie`. ควรใช้ `it` กับภาพยนตร์/หนังสือ/สินค้า เช่น `The book is new. It is good.`"
+      },
+      {
+        "index": 4,
+        "text": "she",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **she** ใช้กับผู้หญิง ไม่ใช่สิ่งของ. สำหรับภาพยนตร์ควรใช้ `it` เช่น `The movie is long. It is interesting.`"
+      }
+    ]
+  },
+  {
+    "question": "My keys are on the table. ___ are next to the phone.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "They",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **keys** เป็นคำนามพหูพจน์ จึงใช้ **they** เป็นประธาน. โครงสร้าง: __They + be (are) + complement__ เช่น `They are next to the phone.` ตัวอย่าง: `The keys are mine. They are on the table.`"
+      },
+      {
+        "index": 2,
+        "text": "It",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **it** ใช้กับเอกพจน์ แต่ **keys** เป็นพหูพจน์. ถ้ามีกุญแจดอกเดียวค่อยใช้ `It is on the table.`"
+      },
+      {
+        "index": 3,
+        "text": "He",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **he** ใช้กับผู้ชาย ไม่ใช่สิ่งของอย่างกุญแจ. สิ่งของพหูพจน์ต้องใช้ `they` เช่น `The books are heavy. They are new.`"
+      },
+      {
+        "index": 4,
+        "text": "Her",
+        "is_correct": false,
+        "answer_description": "ผิดสองชั้น เพราะ **her** เป็นรูปกรรม/คุณศัพท์แสดงความเป็นเจ้าของ ไม่ใช่ประธาน และยังไม่ตรงกับพหูพจน์. ประโยคต้องการประธานพหูพจน์: `They are next to the phone.`"
+      }
+    ]
+  },
+  {
+    "question": "Tom isn’t answering his phone. ___ might be in a meeting.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "He",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **Tom** เป็นผู้ชายคนเดียว จึงใช้ **he** เป็นประธาน. แพตเทิร์น: __He + modal verb (might/can/will) + base verb__ เช่น `He might be in a meeting.` ตัวอย่างใช้จริง: `Tom is busy. He might be in a meeting.`"
+      },
+      {
+        "index": 2,
+        "text": "Him",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **him** เป็นสรรพนามกรรม ใช้หลังบุพบทหรือกริยา เช่น `I called him.` แต่ในช่องว่างเป็นตำแหน่งประธาน ต้องใช้ `He might be...`"
+      },
+      {
+        "index": 3,
+        "text": "They",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะกล่าวถึง **Tom** คนเดียว ควรใช้ `He`. `They` ใช้กับหลายคน เช่น `Tom and Anna are busy. They might be in a meeting.`"
+      },
+      {
+        "index": 4,
+        "text": "It",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **it** ใช้กับสิ่งของ/เหตุการณ์ แต่ที่นี่อ้างถึงบุคคลผู้ชายคนหนึ่ง. จึงต้องเป็น `He might be in a meeting.`"
+      }
+    ]
+  },
+  {
+    "question": "The company launched a new app. ___ is getting popular quickly.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "It",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกำลังอ้างถึง **a new app** ซึ่งเป็นสิ่งของเอกพจน์ จึงใช้ **it** เป็นประธาน. โครงสร้างที่เห็นบ่อย: __It + be (is) + V-ing/adjective__ เช่น `It is getting popular.` ตัวอย่าง: `The product is great. It is selling well.`"
+      },
+      {
+        "index": 2,
+        "text": "They",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **they** เป็นพหูพจน์ แต่ **app** เป็นเอกพจน์. ถ้ามีหลายแอป: `The apps are getting popular. They are trending.`"
+      },
+      {
+        "index": 3,
+        "text": "He",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **he** ใช้กับผู้ชาย ไม่ใช่แอปหรือสิ่งของ. สำหรับสิ่งของเอกพจน์ควรใช้ `it` เช่น `The phone is new. It is fast.`"
+      },
+      {
+        "index": 4,
+        "text": "She",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **she** ใช้กับผู้หญิง ไม่ใช่สิ่งของอย่างแอป. ควรใช้ `It is getting popular.`"
+      }
+    ]
+  },
+  {
+    "question": "The twins look alike. ___ have the same smile.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "They",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **the twins** หมายถึงคนสองคน จึงใช้ **they** เป็นประธานพหูพจน์. รูปแบบ: __They + base verb (ไม่มี -s)__ เช่น `They have the same smile.` ตัวอย่าง: `The twins study together. They share everything.`"
+      },
+      {
+        "index": 2,
+        "text": "He",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **he** ใช้กับผู้ชายคนเดียว แต่ `the twins` เป็นสองคน. ถ้าพูดถึงฝาแฝดคนใดคนหนึ่งค่อยใช้ `He has...` หรือ `She has...`"
+      },
+      {
+        "index": 3,
+        "text": "She",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **she** ใช้กับผู้หญิงคนเดียว แต่ `the twins` คือสองคน. ประธานพหูพจน์ต้องใช้ `They have...`"
+      },
+      {
+        "index": 4,
+        "text": "It",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **it** ใช้กับสิ่งของ/สัตว์เอกพจน์ ไม่ใช่คนสองคน. ที่ถูกคือ `They have the same smile.`"
+      }
+    ]
+  },
+  {
+    "question": "This robot can climb stairs. ___ also carries heavy boxes.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "It",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **robot** เป็นสิ่งของเอกพจน์ ใช้สรรพนามประธาน **it**. แพตเทิร์นจำง่าย: __It + base verb/verb-s (ตาม tense)__ เช่น `It also carries heavy boxes.` ตัวอย่าง: `The robot moves fast. It lifts boxes easily.`"
+      },
+      {
+        "index": 2,
+        "text": "They",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **they** ใช้กับพหูพจน์ แต่ที่นี่หมายถึงหุ่นยนต์ตัวเดียว. ถ้าหลายตัว: `Robots can climb stairs. They also carry heavy boxes.`"
+      },
+      {
+        "index": 3,
+        "text": "He",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **he** ใช้กับผู้ชาย ไม่ใช่สิ่งของอย่างหุ่นยนต์. สิ่งของเอกพจน์ควรใช้ `it` เช่น `It also carries heavy boxes.`"
+      },
+      {
+        "index": 4,
+        "text": "Her",
+        "is_correct": false,
+        "answer_description": "ผิดสองประเด็น: ใช้คำผิดชนิดเพราะ **her** เป็นรูปกรรม/คุณศัพท์แสดงความเป็นเจ้าของ และยังไม่ตรงกับสิ่งของเอกพจน์. ต้องใช้ประธาน `It` เช่น `It carries heavy boxes.`"
+      }
+    ]
+  }
+]

@@ -1,0 +1,321 @@
+[
+  {
+    "question": "The woman, ___ lives next door, is a doctor.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "who",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะอธิบายบุคคลแบบ **non-defining relative clause** (มีเครื่องหมายจุลภาค) ต้องใช้ __who + verb__ เมื่อเป็นประธานของอนุประโยค. ตัวอย่างเช่น `The woman, who lives next door, is a doctor.` ใช้ได้กับคนเท่านั้น และในแบบมีจุลภาคห้ามใช้ that."
+      },
+      {
+        "index": 2,
+        "text": "which",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **which** ใช้กับสิ่งของ/สัตว์ ไม่ใช้กับคนในประโยคเชิงขยายแบบนี้. หากเป็นสิ่งของจะพูดได้เช่น `The car, which is red, is mine.` แต่กับคนต้องใช้ `who`."
+      },
+      {
+        "index": 3,
+        "text": "that",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใน **non-defining clause** (มีเครื่องหมายจุลภาค) ห้ามใช้ **that**. รูปที่ถูกคือ `The woman, who lives next door, is a doctor.` ไม่ใช่ `..., that lives next door, ...`."
+      },
+      {
+        "index": 4,
+        "text": "whom",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **whom** ใช้เมื่อเป็นกรรม ไม่ใช่ประธานของอนุประโยค. ถ้าจะใช้ whom จะเป็นแบบ `The woman, whom I met yesterday, is a doctor.` ซึ่งต่างจากประโยคที่ให้ซึ่งต้องการประธาน (`who lives`)."
+      }
+    ]
+  },
+  {
+    "question": "The man to ___ I spoke was very helpful.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "whom",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะตามหลังบุพบท (**to**) ต้องใช้ __preposition + whom__ เมื่ออ้างถึงคนและเป็นกรรม. ตัวอย่าง: `The man to whom I spoke was kind.` หรือ `The woman with whom I work is friendly.`"
+      },
+      {
+        "index": 2,
+        "text": "who",
+        "is_correct": false,
+        "answer_description": "ผิดในรูปทางการ เพราะหลังบุพบทควรใช้ **whom** ไม่ใช่ **who**. ถ้าจะใช้ who ต้องย้ายบุพบทไปท้ายอนุประโยค เช่น `The man who I spoke to ...` ซึ่งโครงสร้างเดิมไม่รองรับ."
+      },
+      {
+        "index": 3,
+        "text": "that",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **that** ไม่สามารถตามหลังบุพบทโดยตรงได้. โครงสร้างอย่าง `to that` เพื่ออ้างถึงคนไม่ถูกต้อง ควรใช้ `to whom`."
+      },
+      {
+        "index": 4,
+        "text": "which",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **which** ใช้กับสิ่งของ/สัตว์ ไม่ใช้กับคน. ถ้าพูดถึงสิ่งของจะพูดได้เช่น `The chair to which I referred ...` แต่กับคนต้องใช้ `whom`."
+      }
+    ]
+  },
+  {
+    "question": "The girl ___ bike was stolen is crying.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "whose",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **whose** แสดงความเป็นเจ้าของ โดยตามด้วยคำนาม: __whose + noun__. ตัวอย่างเช่น `The boy whose phone broke is upset.` หรือ `I met a man whose car is electric.`"
+      },
+      {
+        "index": 2,
+        "text": "who",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **who** ใช้เป็นประธาน/กรรม ไม่ได้แสดงความเป็นเจ้าของ. ถ้าต้องการบอกว่า \"จักรยานของเธอ\" ต้องใช้ `whose bike` ไม่ใช่ `who bike`."
+      },
+      {
+        "index": 3,
+        "text": "whom",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **whom** ใช้เป็นกรรมของกริยาหรือบุพบท ไม่ได้ทำหน้าที่แสดงความเป็นเจ้าของ. โครงสร้างที่ถูกต้องคือ `whose + noun` เช่น `whose bike`."
+      },
+      {
+        "index": 4,
+        "text": "which",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **which** ใช้ขยายสิ่งของ แต่ไม่ใช้เพื่อแสดงความเป็นเจ้าของโดยตรง. ถ้าจะสื่อความเป็นเจ้าของต้องใช้ `whose` เช่น `the girl whose bike...`."
+      }
+    ]
+  },
+  {
+    "question": "The book, ___ won the award, is out of print.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "which",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็น **non-defining clause** ที่ขยายสิ่งของ จึงใช้ __which + verb__ เป็นประธานของอนุประโยค. ตัวอย่างเช่น `Her new film, which critics love, opens tomorrow.`"
+      },
+      {
+        "index": 2,
+        "text": "that",
+        "is_correct": false,
+        "answer_description": "ผิด ใน **non-defining clause** (มีจุลภาค) ห้ามใช้ **that**. ควรใช้ `which` เช่น `The book, which won the award, ...` ไม่ใช่ `..., that won ...`."
+      },
+      {
+        "index": 3,
+        "text": "who",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **who** ใช้กับคน ไม่ใช่สิ่งของ. เมื่อขยายคำนามที่เป็นสิ่งของในแบบมีจุลภาคควรใช้ `which`."
+      },
+      {
+        "index": 4,
+        "text": "whom",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **whom** เป็นรูปกรรมและส่วนใหญ่ใช้กับคน ไม่ใช่สิ่งของ. ที่นี่ต้องการประธานของอนุประโยค (`won` ต้องการประธาน) จึงใช้ `which`."
+      }
+    ]
+  },
+  {
+    "question": "This is the café ___ we first met.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "where",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **relative adverb** __where__ เพื่อบอกสถานที่ที่บางอย่างเกิดขึ้น. ตัวอย่างเช่น `This is the place where I grew up.` หรือ `The room where we studied was quiet.`"
+      },
+      {
+        "index": 2,
+        "text": "which",
+        "is_correct": false,
+        "answer_description": "อาจใช้ได้ถ้าเขียนเป็น `the café which we first met in` แต่ประโยคที่มีช่องว่างเดียวแบบนี้ตั้งใจทดสอบ **where**. รูปที่เป็นธรรมชาติกว่า คือ `the café where we first met`."
+      },
+      {
+        "index": 3,
+        "text": "that",
+        "is_correct": false,
+        "answer_description": "คล้ายกับ which ถ้าจะใช้ต้องย้ายบุพบทไปท้าย เช่น `the café that we first met in`. แต่โครงสร้างที่ตรงประเด็นและกระชับคือการใช้ `where` เพื่อบอกสถานที่."
+      },
+      {
+        "index": 4,
+        "text": "who",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **who** ใช้กับคน ไม่ใช่สถานที่. สถานการณ์นี้ต้องใช้ `where` เช่น `the café where...`."
+      }
+    ]
+  },
+  {
+    "question": "I will never forget the day ___ we graduated.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "when",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **relative adverb** __when__ เพื่อบอกเวลา. ตัวอย่างเช่น `Do you remember the year when we met?` หรือ `The moment when he arrived was exciting.`"
+      },
+      {
+        "index": 2,
+        "text": "which",
+        "is_correct": false,
+        "answer_description": "อาจใช้ `the day which we graduated on` ได้ในบางรูป แต่ไม่กระชับและผิดกับรูปที่โจทย์ต้องการ. ตัวเลือกที่ชัดและถูกหลักคือ `when` เพื่อชี้เวลา."
+      },
+      {
+        "index": 3,
+        "text": "that",
+        "is_correct": false,
+        "answer_description": "ถ้าใช้ `that` ต้องเขียนแบบ `the day that we graduated on` ซึ่งยืดเยื้อกว่า และไม่ใช่จุดโฟกัสของแบบฝึกนี้. คำที่สื่อเวลาโดยตรงคือ `when`."
+      },
+      {
+        "index": 4,
+        "text": "where",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **where** ใช้กับสถานที่ ไม่ใช่เวลา. เวลาต้องใช้ `when` เช่น `the day when...`."
+      }
+    ]
+  },
+  {
+    "question": "Do you know the reason ___ she left early?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "why",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **relative adverb** __why__ เพื่ออธิบายเหตุผลตามหลังคำนาม reason. ตัวอย่างเช่น `The reason why I called is to say thank you.` หรือจะย่อเป็น `The reason (why) she left...` ก็ได้."
+      },
+      {
+        "index": 2,
+        "text": "which",
+        "is_correct": false,
+        "answer_description": "ไม่เป็นธรรมชาติเมื่อใช้กับ reason โดยตรงในรูปนี้. มักใช้ `why` หรือเว้นว่างได้ เช่น `the reason (why) she left` ไม่ใช่ `the reason which she left`."
+      },
+      {
+        "index": 3,
+        "text": "that",
+        "is_correct": false,
+        "answer_description": "แม้บางครั้งพบ `the reason that...` แต่โจทย์นี้เน้น **relative adverb** ที่สื่อเหตุผลโดยตรงคือ `why`. รูปที่ชัดเจนและเป็นมาตรฐานในห้องเรียนคือ `the reason why...`."
+      },
+      {
+        "index": 4,
+        "text": "when",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **when** ใช้กับเวลา ไม่ใช่เหตุผล. กับ reason ต้องใช้ `why` เช่น `the reason why she left...`."
+      }
+    ]
+  },
+  {
+    "question": "The chair on ___ he is sitting looks broken.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "which",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะตามหลังบุพบทต้องใช้ __preposition + which__ เมื่ออ้างถึงสิ่งของ. ตัวอย่างเช่น `The table at which we sat was round.` หรือ `The house in which she lives is old.`"
+      },
+      {
+        "index": 2,
+        "text": "that",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **that** ไม่ใช้ตามหลังบุพบทโดยตรง (`on that` ในความหมายเชื่อมอนุประโยคไม่ถูกต้อง). ควรใช้ `on which` หรือสลับเป็น `which he is sitting on`."
+      },
+      {
+        "index": 3,
+        "text": "whom",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **whom** ใช้กับคน ไม่ใช่สิ่งของ. เก้าอี้เป็นสิ่งของ จึงต้องใช้ `which` เช่น `on which`."
+      },
+      {
+        "index": 4,
+        "text": "who",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **who** ใช้กับคนเท่านั้น. สำหรับสิ่งของให้ใช้ `which` เช่น `The chair on which he is sitting...`."
+      }
+    ]
+  },
+  {
+    "question": "Thailand is a country ___ culture attracts many tourists.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "whose",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **whose** เพื่อแสดงความเป็นเจ้าของสำหรับคนหรือสิ่งของได้ โดยตามด้วยคำนาม: __whose + noun__. ตัวอย่างเช่น `a city whose history is rich` หรือ `an artist whose work is unique`."
+      },
+      {
+        "index": 2,
+        "text": "which",
+        "is_correct": false,
+        "answer_description": "ผิดในความหมายความเป็นเจ้าของ เพราะ **which** ไม่ได้แสดงความเป็นเจ้าของโดยตรง. ต้องใช้ `whose culture` ไม่ใช่ `which culture` ในตำแหน่งนี้."
+      },
+      {
+        "index": 3,
+        "text": "that",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **that** ไม่สามารถตามด้วยคำนามเพื่อแสดงความเป็นเจ้าของได้. โครงสร้างที่ถูกคือ `whose + noun` เช่น `whose culture`."
+      },
+      {
+        "index": 4,
+        "text": "whom",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **whom** เป็นรูปกรรมและใช้กับคนเท่านั้น ไม่ได้ใช้เพื่อแสดงความเป็นเจ้าของ. ที่นี่ต้องใช้ `whose` เช่น `whose culture`."
+      }
+    ]
+  },
+  {
+    "question": "He missed the bus, ___ made him late.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "which",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **which** ที่นี่อ้างถึงทั้งประโยคก่อนหน้า (เหตุการณ์พลาดรถบัส) เป็น **non-defining clause**: __which + verb__ อธิบายผลที่ตามมา. ตัวอย่าง `She forgot her keys, which caused a delay.`"
+      },
+      {
+        "index": 2,
+        "text": "that",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใน **non-defining clause** ที่อ้างถึงทั้งประโยค ไม่ใช้ **that**. โครงสร้างมาตรฐานคือ `..., which ...` เช่น `He fell, which hurt a lot.`"
+      },
+      {
+        "index": 3,
+        "text": "who",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **who** ใช้กับคน แต่คำที่ถูกต้องต้องอ้างถึงเหตุการณ์ทั้งประโยคก่อนหน้า. จึงต้องใช้ `which` ไม่ใช่ `who`."
+      },
+      {
+        "index": 4,
+        "text": "whom",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **whom** เป็นรูปกรรมของคน ไม่ได้ใช้เพื่ออ้างถึงทั้งประโยคก่อนหน้า. ที่ถูกคือ `which`."
+      }
+    ]
+  },
+  {
+    "question": "Students ___ study regularly tend to improve faster.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "who",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **who** เพื่อขยายคำนามที่เป็นคน และทำหน้าที่เป็นประธานในอนุประโยค: __who + verb__. ตัวอย่าง `People who practice every day get better.` หรือ `Learners who ask questions progress more.`"
+      },
+      {
+        "index": 2,
+        "text": "which",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **which** ใช้กับสิ่งของ/สัตว์ ไม่ใช่คน. เมื่อขยาย `Students` ต้องใช้ `who` หรือ `that` (ในประโยคจำกัดความ) แต่โจทย์นี้เน้น `who`."
+      },
+      {
+        "index": 3,
+        "text": "whom",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **whom** ใช้เมื่อเป็นกรรม ไม่ใช่ประธานของอนุประโยค. โครงสร้างนี้ต้องการประธาน (`study`) จึงควรใช้ `who`."
+      },
+      {
+        "index": 4,
+        "text": "that",
+        "is_correct": false,
+        "answer_description": "ในประโยคจำกัดความอาจใช้ **that** กับคนได้ แต่โจทย์นี้มุ่งเน้นความแตกต่างเชิงหน้าที่ของ `who` เป็นประธาน. เพื่อชัดเจนและเป็นธรรมชาติสำหรับคน ใช้ `who` ดีกว่า เช่น `Students who study...`."
+      }
+    ]
+  }
+]

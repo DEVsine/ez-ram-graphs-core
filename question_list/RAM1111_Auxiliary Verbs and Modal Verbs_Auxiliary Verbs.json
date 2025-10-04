@@ -1,0 +1,292 @@
+[
+  {
+    "question": "He ___ coffee.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "doesn't drink",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __do-support ในประโยคปัจจุบันแบบปฏิเสธ__: __`does + not + base verb`__ สำหรับประธานเอกพจน์บุรุษที่ 3 เช่น He/She/It. ตัวอย่าง: `He doesn't drink coffee.` หรือ `She doesn't like tea.`"
+      },
+      {
+        "index": 2,
+        "text": "don't drink",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **He** ต้องใช้ **doesn't** ไม่ใช่ **don't**. โครงสร้างที่ถูกคือ `He doesn't drink coffee.` แต่ `I/You/We/They don't drink coffee.` ถึงจะใช้ได้."
+      },
+      {
+        "index": 3,
+        "text": "isn't drink",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา **be (isn't)** มาใช้กับ **base verb** ซึ่งไม่เข้ากันในโครงสร้างปัจจุบันธรรมดา. ถ้าจะใช้ be ต้องเป็น **continuous** เช่น `He isn't drinking coffee.`"
+      },
+      {
+        "index": 4,
+        "text": "hasn't drink",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะถ้าใช้ **hasn't** ต้องตามด้วย **V3** เป็น present perfect: `He hasn't drunk coffee today.` แต่ในโจทย์ต้องการปัจจุบันทั่วไปแบบปฏิเสธ ใช้ `doesn't + base verb`."
+      }
+    ]
+  },
+  {
+    "question": "___ your sister play the piano?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Does",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __`Does + subject + base verb?`__ สำหรับประธานเอกพจน์ (your sister = she). ตัวอย่าง: `Does your sister play the piano?` และตอบสั้นได้ `Yes, she does.`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **your sister** เป็นเอกพจน์ ต้องใช้ **Does** ไม่ใช่ **Do**. `Do` ใช้กับ I/you/we/they เช่น `Do they play the piano?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** ใช้กับ continuous/คำคุณศัพท์ เช่น `Is she playing?` หรือ `Is she happy?` แต่โจทย์ถาม **habit/general ability** ต้องใช้ **do-support**: `Does ... play?`"
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Has** เป็นตัวช่วยของ present perfect ซึ่งต้องตามด้วย V3 เช่น `Has she played the piano today?` โจทย์นี้ถามปัจจุบันทั่วไป ต้องใช้ `Does`."
+      }
+    ]
+  },
+  {
+    "question": "They ___ for the bus now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are waiting",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูป **present continuous** ใช้ __`be + V-ing`__ เพื่อบอกกำลังกระทำตอนนี้. ตัวอย่าง: `They are waiting for the bus now.` หรือ `We are studying.`"
+      },
+      {
+        "index": 2,
+        "text": "wait",
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะ เพราะ `wait` เฉยๆ คือ present simple ซึ่งเน้นนิสัย/ความจริงทั่วไป ไม่เน้นกำลังกระทำ. ถ้าบอกว่าตอนนี้ต้องใช้ `are waiting` เช่น `They are waiting now.`"
+      },
+      {
+        "index": 3,
+        "text": "are wait",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะหลัง **be (are)** ต้องเป็น **V-ing** ไม่ใช่ base verb. รูปที่ถูกคือ `are waiting` ไม่ใช่ `are wait`."
+      },
+      {
+        "index": 4,
+        "text": "have waiting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะถ้าใช้ **have** ต้องเป็น perfect เช่น `have waited` (V3). โจทย์ต้องการ continuous ควรใช้ `are waiting`."
+      }
+    ]
+  },
+  {
+    "question": "She ___ finished her homework.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "has",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ present perfect: __`has/have + V3`__. ตัวอย่าง: `She has finished her homework.` และ `He has already eaten.`"
+      },
+      {
+        "index": 2,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `is finished` จะเป็นรูป **passive/adjective** ซึ่งความหมายเปลี่ยน และยังไม่เข้ากับ `her homework` ในบริบทการทำการบ้านของเธอ. โครงสร้างที่ถูกคือ `has finished`."
+      },
+      {
+        "index": 3,
+        "text": "does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **does** ใช้ใน present simple (คำถาม/ปฏิเสธ) ไม่ได้ใช้กับ V3. ตัวอย่างผิด: `She does finished...`; ตัวอย่างถูก: `She has finished...`."
+      },
+      {
+        "index": 4,
+        "text": "have",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะประธานคือ **She** ต้องใช้ **has** ไม่ใช่ **have**. โครงสร้างถูกคือ `She has finished her homework.`"
+      }
+    ]
+  },
+  {
+    "question": "The report ___ checked every Friday.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ passive แบบปัจจุบัน: __`be + past participle (V3)`__. ประโยคจะเป็น `The report is checked every Friday.` แปลว่า “รายงานถูกตรวจทุกวันศุกร์.”"
+      },
+      {
+        "index": 2,
+        "text": "does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **does** ไม่ได้ใช้สร้าง passive และหลัง **does** ต้องตามด้วย base verb ในประโยคคำถาม/ปฏิเสธ เช่น `Does he check the report?`"
+      },
+      {
+        "index": 3,
+        "text": "has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **has** จะนำหน้า V3 ใน present perfect (`has checked` = เขาตรวจ) ซึ่งเป็น **active**, ไม่ใช่ **passive**. ประโยคนี้ต้องการ `is checked`."
+      },
+      {
+        "index": 4,
+        "text": "was",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ `was checked` เป็นอดีต แต่มีคำบอกความถี่ `every Friday` ที่สื่อปัจจุบันเป็นนิสัย/ประจำ. ใช้ปัจจุบัน passive: `is checked` จะตรงกว่า."
+      }
+    ]
+  },
+  {
+    "question": "When ___ you arrive?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "did",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้คำถามอดีตแบบ do-support: __`did + subject + base verb`__. ตัวอย่าง: `When did you arrive?` และ `Did he call you yesterday?`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำถามนี้ชัดว่าเป็นอดีต (ด้วย `arrive` ที่จะต้องเป็น base หลังตัวช่วย) ควรใช้ **did**. `Do you arrive?` ฟังแปลกและไม่ตรงเวลา."
+      },
+      {
+        "index": 3,
+        "text": "have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะถ้าใช้ **have** ต้องตามด้วย V3: `When have you arrived?` ซึ่งไม่ธรรมชาติในการถามเวลาอดีตครั้งเดียว. ใช้ `When did you arrive?` ดีกว่า."
+      },
+      {
+        "index": 4,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **are** ใช้กับ continuous เช่น `When are you arriving?` (อนาคต/แผน) แต่โจทย์ต้องการอดีตครั้งเดียว ควรใช้ `did`."
+      }
+    ]
+  },
+  {
+    "question": "Are they coming? — Yes, they ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำตอบสั้นต้องใช้ __auxiliary ตัวเดิมของคำถาม__ จึงเป็น __`Yes, subject + auxiliary.`__. ตัวอย่าง: `Are they coming? — Yes, they are.` และ `Is she ready? — Yes, she is.`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำถามใช้ **be (Are)** ไม่ใช่ **do** จึงต้องตอบด้วย **are**. ตัวอย่างที่ถูก: `Are you okay? — Yes, I am.` ไม่ใช่ `I do`."
+      },
+      {
+        "index": 3,
+        "text": "have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่มี **have** ในคำถาม และรูป continuous ต้องคง **be**. คำตอบสั้นควรเป็น `Yes, they are.`"
+      },
+      {
+        "index": 4,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิดเรื่องสอดคล้องของประธาน-กริยา เพราะประธานคือ **they** ต้องใช้ **are** ไม่ใช่ **is**. ที่ถูกคือ `Yes, they are.`"
+      }
+    ]
+  },
+  {
+    "question": "I really ___ want to go, but I can't.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "do",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **do** เพื่อเน้นย้ำความจริง (emphatic do): __`do/does/did + base verb`__ ในประโยคบอกเล่า. ตัวอย่าง: `I do want to go.` หรือ `She does agree with you.`"
+      },
+      {
+        "index": 2,
+        "text": "am",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **am** ใช้กับ **V-ing** หรือคำคุณศัพท์ เช่น `I am going` หรือ `I am happy`. โจทย์ต้องการเน้นกริยารูป base จึงใช้ `do want`."
+      },
+      {
+        "index": 3,
+        "text": "have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **have** จะทำให้เป็น perfect ถ้าตามด้วย V3 (`have wanted`). แต่ที่นี่ต้องการเน้นกริยาแท้แบบปัจจุบัน ใช้ `do want`."
+      },
+      {
+        "index": 4,
+        "text": "did",
+        "is_correct": false,
+        "answer_description": "ผิดเวลา เพราะ `did` เป็นอดีตและจะทำให้ความหมายเป็นอดีต `I really did want to go` (เมื่อก่อนอยาก). โจทย์ใช้ `can't` ปัจจุบัน จึงใช้ `do` จะสอดคล้องกว่า."
+      }
+    ]
+  },
+  {
+    "question": "You like spicy food, ___?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "don't you",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง Tag question ใช้หลัก __ส่วนหน้าเป็นบอกเล่า → tag เป็นปฏิเสธ ด้วย auxiliary เดียวกัน__: `do + not + subject`. ตัวอย่าง: `You like spicy food, don't you?` และ `They work hard, don't they?`"
+      },
+      {
+        "index": 2,
+        "text": "aren't you",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคหลักใช้กริยาแท้ `like` จึงต้องใช้ **do-support** ไม่ใช่ **be**. ตัวอย่างที่ถูก: `You are tired, aren't you?` (มี be ในส่วนหน้า) แต่ที่นี่ควรเป็น `don't you?`"
+      },
+      {
+        "index": 3,
+        "text": "didn't you",
+        "is_correct": false,
+        "answer_description": "ผิดเวลา เพราะประโยคหลักเป็นปัจจุบัน (`like`) จึงต้องใช้ **do** ปัจจุบัน ไม่ใช่ **did** อดีต. ที่ถูกคือ `don't you?`"
+      },
+      {
+        "index": 4,
+        "text": "haven't you",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **have** ใช้กับ present perfect เช่น `You have eaten, haven't you?` แต่ประโยคหลักนี้ไม่ได้เป็น perfect. ต้องใช้ `don't you?`"
+      }
+    ]
+  },
+  {
+    "question": "How long ___ you lived here?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "have",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็นคำถาม present perfect: __`How long + have/has + subject + V3`__. ตัวอย่าง: `How long have you lived here?` และ `How long has she worked here?`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำถามนี้ต้องการ **present perfect** ซึ่งใช้ **have/has + V3** ไม่ใช่ do-support. ตัวอย่างถูก: `How long have you lived here?`"
+      },
+      {
+        "index": 3,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **are** จะทำให้เป็น continuous (`are living`) ซึ่งไม่ตรงกับโครงสร้าง `lived` (V3). ต้องใช้ `have lived`."
+      },
+      {
+        "index": 4,
+        "text": "did",
+        "is_correct": false,
+        "answer_description": "ผิดเวลา/โครงสร้าง เพราะ `How long did you lived` ก็ผิดรูป (ต้องเป็น `live`) และความหมายจะเป็นช่วงเวลาที่จบไปแล้ว. โจทย์ต้องการระยะเวลาถึงปัจจุบัน ใช้ `have lived`."
+      }
+    ]
+  }
+]

@@ -1,0 +1,292 @@
+[
+  {
+    "question": "Did you ___ the movie last night?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "saw",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเมื่อมี **Did** แล้ว กริยาหลักต้องเป็นรูปฐาน **V1** ไม่ใช่ **V2** อย่าง `saw`. โครงสร้างที่ถูกคือ `Did + subject + V1 + ...?` เช่น: `Did you see the movie?` ไม่ใช่ `Did you saw ...`"
+      },
+      {
+        "index": 2,
+        "text": "see",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำถาม **Past Simple** ใช้โครงสร้าง __`Did + subject + V1`__. จึงต้องใช้ `see` (V1) ไม่ผันเป็นอดีตอีก เช่น: `Did you see the movie last night?` ใช้กรณีถามเหตุการณ์ที่เกิดและจบไปแล้วเมื่อวาน."
+      },
+      {
+        "index": 3,
+        "text": "seeing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `seeing` เป็นรูป V-ing ไม่ใช้ในคำถาม Past Simple ที่มี **Did** นำหน้า. เปรียบเทียบ: ถูก `Did you see the movie?` ผิด `Did you seeing the movie?`"
+      },
+      {
+        "index": 4,
+        "text": "seen",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `seen` เป็น V3 ใช้กับ **have/has/had** ไม่ใช่กับ **Did**. ตัวอย่างที่ถูกกับ V3: `Have you seen it?` แต่ถ้าใช้ Did ต้องเป็น V1: `Did you see it?`"
+      }
+    ]
+  },
+  {
+    "question": "___ she at home yesterday?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Was",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคมีกริยา **be** และเป็นอดีต ใช้โครงสร้าง __`Was/Were + subject + ...?`__. สำหรับ **she** ต้องใช้ `Was` เช่น `Was she at home yesterday?` ใช้ถามสถานะ/สภาพในอดีต."
+      },
+      {
+        "index": 2,
+        "text": "Did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเมื่อใช้กริยา **be** เป็นกริยาหลัก เราไม่ใช้ `Did` นำหน้า แต่ใช้ `Was/Were`. ตัวอย่างที่ถูก: `Was she at home?` ไม่ใช่ `Did she at home?`"
+      },
+      {
+        "index": 3,
+        "text": "Were",
+        "is_correct": false,
+        "answer_description": "เกือบถูก แต่ `Were` ใช้กับ **you/we/they** ไม่เข้ากับ **she**. ตัวอย่าง: `Were they at home?` แต่กับ she ต้อง `Was she at home?`"
+      },
+      {
+        "index": 4,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะ `Is` เป็นปัจจุบัน ไม่สอดคล้องกับคำบอกเวลา **yesterday**. ในอดีตต้องใช้ `Was/Were` เช่น `Was she at home yesterday?`"
+      }
+    ]
+  },
+  {
+    "question": "Where ___ they go on vacation?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "did",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคำถามอดีตแบบ WH- ใช้ __`Wh- + did + subject + V1`__. ตัวอย่างเช่น `Where did they go on vacation?` หรือ `When did they arrive?` ใช้ `did` ช่วยและกริยาหลักเป็น V1."
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `do` เป็นปัจจุบัน แต่เราถามเหตุการณ์ในอดีต. ต้องใช้ `did` เช่น `Where did they go?` ไม่ใช่ `Where do they go?`"
+      },
+      {
+        "index": 3,
+        "text": "were",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `were` ใช้กับกริยา **be** แต่ที่นี่มีกริยาหลัก `go` จึงต้องใช้ `did` + V1. ตัวอย่างที่ถูก: `Where did they go?`"
+      },
+      {
+        "index": 4,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็นปัจจุบัน (Present). คำถามอดีตต้องใช้ `did` เช่น `Where did they go?` ไม่ใช่ `Where are they go?`"
+      }
+    ]
+  },
+  {
+    "question": "What time did he ___ to the office?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "arrive",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเมื่อมี **did** แล้ว กริยาหลักต้องเป็น V1 ตามโครงสร้าง __`Did + subject + V1`__. ตัวอย่าง: `What time did he arrive to the office?` หรือ `Did he arrive early?`"
+      },
+      {
+        "index": 2,
+        "text": "arrived",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `arrived` เป็น V2 ซึ่งซ้ำซ้อนกับ `did` ที่แสดงอดีตแล้ว. ควรเป็น `did he arrive` ไม่ใช่ `did he arrived`."
+      },
+      {
+        "index": 3,
+        "text": "arrives",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `arrives` เป็นรูปปัจจุบันบุรุษที่สาม ไม่ใช้กับ **did** ในอดีต. เปรียบเทียบ: ถูก `Did he arrive?` ผิด `Did he arrives?`"
+      },
+      {
+        "index": 4,
+        "text": "arriving",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `arriving` เป็น V-ing ไม่เข้ากับโครงสร้าง Past Simple ที่ใช้ `did + V1`. ตัวอย่างที่ถูก: `What time did he arrive?`"
+      }
+    ]
+  },
+  {
+    "question": "___ your parents call you last night?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Did",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำถามอดีตทั่วไปใช้ __`Did + subject + V1`__. ดังนั้นต้อง `Did your parents call you last night?` ใช้ถามเหตุการณ์ที่เกิดขึ้นเมื่อคืน."
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Do` เป็นปัจจุบัน ไม่ตรงกับ `last night`. ควรเป็น `Did your parents call you last night?`"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจาก `Are` เป็นรูปของ **be** (ปัจจุบัน) และไม่ใช้สร้างคำถาม Past Simple ที่มีกริยาหลัก `call`. ต้องใช้ `Did` + V1 เช่น `Did they call?`"
+      },
+      {
+        "index": 4,
+        "text": "Were",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Were` ใช้กับกริยา **be** หรือ passive ไม่ได้ใช้กับกริยาปกติ `call` ในคำถาม Past Simple. รูปที่ถูกคือ `Did your parents call ...?`"
+      }
+    ]
+  },
+  {
+    "question": "Why ___ the meeting start late?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "did",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำถาม Wh- ในอดีตใช้ __`Why/When/Where + did + subject + V1`__. ตัวอย่าง: `Why did the meeting start late?` หรือ `When did it start?`"
+      },
+      {
+        "index": 2,
+        "text": "does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `does` เป็นปัจจุบัน ไม่ตรงกับบริบทอดีต. ควรเป็น `Why did the meeting start ...?`"
+      },
+      {
+        "index": 3,
+        "text": "was",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะที่นี่กริยาหลักคือ `start` (กริยาปกติ) ไม่ใช่กริยา **be**. คำถาม Past Simple จึงใช้ `did + V1`: `Why did the meeting start ...?`"
+      },
+      {
+        "index": 4,
+        "text": "has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `has` ใช้กับ Present Perfect ไม่ใช่ Past Simple. รูปที่ถูกคือ `Why did the meeting start late?`"
+      }
+    ]
+  },
+  {
+    "question": "Who ___ the window yesterday?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "broke",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำถามที่ **Who** เป็นประธาน ใช้กริยาช่อง 2 ได้เลยโดยไม่ต้องมี `did` ตามรูปแบบ __`Wh-subject + V2 + ...?`__. ตัวอย่าง: `Who broke the window yesterday?` หรือ `Who took my pen?`"
+      },
+      {
+        "index": 2,
+        "text": "break",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเมื่อ **Who** ทำหน้าที่เป็นประธานในอดีต กริยาต้องเป็น V2 (`broke`) ไม่ใช่ V1. เปรียบเทียบ: ถูก `Who broke the window?` ผิด `Who break the window?`"
+      },
+      {
+        "index": 3,
+        "text": "breaks",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `breaks` เป็นรูปปัจจุบันบุรุษที่สาม ไม่ใช่อดีต. สำหรับอดีตที่ Who เป็นประธาน ต้องใช้ V2: `broke`."
+      },
+      {
+        "index": 4,
+        "text": "breaking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `breaking` เป็น V-ing ไม่ใช่รูป Past Simple. โครงสร้างที่ถูกคือ `Who broke the window?` ไม่ใช่ `Who breaking ...?`"
+      }
+    ]
+  },
+  {
+    "question": "___ it rain during the trip?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Did",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __`Did + subject + V1`__ สำหรับคำถามอดีตทั่วไป. ตัวอย่าง: `Did it rain during the trip?` และตอบสั้นได้ `Yes, it did.` / `No, it didn't.`"
+      },
+      {
+        "index": 2,
+        "text": "Was",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Was` ใช้กับกริยา **be** ไม่ใช่กับกริยาปกติ `rain` ในคำถาม Past Simple. ควรใช้ `Did it rain ...?`"
+      },
+      {
+        "index": 3,
+        "text": "Has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Has` เป็น Present Perfect ไม่ใช่ Past Simple. ประโยคที่ถูกคือ `Did it rain during the trip?`"
+      },
+      {
+        "index": 4,
+        "text": "Does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นปัจจุบัน ไม่ตรงกับการถามเหตุการณ์ทริปที่ผ่านมา. รูปที่ถูก: `Did it rain ...?`"
+      }
+    ]
+  },
+  {
+    "question": "How many books did she ___ last month?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "buy",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมี `did` แล้วกริยาหลักต้องเป็น V1 ตามรูปแบบ __`Did + subject + V1`__. ตัวอย่าง: `How many books did she buy last month?` หรือ `Did she buy three books?`"
+      },
+      {
+        "index": 2,
+        "text": "bought",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `bought` เป็น V2 ซึ่งซ้ำกับ `did`. ต้องใช้ V1: `did she buy` ไม่ใช่ `did she bought`."
+      },
+      {
+        "index": 3,
+        "text": "buys",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปปัจจุบันบุรุษที่สาม ไม่เข้ากับ Past Simple ที่มี `did`. รูปที่ถูก: `did she buy`."
+      },
+      {
+        "index": 4,
+        "text": "buying",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `buying` เป็น V-ing ไม่ใช้หลัง `did` ในคำถาม Past Simple. ควรเป็น `did she buy`."
+      }
+    ]
+  },
+  {
+    "question": "___ you born in 2005?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Were",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เรื่องวันเกิดใช้กริยา **be born** และในอดีตใช้ __`Was/Were + subject + born ...?`__. สำหรับ `you` ใช้ `Were`: `Were you born in 2005?` เป็นการถามข้อเท็จจริงในอดีต."
+      },
+      {
+        "index": 2,
+        "text": "Did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้างกับคำว่า `born` ต้องใช้กริยา **be** ไม่ใช่ `Did`. ที่ถูกคือ `Were you born ...?` ไม่ใช่ `Did you born ...?`"
+      },
+      {
+        "index": 3,
+        "text": "Was",
+        "is_correct": false,
+        "answer_description": "ผิดในแง่สอดคล้องประธาน เพราะ `Was` ใช้กับ `I/he/she/it` แต่ประธานคือ `you`. ต้องใช้ `Were you born ...?`"
+      },
+      {
+        "index": 4,
+        "text": "Are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Are` เป็นปัจจุบัน ไม่เข้ากับการถามปี 2005 (อดีต). รูปที่ถูกคือ `Were you born in 2005?`"
+      }
+    ]
+  }
+]

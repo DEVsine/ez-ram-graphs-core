@@ -1,0 +1,321 @@
+[
+  {
+    "question": "He ___ coffee in the morning.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "doesn't drink",
+        "is_correct": true,
+        "answer_description": "ถูกต้องเลย! ประโยคปัจจุบันธรรมดาแบบปฏิเสธของประธานเอกพจน์บุรุษที่ 3 (he/she/it) ใช้รูป __does not (doesn't) + กริยารูปพื้นฐาน__ เช่น `He doesn't drink coffee.` ตัวกริยาแท้ต้องเป็นรูปดิกชันนารี (ไม่มี -s) เพราะความเปลี่ยนแปลงไปอยู่ที่ `doesn't` แล้วนะ"
+      },
+      {
+        "index": 2,
+        "text": "don't drinks",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะใช้ `don't` กับประธาน **he** และยังเติม -s ที่กริยาอีก ซึ่งซ้ำซ้อนสองชั้น ตัวถูกต้องต้องใช้ **doesn't + กริยารูปพื้นฐาน** เช่น `He doesn't drink...` ไม่ใช่ `don't drinks`"
+      },
+      {
+        "index": 3,
+        "text": "doesn't drinks",
+        "is_correct": false,
+        "answer_description": "ผิดที่เติม -s ที่กริยาหลัง `doesn't` ซึ่งไม่ควรทำ หลักคือ `doesn't + กริยาไม่ผัน` เช่น `He doesn't drink coffee.` ถ้าเติม -s จะกลายเป็นผันซ้ำซ้อน"
+      },
+      {
+        "index": 4,
+        "text": "don't drink",
+        "is_correct": false,
+        "answer_description": "ผิดที่ใช้ `don't` กับประธาน **he** เพราะบุรุษที่ 3 เอกพจน์ต้องใช้ **doesn't** เสมอ ตัวอย่างที่ถูก: `He doesn't drink coffee in the morning.`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ to school on Sundays.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "don't go",
+        "is_correct": true,
+        "answer_description": "เยี่ยม! ประธานพหูพจน์ **they** ใช้รูปปฏิเสธว่า __do not (don't) + กริยารูปพื้นฐาน__ เช่น `They don't go to school on Sundays.` โครงนี้ชัดและเป็นมาตรฐานของ Present Simple Negative"
+      },
+      {
+        "index": 2,
+        "text": "doesn't go",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะ `doesn't` ใช้กับ he/she/it ไม่ใช่กับ **they** ซึ่งเป็นพหูพจน์ ต้องใช้ `don't` แทน เช่น `They don't go...`"
+      },
+      {
+        "index": 3,
+        "text": "don't goes",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะกริยาหลัง `don't` ต้องเป็นรูปพื้นฐานเสมอ ไม่เติม -s ดังนั้นต้องเป็น `don't go` ไม่ใช่ `don't goes`"
+      },
+      {
+        "index": 4,
+        "text": "not go",
+        "is_correct": false,
+        "answer_description": "ผิดรูปประโยค เพราะประโยคปฏิเสธใน Present Simple ต้องมี **do/does + not** ไม่ใช่แค่ `not` โดดๆ ตัวอย่างที่ถูก: `They don't go to school on Sundays.`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ interested in math.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "isn't",
+        "is_correct": true,
+        "answer_description": "ถูกต้องนะ! เมื่อเป็นกริยา **be** ใน Present Simple แบบปฏิเสธ ใช้รูป __am not / is not (isn't) / are not (aren't)__ ตามประธาน เช่น `She isn't interested in math.` นี่คือโครงสร้างปฏิเสธของกริยา be ที่ถูกต้อง"
+      },
+      {
+        "index": 2,
+        "text": "doesn't is",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะห้ามใช้ `do/does` ช่วยกับกริยา **be** เราใช้รูปปฏิเสธของ be โดยตรง เช่น `She isn't...` ไม่ใช่ `doesn't is`"
+      },
+      {
+        "index": 3,
+        "text": "don't be",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เนื่องจากกริยา **be** ไม่ใช้กับ `do/does` ใน Present Simple ปฏิเสธ ต้องใช้ `isn't/aren't/am not` เช่น `She isn't interested...`"
+      },
+      {
+        "index": 4,
+        "text": "not is",
+        "is_correct": false,
+        "answer_description": "ผิดไวยากรณ์ เพราะ `not` ต้องตามหลังรูปของกริยา be ไม่ใช่วางนำหน้าแบบนี้ รูปที่ถูกคือ `She is not (isn't) interested...`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ a car.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "don't have",
+        "is_correct": true,
+        "answer_description": "ถูกต้องมาก! ประธาน **I** ใช้รูปปฏิเสธว่า __do not (don't) + กริยารูปพื้นฐาน__ เช่น `I don't have a car.` โครงนี้ใช้กับกริยาทั่วไปใน Present Simple"
+      },
+      {
+        "index": 2,
+        "text": "doesn't have",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะ `doesn't` ใช้กับ he/she/it ไม่ใช่ I ดังนั้นต้องเป็น `I don't have...`"
+      },
+      {
+        "index": 3,
+        "text": "haven't",
+        "is_correct": false,
+        "answer_description": "ผิดในความหมายทั่วไปแบบภาษาอเมริกัน เพราะ `have` เป็นกริยาหลักควรใช้ `don't have` ไม่ใช่ `haven't` เช่น `I don't have a car.`"
+      },
+      {
+        "index": 4,
+        "text": "not have",
+        "is_correct": false,
+        "answer_description": "ผิดรูปโครงสร้าง ประโยคปฏิเสธต้องมี `do/does + not` ช่วย เช่น `I don't have a car.` ไม่ใช่ `I not have...`"
+      }
+    ]
+  },
+  {
+    "question": "The dog ___ loudly at night.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "doesn't bark",
+        "is_correct": true,
+        "answer_description": "เยี่ยม! ประธานเอกพจน์บุรุษที่ 3 (**the dog**) ใช้รูปปฏิเสธ __does not (doesn't) + กริยารูปพื้นฐาน__ เช่น `The dog doesn't bark at night.` สังเกตว่าหลัง `doesn't` กริยาเป็นรูปดิบ `bark` ไม่มี -s"
+      },
+      {
+        "index": 2,
+        "text": "don't barks",
+        "is_correct": false,
+        "answer_description": "ผิดสองจุด: ใช้ `don't` กับเอกพจน์ และเติม -s ที่กริยาหลังผู้ช่วยอีก ซึ่งไม่ถูก ต้องเป็น `doesn't bark`"
+      },
+      {
+        "index": 3,
+        "text": "doesn't barks",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะหลัง `doesn't` กริยาต้องเป็นรูปพื้นฐาน ไม่เติม -s ดังนั้นควรเป็น `doesn't bark`"
+      },
+      {
+        "index": 4,
+        "text": "not bark",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะประโยคปฏิเสธใน Present Simple ต้องใช้ `do/does + not` เช่น `The dog doesn't bark...` ไม่ใช่ `not bark`"
+      }
+    ]
+  },
+  {
+    "question": "We ___ TV on weekdays.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "don't watch",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง! ประธานพหูพจน์ **we** ใช้ __do not (don't) + กริยารูปพื้นฐาน__ เช่น `We don't watch TV on weekdays.` โครงนี้เป็นมาตรฐานของ Present Simple ปฏิเสธ"
+      },
+      {
+        "index": 2,
+        "text": "doesn't watch",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะ `doesn't` ใช้กับ he/she/it เท่านั้น สำหรับ **we** ต้องใช้ `don't` เช่น `We don't watch...`"
+      },
+      {
+        "index": 3,
+        "text": "don't watches",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะหลัง `don't` กริยาต้องเป็นรูปพื้นฐานไม่เติม -es ดังนั้นควรเป็น `don't watch`"
+      },
+      {
+        "index": 4,
+        "text": "not watching",
+        "is_correct": false,
+        "answer_description": "ผิดกาลและผิดโครงสร้าง เพราะ `watching` คือรูปกำลังกระทำ (continuous) และไม่มีผู้ช่วย `be` ด้วย ประโยคปฏิเสธ Present Simple ต้องใช้ `don't/doesn't + V1` เช่น `We don't watch...`"
+      }
+    ]
+  },
+  {
+    "question": "There ___ any milk in the fridge.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "isn't",
+        "is_correct": true,
+        "answer_description": "เก่งมาก! โครงสร้าง **there be** แบบปฏิเสธใช้ __isn't/aren't__ ตามจำนวนของคำนาม `milk` เป็นนามนับไม่ได้ จึงนับเป็นเอกพจน์ ใช้ `There isn't any milk...` เช่น `There isn't any milk in the fridge.`"
+      },
+      {
+        "index": 2,
+        "text": "aren't",
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะ `milk` เป็นนามนับไม่ได้ ใช้ลักษณะเอกพจน์ ต้องเป็น `There isn't any milk...` ถ้าเป็นพหูพจน์เช่น `eggs` ค่อยใช้ `There aren't any eggs.`"
+      },
+      {
+        "index": 3,
+        "text": "doesn't",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะโครงสร้าง **there be** ไม่ใช้ `do/does` ช่วย ต้องใช้รูปของกริยา **be** เอง เช่น `There isn't/aren't...`"
+      },
+      {
+        "index": 4,
+        "text": "not is",
+        "is_correct": false,
+        "answer_description": "ผิดไวยากรณ์ เพราะ `not` ต้องตามหลังรูปกริยา be และกลับลำดับไม่ได้ รูปที่ถูกคือ `There is not (isn't) any milk...`"
+      }
+    ]
+  },
+  {
+    "question": "My brother ___ video games every day.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "doesn't play",
+        "is_correct": true,
+        "answer_description": "ใช่เลย! ประธาน `my brother` เป็นเอกพจน์บุรุษที่ 3 จึงใช้ __does not (doesn't) + กริยารูปพื้นฐาน__ เช่น `My brother doesn't play video games every day.` จำไว้ว่าหลัง `doesn't` กริยาไม่เติม -s"
+      },
+      {
+        "index": 2,
+        "text": "don't play",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะใช้ `don't` กับเอกพจน์บุรุษที่ 3 อย่าง `my brother` ต้องใช้ `doesn't` แทน เช่น `My brother doesn't play...`"
+      },
+      {
+        "index": 3,
+        "text": "doesn't plays",
+        "is_correct": false,
+        "answer_description": "ผิดตรงเติม -s หลัง `doesn't` ซึ่งไม่ถูก กติกาคือ `doesn't + V1` ดังนั้นต้องเป็น `doesn't play`"
+      },
+      {
+        "index": 4,
+        "text": "not play",
+        "is_correct": false,
+        "answer_description": "ผิดรูปประโยค เพราะขาดผู้ช่วย `do/does` ใน Present Simple ปฏิเสธ ตัวอย่างที่ถูก: `My brother doesn't play video games every day.`"
+      }
+    ]
+  },
+  {
+    "question": "You ___ to bring your own lunch.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "don't need",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง! กับประธาน **you** ใช้ปฏิเสธเป็น __do not (don't) + กริยารูปพื้นฐาน__ เช่น `You don't need to bring your own lunch.` โครงสร้างนี้ชัดเจนและใช้บ่อยในคำแนะนำ"
+      },
+      {
+        "index": 2,
+        "text": "doesn't need",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `doesn't` ใช้กับ he/she/it เท่านั้น ประธาน `you` ต้องใช้ `don't` เช่น `You don't need...`"
+      },
+      {
+        "index": 3,
+        "text": "don't needs",
+        "is_correct": false,
+        "answer_description": "ผิดที่ใส่ -s หลัง `don't` เนื่องจากกริยาหลัง do/does not ต้องเป็นรูปพื้นฐานเสมอ ควรเป็น `don't need`"
+      },
+      {
+        "index": 4,
+        "text": "not need",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะประโยคปฏิเสธใน Present Simple ต้องมี `do/does + not` เช่น `You don't need...` ไม่ใช่ `You not need...`"
+      }
+    ]
+  },
+  {
+    "question": "It ___ sense to rush.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "doesn't make",
+        "is_correct": true,
+        "answer_description": "ดีมาก! ประธาน **it** เป็นเอกพจน์บุรุษที่ 3 ใช้ปฏิเสธว่า __does not (doesn't) + กริยารูปพื้นฐาน__ เช่น `It doesn't make sense to rush.` สังเกตว่ากริยา `make` ไม่เติม -s หลัง `doesn't`"
+      },
+      {
+        "index": 2,
+        "text": "don't make",
+        "is_correct": false,
+        "answer_description": "ผิดที่ใช้ `don't` กับประธาน `it` ซึ่งต้องใช้ `doesn't` เท่านั้น รูปที่ถูกคือ `It doesn't make sense...`"
+      },
+      {
+        "index": 3,
+        "text": "doesn't makes",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะกริยาหลัง `doesn't` ต้องเป็นรูปพื้นฐาน ไม่เติม -s ดังนั้นต้องเป็น `doesn't make`"
+      },
+      {
+        "index": 4,
+        "text": "not makes",
+        "is_correct": false,
+        "answer_description": "ผิดไวยากรณ์ สองจุด: ใช้ `not` โดยไม่มีผู้ช่วย และเติม -s ผิดที่ โครงสร้างที่ถูกต้องคือ `doesn't + make` เช่น `It doesn't make sense...`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ the news every morning.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "doesn't read",
+        "is_correct": true,
+        "answer_description": "ถูกต้องจ้า! กับประธาน **she** ใช้รูปปฏิเสธ __does not (doesn't) + กริยารูปพื้นฐาน__ เช่น `She doesn't read the news every morning.` จำให้ขึ้นใจว่าไม่มี -s หลัง `doesn't`"
+      },
+      {
+        "index": 2,
+        "text": "don't read",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะ `don't` ใช้กับ I/you/we/they ไม่ใช่ **she** ต้องใช้ `doesn't` เช่น `She doesn't read...`"
+      },
+      {
+        "index": 3,
+        "text": "doesn't reads",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจากหลัง `doesn't` กริยาต้องเป็นรูปพื้นฐาน (V1) จึงควรเป็น `doesn't read` ไม่ใช่ `reads`"
+      },
+      {
+        "index": 4,
+        "text": "not read",
+        "is_correct": false,
+        "answer_description": "ผิดรูปประโยค เพราะขาดผู้ช่วย `does` ใน Present Simple ปฏิเสธ ตัวอย่างที่ถูก: `She doesn't read the news every morning.`"
+      }
+    ]
+  }
+]

@@ -1,0 +1,321 @@
+[
+  {
+    "question": "He ___ his keys.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "has lost",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างที่ใช้คือ __have/has + V3 (past participle)__ และคำกริยา **lose** ช่องที่ 3 คือ **lost** จึงต้องเป็น `has lost`. ตัวอย่าง: `He has lost his keys, so he can't open the door.` ใช้กับเหตุการณ์ที่ส่งผลถึงปัจจุบัน เช่น ตอนนี้ยังหาไม่เจอ"
+      },
+      {
+        "index": 2,
+        "text": "has lose",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **has/have** ต้องตามด้วย **V3** ไม่ใช่รูปฐาน `lose`. ควรเป็น `has lost` เช่น `He has lost his keys.` ไม่ใช่ `has lose`"
+      },
+      {
+        "index": 3,
+        "text": "have lost",
+        "is_correct": false,
+        "answer_description": "ผิดที่การใช้ **have/has** ไม่สอดคล้องกับประธาน **He** ต้องใช้ **has** ไม่ใช่ **have**. ตัวอย่างที่ถูก: `He has lost his keys.` ตัวอย่างผิด: `He have lost his keys.`"
+      },
+      {
+        "index": 4,
+        "text": "lost",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้เพียง **V2/V3** เดี่ยวๆ โดยไม่มี **has/have** ทำให้ไม่เป็น **Present Perfect**. ถ้าจะใช้ Past Simple ควรเป็น `He lost his keys yesterday.` แต่โจทย์นี้ต้องการรูป **Present Perfect**"
+      }
+    ]
+  },
+  {
+    "question": "I have lived here ___ 2018.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "since",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __since + จุดเริ่มต้นของเวลา__ เช่น ปี/วัน/เวลา ระบุจุดเริ่มชัดเจน: `since 2018`. ตัวอย่าง: `I have lived here since 2018.` แปลว่าอยู่มาตั้งแต่ปี 2018 จนถึงตอนนี้"
+      },
+      {
+        "index": 2,
+        "text": "for",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **for** ใช้กับ “ช่วงเวลา” (duration) เช่น `for 5 years` ไม่ใช่ “จุดเวลา” อย่างปี 2018. ถูกต้องจะเป็น `for three years` แต่กับปีต้องใช้ `since 2018`"
+      },
+      {
+        "index": 3,
+        "text": "from",
+        "is_correct": false,
+        "answer_description": "ผิด ในประโยค **Present Perfect** เราใช้ **since** แทน **from** เพื่อบอกจุดเริ่ม เช่น `since 2018`. `from 2018` มักต้องตามด้วย `to/until` และไม่เข้ากับโครงสร้างนี้"
+      },
+      {
+        "index": 4,
+        "text": "in",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **in 2018** จะฟังเหมือนระบุช่วงเวลาเกิดเหตุการณ์ครั้งเดียว มากกว่าความต่อเนื่องถึงปัจจุบัน. ถ้าต้องการความต่อเนื่อง ต้องใช้ `since 2018`"
+      }
+    ]
+  },
+  {
+    "question": "___ you ever been to Japan?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Have",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำถามใน **Present Perfect** ใช้โครงสร้าง __Have/Has + subject + V3__ เช่น `Have you ever been to Japan?`. คำว่า **ever** ใช้ถาม “เคยไหม” เกี่ยวกับประสบการณ์จนถึงตอนนี้ เช่น `Have you ever tried sushi?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do/Does** ใช้กับ **Present Simple** ไม่ใช่ **Present Perfect**. ตัวอย่างผิด: `Do you ever been...` ควรใช้ `Have you ever been...`"
+      },
+      {
+        "index": 3,
+        "text": "Did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Did** เป็น Past Simple ใช้ถามเหตุการณ์ที่จบแล้วในอดีต เช่น `Did you go to Japan in 2019?`. แต่คำถามนี้ถาม “เคยไหมจนถึงตอนนี้” ต้องใช้ **Present Perfect**"
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะประธานคือ **you** ต้องใช้ **Have** ไม่ใช่ **Has**. โครงสร้างที่ถูกต้องคือ `Have you ever been to Japan?`"
+      }
+    ]
+  },
+  {
+    "question": "She has ___ to the store; she'll be back soon.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "gone",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง แยกใช้: **has gone to** = ไปแล้วและยังไม่อยู่ที่นี่, **has been to** = เคยไปมาแล้ว (ประสบการณ์). ที่ประโยคนี้บอกว่า “จะกลับมาเร็วๆ นี้” แปลว่าเธอออกไปอยู่ข้างนอกตอนนี้ จึงใช้ __has gone to__. ตัวอย่าง: `She has gone to the store.`"
+      },
+      {
+        "index": 2,
+        "text": "been",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **has been to** ใช้บอก “ประสบการณ์เคยไป” ไม่ได้หมายถึงตอนนี้ไม่อยู่ ณ ที่นี่. ถ้าจะสื่อว่ากำลังไม่อยู่และออกไปแล้ว ต้องใช้ `has gone to`"
+      },
+      {
+        "index": 3,
+        "text": "went",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **went** เป็น Past Simple และยังขาด **has/have** ไม่ใช่รูป Present Perfect. หากจะใช้ Past Simple ต้องมีเวลาอดีตชัดเจน เช่น `She went to the store yesterday.`"
+      },
+      {
+        "index": 4,
+        "text": "go",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **has** ต้องตามด้วย **V3** ไม่ใช่ V1 `go`. รูปที่ถูกคือ `has gone` หรือ `has been` ตามความหมาย"
+      }
+    ]
+  },
+  {
+    "question": "He hasn't finished his homework ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "yet",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำว่า **yet** ใช้กับประโยคปฏิเสธและคำถามใน **Present Perfect** วางไว้ท้ายประโยค: __... hasn't/haven't + V3 + yet__. ตัวอย่าง: `He hasn't finished it yet.` แปลว่ายังไม่เสร็จ ณ ตอนนี้"
+      },
+      {
+        "index": 2,
+        "text": "already",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **already** ใช้กับประโยคบอกเล่าว่า “ทำแล้ว” ไม่ใช่ปฏิเสธ. ตัวอย่างที่ถูกกับ already: `He has already finished his homework.`"
+      },
+      {
+        "index": 3,
+        "text": "ever",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **ever** มักใช้ในคำถามเพื่อถามประสบการณ์ เช่น `Have you ever...` ไม่ใช้ในประโยคปฏิเสธรูปนี้. ประโยคปฏิเสธควรใช้ `yet` ท้ายประโยค"
+      },
+      {
+        "index": 4,
+        "text": "just",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **just** แปลว่า “พึ่งจะ” ใช้กับบอกเล่าว่าเพิ่งทำเสร็จ เช่น `He has just finished.` ไม่เข้ากับรูปปฏิเสธ"
+      }
+    ]
+  },
+  {
+    "question": "I have seen three movies ___ week.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "this",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **Present Perfect** เหมาะกับช่วงเวลาที่ยังไม่จบ เช่น __this week/this month/today__. ตัวอย่าง: `I have seen three movies this week.` ช่วงเวลา `this week` ยังดำเนินอยู่จนถึงตอนนี้"
+      },
+      {
+        "index": 2,
+        "text": "last",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **last week** เป็นเวลาที่จบแล้ว ควรใช้ **Past Simple**: `I saw three movies last week.` ไม่ใช่ Present Perfect"
+      },
+      {
+        "index": 3,
+        "text": "yesterday",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `yesterday` เป็นอดีตที่จบแล้ว ควรใช้ Past Simple: `I saw a movie yesterday.` Present Perfect ไม่เข้ากับเวลาแบบนี้"
+      },
+      {
+        "index": 4,
+        "text": "in 2020",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเวลาที่จบแล้วอย่างปี **in 2020** ใช้กับ Past Simple: `I watched many movies in 2020.` ไม่ใช้ Present Perfect"
+      }
+    ]
+  },
+  {
+    "question": "___ you ever tried sushi?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Have",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคำถาม Present Perfect คือ __Have/Has + subject + V3__ และใช้ **ever** เพื่อถามประสบการณ์. ตัวอย่าง: `Have you ever tried sushi?` หรือ `Have you ever been to Japan?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do** ใช้ใน Present Simple เช่น `Do you eat sushi?` ไม่ใช่ Present Perfect. สำหรับ “เคยไหม” ต้องใช้ `Have you ever...`"
+      },
+      {
+        "index": 3,
+        "text": "Has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **you** ต้องใช้ **Have** ไม่ใช่ **Has**. รูปที่ถูกคือ `Have you ever tried sushi?`"
+      },
+      {
+        "index": 4,
+        "text": "Are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Are** ใช้กับ **be + V-ing/adj/noun** ไม่ใช่ Present Perfect. ตัวอย่างผิด: `Are you ever tried...`"
+      }
+    ]
+  },
+  {
+    "question": "They have visited us ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "three times",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เรามักใช้ Present Perfect กับจำนวนครั้งของประสบการณ์ เช่น __have/has + V3 + number of times__. ตัวอย่าง: `They have visited us three times.` หรือ `I have watched it twice.`"
+      },
+      {
+        "index": 2,
+        "text": "since three times",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **since** ต้องตามด้วย “จุดเวลา” ไม่ใช่ “จำนวนครั้ง”. ตัวอย่างที่ถูกกับ since: `since 2020`, `since Monday`"
+      },
+      {
+        "index": 3,
+        "text": "for three times",
+        "is_correct": false,
+        "answer_description": "ผิด ปกติเราไม่ใช้ **for + times** เพื่อบอกจำนวนครั้ง ใช้เพียง `three times` ก็พอ. **for** ใช้กับ “ช่วงเวลา” เช่น `for three years`"
+      },
+      {
+        "index": 4,
+        "text": "during three times",
+        "is_correct": false,
+        "answer_description": "ผิด โครงสร้างนี้ไม่เป็นธรรมชาติ และ **during** ใช้กับช่วงเวลา/เหตุการณ์ เช่น `during the summer`, ไม่ใช้กับจำนวนครั้ง. ใช้ `three times` ตรงๆ จะถูกต้อง"
+      }
+    ]
+  },
+  {
+    "question": "She has known him ___ a long time.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "for",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __for + ระยะเวลา (duration)__ เช่น `for a long time/for two years`. กับกริยาเชิงสถานะ (**stative verb**) อย่าง **know** นิยมใช้ Present Perfect เพื่อบอกความต่อเนื่อง: `She has known him for years.`"
+      },
+      {
+        "index": 2,
+        "text": "since",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **since** ต้องตามด้วย “จุดเริ่มเวลา” เช่น `since 2020` หรือ `since we met`. ในประโยคนี้เป็น “ช่วงเวลา” จึงควรใช้ `for a long time`"
+      },
+      {
+        "index": 3,
+        "text": "from",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปแบบนี้กับ Present Perfect ต้องใช้ **for/since** ไม่ใช่ **from**. ตัวอย่าง: `She has known him since 2010` หรือ `for ten years`"
+      },
+      {
+        "index": 4,
+        "text": "during",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **during** ใช้บอกช่วงที่เกิดเหตุในกรอบเวลา/เหตุการณ์ เช่น `during the holidays`, ไม่เข้ากับกริยาสถานะ **know** ในรูปนี้"
+      }
+    ]
+  },
+  {
+    "question": "I have ___ the report.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "written",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ต้องใช้ __have/has + V3__ และ V3 ของ **write** คือ **written**. ตัวอย่าง: `I have written the report.` หรือ `She has written three emails today.`"
+      },
+      {
+        "index": 2,
+        "text": "wrote",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **wrote** เป็น **V2** (Past Simple) ไม่ใช่ V3. ถ้าจะใช้ Past Simple ควรมีเวลาอดีตชัดเจน เช่น `I wrote the report yesterday.`"
+      },
+      {
+        "index": 3,
+        "text": "write",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **have/has** ต้องใช้ **V3** ไม่ใช่รูปฐาน **write**. รูปที่ถูกคือ `have written`"
+      },
+      {
+        "index": 4,
+        "text": "writed",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป V3 ที่ไม่มีจริง รูปที่ถูกของ **write** คือ **wrote (V2)** และ **written (V3)**. ตัวอย่างที่ถูก: `I have written the report.`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ finished her project this week.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "has already",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตำแหน่งปกติของ **already** คือหลัง **has/have** และก่อน **V3**: __has/have + already + V3__. ตัวอย่าง: `She has already finished her project this week.` ใช้กับช่วงเวลาที่ยังไม่จบอย่าง `this week` ได้"
+      },
+      {
+        "index": 2,
+        "text": "already has",
+        "is_correct": false,
+        "answer_description": "ผิดที่ตำแหน่งคำวิเศษณ์ วาง **already** ไว้ก่อน **has** ทำให้โครงสร้างไม่เป็นธรรมชาติ. ควรเป็น `has already finished` ไม่ใช่ `already has finished`"
+      },
+      {
+        "index": 3,
+        "text": "has finished already",
+        "is_correct": false,
+        "answer_description": "แม้บางครั้งพูดได้ แต่ในการสอบมักคาดหวังตำแหน่งมาตรฐานคือ `has already finished`. ถ้าจะวางท้ายประโยค ควรตรวจความเป็นทางการและจังหวะประโยค ซึ่งไม่เด่นชัดเท่ารูปมาตรฐาน"
+      },
+      {
+        "index": 4,
+        "text": "has yet finished",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **yet** ใช้กับปฏิเสธ/คำถาม ไม่ใช้กับบอกเล่าแบบนี้. ถ้าจะใช้ yet ต้องเป็น `She hasn't finished her project yet.`"
+      }
+    ]
+  }
+]

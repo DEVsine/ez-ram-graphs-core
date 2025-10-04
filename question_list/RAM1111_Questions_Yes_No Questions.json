@@ -1,0 +1,321 @@
+[
+  {
+    "question": "___ she like coffee?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Does",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคคำถามแบบ **Yes/No** ใน Present Simple (ประธานเอกพจน์ he/she/it) ใช้ __Does + subject + base verb?__. กริยาหลักต้องเป็นรูปฐานไม่เติม -s: `Does she like coffee?` ตัวอย่างใช้งาน: `Does she play tennis on weekends?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **she** ต้องใช้ **Does** ไม่ใช่ **Do** ใน Present Simple. ถ้าเป็นพหูพจน์หรือ I/you/we/they ค่อยใช้ `Do + subject + base verb` เช่น `Do they like coffee?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกริยาหลักเป็นกริยาแท้ **like** ไม่ใช่กริยา **be**. โครงสร้างที่ถูกคือ `Does she like ...?` ไม่ใช่ `Is she like ...?` (ซึ่งผิด)."
+      },
+      {
+        "index": 4,
+        "text": "Did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Did** ใช้กับอดีต (Past Simple) แต่ประโยคนี้ไม่มีตัวบ่งบอกเวลาอดีต. ถ้าพูดถึงเมื่อวาน ให้ใช้ `Did she like the movie?` แต่ปัจจุบันต้องใช้ `Does she like coffee?`"
+      }
+    ]
+  },
+  {
+    "question": "___ they at home now?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Are",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคถามกับกริยา **be** ในปัจจุบันกับประธานพหูพจน์ใช้ __Are + subject + complement?__. ตัวอย่าง: `Are they at home now?` หรือ `Are they ready?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเมื่อมีกริยา **be** (am/is/are) เราไม่ใช้ **do-support**. โครงสร้างที่ถูกคือ `Are they ...?` ไม่ใช่ `Do they at home?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** ใช้กับประธานเอกพจน์ (he/she/it) แต่ที่นี่เป็น **they** ต้องใช้ `Are`. ตัวอย่างเปรียบเทียบ: `Is he at home?` vs `Are they at home?`"
+      },
+      {
+        "index": 4,
+        "text": "Were",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Were** เป็นรูปอดีตของ **are** ถามเรื่องปัจจุบันใช้ `Are`. ถ้าเป็นอดีต เช่นเมื่อคืน ค่อยใช้ `Were they at home last night?`"
+      }
+    ]
+  },
+  {
+    "question": "___ you watch the match last night?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Did",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะถามเหตุการณ์ในอดีต (มีคำว่า `last night`) ใช้โครงสร้าง Past Simple แบบ Yes/No: __Did + subject + base verb?__. ตัวอย่าง: `Did you watch the match last night?` หรือ `Did he call you yesterday?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do** ใช้กับปัจจุบัน แต่มีตัวบ่งชี้เวลาอดีต `last night`. ต้องใช้ `Did + base verb` เช่น `Did you watch ...?` ไม่ใช่ `Do you watched ...?`"
+      },
+      {
+        "index": 3,
+        "text": "Have",
+        "is_correct": false,
+        "answer_description": "ผิด สำหรับ Past Simple เราไม่ใช้ **Have** แบบนี้ และถ้าเป็น Present Perfect จะเป็น `Have you watched the match?` (ไม่มี `last night` เพราะเวลาเสร็จเจาะจง). ที่นี่ควรใช้ `Did you watch ...?`"
+      },
+      {
+        "index": 4,
+        "text": "Watched",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะตำแหน่งช่องว่างต้องเป็น **auxiliary** ไม่ใช่กริยาหลักรูป V2. โครงสร้างถามอดีตคือ `Did + subject + base verb` เช่น `Did you watch ...?`"
+      }
+    ]
+  },
+  {
+    "question": "___ he studying for the exam?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง นี่คือ Present Continuous ใช้โครงสร้างคำถาม __Is/Are + subject + V-ing?__. ตัวอย่างใช้งาน: `Is he studying for the exam?` หรือ `Is she working now?`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้างนี้มี **V-ing** แปลว่าใช้กับกริยา **be** ไม่ใช่ **do/does**. ถ้าจะถามนิสัยทั่วไปค่อยใช้ `Does he study every day?`"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **he** ต้องใช้ **Is** ไม่ใช่ **Are**. ตัวอย่างเปรียบเทียบ: `Is he studying?` vs `Are they studying?`"
+      },
+      {
+        "index": 4,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do** ใช้กับ Present Simple ไม่ใช่โครงสร้าง **be + V-ing**. รูปที่ถูกต้องคือ `Is he studying ...?`"
+      }
+    ]
+  },
+  {
+    "question": "___ you swim across the river?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Can",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นคำถาม Yes/No ที่มีกริยา **modal** ใช้ __Modal + subject + base verb?__. ตัวอย่าง: `Can you swim across the river?` หรือ `Can she drive?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเมื่อมีกริยา **modal (can, will, should, etc.)** ไม่ใช้ **do-support**. โครงสร้างที่ถูกคือ `Can you swim ...?` ไม่ใช่ `Do you can swim ...?`"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Are** ใช้กับกริยา **be** หรือ Present Continuous ไม่สอดคล้องกับกริยา modal. ต้องใช้ `Can + subject + base verb` เช่น `Can you swim?`"
+      },
+      {
+        "index": 4,
+        "text": "Did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Did** ใช้ถามอดีตทั่วไป ไม่เข้ากับความหมาย \"สามารถไหม\" ที่เป็น modal. ถ้าถามอดีตแบบความสามารถเฉพาะครั้งอาจใช้ `Were you able to ...?` แต่ที่นี่ควรใช้ `Can`"
+      }
+    ]
+  },
+  {
+    "question": "___ you got a pen?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Have",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง นี่เป็นรูปแบบ **have got** แบบอังกฤษ ใช้ถามด้วย __Have/Has + subject + got ...?__. ตัวอย่าง: `Have you got a pen?` หรือ `Has she got any siblings?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด ในโครงสร้าง **have got** ไม่ใช้ **do-support**. ถ้าจะใช้ **do** ต้องเป็นรูปอเมริกัน `Do you have a pen?` ไม่ใช่ `Do you got a pen?`"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่ไม่ใช่กริยา **be** หรือรูป **be + adjective/V-ing**. สิ่งที่ถูกคือ `Have you got ...?` สำหรับรูป have got."
+      },
+      {
+        "index": 4,
+        "text": "Got",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะช่องว่างต้องเป็น **auxiliary** ไม่ใช่กริยาหลัก `got`. โครงสร้างถูกต้องคือ `Have you got ...?`"
+      }
+    ]
+  },
+  {
+    "question": "Are you ready? — ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Yes, I am.",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำตอบสั้นแบบ Yes/No กับกริยา **be** ใช้รูป __Yes/No, + subject + be__. ตัวอย่าง: `Are you tired? — Yes, I am.` หรือ `Is he here? — No, he isn't.`"
+      },
+      {
+        "index": 2,
+        "text": "Yes, I do.",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำถามเริ่มด้วย **Are** (กริยา be) คำตอบต้องใช้ **be** ตาม ไม่ใช่ **do**. ถ้าคำถามเป็น `Do you like it?` ถึงจะตอบ `Yes, I do.` ได้"
+      },
+      {
+        "index": 3,
+        "text": "No, I don't.",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะแม้จะเป็นคำตอบ No/Yes แต่คำถามใช้ **be** ไม่ใช่ **do**. รูปที่ถูกต้องคือ `No, I'm not.` เมื่อตอบปฏิเสธกับ Are/Is/Am"
+      },
+      {
+        "index": 4,
+        "text": "Yes, I'm.",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปย่อ `I'm` ไม่ใช้เดี่ยวๆ ปิดท้ายใน short answer. ต้องใช้รูปเต็ม `Yes, I am.` เพื่อความถูกต้อง"
+      }
+    ]
+  },
+  {
+    "question": "___ the train leave at 7 a.m.?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Does",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตารางเวลา/กำหนดการใช้ Present Simple โดยถามด้วย __Does + subject + base verb?__. ตัวอย่าง: `Does the train leave at 7 a.m.?` หรือ `Does the shop open on Sundays?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **the train** (เอกพจน์) จึงต้องใช้ **Does** ไม่ใช่ **Do**. ถ้าเป็นพหูพจน์ เช่น `Do the trains leave at 7?` ถึงจะใช้ Do"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกริยาหลักคือ **leave** ไม่ใช่ **be**. โครงสร้างที่ถูกต้องคือ `Does the train leave ...?` ไม่ใช่ `Is the train leave ...?`"
+      },
+      {
+        "index": 4,
+        "text": "Will",
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะ เพราะพูดถึงตารางเวลาที่เป็นข้อเท็จจริงปัจจุบัน ใช้ Present Simple จะธรรมชาติกว่า. `Will the train leave ...?` ใช้ได้ในบางบริบท แต่รูปมาตรฐานคือ `Does the train leave ...?`"
+      }
+    ]
+  },
+  {
+    "question": "___ she have a car?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Does",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใน Present Simple แบบอเมริกันที่ใช้กริยา **have** (ไม่มี got) ให้ถามด้วย __Does + subject + base verb__. ตัวอย่าง: `Does she have a car?` หรือ `Does he have time?`"
+      },
+      {
+        "index": 2,
+        "text": "Has",
+        "is_correct": false,
+        "answer_description": "ผิด เราไม่ใช้ `Has she have ...?` เพราะซ้อนกริยา. ถ้าจะใช้ `has` ต้องใช้โครงสร้าง `Has she got a car?` (แบบ have got) ไม่ใช่กับ `have` ตรงๆ"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** ใช้กับกริยา **be** หรือคำคุณศัพท์ ไม่เข้ากับกริยาแท้ `have`. รูปที่ถูกคือ `Does she have ...?`"
+      },
+      {
+        "index": 4,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **she** ต้องใช้ **Does** สำหรับเอกพจน์บุรุษที่สาม. ถ้าเป็น `they` ถึงจะใช้ `Do they have a car?`"
+      }
+    ]
+  },
+  {
+    "question": "___ there any questions?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Are",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **there + be** ใช้ถามด้วย __Is/Are + there + noun?__ และเลือก be ให้สอดคล้องกับคำนาม. เพราะ `questions` เป็นพหูพจน์ จึงใช้ `Are there ...?` เช่น `Are there any seats?`"
+      },
+      {
+        "index": 2,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำนามเป็นพหูพจน์ `questions` จึงต้องใช้ `Are there ...?` ไม่ใช่ `Is there ...?`. `Is there any question?` ใช้ได้เมื่อเป็นเอกพจน์"
+      },
+      {
+        "index": 3,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด โครงสร้าง **there is/are** ไม่ใช้ **do-support**. ต้องใช้ `Is/Are there ...?` เช่น `Are there any problems?`"
+      },
+      {
+        "index": 4,
+        "text": "Have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคบอกการมีอยู่ใช้ **there + be** ไม่ใช้ **have**. รูปที่ถูกคือ `Are there any questions?`"
+      }
+    ]
+  },
+  {
+    "question": "___ we meet at 6 or 7?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Shall",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อชวนตัดสินใจ/เสนอแนะ ใช้ __Shall + we + base verb?__ ในบริบทสุภาพ. ตัวอย่าง: `Shall we meet at 6 or 7?` หรือ `Shall we start now?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำถามเชิงข้อเสนอแนะไม่ใช้ **do-support**. ใช้ modal เช่น `Shall we ...?` หรือ `Should we ...?` จะเหมาะกว่า"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Are** ใช้กับกริยา **be** ไม่เข้ากับกริยาแท้ `meet`. รูปที่ถูกสำหรับข้อเสนอคือ `Shall we meet ...?`"
+      },
+      {
+        "index": 4,
+        "text": "Will",
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะ เพราะ `Will we meet ...?` ฟังเหมือนถามคาดการณ์ ไม่ใช่เชิญชวน/เสนอ. ถ้าต้องการชวนใช้ `Shall we meet ...?` หรือไม่เป็นทางการใช้ `Should we meet ...?`"
+      }
+    ]
+  }
+]

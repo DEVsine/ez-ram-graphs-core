@@ -1,0 +1,292 @@
+[
+  {
+    "question": "I bought ___ umbrella because it was raining.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "a",
+        "is_correct": false,
+        "answer_description": "ผิดนะ เพราะคำนำหน้า **a** ใช้กับเสียงพยัญชนะ แต่คำว่า `umbrella` ออกเสียงขึ้นต้นเป็นสระ /ʌ/ จึงไม่เข้ากัน เช่น `a umbrella` ฟังแปลกและผิดไวยากรณ์"
+      },
+      {
+        "index": 2,
+        "text": "an",
+        "is_correct": true,
+        "answer_description": "ถูกต้องจ้า เพราะ __an + คำที่ขึ้นต้นด้วยเสียงสระ__ เช่น `umbrella` (/ʌmˈbrɛlə/). ตัวอย่างประโยคใช้จริง: `I bought an umbrella because it was raining.` เห็นมั้ยว่าใช้ **an** ลื่นหูและถูกหลักกว่า"
+      },
+      {
+        "index": 3,
+        "text": "the",
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะ **the** ใช้กับของที่ผู้พูดและผู้ฟังรู้ชัดเจาะจงอยู่แล้ว แต่ที่นี่พูดถึงร่ม *อันหนึ่งที่เพิ่งซื้อแบบไม่เฉพาะเจาะจง* ควรใช้ `an umbrella` แทน เช่น `I need an umbrella.`"
+      },
+      {
+        "index": 4,
+        "text": "— (no article)",
+        "is_correct": false,
+        "answer_description": "ผิดจ้า คำนามนับได้เอกพจน์อย่าง `umbrella` ต้องมี article เสมอ จะปล่อยเว้นว่างไม่ได้ เช่น `I bought umbrella` ผิด ต้องเป็น `an umbrella` หรือ `the umbrella` ตามบริบท"
+      }
+    ]
+  },
+  {
+    "question": "___ sun rises in the east.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "The",
+        "is_correct": true,
+        "answer_description": "ถูกต้องเลย เพราะ __the + สิ่งที่มีเอกลักษณ์หนึ่งเดียว (unique nouns)__ เช่น `the sun`, `the moon`. ตัวอย่างใช้จริง: `The sun rises in the east.` ใช้ **the** เพื่อชี้เฉพาะสิ่งที่ทุกคนรู้ว่าอันไหน"
+      },
+      {
+        "index": 2,
+        "text": "A",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่จ้า **a** ใช้กับสิ่งที่ไม่เฉพาะหรือหนึ่งในหลายๆ อัน แต่ `sun` มีดวงเดียวสำหรับโลกเรา จึงไม่ใช่ `a sun`"
+      },
+      {
+        "index": 3,
+        "text": "An",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะ `sun` ขึ้นต้นด้วยเสียงพยัญชนะ /s/ และที่สำคัญ เรากำลังพูดถึงสิ่งที่เฉพาะเจาะจงและมีหนึ่งเดียว จึงต้องใช้ `the sun`"
+      },
+      {
+        "index": 4,
+        "text": "— (no article)",
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก เพราะคำนามที่มีเอกลักษณ์อย่าง `sun` ต้องใช้ **the** เพื่อระบุความเฉพาะ เช่น `The sun is bright.` ไม่ใช้แบบไม่มี article"
+      }
+    ]
+  },
+  {
+    "question": "She is ___ engineer at a tech company.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "an",
+        "is_correct": true,
+        "answer_description": "เยี่ยมมาก! ใช้ __an + อาชีพที่ขึ้นต้นด้วยเสียงสระ__ เช่น `an engineer`, `an artist`. ตัวอย่าง: `She is an engineer at a tech company.` ตรงตามแพตเทิร์นการบอกอาชีพ"
+      },
+      {
+        "index": 2,
+        "text": "a",
+        "is_correct": false,
+        "answer_description": "เกือบถูกแต่ไม่ใช่ เพราะ `engineer` ขึ้นต้นด้วยเสียงสระ /ɛ/ ต้องใช้ `an`, ไม่ใช่ `a engineer`"
+      },
+      {
+        "index": 3,
+        "text": "the",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่ค่ะ **the** จะเน้นความเฉพาะเจาะจง (คนที่เรารู้ว่าเป็นคนไหน) แต่ที่นี่แค่บอกอาชีพทั่วไป จึงใช้ `an engineer`"
+      },
+      {
+        "index": 4,
+        "text": "— (no article)",
+        "is_correct": false,
+        "answer_description": "ผิดนะ คำนามนับได้เอกพจน์อย่าง `engineer` ต้องการ article เสมอ จะเว้นว่างไม่ได้ ต้องเป็น `an engineer` หรือ `the engineer` ตามบริบท"
+      }
+    ]
+  },
+  {
+    "question": "We visited ___ Louvre when we were in Paris.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง! ชื่อสถานที่บางแห่งต้องใช้ __the + ชื่อเฉพาะ__ เช่น `the Louvre`, `the British Museum`. ตัวอย่าง: `We visited the Louvre when we were in Paris.` เพราะเป็นสถานที่เฉพาะที่รู้จักทั่วไป"
+      },
+      {
+        "index": 2,
+        "text": "a",
+        "is_correct": false,
+        "answer_description": "ผิดครับ เพราะ `Louvre` เป็นชื่อเฉพาะ (พิพิธภัณฑ์) ไม่ใช่หนึ่งในหลายๆ อันแบบไม่เฉพาะ จึงไม่ใช้ `a Louvre`"
+      },
+      {
+        "index": 3,
+        "text": "an",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่ เพราะแม้จะขึ้นต้นด้วยเสียงสระก็ไม่ได้ ใช้ `an` กับคำนามทั่วไปไม่ใช่ชื่อเฉพาะแบบนี้ เราต้องใช้ `the Louvre`"
+      },
+      {
+        "index": 4,
+        "text": "— (no article)",
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก ชื่อสถานที่ประเภทพิพิธภัณฑ์นี้ต้องมี **the** นำหน้า เช่น `the Louvre`, `the Met`. ไม่ใช้แบบไม่มี article"
+      }
+    ]
+  },
+  {
+    "question": "I go to ___ school by bus every day.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "— (no article)",
+        "is_correct": true,
+        "answer_description": "ถูกจ้า เมื่อพูดถึงสถานศึกษาในความหมาย **สถาบันโดยหน้าที่** ใช้ __no article + school/college/university__ เช่น `go to school`, `at school`. ตัวอย่าง: `I go to school by bus every day.` ถ้าระบุโรงเรียนเฉพาะค่อยใช้ `the school`"
+      },
+      {
+        "index": 2,
+        "text": "the",
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะ `the` ใช้เมื่อหมายถึงโรงเรียนเฉพาะ เช่น `the school on Maple Street`. ที่นี่พูดถึง *ไปโรงเรียน* ในฐานะสถาบัน จึงใช้ไม่มี article"
+      },
+      {
+        "index": 3,
+        "text": "a",
+        "is_correct": false,
+        "answer_description": "ไม่ถูกนะ คำว่า `school` ในความหมายสถาบันทั่วไปไม่ใช้ `a` เช่น `go to school` ไม่ใช่ `go to a school` (ยกเว้นเน้นว่าไปโรงเรียนหนึ่งใดแบบสุ่ม)"
+      },
+      {
+        "index": 4,
+        "text": "an",
+        "is_correct": false,
+        "answer_description": "ผิดด้วยเหตุผลเดียวกับ `a` เลยจ้า เมื่อหมายถึงสถาบันทั่วไปต้องใช้แบบไม่มี article: `go to school`"
+      }
+    ]
+  },
+  {
+    "question": "He plays ___ guitar very well.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the",
+        "is_correct": true,
+        "answer_description": "ใช่เลย! เครื่องดนตรีใช้ __the + ชื่อเครื่องดนตรี__ เช่น `the guitar`, `the piano`. ตัวอย่าง: `He plays the guitar very well.` เป็นแพตเทิร์นมาตรฐานเวลาเล่าว่าเล่นเครื่องดนตรีไหน"
+      },
+      {
+        "index": 2,
+        "text": "a",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่ครับ แม้จะดูเหมือนนับได้ แต่กับเครื่องดนตรีในโครงสร้างนี้เราใช้ `the` ไม่ใช่ `a` เช่นควรพูด `play the piano` ไม่ใช่ `play a piano` ในความหมายทั่วไป"
+      },
+      {
+        "index": 3,
+        "text": "an",
+        "is_correct": false,
+        "answer_description": "ผิดด้วยเหตุผลเดียวกับ `a` และอีกอย่าง `guitar` ขึ้นต้นด้วยเสียงพยัญชนะ /g/ จึงยิ่งไม่เข้ากับ `an`"
+      },
+      {
+        "index": 4,
+        "text": "— (no article)",
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก เพราะรูปที่เป็นธรรมชาติคือ `play the guitar/piano/violin` ต้องมี `the` นำหน้าเครื่องดนตรี"
+      }
+    ]
+  },
+  {
+    "question": "___ water in this bottle is cold.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "The",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะอ้างถึงน้ำที่ **เฉพาะเจาะจง** ในขวดนี้ ใช้ __the + นามที่ผู้ฟังรู้ว่าอันไหน__ เช่น `the water in this bottle`. ตัวอย่าง: `The water in this bottle is cold.`"
+      },
+      {
+        "index": 2,
+        "text": "A",
+        "is_correct": false,
+        "answer_description": "ผิดจ้า `water` เป็นนามนับไม่ได้ (uncountable) จึงไม่ใช้ `a`. และเรากำลังชี้เฉพาะน้ำในขวดนี้ ควรใช้ `the water`"
+      },
+      {
+        "index": 3,
+        "text": "An",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่ เพราะ `an` ใช้กับคำนามนับได้เอกพจน์ที่ขึ้นต้นเสียงสระ ซึ่ง `water` ไม่เข้าเงื่อนไข และบริบทก็เป็นของเฉพาะ ควรใช้ `the`"
+      },
+      {
+        "index": 4,
+        "text": "— (no article)",
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก เพราะเราพูดถึงน้ำที่เฉพาะเจาะจง (ในขวดนี้) ต้องใส่ `the`: `The water in this bottle is cold.`"
+      }
+    ]
+  },
+  {
+    "question": "We saw ___ elephants in the national park.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "— (no article)",
+        "is_correct": true,
+        "answer_description": "ถูกแล้ว เมื่อพูดถึงคำนามพหูพจน์แบบไม่เจาะจง ใช้ __no article + plural noun__ เช่น `elephants`, `birds`. ตัวอย่าง: `We saw elephants in the national park.` สื่อว่าเห็นช้างบางตัว แต่ไม่ได้ระบุว่าตัวไหน"
+      },
+      {
+        "index": 2,
+        "text": "the",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `the elephants` จะหมายถึงช้างที่ผู้พูดและผู้ฟังรู้ชัดเจาะจงว่ากลุ่มไหน แต่ที่นี่เป็นการเล่าแบบทั่วไปไม่เฉพาะ"
+      },
+      {
+        "index": 3,
+        "text": "a",
+        "is_correct": false,
+        "answer_description": "ไม่ถูกจ้า `a` ใช้กับคำนามเอกพจน์เท่านั้น แต่ `elephants` เป็นพหูพจน์ จึงใช้ไม่ได้"
+      },
+      {
+        "index": 4,
+        "text": "an",
+        "is_correct": false,
+        "answer_description": "ผิดด้วยเหตุผลเดียวกับ `a` และ `an` ใช้กับเอกพจน์ขึ้นต้นเสียงสระเท่านั้น ไม่ใช้กับพหูพจน์อย่าง `elephants`"
+      }
+    ]
+  },
+  {
+    "question": "She made ___ best cake I have ever tasted.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the",
+        "is_correct": true,
+        "answer_description": "ชัวร์เลย เพราะขั้นสุดยอดใช้ __the + superlative adjective__ เช่น `the best`, `the most interesting`. ตัวอย่าง: `She made the best cake I have ever tasted.` ใช้ `the` เพื่อเน้นว่าสุดกว่าอื่นทั้งหมด"
+      },
+      {
+        "index": 2,
+        "text": "a",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่ เพราะกับคำคุณศัพท์ขั้นสุดยอด (*superlative*) ต้องใช้ `the` เสมอ เช่น `the best`, ไม่ใช่ `a best`"
+      },
+      {
+        "index": 3,
+        "text": "an",
+        "is_correct": false,
+        "answer_description": "ผิดด้วยเหตุผลเดียวกับ `a` เลย ขั้นสุดยอดต้องคู่กับ `the` เท่านั้น เช่น `the most beautiful`"
+      },
+      {
+        "index": 4,
+        "text": "— (no article)",
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก เพราะโครงสร้างขั้นสุดยอดต้องมี `the` นำหน้าเสมอ เช่น `the tallest`, `the best`"
+      }
+    ]
+  },
+  {
+    "question": "I like ___ coffee in the morning.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "— (no article)",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะพูดถึงนามไม่ได้นับได้ในภาพรวม ใช้ __no article + uncountable noun__ เช่น `coffee`, `tea`, `water`. ตัวอย่าง: `I like coffee in the morning.` ถ้าอยากระบุชนิดค่อยเติมคำอื่น เช่น `I like the coffee here.`"
+      },
+      {
+        "index": 2,
+        "text": "a",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่จ้า `coffee` เป็นนามนับไม่ได้ จึงไม่ใช้ `a` เว้นแต่พูดเป็นหน่วยเสิร์ฟ เช่น `a coffee` หมายถึง *กาแฟหนึ่งแก้ว* ในบริบทร้านกาแฟ ซึ่งที่นี่ไม่ได้สื่อแบบนั้น"
+      },
+      {
+        "index": 3,
+        "text": "an",
+        "is_correct": false,
+        "answer_description": "ผิดด้วยเหตุผลเดียวกับ `a` และ `an` ใช้กับนามนับได้เอกพจน์เท่านั้น `coffee` เป็นนามไม่ได้นับได้"
+      },
+      {
+        "index": 4,
+        "text": "the",
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก เพราะ `the coffee` จะชี้เฉพาะกาแฟที่พูดถึงก่อนหน้า/ที่เจาะจง แต่ประโยคนี้พูดถึงกาแฟทั่วไปในตอนเช้า จึงใช้ไม่มี article"
+      }
+    ]
+  }
+]

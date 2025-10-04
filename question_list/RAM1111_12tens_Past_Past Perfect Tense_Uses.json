@@ -1,0 +1,292 @@
+[
+  {
+    "question": "By the time we arrived, the movie ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "started",
+        "is_correct": false,
+        "answer_description": "ผิดนะ เพราะ **Past Simple (started)** ไม่ได้เน้นว่าเหตุการณ์เกิด “ก่อนหน้า” เหตุการณ์อีกอันในอดีตอย่างชัดเจน ประโยคนี้ต้องการสื่อว่า ‘ตอนที่เรามาถึง หนังเริ่มไปแล้ว’ ควรใช้ **Past Perfect** เช่น `the movie had started` เพื่อบอกความก่อนหลังชัดๆ"
+      },
+      {
+        "index": 2,
+        "text": "had started",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Past Perfect** เพื่อเน้นว่าเหตุการณ์นี้เกิดขึ้นก่อนอีกเหตุการณ์ในอดีต โครงสร้างคือ __had + V3__ เช่น: `By the time we arrived, the movie had started.` ตัวอย่างใช้จริง: `By the time I got home, it had rained.` สื่อว่าฝนตกเสร็จก่อนฉันถึงบ้าน"
+      },
+      {
+        "index": 3,
+        "text": "has started",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Present Perfect** (has started) ใช้กับปัจจุบันหรือช่วงเวลาที่เชื่อมกับปัจจุบัน แต่ในประโยคนี้ทุกอย่างเกิดขึ้น “ในอดีต” และมีจุดอ้างอิงชัดเจน (`arrived`) จึงควรใช้ **Past Perfect** แทน เช่น `had started`"
+      },
+      {
+        "index": 4,
+        "text": "was starting",
+        "is_correct": false,
+        "answer_description": "ยังไม่เป๊ะ เพราะ **Past Continuous (was starting)** เน้น “กำลังดำเนินอยู่” ในอดีต แต่ที่ต้องการคือเน้นว่ามัน “เกิดเสร็จก่อน” เรามาถึง ดังนั้นใช้ `had started` จะชัดว่าเหตุการณ์หนึ่งเกิดขึ้นก่อนอีกเหตุการณ์"
+      }
+    ]
+  },
+  {
+    "question": "When I got to the station, the train ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "left",
+        "is_correct": false,
+        "answer_description": "ไม่ตรง เพราะ **Past Simple (left)** บอกแค่ว่าออกไปในอดีต แต่ไม่ได้ชี้ชัดว่ามันเกิด “ก่อน” ฉันไปถึงสถานี เพื่อความชัดเรื่องลำดับเวลา ควรใช้ **Past Perfect** เช่น `had left`"
+      },
+      {
+        "index": 2,
+        "text": "had left",
+        "is_correct": true,
+        "answer_description": "ใช่เลย ใช้ **Past Perfect** เพื่อบอกว่าเหตุการณ์นี้เกิดก่อนอีกเหตุการณ์ในอดีต โครงสร้างคือ __had + V3__ เช่น `When I got to the station, the train had left.` ตัวอย่างเพิ่ม: `When she arrived, the guests had already left.`"
+      },
+      {
+        "index": 3,
+        "text": "has left",
+        "is_correct": false,
+        "answer_description": "ไม่ถูก เพราะ **Present Perfect** ใช้กับปัจจุบัน/ช่วงเวลาที่ยังต่อเนื่องถึงปัจจุบัน แต่ประโยคนี้มีจุดอ้างอิงในอดีตชัดเจน (`got to the station`) จึงควรใช้ **Past Perfect** `had left`"
+      },
+      {
+        "index": 4,
+        "text": "was leaving",
+        "is_correct": false,
+        "answer_description": "รูป **Past Continuous** (`was leaving`) เน้นกำลังเกิดในอดีต ไม่ได้สื่อว่า “เกิดเสร็จไปแล้วก่อนหน้า” ฉันไปถึง ถ้าต้องการสื่อว่ารถไฟออกไปแล้ว ต้องใช้ `had left`"
+      }
+    ]
+  },
+  {
+    "question": "She was tired because she ___ all night.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "studied",
+        "is_correct": false,
+        "answer_description": "รูป **Past Simple (studied)** บอกเหตุการณ์ในอดีต แต่ไม่เน้นความก่อน-หลังกับอีกเหตุการณ์ในอดีต (เธอเหนื่อย) เพื่อชี้ว่าการอ่านเกิดก่อนและส่งผลให้เหนื่อย ควรใช้ **Past Perfect**"
+      },
+      {
+        "index": 2,
+        "text": "had studied",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะใช้ **Past Perfect** เพื่อบอกเหตุที่เกิด “ก่อน” สภาพในอดีต (เธอเหนื่อย) โครงสร้างคือ __had + V3__ เช่น `She was tired because she had studied all night.` ตัวอย่างอีก: `He failed the test because he hadn’t studied.`"
+      },
+      {
+        "index": 3,
+        "text": "was studying",
+        "is_correct": false,
+        "answer_description": "นี่คือ **Past Continuous** เน้นกำลังทำอยู่ในช่วงนั้น แต่เราอยากสื่อว่ามัน “เสร็จไปแล้วก่อนหน้า” และเป็นสาเหตุของความเหนื่อย จึงใช้ `had studied` จะชัดเจนกว่า"
+      },
+      {
+        "index": 4,
+        "text": "has studied",
+        "is_correct": false,
+        "answer_description": "ผิดเวลา เพราะ **Present Perfect** ผูกกับปัจจุบัน ในขณะที่ประโยคนี้เล่าเหตุการณ์ในอดีตสองอย่าง (อ่านทั้งคืน → เหนื่อย) ต้องใช้ **Past Perfect** เพื่อโชว์ความก่อนหลัง: `had studied`"
+      }
+    ]
+  },
+  {
+    "question": "After I ___ dinner, I washed the dishes.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "cook",
+        "is_correct": false,
+        "answer_description": "ผิดไวยากรณ์ เพราะ **cook** เป็นรูป **base form** ไม่ตรงกับอดีต และไม่สื่อความก่อนหลังในอดีต ควรใช้ **Past Perfect** เพื่อบอกว่า “ทำอาหารเสร็จก่อน” ล้างจาน"
+      },
+      {
+        "index": 2,
+        "text": "had cooked",
+        "is_correct": true,
+        "answer_description": "ถูกเลย ใช้ **Past Perfect** หลังคำว่า **After** เพื่อบอกเหตุการณ์ที่เสร็จก่อนอีกเหตุการณ์ในอดีต โครงสร้าง __had + V3__ เช่น `After I had cooked dinner, I washed the dishes.` ตัวอย่างอีก: `After she had finished, she left.`"
+      },
+      {
+        "index": 3,
+        "text": "have cooked",
+        "is_correct": false,
+        "answer_description": "ไม่ถูก เพราะ **Present Perfect (have cooked)** ใช้กับปัจจุบัน แต่ประโยคนี้พูดถึงสองเหตุการณ์ในอดีตที่มีลำดับชัดเจน ต้องใช้ **Past Perfect** สำหรับเหตุการณ์ที่เกิดก่อน"
+      },
+      {
+        "index": 4,
+        "text": "was cooking",
+        "is_correct": false,
+        "answer_description": "นี่คือ **Past Continuous** เน้นกำลังทำอยู่ ไม่ได้เน้นว่า “เสร็จแล้วก่อนหน้า” การล้างจาน โครงสร้างที่ชัดกว่าคือ `had cooked` เพื่อบอกความก่อนหลัง"
+      }
+    ]
+  },
+  {
+    "question": "He ___ never seen snow before his trip to Japan.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "never saw",
+        "is_correct": false,
+        "answer_description": "แม้จะเป็นอดีต แต่ **Past Simple (never saw)** ไม่ได้ชัดเจนว่าเกิด “ก่อน” เหตุการณ์อีกอันในอดีต (ทริปญี่ปุ่น) การใช้ **Past Perfect** จะบอกชัดว่าไม่เคยเห็นมาก่อนจุดเวลานั้น"
+      },
+      {
+        "index": 2,
+        "text": "had never seen",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Past Perfect** เพื่อบอกประสบการณ์ที่ “เกิดขึ้นก่อนจุดหนึ่งในอดีต” โครงสร้าง __had + never + V3__ เช่น `He had never seen snow before his trip to Japan.` ตัวอย่าง: `She had never tried sushi before last year.`"
+      },
+      {
+        "index": 3,
+        "text": "has never seen",
+        "is_correct": false,
+        "answer_description": "ผิดเวลา เพราะ **Present Perfect** ใช้กับปัจจุบัน/จนถึงตอนนี้ แต่ประโยคมีจุดอ้างอิงในอดีตชัด (`before his trip`) จึงควรใช้ **Past Perfect** `had never seen`"
+      },
+      {
+        "index": 4,
+        "text": "was never seeing",
+        "is_correct": false,
+        "answer_description": "รูปนี้ไม่ธรรมชาติ เพราะ **Past Continuous** ใช้กับการกระทำที่กำลังเกิด ไม่ใช้บอกประสบการณ์แบบ “ไม่เคย” ก่อนเวลาใดเวลาหนึ่ง ควรใช้ `had never seen`"
+      }
+    ]
+  },
+  {
+    "question": "We couldn't get in because we ___ the tickets at home.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "forgot",
+        "is_correct": false,
+        "answer_description": "แม้จะเป็นอดีต แต่ **Past Simple (forgot)** ไม่ชี้ชัดว่า ‘ลืม’ เกิดก่อน ‘เข้าไม่ได้’ เพื่อเน้นสาเหตุที่เกิดก่อนอีกเหตุการณ์ในอดีต ใช้ **Past Perfect** จะตรงกว่า"
+      },
+      {
+        "index": 2,
+        "text": "had forgotten",
+        "is_correct": true,
+        "answer_description": "ใช่เลย ใช้ **Past Perfect** เพื่อบอกสาเหตุที่เกิดก่อนเหตุการณ์อีกอย่างในอดีต โครงสร้างคือ __had + V3__ เช่น `We couldn't get in because we had forgotten the tickets at home.` ตัวอย่าง: `He failed because he had forgotten to study.`"
+      },
+      {
+        "index": 3,
+        "text": "have forgotten",
+        "is_correct": false,
+        "answer_description": "ไม่ถูก เพราะ **Present Perfect** เชื่อมกับปัจจุบัน แต่ประโยคนี้เล่าเรื่องอดีตทั้งหมด (เข้าไม่ได้ เพราะลืมไว้ที่บ้าน) จึงต้องใช้ **Past Perfect**"
+      },
+      {
+        "index": 4,
+        "text": "were forgetting",
+        "is_correct": false,
+        "answer_description": "รูป **Past Continuous** (`were forgetting`) ไม่ค่อยใช้กับกริยาแสดงสภาวะอย่าง ‘ลืม’ และไม่สื่อว่าเหตุการณ์เกิดเสร็จ “ก่อน” อย่างชัด ควรใช้ `had forgotten`"
+      }
+    ]
+  },
+  {
+    "question": "By midnight, she ___ her report.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "finished",
+        "is_correct": false,
+        "answer_description": "รูป **Past Simple** ไม่ได้เน้นว่า ‘เสร็จก่อน’ จุดเวลาในอดีต (เที่ยงคืน) ถ้าต้องการชี้ว่าถึงเวลาเที่ยงคืน ผลงานเสร็จแล้ว ให้ใช้ **Past Perfect**"
+      },
+      {
+        "index": 2,
+        "text": "had finished",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Past Perfect** กับวลีเวลาอย่าง **By + past time** เพื่อชี้ว่างานเสร็จก่อนเวลานั้น โครงสร้าง __had + V3__ เช่น `By midnight, she had finished her report.` ตัวอย่างเพิ่ม: `By 5 p.m., they had left.`"
+      },
+      {
+        "index": 3,
+        "text": "has finished",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Present Perfect** ไม่ตรงบริบทอดีตที่มีจุดเวลาแน่นอน (`By midnight`) เราต้องใช้ **Past Perfect** เพื่อบอกว่าเสร็จแล้วก่อนเวลานั้น"
+      },
+      {
+        "index": 4,
+        "text": "was finishing",
+        "is_correct": false,
+        "answer_description": "**Past Continuous** เน้น “กำลังทำอยู่” ณ ช่วงเวลานั้น ซึ่งต่างจากการบอกว่า ‘ทำเสร็จแล้วก่อนถึงเที่ยงคืน’ ดังนั้น `had finished` จึงเหมาะกว่า"
+      }
+    ]
+  },
+  {
+    "question": "When they called me, I ___ already ___ dinner.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had already eaten",
+        "is_correct": true,
+        "answer_description": "ถูกต้องมาก ใช้ **Past Perfect** เพื่อบอกว่า ‘กินเสร็จแล้ว’ ก่อนพวกเขาโทรมา โครงสร้างคือ __had + already + V3__ เช่น `I had already eaten.` ตัวอย่างเต็ม: `When they called me, I had already eaten dinner.`"
+      },
+      {
+        "index": 2,
+        "text": "already had eaten",
+        "is_correct": false,
+        "answer_description": "แม้จะเห็นคำว่า **had + eaten** แต่ตำแหน่ง **already** ที่วางนำหน้าช่วยกริยาหลักดูไม่เป็นธรรมชาติ รูปที่ลื่นกว่าและใช้บ่อยคือ `had already eaten` เช่นใน `I had already finished.`"
+      },
+      {
+        "index": 3,
+        "text": "have already eaten",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Perfect** ซึ่งเชื่อมกับปัจจุบัน แต่ประโยคนี้มีกรอบเวลาในอดีตชัด (`When they called me`) จึงควรใช้ **Past Perfect**"
+      },
+      {
+        "index": 4,
+        "text": "was already eating",
+        "is_correct": false,
+        "answer_description": "นี่คือ **Past Continuous** สื่อว่ากำลังกินอยู่ตอนเขาโทรมา ซึ่งความหมายต่างจาก ‘กินเสร็จไปแล้วก่อนโทร’ ถ้าต้องการความหมายว่าเสร็จก่อน ให้ใช้ `had already eaten`"
+      }
+    ]
+  },
+  {
+    "question": "The match was canceled because it ___ for hours.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "rained",
+        "is_correct": false,
+        "answer_description": "รูป **Past Simple** ไม่เน้นว่าฝนตกยาวต่อเนื่องมาก่อนและเกิดก่อนการยกเลิก เพื่อชี้สาเหตุที่เกิดก่อนและเสร็จไปแล้ว ควรใช้ **Past Perfect**"
+      },
+      {
+        "index": 2,
+        "text": "had rained",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Past Perfect** เพื่อบอกว่าสาเหตุ (ฝนตกเป็นชั่วโมง) เกิดก่อนผล (การแข่งขันถูกยกเลิก) โครงสร้าง __had + V3__ เช่น `The match was canceled because it had rained for hours.` ตัวอย่างอีก: `The streets were wet because it had rained.`"
+      },
+      {
+        "index": 3,
+        "text": "has rained",
+        "is_correct": false,
+        "answer_description": "ไม่ถูก เพราะ **Present Perfect** เชื่อมกับปัจจุบัน แต่เหตุการณ์ทั้งหมดอยู่ในอดีตและมีผลตามมาแล้ว (ถูกยกเลิก) จึงต้องใช้ **Past Perfect**"
+      },
+      {
+        "index": 4,
+        "text": "was raining",
+        "is_correct": false,
+        "answer_description": "ถ้าใช้ **Past Continuous** จะสื่อว่าฝนกำลังตกอยู่ในช่วงนั้น ซึ่งต่างจากการบอกว่า ‘ตกมาแล้วเป็นชั่วโมงก่อนจะยกเลิก’ ถ้าจะเน้นความก่อนหลังและผลลัพธ์ ใช้ `had rained`"
+      }
+    ]
+  },
+  {
+    "question": "I didn't recognize her at first; we ___ each other since high school.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "didn't see",
+        "is_correct": false,
+        "answer_description": "รูป **Past Simple** ไม่แสดงช่วงเวลาต่อเนื่องตั้งแต่จุดหนึ่งในอดีตจนถึงอีกจุดหนึ่งในอดีต ถ้าจะบอกว่า ‘ไม่เจอกันตั้งแต่มัธยม’ ก่อนถึงจุดที่ฉันไม่จำได้ ควรใช้ **Past Perfect**"
+      },
+      {
+        "index": 2,
+        "text": "hadn't seen",
+        "is_correct": true,
+        "answer_description": "ตรงเป๊ะ ใช้ **Past Perfect** กับ **since + past point** เพื่อบอกช่วงเวลาที่ยาวต่อเนื่องถึงจุดหนึ่งในอดีต โครงสร้างคือ __had + not + V3__ เช่น `we hadn’t seen each other since high school.` ตัวอย่าง: `I was nervous because I hadn’t seen him in years.`"
+      },
+      {
+        "index": 3,
+        "text": "haven't seen",
+        "is_correct": false,
+        "answer_description": "ผิดเวลา เพราะ **Present Perfect** เชื่อมกับปัจจุบัน แต่ประโยคนี้เล่าถึงอดีต (ตอนแรกฉันจำไม่ได้) จึงต้องใช้ **Past Perfect** `hadn't seen` เพื่อชี้ว่ามันเกิดก่อนจุดนั้น"
+      },
+      {
+        "index": 4,
+        "text": "weren't seeing",
+        "is_correct": false,
+        "answer_description": "รูป **Past Continuous** ไม่เหมาะกับความหมาย ‘ไม่เจอกันตั้งแต่…’ ซึ่งเป็นสภาวะยาวต่อเนื่องและเกิดก่อนจุดหนึ่งในอดีต ใช้ `hadn't seen` จะสื่อความหมายได้ชัดและถูกหลักกว่า"
+      }
+    ]
+  }
+]

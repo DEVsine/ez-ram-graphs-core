@@ -1,0 +1,321 @@
+[
+  {
+    "question": "The reports ___ every Friday.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is checked",
+        "is_correct": false,
+        "answer_description": "ผิดเรื่อง **เอกพจน์-พหูพจน์** เพราะประธานคือ `The reports` (พหูพจน์) ต้องใช้ `are` ไม่ใช่ `is` เช่น `The reports are checked every Friday.` โครงสร้างที่ถูกควรเป็น `be (are) + V3 (checked)`"
+      },
+      {
+        "index": 2,
+        "text": "are checked",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นประโยค **Present Simple Passive** ใช้เมื่อพูดถึงกิจวัตร/สิ่งที่ทำเป็นประจำ โดยโครงสร้างคือ: **Subject (plural) + are + V3**. โครงสร้างที่ใช้คือ: **are + checked**. ตัวอย่าง: `The reports are checked every Friday.` แปลว่า รายงานถูกตรวจทุกวันศุกร์"
+      },
+      {
+        "index": 3,
+        "text": "are checking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous Active** (`are + V-ing`) ไม่ใช่ passive และยังไม่มีกรรมตามหลัง เช่น `They are checking the reports.` จะเป็นประโยคที่ถูกในรูป active มากกว่า"
+      },
+      {
+        "index": 4,
+        "text": "were checked",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น **Past Simple Passive** (`were + V3`) ซึ่งสื่อถึงอดีตครั้งเดียว ไม่ใช่กิจวัตรปัจจุบัน ถ้าจะพูดเรื่องประจำปัจจุบันควรใช้ `are checked` เช่น `The reports are checked every Friday.`"
+      }
+    ]
+  },
+  {
+    "question": "The bridge ___ when the storm hit.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "was being repaired",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะต้องการสื่อว่า “กำลังถูกซ่อมอยู่” ในช่วงที่พายุถล่ม จึงใช้ **Past Continuous Passive**. โครงสร้างที่ใช้คือ: **was being + V3**. ตัวอย่าง: `The bridge was being repaired when the storm hit.`"
+      },
+      {
+        "index": 2,
+        "text": "was repaired",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะสื่อว่า “ถูกซ่อมเสร็จ” เป็นเหตุการณ์จบแล้ว (Past Simple Passive) แต่บริบทต้องการเหตุการณ์ที่กำลังดำเนินอยู่ในอดีต ควรใช้ `was being repaired` เช่น `The bridge was being repaired...`"
+      },
+      {
+        "index": 3,
+        "text": "is being repaired",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น **Present Continuous Passive** (ปัจจุบัน) แต่ในประโยคมีคำใบ้ `when the storm hit` ซึ่งเป็นอดีตชัดเจน จึงต้องใช้รูปอดีต เช่น `was being repaired`"
+      },
+      {
+        "index": 4,
+        "text": "has been repaired",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น **Present Perfect Passive** (`has/have been + V3`) ใช้บอกผลที่เกิดถึงปัจจุบัน ไม่เข้ากับเหตุการณ์เฉพาะจุดในอดีตอย่าง `when the storm hit` ตัวอย่างที่ถูก: `was being repaired`"
+      }
+    ]
+  },
+  {
+    "question": "All tickets ___ already.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been sold",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Present Perfect Passive** เพื่อบอกผลลัพธ์ที่เกิดขึ้นแล้วจนถึงตอนนี้ โดยเฉพาะเมื่อมีคำว่า `already`. โครงสร้างที่ใช้คือ: **have/has been + V3**. ตัวอย่าง: `All tickets have been sold already.`"
+      },
+      {
+        "index": 2,
+        "text": "are sold",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `are sold` เป็น Present Simple Passive ใช้กับข้อเท็จจริงทั่วไปหรือกิจวัตร ไม่เข้ากับคำบอกเวลาที่สื่อผลลัพธ์ **already** ซึ่งเหมาะกับ `have been sold` มากกว่า เช่น `The books have been sold.`"
+      },
+      {
+        "index": 3,
+        "text": "have sold",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็นรูป **Active** (`have + V3`) ไม่มีกรรมหรือผู้กระทำชัดเจน ถ้าจะใช้ passive ต้องมี `been` เป็น `have been sold` เช่น `All tickets have been sold.`"
+      },
+      {
+        "index": 4,
+        "text": "were sold",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็นอดีตธรรมดา (Past Simple Passive) สื่อถึงเวลาเฉพาะในอดีต ไม่เชื่อมถึงปัจจุบัน คำว่า `already` บอกผลจนถึงตอนนี้ จึงควรใช้ `have been sold`"
+      }
+    ]
+  },
+  {
+    "question": "This device ___ carefully.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "must handle",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็นรูป **Active** (`modal + base verb`) และไม่มีผู้กระทำที่ชัดเจน ประโยคนี้ควรเน้นอุปกรณ์เป็นผู้รับการกระทำ จึงต้องใช้ passive: `must be handled`"
+      },
+      {
+        "index": 2,
+        "text": "must be handled",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **Modal Passive** ใช้เมื่อมีกริยาช่วยพวก must/should/can แล้วต้องตามด้วย `be + V3`. โครงสร้างที่ใช้คือ: **must + be + V3**. ตัวอย่าง: `This device must be handled carefully.`"
+      },
+      {
+        "index": 3,
+        "text": "must be handling",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็นรูปต่อเนื่อง (`be + V-ing`) ซึ่งไม่ใช่รูป passive ที่ถูกต้องหลัง modal สำหรับการเน้นการกระทำที่กระทำต่อประธาน ควรเป็น `must be + V3` เช่น `must be handled`"
+      },
+      {
+        "index": 4,
+        "text": "must have handled",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็นรูป **Perfect Modal Active** (`must have + V3`) สื่อคาดเดาอดีตแบบผู้กระทำ ไม่ใช่สิ่งของที่ถูกกระทำ ถ้าจะเป็น passive ต้องเป็น `must be handled`"
+      }
+    ]
+  },
+  {
+    "question": "The novel ___ by George Orwell.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "was written",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **Past Simple Passive** เพราะพูดถึงผลงานที่ถูกเขียนในอดีต พร้อม `by + ผู้กระทำ`. โครงสร้างที่ใช้คือ: **was + V3 + (by + agent)**. ตัวอย่าง: `The novel was written by George Orwell.`"
+      },
+      {
+        "index": 2,
+        "text": "wrote",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็นกริยารูป **Active (V2)** โดยไม่มีประธานผู้กระทำ เช่น `George Orwell wrote the novel.` ถ้าจะเป็น passive ต้องกลับเป็น `was written (by George Orwell)`"
+      },
+      {
+        "index": 3,
+        "text": "is wrote",
+        "is_correct": false,
+        "answer_description": "ผิดรูปคำกริยา เพราะหลัง `be` ต้องใช้ **V3** ไม่ใช่ V2 คำที่ถูกคือ `written` ไม่ใช่ `wrote` ดังนั้นควรเป็น `was written`"
+      },
+      {
+        "index": 4,
+        "text": "has wrote",
+        "is_correct": false,
+        "answer_description": "ผิดสองจุด: ใช้ `has` กับ V2 (`wrote`) และยังเป็นรูป active อีกด้วย ถ้าจะทำให้ถูกใน passive ควรใช้ `was written by...` หรือถ้าใช้ perfect passive ต้องเป็น `has been written` (แต่ไม่เข้าบริบทนี้)"
+      }
+    ]
+  },
+  {
+    "question": "We ___ a free sample at the event.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "were given",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **Passive with two objects** จากประโยค active `They gave us a free sample.` เมื่อทำเป็น passive เอา `us` มาเป็นประธาน: `We were given a free sample.` โครงสร้างที่ใช้คือ: **was/were + V3 + indirect object + direct object**. ตัวอย่าง: `We were given a free sample at the event.`"
+      },
+      {
+        "index": 2,
+        "text": "were gave",
+        "is_correct": false,
+        "answer_description": "ผิดรูปคำกริยา เพราะหลัง `be` ต้องใช้ **V3** ไม่ใช่ V2 ดังนั้น `gave` ต้องเปลี่ยนเป็น `given` เช่น `were given`"
+      },
+      {
+        "index": 3,
+        "text": "were given to",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเติม `to` เกินความจำเป็น โครงสร้างแบบเอา indirect object มาเป็นประธานไม่ต้องมี `to` เช่น `We were given a free sample.` ถ้าจะใช้ `to` ต้องเป็นรูปอื่น เช่น `A free sample was given to us.`"
+      },
+      {
+        "index": 4,
+        "text": "was given",
+        "is_correct": false,
+        "answer_description": "ผิดเรื่อง **เอกพจน์-พหูพจน์** เพราะประธาน `We` เป็นพหูพจน์ ต้องใช้ `were` ไม่ใช่ `was` ตัวอย่างที่ถูก: `We were given a free sample.`"
+      }
+    ]
+  },
+  {
+    "question": "This form needs ___ by all applicants.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "to complete",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `needs` ในความหมายนี้ต้องใช้รูป **passive infinitive** เพื่อให้ฟังว่า “แบบฟอร์มนี้จำเป็นต้องถูกกรอก” จึงควรเป็น `to be completed` ไม่ใช่ `to complete`"
+      },
+      {
+        "index": 2,
+        "text": "to be completed",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Passive Infinitive** เพื่อบอกว่าสิ่งนี้ “ต้องถูกทำ” โดยใครบางคน. โครงสร้างที่ใช้คือ: **to be + V3**. ตัวอย่าง: `This form needs to be completed by all applicants.`"
+      },
+      {
+        "index": 3,
+        "text": "completing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `needs + V-ing` จะสื่อความหมายคล้าย “ต้องการการ…” แต่ไม่ใช่รูป passive ที่ชัดเจนตามโจทย์ เช่น `This room needs cleaning.` ใช้ได้ แต่กับโครงสร้างที่ระบุผู้กระทำด้วย `by ...` ควรใช้ `to be completed`"
+      },
+      {
+        "index": 4,
+        "text": "to have completed",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น **perfect infinitive active** สื่อว่าใครบางคน “ได้ทำเสร็จแล้ว” ซึ่งไม่ตรงกับเจตนาที่เน้นว่าแบบฟอร์ม “ต้องถูกกรอก” ควรใช้ `to be completed`"
+      }
+    ]
+  },
+  {
+    "question": "When was the museum ___?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "build",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะใช้รูป **base form** แทนที่จะเป็น **V3** ใน passive หลัง `was` ต้องใช้ V3 เสมอ เช่น `built`"
+      },
+      {
+        "index": 2,
+        "text": "built",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นคำกริยา **V3** หลัง `was` ในรูปคำถามของ **Past Simple Passive**. โครงสร้างที่ใช้คือ: **was + V3**. ตัวอย่าง: `When was the museum built?`"
+      },
+      {
+        "index": 3,
+        "text": "building",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **V-ing** ไม่ใช่ V3 และไม่เข้ากับ `was` ใน passive เช่น `was building` จะเป็นรูปต่อเนื่องแบบ active ของผู้กระทำ ซึ่งไม่ใช่สิ่งที่ต้องการ"
+      },
+      {
+        "index": 4,
+        "text": "been built",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะหลัง `was` ไม่สามารถตามด้วย `been + V3` ได้ โครงสร้าง `been + V3` ต้องมากับ `has/have/had` เช่น `has been built` ไม่ใช่ในคำถามนี้"
+      }
+    ]
+  },
+  {
+    "question": "The windows ___ every morning.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are cleaned",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **Present Simple Passive** ใช้กับกิจวัตรประจำวัน โดยประธาน `The windows` เป็นพหูพจน์จึงใช้ `are`. โครงสร้างที่ใช้คือ: **are + V3**. ตัวอย่าง: `The windows are cleaned every morning.`"
+      },
+      {
+        "index": 2,
+        "text": "is cleaned",
+        "is_correct": false,
+        "answer_description": "ผิดเรื่อง **เอกพจน์-พหูพจน์** เพราะ `windows` เป็นพหูพจน์ ต้องใช้ `are` ไม่ใช่ `is` เช่น `The windows are cleaned...`"
+      },
+      {
+        "index": 3,
+        "text": "are cleaning",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็นรูป **Present Continuous Active** (`are + V-ing`) สื่อว่า “กำลังทำความสะอาด” โดยหน้าที่ผู้กระทำ ซึ่งไม่ใช่เจตนาที่ต้องการ passive ควรเป็น `are cleaned`"
+      },
+      {
+        "index": 4,
+        "text": "were cleaned",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็นอดีต (Past Simple Passive) แต่ประโยคนี้พูดถึงกิจวัตร “ทุกเช้า” จึงควรใช้ปัจจุบัน `are cleaned`"
+      }
+    ]
+  },
+  {
+    "question": "The package ___ yet.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "hasn't been delivered",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Present Perfect Passive (negative)** เพื่อบอกว่ายังไม่เกิดขึ้นจนถึงตอนนี้ โดยมีคำใบ้ `yet`. โครงสร้างที่ใช้คือ: **has/have + not + been + V3**. ตัวอย่าง: `The package hasn't been delivered yet.`"
+      },
+      {
+        "index": 2,
+        "text": "isn't delivered",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `yet` มักใช้กับ **Present Perfect** มากกว่า ไม่ใช่ Present Simple Negative Passive รูปที่เป็นธรรมชาติกว่าและถูกหลักคือ `hasn't been delivered yet`"
+      },
+      {
+        "index": 3,
+        "text": "wasn't delivered",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็นอดีตธรรมดา (Past Simple Passive Negative) ซึ่งสื่อว่า “ไม่ได้ถูกส่ง (ในอดีตช่วงหนึ่ง)” ไม่สอดคล้องกับคำว่า `yet` ที่บอกว่ายังไม่ถึงตอนนี้ ควรใช้ `hasn't been delivered yet`"
+      },
+      {
+        "index": 4,
+        "text": "hasn't delivered",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็นรูป **Active** (`hasn't + V3`) และไม่มีกรรม รวมถึงขาด `been` ในรูป passive ที่ถูกต้องควรเป็น `hasn't been delivered`"
+      }
+    ]
+  },
+  {
+    "question": "A new policy ___ next month.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be announced",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **Future Simple Passive** ใช้เพื่อบอกว่าสิ่งหนึ่งจะ “ถูกประกาศ” ในอนาคต โดยมี `will`. โครงสร้างที่ใช้คือ: **will + be + V3**. ตัวอย่าง: `A new policy will be announced next month.`"
+      },
+      {
+        "index": 2,
+        "text": "will announce",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็นรูป **Active** (`will + V1`) ซึ่งต้องมีผู้กระทำ เช่น `The company will announce a new policy.` แต่โจทย์เน้นให้ `policy` เป็นผู้ถูกกระทำ ควรใช้ `will be announced`"
+      },
+      {
+        "index": 3,
+        "text": "is announcing",
+        "is_correct": false,
+        "answer_description": "ผิดเวลาและรูปแบบ เพราะเป็น **Present Continuous Active** ไม่สอดคล้องกับตัวบอกเวลา `next month` และยังไม่ใช่ passive คำตอบที่เหมาะคือ `will be announced`"
+      },
+      {
+        "index": 4,
+        "text": "is announced",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น Present Simple Passive ซึ่งสื่อข้อเท็จจริงทั่วไป ไม่เข้ากับอนาคต `next month` รูปที่ถูกคือ `will be announced`"
+      }
+    ]
+  }
+]

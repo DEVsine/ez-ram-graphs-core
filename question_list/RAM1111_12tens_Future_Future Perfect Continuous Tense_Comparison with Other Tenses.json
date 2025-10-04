@@ -1,0 +1,321 @@
+[
+  {
+    "question": "By next June, I ___ in this company for five years.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been working",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง จุดนี้ต้องใช้ **Future Perfect Continuous** เพราะมีเส้นตายอนาคต `By next June` และมีระยะเวลา `for five years` โครงสร้างคือ __will have been + V-ing__. ตัวอย่าง: `By next June, I will have been working here for five years.` ใช้เมื่ออยากเน้น “ทำต่อเนื่องมาจนถึงจุดหนึ่งในอนาคต”."
+      },
+      {
+        "index": 2,
+        "text": "will have worked",
+        "is_correct": false,
+        "answer_description": "นี่คือ **Future Perfect** (__will have + V3__) เน้นผลเสร็จ ไม่เน้นความต่อเนื่อง จึงไม่สอดคล้องกับ `for five years`. ถ้าจะใช้ Future Perfect ควรเป็นประโยคที่เน้นจำนวนครั้ง/ผลลัพธ์ เช่น `By next June, I will have completed five projects.` แต่ที่โจทย์ต้องการคือความต่อเนื่องของการทำงาน."
+      },
+      {
+        "index": 3,
+        "text": "will be working",
+        "is_correct": false,
+        "answer_description": "นี่คือ **Future Continuous** (__will be + V-ing__) ใช้บอกเหตุการณ์กำลังเกิด ณ เวลาในอนาคต แต่ไม่ได้เน้น “ทำมานานแค่ไหน”. ตัวอย่างที่ถูกกับรูปนี้เช่น `At 9 a.m. tomorrow, I will be working.` แต่โจทย์มี `for five years` จึงควรใช้ Future Perfect Continuous."
+      },
+      {
+        "index": 4,
+        "text": "have been working",
+        "is_correct": false,
+        "answer_description": "นี่คือ **Present Perfect Continuous** (__have/has been + V-ing__) ใช้กับปัจจุบัน ไม่เข้ากับเส้นตายในอนาคต `By next June`. ถ้าจะใช้รูปนี้ ต้องเป็นแบบ `I have been working here for five years.` (ถึงตอนนี้) ไม่ใช่จุดเวลาในอนาคต."
+      }
+    ]
+  },
+  {
+    "question": "By the time she arrives at 8, they ___ for two hours.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been waiting",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Future Perfect Continuous** เพื่อเน้นการคอยอย่างต่อเนื่องจนถึงเวลาอนาคต `at 8` พร้อมระยะเวลา `for two hours` โครงสร้าง __will have been + V-ing__. ตัวอย่าง: `By the time she arrives, they will have been waiting for two hours.`"
+      },
+      {
+        "index": 2,
+        "text": "will be waiting",
+        "is_correct": false,
+        "answer_description": "นี่เป็น **Future Continuous** เน้นภาพเหตุการณ์กำลังเกิด ณ เวลาในอนาคต แต่ไม่เน้น “ระยะเวลา”. ถ้าจะใช้ให้เหมาะ ต้องตัด `for two hours` ออก เช่น `At 8, they will be waiting.` ซึ่งไม่ตรงกับโจทย์ที่ต้องการเน้นความยาวนาน."
+      },
+      {
+        "index": 3,
+        "text": "will have waited",
+        "is_correct": false,
+        "answer_description": "นี่คือ **Future Perfect** เน้นผลเสร็จแล้วก่อนเวลาในอนาคต ไม่เน้นความต่อเนื่อง จึงขัดกับ `for two hours`. ตัวอย่างที่เหมาะกับ Future Perfect: `By 8, they will have finished dinner.`"
+      },
+      {
+        "index": 4,
+        "text": "have been waiting",
+        "is_correct": false,
+        "answer_description": "นี่คือ **Present Perfect Continuous** ใช้กับตอนนี้ (ปัจจุบัน) ไม่ใช่อนาคตที่มี `By the time + future time`. ตัวอย่างที่ถูกกับรูปนี้: `They have been waiting for two hours.` (ถึงตอนนี้) ไม่ใช่เวลา 8 โมงในอนาคต."
+      }
+    ]
+  },
+  {
+    "question": "This time next week, I ___ on the project for three months.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been working",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีอนาคตชัดเจน `This time next week` และระยะเวลา `for three months` จึงต้องใช้ **Future Perfect Continuous** โครงสร้าง __will have been + V-ing__. ตัวอย่าง: `This time next week, I will have been working on the project for three months.`"
+      },
+      {
+        "index": 2,
+        "text": "will be working",
+        "is_correct": false,
+        "answer_description": "เป็น **Future Continuous** ซึ่งบอกว่ากำลังทำ ณ เวลาหนึ่งในอนาคต แต่ไม่เน้นความยาวของการทำ `for three months`. ถ้าอยากใช้รูปนี้ควรเป็น `This time next week, I will be working on the project.`"
+      },
+      {
+        "index": 3,
+        "text": "will have worked",
+        "is_correct": false,
+        "answer_description": "เป็น **Future Perfect** เน้นผลลัพธ์ว่าทำเสร็จก่อนเวลาอนาคต ไม่เน้นความต่อเนื่อง จึงไม่เข้ากับ `for three months`. ตัวอย่างใช้ได้: `By next week, I will have worked on three tasks.`"
+      },
+      {
+        "index": 4,
+        "text": "have worked",
+        "is_correct": false,
+        "answer_description": "เป็น **Present Perfect** (__have/has + V3__) ใช้บอกประสบการณ์/ผลถึงปัจจุบัน ไม่ใช่จุดเวลาในอนาคต `This time next week`. ถ้าจะใช้ Present Perfect ควรเป็น `I have worked on the project for three months.` (ถึงตอนนี้)."
+      }
+    ]
+  },
+  {
+    "question": "When you call tomorrow morning at 7, I ___ all night.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been studying",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเน้นการ **ทำต่อเนื่องยาวนานจนถึงเวลาในอนาคต** โดยมีตัวบอกเวลา `tomorrow morning at 7` และระยะเวลาโดยนัย `all night` ใช้ __will have been + V-ing__. ตัวอย่าง: `When you call at 7, I will have been studying all night.`"
+      },
+      {
+        "index": 2,
+        "text": "will be studying",
+        "is_correct": false,
+        "answer_description": "นี่คือ **Future Continuous** บอกว่ากำลังทำ ณ เวลา 7 โมง แต่ไม่สื่อความยาว `all night` ได้ชัด ถ้าพูดแค่ว่ากำลังอ่าน: `When you call at 7, I will be studying.` แต่โจทย์อยากเน้นทำมาตลอดทั้งคืน จึงควรใช้ Future Perfect Continuous."
+      },
+      {
+        "index": 3,
+        "text": "am studying",
+        "is_correct": false,
+        "answer_description": "เป็น **Present Continuous** ใช้กับตอนนี้ ไม่เข้ากับ `tomorrow morning`. ตัวอย่างผิดเช่น `When you call tomorrow, I am studying.` ควรใช้รูปอนาคตที่เหมาะสม."
+      },
+      {
+        "index": 4,
+        "text": "will have studied",
+        "is_correct": false,
+        "answer_description": "เป็น **Future Perfect** เน้นผลว่าอ่านเสร็จแล้วก่อน 7 โมง ซึ่งขัดกับคำว่า `all night` ที่อยากเน้นความต่อเนื่อง. ถ้าจะใช้ Future Perfect: `By 7, I will have studied two chapters.`"
+      }
+    ]
+  },
+  {
+    "question": "By 2026, the team ___ together for a decade.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been playing",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีเส้นตายอนาคต `By 2026` และมีระยะเวลา `for a decade` จึงใช้ **Future Perfect Continuous** โครงสร้าง __will have been + V-ing__. ตัวอย่าง: `By 2026, the team will have been playing together for a decade.`"
+      },
+      {
+        "index": 2,
+        "text": "will be playing",
+        "is_correct": false,
+        "answer_description": "เป็น **Future Continuous** เน้นภาพว่ากำลังเล่นในอนาคต แต่ไม่เน้นระยะเวลา `for a decade`. ใช้ได้ถ้าพูดแบบนี้: `In 2026, the team will be playing in the league.`"
+      },
+      {
+        "index": 3,
+        "text": "will have played",
+        "is_correct": false,
+        "answer_description": "เป็น **Future Perfect** เน้นผลรวมว่าเล่นไปกี่นัด/ถึงจุดสิ้นสุด ไม่เน้นความต่อเนื่องยาว. ตัวอย่างที่เหมาะ: `By 2026, the team will have played 100 matches.`"
+      },
+      {
+        "index": 4,
+        "text": "has been playing",
+        "is_correct": false,
+        "answer_description": "เป็น **Present Perfect Continuous** ใช้กับปัจจุบัน ไม่ใช่อนาคตที่มี `By 2026`. ถ้าจะใช้รูปนี้: `The team has been playing together for a decade.` (ถึงตอนนี้) แต่โจทย์ต้องการจุดเวลาในอนาคต."
+      }
+    ]
+  },
+  {
+    "question": "At 10 p.m. tonight, I ___ for two hours already.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been studying",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคนี้มีเวลาอนาคตเฉพาะเจาะจง `At 10 p.m. tonight` และมีระยะเวลา `for two hours` จึงใช้ **Future Perfect Continuous** โครงสร้าง __will have been + V-ing__. ตัวอย่าง: `At 10 p.m. tonight, I will have been studying for two hours already.`"
+      },
+      {
+        "index": 2,
+        "text": "will be studying",
+        "is_correct": false,
+        "answer_description": "เป็น **Future Continuous** เหมาะเมื่อบอกแค่ว่ากำลังอ่านตอน 4 ทุ่ม แต่ไม่สื่อว่า “อ่านมานานสองชั่วโมงแล้ว”. ถ้าต้องการใช้รูปนี้: `At 10 p.m. tonight, I will be studying.`"
+      },
+      {
+        "index": 3,
+        "text": "will have studied",
+        "is_correct": false,
+        "answer_description": "เป็น **Future Perfect** เน้นผลว่าอ่านเสร็จไปแล้วก่อน 4 ทุ่ม ไม่เน้นการกระทำต่อเนื่อง. ตัวอย่างเหมาะ: `By 10 p.m., I will have studied two chapters.` แต่โจทย์มี `for two hours` จึงควรใช้แบบต่อเนื่อง."
+      },
+      {
+        "index": 4,
+        "text": "have been studying",
+        "is_correct": false,
+        "answer_description": "เป็น **Present Perfect Continuous** ใช้กับปัจจุบัน ไม่เข้ากับเวลาที่เป็นอนาคต `tonight`. ตัวอย่างของรูปนี้: `I have been studying for two hours.` (ถึงตอนนี้)."
+      }
+    ]
+  },
+  {
+    "question": "By the end of this month, she ___ here since 2019.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been living",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมี `By the end of this month` และตัวบอกจุดเริ่ม `since 2019` จึงใช้ **Future Perfect Continuous** เพื่อเน้นอยู่ต่อเนื่องมาจนถึงจุดหนึ่งในอนาคต โครงสร้าง __will have been + V-ing__. ตัวอย่าง: `By the end of this month, she will have been living here since 2019.`"
+      },
+      {
+        "index": 2,
+        "text": "will be living",
+        "is_correct": false,
+        "answer_description": "เป็น **Future Continuous** ซึ่งบอกว่าจะกำลังอาศัยอยู่ในช่วงเวลาหนึ่ง แต่ไม่ชัดเรื่องความต่อเนื่องตั้งแต่ 2019. หากใช้รูปนี้: `By the end of this month` จะฟังแปลก ควรเป็น `At this time next week, she will be living here.`"
+      },
+      {
+        "index": 3,
+        "text": "will have lived",
+        "is_correct": false,
+        "answer_description": "เป็น **Future Perfect** เน้นผลว่าพักอาศัยครบช่วงเวลา แต่ไม่เน้นการดำเนินต่อเนื่องตั้งแต่ 2019. ตัวอย่างเหมาะ: `By then, she will have lived here for four years.` แต่โจทย์มี since + จุดเริ่ม จึงเหมาะกับแบบต่อเนื่อง."
+      },
+      {
+        "index": 4,
+        "text": "has been living",
+        "is_correct": false,
+        "answer_description": "เป็น **Present Perfect Continuous** ใช้กับปัจจุบัน ไม่ใช่อนาคตที่มี `By the end of this month`. ตัวอย่างของรูปนี้: `She has been living here since 2019.` (ถึงตอนนี้)."
+      }
+    ]
+  },
+  {
+    "question": "Don’t call at 5; I ___ my online class then.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be having",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ที่นี่ควรใช้ **Future Continuous** (__will be + V-ing__) เพราะเน้นว่า “กำลังมีคลาสตอน 5 โมง” ที่เวลาเฉพาะเจาะจง `at 5`. ตัวอย่าง: `Don’t call at 5; I will be having my online class then.` ต่างจาก **Future Perfect Continuous** ที่ต้องมีตัวบอกระยะเวลา เช่น `for/since/by`."
+      },
+      {
+        "index": 2,
+        "text": "will have been having",
+        "is_correct": false,
+        "answer_description": "นี่คือ **Future Perfect Continuous** ซึ่งต้องมีการเน้น “ทำมานานแค่ไหนจนถึงเวลาในอนาคต” เช่น `for two hours` หรือ `since noon`. ประโยคนี้ไม่มีตัวบอกระยะเวลา มีแค่เวลาเฉพาะ `at 5` จึงไม่เหมาะ."
+      },
+      {
+        "index": 3,
+        "text": "am having",
+        "is_correct": false,
+        "answer_description": "เป็น **Present Continuous** ใช้กับแผนอนาคตได้บ้าง แต่รูปนี้ควรใช้อนาคตที่ชัดเจนกว่าเพราะมี `Don’t call at 5` เน้นเวลาจุดเดียวในอนาคต. ใช้ `will be having` จะสื่อว่ากำลังเกิดตอนนั้นชัดเจนกว่า."
+      },
+      {
+        "index": 4,
+        "text": "will have had",
+        "is_correct": false,
+        "answer_description": "เป็น **Future Perfect** (__will have + V3__) บอกว่า “มีคลาสเสร็จแล้วก่อนเวลา 5 โมง” ซึ่งไม่ตรงความหมายที่ห้ามโทรเพราะกำลังมีคลาส. ถ้าจะใช้ Future Perfect ควรเป็น `By 5, I will have had my class.`"
+      }
+    ]
+  },
+  {
+    "question": "By the time the movie starts, we ___ in line for 30 minutes.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been standing",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Future Perfect Continuous** เพราะมี `By the time ... starts` และระยะเวลา `for 30 minutes` เน้นยืนต่อเนื่องจนถึงตอนหนังเริ่ม โครงสร้าง __will have been + V-ing__. ตัวอย่าง: `By the time the movie starts, we will have been standing in line for 30 minutes.`"
+      },
+      {
+        "index": 2,
+        "text": "will be standing",
+        "is_correct": false,
+        "answer_description": "เป็น **Future Continuous** บอกว่ากำลังยืนตอนหนังเริ่ม แต่ไม่เน้นว่า “ยืนมาแล้ว 30 นาที”. ถ้าไม่มีระยะเวลา: `When the movie starts, we will be standing in line.` จะเหมาะกว่า."
+      },
+      {
+        "index": 3,
+        "text": "will have stood",
+        "is_correct": false,
+        "answer_description": "เป็น **Future Perfect** เน้นผลว่าก่อนหนังเริ่ม เรา “ยืนไปแล้ว” แต่ไม่ได้สื่อความต่อเนื่อง จึงไม่เข้ากับ `for 30 minutes`. ตัวอย่าง Future Perfect ที่เหมาะ: `By then, we will have bought the tickets.`"
+      },
+      {
+        "index": 4,
+        "text": "have been standing",
+        "is_correct": false,
+        "answer_description": "เป็น **Present Perfect Continuous** ใช้กับปัจจุบัน ไม่เข้ากับอนาคตที่มี `By the time the movie starts`. รูปที่ถูกควรเป็นอนาคต: __will have been + V-ing__."
+      }
+    ]
+  },
+  {
+    "question": "Next June at this time, they ___ in Japan for six months.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been living",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง มีเวลาอนาคตเฉพาะ `Next June at this time` และมีระยะเวลา `for six months` จึงใช้ **Future Perfect Continuous** โครงสร้าง __will have been + V-ing__. ตัวอย่าง: `Next June at this time, they will have been living in Japan for six months.`"
+      },
+      {
+        "index": 2,
+        "text": "will be living",
+        "is_correct": false,
+        "answer_description": "เป็น **Future Continuous** ซึ่งสื่อเพียงว่าขณะนั้นกำลังอาศัยอยู่ แต่ไม่ได้เน้นว่า “ครบหกเดือนแล้ว”. ตัวอย่างรูปนี้: `Next June at this time, they will be living in Japan.`"
+      },
+      {
+        "index": 3,
+        "text": "will have lived",
+        "is_correct": false,
+        "answer_description": "เป็น **Future Perfect** เน้นผลรวม ไม่เน้นความต่อเนื่องยาว. ตัวอย่างเหมาะ: `By next June, they will have lived in three cities.` แต่โจทย์ต้องการความต่อเนื่อง `for six months`."
+      },
+      {
+        "index": 4,
+        "text": "have been living",
+        "is_correct": false,
+        "answer_description": "เป็น **Present Perfect Continuous** ใช้กับตอนนี้ ไม่สอดคล้องกับ `Next June`. ถ้าจะใช้รูปนี้: `They have been living in Japan for six months.` (ถึงตอนนี้)."
+      }
+    ]
+  },
+  {
+    "question": "By tomorrow afternoon, he ___ for the exam for eight hours.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been preparing",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีเส้นตายอนาคต `By tomorrow afternoon` และระยะเวลา `for eight hours` จึงใช้ **Future Perfect Continuous** โครงสร้าง __will have been + V-ing__. ตัวอย่าง: `By tomorrow afternoon, he will have been preparing for the exam for eight hours.`"
+      },
+      {
+        "index": 2,
+        "text": "will be preparing",
+        "is_correct": false,
+        "answer_description": "เป็น **Future Continuous** บอกว่ากำลังเตรียม ณ เวลาในอนาคต แต่ไม่สื่อว่า “เตรียมมานานแค่ไหน”. ใช้ได้ถ้าเป็น `Tomorrow afternoon, he will be preparing for the exam.`"
+      },
+      {
+        "index": 3,
+        "text": "will have prepared",
+        "is_correct": false,
+        "answer_description": "เป็น **Future Perfect** เน้นผลว่าเตรียมเสร็จ/ทำเสร็จก่อนเวลาในอนาคต ไม่เน้นความต่อเนื่อง `for eight hours`. ตัวอย่างใช้ได้: `By tomorrow afternoon, he will have prepared all his notes.`"
+      },
+      {
+        "index": 4,
+        "text": "has been preparing",
+        "is_correct": false,
+        "answer_description": "เป็น **Present Perfect Continuous** ใช้กับปัจจุบัน ไม่เข้ากับ `By tomorrow afternoon`. ตัวอย่างของรูปนี้: `He has been preparing for the exam for eight hours.` (ถึงตอนนี้)."
+      }
+    ]
+  }
+]

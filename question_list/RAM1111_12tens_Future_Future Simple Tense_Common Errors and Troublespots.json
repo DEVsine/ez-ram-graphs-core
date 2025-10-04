@@ -1,0 +1,292 @@
+[
+  {
+    "question": "Call me when you ___ home.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will get",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะในประโยคเวลา (time clause) ที่ขึ้นต้นด้วย **when** เราไม่ใช้ **will** ให้ใช้ **Present Simple** แทน เช่น `when you get home` ไม่ใช่ `when you will get home`. ตัวอย่างถูก: `Call me when you get home.`"
+      },
+      {
+        "index": 2,
+        "text": "get",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ในประโยคที่มี **when** พูดถึงอนาคต ให้ใช้ __Present Simple__ ในอนุประโยคเวลา แล้วค่อยใช้ **will** ในประโยคหลัก เช่น `Call me when you get home.` อีกตัวอย่าง: `I'll text you when I arrive.`"
+      },
+      {
+        "index": 3,
+        "text": "will be getting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะยังคงใช้ **will** ในอนุประโยคเวลา ซึ่งไม่ถูกหลักกับ **when**. ใช้รูปธรรมดา `get` จะตรงกว่า: `when you get home`."
+      },
+      {
+        "index": 4,
+        "text": "got",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **got** เป็นอดีตกาล ไม่สอดคล้องกับเวลาอนาคตในประโยคนี้. ควรใช้ `get` ในอนุประโยคเวลา: `when you get home`."
+      }
+    ]
+  },
+  {
+    "question": "I ___ attend the meeting tomorrow.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "won't",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปปฏิเสธของ Future Simple คือ __`will not / won't + base verb`__. ประโยคตัวอย่าง: `I won't attend the meeting tomorrow.` หรือ `She will not join us tonight.`"
+      },
+      {
+        "index": 2,
+        "text": "don't will",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะห้ามใช้ **do/does/don't** ร่วมกับ **will**. โครงสร้างที่ถูกต้องคือ `will not / won't + V1` เช่น `I won't attend...` ไม่ใช่ `I don't will attend...`"
+      },
+      {
+        "index": 3,
+        "text": "am not will",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา **be (am/is/are)** มาวางหน้ากับ **will** ซึ่งใช้ไม่ได้. ใช้ `won't + V1` แทน เช่น `I won't attend...`"
+      },
+      {
+        "index": 4,
+        "text": "not will",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่มีรูป `not will` ในไวยากรณ์ปกติ. ต้องใช้ `will not / won't` เช่น `I will not attend.`"
+      }
+    ]
+  },
+  {
+    "question": "___ it rain tomorrow?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Will",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง การถามอนาคตด้วย Future Simple ใช้รูป __`Will + subject + base verb?`__. ตัวอย่าง: `Will it rain tomorrow?` หรือ `Will they arrive on time?`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Does** ใช้กับ Present Simple ไม่ใช่อนาคต. ถ้าจะถามอนาคตให้ใช้ `Will it rain...?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** เป็นกริยา **be** ไม่ใช่ตัวช่วยของ Future Simple. โครงสร้างที่ถูกต้องคือ `Will + subject + V1` เช่น `Will it rain...?`"
+      },
+      {
+        "index": 4,
+        "text": "Shall",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะ **shall** มักใช้กับ **I/We** เพื่อเสนอกิจกรรมหรือขอคำแนะนำ (`Shall we...?`). ถ้าถามพยากรณ์อากาศให้ใช้ `Will it rain...?`"
+      }
+    ]
+  },
+  {
+    "question": "She will ___ the report by Friday.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "to finish",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **will** ต้องใช้กริยา **base form (V1)** ไม่ต้องมี **to**. ตัวอย่างที่ถูก: `She will finish the report.`"
+      },
+      {
+        "index": 2,
+        "text": "finishes",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเติม **-es** เป็นรูป Present Simple ซึ่งใช้ไม่ได้หลัง **will**. ควรใช้ `will + V1` เช่น `will finish`."
+      },
+      {
+        "index": 3,
+        "text": "finish",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างอนาคตแบบ Future Simple คือ __`will + base verb (V1)`__. ตัวอย่าง: `She will finish the report by Friday.` และ `They will start the project next week.`"
+      },
+      {
+        "index": 4,
+        "text": "finished",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปอดีตกาล ไม่ใช้หลัง **will**. ต้องเป็น `will finish` เท่านั้น."
+      }
+    ]
+  },
+  {
+    "question": "If it ___ tomorrow, we'll stay home.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will rain",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะในประโยคเงื่อนไข **First Conditional** ห้ามใช้ **will** ในอนุประโยคที่ขึ้นต้นด้วย **if**. ต้องใช้ Present Simple: `If it rains, we will stay...`"
+      },
+      {
+        "index": 2,
+        "text": "rains",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **First Conditional** คือ __`If + Present Simple, will + V1`__. ตัวอย่าง: `If it rains, we'll stay home.` และ `If she calls, I'll answer.`"
+      },
+      {
+        "index": 3,
+        "text": "is raining",
+        "is_correct": false,
+        "answer_description": "อาจใช้ได้ในบางบริบทเพื่อเน้นเหตุการณ์กำลังเกิดตอนนั้น แต่รูปมาตรฐานของ First Conditional ใช้ `If + Present Simple`. จึงควรเป็น `If it rains, ...`"
+      },
+      {
+        "index": 4,
+        "text": "will be raining",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะยังมี **will** ในอนุประโยคที่ขึ้นด้วย **if** ซึ่งไม่ถูกหลัก. ใช้ `rains` แทน: `If it rains, we'll stay home.`"
+      }
+    ]
+  },
+  {
+    "question": "I forgot my keys. I ___ go back and get them.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "am going to",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะในบริบทนี้ เพราะเป็นการตัดสินใจฉับพลัน ควรใช้ **will**. `I'm going to` มักใช้กับแผนที่คิดไว้ล่วงหน้า เช่น `I'm going to visit my aunt next week.`"
+      },
+      {
+        "index": 2,
+        "text": "will",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __`will + V1`__ เมื่อตัดสินใจทันที ณ ขณะพูด เช่น `I’ll go back and get them.` อีกตัวอย่าง: `You left your book? I’ll bring it to you.`"
+      },
+      {
+        "index": 3,
+        "text": "go",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดตัวช่วยบอกอนาคต (**will**). ต้องเป็น `I will go back...` ไม่ใช่แค่ `I go back...`"
+      },
+      {
+        "index": 4,
+        "text": "am go to",
+        "is_correct": false,
+        "answer_description": "ผิดรูปแกรมม่า การใช้ `be going to` ต้องตามด้วย **base verb** เป็น `am going to go`, ไม่ใช่ `am go to`."
+      }
+    ]
+  },
+  {
+    "question": "I think it ___ be fine.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อเป็นการคาดเดาจากความเห็น/ความเชื่อ ใช้ __`will + V1`__. ตัวอย่าง: `I think it will be fine.` และ `I believe they will win.`"
+      },
+      {
+        "index": 2,
+        "text": "is going to",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ `be going to` มักใช้เมื่อมีหลักฐานชัดเจนหรือแผนมาก่อน. ที่นี่เป็นแค่ความเห็น (`I think`) จึงควรใช้ `will`."
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิดเวลา เพราะ **is** เป็นปัจจุบันธรรมดา ไม่ได้บอกอนาคต. ต้องใช้ `will be` เพื่อสื่ออนาคตจากความเห็น: `it will be fine`."
+      },
+      {
+        "index": 4,
+        "text": "shall",
+        "is_correct": false,
+        "answer_description": "ผิดบริบท เพราะ **shall** มักใช้กับ **I/We** เพื่อข้อเสนอ/แนะนำ เช่น `Shall we go?`. ที่นี่เป็นการคาดเดา ใช้ `will` เหมาะกว่า."
+      }
+    ]
+  },
+  {
+    "question": "He will ___ arrive late.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "probably",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตำแหน่งของกริยาวิเศษณ์ความถี่/ความน่าจะเป็นอย่าง `probably` มักวางหลัง **will**: __`will + adverb + V1`__. ตัวอย่าง: `He will probably arrive late.` และ `They will definitely come.`"
+      },
+      {
+        "index": 2,
+        "text": "probable",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **probable** เป็นคำคุณศัพท์ ไม่ใช่วิสทธาน (adverb). ต้องใช้ **probably** เพื่อขยายกริยา: `will probably arrive`."
+      },
+      {
+        "index": 3,
+        "text": "probably to",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่มีโครงสร้าง `adverb + to` แบบนี้ใน Future Simple. ใช้ `will probably + V1` จะถูก เช่น `will probably arrive`."
+      },
+      {
+        "index": 4,
+        "text": "will probably",
+        "is_correct": false,
+        "answer_description": "ผิดกับรูปประโยคนี้ เพราะหน้าช่องว่างมี **will** อยู่แล้ว จะกลายเป็น `will will probably arrive`. ต้องเติมเป็น `probably` เพียงคำเดียว."
+      }
+    ]
+  },
+  {
+    "question": "Look at those dark clouds. It ___ rain soon.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is going to",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อมีหลักฐานชัดเจนต่อหน้าเรา (เช่น เมฆดำมาก) ใช้ __`be going to + V1`__ เพื่อทำนาย เช่น `It is going to rain soon.` อีกตัวอย่าง: `Watch out! He's going to fall.`"
+      },
+      {
+        "index": 2,
+        "text": "will",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะเท่า `be going to` ในบริบทมีหลักฐานชัดเจน. `will` เหมาะกับการคาดเดาจากความเห็นทั่วไป เช่น `I think it will rain.`"
+      },
+      {
+        "index": 3,
+        "text": "shall",
+        "is_correct": false,
+        "answer_description": "ผิดบริบท เพราะ **shall** ไม่ใช้กับ `it` เพื่อทำนายสภาพอากาศแบบนี้. ใช้ `is going to rain` จะตรงกว่า."
+      },
+      {
+        "index": 4,
+        "text": "rains",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป Present Simple เดี่ยวๆ ไม่ได้สื่ออนาคตตามที่ต้องการ. ต้องใช้ `is going to rain` ในบริบทมีหลักฐาน."
+      }
+    ]
+  },
+  {
+    "question": "As soon as she ___, we'll start the meeting.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will arrive",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะในอนุประโยคเวลาที่ขึ้นด้วย **as soon as** ต้องใช้ **Present Simple** ไม่ใช้ **will**. รูปที่ถูกคือ `as soon as she arrives`."
+      },
+      {
+        "index": 2,
+        "text": "arrives",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคือ __`As soon as + Present Simple, will + V1`__ เช่น `As soon as she arrives, we'll start.` อีกตัวอย่าง: `As soon as I finish, I'll call you.`"
+      },
+      {
+        "index": 3,
+        "text": "is arriving",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะเป็นมาตรฐานใน time clause เพราะนิยมใช้ Present Simple มากกว่า. ใช้ `arrives` จะชัดและถูกหลักกว่า."
+      },
+      {
+        "index": 4,
+        "text": "arrive",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะขาดการผันตามประธานบุรุษที่สามเอกพจน์ (**she**) ใน Present Simple ต้องเติม **-s** เป็น `arrives`."
+      }
+    ]
+  }
+]

@@ -1,0 +1,321 @@
+[
+  {
+    "question": "Yesterday we ____ TV after dinner.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "watched",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกริยาปกติ (regular verb) ใน **Past Simple** ใช้รูป `V2 = base + -ed` ดังนั้น `watch → watched` และประโยคตามโครงสร้าง __Subject + V2(-ed)__ ได้เลย เช่น `We watched TV yesterday.` ใช้บอกเหตุการณ์ที่จบไปแล้วในอดีต เช่น `I watched a movie last night.`"
+      },
+      {
+        "index": 2,
+        "text": "watch",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **base form** (ปัจจุบัน) ไม่ตรงกับกาลอดีตที่มีคำบอกเวลา `yesterday` โครงสร้างที่ถูกคือ __Subject + V2(-ed)__ เช่น `We watched TV after dinner yesterday.`"
+      },
+      {
+        "index": 3,
+        "text": "watching",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **-ing** ใช้กับ **Continuous** ไม่ใช่ **Past Simple** ในประโยคบอกเล่าอดีตเราต้องใช้ `V2` เช่น `watched` ไม่ใช่ `watching` เช่น `We watched TV.`"
+      },
+      {
+        "index": 4,
+        "text": "did watch",
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะในข้อสอบเรื่องรูปบอกเล่า เพราะ `did + base` มักใช้เน้นย้ำหรือในประโยคปฏิเสธ/คำถาม มากกว่ารูปพื้นฐานของ **Past Simple** แบบบอกเล่า ที่ถูกคือ __Subject + V2(-ed)__ เช่น `We watched TV yesterday.`"
+      }
+    ]
+  },
+  {
+    "question": "She ____ the emails last night.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "replied",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยาที่ลงท้ายด้วยพยัญชนะ + y ให้เปลี่ยน **y → ied** ใน **Past Simple**: `reply → replied` โครงสร้างคือ __Subject + V2(-ed/ied)__ เช่น `She replied to the emails last night.` ตัวอย่างเพิ่ม: `He replied quickly.`"
+      },
+      {
+        "index": 2,
+        "text": "replies",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **Present Simple (V-s/es)** ใช้กับปัจจุบัน ไม่ใช่อดีตที่มี `last night` ต้องเป็น `replied` เช่น `She replied last night.`"
+      },
+      {
+        "index": 3,
+        "text": "replying",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **-ing** (Continuous) ไม่ใช่รูปบอกเล่าอดีตแบบธรรมดา ที่ถูกคือ __Subject + V2__ เช่น `She replied to the emails.`"
+      },
+      {
+        "index": 4,
+        "text": "replyed",
+        "is_correct": false,
+        "answer_description": "ผิดด้านการสะกด คำที่ลงท้ายด้วยพยัญชนะ + y ต้องเปลี่ยน **y → ied** ไม่ใช่ `-yed` รูปที่ถูกคือ `replied` เช่น `She replied last night.`"
+      }
+    ]
+  },
+  {
+    "question": "We ____ at the mall yesterday.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "shopped",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง `shop` เป็นรูป **CVC** (พยัญชนะ-สระ-พยัญชนะ) จึงต้อง **double consonant** ก่อนเติม `-ed`: `shop → shopped` โครงสร้างบอกเล่าคือ __Subject + V2(-ed)__ เช่น `We shopped at the mall yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "shop",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะยังเป็น **base form** ไม่ใช่อดีต ทั้งที่มี `yesterday` บอกเวลา ต้องใช้ `V2` คือ `shopped` เช่น `We shopped yesterday.`"
+      },
+      {
+        "index": 3,
+        "text": "shopping",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **-ing** ซึ่งเป็น Continuous ไม่ใช่ Past Simple บอกเล่า โครงสร้างที่ถูกคือ __Subject + V2__ เช่น `We shopped at the mall.`"
+      },
+      {
+        "index": 4,
+        "text": "shoped",
+        "is_correct": false,
+        "answer_description": "ผิดด้านการสะกด คำแบบ CVC ต้อง **เพิ่มพยัญชนะตัวท้าย** ก่อนเติม `-ed` ไม่ใช่ `shoped` รูปที่ถูกคือ `shopped` เช่น `They shopped online.`"
+      }
+    ]
+  },
+  {
+    "question": "He ____ his room on Saturday.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "cleaned",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยา **regular** เติม `-ed` เป็นอดีต: `clean → cleaned` ใช้โครงสร้าง __Subject + V2(-ed)__ เช่น `He cleaned his room on Saturday.` ตัวอย่างเพิ่ม: `I cleaned the kitchen yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "clean",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปปัจจุบัน ไม่ตรงกับคำบอกเวลา **on Saturday** (อดีตที่จบแล้ว) ต้องใช้ `cleaned` เช่น `He cleaned his room.`"
+      },
+      {
+        "index": 3,
+        "text": "cleaning",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **Continuous (-ing)** ไม่ใช่ Past Simple แบบบอกเล่า โครงสร้างที่ถูกคือ __Subject + V2__ เช่น `He cleaned his room.`"
+      },
+      {
+        "index": 4,
+        "text": "did cleaned",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะหลัง `did` ต้องใช้ **base form** ไม่ใช่ `V2` และในประโยคบอกเล่า Past Simple ปกติไม่ต้องใช้ `did` รูปที่ถูกคือ `He cleaned his room.`"
+      }
+    ]
+  },
+  {
+    "question": "I ____ the door carefully.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "closed",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยา `close` เป็น **regular verb** เติม `-ed` ได้เลย: `close → closed` โครงสร้าง Past Simple แบบบอกเล่าคือ __Subject + V2(-ed)__ เช่น `I closed the door carefully.`"
+      },
+      {
+        "index": 2,
+        "text": "closing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `-ing` เป็นรูป Continuous ไม่ใช่ Past Simple บอกเล่า รูปที่ถูกคือ `closed` เช่น `I closed the window.`"
+      },
+      {
+        "index": 3,
+        "text": "was close",
+        "is_correct": false,
+        "answer_description": "ผิดโครงสร้าง `was + adjective` กลายเป็นคำคุณศัพท์ `close` (ใกล้) ไม่ใช่กริยา ‘ปิด’ ที่ต้องการ ที่ถูกคือกริยาอดีต `closed` เช่น `I closed the door.`"
+      },
+      {
+        "index": 4,
+        "text": "close",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปปัจจุบัน ไม่ใช่อดีต ต้องใช้ `V2` คือ `closed` เช่น `I closed it a minute ago.`"
+      }
+    ]
+  },
+  {
+    "question": "My parents ____ in that town from 2000 to 2010.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "lived",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะช่วงเวลา **2000–2010** สิ้นสุดแล้ว จึงใช้ **Past Simple** รูป `live → lived` โครงสร้างคือ __Subject + V2(-ed)__ เช่น `My parents lived there from 2000 to 2010.`"
+      },
+      {
+        "index": 2,
+        "text": "live",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปปัจจุบัน ทั้งที่ช่วงเวลาในอดีตจบแล้ว ต้องใช้ Past Simple: `lived` เช่น `They lived in Bangkok in 2005.`"
+      },
+      {
+        "index": 3,
+        "text": "living",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **-ing** ไม่ใช่ Past Simple แบบบอกเล่า รูปที่ถูกคือ `lived` เช่น `My parents lived in that town.`"
+      },
+      {
+        "index": 4,
+        "text": "was lived",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **passive** ที่ไม่ตรงความหมาย และยังไม่สอดคล้องกับประธานพหูพจน์ `parents` ด้วย ที่ถูกคือกริยา V2: `lived` เช่น `They lived there for ten years.`"
+      }
+    ]
+  },
+  {
+    "question": "The teacher ____ the instructions clearly.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "explained",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง `explain → explained` เป็นกริยา **regular** เติม `-ed` เพื่อทำเป็นอดีต โครงสร้างบอกเล่า __Subject + V2(-ed)__ เช่น `The teacher explained the instructions clearly.`"
+      },
+      {
+        "index": 2,
+        "text": "explain",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะยังเป็นรูปปัจจุบัน ต้องใช้รูปอดีต `explained` เช่น `He explained everything yesterday.`"
+      },
+      {
+        "index": 3,
+        "text": "explaining",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป Continuous ไม่ใช่ Past Simple แบบบอกเล่า ที่ถูกคือ `explained` เช่น `The teacher explained the rules.`"
+      },
+      {
+        "index": 4,
+        "text": "was explained",
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย เป็น **passive voice** (ถูกอธิบาย) แต่ประโยคต้องการให้ครูเป็นผู้กระทำ ใช้ `explained` จะตรงกว่า เช่น `The teacher explained the instructions.`"
+      }
+    ]
+  },
+  {
+    "question": "We ____ the party at 9 p.m.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "started",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยา **regular** เติม `-ed`: `start → started` ใช้ Past Simple บอกเล่าว่าเหตุการณ์เริ่มและจบในอดีต โครงสร้างคือ __Subject + V2(-ed)__ เช่น `We started the party at 9 p.m.`"
+      },
+      {
+        "index": 2,
+        "text": "start",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปปัจจุบัน ไม่ใช่อดีต ต้องเป็น `started` เช่น `They started at nine.`"
+      },
+      {
+        "index": 3,
+        "text": "starting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **-ing** ซึ่งเป็น Continuous ไม่เข้ากับ Past Simple บอกเล่า รูปที่ถูกคือ `started` เช่น `We started early.`"
+      },
+      {
+        "index": 4,
+        "text": "were started",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **passive voice** (ถูกเริ่ม) แต่ประธาน `We` เป็นผู้กระทำเอง ควรใช้กริยา V2: `started` เช่น `We started the show.`"
+      }
+    ]
+  },
+  {
+    "question": "She ____ a new song on her guitar.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "played",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำที่ลงท้ายด้วยสระ + y ให้เติม `-ed` ได้เลย: `play → played` ใช้ Past Simple แบบบอกเล่า __Subject + V2(-ed)__ เช่น `She played a new song on her guitar.`"
+      },
+      {
+        "index": 2,
+        "text": "play",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะยังเป็นรูปปัจจุบัน ไม่ใช่อดีต รูปที่ถูกคือ `played` เช่น `She played yesterday.`"
+      },
+      {
+        "index": 3,
+        "text": "playing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **-ing** (Continuous) ไม่ใช่ Past Simple แบบบอกเล่า ที่ถูกคือ `played` เช่น `She played a song.`"
+      },
+      {
+        "index": 4,
+        "text": "plaied",
+        "is_correct": false,
+        "answer_description": "ผิดการสะกด คำที่ลงท้ายด้วยสระ + y ไม่เปลี่ยนเป็น `-ied` ต้องเป็น `-ed` เฉย ๆ รูปที่ถูกคือ `played` เช่น `They played music.`"
+      }
+    ]
+  },
+  {
+    "question": "The bus ____ at the next stop.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "stopped",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง `stop` เป็นแบบ **CVC** จึงต้อง **double p** ก่อนเติม `-ed`: `stop → stopped` ใช้ Past Simple บอกเล่าในรูป __Subject + V2(-ed)__ เช่น `The bus stopped at the next stop.`"
+      },
+      {
+        "index": 2,
+        "text": "stoped",
+        "is_correct": false,
+        "answer_description": "ผิดการสะกด เพราะไม่เพิ่มพยัญชนะตัวท้าย คำแบบ CVC ต้อง `stopped` เช่น `The car stopped suddenly.`"
+      },
+      {
+        "index": 3,
+        "text": "stopping",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **-ing** ไม่ใช่ Past Simple แบบบอกเล่า รูปถูกคือ `stopped` เช่น `It stopped there.`"
+      },
+      {
+        "index": 4,
+        "text": "stops",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป Present Simple บุรุษที่สามเอกพจน์ ไม่ใช่อดีต รูปอดีตคือ `stopped` เช่น `The bus stopped a minute ago.`"
+      }
+    ]
+  },
+  {
+    "question": "The baby ____ when he saw the clown.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "cried",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำที่ลงท้ายด้วยพยัญชนะ + y ให้เปลี่ยน **y → ied**: `cry → cried` ใช้ Past Simple โครงสร้าง __Subject + V2(-ed/ied)__ เช่น `The baby cried when he saw the clown.`"
+      },
+      {
+        "index": 2,
+        "text": "cryed",
+        "is_correct": false,
+        "answer_description": "ผิดการสะกด รูปที่ถูกคือ `cried` (เปลี่ยน y เป็น ied) เช่น `He cried loudly.`"
+      },
+      {
+        "index": 3,
+        "text": "cries",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป Present Simple (บุรุษที่สามเอกพจน์) ไม่ใช่อดีต รูปอดีตคือ `cried` เช่น `The baby cried.`"
+      },
+      {
+        "index": 4,
+        "text": "crying",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป Continuous ไม่ใช่ Past Simple แบบบอกเล่า ประโยคบอกเล่าควรใช้ `cried` เช่น `He cried when he fell.`"
+      }
+    ]
+  }
+]

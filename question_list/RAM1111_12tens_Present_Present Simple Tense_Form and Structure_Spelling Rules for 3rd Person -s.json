@@ -1,0 +1,321 @@
+[
+  {
+    "question": "He ____ to school every day.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "goes",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกริยา **go** เมื่อตามประธานบุคคลที่ 3 เอกพจน์ (he/she/it) ต้องเติม **-es** ไม่ใช่แค่ -s เนื่องจากลงท้ายด้วยตัวอักษร **o**. โครงสร้างที่ใช้คือ __`go + es → goes`__. ตัวอย่าง: `He goes to school every day.`"
+      },
+      {
+        "index": 2,
+        "text": "go",
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก เพราะประธานเป็น **He** ต้องใช้รูปกริยาที่เติม **-s/-es** ใน Present Simple. ตัวอย่างที่ถูกคือ `He goes to school.` ไม่ใช่ `He go to school.`"
+      },
+      {
+        "index": 3,
+        "text": "gos",
+        "is_correct": false,
+        "answer_description": "ผิดรูปสะกด เพราะคำว่า **go** ลงท้ายด้วย **o** ต้องเติม **-es** ไม่ใช่แค่ -s. รูปที่ถูกคือ `goes` เช่น `He goes home at 4.`"
+      },
+      {
+        "index": 4,
+        "text": "is going",
+        "is_correct": false,
+        "answer_description": "ผิดกาล/โครงสร้าง เพราะนี่เป็นรูป **Present Continuous** ไม่ใช่ Present Simple ที่ถามเรื่องเติม **-s**. ประโยคนี้ต้องเป็น `He goes...` ไม่ใช่ `He is going...`"
+      }
+    ]
+  },
+  {
+    "question": "She ____ TV on weekends.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "watches",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกริยา **watch** ลงท้ายด้วย **-ch** จึงต้องเติม **-es** กับบุคคลที่ 3 เอกพจน์. โครงสร้างคือ __`watch + es → watches`__. ตัวอย่าง: `She watches TV on weekends.`"
+      },
+      {
+        "index": 2,
+        "text": "watchs",
+        "is_correct": false,
+        "answer_description": "สะกดผิด กริยาที่ลงท้ายด้วย **-ch** ต้องเติม **-es** ไม่ใช่ -s. รูปที่ถูกคือ `watches` เช่น `She watches movies.`"
+      },
+      {
+        "index": 3,
+        "text": "watch",
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก เพราะประธานเป็น **She** ต้องใช้รูปกริยาที่เติม **-s/-es**. คำที่ถูกคือ `watches` ไม่ใช่ `watch` ในประโยคบอกเล่า."
+      },
+      {
+        "index": 4,
+        "text": "is watch",
+        "is_correct": false,
+        "answer_description": "ผิดโครงสร้าง เพราะตามหลัง **be (is)** ต้องเป็นกริยาเติม **-ing** ถ้าจะใช้รูปต่อเนื่อง. แต่โจทย์ทดสอบ **Present Simple** ที่ต้องเป็น `watches`."
+      }
+    ]
+  },
+  {
+    "question": "It ____ well with rice.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "goes",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกริยา **go** กับประธาน **It** ต้องเติม **-es** เนื่องจากลงท้ายด้วย **o**. โครงสร้างคือ __`go + es → goes`__. ตัวอย่าง: `It goes well with rice.` แปลว่า \"เข้ากันได้ดีกับข้าว\""
+      },
+      {
+        "index": 2,
+        "text": "go",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานบุคคลที่ 3 เอกพจน์ต้องเติม **-s/-es** ใน Present Simple. รูปที่ถูกคือ `goes` ไม่ใช่ `go`."
+      },
+      {
+        "index": 3,
+        "text": "going",
+        "is_correct": false,
+        "answer_description": "ผิดกาล/รูปคำ กำลังใช้รูป **-ing** ซึ่งเป็น Continuous ไม่ใช่รูปพื้นฐานของ Present Simple. ที่ถูกคือ `It goes ...`"
+      },
+      {
+        "index": 4,
+        "text": "is goes",
+        "is_correct": false,
+        "answer_description": "ผิดโครงสร้าง เพราะซ้อนกริยา **be + V-s** ซึ่งไม่ถูกใน Present Simple. ต้องใช้กริยาหลักตัวเดียว: `It goes...`"
+      }
+    ]
+  },
+  {
+    "question": "He ____ his homework after dinner.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "does",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกริยา **do** เมื่อใช้กับ **he/she/it** จะเปลี่ยนรูปเป็น **does** (กรณีพิเศษ). โครงสร้างคือ __`do → does`__ สำหรับบุคคลที่ 3 เอกพจน์. ตัวอย่าง: `He does his homework after dinner.`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก เพราะประธานเป็น **He** ต้องใช้รูปกริยาที่เปลี่ยนเป็น **does** ใน Present Simple. ตัวอย่างที่ถูก: `He does his homework.`"
+      },
+      {
+        "index": 3,
+        "text": "doe",
+        "is_correct": false,
+        "answer_description": "ผิดสะกด รูปที่ถูกสำหรับบุคคลที่ 3 คือ **does** ไม่ใช่ `doe`. ให้จำว่า `do → does` เช่น `She does exercises.`"
+      },
+      {
+        "index": 4,
+        "text": "doing",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะเป็นรูป **-ing** (Continuous) แต่โจทย์ถามรูป Present Simple สำหรับ he/she/it. ควรเป็น `does`."
+      }
+    ]
+  },
+  {
+    "question": "She ____ a new phone.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "has",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำกริยา **have** เป็นกรณีพิเศษ เมื่อใช้กับ **she/he/it** จะเปลี่ยนเป็น **has**. โครงสร้างคือ __`have → has`__ สำหรับบุคคลที่ 3 เอกพจน์. ตัวอย่าง: `She has a new phone.`"
+      },
+      {
+        "index": 2,
+        "text": "have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกับประธาน **She** ต้องใช้รูปพิเศษ **has** ไม่ใช่ `have`. ตัวอย่างที่ถูก: `She has a car.`"
+      },
+      {
+        "index": 3,
+        "text": "haves",
+        "is_correct": false,
+        "answer_description": "ผิดหลักสะกด เราไม่เติม **-s** กับ `have` ตรงๆ แต่ต้องแปลงรูปเป็น **has**. อย่าพิมพ์ `haves` นะ เช่น: `He has a bike.`"
+      },
+      {
+        "index": 4,
+        "text": "is having",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่รูปที่ต้องการ เพราะโจทย์เน้น **Present Simple** และกฎเติม **-s**. รูป `is having` เป็น **Present Continuous** ใช้เมื่อกำลังกระทำ ณ ขณะนั้น."
+      }
+    ]
+  },
+  {
+    "question": "My dad ____ the car on Sundays.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "washes",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยา **wash** ลงท้ายด้วย **-sh** จึงต้องเติม **-es** เมื่อประธานเป็นเอกพจน์บุคคลที่ 3. โครงสร้างคือ __`wash + es → washes`__. ตัวอย่าง: `My dad washes the car on Sundays.`"
+      },
+      {
+        "index": 2,
+        "text": "washs",
+        "is_correct": false,
+        "answer_description": "สะกดผิด สำหรับคำที่ลงท้ายด้วย **-sh** ต้องเติม **-es** ไม่ใช่ -s. คำที่ถูกคือ `washes` เช่น `He washes his hands often.`"
+      },
+      {
+        "index": 3,
+        "text": "wash",
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก เพราะประธานเป็น **My dad (he)** ต้องเติม **-s/-es** ใน Present Simple. คำที่ถูกคือ `washes`."
+      },
+      {
+        "index": 4,
+        "text": "is wash",
+        "is_correct": false,
+        "answer_description": "ผิดโครงสร้าง เพราะหลัง **is** ต้องใช้กริยา **-ing** หากเป็นรูปต่อเนื่อง. แต่ที่นี่ต้องใช้ Present Simple: `washes`."
+      }
+    ]
+  },
+  {
+    "question": "The bus ____ at 7 a.m.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "arrives",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำว่า **arrive** ลงท้ายด้วยสระ **e** ปกติคนมักสับสน แต่กฎคือกริยาทั่วไปเติม **-s** ได้เลย. โครงสร้างคือ __`arrive + s → arrives`__. ตัวอย่าง: `The bus arrives at 7 a.m.`"
+      },
+      {
+        "index": 2,
+        "text": "arrive",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเป็น **The bus (it)** ต้องเติม **-s/-es** ใน Present Simple. ที่ถูกคือ `arrives`."
+      },
+      {
+        "index": 3,
+        "text": "arriveses",
+        "is_correct": false,
+        "answer_description": "สะกดเกินไป เติม **-s** แล้วไม่ต้องเติม **-es** ซ้ำ. รูปที่ถูกต้องคือ `arrives` เท่านั้น เช่น `It arrives on time.`"
+      },
+      {
+        "index": 4,
+        "text": "is arriving",
+        "is_correct": false,
+        "answer_description": "นี่เป็นรูป **Present Continuous** ไม่ตรงกับโจทย์ที่เน้นกฎเติม **-s** ใน Present Simple. ประโยคควรเป็น `The bus arrives...`"
+      }
+    ]
+  },
+  {
+    "question": "The baby ____ at night sometimes.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "cries",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกริยา **cry** ลงท้ายด้วย **พยัญชนะ + y** จึงต้องเปลี่ยน **y → ies** เมื่อใช้กับ he/she/it. โครงสร้างคือ __`cry → cr(ies)`__ หรือ `drop y + add -ies`. ตัวอย่าง: `The baby cries at night sometimes.`"
+      },
+      {
+        "index": 2,
+        "text": "cry",
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะประธานเป็น **The baby (it)** ต้องผันรูป โดย `cry` ต้องกลายเป็น `cries`. เช่น `She cries easily.`"
+      },
+      {
+        "index": 3,
+        "text": "crys",
+        "is_correct": false,
+        "answer_description": "สะกดผิด สำหรับคำลงท้าย **พยัญชนะ + y** ต้องเปลี่ยน **y เป็น -ies** ไม่ใช่เติม -s ตรงๆ. รูปที่ถูกคือ `cries`."
+      },
+      {
+        "index": 4,
+        "text": "cryes",
+        "is_correct": false,
+        "answer_description": "ผิดกฎการเปลี่ยนสะกด เราไม่เติม `-es` ตรงๆ หลัง y แต่ต้องเปลี่ยน **y → ies**. ตัวอย่างที่ถูก: `He tries`, `She carries`."
+      }
+    ]
+  },
+  {
+    "question": "My mom ____ pasta very well.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "cooks",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยาทั่วไปอย่าง **cook** แค่เติม **-s** เมื่อประธานเป็น **she/he/it**. โครงสร้างคือ __`cook + s → cooks`__. ตัวอย่าง: `My mom cooks pasta very well.`"
+      },
+      {
+        "index": 2,
+        "text": "cookes",
+        "is_correct": false,
+        "answer_description": "สะกดผิด คำว่า **cook** ไม่ใช่คำที่ลงท้ายด้วย s, sh, ch, x, o จึงไม่ต้องเติม **-es**. ใช้ `cooks` ก็พอ เช่น `He cooks dinner.`"
+      },
+      {
+        "index": 3,
+        "text": "cook",
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก เพราะประธานเป็น **My mom (she)** จึงต้องเติม **-s** ใน Present Simple. รูปที่ถูกคือ `cooks`."
+      },
+      {
+        "index": 4,
+        "text": "is cook",
+        "is_correct": false,
+        "answer_description": "ผิดโครงสร้าง เพราะหลัง **is** ต้องตามด้วยกริยา **-ing** หากเป็นรูปต่อเนื่อง. แต่โจทย์เน้นกฎเติม **-s** ควรใช้ `cooks`."
+      }
+    ]
+  },
+  {
+    "question": "The soda ____ over the table.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "fizzes",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกริยา **fizz** ลงท้ายด้วยเสียง s/ซ (ตัวอักษร z) จึงเติม **-es** เมื่อเป็นบุคคลที่ 3 เอกพจน์. โครงสร้างคือ __`fizz + es → fizzes`__. ตัวอย่าง: `The soda fizzes over the table.`"
+      },
+      {
+        "index": 2,
+        "text": "fizzs",
+        "is_correct": false,
+        "answer_description": "สะกดผิด คำที่ลงท้ายด้วยเสียง s อย่าง **z, s, sh, ch, x** ต้องเติม **-es** ไม่ใช่ -s. รูปที่ถูกคือ `fizzes`."
+      },
+      {
+        "index": 3,
+        "text": "fizz",
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก เพราะประธานเป็น **The soda (it)** ต้องผันเป็นรูปเติม **-s/-es**. รูปที่ถูกคือ `fizzes`."
+      },
+      {
+        "index": 4,
+        "text": "is fizzing",
+        "is_correct": false,
+        "answer_description": "นี่เป็น **Present Continuous** ซึ่งไม่ตรงกับโจทย์ที่ถามกฎสะกด **-s** สำหรับบุคคลที่ 3. ใน Present Simple ควรใช้ `fizzes`."
+      }
+    ]
+  },
+  {
+    "question": "He ____ video games after school.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "plays",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกริยา **play** ลงท้ายด้วย **สระ + y** (a + y) จึงเติมแค่ **-s** ไม่ต้องเปลี่ยน y เป็น i. โครงสร้างคือ __`play + s → plays`__. ตัวอย่าง: `He plays video games after school.`"
+      },
+      {
+        "index": 2,
+        "text": "plaies",
+        "is_correct": false,
+        "answer_description": "สะกดผิด กฎเปลี่ยน **y → ies** ใช้กับ **พยัญชนะ + y** เท่านั้น เช่น `try → tries`. สำหรับ `play` (สระ + y) ต้องเป็น `plays`."
+      },
+      {
+        "index": 3,
+        "text": "play",
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก เพราะประธานเป็น **He** ต้องเติม **-s/-es** ใน Present Simple. คำที่ถูกคือ `plays`."
+      },
+      {
+        "index": 4,
+        "text": "playes",
+        "is_correct": false,
+        "answer_description": "สะกดผิด เพราะ `play` ไม่ได้ลงท้ายด้วย s, sh, ch, x, o จึงไม่ต้องเติม **-es**. รูปที่ถูกคือ `plays` เช่น `She plays tennis.`"
+      }
+    ]
+  }
+]

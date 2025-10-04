@@ -1,0 +1,321 @@
+[
+  {
+    "question": "Many smartphones ___ in China.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are made",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นประโยค **Present Simple Passive** ใช้เมื่อเน้นผู้ถูกกระทำ และพูดถึงความจริงทั่วไป โครงสร้างคือ __be (are) + V3 (made)__ เช่น `Many smartphones are made in China.` ตัวอย่างใช้จริง: `Cars are produced in many countries.`"
+      },
+      {
+        "index": 2,
+        "text": "make",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **Active (V1)** ซึ่งต้องมีประธานผู้กระทำ เช่น `Factories make smartphones.` แต่ประโยคนี้ต้องการเน้นสิ่งของที่ถูกผลิต ควรใช้ **Passive**: `are made`."
+      },
+      {
+        "index": 3,
+        "text": "are making",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous** (`are + V-ing`) และยังเป็น Active ถ้าจะทำเป็น Passive Continuous ต้องเป็น `are being made` ซึ่งไม่เข้ากับความจริงทั่วไป ใช้ `are made` ดีกว่า."
+      },
+      {
+        "index": 4,
+        "text": "made",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยา **be** ทำให้เป็นเพียง V3 ลอยๆ โครงสร้าง Passive ต้องมี `be + V3` เช่น `are made` ไม่ใช่แค่ `made`."
+      }
+    ]
+  },
+  {
+    "question": "The novel ___ by George Orwell in 1949.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "was written",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **Past Simple Passive** เพราะกล่าวถึงเหตุการณ์ที่เสร็จสิ้นในอดีต พร้อมระบุผู้กระทำด้วย `by ...` โครงสร้างคือ __was + V3 (written)__ เช่น `The novel was written by George Orwell in 1949.` อีกตัวอย่าง: `The bridge was completed in 2010.`"
+      },
+      {
+        "index": 2,
+        "text": "wrote",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Active (V2)** ต้องมีประธานผู้กระทำชัดเจน เช่น `George Orwell wrote the novel in 1949.` แต่ประโยคนี้ต้องการเน้นนิยายที่ถูกเขียน จึงควรใช้ Passive."
+      },
+      {
+        "index": 3,
+        "text": "has written",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Perfect Active** และยังไม่มีกรรมตามหลัง (ใครเขียนอะไร) อีกทั้งมีปีที่ชัดเจน (1949) จึงควรใช้ Past Simple Passive: `was written`."
+      },
+      {
+        "index": 4,
+        "text": "was write",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ V1 หลัง `was` ซึ่งผิดรูป ใน Passive ต้องใช้ **V3** เสมอ ตัวที่ถูกคือ `was written` ไม่ใช่ `was write`."
+      }
+    ]
+  },
+  {
+    "question": "The tickets ___ already been sold.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "have",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **Present Perfect Passive** สำหรับประธานพหูพจน์ (tickets) โครงสร้างคือ __have + been + V3__ และวาง `already` หน้า `been` ได้ เช่น `The tickets have already been sold.` อีกตัวอย่าง: `The rooms have been cleaned.`"
+      },
+      {
+        "index": 2,
+        "text": "has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้กับประธานเอกพจน์ แต่ `tickets` เป็นพหูพจน์ จึงต้องใช้ `have` ไม่ใช่ `has` เช่น `The tickets have been sold.`"
+      },
+      {
+        "index": 3,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะถ้าใช้ `are` จะเป็น **Present Simple Passive** (`are sold`) ซึ่งไม่เข้ากับคำว่า `already been` อยู่แล้ว โครงสร้างที่ถูกต้องคือ `have been sold`."
+      },
+      {
+        "index": 4,
+        "text": "were",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Past Simple (`were sold`) แต่ในประโยคนี้มี `already been` บอกชัดว่าเป็น **Present Perfect Passive** จึงต้องใช้ `have`."
+      }
+    ]
+  },
+  {
+    "question": "The meeting ___ to next Monday.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be moved",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **Future Passive** ใช้เมื่อสิ่งหนึ่งจะถูกกระทำในอนาคต โครงสร้างคือ __will + be + V3__ เช่น `The meeting will be moved to next Monday.` ตัวอย่างเพิ่ม: `The deadline will be extended.`"
+      },
+      {
+        "index": 2,
+        "text": "will move",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Active** และสื่อว่าการประชุมเป็นผู้เคลื่อนย้ายตัวเอง ซึ่งไม่สมเหตุผล ควรใช้ Passive: `will be moved` เพื่อให้เข้าใจว่ามีคนเลื่อนการประชุม."
+      },
+      {
+        "index": 3,
+        "text": "is move",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `is` ต้องตามด้วย V-ing หรือ V3 ในรูป Passive ที่ถูกต้องคือ `is moved` (Present Simple Passive) แต่ที่เหมาะที่สุดกับอนาคตคือ `will be moved`."
+      },
+      {
+        "index": 4,
+        "text": "will be move",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `be` ต้องเป็น **V3** ไม่ใช่ V1 รูปที่ถูกต้องคือ `will be moved`."
+      }
+    ]
+  },
+  {
+    "question": "The package ___ delivered yesterday.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "was",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **Past Simple Passive** ใช้กับเหตุการณ์ที่เกิดขึ้นแล้วเมื่อวาน โครงสร้างคือ __was + V3 (delivered)__ เช่น `The package was delivered yesterday.` อีกตัวอย่าง: `The letter was sent last night.`"
+      },
+      {
+        "index": 2,
+        "text": "were",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `package` เป็นเอกพจน์ ต้องใช้ `was` ไม่ใช่ `were` เช่น `The package was delivered.`"
+      },
+      {
+        "index": 3,
+        "text": "has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะถ้าใช้ `has` จะต้องเป็น **Present Perfect Passive** (`has been delivered`) แต่มีคำบอกเวลาอดีตชัดเจน `yesterday` จึงควรใช้ Past Simple: `was delivered`."
+      },
+      {
+        "index": 4,
+        "text": "being",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `being` ต้องตามหลัง `is/was/were` เพื่อทำ Continuous/Passive (`is being delivered`) และไม่เข้ากับคำว่า `yesterday` ที่ต้องการ Past Simple."
+      }
+    ]
+  },
+  {
+    "question": "This problem ___ by beginners.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "can be solved",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **Modal Passive** ใช้กับกริยา modal (can) โครงสร้างคือ __modal + be + V3__ เช่น `This problem can be solved by beginners.` ตัวอย่างเพิ่มเติม: `The task can be done in an hour.`"
+      },
+      {
+        "index": 2,
+        "text": "can solve",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Active** ต้องมีประธานผู้กระทำหน้ากริยา เช่น `Beginners can solve this problem.` แต่ตำแหน่งในประโยคนี้คือผู้ถูกกระทำ จึงต้องใช้ Passive: `can be solved`."
+      },
+      {
+        "index": 3,
+        "text": "is solving",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous Active** (`is + V-ing`) และยังขัดกับประธานที่เป็นสิ่งของ (`problem`) ซึ่งไม่ใช่ผู้กระทำ ควรใช้ Passive `can be solved`."
+      },
+      {
+        "index": 4,
+        "text": "solved",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยา **be** ทำให้เป็น V3 ลอยๆ โครงสร้าง Passive ที่ถูกต้องต้องมี `be`: `can be solved`."
+      }
+    ]
+  },
+  {
+    "question": "The documents need ___ before noon.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "to be signed",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้รูป **Passive infinitive** เมื่อแสดงว่าสิ่งของต้องถูกกระทำ โครงสร้างคือ __need + to be + V3__ เช่น `The documents need to be signed before noon.` ตัวอย่างเพิ่ม: `The report needs to be reviewed.`"
+      },
+      {
+        "index": 2,
+        "text": "to sign",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Active infinitive** หมายถึงเอกสารต้องไปเซ็นคนอื่น ซึ่งไม่ตรง ต้องการสื่อว่าเอกสาร 'ถูกเซ็น' จึงใช้ `to be signed`."
+      },
+      {
+        "index": 3,
+        "text": "being signed",
+        "is_correct": false,
+        "answer_description": "ผิด ในมาตรฐานทั่วไปหลัง `need` นิยมใช้ **to-infinitive** มากกว่า และถ้าจะใช้ Passive ให้เป็น `to be signed` ไม่ใช่ `being signed` เช่น `need to be checked`."
+      },
+      {
+        "index": 4,
+        "text": "signed",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น V3 เดี่ยวๆ ขาดโครงสร้าง อินฟินิทิฟที่ถูกคือ `to be signed` เช่น `Documents need to be filed.`"
+      }
+    ]
+  },
+  {
+    "question": "A new bridge ___ over the river now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is being built",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **Present Continuous Passive** ใช้กับเหตุการณ์ที่กำลังดำเนินอยู่ตอนนี้ โครงสร้างคือ __am/is/are + being + V3__ เช่น `A new bridge is being built now.` อีกตัวอย่าง: `The road is being repaired.`"
+      },
+      {
+        "index": 2,
+        "text": "is building",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous Active** หมายถึงสะพานกำลังก่อสร้างบางอย่างเอง ซึ่งไม่สมเหตุผล ต้องใช้ Passive: `is being built`."
+      },
+      {
+        "index": 3,
+        "text": "is built now",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `is built` เป็น **Present Simple Passive** สื่อถึงข้อเท็จจริงทั่วไป ไม่ใช่การกระทำที่กำลังเกิดขึ้นคำว่า `now` จึงควรใช้ Continuous: `is being built`."
+      },
+      {
+        "index": 4,
+        "text": "are being built",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน `A new bridge` เป็นเอกพจน์ ต้องใช้ `is` ไม่ใช่ `are` โครงสร้างที่ถูกคือ `is being built`."
+      }
+    ]
+  },
+  {
+    "question": "Our classroom ___ every day.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is cleaned",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **Present Simple Passive** เพื่อพูดถึงกิจวัตรหรือความถี่ โครงสร้างคือ __am/is/are + V3__ เช่น `Our classroom is cleaned every day.` ตัวอย่างเพิ่ม: `The office is cleaned weekly.`"
+      },
+      {
+        "index": 2,
+        "text": "cleans",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Active** สื่อว่าห้องเรียนทำความสะอาดเอง ซึ่งไม่ถูก ต้องใช้ Passive เพื่อบอกว่ามีคนมาทำความสะอาดห้อง: `is cleaned`."
+      },
+      {
+        "index": 3,
+        "text": "is cleaning",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous Active** (`is + V-ing`) และประธานเป็นสิ่งของ ไม่ใช่ผู้กระทำ รูปที่ถูกคือ Passive: `is cleaned`."
+      },
+      {
+        "index": 4,
+        "text": "was cleaned",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นอดีตกาล (`was cleaned`) แต่มีคำบอกความถี่ `every day` ที่สื่อถึงกิจวัตรปัจจุบัน จึงควรใช้ Present Simple Passive: `is cleaned`."
+      }
+    ]
+  },
+  {
+    "question": "She ___ in 1995.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "was born",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้สำนวนคงรูป **be born** ซึ่งเป็น Passive ตามธรรมชาติ โครงสร้างคือ __was + born__ เมื่อต้องการบอกปีเกิด เช่น `She was born in 1995.` ตัวอย่างเพิ่ม: `I was born in Bangkok.`"
+      },
+      {
+        "index": 2,
+        "text": "is born",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกล่าวถึงปีที่เสร็จสิ้นแล้ว (1995) ควรใช้ Past Simple `was born` ไม่ใช่ `is born`."
+      },
+      {
+        "index": 3,
+        "text": "born",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยา **be** สำนวนนี้ต้องใช้คู่กับ `be` เสมอ เช่น `She was born in 1995.`"
+      },
+      {
+        "index": 4,
+        "text": "was borne",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `borne` เป็น V3 ของ `bear` ในความหมาย 'แบกรับ/อุ้ม' ไม่ใช่รูปสำนวนเกิด ต้องใช้ `born` ในสำนวน `be born` เท่านั้น เช่น `He was born in 2000.`"
+      }
+    ]
+  },
+  {
+    "question": "All the instructions ___ clearly on the website.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are explained",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **Present Simple Passive** เพื่อบอกข้อเท็จจริงทั่วไป โครงสร้างคือ __am/is/are + V3__ เช่น `All the instructions are explained clearly on the website.` ตัวอย่างเพิ่ม: `The rules are posted at the entrance.`"
+      },
+      {
+        "index": 2,
+        "text": "explain",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Active (V1)** แต่ประธานเป็นสิ่งของ (`instructions`) ไม่ใช่ผู้กระทำ จึงควรใช้ Passive: `are explained`."
+      },
+      {
+        "index": 3,
+        "text": "are explaining",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous** ซึ่งเน้นกำลังกระทำตอนนี้ แต่บริบทเป็นข้อมูลทั่วไปบนเว็บไซต์ ควรใช้ Present Simple Passive: `are explained`."
+      },
+      {
+        "index": 4,
+        "text": "were explained",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นอดีตกาล แต่ประโยคไม่มีตัวบอกเวลาอดีต และมีลักษณะเป็นความจริงทั่วไปบนเว็บ ควรใช้ `are explained`."
+      }
+    ]
+  }
+]

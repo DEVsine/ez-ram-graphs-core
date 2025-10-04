@@ -1,0 +1,321 @@
+[
+  {
+    "question": "My brother ___ to school by bus.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "goes",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธานเป็นเอกพจน์บุคคลที่ 3 (my brother) ต้องใช้กริยาเติม -s/-es รูป __Subject + verb-s/es__. ตัวอย่าง: `My brother goes to school by bus.` และ `She goes to work at 9.`"
+      },
+      {
+        "index": 2,
+        "text": "go",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกริยารูปธรรมดา `go` ใช้กับประธาน I/You/We/They เท่านั้น ไม่ใช่กับเอกพจน์บุคคลที่ 3 เช่น `He go to school` ผิด ควรเป็น `He goes to school`."
+      },
+      {
+        "index": 3,
+        "text": "is go",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา `be + base verb` มาวางคู่กัน ซึ่งไม่ใช่โครงสร้าง Present Simple สำหรับกริยากระทำ เช่น `He is go` ผิด ควรใช้ `He goes` หรือถ้าจะใช้ Continuous ต้องเป็น `He is going` (แต่ประโยคนี้พูดถึงนิสัย/กิจวัตร)."
+      },
+      {
+        "index": 4,
+        "text": "going",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `going` ต้องมี `be` นำหน้าในโครงสร้าง Continuous (`is/are/am + going`) และใช้กับเหตุการณ์กำลังเกิด ไม่ใช่กิจวัตร เช่น `He is going now.` แต่ประโยคนี้เป็นกิจวัตรประจำวัน ต้องใช้ Present Simple: `goes`."
+      }
+    ]
+  },
+  {
+    "question": "They ___ soccer on weekends.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "often play",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตำแหน่ง **adverb of frequency** (เช่น often) วางหน้า **กริยาหลัก** ในโครงสร้าง __adverb + base verb__ เมื่อประธานเป็นพหูพจน์. ตัวอย่าง: `They often play soccer on weekends.` และ `We usually eat at home.`"
+      },
+      {
+        "index": 2,
+        "text": "play often",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะ adverb of frequency ปกติวางหน้า **กริยาหลัก** ไม่ใช่ไว้หลัง เช่น `They play often soccer` ฟังแปลกและผิดตำแหน่ง ควรเป็น `They often play soccer`."
+      },
+      {
+        "index": 3,
+        "text": "are often play",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา `be` มานำหน้ากริยาหลักรูปเดิม (`play`) ซึ่งไม่ถูกโครงสร้าง เช่น `They are play` ผิด ถ้าจะใช้ `be` ต้องเป็น `are often playing` (Continuous) แต่ที่นี่พูดถึงนิสัย จึงใช้ Present Simple ดีกว่า."
+      },
+      {
+        "index": 4,
+        "text": "plays often",
+        "is_correct": false,
+        "answer_description": "ผิดสองชั้นเลย: 1) ประธาน `They` เป็นพหูพจน์ ห้ามเติม -s ที่ `play` 2) วาง `often` ไว้หลังผิดตำแหน่ง ควรเป็น `They often play ...`."
+      }
+    ]
+  },
+  {
+    "question": "She ___ coffee because it makes her nervous.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "doesn't drink",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างปฏิเสธ Present Simple ใช้ __doesn't + base verb__ กับประธานเอกพจน์บุคคลที่ 3. ตัวอย่าง: `She doesn't drink coffee.` และ `He doesn't eat spicy food.`"
+      },
+      {
+        "index": 2,
+        "text": "don't drink",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `don't` ใช้กับ I/You/We/They ไม่ใช่กับ `She` ควรเป็น `doesn't` เช่น `She don't drink` ผิด ต้อง `She doesn't drink`."
+      },
+      {
+        "index": 3,
+        "text": "isn't drink",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา `be + not` ไปใช้กับกริยารูปธรรมดา ซึ่งไม่ใช่โครงสร้าง Present Simple ปฏิเสธ เช่น `She isn't drink` ผิด ควรเป็น `She doesn't drink`."
+      },
+      {
+        "index": 4,
+        "text": "doesn't drinks",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `doesn't` ต้องใช้กริยารูป **base verb** ไม่เติม -s เช่น `doesn't drinks` ผิด ตัวที่ถูกคือ `doesn't drink`."
+      }
+    ]
+  },
+  {
+    "question": "___ your parents live nearby?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำถาม Present Simple สำหรับประธานพหูพจน์ใช้ __Do + subject + base verb__. ตัวอย่าง: `Do your parents live nearby?` และ `Do they work here?`"
+      },
+      {
+        "index": 2,
+        "text": "Are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Are` ใช้กับคำถามที่มีกริยา **be** หรือคำคุณศัพท์/สถานะ เช่น `Are your parents at home?` แต่ประโยคนี้มีกริยา `live` ต้องใช้ `Do/Does`."
+      },
+      {
+        "index": 3,
+        "text": "Does",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจากประธาน `your parents` เป็นพหูพจน์ ต้องใช้ `Do` ไม่ใช่ `Does` เช่น `Does your parents live...?` ผิด ควรเป็น `Do your parents live...?`"
+      },
+      {
+        "index": 4,
+        "text": "Did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Did` เป็นอดีตกาล (Past Simple) แต่ประโยคนี้ถามเรื่องทั่วไปปัจจุบัน ควรใช้ `Do` เช่น `Do your parents live nearby?`."
+      }
+    ]
+  },
+  {
+    "question": "He ___ always tired after work.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อใช้คำคุณศัพท์ (`tired`) ต้องใช้กริยา **be** โครงสร้าง __be + adverb of frequency + adjective__. ตัวอย่าง: `He is always tired after work.` และ `She is usually happy in the morning.`"
+      },
+      {
+        "index": 2,
+        "text": "always is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะตำแหน่ง adverb ของ **be** ต้องวางหลัง `be` เช่น `is always`, ไม่ใช่ `always is`. ตัวอย่างที่ถูก: `He is always tired.`"
+      },
+      {
+        "index": 3,
+        "text": "be",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `be` เป็นรูป infinitive ต้องผันให้เข้ากับประธาน `He` เป็น `is`. เช่น `He be always tired` ผิด ต้อง `He is always tired`."
+      },
+      {
+        "index": 4,
+        "text": "does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `does` ใช้กับกริยากระทำ (action verbs) ใน Present Simple ไม่ใช่กับคำคุณศัพท์ เช่น `He does tired` ไม่มีความหมาย ต้องใช้ `is tired`."
+      }
+    ]
+  },
+  {
+    "question": "I ___ this soup.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "like",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยา **stative verb** อย่าง `like` ใช้ใน __Present Simple (base form)__ เพื่อบอกความชอบ/ความคิดเห็น. ตัวอย่าง: `I like this soup.` และ `She likes jazz.`"
+      },
+      {
+        "index": 2,
+        "text": "am liking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกริยาแสดงสภาวะ (stative) อย่าง `like` โดยทั่วไปไม่ใช้รูป Continuous เช่น `I am liking this soup` ฟังแปลก ควรเป็น `I like this soup`."
+      },
+      {
+        "index": 3,
+        "text": "likes",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `likes` ใช้กับประธานเอกพจน์บุคคลที่ 3 (he/she/it) แต่ประธานที่นี่คือ `I` ต้องใช้ `like` เช่น `I like`, ไม่ใช่ `I likes`."
+      },
+      {
+        "index": 4,
+        "text": "am like",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้าง `be + like` จะกลายเป็นการเปรียบเทียบลักษณะ เช่น `I am like my father` (ฉันเหมือนพ่อ) ซึ่งไม่ใช่ความหมาย “ชอบ” ที่ต้องใช้ `like` เป็นกริยาหลัก."
+      }
+    ]
+  },
+  {
+    "question": "We ___ to the gym every day.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "go",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง พูดถึงกิจวัตรประจำวัน ใช้ Present Simple รูป __Subject + base verb__ กับ `We`. ตัวอย่าง: `We go to the gym every day.` และ `We study English on weekdays.`"
+      },
+      {
+        "index": 2,
+        "text": "goes",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `goes` ใช้กับประธานเอกพจน์บุคคลที่ 3 เท่านั้น เช่น `He goes`. สำหรับ `We` ต้องใช้ `go`."
+      },
+      {
+        "index": 3,
+        "text": "are go",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนำ `be` มาหน้ากริยารูปเดิม ซึ่งไม่ถูก เช่น `We are go` ผิด ถ้าจะใช้ Continuous ต้องเป็น `We are going` แต่ที่นี่เป็นกิจวัตรควรใช้ Present Simple: `go`."
+      },
+      {
+        "index": 4,
+        "text": "are going",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะประโยคมีคำบอกความถี่ `every day` สื่อกิจวัตร ควรใช้ Present Simple ไม่ใช่ Continuous เช่น `We go to the gym every day.`"
+      }
+    ]
+  },
+  {
+    "question": "The train ___ at 7:30 p.m.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "leaves",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตารางเวลา/กำหนดการคงที่ใช้ Present Simple รูป __Subject (singular) + verb-s__. ตัวอย่าง: `The train leaves at 7:30 p.m.` และ `The movie starts at 8.`"
+      },
+      {
+        "index": 2,
+        "text": "is leaving",
+        "is_correct": false,
+        "answer_description": "ผิดในหลักทั่วไปของตารางเวลา เพราะกำหนดการใช้ Present Simple ไม่ใช่ Continuous เช่น `The train is leaving at 7:30` ใช้ได้ในบางบริบทเฉพาะ แต่รูปมาตรฐานคือ `leaves`."
+      },
+      {
+        "index": 3,
+        "text": "leave",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเป็นเอกพจน์ (`The train`) ต้องเติม -s ที่กริยา เป็น `leaves` ไม่ใช่ `leave` เช่น `It leaves...`."
+      },
+      {
+        "index": 4,
+        "text": "will leave",
+        "is_correct": false,
+        "answer_description": "ผิดในแนวใช้มาตรฐานสำหรับตารางเวลา เพราะเรานิยมใช้ Present Simple มากกว่า เช่น `The train leaves at 7:30.` `Will leave` ใช้ได้แต่ไม่เป็นธรรมชาติสำหรับกำหนดการสาธารณะ."
+      }
+    ]
+  },
+  {
+    "question": "My friends ___ lunch at noon.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "have",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธานพหูพจน์ (`My friends`) ใช้กริยารูปพื้นฐาน __Subject (plural) + base verb__. ตัวอย่าง: `My friends have lunch at noon.` และ `They have classes in the morning.`"
+      },
+      {
+        "index": 2,
+        "text": "has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `has` ใช้กับประธานเอกพจน์บุคคลที่ 3 เช่น `He has`, `She has`. สำหรับ `My friends` (พหูพจน์) ต้องใช้ `have`."
+      },
+      {
+        "index": 3,
+        "text": "is having",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทกิจวัตร (`at noon` ทุกวัน) ควรใช้ Present Simple ไม่ใช่ Continuous เช่น `They are having lunch at noon` จะสื่อว่า“ตอนนี้”มากกว่า."
+      },
+      {
+        "index": 4,
+        "text": "having",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `having` ต้องมี `be` นำหน้า (เช่น `are having`) หรือทำหน้าที่เป็นคำนาม/วลีในบางกรณี ที่นี่ต้องการกริยาแท้ในประโยค ใช้ `have`."
+      }
+    ]
+  },
+  {
+    "question": "What time ___ the store open?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "does",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำถาม Wh- ใน Present Simple ใช้ __Wh- + does + subject + base verb__ เมื่อประธานเป็นเอกพจน์ เช่น `the store`. ตัวอย่าง: `What time does the store open?` และ `When does he finish?`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน `the store` เป็นเอกพจน์ ต้องใช้ `does` ไม่ใช่ `do`. ตัวอย่างที่ถูก: `What time does the store open?`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้างคำถามนี้ใช้กับกริยาแท้ `open` จึงต้องใช้ `do/does` ช่วย ไม่ใช่ `be`. เช่น `What time is the store open?` ใช้ได้ในความหมายสถานะเปิดอยู่ แต่ไม่ตรงกับตารางเวลาเปิด."
+      },
+      {
+        "index": 4,
+        "text": "does opens",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `does` ต้องใช้กริยารูป **base** ไม่เติม -s จึงไม่ควรเป็น `opens`. รูปที่ถูกคือ `does open` เช่น `What time does the store open?`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ her homework every evening.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "does",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธานเอกพจน์บุคคลที่ 3 ใช้กริยา `do` รูป __does__ เมื่อตามด้วยกรรม `her homework`. ตัวอย่าง: `She does her homework every evening.` และ `He does the dishes after dinner.`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `do` ใช้กับ I/You/We/They แต่ประธานคือ `She` ต้องผันเป็น `does`. เช่น `She do her homework` ผิด ควรเป็น `She does her homework`."
+      },
+      {
+        "index": 3,
+        "text": "is doing",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทกิจวัตร (`every evening`) ซึ่งควรใช้ Present Simple ไม่ใช่ Continuous เช่น `She is doing her homework every evening` ฟังไม่ธรรมชาติ ควร `She does...`"
+      },
+      {
+        "index": 4,
+        "text": "doe",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `doe` เป็นคำสะกดผิด (และยังเป็นคำนามแปลว่า “กวางตัวเมีย” ด้วย) รูปกริยาที่ถูกต้องคือ `does` สำหรับ `She`."
+      }
+    ]
+  }
+]

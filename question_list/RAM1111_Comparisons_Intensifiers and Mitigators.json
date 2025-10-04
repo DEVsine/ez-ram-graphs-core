@@ -1,0 +1,321 @@
+[
+  {
+    "question": "This route is ___ shorter than the other one.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "much",
+        "is_correct": true,
+        "answer_description": "ถูกต้องจ้า เพราะการเน้นระดับของขั้นกว่าใช้รูปแบบ __much + comparative__ เช่น `much shorter`, `much better`. ใช้เมื่อต้องการบอกว่า “สั้นกว่ามาก” เช่น `This route is much shorter than the other one.`"
+      },
+      {
+        "index": 2,
+        "text": "very",
+        "is_correct": false,
+        "answer_description": "ผิดนะ เพราะ **very** ไม่ใช้ขยายขั้นกว่าโดยตรง เราไม่พูด `very shorter` แต่ใช้กับคุณศัพท์ธรรมดา เช่น `very short`. ถ้าจะเน้นขั้นกว่า ให้ใช้ `much/far/a lot/way + comparative` เช่น `much shorter`."
+      },
+      {
+        "index": 3,
+        "text": "too",
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะ **too** หมายถึง “มากเกินไป” และมักใช้โครงสร้าง `too + adjective` เช่น `too short` (สั้นเกินไป) ไม่ใช่เพื่อเปรียบเทียบสองสิ่ง เช่น `too shorter` จึงผิดรูปแบบ"
+      },
+      {
+        "index": 4,
+        "text": "enough",
+        "is_correct": false,
+        "answer_description": "ไม่ถูกจ้า **enough** จะวางหลังคุณศัพท์ เช่น `short enough` และไม่ได้ใช้ขยายขั้นกว่าแบบ `shorter`. ถ้าจะเน้นขั้นกว่าให้ใช้ `much/far/a lot/way + comparative` เช่น `much shorter`."
+      }
+    ]
+  },
+  {
+    "question": "Her new laptop is ___ faster than her old one.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "slightly",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะต้องการลดระดับความต่าง ใช้รูปแบบ __slightly/a little/a bit + comparative__ เช่น `slightly faster` หมายถึง “เร็วขึ้นนิดหน่อย”. ตัวอย่าง: `The bus is slightly faster than walking.`"
+      },
+      {
+        "index": 2,
+        "text": "very",
+        "is_correct": false,
+        "answer_description": "ผิดจ้า **very** ไม่ใช้กับขั้นกว่า (`very faster` ผิด) ควรใช้กับคำคุณศัพท์ธรรมดา เช่น `very fast`. ถ้าอยากเน้นขั้นกว่าใช้ `much/far` หรือถ้าลดระดับใช้ `slightly/a bit`."
+      },
+      {
+        "index": 3,
+        "text": "so much",
+        "is_correct": false,
+        "answer_description": "ยังไม่แม่น เพราะ `so much` มักตามด้วยคำนาม (`so much time`) หรือใช้ในโครงสร้าง `so much + comparative + that` ที่เฉพาะเจาะจงกว่า เช่น `so much faster that...` ซึ่งไม่เข้ากับช่องว่างสั้นๆนี้"
+      },
+      {
+        "index": 4,
+        "text": "extremely",
+        "is_correct": false,
+        "answer_description": "ไม่ถูก **extremely** ขยายคุณศัพท์ธรรมดา เช่น `extremely fast` แต่ไม่ใช้กับขั้นกว่าโดยตรง (`extremely faster` ผิดธรรมชาติ). ถ้าจะบอก “เร็วขึ้นเล็กน้อย” ใช้ `slightly faster` ดีกว่า"
+      }
+    ]
+  },
+  {
+    "question": "The afternoon session was ___ more interesting than the morning one.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "even",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __even + comparative__ เพื่อเน้นว่า “ยิ่งกว่าเดิม” หรือ “ยิ่งกว่าอีก” เช่น `even more interesting`. ตัวอย่าง: `This chapter is even harder than the previous one.`"
+      },
+      {
+        "index": 2,
+        "text": "ever",
+        "is_correct": false,
+        "answer_description": "ผิดนะ **ever** มักใช้กับคำถามหรือ superlative (`the best ever`) ไม่ได้ใช้ขยายขั้นกว่าโดยตรงแบบ `ever more interesting`. คำที่ถูกคือ `even more interesting`."
+      },
+      {
+        "index": 3,
+        "text": "very",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่จ้า `very more interesting` ผิดหลัก เพราะ **very** ไม่ใช้กับขั้นกว่าโดยตรง ถ้าจะเน้นขั้นกว่าให้ใช้ `even/much/far/a lot` เช่น `even more interesting`."
+      },
+      {
+        "index": 4,
+        "text": "quite",
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก **quite** ใช้กับคุณศัพท์ธรรมดา (`quite interesting`) หรือมีความหมายกำกวมด้านระดับความเข้ม แต่ไม่นิยมใช้ `quite more interesting`. ใช้ `even more interesting` จะชัดกว่า"
+      }
+    ]
+  },
+  {
+    "question": "This is ___ the best solution we've found.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "by far",
+        "is_correct": true,
+        "answer_description": "ถูกต้องเลย รูปแบบเน้นขั้นสุดใช้ __by far + superlative__ เช่น `by far the best` หมายถึง “ดีที่สุดแบบทิ้งห่าง”. ตัวอย่าง: `She is by far the fastest runner on the team.`"
+      },
+      {
+        "index": 2,
+        "text": "far",
+        "is_correct": false,
+        "answer_description": "เกือบได้ แต่กับขั้นสุดควรใช้ `by far` ไม่ใช่ `far` เดี่ยวๆ ประโยค `This is far the best...` จึงฟังแปลก ใช้ `by far the best` ถึงจะถูกต้อง"
+      },
+      {
+        "index": 3,
+        "text": "much",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่ เพราะ **much** ใช้กับขั้นกว่า (`much better`) ไม่ใช่กับขั้นสุด (`much the best` ผิด). ขั้นสุดต้องใช้ `by far the best` หรือ `easily the best`"
+      },
+      {
+        "index": 4,
+        "text": "very",
+        "is_correct": false,
+        "answer_description": "ผิดจ้า `very the best` ไม่ได้รูปแบบ **very** ใช้กับคุณศัพท์ธรรมดา (`very good`). ขั้นสุดควรใช้ `by far the best` เพื่อเน้น"
+      }
+    ]
+  },
+  {
+    "question": "This result is ___ as good as last year's.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "not nearly",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปแบบลดระดับแรงๆคือ __not nearly as + adj + as__ แปลว่า “ห่างไกลจาก…มาก” เช่น `not nearly as good as`. ตัวอย่าง: `This phone is not nearly as fast as that one.`"
+      },
+      {
+        "index": 2,
+        "text": "nearly",
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก **nearly as ... as** ได้ความหมาย “เกือบเท่ากัน” ซึ่งไม่เข้ากับความหมายปฏิเสธในประโยคนี้ ต้องใช้ `not nearly as ... as` เพื่อบอกว่า “ไม่ใกล้เคียงเลย”"
+      },
+      {
+        "index": 3,
+        "text": "just",
+        "is_correct": false,
+        "answer_description": "ผิดจ้า `just as ... as` หมายถึง “พอๆ กัน” แต่ประโยคนี้ต้องการสื่อว่า “ไม่เท่า” แถมเน้นว่าแตกต่างมาก ต้องใช้ `not nearly as ... as`"
+      },
+      {
+        "index": 4,
+        "text": "quite",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่ **quite** วางแบบนี้ไม่เข้ารูป และ `quite as ... as` ใช้ในความหมายยืนยันความเท่า ซึ่งไม่ตรงกับใจความปฏิเสธของประโยคนี้ ควรใช้ `not nearly as ... as`"
+      }
+    ]
+  },
+  {
+    "question": "The sequel is ___ as exciting as the first movie.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "just",
+        "is_correct": true,
+        "answer_description": "ถูกต้องเลย ใช้รูปแบบเน้นความเท่ากัน __just as + adj + as__ เช่น `just as exciting as` แปลว่า “ตื่นเต้นพอๆ กับ”. ตัวอย่าง: `Her performance is just as good as his.`"
+      },
+      {
+        "index": 2,
+        "text": "very",
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ `very as exciting as` ผิดรูปแบบ **very** ใช้กับคุณศัพท์ธรรมดา เช่น `very exciting`. ถ้าจะบอกว่า “พอๆ กัน” ใช้ `just as ... as`"
+      },
+      {
+        "index": 3,
+        "text": "much",
+        "is_correct": false,
+        "answer_description": "ไม่ถูก **much** ใช้กับขั้นกว่า (`much more exciting`) ไม่ได้ใช้ในโครงสร้าง `as ... as`. ต้องใช้ `just` เพื่อเน้นว่าเท่ากัน: `just as exciting as`"
+      },
+      {
+        "index": 4,
+        "text": "too",
+        "is_correct": false,
+        "answer_description": "ผิดนะ **too** มีความหมาย “มากเกินไป” และไม่เข้ากับโครงสร้าง `as ... as`. ถ้าต้องการเทียบความเท่ากันให้ใช้ `just as ... as`"
+      }
+    ]
+  },
+  {
+    "question": "Could you speak ___ louder?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "a bit",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ตัวลดระดับสุภาพ __a bit/a little + comparative__ เช่น `a bit louder` เพื่อขอให้ทำมากขึ้นเล็กน้อย. ตัวอย่าง: `Please drive a bit slower.`"
+      },
+      {
+        "index": 2,
+        "text": "very",
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ `very louder` ผิดหลัก เพราะ **very** ไม่ขยายขั้นกว่าโดยตรง ใช้กับคำคุณศัพท์ธรรมดาอย่าง `very loud` ได้ แต่ที่นี่ต้องการ `a bit louder`"
+      },
+      {
+        "index": 3,
+        "text": "too",
+        "is_correct": false,
+        "answer_description": "ไม่ถูก **too** หมายถึง “มากเกินไป” เช่น `too loud` ซึ่งไม่ใช่คำขอสุภาพแบบเพิ่มเล็กน้อย ถ้าจะขอเบาๆ ใช้ `a bit louder` หรือ `a little louder`"
+      },
+      {
+        "index": 4,
+        "text": "enough",
+        "is_correct": false,
+        "answer_description": "ผิดนะ **enough** ต้องวางหลังคุณศัพท์ เช่น `loud enough` และไม่ได้ใช้ควบกับขั้นกว่าแบบ `louder enough`. ประโยคขอนี้ใช้ `a bit louder` จะเหมาะกว่า"
+      }
+    ]
+  },
+  {
+    "question": "Your explanation is ___ clearer than before.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "much",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง การเน้นความต่างที่มากใช้ __much/far/a lot/way + comparative__ เช่น `much clearer`. ตัวอย่าง: `The instructions are much clearer now.`"
+      },
+      {
+        "index": 2,
+        "text": "more",
+        "is_correct": false,
+        "answer_description": "ผิดนะ เพราะมีขั้นกว่าอยู่แล้วคือ `clearer` จึงไม่ใส่ `more` ซ้ำ ถ้าใช้ `more` ต้องเปลี่ยนเป็น `more clear` แทน ไม่ใช่ `more clearer` ซึ่งผิด"
+      },
+      {
+        "index": 3,
+        "text": "very",
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก **very** ไม่ใช้กับขั้นกว่า (`very clearer` ผิด) แต่ใช้กับคุณศัพท์ธรรมดา เช่น `very clear`. ต้องใช้ `much clearer` เพื่อเน้นขั้นกว่า"
+      },
+      {
+        "index": 4,
+        "text": "too",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่จ้า **too** สื่อว่า “ชัดเกินไป” (`too clear`) ซึ่งความหมายต่างจากการเปรียบเทียบขั้นกว่าในประโยคนี้ ใช้ `much clearer` จะถูกต้อง"
+      }
+    ]
+  },
+  {
+    "question": "The new plan is ___ better than the old one.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "no",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ตัวเน้นปฏิเสธขั้นกว่า __no + comparative__ เช่น `no better than` แปลว่า “ไม่ได้ดีกว่าเลย”. ตัวอย่าง: `This option is no cheaper than that one.`"
+      },
+      {
+        "index": 2,
+        "text": "not",
+        "is_correct": false,
+        "answer_description": "ยังไม่ครบ ถ้าใช้ `not` ต้องตามด้วย `any` เป็น `not any better than` เพื่อสื่อความเท่ากันหรือไม่ดีกว่า ดังนั้น `no better than` เป็นรูปที่กระชับและถูกกว่าในที่นี้"
+      },
+      {
+        "index": 3,
+        "text": "much",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่ `much better` จะสื่อว่าดีกว่ามาก ซึ่งความหมายไม่ตรงกับการปฏิเสธที่ต้องการในประโยคนี้ เราต้องการบอกว่า “ไม่ได้ดีกว่าเลย” ให้ใช้ `no better than`"
+      },
+      {
+        "index": 4,
+        "text": "very",
+        "is_correct": false,
+        "answer_description": "ผิดจ้า `very better` ผิดหลัก เพราะ **very** ไม่ใช้กับขั้นกว่า ถ้าต้องการปฏิเสธขั้นกว่าแบบชัดๆ ใช้ `no better than`"
+      }
+    ]
+  },
+  {
+    "question": "Sales are ___ higher this quarter.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "significantly",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __significantly/considerably/substantially + comparative__ เพื่อเน้นว่ามากอย่างมีนัยสำคัญ เช่น `significantly higher`. ตัวอย่าง: `Profits are significantly lower than last year.`"
+      },
+      {
+        "index": 2,
+        "text": "very",
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ **very** ไม่ใช้ขยายขั้นกว่าโดยตรง (`very higher` ผิด) ใช้กับคุณศัพท์ธรรมดา เช่น `very high`. ขั้นกว่าใช้ `significantly/considerably` จะเหมาะกว่า"
+      },
+      {
+        "index": 3,
+        "text": "enough",
+        "is_correct": false,
+        "answer_description": "ไม่ถูก **enough** วางหลังคุณศัพท์ เช่น `high enough` และไม่ใช้กับขั้นกว่าแบบ `higher`. ต้องใช้คำวิเศษณ์เน้นระดับขั้นกว่า เช่น `significantly higher`"
+      },
+      {
+        "index": 4,
+        "text": "too",
+        "is_correct": false,
+        "answer_description": "ผิดจ้า **too** หมายถึง “สูงเกินไป” (`too high`) ไม่ใช่การเทียบขั้นกว่า `higher`. ถ้าจะบอกว่ามากขึ้นแบบเห็นได้ชัด ใช้ `significantly higher`"
+      }
+    ]
+  },
+  {
+    "question": "Her pronunciation is ___ better now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "a lot",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ตัวเน้นขั้นกว่า __a lot/much/far/way + comparative__ เช่น `a lot better` เพื่อบอกว่าดีขึ้นมาก. ตัวอย่าง: `My English is a lot better than before.`"
+      },
+      {
+        "index": 2,
+        "text": "quite",
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง **quite** มักใช้กับคุณศัพท์ธรรมดา (`quite good`) และมีความกำกวมเรื่องระดับ ไม่ได้ใช้กับขั้นกว่าโดยตรงแบบ `quite better` ซึ่งฟังแปลก"
+      },
+      {
+        "index": 3,
+        "text": "little",
+        "is_correct": false,
+        "answer_description": "ผิดนะ ถ้าจะลดระดับควรใช้ `a little + comparative` เช่น `a little better` ต้องมี `a` ด้วย และคำว่า `little better` เดี่ยวๆ ฟังไม่เป็นธรรมชาติ"
+      },
+      {
+        "index": 4,
+        "text": "most",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่จ้า **most** ใช้ทำขั้นสุด (`the most + adj`) ไม่ได้ใช้กับขั้นกว่า `better`. ที่นี่เราต้องการคำเน้นขั้นกว่า เช่น `a lot better`"
+      }
+    ]
+  }
+]
