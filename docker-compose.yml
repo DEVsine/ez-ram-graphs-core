@@ -78,8 +78,8 @@ services:
       POSTGRES_DB: ${POSTGRES_DB:-ez_ram}
       POSTGRES_USER: ${POSTGRES_USER:-postgres}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
-      POSTGRES_HOST: ${POSTGRES_HOST:-postgres}
-      POSTGRES_PORT: ${POSTGRES_PORT:-5432}
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
 
       # Neo4j
       NEO4J_BOLT_URL: bolt://${NEO4J_USERNAME:-neo4j}:${NEO4J_PASSWORD:-password}@neo4j:7687
