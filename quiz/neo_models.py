@@ -1,6 +1,7 @@
 from neomodel import (
     StructuredNode,
     StringProperty,
+    IntegerProperty,
     BooleanProperty,
     RelationshipTo,
     RelationshipFrom,
@@ -14,6 +15,12 @@ class Quiz(StructuredNode):
     """
 
     quiz_text = StringProperty(required=True)  # e.g., "She is ___ for class."
+
+    # Quiz suggestion engine fields
+    difficulty_level = IntegerProperty(default=3)  # 1-5 scale (1=easiest, 5=hardest)
+    quiz_type = StringProperty(
+        default="multiple_choice"
+    )  # "multiple_choice" or "fill_in_blank"
 
     # relationships
     has_choice = RelationshipTo("Choice", "HAS_CHOICE")

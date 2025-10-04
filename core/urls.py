@@ -2,27 +2,24 @@
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.2/topics/http/urls/
+
+Each app has its own urls.py file that is included here with a prefix.
+This follows the pattern: /<app>/<version>/<resource>/
+
 Examples:
-Function views
-    1. Add an import:  from my_app import views
-    2. Add a URL to urlpatterns:  path('', views.home, name='home')
-Class-based views
-    1. Add an import:  from other_app.views import Home
-    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
-Including another URLconf
-    1. Import the include() function: from django.urls import include, path
-    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+    - /student/v1/RAM123/suggest-quiz/
+    - /quiz/v1/RAM123/questions/
+    - /knowledge/v1/RAM123/topics/
 """
 
 from django.contrib import admin
-from django.urls import path
-from student.api_views import SuggestQuizAPI
+from django.urls import path, include
 
 urlpatterns = [
+    # Django admin
     path("admin/", admin.site.urls),
-    path(
-        "student/v1/<str:ram_id>/suggest-quiz/",
-        SuggestQuizAPI.as_view(),
-        name="suggest-quiz",
-    ),
+    # App-specific URLs (each app has its own urls.py)
+    path("student/", include("student.urls")),
+    path("quiz/", include("quiz.urls")),
+    path("knowledge/", include("knowledge.urls")),
 ]
