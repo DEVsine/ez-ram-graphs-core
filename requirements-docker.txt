@@ -1,0 +1,26 @@
+# Minimal requirements for Docker deployment
+# Core Django
+Django>=4.2,<5.0
+djangorestframework>=3.14.0
+
+# Database drivers
+psycopg[binary]>=3.2.10
+django-neomodel>=0.2.0
+neomodel>=5.0.0
+neo4j>=5.0.0
+
+# Production server
+gunicorn>=21.2.0
+whitenoise>=6.6.0
+
+# Environment & Config
+python-dotenv>=1.0.0
+pydantic>=2.0,<3.0
+
+# AI Providers
+openai>=1.109.1
+google-genai>=1.39.0
+
+# Graph algorithms
+networkx>=3.0
+

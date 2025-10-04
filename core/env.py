@@ -1,11 +1,18 @@
 import os
 import json
-import google.auth
 import io
 
 from pathlib import Path
 from dotenv import load_dotenv
-from google.cloud import secretmanager
+
+# Make Google Cloud dependencies optional
+try:
+    import google.auth
+    from google.cloud import secretmanager
+
+    GOOGLE_CLOUD_AVAILABLE = True
+except ImportError:
+    GOOGLE_CLOUD_AVAILABLE = False
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 env_file = os.path.join(BASE_DIR, ".env")
@@ -16,6 +23,10 @@ def load_env():
     if os.path.isfile(env_file):
         load_dotenv(env_file, override=True)
         return
+
+    # Only attempt Google Cloud if libraries are available
+    if not GOOGLE_CLOUD_AVAILABLE:
+        raise Exception("No local .env found and Google Cloud libraries not installed.")
 
     # Attempt to load the Project ID into the environment, safely failing on error.
     try:

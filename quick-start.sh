@@ -15,7 +15,7 @@ if ! command -v docker &> /dev/null; then
 fi
 
 # Check if Docker Compose is installed
-if ! command -v docker-compose &> /dev/null; then
+if ! command -v docker compose &> /dev/null; then
     echo "❌ Docker Compose is not installed. Please install Docker Compose first."
     echo "   Visit: https://docs.docker.com/compose/install/"
     exit 1
@@ -42,11 +42,11 @@ fi
 
 echo ""
 echo "🔨 Building Docker images..."
-docker-compose build
+docker compose build
 
 echo ""
 echo "🚀 Starting services..."
-docker-compose up -d
+docker compose up -d
 
 echo ""
 echo "⏳ Waiting for services to be ready..."
@@ -54,7 +54,7 @@ sleep 10
 
 echo ""
 echo "📊 Service status:"
-docker-compose ps
+docker compose ps
 
 echo ""
 echo "✅ Setup complete!"
@@ -75,10 +75,10 @@ echo "   - Neo4j HTTP: localhost:7500 (Docker) vs localhost:7474 (Local)"
 echo "   - Neo4j Bolt: localhost:7690 (Docker) vs localhost:7687 (Local)"
 echo ""
 echo "📝 Useful commands:"
-echo "   - View logs: docker-compose logs -f"
-echo "   - Stop services: docker-compose down"
-echo "   - Restart services: docker-compose restart"
-echo "   - Django shell: docker-compose exec web python manage.py shell"
-echo "   - Run migrations: docker-compose exec web python manage.py migrate"
-echo "   - Create superuser: docker-compose exec web python manage.py createsuperuser"
+echo "   - View logs: docker compose logs -f"
+echo "   - Stop services: docker compose down"
+echo "   - Restart services: docker compose restart"
+echo "   - Django shell: docker compose exec web python manage.py shell"
+echo "   - Run migrations: docker compose exec web python manage.py migrate"
+echo "   - Create superuser: docker compose exec web python manage.py createsuperuser"
 
