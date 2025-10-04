@@ -14,8 +14,13 @@ Examples:
 
 from django.contrib import admin
 from django.urls import path, include
+from .health import health_check, readiness_check, liveness_check
 
 urlpatterns = [
+    # Health check endpoints (for Docker, K8s, load balancers)
+    path("health/", health_check, name="health"),
+    path("health/ready/", readiness_check, name="readiness"),
+    path("health/live/", liveness_check, name="liveness"),
     # Django admin
     path("admin/", admin.site.urls),
     # App-specific URLs (each app has its own urls.py)

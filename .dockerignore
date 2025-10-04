@@ -1,0 +1,99 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite3
+db.sqlite3
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Docker
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# Documentation
+docs/
+README*
+DOCKER-README.md
+
+# Scripts
+quick-start.sh
+Makefile
+
+# Data files (adjust as needed)
+data/profiles/
+*.csv
+
+# Static and media (will be collected/uploaded separately)
+staticfiles/
+mediafiles/
+
+# Tests
+tests/
+*/tests/
+test_*.py
+*_test.py
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Kubernetes
+k8s/
+
+# Backups
+backups/
+*.sql
+*.dump
+
+# Other
+*.bak
+*.tmp
+.cache/
+uv.lock
+

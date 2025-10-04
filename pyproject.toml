@@ -11,6 +11,7 @@ dependencies = [
     "dotenv>=0.9.9",
     "google-cloud-secret-manager>=2.24.0",
     "google-genai>=1.39.0",
+    "gunicorn>=23.0.0",
     "neo4j>=5.0.0",
     "neomodel>=5.0.0",
     "networkx>=3.0",
@@ -19,6 +20,7 @@ dependencies = [
     "psycopg[binary]>=3.2.10",
     "pydantic>=2.0,<3.0",
     "sentence-transformers>=5.1.1",
+    "whitenoise>=6.11.0",
 ]
 
 [project.optional-dependencies]
