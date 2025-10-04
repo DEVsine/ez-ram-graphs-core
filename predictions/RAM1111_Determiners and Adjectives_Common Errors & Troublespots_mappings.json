@@ -1,0 +1,461 @@
+[
+  {
+    "question": "He is ___ honest person.",
+    "question_knowledge_ids": [
+      531
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "an",
+        "knowledge_ids": [
+          531
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเสียงขึ้นต้นของคำว่า **honest** เป็นเสียงสระ /ɒ/ แม้สะกดด้วย h แต่ h ไม่ออกเสียง จึงต้องใช้รูป __an + vowel sound__ เช่น: `an honest person`, `an hour`. ตัวอย่างใช้จริง: `She married an honest man.`"
+      },
+      {
+        "index": 2,
+        "text": "a",
+        "knowledge_ids": [
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ **a** หน้าคำที่ขึ้นต้นด้วยเสียงพยัญชนะ แต่คำว่า **honest** ออกเสียงขึ้นต้นเป็นเสียงสระ (h ไม่ออกเสียง) จึงต้องใช้ `an`. ตัวอย่างที่ผิด: `a honest person` ควรเป็น `an honest person`."
+      },
+      {
+        "index": 3,
+        "text": "the",
+        "knowledge_ids": [
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **the** ใช้เมื่อพูดถึงสิ่งที่เฉพาะเจาะจงหรือผู้พูด-ผู้ฟังรู้กันอยู่แล้ว แต่ที่นี่พูดทั่วไปถึงคนซื่อสัตย์หนึ่งคน จึงควรใช้นามเอกพจน์ไม่ชี้เฉพาะด้วย `an`. ตัวอย่าง: `the honest person we met yesterday` (ชี้เฉพาะ) ต่างจาก `an honest person` (ทั่วไป)."
+      },
+      {
+        "index": 4,
+        "text": "—",
+        "knowledge_ids": [
+          514,
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนามเอกพจน์นับได้อย่าง `person` ต้องมี **article** หรือ **determiner** เสมอ จะปล่อยว่างไม่ได้ เช่น `He is honest person` ผิด ต้องเป็น `He is an honest person`."
+      }
+    ]
+  },
+  {
+    "question": "We don't have ___ chairs for everyone.",
+    "question_knowledge_ids": [
+      530,
+      532
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "many",
+        "knowledge_ids": [
+          530,
+          532
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกับคำนามนับได้พหูพจน์ใช้รูป __many + plural noun__ โดยเฉพาะในประโยคปฏิเสธ/คำถาม เช่น `We don't have many chairs.` ตัวอย่างใช้: `Do you have many books?` / `I don't have many options.`"
+      },
+      {
+        "index": 2,
+        "text": "much",
+        "knowledge_ids": [
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **much** ใช้กับนามนับไม่ได้ เช่น `much time`, `much water` แต่คำว่า `chairs` เป็นนามนับได้พหูพจน์ จึงต้องใช้ `many` ไม่ใช่ `much`. ตัวอย่างที่ถูก: `We don't have much time` แต่ `We don't have many chairs`."
+      },
+      {
+        "index": 3,
+        "text": "a lot",
+        "knowledge_ids": [
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในรูปประโยคนี้ เพราะถ้าจะวางหน้าคำนามต้องใช้รูปเต็ม **a lot of + noun** ไม่ใช่ `a lot` เฉยๆ เช่น `a lot of chairs`. ตัวอย่างที่ถูก: `We don't have a lot of chairs.`"
+      },
+      {
+        "index": 4,
+        "text": "a little",
+        "knowledge_ids": [
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **a little** ใช้กับนามนับไม่ได้ เช่น `a little sugar`, `a little money` แต่ `chairs` เป็นนามนับได้พหูพจน์ ต้องใช้ `many` หรือ `a few` แทน เช่น `We have a few chairs`."
+      }
+    ]
+  },
+  {
+    "question": "He has ___ friends in the city, so he feels lonely.",
+    "question_knowledge_ids": [
+      517,
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "few",
+        "knowledge_ids": [
+          517
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ __few + plural countable noun__ สื่อว่า “มีน้อยจนแทบไม่พอ/ไม่เพียงพอ” จึงเข้ากับเหตุผลที่รู้สึกเหงา เช่น `He has few friends, so he stays home.` ตัวอย่างใช้: `There are few buses at night.`"
+      },
+      {
+        "index": 2,
+        "text": "a few",
+        "knowledge_ids": [
+          517
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะ **a few** หมายถึง “มีอยู่บ้าง พอใช้” ซึ่งไม่สอดคล้องกับผลลัพธ์ที่ว่าเหงา ถ้าจะใช้ควรเปลี่ยนส่วนท้าย เช่น `He has a few friends in the city, so he goes out sometimes.`"
+      },
+      {
+        "index": 3,
+        "text": "little",
+        "knowledge_ids": [
+          517
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **little** ใช้กับนามนับไม่ได้ แต่ `friends` เป็นนามนับได้พหูพจน์ จึงต้องใช้ `few`/`a few`. ตัวอย่างที่ถูก: `He has little money` (นับไม่ได้) แต่ `He has few friends` (นับได้พหูพจน์)."
+      },
+      {
+        "index": 4,
+        "text": "less",
+        "knowledge_ids": [
+          474
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **less** ปกติใช้กับนามนับไม่ได้หรือในการเปรียบเทียบ เช่น `less time`, `less sugar`, หรือ `fewer friends` สำหรับนามนับได้พหูพจน์. ตัวอย่างที่ถูก: `He has fewer friends than before.`"
+      }
+    ]
+  },
+  {
+    "question": "___ of the students has a locker.",
+    "question_knowledge_ids": [
+      519,
+      520,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Each",
+        "knowledge_ids": [
+          519,
+          380
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะโครงสร้าง __Each of + plural noun + singular verb__ ใช้เมื่อต้องการเน้นแต่ละคน โดยตามด้วยกริยาเอกพจน์ เช่น `Each of the students has a locker.` ตัวอย่างใช้: `Each of the players was ready.`"
+      },
+      {
+        "index": 2,
+        "text": "Every",
+        "knowledge_ids": [
+          519,
+          380
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูป **Every of + plural noun** ใช้ไม่ได้ ต้องเป็น `Every student has...` ไม่ใช่ `Every of the students has...`. ตัวอย่างที่ถูก: `Every student has a locker.` หรือ `Each of the students has a locker.`"
+      },
+      {
+        "index": 3,
+        "text": "All",
+        "knowledge_ids": [
+          520,
+          380
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง เพราะ **All (of) the students** จะใช้กริยาพหูพจน์: `All of the students have lockers.` แต่ประโยคนี้ใช้กริยาเอกพจน์ `has` จึงไม่เข้ากัน ต้องใช้ `Each of ... has`."
+      },
+      {
+        "index": 4,
+        "text": "Both",
+        "knowledge_ids": [
+          520,
+          380
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Both** ใช้กับจำนวนสองสิ่ง/สองคน และตามด้วยกริยาพหูพจน์ เช่น `Both students have lockers.` แต่ที่นี่ไม่ได้จำกัดว่ามีสองคน และกริยาก็เป็น `has` (เอกพจน์) จึงไม่ถูก."
+      }
+    ]
+  },
+  {
+    "question": "We have to stay ___ three days because of the delay.",
+    "question_knowledge_ids": [
+      523
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "another",
+        "knowledge_ids": [
+          523
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ __another + number + plural noun__ ใช้เพื่อบอก “เพิ่มอีก” เช่น `another three days` = อีกสามวัน ตัวอย่างใช้: `We waited another two hours.` และ `I need another three copies.`"
+      },
+      {
+        "index": 2,
+        "text": "other",
+        "knowledge_ids": [
+          523
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในรูปนี้ เพราะ **other** ต้องมีนามตาม เช่น `other days` หรือใช้เป็น `the other` เพื่อชี้เฉพาะ ส่วนรูป “เพิ่มอีก” ใช้ `another + number + noun` เช่น `another three days`."
+      },
+      {
+        "index": 3,
+        "text": "the other",
+        "knowledge_ids": [
+          523
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **the other** ใช้เพื่อชี้ “อีกอัน/อีกส่วนที่เหลือ” จากชุดที่รู้จำนวนแน่ชัด ไม่ได้หมายถึง “เพิ่มอีก” เช่น `the other day` (อีกวันหนึ่งในสองวัน). ที่นี่ต้องการความหมายว่า “อีกสามวัน” จึงใช้ `another three days`."
+      },
+      {
+        "index": 4,
+        "text": "others",
+        "knowledge_ids": [
+          523
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **others** เป็นสรรพนาม (ไม่มีนามตามหลัง) และไม่เข้ากับตัวเลขตรงๆ เช่น `others three days` ใช้ไม่ได้ ถ้าจะสื่อ “เพิ่มอีกสามวัน” ต้องใช้ `another three days`."
+      }
+    ]
+  },
+  {
+    "question": "___ information is useful.",
+    "question_knowledge_ids": [
+      561,
+      562,
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "This",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **information** เป็นนามนับไม่ได้ จึงใช้ตัวชี้เฉพาะเอกพจน์อย่าง __this + uncountable noun__ ได้ เช่น `This information is useful.` ตัวอย่างใช้: `This advice is helpful.`"
+      },
+      {
+        "index": 2,
+        "text": "These",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **these** ใช้กับนามพหูพจน์นับได้ แต่ `information` เป็นนามนับไม่ได้ จึงห้ามใช้ `these informations` (ผิด). รูปที่ถูกคือ `This information` หรือ `The information`."
+      },
+      {
+        "index": 3,
+        "text": "A",
+        "knowledge_ids": [
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **information** เป็นนามนับไม่ได้ จึงห้ามใช้ article `a` เช่น `a information` ใช้ไม่ได้ ต้องใช้ `some information` หรือ `this information` แทน."
+      },
+      {
+        "index": 4,
+        "text": "Those",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **those** ใช้กับนามพหูพจน์นับได้ และสื่อระยะไกล แต่ `information` เป็นนามนับไม่ได้ ควรใช้ `this information` (ใกล้) หรือ `that information` (ไกล) แทน."
+      }
+    ]
+  },
+  {
+    "question": "She bought a ___ dress.",
+    "question_knowledge_ids": [
+      533
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "beautiful red silk",
+        "knowledge_ids": [
+          533
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะลำดับคุณศัพท์มาตรฐานคือ __Opinion > Color > Material__ ดังนั้น `beautiful (ความเห็น) + red (สี) + silk (วัสดุ)` จึงถูก เช่น: `a beautiful red silk dress`. ตัวอย่างใช้: `He has a nice blue cotton shirt.`"
+      },
+      {
+        "index": 2,
+        "text": "red beautiful silk",
+        "knowledge_ids": [
+          533
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสลับลำดับคุณศัพท์ ควรให้ **ความเห็น (opinion)** มาก่อน **สี (color)**: `beautiful red ...` ไม่ใช่ `red beautiful ...`. ตัวอย่างที่ถูก: `a lovely green wool sweater` ไม่ใช่ `green lovely wool sweater`."
+      },
+      {
+        "index": 3,
+        "text": "silk red beautiful",
+        "knowledge_ids": [
+          533
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา **วัสดุ (material)** ไว้หน้าสุด ซึ่งไม่เป็นธรรมชาติ ลำดับควรเป็น `opinion > color > material` เช่น `beautiful red silk` ไม่ใช่ `silk red beautiful`."
+      },
+      {
+        "index": 4,
+        "text": "beautiful silk red",
+        "knowledge_ids": [
+          533
+        ],
+        "is_correct": false,
+        "answer_description": "เกือบถูกแต่ยังผิดลำดับ เพราะควรเป็น `opinion > color > material` ดังนั้นต้องวาง `red` ก่อน `silk`: `beautiful red silk`. ตัวอย่างที่ถูก: `a cute pink plastic cup`."
+      }
+    ]
+  },
+  {
+    "question": "Of the two options, this is the ___ choice.",
+    "question_knowledge_ids": [
+      462,
+      463,
+      466,
+      464
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "better",
+        "knowledge_ids": [
+          463,
+          462,
+          464
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเมื่อเปรียบเทียบแค่สองสิ่ง ใช้รูป **comparative**: __better + than (ถ้ามีการเปรียบ)__ ไม่ใช้ superlative ในกรณีนี้ เช่น `This is the better choice of the two.` ตัวอย่างใช้: `She is the older of the two sisters.`"
+      },
+      {
+        "index": 2,
+        "text": "best",
+        "knowledge_ids": [
+          466,
+          467
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะ **best** เป็นรูป **superlative** ใช้เมื่อมีสามสิ่งขึ้นไป โดยปกติจะตามด้วย `in/of + group` ที่มีหลายสมาชิก แต่เมื่อจำกัดว่า “of the two” ควรใช้ `better` แทน."
+      },
+      {
+        "index": 3,
+        "text": "more better",
+        "knowledge_ids": [
+          476
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นการซ้ำความหมาย ไม่ใช้ `more` คู่กับคำที่มีรูปเปรียบเทียบอยู่แล้วอย่าง `better`. ตัวอย่างที่ผิด: `more better`, ที่ถูกคือ `better` เฉยๆ."
+      },
+      {
+        "index": 4,
+        "text": "the most better",
+        "knowledge_ids": [
+          476
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดหนัก เพราะผสมรูป **superlative** กับ **comparative** อย่างไม่ถูกต้อง ควรใช้ `better` (สองตัวเลือก) หรือ `the best` (สามตัวเลือกขึ้นไป) เท่านั้น. ตัวอย่างที่ถูก: `She is the best in the class` หรือ `She is better than me`."
+      }
+    ]
+  },
+  {
+    "question": "The lecture was so ___ that everyone fell asleep.",
+    "question_knowledge_ids": [
+      534
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "boring",
+        "knowledge_ids": [
+          534
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะใช้คุณศัพท์ลงท้าย **-ing** เพื่อบอกคุณสมบัติของสิ่งกระตุ้นความรู้สึก: __boring lecture__ = บรรยายที่ชวนเบื่อ เช่น `The movie was boring.` ตัวอย่างใช้: `It was a boring class, and students looked tired.`"
+      },
+      {
+        "index": 2,
+        "text": "bored",
+        "knowledge_ids": [
+          534
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในตำแหน่งนี้ เพราะ **bored** (-ed) ใช้บอกสภาพความรู้สึกของคน ไม่ใช่คุณสมบัติของสิ่งนั้น เช่น `I was bored during the lecture.` แต่สิ่งกระตุ้นควรใช้ `boring lecture`."
+      },
+      {
+        "index": 3,
+        "text": "bore",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **bore** เป็นกริยาไม่ใช่คุณศัพท์ เช่น `to bore someone` ไม่สามารถวางหลัง `so` เพื่อขยายคำนามได้ ต้องใช้คุณศัพท์ `boring` หรือ `bored` ตามความหมาย."
+      },
+      {
+        "index": 4,
+        "text": "boredly",
+        "knowledge_ids": [
+          534
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่เป็นรูปวิเศษณ์ (adverb) ที่ไม่เป็นธรรมชาติและไม่ใช้จริงในบริบทนี้ ประโยคนี้ต้องการ **adjective** ขยายคำนาม `lecture` ควรใช้ `boring`."
+      }
+    ]
+  },
+  {
+    "question": "There are two seats—take ___ one.",
+    "question_knowledge_ids": [
+      520
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "either",
+        "knowledge_ids": [
+          520
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเมื่อมีตัวเลือกสองอย่าง ใช้ __either + singular noun__ เพื่อสื่อว่า “อันไหนก็ได้” เช่น `Take either seat.` ตัวอย่างใช้: `Either day works for me.`"
+      },
+      {
+        "index": 2,
+        "text": "both",
+        "knowledge_ids": [
+          520
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง เพราะ **both** หมายถึง “ทั้งสอง” ซึ่งไม่เข้ากับโครงสร้าง `take ___ one` ที่ต้องเลือกเพียงหนึ่ง ตัวอย่างที่ถูกของ both: `Both seats are free.`"
+      },
+      {
+        "index": 3,
+        "text": "neither",
+        "knowledge_ids": [
+          520
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย เพราะ **neither** แปลว่า “ไม่ใช่ทั้งสอง” ซึ่งขัดกับใจความที่บอกว่าเลือกได้ ตัวอย่างใช้ `neither`: `Neither seat is available.`"
+      },
+      {
+        "index": 4,
+        "text": "any",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "แม้สื่อคล้ายกันแต่รูปประโยคนี้ใช้กับสองตัวเลือกจึงนิยมใช้ **either** มากกว่า และ `any one` มักใช้เมื่อมีหลายตัวเลือก (มากกว่าสอง) เช่น `There are many seats—take any one you like.`"
+      }
+    ]
+  }
+]

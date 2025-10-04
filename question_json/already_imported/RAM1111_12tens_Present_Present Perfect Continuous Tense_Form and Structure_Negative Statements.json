@@ -1,0 +1,292 @@
+[
+  {
+    "question": "I ___ been studying English lately.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "haven't",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างประโยคปฏิเสธของ **Present Perfect Continuous** คือ **`S + have/has + not + been + V-ing`** สำหรับประธาน I ใช้ `have not` หรือ `haven't` จึงได้ `I haven't been studying...`. ตัวอย่าง: `I haven't been studying English lately.` แปลว่า ระยะนี้ฉันไม่ได้กำลังฝึกเรียนภาษาอังกฤษต่อเนื่องอยู่."
+      },
+      {
+        "index": 2,
+        "text": "hasn't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **I** ต้องใช้ **have** ไม่ใช่ **has** โครงสร้างที่ถูกคือ `I haven't been studying...` ไม่ใช่ `I hasn't been studying...`. ตัวอย่างที่ถูก: `I haven't been studying much this week.`"
+      },
+      {
+        "index": 3,
+        "text": "don't have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปนี้เป็น **Present Simple** และยังไม่เข้ากับโครงสร้าง **Perfect Continuous** ที่ต้องมี `have/has + been + V-ing`. ตัวอย่างผิด: `I don't have studying English` (ผิดไวยากรณ์) ควรเป็น `I haven't been studying English.`"
+      },
+      {
+        "index": 4,
+        "text": "am not",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่คือโครงสร้างของ **Present Continuous** (`be + V-ing`) ไม่ใช่ **Present Perfect Continuous**. เราต้องใช้ `have/has + not + been + V-ing` เช่น `I haven't been studying` ไม่ใช่ `I am not been studying` (ผิด)."
+      }
+    ]
+  },
+  {
+    "question": "She ___ been working here since June.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "hasn't",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน **She** ใช้ **has** ดังนั้นรูปปฏิเสธคือ **`has not/hasn't + been + V-ing`** เป็น `She hasn't been working...`. ตัวอย่าง: `She hasn't been working here since June.` ใช้ `since` เพื่อบอกจุดเวลาเริ่มต้น."
+      },
+      {
+        "index": 2,
+        "text": "haven't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเอกพจน์บุคคลที่สาม (**She/He/It**) ใช้ **has**, ไม่ใช่ **have**. รูปที่ถูกคือ `She hasn't been working...` ไม่ใช่ `She haven't been working...`."
+      },
+      {
+        "index": 3,
+        "text": "isn't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่เป็นโครงสร้างของ **be + V-ing** (Present Continuous) แต่เราต้องการ **Present Perfect Continuous**. ที่ถูกคือ `hasn't been working`, เช่น `She hasn't been working here since June.`"
+      },
+      {
+        "index": 4,
+        "text": "hasn't be",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **hasn't** ต้องตามด้วย **been** ไม่ใช่ **be** ใน Perfect Continuous. โครงสร้างที่ถูก: `hasn't + been + V-ing` เช่น `She hasn't been working...`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ been waiting for you for long.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "haven't",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กับประธานพหูพจน์ **They** ใช้ **have** รูปปฏิเสธคือ **`have not/haven't + been + V-ing`** ดังนั้น `They haven't been waiting...`. ตัวอย่าง: `They haven't been waiting for you for long.` หมายถึง พวกเขาไม่ได้รอนานนัก."
+      },
+      {
+        "index": 2,
+        "text": "hasn't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **They** เป็นพหูพจน์ ต้องใช้ **have**, ไม่ใช่ **has**. รูปที่ถูกคือ `They haven't been waiting...`"
+      },
+      {
+        "index": 3,
+        "text": "didn't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่เป็นรูป **Past Simple** และยังขาด `been + V-ing` ที่เป็นหัวใจของ Perfect Continuous. ตัวอย่างผิด: `They didn't waiting` ควรเป็น `They haven't been waiting...`"
+      },
+      {
+        "index": 4,
+        "text": "haven't being",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะต้องใช้ **been** ไม่ใช่ **being** หลัง `have/has` ใน Perfect Continuous. โครงสร้างที่ถูกคือ `haven't been waiting`, เช่น `They haven't been waiting long.`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ been playing video games this week.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "hasn't",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน **He** ใช้ **has** และประโยคปฏิเสธต้องเป็น **`hasn't + been + V-ing`** ได้ `He hasn't been playing...`. ตัวอย่าง: `He hasn't been playing video games this week.`"
+      },
+      {
+        "index": 2,
+        "text": "haven't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกับ **He** ต้องใช้ **has**, ไม่ใช่ **have**. รูปที่ถูกคือ `He hasn't been playing...`"
+      },
+      {
+        "index": 3,
+        "text": "isn't been",
+        "is_correct": false,
+        "answer_description": "ผิด โครงสร้างปนกัน ระหว่าง be กับ perfect ชนกันจนผิดรูป ควรเป็น `hasn't been + V-ing` ไม่ใช่ `isn't been`. ตัวอย่างถูก: `He hasn't been playing...`"
+      },
+      {
+        "index": 4,
+        "text": "hasn't play",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `hasn't` ใน **Perfect Continuous** ต้องตามด้วย `been + V-ing`, ไม่ใช่กริยาช่องฐาน `play`. ที่ถูก: `hasn't been playing`."
+      }
+    ]
+  },
+  {
+    "question": "We ___ been seeing much progress yet.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "haven't",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน **We** ใช้ **have** รูปปฏิเสธคือ **`haven't + been + V-ing`** เป็น `We haven't been seeing...`. ตัวอย่าง: `We haven't been seeing much progress yet.` ใช้ `yet` กับประโยคปฏิเสธได้พอดี."
+      },
+      {
+        "index": 2,
+        "text": "hasn't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **We** เป็นพหูพจน์ ต้องใช้ **have** ไม่ใช่ **has**. รูปที่ถูกคือ `We haven't been seeing...`"
+      },
+      {
+        "index": 3,
+        "text": "aren't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่คือรูปของ **Present Continuous** (`be + V-ing`) ไม่ใช่ **Present Perfect Continuous** ที่ต้องมี `have/has + been + V-ing`. ที่ถูก: `We haven't been seeing...`"
+      },
+      {
+        "index": 4,
+        "text": "didn't have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นโครงสร้างของ **Past Simple** และยังไม่เข้ากับรูป `been + V-ing`. ประโยคที่ถูกควรเป็น `We haven't been seeing much progress yet.`"
+      }
+    ]
+  },
+  {
+    "question": "It ___ been raining all morning.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "hasn't",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน **It** ใช้ **has** รูปปฏิเสธของ **Present Perfect Continuous** คือ **`hasn't + been + V-ing`** ดังนั้น `It hasn't been raining...`. ตัวอย่าง: `It hasn't been raining all morning.`"
+      },
+      {
+        "index": 2,
+        "text": "haven't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **It** เป็นเอกพจน์ ต้องใช้ **has**, ไม่ใช่ **have**. ที่ถูก: `It hasn't been raining...`"
+      },
+      {
+        "index": 3,
+        "text": "isn't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **be + V-ing** ไม่ใช่ **have/has + been + V-ing**. ตัวอย่างที่ถูก: `It hasn't been raining since 8 a.m.`"
+      },
+      {
+        "index": 4,
+        "text": "hasn't been rain",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `been` ต้องตามด้วย **V-ing** จึงควรเป็น `raining` ไม่ใช่ `rain`. ที่ถูก: `It hasn't been raining...`"
+      }
+    ]
+  },
+  {
+    "question": "You ___ been listening to me.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "haven't",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน **You** ใช้ **have** รูปปฏิเสธคือ **`haven't + been + V-ing`** จึงเป็น `You haven't been listening...`. ตัวอย่าง: `You haven't been listening to me.` ความหมายคือ ช่วงนี้เธอไม่ค่อยตั้งใจฟังฉันเลย."
+      },
+      {
+        "index": 2,
+        "text": "hasn't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **You** ใช้ **have**, ไม่ใช่ **has**. รูปถูกต้องคือ `You haven't been listening...`"
+      },
+      {
+        "index": 3,
+        "text": "aren't been",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นการผสมโครงสร้าง `be` กับ `been` แบบผิดๆ ใน Perfect Continuous ต้องใช้ `have/has + been + V-ing`. ที่ถูก: `You haven't been listening...`"
+      },
+      {
+        "index": 4,
+        "text": "haven't be",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `haven't` ต้องเป็น **been** ไม่ใช่ **be** และต่อด้วย **V-ing**. ตัวอย่างถูก: `You haven't been listening to the teacher.`"
+      }
+    ]
+  },
+  {
+    "question": "The students ___ been paying attention today.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "haven't",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน **The students** เป็นพหูพจน์ ใช้ **have** รูปปฏิเสธจึงเป็น **`haven't + been + V-ing`**: `The students haven't been paying...`. ตัวอย่าง: `The students haven't been paying attention today.`"
+      },
+      {
+        "index": 2,
+        "text": "hasn't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานพหูพจน์ต้องใช้ **have**, ไม่ใช่ **has**. ที่ถูก: `The students haven't been paying attention...`"
+      },
+      {
+        "index": 3,
+        "text": "didn't be",
+        "is_correct": false,
+        "answer_description": "ผิด สร้างโครงสร้างผิดทั้งกาลและรูป ควรใช้ `have/has + been + V-ing` ไม่ใช่ `didn't be`. ตัวอย่างถูก: `The students haven't been paying attention today.`"
+      },
+      {
+        "index": 4,
+        "text": "haven't been pay",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `been` ต้องเป็น **V-ing** จึงควรเป็น `paying` ไม่ใช่ `pay`. รูปถูกคือ `haven't been paying`."
+      }
+    ]
+  },
+  {
+    "question": "My brother ___ been feeling well recently.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "hasn't",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธานเอกพจน์ **My brother** ใช้ **has** รูปปฏิเสธคือ **`hasn't + been + V-ing`** ดังนั้น `My brother hasn't been feeling...`. ตัวอย่าง: `My brother hasn't been feeling well recently.`"
+      },
+      {
+        "index": 2,
+        "text": "haven't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเอกพจน์ต้องใช้ **has**, ไม่ใช่ **have**. คำตอบที่ถูกคือ `My brother hasn't been feeling...`"
+      },
+      {
+        "index": 3,
+        "text": "isn't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่เป็นรูป **be + adjective/ V-ing** ธรรมดา ไม่ใช่ **Present Perfect Continuous**. โครงสร้างที่ถูกต้องคือ `hasn't been feeling` เช่น `He hasn't been feeling well.`"
+      },
+      {
+        "index": 4,
+        "text": "hasn't being",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใน Perfect Tense ต้องใช้ **been** ไม่ใช่ **being** หลัง `hasn't`. ที่ถูก: `hasn't been feeling...`"
+      }
+    ]
+  },
+  {
+    "question": "Anna and Tom ___ been coming to class regularly.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "haven't",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธานเชื่อมด้วย and เป็นพหูพจน์ ใช้ **have** รูปปฏิเสธเป็น **`haven't + been + V-ing`**: `Anna and Tom haven't been coming...`. ตัวอย่าง: `Anna and Tom haven't been coming to class regularly.`"
+      },
+      {
+        "index": 2,
+        "text": "hasn't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานพหูพจน์ต้องใช้ **have**, ไม่ใช่ **has**. รูปที่ถูกคือ `Anna and Tom haven't been coming...`"
+      },
+      {
+        "index": 3,
+        "text": "don't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **Present Simple** และไม่มี `been + V-ing` ซึ่งเป็นหัวใจของ **Present Perfect Continuous**. ที่ถูกต้อง: `haven't been coming` เช่น `They haven't been coming regularly.`"
+      },
+      {
+        "index": 4,
+        "text": "haven't been come",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `been` ต้องใช้ **V-ing** จึงควรเป็น `coming` ไม่ใช่ `come`. รูปถูกต้องคือ `haven't been coming`."
+      }
+    ]
+  }
+]

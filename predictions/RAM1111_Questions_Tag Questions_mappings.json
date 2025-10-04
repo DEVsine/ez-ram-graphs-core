@@ -1,0 +1,627 @@
+[
+  {
+    "question": "He is a doctor, ___?",
+    "question_knowledge_ids": [
+      303,
+      318,
+      339,
+      342,
+      410,
+      570,
+      576
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "isn't he?",
+        "knowledge_ids": [
+          303,
+          342,
+          410,
+          576
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคบอกเล่า `He is ...` ต้องตามด้วยแท็กแบบปฏิเสธของกริยา **be** ให้ตรงกับประธาน `he` เป็น __Positive statement + negative tag__: `is` → `isn't he?` เช่น `He is smart, isn't he?` ใช้ถามย้ำเพื่อยืนยันข้อมูลว่าจริงไหม"
+      },
+      {
+        "index": 2,
+        "text": "is he?",
+        "knowledge_ids": [
+          303,
+          342,
+          410,
+          577
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคหลักเป็นบอกเล่า (บวก) แท็กควรเป็นปฏิเสธ ไม่ใช่บวกเหมือนกัน กฎคือ **บวก–ลบ** หรือ **ลบ–บวก** เช่น `He is a doctor, isn't he?` ไม่ใช่ `He is a doctor, is he?`"
+      },
+      {
+        "index": 3,
+        "text": "doesn't he?",
+        "knowledge_ids": [
+          346,
+          569,
+          582,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ **do-support** กับกริยาแท้ แต่ประโยคนี้ใช้กริยา **be (is)** ต้องใช้แท็กจาก **be** เท่านั้น เช่น `isn't he?` ตัวอย่างที่ใช้ do-support จะเป็นแบบ `He likes coffee, doesn't he?`"
+      },
+      {
+        "index": 4,
+        "text": "aren't he?",
+        "knowledge_ids": [
+          318,
+          380,
+          382,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปปฏิเสธของ **is** คือ `isn't` ไม่ใช่ `aren't` และประธาน `he` จับคู่กับ `is` เสมอ เช่นที่ถูกต้องคือ `He is a doctor, isn't he?` ไม่ใช่ `aren't he?`"
+      }
+    ]
+  },
+  {
+    "question": "They don't like spicy food, ___?",
+    "question_knowledge_ids": [
+      381,
+      387,
+      389,
+      410,
+      577
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "do they?",
+        "knowledge_ids": [
+          389,
+          410,
+          577
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคหลักเป็นปฏิเสธ `don't like` จึงใช้แท็กแบบบอกเล่า __Negative statement + positive tag__: `don't` → `do they?` เช่น `They don't eat pork, do they?` ใช้ย้ำถามเมื่อผู้พูดคาดว่าเขาไม่ชอบจริง"
+      },
+      {
+        "index": 2,
+        "text": "don't they?",
+        "knowledge_ids": [
+          381,
+          576,
+          410
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะทั้งประโยคหลักและแท็กเป็นปฏิเสธ ทำให้เป็น **ลบ–ลบ** ซึ่งผิดกฎ ควรเป็น **ลบ–บวก** เช่น `They don't like spicy food, do they?`"
+      },
+      {
+        "index": 3,
+        "text": "doesn't they?",
+        "knowledge_ids": [
+          364,
+          383,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกริยา **do** ต้องสอดคล้องกับประธานพหูพจน์ `they` จึงใช้ `do/ don't` ไม่ใช่ `does/ doesn't` ตัวอย่างที่ถูกคือ `They don't like it, do they?`"
+      },
+      {
+        "index": 4,
+        "text": "are they?",
+        "knowledge_ids": [
+          570,
+          305,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคหลักใช้กริยาแท้ `like` ไม่ใช่ **be** จึงต้องใช้ **do-support** (`do/does/did`) ในแท็ก ไม่ใช่ `are` ตัวอย่างที่ถูก: `They like music, don't they?`"
+      }
+    ]
+  },
+  {
+    "question": "She has finished her homework, ___?",
+    "question_knowledge_ids": [
+      419,
+      410,
+      576
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "hasn't she?",
+        "knowledge_ids": [
+          419,
+          410,
+          576
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็น Present Perfect (`has finished`) แท็กต้องใช้กริยาช่วยตัวเดิมในรูปปฏิเสธ: __Positive statement + negative tag__: `has` → `hasn't she?` ตัวอย่าง: `She has cleaned the room, hasn't she?`"
+      },
+      {
+        "index": 2,
+        "text": "isn't she?",
+        "knowledge_ids": [
+          570,
+          305,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคนี้ใช้ **has** เป็นกริยาช่วย (Present Perfect) ไม่ใช่ **be** รูปที่ถูกต้องต้องใช้ `hasn't she?` เช่น `She has finished, hasn't she?`"
+      },
+      {
+        "index": 3,
+        "text": "doesn't she?",
+        "knowledge_ids": [
+          420,
+          407,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเมื่อมี **has/have** เป็นกริยาช่วย เราไม่ใช้ **do-support** ในแท็ก ต้องยึด **has** เดิม เช่น `hasn't she?` ตัวอย่างผิด: `She has finished, doesn't she?`"
+      },
+      {
+        "index": 4,
+        "text": "haven't she?",
+        "knowledge_ids": [
+          364,
+          383,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `she` ต้องใช้ `has/hasn't` ไม่ใช่ `have/haven't` รูปที่ถูกต้องคือ `hasn't she?` เช่น `She has arrived, hasn't she?`"
+      }
+    ]
+  },
+  {
+    "question": "You can swim, ___?",
+    "question_knowledge_ids": [
+      426,
+      430,
+      410,
+      576
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "can't you?",
+        "knowledge_ids": [
+          426,
+          430,
+          410,
+          576
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคมี **modal verb** `can` จึงทำแท็กด้วยกริยาโมดอลตัวเดิมในรูปปฏิเสธ: __Positive statement + negative tag__: `can` → `can't you?` เช่น `You can drive, can't you?`"
+      },
+      {
+        "index": 2,
+        "text": "can you?",
+        "knowledge_ids": [
+          426,
+          430,
+          410,
+          577
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคหลักเป็นบอกเล่า จึงต้องใช้แท็กปฏิเสธ ไม่ใช่บอกเล่าเหมือนกัน กฎคือบวกตามด้วยลบ เช่น `You can swim, can't you?`"
+      },
+      {
+        "index": 3,
+        "text": "do you?",
+        "knowledge_ids": [
+          569,
+          389,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเมื่อมีกริยาโมดอล (`can, will, should` ฯลฯ) ห้ามใช้ **do-support** ต้องใช้โมดอลเดิม เช่น `can't you?` ตัวอย่างที่ถูก: `You should go, shouldn't you?`"
+      },
+      {
+        "index": 4,
+        "text": "aren't you?",
+        "knowledge_ids": [
+          570,
+          305,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `are` ใช้กับกริยา **be** ไม่ใช่โมดอล `can` ต้องใช้แท็กที่มาจาก `can` คือ `can't you?` เช่น `You are ready, aren't you?` จะใช้กับ be เท่านั้น"
+      }
+    ]
+  },
+  {
+    "question": "Let's call it a day, ___?",
+    "question_knowledge_ids": [
+      427,
+      410,
+      576
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "shall we?",
+        "knowledge_ids": [
+          427,
+          410,
+          576
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตามธรรมเนียมเมื่อประโยคขึ้นต้นด้วย **Let's ...** แท็กมาตรฐานคือ __`Let's + V, shall we?`__ เพราะเป็นการชวนทำสิ่งใดสิ่งหนึ่ง เช่น `Let's go, shall we?` ใช้ถามย้ำแบบสุภาพ"
+      },
+      {
+        "index": 2,
+        "text": "will we?",
+        "knowledge_ids": [
+          246,
+          410,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกับ **Let's** จะไม่ใช้ `will we?` แท็กที่ถูกต้องและเป็นธรรมชาติกว่าคือ `shall we?` เช่น `Let's take a break, shall we?`"
+      },
+      {
+        "index": 3,
+        "text": "don't we?",
+        "knowledge_ids": [
+          569,
+          381,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Let's** ไม่ได้ใช้ **do-support** และไม่ได้เป็น Present Simple แบบกริยาแท้ แท็กต้องเป็น `shall we?` ไม่ใช่ `don't we?`"
+      },
+      {
+        "index": 4,
+        "text": "aren't we?",
+        "knowledge_ids": [
+          570,
+          305,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **aren't** มาจากกริยา **be** ซึ่งไม่ตรงกับโครงสร้างชวน `Let's ...` รูปที่ถูกต้องคือ `shall we?` เช่น `Let's start, shall we?`"
+      }
+    ]
+  },
+  {
+    "question": "I'm late again, ___?",
+    "question_knowledge_ids": [
+      318,
+      342,
+      410,
+      570,
+      576
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "aren't I?",
+        "knowledge_ids": [
+          342,
+          410,
+          350,
+          352
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็นกรณีพิเศษของ **I am** ที่ใช้แท็กเป็น __`aren't I?`__ ไม่ใช้ `amn't I?` เช่น `I'm right, aren't I?` จำเป็นรูปข้อยกเว้นที่พบบ่อย"
+      },
+      {
+        "index": 2,
+        "text": "amn't I?",
+        "knowledge_ids": [
+          556
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด แม้จะดูตรงตัวแต่ภาษาอังกฤษมาตรฐานไม่ใช้ `amn't I?` แท็กที่ถูกต้องสำหรับ `I am` คือ `aren't I?` เช่น `I'm on time, aren't I?`"
+      },
+      {
+        "index": 3,
+        "text": "isn't I?",
+        "knowledge_ids": [
+          318,
+          383,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `I` ไม่จับคู่กับ `is` และรูปปฏิเสธของ `is` ก็ไม่ใช้กับ `I` รูปที่ถูกต้องคือ `aren't I?` เช่น `I'm late, aren't I?`"
+      },
+      {
+        "index": 4,
+        "text": "am I?",
+        "knowledge_ids": [
+          570,
+          305,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคหลักเป็นบอกเล่า จึงต้องใช้แท็กปฏิเสธ ไม่ใช่บอกเล่าเหมือนกัน รูปที่ถูกคือ `I'm late, aren't I?`"
+      }
+    ]
+  },
+  {
+    "question": "Nobody called you, ___?",
+    "question_knowledge_ids": [
+      521,
+      381,
+      410,
+      576
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "did they?",
+        "knowledge_ids": [
+          381,
+          389,
+          410,
+          521
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ `Nobody` มีความหมายเชิงลบ ทำให้ประโยคหลักเป็นเชิงปฏิเสธโดยนัย จึงใช้แท็กบอกเล่า: __Negative idea + positive tag__: `did they?` เช่น `No one saw him, did they?` สรรพนามในแท็กใช้ `they` แบบกลาง"
+      },
+      {
+        "index": 2,
+        "text": "didn't they?",
+        "knowledge_ids": [
+          381,
+          576,
+          521,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเมื่อประโยคหลักเป็นเชิงลบ (ด้วยคำอย่าง `nobody/no one/never`) แท็กต้องเป็นบอกเล่า เช่น `did they?` ไม่ใช่ปฏิเสธซ้ำ"
+      },
+      {
+        "index": 3,
+        "text": "did he?",
+        "knowledge_ids": [
+          521,
+          383,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะแท็กควรใช้สรรพนามกลาง `they` แทน `nobody/no one` ในภาษาอังกฤษสมัยใหม่ เช่น `Nobody called, did they?` ไม่ใช้ `did he?`"
+      },
+      {
+        "index": 4,
+        "text": "does he?",
+        "knowledge_ids": [
+          521,
+          315,
+          383,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกาลเวลาในประโยคคืออดีต (`called`) จึงต้องใช้ `did` ในแท็ก ไม่ใช่ `does` ตัวอย่างที่ถูก: `Nobody helped, did they?`"
+      }
+    ]
+  },
+  {
+    "question": "Open the window, ___?",
+    "question_knowledge_ids": [
+      481,
+      441,
+      410,
+      579
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will you?",
+        "knowledge_ids": [
+          441,
+          481,
+          579
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กับประโยคคำสั่ง (imperative) มักใช้แท็ก __`..., will you?`__ เพื่อขอความร่วมมืออย่างสุภาพ เช่น `Pass me the salt, will you?` ใช้ได้กับคำสั่งเชิงขอร้องทั่วไป"
+      },
+      {
+        "index": 2,
+        "text": "won't you?",
+        "knowledge_ids": [
+          441,
+          481,
+          579
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เป็นมาตรฐานในคำสั่งทั่วไป เพราะ `won't you?` ให้โทนชักชวนหรือสุภาพมากเป็นพิเศษ มักเจอในคำเชิญชวน เช่น `Have a seat, won't you?` สำหรับคำสั่งธรรมดาใช้ `will you?` เหมาะกว่า"
+      },
+      {
+        "index": 3,
+        "text": "do you?",
+        "knowledge_ids": [
+          569,
+          389,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคคำสั่งไม่ใช้ **do-support** แบบนี้ แท็กมาตรฐานคือ `will you?` หรือในบางกรณีใช้ `can you?` เพื่อความนุ่มนวล เช่น `Open the door, will you?`"
+      },
+      {
+        "index": 4,
+        "text": "shall we?",
+        "knowledge_ids": [
+          427,
+          481,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `shall we?` ใช้กับประโยคชวนที่ขึ้นต้นด้วย **Let's ...** ไม่ใช่คำสั่ง เช่น `Let's start, shall we?` สำหรับคำสั่งควรใช้ `will you?`"
+      }
+    ]
+  },
+  {
+    "question": "She has a car, ___?",
+    "question_knowledge_ids": [
+      571,
+      399,
+      410,
+      576
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "doesn't she?",
+        "knowledge_ids": [
+          571,
+          420,
+          410,
+          576
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ `has` ในที่นี้เป็นกริยาแท้ (มี/เป็นเจ้าของ) จึงใช้ **do-support** ในแท็ก: __Positive statement (main verb) + negative tag with do__: `doesn't she?` เช่น `She has two brothers, doesn't she?`"
+      },
+      {
+        "index": 2,
+        "text": "hasn't she?",
+        "knowledge_ids": [
+          419,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเมื่อ `have/has` เป็นกริยาแท้ เราไม่ใช้มันเป็นกริยาช่วยในแท็ก ต้องใช้ **do/does** แทน เช่น `She has a car, doesn't she?`"
+      },
+      {
+        "index": 3,
+        "text": "isn't she?",
+        "knowledge_ids": [
+          570,
+          305,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกริยาหลักไม่ใช่ **be** แต่เป็น `has` (ความหมายว่า \"มี\") แท็กจึงต้องใช้ `doesn't she?` ไม่ใช่ `isn't she?` ตัวอย่าง: `She is a driver, isn't she?` จะใช้กับ be เท่านั้น"
+      },
+      {
+        "index": 4,
+        "text": "don't she?",
+        "knowledge_ids": [
+          384,
+          407,
+          383,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน `she` ต้องใช้ `does/doesn't` ไม่ใช่ `do/don't` รูปที่ถูกคือ `doesn't she?` เช่น `She likes tea, doesn't she?`"
+      }
+    ]
+  },
+  {
+    "question": "There were many people at the party, ___?",
+    "question_knowledge_ids": [
+      339,
+      318,
+      342,
+      410,
+      576
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "weren't there?",
+        "knowledge_ids": [
+          339,
+          318,
+          342,
+          410,
+          576
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **there + be** (existential) ต้องใช้แท็กที่คงกริยาและสรรพนาม **there** เดิม: __`there + were` → `weren't there?`__ เช่น `There was a problem, wasn't there?`"
+      },
+      {
+        "index": 2,
+        "text": "were they?",
+        "knowledge_ids": [
+          570,
+          305,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะในโครงสร้าง **there + be** เราไม่เปลี่ยน `there` เป็น `they` ในแท็ก สรรพนามต้องคงเป็น `there` เช่น `There are seats, aren't there?`"
+      },
+      {
+        "index": 3,
+        "text": "wasn't there?",
+        "knowledge_ids": [
+          339,
+          318,
+          383,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคหลักใช้ `were` (อดีตพหูพจน์) แต่ตัวเลือกนี้ใช้ `was` ซึ่งเป็นเอกพจน์ ต้องให้ตรงรูป: `were` → `weren't there?`"
+      },
+      {
+        "index": 4,
+        "text": "aren't there?",
+        "knowledge_ids": [
+          339,
+          318,
+          383,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกาลเวลาไม่ตรงกัน ประโยคหลักเป็นอดีต (`were`) แต่แท็กนี้เป็นปัจจุบัน (`are`) ต้องใช้รูปอดีต `weren't there?`"
+      }
+    ]
+  },
+  {
+    "question": "Don't be late, ___?",
+    "question_knowledge_ids": [
+      410,
+      440,
+      576,
+      579,
+      581
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will you?",
+        "knowledge_ids": [
+          410,
+          576,
+          581
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง สำหรับคำสั่งปฏิเสธ (`Don't ...`) แท็กมาตรฐานคือ __`..., will you?`__ เช่น `Don't forget, will you?` ใช้เพื่อย้ำเตือนแบบสุภาพและฟังเป็นธรรมชาติ"
+      },
+      {
+        "index": 2,
+        "text": "won't you?",
+        "knowledge_ids": [
+          410,
+          576,
+          581
+        ],
+        "is_correct": false,
+        "answer_description": "มักไม่ใช้กับคำสั่งปฏิเสธ เพราะ `won't you?` ให้ความหมายชักชวนมากกว่า ปกติคำสั่งทั้งบวกและลบใช้ `will you?` เช่น `Don't be late, will you?`"
+      },
+      {
+        "index": 3,
+        "text": "are you?",
+        "knowledge_ids": [
+          410,
+          576,
+          581,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะแท็กของประโยคคำสั่ง (imperative) ไม่ใช้ **be** แบบนี้ มาตรฐานคือ `will you?` หรือทางเลือกสุภาพ `would you?` ในบางบริบท"
+      },
+      {
+        "index": 4,
+        "text": "do you?",
+        "knowledge_ids": [
+          410,
+          576,
+          581,
+          569
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำสั่งไม่ใช้ **do-support** ในแท็ก รูปที่เป็นธรรมชาติและถูกต้องคือ `will you?` เช่น `Don't move, will you?`"
+      }
+    ]
+  }
+]

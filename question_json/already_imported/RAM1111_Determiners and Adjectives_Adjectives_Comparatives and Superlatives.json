@@ -1,0 +1,292 @@
+[
+  {
+    "question": "This puzzle is ___ than the previous one.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "harder",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้รูป **comparative** ของคำคุณศัพท์พยางค์เดียว/สั้นคือเติม `-er` เป็น __adjective + -er + than__ เช่น `harder than`. ตัวอย่าง: `This puzzle is harder than the previous one.` และ `Math is harder than art for me.`"
+      },
+      {
+        "index": 2,
+        "text": "more hard",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำคุณศัพท์สั้นอย่าง **hard** ปกติทำ comparative ด้วย `-er` ไม่ใช้ `more` จึงไม่ควรเป็น `more hard`. ตัวอย่างที่ถูกต้องคือ `harder than`, เช่น `This task is harder than that one.`"
+      },
+      {
+        "index": 3,
+        "text": "hardier",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **hardy** เป็นอีกคำหนึ่งที่แปลว่า “แข็งแรงทนทาน” ไม่ใช่ **hard** ที่หมายถึง “ยาก”. ถ้าอยากเปรียบเทียบความยากต้องใช้ `harder than` เช่น `The test is harder than I expected.`"
+      },
+      {
+        "index": 4,
+        "text": "the hardest",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะบริบทเป็นการเปรียบเทียบ **สองสิ่ง** จึงต้องใช้ **comparative** (`harder than`) ไม่ใช่ **superlative** (`the hardest`). ถ้าจะใช้ superlative ต้องมีกลุ่มที่ใหญ่กว่า 2 เช่น `This is the hardest puzzle of all.`"
+      }
+    ]
+  },
+  {
+    "question": "Of all the teams, our defense is ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the strongest",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีวลีเปิดนำว่า `Of all the teams` แปลว่าพูดถึงทั้งกลุ่ม ใช้ __the + superlative__: `the strongest`. ตัวอย่าง: `Of all the teams, our defense is the strongest.` หรือ `She is the smartest in the group.`"
+      },
+      {
+        "index": 2,
+        "text": "stronger",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `stronger` เป็น **comparative** ใช้เทียบแค่ 2 สิ่ง แต่ประโยคนี้เทียบกับ **ทุกทีม** (หลายสิ่ง). จึงควรใช้ `the strongest` เช่น `Our defense is the strongest.`"
+      },
+      {
+        "index": 3,
+        "text": "the stronger",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `the + comparative` มักใช้ในโครงสร้างพิเศษอย่าง `the more…, the more…` ไม่ใช่กรณี superlative. ที่ถูกต้องคือ `the strongest` เช่น `Of all the teams, ours is the strongest.`"
+      },
+      {
+        "index": 4,
+        "text": "strongest",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาด **the** ซึ่งจำเป็นกับ **superlative** ส่วนใหญ่. ต้องเป็น `the strongest` เช่น `This is the best choice.` ไม่ใช่ `This is best choice.`"
+      }
+    ]
+  },
+  {
+    "question": "Her new movie is ___ than the last one.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "better",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **good** มีรูป **comparative** แบบไม่ปกติคือ __better + than__. ตัวอย่าง: `Her new movie is better than the last one.` และ `This plan is better than the previous one.`"
+      },
+      {
+        "index": 2,
+        "text": "more good",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำว่า **good** ใช้รูปไม่ปกติ `better` ไม่ใช้ `more good`. ตัวอย่างที่ถูกต้อง: `This book is better than that one.`"
+      },
+      {
+        "index": 3,
+        "text": "gooder",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **good** ไม่มีรูปเติม `-er` แบบนี้ รูปที่ถูกต้องคือ `better`. เช่น `This movie is better than the last one.`"
+      },
+      {
+        "index": 4,
+        "text": "the best",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `the best` เป็น **superlative** ใช้เมื่อเทียบกับกลุ่มมากกว่า 2 ไม่ใช่การเทียบสองสิ่ง. ที่ถูกต้องคือ `better than` เช่น `Her new movie is better than the last one.`"
+      }
+    ]
+  },
+  {
+    "question": "This is ___ book I have ever read.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the most interesting",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __the + most + adjective__ เพื่อทำ **superlative** กับ adj ที่ยาว เช่น `interesting`. ตัวอย่าง: `This is the most interesting book I have ever read.` และ `It’s the most exciting match this season.`"
+      },
+      {
+        "index": 2,
+        "text": "more interesting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `more interesting` เป็น **comparative** ใช้เทียบสองสิ่ง แต่บริบท `I have ever read` หมายถึงเทียบกับหนังสือทั้งหมด. จึงต้องใช้ `the most interesting`"
+      },
+      {
+        "index": 3,
+        "text": "most interesting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **superlative** ปกติควรมี **the** นำหน้า: `the most interesting`. ตัวอย่างที่ถูก: `This is the most interesting chapter.`"
+      },
+      {
+        "index": 4,
+        "text": "the interestinger",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำว่า **interesting** เป็นคำยาว ต้องใช้ `more/most` ไม่เติม `-er/-est`. รูปที่ถูกคือ `the most interesting`, เช่น `She is the most interesting speaker here.`"
+      }
+    ]
+  },
+  {
+    "question": "Gas is getting ___ every month.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "more and more expensive",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างเน้นการเพิ่มขึ้นเรื่อยๆ คือ __more and more + adjective__ สำหรับคำคุณศัพท์ยาว. ตัวอย่าง: `Gas is getting more and more expensive.` และ `Life is getting more and more complicated.`"
+      },
+      {
+        "index": 2,
+        "text": "the most expensive",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคพูดถึงแนวโน้มที่เพิ่มขึ้น ไม่ได้เทียบกับทั้งกลุ่มเพื่อหาที่สุด. ควรใช้ `more and more expensive` ไม่ใช่ `the most expensive`"
+      },
+      {
+        "index": 3,
+        "text": "expensiver and expensiver",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **expensive** เป็นคำยาว ต้องใช้ `more` ไม่เติม `-er`. รูปที่ถูกคือ `more and more expensive` เช่น `Things are getting more and more expensive.`"
+      },
+      {
+        "index": 4,
+        "text": "the more expensive",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `the + comparative` ใช้ในโครงสร้างคู่ `the more…, the more…` เช่น `The more you practice, the better you get.` ไม่ใช่รูปเดี่ยวในประโยคนี้"
+      }
+    ]
+  },
+  {
+    "question": "She is ___ student in the class.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the most diligent",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __the + most + adjective__ เพื่อทำ **superlative** กับคำยาวอย่าง `diligent`. ตัวอย่าง: `She is the most diligent student in the class.` หรือ `He is the most creative designer here.`"
+      },
+      {
+        "index": 2,
+        "text": "more diligent",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **comparative** ใช้เทียบสองคน ไม่ใช่หา “ที่สุดในห้อง”. ต้องใช้ `the most diligent` เช่น `She is the most diligent in the class.`"
+      },
+      {
+        "index": 3,
+        "text": "most diligent",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **superlative** ควรมี `the` นำหน้า. รูปที่ถูกคือ `the most diligent`, เช่น `She is the most diligent student.`"
+      },
+      {
+        "index": 4,
+        "text": "the more diligent",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `the + comparative` ไม่ได้ใช้หาที่สุดในกลุ่ม ใช้ในโครงสร้าง `the more…, the more…` มากกว่า. ที่ถูกต้องคือ `the most diligent`"
+      }
+    ]
+  },
+  {
+    "question": "This route is ___ than that one.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "shorter",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำคุณศัพท์สั้นอย่าง `short` ใช้รูป **comparative** เป็น __adjective + -er + than__: `shorter than`. ตัวอย่าง: `This route is shorter than that one.` และ `My hair is shorter than yours.`"
+      },
+      {
+        "index": 2,
+        "text": "more short",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำสั้นอย่าง `short` ใช้ `-er` ไม่ใช้ `more`. รูปที่ถูกต้องคือ `shorter than`, เช่น `This path is shorter than the other one.`"
+      },
+      {
+        "index": 3,
+        "text": "the shortest",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคนี้เทียบกัน **สองเส้นทาง** จึงใช้ **comparative** (`shorter than`) ไม่ใช่ **superlative** (`the shortest`). ถ้าจะใช้ superlative ต้องมีตัวเลือกหลายเส้น เช่น `This is the shortest route of all.`"
+      },
+      {
+        "index": 4,
+        "text": "shortiest",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปสะกดนี้ไม่มีในภาษาอังกฤษ มักจะใช้ `shorter/shortest`. ที่ถูกคือ `shorter than` ในกรณีเปรียบเทียบสองสิ่ง"
+      }
+    ]
+  },
+  {
+    "question": "He finished ___ of all the runners.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the fastest",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเปรียบเทียบกับนักวิ่งทั้งหมด ใช้ __the + superlative__: `the fastest`. ตัวอย่าง: `He finished the fastest of all the runners.` และ `She solved the puzzle the fastest.`"
+      },
+      {
+        "index": 2,
+        "text": "faster",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `faster` เป็น **comparative** ใช้เทียบสองคนเท่านั้น แต่ที่นี่เทียบกับทั้งกลุ่ม. จึงต้องใช้ `the fastest`"
+      },
+      {
+        "index": 3,
+        "text": "fastest",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาด **the** ซึ่งจำเป็นสำหรับ **superlative** ทั่วไป. ตัวอย่างที่ถูกต้อง: `He is the fastest runner.`"
+      },
+      {
+        "index": 4,
+        "text": "more fast",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำสั้นอย่าง `fast` ใช้ `-er` เป็น `faster` ไม่ใช้ `more fast`. ถ้าจะเป็นที่สุดต้องใช้ `the fastest` ในบริบทนี้"
+      }
+    ]
+  },
+  {
+    "question": "Today is ___ day of the year.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the coldest",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __the + adjective + -est__ กับคำสั้นเพื่อทำ **superlative**: `the coldest`. ตัวอย่าง: `Today is the coldest day of the year.` และ `It was the hottest summer on record.`"
+      },
+      {
+        "index": 2,
+        "text": "colder",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `colder` เป็น **comparative** ใช้เทียบสองวัน แต่ที่นี่พูดถึง “ที่สุดของปี”. จึงต้องใช้ `the coldest`"
+      },
+      {
+        "index": 3,
+        "text": "coldest",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาด **the** ที่ใช้คู่กับ **superlative**. รูปที่ถูกคือ `the coldest`, เช่น `It’s the coldest night this winter.`"
+      },
+      {
+        "index": 4,
+        "text": "more cold",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำสั้นอย่าง `cold` ใช้ `-er/-est` ไม่ใช้ `more/most`. ที่ถูกต้องคือ `the coldest` ในบริบทนี้"
+      }
+    ]
+  },
+  {
+    "question": "Buying in bulk is ___ than buying single items.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "cheaper",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้รูป **comparative** ของคำสั้น `cheap` เป็น __adjective + -er + than__: `cheaper than`. ตัวอย่าง: `Buying in bulk is cheaper than buying single items.` และ `Online prices are cheaper than in-store prices.`"
+      },
+      {
+        "index": 2,
+        "text": "more cheap",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำสั้น `cheap` ต้องใช้ `-er` ไม่ใช่ `more`. ดังนั้นควรเป็น `cheaper than`, เช่น `This phone is cheaper than that one.`"
+      },
+      {
+        "index": 3,
+        "text": "the cheapest",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคนี้เทียบ **สองทางเลือก** จึงใช้ **comparative** (`cheaper than`) ไม่ใช่ **superlative** (`the cheapest`). Superlative ใช้เมื่อเทียบหลายตัวเลือก เช่น `This is the cheapest option.`"
+      },
+      {
+        "index": 4,
+        "text": "cheapier",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปสะกดนี้ไม่ถูกต้อง ต้องเป็น `cheaper` (ไม่เติม i). ตัวอย่างที่ถูก: `Buying in bulk is cheaper than buying single items.`"
+      }
+    ]
+  }
+]

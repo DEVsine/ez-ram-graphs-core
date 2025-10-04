@@ -1,0 +1,473 @@
+[
+  {
+    "question": "I ____ go to the gym after work.",
+    "question_knowledge_ids": [
+      404,
+      398,
+      384
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "often",
+        "knowledge_ids": [
+          404,
+          316
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง จัดวาง **adverb of frequency** ไว้หน้ากริยาหลักตามรูปแบบ __S + adverb of frequency + V1__. ตัวอย่าง: `I often go to the gym after work.` ใช้บอกความถี่ใน **Present Simple** ได้ชัดเจนและเป็นธรรมชาติมากที่สุด"
+      },
+      {
+        "index": 2,
+        "text": "oftenly",
+        "knowledge_ids": [
+          473,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด คำว่า **often** ไม่มีรูปเติม -ly ดังนั้น **oftenly** ไม่ใช่คำที่ถูกต้อง ใช้ `often` ตรงๆ เลยจะถูก เช่น `I often exercise.`"
+      },
+      {
+        "index": 3,
+        "text": "am often",
+        "knowledge_ids": [
+          414,
+          303
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคนี้มีกริยาหลักคือ **go** ไม่ใช่กริยา **be** จึงห้ามใช้ `am often` โครงสร้างที่ถูกคือวาง adverb ก่อนกริยาหลัก: `I often go ...`"
+      },
+      {
+        "index": 4,
+        "text": "go often",
+        "knowledge_ids": [
+          316
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่แนะนำ เพราะตามหลักการสอนมาตรฐาน เราวาง **adverb of frequency** ไว้หน้ากริยาหลัก เช่น `I often go ...` มากกว่า `I go often ...` เพื่อความเป็นธรรมชาติและชัดเจน"
+      }
+    ]
+  },
+  {
+    "question": "She is ____ late for meetings.",
+    "question_knowledge_ids": [
+      414,
+      404,
+      318
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "often",
+        "knowledge_ids": [
+          414,
+          404
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อมีกริยา **be** ให้วาง **adverb of frequency** ไว้หลัง be ตามรูปแบบ __be + adverb of frequency + adjective/phrase__. ตัวอย่าง: `She is often late for meetings.`"
+      },
+      {
+        "index": 2,
+        "text": "oftenly",
+        "knowledge_ids": [
+          473,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **oftenly** ไม่ใช่คำที่ถูกต้อง ต้องใช้ **often** เท่านั้น เช่น `She is often late.`"
+      },
+      {
+        "index": 3,
+        "text": "late often",
+        "knowledge_ids": [
+          316,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด ลำดับคำสลับที่ ต้องวาง adverb ก่อนคำคุณศัพท์เมื่อใช้กับ **be** เช่น `is often late` ไม่ใช่ `is late often`"
+      },
+      {
+        "index": 4,
+        "text": "is often",
+        "knowledge_ids": [
+          303,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะถ้าเติม `is often` ในช่องว่างจะได้ `She is is often late` ซึ่งซ้ำกริยา **be** โครงสร้างที่ถูกคือ `She is often late ...`"
+      }
+    ]
+  },
+  {
+    "question": "They play football ____.",
+    "question_knowledge_ids": [
+      405,
+      398
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "every Sunday",
+        "knowledge_ids": [
+          405
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **time expression** รูปแบบ __every + singular day/month/period__ ได้ เช่น `every Sunday`. ตัวอย่าง: `They play football every Sunday.` บอกกิจวัตรใน **Present Simple** ชัดเจน"
+      },
+      {
+        "index": 2,
+        "text": "on every Sundays",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **every** ต้องเป็นคำนามเอกพจน์ และไม่ต้องใช้ `on` ซ้ำ ควรเป็น `every Sunday` ไม่ใช่ `on every Sundays`"
+      },
+      {
+        "index": 3,
+        "text": "at every Sunday",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เราไม่ใช้ `at` กับวันในสัปดาห์ ต้องใช้ `on Sunday` หรือ `every Sunday` เช่น `They play on Sunday.` หรือ `They play every Sunday.`"
+      },
+      {
+        "index": 4,
+        "text": "in Sundays",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะวันในสัปดาห์ใช้บุพบท **on** ไม่ใช่ **in** และมักไม่ใช้พหูพจน์ในรูปนี้ เช่นควรเป็น `on Sundays` หรือ `every Sunday`"
+      }
+    ]
+  },
+  {
+    "question": "Do you ____ watch TV before bed?",
+    "question_knowledge_ids": [
+      406,
+      381,
+      404
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "often",
+        "knowledge_ids": [
+          404
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ในประโยคคำถาม **Present Simple** วาง **adverb of frequency** หลังประธาน ตามรูปแบบ __Do/Does + S + adverb of frequency + V1__ เช่น `Do you often watch TV before bed?` ใช้ถามความถี่ได้ตรงจุด"
+      },
+      {
+        "index": 2,
+        "text": "yesterday",
+        "knowledge_ids": [
+          311,
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `yesterday` เป็นตัวบอกเวลาในอดีต ไม่เข้ากับ **Present Simple** ถ้าจะถามอดีตควรใช้ `Did you watch TV yesterday?`"
+      },
+      {
+        "index": 3,
+        "text": "hardly never",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เป็น **double negative** ควรใช้ `hardly ever` แทน เช่น `Do you hardly ever watch TV before bed?` ไม่ใช้ `hardly never`"
+      },
+      {
+        "index": 4,
+        "text": "every yesterday",
+        "knowledge_ids": [
+          311,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด วลีนี้ไม่เป็นธรรมชาติและผิดหลัก ควรใช้ `every day` หรือ `yesterday` แยกตามกาล เช่น `Do you watch TV every day?`"
+      }
+    ]
+  },
+  {
+    "question": "We have a meeting ____ the morning.",
+    "question_knowledge_ids": [
+      566,
+      415
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "in",
+        "knowledge_ids": [
+          566
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้บุพบทเวลา **in** กับช่วงของวัน ตามรูปแบบ __in the morning/afternoon/evening__. ตัวอย่าง: `We have a meeting in the morning.`"
+      },
+      {
+        "index": 2,
+        "text": "on",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **on** ใช้กับวันหรือวันที่ เช่น `on Monday`, `on 1st May` ไม่ใช้กับช่วงของวัน"
+      },
+      {
+        "index": 3,
+        "text": "at",
+        "knowledge_ids": [
+          415
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด โดยทั่วไป **at** ใช้กับเวลาเจาะจง เช่น `at 9 a.m.` ส่วนช่วงของวันใช้ `in the morning`"
+      },
+      {
+        "index": 4,
+        "text": "every the morning",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด รูปแบบที่ถูกคือ `every morning` ไม่ต้องมี `the` เช่น `We have a meeting every morning.`"
+      }
+    ]
+  },
+  {
+    "question": "My parents ____ travel abroad.",
+    "question_knowledge_ids": [
+      404,
+      398,
+      384,
+      407
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "usually",
+        "knowledge_ids": [
+          404
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง วาง **adverb of frequency** หน้า **กริยาหลัก** ตามรูปแบบ __S + adverb of frequency + V1__. ตัวอย่าง: `My parents usually travel abroad.` บอกความถี่ในชีวิตประจำวันได้ดี"
+      },
+      {
+        "index": 2,
+        "text": "are usually",
+        "knowledge_ids": [
+          414,
+          303
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกริยาหลักคือ **travel** ไม่ใช่ **be** จึงไม่ใช้ `are usually` โครงสร้างที่ถูกคือ `usually travel` เช่น `They usually travel...`"
+      },
+      {
+        "index": 3,
+        "text": "usuallyly",
+        "knowledge_ids": [
+          473,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด รูปคำนี้ไม่มี ใช้ `usually` เท่านั้น เช่น `They usually go...`"
+      },
+      {
+        "index": 4,
+        "text": "travels usually",
+        "knowledge_ids": [
+          380,
+          407
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดสองจุด คือ 1) ประธานพหูพจน์ต้องใช้กริยารูปพื้นฐาน `travel` ไม่ใช่ `travels` 2) ตำแหน่ง adverb ควรอยู่หน้า V หลัก: `usually travel`"
+      }
+    ]
+  },
+  {
+    "question": "The library opens ____ 9 a.m. on weekdays.",
+    "question_knowledge_ids": [
+      415,
+      400
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "at",
+        "knowledge_ids": [
+          415
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้บุพบทเวลา **at** กับเวลาเจาะจง ตามรูปแบบ __at + clock time__. ตัวอย่าง: `The library opens at 9 a.m. on weekdays.`"
+      },
+      {
+        "index": 2,
+        "text": "in",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **in** ใช้กับช่วงเวลาไม่เจาะจง เช่น `in the morning` ไม่ใช่เวลาตามนาฬิกา"
+      },
+      {
+        "index": 3,
+        "text": "on",
+        "knowledge_ids": [
+          400
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **on** ใช้กับวันและวันที่ เช่น `on Monday`, `on June 1st` ไม่ใช้กับเวลา `9 a.m.`"
+      },
+      {
+        "index": 4,
+        "text": "every",
+        "knowledge_ids": [
+          519,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด ถ้าจะใช้ `every` ต้องตามด้วยคำนามและมักวางท้ายหรือหน้าประโยค เช่น `every weekday` ไม่ใช่ใส่เดี่ยวๆ หน้าตัวเลขเวลา"
+      }
+    ]
+  },
+  {
+    "question": "She goes jogging ____ weekends.",
+    "question_knowledge_ids": [
+      415,
+      405
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "on",
+        "knowledge_ids": [
+          415
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้บุพบท **on** กับวัน/สุดสัปดาห์ ตามรูปแบบ __on + weekends/days__. ตัวอย่าง: `She goes jogging on weekends.`"
+      },
+      {
+        "index": 2,
+        "text": "at",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **at** ไม่ใช้กับ `weekends` ในความหมายทั่วไป เราใช้ `at the weekend` (BrE) หรือ `on the weekend` (AmE) แต่กับพหูพจน์ `weekends` ใช้ `on`"
+      },
+      {
+        "index": 3,
+        "text": "in",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **in** ใช้กับเดือน/ปี/ช่วงกว้าง เช่น `in June`, `in 2025` ไม่ใช้กับ `weekends`"
+      },
+      {
+        "index": 4,
+        "text": "every",
+        "knowledge_ids": [
+          519,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด ถ้าจะใช้ต้องเป็น `every weekend` และตำแหน่งมักอยู่ท้ายหรือหน้าประโยค เช่น `She goes jogging every weekend.`"
+      }
+    ]
+  },
+  {
+    "question": "I clean my room ____ a week.",
+    "question_knowledge_ids": [
+      405,
+      369
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "twice",
+        "knowledge_ids": [
+          405,
+          369
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ตัวบอกความถี่แบบนับครั้ง ตามรูปแบบ __once/twice + a + period__. ตัวอย่าง: `I clean my room twice a week.` ใช้ใน **Present Simple** เพื่อบอกตารางกิจวัตร"
+      },
+      {
+        "index": 2,
+        "text": "two",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด ถ้าจะใช้เลข 2 ต้องตามด้วยคำว่า `times` ให้ครบ เช่น `two times a week` ไม่ใช่ `two a week`"
+      },
+      {
+        "index": 3,
+        "text": "double",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด `double` ไม่ใช่รูปทั่วไปในการบอกความถี่ ควรใช้ `twice` หรือ `two times` เช่น `twice a week`"
+      },
+      {
+        "index": 4,
+        "text": "twices",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด คำว่า **twice** ไม่มีรูปพหูพจน์ จึงห้ามเติม s ตัวอย่างที่ถูกคือ `twice a week`"
+      }
+    ]
+  },
+  {
+    "question": "She ____ drinks coffee in the evening because it keeps her awake.",
+    "question_knowledge_ids": [
+      404,
+      193
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "never",
+        "knowledge_ids": [
+          375,
+          193
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เลือก **never** เพื่อสื่อว่าไม่ทำเลย สอดคล้องกับเหตุผลที่คาเฟอีนทำให้นอนไม่หลับ รูปแบบ __S + adverb of frequency + V1__ เช่น `She never drinks coffee in the evening.`"
+      },
+      {
+        "index": 2,
+        "text": "always",
+        "knowledge_ids": [
+          404
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด ความหมายขัดกับเหตุผลในประโยค (`because it keeps her awake`) ถ้าดื่มตลอดคงไม่เข้ากับการหลีกเลี่ยงคาเฟอีนตอนเย็น"
+      },
+      {
+        "index": 3,
+        "text": "usually",
+        "knowledge_ids": [
+          404
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด แม้จะถูกไวยากรณ์ แต่ความหมายไม่สอดคล้องกับเหตุผล ประโยคบอกเหตุว่าเธอควรหลีกเลี่ยง จึงควรใช้ `never` มากกว่า"
+      },
+      {
+        "index": 4,
+        "text": "sometimes",
+        "knowledge_ids": [
+          404
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด แม้ใช้ได้ทางไวยากรณ์ แต่ขัดกับเหตุผลเรื่องทำให้นอนไม่หลับ ถ้าต้องการสื่อว่าไม่ดื่มเลยให้ใช้ `never`"
+      }
+    ]
+  }
+]

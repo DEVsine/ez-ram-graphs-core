@@ -1,0 +1,546 @@
+[
+  {
+    "question": "I ___ at home last night.",
+    "question_knowledge_ids": [
+      303,
+      311,
+      318,
+      338,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was",
+        "knowledge_ids": [
+          303,
+          350,
+          311
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธานเป็น **I** ใน **Past Simple ของ be** ต้องใช้ __was__. โครงสร้างคือ __Subject (I/he/she/it) + was + complement__. ตัวอย่าง: `I was at home last night.` หรือ `I was tired yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "were",
+        "knowledge_ids": [
+          303,
+          509
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **were** ใช้กับ **you/we/they** ไม่ใช่กับ **I** ในอดีต. ตัวอย่างที่ถูก: `You were at home last night.` แต่กับ I ต้องเป็น `I was at home last night.`"
+      },
+      {
+        "index": 3,
+        "text": "am",
+        "knowledge_ids": [
+          318,
+          350
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **am** เป็นรูปปัจจุบัน (Present), แต่ประโยคมีคำว่า **last night** แสดงว่าเป็นอดีต. ที่ถูกต้องคือ `I was at home last night.`"
+      },
+      {
+        "index": 4,
+        "text": "be",
+        "knowledge_ids": [
+          291,
+          303
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **be** เป็นรูปฐาน (base form) ไม่ใช้ในประโยคบอกเล่าในอดีต. โครงสร้างที่ถูกต้องควรเป็น `I was at home last night.` ไม่ใช่ `I be at home...`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ happy yesterday.",
+    "question_knowledge_ids": [
+      304,
+      311,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "weren't",
+        "knowledge_ids": [
+          304,
+          263
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นประโยคปฏิเสธของ **be** ในอดีตกับ **they** ต้องใช้ __were + not → weren't__. โครงสร้างคือ __Subject (you/we/they) + weren't + complement__. ตัวอย่าง: `They weren't happy yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "wasn't",
+        "knowledge_ids": [
+          304,
+          262
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **wasn't** ใช้กับ **I/he/she/it** ไม่ใช่ **they**. ตัวอย่างที่ถูก: `She wasn't happy yesterday.` สำหรับ they ต้องเป็น `They weren't happy yesterday.`"
+      },
+      {
+        "index": 3,
+        "text": "didn't",
+        "knowledge_ids": [
+          300,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **didn't** ใช้กับกริยาทั่วไป (V1) ไม่ใช่กริยา **be**. เราไม่พูด `They didn't happy` แต่พูดว่า `They weren't happy.`"
+      },
+      {
+        "index": 4,
+        "text": "don't",
+        "knowledge_ids": [
+          387,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **don't** เป็นรูปปัจจุบันและใช้กับกริยาทั่วไป ไม่ใช่ **be** ในอดีต. ประโยคอดีตที่ถูกคือ `They weren't happy yesterday.`"
+      }
+    ]
+  },
+  {
+    "question": "___ she at the meeting yesterday?",
+    "question_knowledge_ids": [
+      305,
+      311,
+      581
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Was",
+        "knowledge_ids": [
+          305,
+          262
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำถามของ **be** ในอดีตใช้โครงสร้าง __Was/Were + subject + complement?__. ประธานเป็น **she** จึงใช้ **Was**: ตัวอย่าง `Was she at the meeting yesterday?` คำตอบสั้น: `Yes, she was.` / `No, she wasn't.`"
+      },
+      {
+        "index": 2,
+        "text": "Were",
+        "knowledge_ids": [
+          305,
+          263
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Were** ใช้กับ **you/we/they** แต่ประธานคือ **she** จึงต้องใช้ **Was**. ตัวอย่างที่ถูก: `Was she at the meeting yesterday?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "knowledge_ids": [
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** เป็นปัจจุบัน แต่ประโยคมีคำว่า **yesterday** เป็นอดีต. ควรใช้ `Was she at the meeting yesterday?`"
+      },
+      {
+        "index": 4,
+        "text": "Did",
+        "knowledge_ids": [
+          315,
+          292
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Did** ใช้กับกริยาทั่วไปไม่ใช่ **be**. คำถามที่ถูกต้องคือ `Was she at the meeting yesterday?` ไม่ใช่ `Did she at the meeting...?`"
+      }
+    ]
+  },
+  {
+    "question": "Were you tired after the trip? — Yes, I ___.",
+    "question_knowledge_ids": [
+      341,
+      311,
+      353
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was",
+        "knowledge_ids": [
+          341,
+          262
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำตอบสั้นของคำถาม **Were you ...?** ต้องตอบด้วยรูป **be** ในอดีตตามประธานใหม่: __Yes, I was.__ โครงสร้างคือ __Short answer: Yes/No + subject + was/were__. ตัวอย่าง: `Were you hungry? — Yes, I was.`"
+      },
+      {
+        "index": 2,
+        "text": "were",
+        "knowledge_ids": [
+          341,
+          263
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด ถึงแม้คำถามขึ้นต้นด้วย **Were**, แต่คำตอบสั้นต้องตามประธาน **I** จึงใช้ **was** ไม่ใช่ **were**. ที่ถูกคือ `Yes, I was.`"
+      },
+      {
+        "index": 3,
+        "text": "did",
+        "knowledge_ids": [
+          353,
+          416
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำตอบสั้นของกริยา **be** ไม่ใช้ **did**. ต้องตอบว่า `Yes, I was.` หรือ `No, I wasn't.`"
+      },
+      {
+        "index": 4,
+        "text": "am",
+        "knowledge_ids": [
+          341,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **am** เป็นปัจจุบัน ไม่ตรงกับคำถามในอดีต. รูปที่ถูกคือ `Yes, I was.`"
+      }
+    ]
+  },
+  {
+    "question": "There ___ a lot of people at the concert.",
+    "question_knowledge_ids": [
+      339,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "were",
+        "knowledge_ids": [
+          339,
+          263
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำนาม **a lot of people** เป็นพหูพจน์ ต้องใช้โครงสร้าง __There were + plural noun__. ตัวอย่าง: `There were a lot of people at the concert.` หรือ `There were many cars on the road.`"
+      },
+      {
+        "index": 2,
+        "text": "was",
+        "knowledge_ids": [
+          339,
+          262
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **was** ใช้กับคำนามเอกพจน์ เช่น `There was a person...` แต่ที่นี่เป็น **people** (พหูพจน์) จึงต้องใช้ `There were ...`"
+      },
+      {
+        "index": 3,
+        "text": "are",
+        "knowledge_ids": [
+          390
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **are** เป็นปัจจุบัน ไม่ใช่อดีต. ประโยคอดีตต้องใช้ `There were a lot of people...`"
+      },
+      {
+        "index": 4,
+        "text": "be",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **be** เป็นรูปฐาน ไม่ใช้ในประโยคบอกเล่า. ต้องผันเป็น `were` ตามคำนามพหูพจน์: `There were a lot of people...`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ born in 1999.",
+    "question_knowledge_ids": [
+      303,
+      311
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was",
+        "knowledge_ids": [
+          303,
+          262
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคเกิด (passive ความหมายคงรูป) ใช้ **be** ในอดีตกับประธานเอกพจน์ **He** จึงเป็น __was__. โครงสร้างคือ __Subject (he/she/it) + was + born__. ตัวอย่าง: `He was born in 1999.`"
+      },
+      {
+        "index": 2,
+        "text": "were",
+        "knowledge_ids": [
+          303,
+          263
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **were** ใช้กับ **you/we/they** ไม่ใช่ **he**. ที่ถูกต้องคือ `He was born in 1999.`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "knowledge_ids": [
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **is** เป็นปัจจุบัน แต่การเกิดเกิดขึ้นในอดีต (1999). ต้องใช้ `was`: `He was born in 1999.`"
+      },
+      {
+        "index": 4,
+        "text": "been",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **been** เป็นรูป past participle ใช้กับ perfect ไม่ใช่ประโยคบอกเล่าอดีตแบบง่าย. รูปที่ถูกคือ `was born` ไม่ใช่ `been born` ในที่นี้"
+      }
+    ]
+  },
+  {
+    "question": "The weather ___ cold last weekend.",
+    "question_knowledge_ids": [
+      303,
+      311
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was",
+        "knowledge_ids": [
+          303,
+          262
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **The weather** เป็นเอกพจน์ ใช้ __was__ ในอดีต. โครงสร้างคือ __Subject (singular) + was + adjective__. ตัวอย่าง: `The weather was cold last weekend.`"
+      },
+      {
+        "index": 2,
+        "text": "were",
+        "knowledge_ids": [
+          303,
+          263
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **were** ใช้กับพหูพจน์หรือ you เท่านั้น. ประธานเอกพจน์อย่าง `The weather` ต้องใช้ `was`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "knowledge_ids": [
+          386
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจากมีตัวบอกเวลา **last weekend** (อดีต) จึงต้องใช้รูปอดีต ไม่ใช่ **is**. ประโยคที่ถูกคือ `The weather was cold last weekend.`"
+      },
+      {
+        "index": 4,
+        "text": "be",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **be** เป็นรูปพื้นฐาน ไม่ใช้ในประโยคบอกเล่า. ต้องผันเป็น `was`: `The weather was cold last weekend.`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ at school yesterday because she was sick.",
+    "question_knowledge_ids": [
+      304,
+      311
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "wasn't",
+        "knowledge_ids": [
+          304,
+          262
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็นประโยคปฏิเสธในอดีตกับประธานเอกพจน์ **She** จึงใช้ __was not → wasn't__. โครงสร้างคือ __Subject (I/he/she/it) + wasn't + place/time complement__. ตัวอย่าง: `She wasn't at school yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "weren't",
+        "knowledge_ids": [
+          304,
+          263
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **weren't** ใช้กับ **you/we/they** ไม่ใช่ **she**. ที่ถูกต้องคือ `She wasn't at school yesterday.`"
+      },
+      {
+        "index": 3,
+        "text": "didn't be",
+        "knowledge_ids": [
+          340,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด โครงสร้างนี้ใช้ไม่ได้กับกริยา **be** เราไม่พูด `didn't be`. ต้องใช้ `wasn't` หรือ `weren't` ตามประธาน เช่น `She wasn't at school yesterday.`"
+      },
+      {
+        "index": 4,
+        "text": "wasn't not",
+        "knowledge_ids": [
+          317,
+          304
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นการปฏิเสธซ้ำซ้อน (double negation) และโครงสร้างไม่ถูก. ใช้แค่ `wasn't` ก็พอ: `She wasn't at school yesterday.`"
+      }
+    ]
+  },
+  {
+    "question": "Where ___ you last night?",
+    "question_knowledge_ids": [
+      305,
+      311,
+      195,
+      581
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "were",
+        "knowledge_ids": [
+          305,
+          263
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำถามด้วย **wh-** ที่ใช้ **be** ในอดีตต้องเป็น __Wh-word + was/were + subject__. ประธานเป็น **you** จึงใช้ **were**: ตัวอย่าง `Where were you last night?`"
+      },
+      {
+        "index": 2,
+        "text": "was",
+        "knowledge_ids": [
+          305,
+          262
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **was** ใช้กับ **I/he/she/it** แต่ประธานคือ **you** ต้องใช้ **were**. คำที่ถูกคือ `Where were you last night?`"
+      },
+      {
+        "index": 3,
+        "text": "did",
+        "knowledge_ids": [
+          315,
+          292
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำถามด้วย **did** ใช้กับกริยาทั่วไป ไม่ใช่ **be**. รูปที่ถูกต้องคือ `Where were you ...?`"
+      },
+      {
+        "index": 4,
+        "text": "do",
+        "knowledge_ids": [
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **do** เป็นปัจจุบันและใช้กับกริยาทั่วไป ไม่ใช่ **be** ในอดีต. ควรใช้ `Where were you last night?`"
+      }
+    ]
+  },
+  {
+    "question": "The books ___ on the table this morning.",
+    "question_knowledge_ids": [
+      303,
+      380,
+      311
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "were",
+        "knowledge_ids": [
+          303,
+          263
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **books** เป็นพหูพจน์ จึงใช้ __were__ ในอดีต. โครงสร้างคือ __Subject (plural) + were + place phrase__. ตัวอย่าง: `The books were on the table this morning.`"
+      },
+      {
+        "index": 2,
+        "text": "was",
+        "knowledge_ids": [
+          303,
+          262
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **was** ใช้กับเอกพจน์ แต่ **books** เป็นพหูพจน์. ที่ถูกต้องคือ `The books were on the table...`"
+      },
+      {
+        "index": 3,
+        "text": "are",
+        "knowledge_ids": [
+          386
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **are** เป็นปัจจุบัน แต่มีตัวบอกเวลา **this morning** ในอดีตที่ผ่านมาแล้ว (ในบริบทเล่าถึงเช้านี้ที่ผ่านมา) จึงใช้รูปอดีต `were` ดีกว่า. ตัวอย่างเปรียบเทียบ: `They are on the table now.` (ปัจจุบัน)"
+      },
+      {
+        "index": 4,
+        "text": "been",
+        "knowledge_ids": [
+          222
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **been** เป็น past participle ใช้กับ perfect tenses ไม่ใช่ Past Simple. ประโยคนี้ควรเป็น `The books were on the table ...`"
+      }
+    ]
+  },
+  {
+    "question": "It ___ a public holiday yesterday.",
+    "question_knowledge_ids": [
+      303,
+      311,
+      318,
+      338,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was",
+        "knowledge_ids": [
+          303,
+          311,
+          262
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **It** (เอกพจน์) ในอดีตใช้ __was__. โครงสร้างคือ __It + was + noun/adjective__. ตัวอย่าง: `It was a public holiday yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "were",
+        "knowledge_ids": [
+          303,
+          311,
+          263
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **were** ใช้กับพหูพจน์หรือ you เท่านั้น ไม่ตรงกับ **It**. ต้องใช้ `was` แทน"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "knowledge_ids": [
+          386,
+          311
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปปัจจุบัน แต่ประโยคมี **yesterday** แสดงว่าเป็นอดีต. รูปที่ถูกคือ `It was a public holiday yesterday.`"
+      },
+      {
+        "index": 4,
+        "text": "be",
+        "knowledge_ids": [
+          291,
+          264
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **be** เป็นรูปฐาน ไม่ใช้ในประโยคบอกเล่า. ต้องผันเป็น `was`: `It was a public holiday yesterday.`"
+      }
+    ]
+  }
+]

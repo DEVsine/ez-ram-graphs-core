@@ -1,0 +1,292 @@
+[
+  {
+    "question": "It's ___ today; bring a jacket.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "very cold",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำว่า **cold** เป็นคำคุณศัพท์แบบ **gradable** จึงใช้ตัวขยายอย่าง **very/so/quite/extremely** ได้ รูปแบบที่ถูกคือ __very + gradable adjective__. ตัวอย่าง: `It's very cold today.` หรือ `The water is very cold.`"
+      },
+      {
+        "index": 2,
+        "text": "absolutely cold",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **absolutely** ใช้กับคำคุณศัพท์แบบ **non-gradable** (สุดขีด) เช่น `absolutely freezing` แต่ **cold** เป็น **gradable** ต้องใช้ `very cold` หรือ `extremely cold` แทน เช่น: `It's very cold today.`"
+      },
+      {
+        "index": 3,
+        "text": "completely cold",
+        "is_correct": false,
+        "answer_description": "ผิด คำว่า **completely** มักใช้กับคำคุณศัพท์ที่เป็น **non-gradable** เช่น `completely full` หรือ `completely empty` แต่ **cold** เป็น **gradable** ควรใช้ `very cold` จะเป็นธรรมชาติกว่า เช่น: `The room is very cold.`"
+      },
+      {
+        "index": 4,
+        "text": "utterly cold",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **utterly** เป็นตัวขยายที่เหมาะกับ **non-gradable adjectives** เช่น `utterly ridiculous` หรือ `utterly impossible` ส่วน **cold** เป็น **gradable** ควรใช้ `very cold` หรือ `so cold` เช่น: `It's so cold outside.`"
+      }
+    ]
+  },
+  {
+    "question": "I was ___ after the marathon; I could barely stand.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "absolutely exhausted",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **exhausted** เป็น **non-gradable adjective** (สุดๆ แล้ว) จึงใช้กับตัวขยายแบบ **absolutely/completely/totally** ได้ รูปแบบที่ถูกคือ __absolutely + non-gradable adjective__. ตัวอย่าง: `I was absolutely exhausted after the marathon.`"
+      },
+      {
+        "index": 2,
+        "text": "very exhausted",
+        "is_correct": false,
+        "answer_description": "ผิด ตามหลักทั่วไป **exhausted** เป็น **non-gradable** จึงไม่เข้ากับ **very** ควรใช้ `very tired` (gradable) หรือ `absolutely exhausted` แทน เช่น: `I felt very tired` หรือ `I was absolutely exhausted.`"
+      },
+      {
+        "index": 3,
+        "text": "extremely exhausted",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกับคำแบบ **non-gradable** อย่าง **exhausted** ควรใช้ตัวขยายแบบ **absolutely/totally/completely** มากกว่า เช่น: `absolutely exhausted` ตัวเลือกนี้จึงไม่เป็นธรรมชาติเท่า เช่น: ใช้ `I was absolutely exhausted.`"
+      },
+      {
+        "index": 4,
+        "text": "completely tired",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **tired** เป็น **gradable** ไม่ใช่สถานะสุดขีด จึงไม่เข้ากับ **completely** ควรใช้ `very tired` หรือถ้าจะสื่อสุดๆ ให้เปลี่ยนคำเป็น `absolutely exhausted` เช่น: `I was very tired.`"
+      }
+    ]
+  },
+  {
+    "question": "The room is ___ — there's no space for another chair.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "completely full",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **full** เป็น **non-gradable** (เต็มคือเต็ม) จึงใช้กับตัวขยายอย่าง **completely/totally** ได้ดี รูปแบบคือ __completely + non-gradable adjective__. ตัวอย่าง: `The room is completely full.` หรือ `The bus was completely full.`"
+      },
+      {
+        "index": 2,
+        "text": "very full",
+        "is_correct": false,
+        "answer_description": "ผิด โดยหลักแล้ว **full** เป็น **non-gradable** จึงไม่เหมาะกับ **very** เพราะมันสื่อว่าเต็ม 100% อยู่แล้ว ควรใช้ `completely full` หรือ `totally full` เช่น: `The auditorium is completely full.`"
+      },
+      {
+        "index": 3,
+        "text": "pretty full",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **pretty** ใช้กับ **gradable adjectives** เพื่อสื่อระดับกลางๆ เช่น `pretty busy` แต่ **full** เป็น **non-gradable** ควรใช้ `completely full` แทน เช่น: `The room is completely full.`"
+      },
+      {
+        "index": 4,
+        "text": "extremely full",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจาก **full** เป็น **non-gradable** การใช้ **extremely** ฟังไม่เป็นธรรมชาติ ควรใช้ตัวขยายแบบครบถ้วน เช่น `completely full` หรือ `totally full` เช่น: `It's totally full.`"
+      }
+    ]
+  },
+  {
+    "question": "The plan is ___ — no need to adjust anything.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "absolutely perfect",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **perfect** เป็น **non-gradable** (สมบูรณ์แบบอยู่แล้ว) จึงใช้กับ **absolutely** ได้ รูปแบบคือ __absolutely + non-gradable adjective__. ตัวอย่าง: `The plan is absolutely perfect.` หรือ `Her answer was absolutely perfect.`"
+      },
+      {
+        "index": 2,
+        "text": "very perfect",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **perfect** เป็น **non-gradable** จึงไม่ใช้กับ **very** ถ้าจะสื่อว่าสมบูรณ์จริงๆ ใช้ `absolutely perfect` แทน เช่น: `This design is absolutely perfect.`"
+      },
+      {
+        "index": 3,
+        "text": "extremely perfect",
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลเดียวกัน **perfect** ไม่ไต่ระดับได้ จึงไม่เข้ากับ **extremely** ควรใช้ `absolutely perfect` หรือ `quite perfect` (สำนวนอังกฤษบางบริบท) มากกว่า เช่น: `The plan is absolutely perfect.`"
+      },
+      {
+        "index": 4,
+        "text": "pretty perfect",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **pretty** เหมาะกับ **gradable** เช่น `pretty good` แต่ **perfect** เป็น **non-gradable** ควรใช้ `absolutely perfect` แทน เช่น: `Her performance was absolutely perfect.`"
+      }
+    ]
+  },
+  {
+    "question": "He felt ___ when he saw the snake.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "absolutely terrified",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **terrified** เป็น **non-gradable** แสดงอารมณ์ขั้นสุด จึงใช้ได้ดีกับ **absolutely/utterly/completely** รูปแบบคือ __absolutely + non-gradable adjective__. ตัวอย่าง: `He felt absolutely terrified when he saw the snake.`"
+      },
+      {
+        "index": 2,
+        "text": "very terrified",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจาก **terrified** เป็นระดับสุดขีดอยู่แล้ว จึงไม่ใช้กับ **very** ถ้าจะสื่อระดับธรรมดาใช้ `very scared` หรือถ้าสุดๆ ใช้ `absolutely terrified` เช่น: `She was very scared.` / `She was absolutely terrified.`"
+      },
+      {
+        "index": 3,
+        "text": "rather terrified",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **rather** ใช้เพิ่มระดับกับ **gradable adjectives** มากกว่า เช่น `rather tired` ส่วน **terrified** เป็น **non-gradable** จึงไม่เข้ากัน ควรใช้ `absolutely terrified` เช่น: `They were absolutely terrified.`"
+      },
+      {
+        "index": 4,
+        "text": "pretty terrified",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **pretty** เหมาะกับคำที่ไต่ระดับได้ เช่น `pretty cold` แต่ **terrified** เป็น **non-gradable** ควรใช้ `absolutely terrified` เช่น: `He was absolutely terrified.`"
+      }
+    ]
+  },
+  {
+    "question": "My fingers were ___ in the snow.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "absolutely freezing",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **freezing** เป็น **non-gradable** (หนาวยะเยือก) จึงเข้ากับ **absolutely** ได้ รูปแบบคือ __absolutely + non-gradable adjective__. ตัวอย่าง: `My fingers were absolutely freezing.`"
+      },
+      {
+        "index": 2,
+        "text": "very freezing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **freezing** เป็นระดับสุดอยู่แล้ว จึงไม่ใช้กับ **very** ถ้าจะสื่อแค่หนาวเฉยๆ ใช้ `very cold` เช่น: `It's very cold.` แต่ถ้าหนาวจัดใช้ `absolutely freezing`"
+      },
+      {
+        "index": 3,
+        "text": "extremely freezing",
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลเดียวกัน **freezing** เป็น **non-gradable** จึงไม่ใช้กับตัวขยายแบบ **extremely** ใช้ `absolutely freezing` จะถูกต้องกว่า เช่น: `The water was absolutely freezing.`"
+      },
+      {
+        "index": 4,
+        "text": "so freezing",
+        "is_correct": false,
+        "answer_description": "ผิด รูปแบบ **so + adjective** ใช้กับ **gradable** ได้ เช่น `so cold` แต่กับ **freezing** (non-gradable) ไม่เป็นธรรมชาติ ควรใช้ `absolutely freezing` เช่น: `It was absolutely freezing outside.`"
+      }
+    ]
+  },
+  {
+    "question": "The movie was ___ — I couldn't take my eyes off the screen.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "absolutely fascinating",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **fascinating** มักมองเป็น **non-gradable** (น่าหลงใหลสุดๆ) จึงใช้กับ **absolutely** ได้ดี รูปแบบคือ __absolutely + non-gradable adjective__. ตัวอย่าง: `The movie was absolutely fascinating.`"
+      },
+      {
+        "index": 2,
+        "text": "very fascinating",
+        "is_correct": false,
+        "answer_description": "ผิด โดยทั่วไปจะใช้ `very interesting` (gradable) มากกว่า ส่วน **fascinating** เป็นขั้นสุด จึงไม่ควรใช้กับ **very** ใช้ `absolutely fascinating` จะถูกต้อง เช่น: `The show was absolutely fascinating.`"
+      },
+      {
+        "index": 3,
+        "text": "completely fascinating",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะตัวขยายอย่าง **completely** มักจับคู่กับคำที่เป็นสภาพสมบูรณ์ เช่น `completely full/empty` มากกว่าคำอารมณ์อย่าง **fascinating** ใช้ `absolutely fascinating` ฟังเป็นธรรมชาติกว่า เช่น: `It was absolutely fascinating.`"
+      },
+      {
+        "index": 4,
+        "text": "extremely fascinating",
+        "is_correct": false,
+        "answer_description": "ผิด รูปนี้ฟังแปลกเพราะ **fascinating** อยู่ระดับสุดแล้ว ปกติใช้ **absolutely** แทน เช่น: `The documentary was absolutely fascinating.`"
+      }
+    ]
+  },
+  {
+    "question": "This shirt is ___ — there isn't a single mark on it.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "absolutely spotless",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **spotless** เป็น **non-gradable** (สะอาดไร้ที่ติ) จึงใช้กับ **absolutely/completely** ได้ รูปแบบที่ถูกคือ __absolutely + non-gradable adjective__. ตัวอย่าง: `This shirt is absolutely spotless.`"
+      },
+      {
+        "index": 2,
+        "text": "very spotless",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **spotless** เป็นระดับสุด ไม่ควรใช้กับ **very** ถ้าจะสื่อแค่สะอาดมากใช้ `very clean` แต่ถ้าสะอาดแบบไม่มีรอยเลยใช้ `absolutely spotless` เช่น: `The kitchen is absolutely spotless.`"
+      },
+      {
+        "index": 3,
+        "text": "quite spotless",
+        "is_correct": false,
+        "answer_description": "ผิด โดยทั่วไป **quite** ใช้กับ **gradable** ว่า ‘ค่อนข้าง...’ เช่น `quite clean` แม้ในอังกฤษ **quite + non-gradable** อาจหมายถึง ‘สมบูรณ์แบบ’ แต่กับ `spotless` ไม่ค่อยเป็นสำนวนติดปาก ใช้ `absolutely spotless` ชัดเจนกว่า"
+      },
+      {
+        "index": 4,
+        "text": "pretty spotless",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **pretty** ใช้กับ **gradable** เช่น `pretty clean` แต่ `spotless` เป็น **non-gradable** ต้องใช้ `absolutely/completely spotless` เช่น: `The floor is completely spotless.`"
+      }
+    ]
+  },
+  {
+    "question": "Are you ___, or can you keep going?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "absolutely exhausted",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **exhausted** เป็น **non-gradable** จึงใช้กับ **absolutely** ได้ รูปแบบคือ __absolutely + non-gradable adjective__. ตัวอย่าง: `Are you absolutely exhausted, or can you keep going?`"
+      },
+      {
+        "index": 2,
+        "text": "very exhausted",
+        "is_correct": false,
+        "answer_description": "ผิด ตามหลักมาตรฐาน **exhausted** ไม่ควรใช้กับ **very** ถ้าเอาเบากว่าให้ใช้ `very tired` หรือถ้าสุดๆ ให้ใช้ `absolutely exhausted` เช่น: `I'm very tired.` / `I'm absolutely exhausted.`"
+      },
+      {
+        "index": 3,
+        "text": "completely tired",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **tired** เป็น **gradable** จึงไม่เข้ากับ **completely** ถ้าจะสื่อขั้นสุดควรเปลี่ยนคำเป็น `absolutely exhausted` เช่น: `He is absolutely exhausted.`"
+      },
+      {
+        "index": 4,
+        "text": "extremely exhausted",
+        "is_correct": false,
+        "answer_description": "ผิด แม้จะเจอบ้างในภาษาพูด แต่โดยหลัก **exhausted** เป็น **non-gradable** จึงเหมาะกับ **absolutely/totally** มากกว่า ใช้ `absolutely exhausted` จะชัดและเป็นธรรมชาติ เช่น: `She was absolutely exhausted.`"
+      }
+    ]
+  },
+  {
+    "question": "It was ___ to finish the project in one day.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "completely impossible",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **impossible** เป็น **non-gradable** จึงใช้กับ **completely/totally/absolutely** ได้ รูปแบบคือ __completely + non-gradable adjective__. ตัวอย่าง: `It was completely impossible to finish in one day.`"
+      },
+      {
+        "index": 2,
+        "text": "very impossible",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **impossible** เป็นสถานะตายตัว (ทำไม่ได้เลย) ไม่สามารถ ‘มากหรือน้อย’ ได้ จึงไม่ใช้กับ **very** ใช้ `completely impossible` หรือ `absolutely impossible` แทน เช่น: `That's absolutely impossible.`"
+      },
+      {
+        "index": 3,
+        "text": "extremely impossible",
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลเดียวกัน **impossible** ไม่ไต่ระดับ จึงไม่เข้ากับ **extremely** ให้ใช้ตัวขยายแบบความสมบูรณ์ เช่น `completely/absolutely impossible` เช่น: `This task is completely impossible.`"
+      },
+      {
+        "index": 4,
+        "text": "pretty impossible",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **pretty** ใช้เพิ่มระดับกับ **gradable** เท่านั้น เช่น `pretty hard` แต่ **impossible** เป็น **non-gradable** ต้องใช้ `completely/absolutely impossible` เช่น: `It's absolutely impossible.`"
+      }
+    ]
+  }
+]

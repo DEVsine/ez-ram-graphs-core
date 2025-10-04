@@ -1,0 +1,480 @@
+[
+  {
+    "question": "The suspect was arrested ___ yesterday.",
+    "question_knowledge_ids": [
+      290,
+      545,
+      559
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "(no agent)",
+        "knowledge_ids": [
+          545
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกรณีที่ผู้กระทำ **ชัดเจนอยู่แล้ว** (มักเป็นตำรวจ) หรือ **ไม่สำคัญต่อข้อความ** เรามักใช้ **Passive แบบไม่บอกผู้กระทำ (agentless passive)** ตามแพตเทิร์น __be + past participle (+ time/place)__ เช่น: `The suspect was arrested yesterday.` ตัวอย่างใช้จริง: `A driver was fined this morning.` ไม่ต้องใส่ `by the police` ก็รู้ความหมายชัดอยู่แล้ว"
+      },
+      {
+        "index": 2,
+        "text": "by the polices",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่รูปคำศัพท์ เพราะคำว่า **police** เป็นคำนามนับไม่ได้ อยู่ในรูปพหูพจน์อยู่แล้ว จึงห้ามเติม -s เช่น `by the police` ถึงจะถูก ตัวอย่างผิด: `by the polices`; ตัวอย่างถูก: `by the police`"
+      },
+      {
+        "index": 3,
+        "text": "by they",
+        "knowledge_ids": [
+          559,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่รูปสรรพนาม หลังบุพบท **by** ต้องใช้รูปกรรม (object pronoun) จึงต้องเป็น `by them` ไม่ใช่ `by they` เช่นตัวอย่างถูก: `The man was caught by them.`"
+      },
+      {
+        "index": 4,
+        "text": "from the police",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะใช้บุพบท **from** แทนที่จะเป็น **by** เมื่อจะระบุผู้กระทำใน passive ต้องใช้ **by + agent** เช่น `was arrested by the police` ไม่ใช่ `from the police`"
+      }
+    ]
+  },
+  {
+    "question": "The theory of relativity was proposed ___ Albert Einstein.",
+    "question_knowledge_ids": [
+      290,
+      544,
+      559
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "by Albert Einstein",
+        "knowledge_ids": [
+          544,
+          559
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะต้องการระบุผู้กระทำที่ **สำคัญและมีชื่อเสียง** จึงใช้ **by-phrase** ตามแพตเทิร์น __be + past participle + by + agent__ เช่น: `The theory of relativity was proposed by Albert Einstein.` ตัวอย่างใช้: `This method was introduced by Dr. Smith.`"
+      },
+      {
+        "index": 2,
+        "text": "from Albert Einstein",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดบุพบท ใน passive ถ้าจะบอกผู้กระทำต้องใช้ **by** ไม่ใช่ **from** เช่น `was proposed by Albert Einstein` ไม่ใช่ `from Albert Einstein`"
+      },
+      {
+        "index": 3,
+        "text": "by he",
+        "knowledge_ids": [
+          559,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปสรรพนาม หลัง **by** ต้องใช้รูปกรรม (object pronoun) ถ้าเป็นสรรพนามจะต้องเป็น `by him` ไม่ใช่ `by he` เช่น `The book was written by him.`"
+      },
+      {
+        "index": 4,
+        "text": "(no agent)",
+        "knowledge_ids": [
+          545
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะในประโยคนี้ **ผู้กระทำมีความสำคัญ** ต่อข้อมูล (Albert Einstein) จึงควรระบุด้วย **by-phrase** เพื่อเน้นเครดิต เช่น `was proposed by Albert Einstein`"
+      }
+    ]
+  },
+  {
+    "question": "The documents were misplaced ___ during the move.",
+    "question_knowledge_ids": [
+      290,
+      545,
+      559
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "(no agent)",
+        "knowledge_ids": [
+          545
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะไม่รู้ว่าใครทำเอกสารหาย หรือผู้กระทำ **ไม่สำคัญ/ไม่อยากระบุโทษ** จึงใช้ **agentless passive** แพตเทิร์น __be + past participle (+ adverbial)__ เช่น: `The documents were misplaced during the move.` ตัวอย่าง: `Some files were deleted accidentally.`"
+      },
+      {
+        "index": 2,
+        "text": "by someone",
+        "knowledge_ids": [
+          544,
+          559
+        ],
+        "is_correct": false,
+        "answer_description": "แม้จะถูกไวยากรณ์ แต่ **ฟังดูฟุ่มเฟือย** เพราะ `someone` ไม่ได้ให้ข้อมูลใหม่ เรานิยมละผู้กระทำในกรณีไม่รู้/ไม่สำคัญ เช่นใช้ `The documents were misplaced ...` โดยไม่ต้องเติม `by someone`"
+      },
+      {
+        "index": 3,
+        "text": "by they",
+        "knowledge_ids": [
+          559,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปสรรพนาม หลังบุพบทต้องใช้รูปกรรม จึงควรเป็น `by them` ไม่ใช่ `by they` เช่น `The box was moved by them.`"
+      },
+      {
+        "index": 4,
+        "text": "from the staff",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดบุพบท ต้องเป็น **by + agent** หากจะระบุผู้กระทำ ไม่ใช่ **from** เช่น `were misplaced by the staff` (แต่ในกรณีนี้ควรละผู้กระทำจะเป็นธรรมชาติกว่า)"
+      }
+    ]
+  },
+  {
+    "question": "This painting was created ___ Leonardo da Vinci.",
+    "question_knowledge_ids": [
+      290,
+      544,
+      559
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "by Leonardo da Vinci",
+        "knowledge_ids": [
+          544,
+          559
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะต้องการระบุศิลปินผู้สร้างงาน ซึ่งเป็นข้อมูลสำคัญ จึงใช้ **by-phrase** ตามแพตเทิร์น __be + past participle + by + agent__ เช่น: `This painting was created by Leonardo da Vinci.` ตัวอย่าง: `The sculpture was made by Michelangelo.`"
+      },
+      {
+        "index": 2,
+        "text": "(no agent)",
+        "knowledge_ids": [
+          545
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะจุดประสงค์คือบอกว่าใครเป็นผู้สร้างภาพวาด หากไม่ใส่ **by-phrase** ผู้อ่านจะพลาดข้อมูลสำคัญ เช่นควรเป็น `... by Leonardo da Vinci.`"
+      },
+      {
+        "index": 3,
+        "text": "from Leonardo da Vinci",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดบุพบท ใช้ **by** เพื่อบอกผู้กระทำใน Passive ไม่ใช้ **from** เช่น `was created by ...` ไม่ใช่ `from ...`"
+      },
+      {
+        "index": 4,
+        "text": "by he",
+        "knowledge_ids": [
+          559,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปสรรพนาม หากใช้สรรพนามต้องเป็นรูปกรรม `by him` แต่ในที่นี้ใช้ชื่อบุคคลตรงๆ จะชัดกว่า: `by Leonardo da Vinci`"
+      }
+    ]
+  },
+  {
+    "question": "New safety guidelines were issued ___ this morning.",
+    "question_knowledge_ids": [
+      290,
+      545,
+      559
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "(no agent)",
+        "knowledge_ids": [
+          545
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะในข่าว/ประกาศทางการ มักเน้น **เหตุการณ์** มากกว่าผู้กระทำ จึงใช้ **agentless passive** ตามแพตเทิร์น __be + past participle (+ time)__ เช่น: `New safety guidelines were issued this morning.` ตัวอย่างเพิ่ม: `A warning was released yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "by the government agency",
+        "knowledge_ids": [
+          544,
+          559
+        ],
+        "is_correct": false,
+        "answer_description": "ถึงแม้จะไม่ผิดไวยากรณ์ แต่สไตล์ข่าวมัก **ละผู้กระทำที่คาดเดาได้** (เช่น หน่วยงานรัฐ) เพื่อกระชับ ถ้าจะระบุจริงๆ ต้องชัดเจนว่าให้ข้อมูลใหม่ เช่นชื่อหน่วยงานเฉพาะ"
+      },
+      {
+        "index": 3,
+        "text": "from the ministry",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดบุพบท หากต้องการระบุผู้กระทำใน passive ต้องใช้ **by + agent** ไม่ใช่ **from** เช่น `were issued by the ministry`"
+      },
+      {
+        "index": 4,
+        "text": "by they",
+        "knowledge_ids": [
+          559,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปสรรพนาม หลัง by ต้องใช้รูปกรรม จึงต้องเป็น `by them` แต่ตามบริบทนี้ควรละผู้กระทำจะเป็นธรรมชาติกว่า"
+      }
+    ]
+  },
+  {
+    "question": "The ceremony was attended ___ the Prime Minister.",
+    "question_knowledge_ids": [
+      290,
+      544,
+      559
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "by the Prime Minister",
+        "knowledge_ids": [
+          544,
+          559
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะผู้เข้าร่วมที่มีตำแหน่งสำคัญ **เพิ่มน้ำหนักข้อมูล** ควรระบุด้วย **by-phrase** ตามแพตเทิร์น __be + past participle + by + agent__ เช่น: `The ceremony was attended by the Prime Minister.` ตัวอย่าง: `The event was opened by the mayor.`"
+      },
+      {
+        "index": 2,
+        "text": "(no agent)",
+        "knowledge_ids": [
+          545
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะประโยคนี้ต้องการสื่อว่า **ใคร** เข้าร่วมพิธี หากละผู้กระทำ ผู้อ่านจะพลาดข้อมูลสำคัญ ควรใช้ `by the Prime Minister`"
+      },
+      {
+        "index": 3,
+        "text": "from the Prime Minister",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดบุพบท ต้องใช้ **by** เพื่อบอกผู้กระทำ/ผู้มีส่วนร่วมใน passive ไม่ใช่ **from** เช่น: `was attended by ...`"
+      },
+      {
+        "index": 4,
+        "text": "by he",
+        "knowledge_ids": [
+          559,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปสรรพนาม ควรใช้ `by him` ถ้าเป็นสรรพนาม แต่ในที่นี้ใช้วลีเต็ม `by the Prime Minister` จะชัดเจนกว่า"
+      }
+    ]
+  },
+  {
+    "question": "The meeting was canceled ___ due to the storm.",
+    "question_knowledge_ids": [
+      290,
+      545,
+      559
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "(no agent)",
+        "knowledge_ids": [
+          545
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเหตุผลถูกบอกแล้วด้วย `due to the storm` จึง **ไม่จำเป็น** ต้องระบุผู้กระทำ ใช้ **agentless passive** ตามแพตเทิร์น __be + past participle + reason__ เช่น: `The meeting was canceled due to the storm.` ตัวอย่าง: `Classes were suspended because of heavy rain.`"
+      },
+      {
+        "index": 2,
+        "text": "by the staff",
+        "knowledge_ids": [
+          544,
+          559
+        ],
+        "is_correct": false,
+        "answer_description": "แม้ถูกไวยากรณ์ แต่ **ไม่จำเป็น** ในที่นี้ เพราะเรารู้อยู่แล้วว่าคนจัดงานเป็นผู้ยกเลิก การใส่ `by the staff` จึงซ้ำซ้อน ทำให้ประโยคยืดโดยไม่เพิ่มสาระ"
+      },
+      {
+        "index": 3,
+        "text": "from the staff",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดบุพบท ใน passive ถ้าจะบอกผู้กระทำต้องใช้ **by** ไม่ใช่ **from** เช่น `was canceled by ...`"
+      },
+      {
+        "index": 4,
+        "text": "by they",
+        "knowledge_ids": [
+          559,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่ใช้สรรพนามรูปประธาน ควรเป็นรูปกรรม `by them` แต่ในบริบทนี้ควรละผู้กระทำจะกระชับและเป็นธรรมชาติกว่า"
+      }
+    ]
+  },
+  {
+    "question": "The smartphone was manufactured ___ in Vietnam.",
+    "question_knowledge_ids": [
+      290,
+      545,
+      559
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "(no agent)",
+        "knowledge_ids": [
+          545
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคเน้น **สถานที่ผลิต** (`in Vietnam`) ไม่ได้เน้นว่าใครผลิต จึงใช้ **agentless passive** ตามแพตเทิร์น __be + past participle + place__ เช่น: `The smartphone was manufactured in Vietnam.` ตัวอย่าง: `The chips were assembled in Taiwan.`"
+      },
+      {
+        "index": 2,
+        "text": "by the company",
+        "knowledge_ids": [
+          544,
+          559
+        ],
+        "is_correct": false,
+        "answer_description": "แม้จะถูกไวยากรณ์ แต่ข้อมูล `by the company` **กว้างและเดาได้** ไม่ได้เพิ่มสาระใหม่ เมื่อมีวลีสถานที่อยู่แล้ว การละผู้กระทำจะกระชับกว่า"
+      },
+      {
+        "index": 3,
+        "text": "from the company",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดบุพบท หากจะแจ้งผู้กระทำใน passive ต้องใช้ **by**, ไม่ใช่ **from** เช่น `was manufactured by XYZ Corp.`"
+      },
+      {
+        "index": 4,
+        "text": "by they",
+        "knowledge_ids": [
+          559,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปสรรพนาม ควรเป็น `by them` แต่ในบริบทนี้ควรละผู้กระทำเพราะไม่ได้สำคัญต่อสารหลักของประโยค"
+      }
+    ]
+  },
+  {
+    "question": "The law was passed ___ Parliament last night.",
+    "question_knowledge_ids": [
+      290,
+      544,
+      559
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "by Parliament",
+        "knowledge_ids": [
+          544,
+          559
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะต้องการระบุ **สถาบันผู้ผ่านกฎหมาย** ซึ่งเป็นสาระสำคัญ จึงใช้ **by-phrase** แพตเทิร์น __be + past participle + by + agent__ เช่น: `The law was passed by Parliament last night.` ตัวอย่าง: `The budget was approved by the committee.`"
+      },
+      {
+        "index": 2,
+        "text": "(no agent)",
+        "knowledge_ids": [
+          545
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะการรู้ว่าใครเป็นผู้ผ่านกฎหมายมีความสำคัญทางสาระ การละผู้กระทำจะทำให้ข้อมูลไม่ครบ ควรเป็น `by Parliament`"
+      },
+      {
+        "index": 3,
+        "text": "from Parliament",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดบุพบท ใน passive ต้องใช้ **by** เพื่อระบุผู้กระทำ ไม่ใช่ **from** เช่น `was passed by Parliament`"
+      },
+      {
+        "index": 4,
+        "text": "by they",
+        "knowledge_ids": [
+          559,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปสรรพนาม หากจะใช้สรรพนามต้องเป็น `by them` แต่ในที่นี้ใช้คำนามเฉพาะ `by Parliament` จะชัดเจนกว่า"
+      }
+    ]
+  },
+  {
+    "question": "My bike was stolen ___ last week.",
+    "question_knowledge_ids": [
+      290,
+      545,
+      559
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "(no agent)",
+        "knowledge_ids": [
+          545
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะผู้ขโมยมัก **ไม่ทราบตัวตน** จึงใช้ **agentless passive** ตามแพตเทิร์น __be + past participle + time__ เช่น: `My bike was stolen last week.` ตัวอย่าง: `Her wallet was stolen yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "by someone",
+        "knowledge_ids": [
+          544,
+          559
+        ],
+        "is_correct": false,
+        "answer_description": "แม้ไวยากรณ์ไม่ผิด แต่ **ไม่ให้ข้อมูลใหม่** และฟังดูแปลกเพราะใครๆ ก็เดาได้ว่า “โดยใครบางคน” จึงควรละผู้กระทำให้กระชับ: `was stolen last week.`"
+      },
+      {
+        "index": 3,
+        "text": "by a thief person",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดการใช้คำ `thief` เป็นคำนามอยู่แล้ว ไม่ต้องตามด้วย `person` ควรเป็น `by a thief` ถ้าจะใช้ แต่ในบริบทยังไม่จำเป็นต้องระบุผู้กระทำ"
+      },
+      {
+        "index": 4,
+        "text": "from a thief",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดบุพบท ต้องใช้ **by** เพื่อระบุผู้กระทำ ไม่ใช่ **from** เช่น `was stolen by a thief` (แต่กรณีนี้ละผู้กระทำจะธรรมชาติกว่า)"
+      }
+    ]
+  }
+]

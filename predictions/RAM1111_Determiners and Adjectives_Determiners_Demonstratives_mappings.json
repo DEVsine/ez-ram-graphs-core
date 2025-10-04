@@ -1,0 +1,488 @@
+[
+  {
+    "question": "___ book on the table is mine.",
+    "question_knowledge_ids": [
+      561
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "This",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะพูดถึงสิ่งของเดี่ยว (singular) ที่อยู่ใกล้ผู้พูด ใช้รูป __this + singular noun__ เช่น `This book is mine.` คีย์เวิร์ดคือคำว่า *book* เป็นเอกพจน์ และมีบริบทใกล้ตัว (บนโต๊ะใกล้เรา). ตัวอย่างใช้จริง: `This book on the table is mine.`"
+      },
+      {
+        "index": 2,
+        "text": "These",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **these** ใช้กับคำนามพหูพจน์เท่านั้น ตามรูปแบบ **these + plural noun** เช่น `These books are mine.` แต่ในโจทย์เป็นคำนามเอกพจน์ `book` จึงใช้ไม่ได้."
+      },
+      {
+        "index": 3,
+        "text": "That",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะ เพราะ **that** ใช้กับสิ่งที่ไกลจากผู้พูดหรือกล่าวถึงอดีต/ไกลตัวทางความรู้สึก รูปแบบ **that + singular noun** ถูกต้องเชิงจำนวน แต่บริบท \"บนโต๊ะตรงหน้า\" มักถือว่าใกล้กว่า จึงควรใช้ `This book ...` มากกว่า."
+      },
+      {
+        "index": 4,
+        "text": "Those",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดสองจุด: หนึ่ง **those** ใช้กับพหูพจน์ สอง บ่งระยะไกล ในโจทย์คำนามเป็นเอกพจน์ `book` และบริบทใกล้ จึงควรเป็น `This book ...` ตัวอย่างที่ถูกของ **those**: `Those books are mine.`"
+      }
+    ]
+  },
+  {
+    "question": "I didn’t like ___ jokes you told yesterday.",
+    "question_knowledge_ids": [
+      562,
+      193
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "those",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะอ้างถึงเรื่องตลกหลายเรื่องในอดีต ใช้ __those + plural noun__ เพื่อสื่อระยะทางทางเวลา/จิตใจว่า \"ไกลแล้ว\" เช่น `Those jokes were not funny.` โครงสร้างที่ถูก: `I didn’t like those jokes you told yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "these",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ **these** ใช้กับสิ่งที่ใกล้ปัจจุบันหรือใกล้ผู้พูด แต่ประโยคพูดถึงเหตุการณ์เมื่อวาน (ไกลเวลา) จึงควรใช้ **those** เช่น: `those jokes you told yesterday` ไม่ใช่ `these jokes ...`"
+      },
+      {
+        "index": 3,
+        "text": "this",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจำนวน เพราะ **this** ใช้กับเอกพจน์ แต่ `jokes` เป็นพหูพจน์ ต้องใช้รูปพหูพจน์อย่าง **those** หรือ **these** แทน เช่น `those jokes`."
+      },
+      {
+        "index": 4,
+        "text": "that",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจำนวน เพราะ **that** ใช้กับเอกพจน์ ในขณะที่ `jokes` เป็นพหูพจน์ ต้องใช้ **those** ให้ตรงรูปแบบ `those + plural noun` เช่น `those jokes`."
+      }
+    ]
+  },
+  {
+    "question": "Could you pass me ___ salt next to you?",
+    "question_knowledge_ids": [
+      561
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "that",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกำลังขอสิ่งที่อยู่ใกล้ผู้ฟัง (ข้างคุณ) ใช้ __that + singular/uncountable noun__ เพื่อสื่อว่าไกลจากผู้พูด เช่น `That salt next to you.` ตัวอย่าง: `Could you pass me that salt next to you?`"
+      },
+      {
+        "index": 2,
+        "text": "this",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ **this** มักใช้กับสิ่งที่อยู่ใกล้ผู้พูด ไม่ใช่ผู้ฟัง ในที่นี้เกลืออยู่ข้างผู้ฟัง ควรใช้ **that** มากกว่า เช่น `that salt next to you`."
+      },
+      {
+        "index": 3,
+        "text": "these",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **these** ใช้กับพหูพจน์ แต่ `salt` เป็นคำนามนับไม่ได้/ถือเป็นเอกพจน์ในบริบทภาชนะเดียว ควรใช้ **that** เช่น `that salt`."
+      },
+      {
+        "index": 4,
+        "text": "those",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจำนวนและความหมาย เพราะ **those** ใช้กับพหูพจน์ และสื่อระยะไกลจำนวนมากกว่า 1 สิ่ง แต่ `salt` ในที่นี้เป็นมวลรวมเดียว ควรพูด `that salt`."
+      }
+    ]
+  },
+  {
+    "question": "___ are my keys.",
+    "question_knowledge_ids": [
+      562
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "These",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะใช้สรรพนามชี้เฉพาะกับสิ่งของหลายชิ้นใกล้ตัว ใช้รูป __these + be__ เช่น `These are my keys.` ตัวอย่างการใช้: `These are my keys, not yours.`"
+      },
+      {
+        "index": 2,
+        "text": "This",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจำนวน เพราะ **this** ใช้กับเอกพจน์ แต่ `keys` เป็นพหูพจน์ ต้องใช้ **these** เช่น `These are my keys.` ไม่ใช่ `This is my keys.`"
+      },
+      {
+        "index": 3,
+        "text": "That",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ตรงระยะ เพราะ **that** ใช้กับสิ่งที่ไกล หรือเอกพจน์เมื่อใช้เป็น determiner และถ้าเป็นสรรพนามก็ต้อง `That is ...` กับสิ่งเดียว ส่วนในที่นี้เป็นพหูพจน์และใกล้ตัว จึงควรใช้ `These are ...`"
+      },
+      {
+        "index": 4,
+        "text": "Those",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": false,
+        "answer_description": "เกือบได้ แต่ **those** สื่อว่าไกลกว่า/ไม่ใกล้ตัว ในประโยคไม่มีบริบทไกลและมักใช้ **these** เมื่อถือหรืออยู่ใกล้ เช่น `These are my keys.` ถ้าจะใช้ **those** ควรมีบริบทไกล: `Those are my keys over there.`"
+      }
+    ]
+  },
+  {
+    "question": "I have never been to ___ city you mentioned.",
+    "question_knowledge_ids": [
+      561
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "that",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะอ้างถึงเมืองเดี่ยวที่ถูกพูดถึงไปแล้ว (ไกลในบทสนทนา) ใช้ __that + singular noun__ เช่น `that city` ตัวอย่าง: `I have never been to that city you mentioned.`"
+      },
+      {
+        "index": 2,
+        "text": "this",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ **this** ใช้กับสิ่งที่ใกล้ผู้พูด/กำลังพูดถึงเดี๋ยวนี้แบบชี้ให้เห็นตรงหน้า แต่ประโยคอ้างสิ่งที่กล่าวมาก่อนหน้านี้ จึงใช้ **that** จะเป็นธรรมชาติกว่า เช่น `that city`."
+      },
+      {
+        "index": 3,
+        "text": "these",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจำนวน เพราะ **these** ใช้กับพหูพจน์ แต่ `city` เป็นเอกพจน์ ต้องใช้รูปเอกพจน์อย่าง **that** หรือ **this** เช่น `that city`."
+      },
+      {
+        "index": 4,
+        "text": "those",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจำนวน เพราะ **those** ใช้กับคำนามพหูพจน์ ขณะที่ `city` เป็นเอกพจน์ ถ้าเป็นหลายเมืองจะพูด `those cities` แต่ในโจทย์เป็นเมืองเดียว ควรใช้ `that city`."
+      }
+    ]
+  },
+  {
+    "question": "Do you remember ___ day we first met?",
+    "question_knowledge_ids": [
+      561
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "that",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะพูดถึงวันหนึ่งในอดีตที่ทั้งสองฝ่ายรู้กัน ใช้ __that + singular noun__ เพื่อชี้วันนั้นชัด ๆ เช่น `that day` ประโยคตัวอย่าง: `Do you remember that day we first met?`"
+      },
+      {
+        "index": 2,
+        "text": "this",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ **this** มักใช้กับสิ่งที่ใกล้ปัจจุบันหรือกำลังเกิดขึ้น ขณะที่เรากำลังรำลึกอดีต ควรใช้ **that** เช่น `that day` เพื่อสื่อว่าไกลในเวลา."
+      },
+      {
+        "index": 3,
+        "text": "these",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจำนวน เพราะ **these** ใช้กับพหูพจน์ แต่ `day` เป็นเอกพจน์ ถ้าจะพูดถึงหลายวันค่อยใช้ `those/these days` แต่ที่นี่คือวันเดียว ต้อง `that day`."
+      },
+      {
+        "index": 4,
+        "text": "those",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจำนวนและความหมาย เพราะ `day` เป็นเอกพจน์ และ **those** ใช้กับสิ่งที่ไกลและพหูพจน์ ต้องใช้รูปเอกพจน์ `that day` ให้ตรงกับบริบท."
+      }
+    ]
+  },
+  {
+    "question": "___ apples here are fresh.",
+    "question_knowledge_ids": [
+      562
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "These",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะพูดถึงสิ่งของหลายชิ้นที่อยู่ใกล้ผู้พูด ใช้ __these + plural noun__ เช่น `These apples are fresh.` โครงสร้างที่ชัดเจน: __these + plural noun__."
+      },
+      {
+        "index": 2,
+        "text": "Those",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ **those** สื่อว่าอยู่ไกล แต่ในประโยคมีคำว่า `here` บอกว่าอยู่ใกล้ จึงควรใช้ **these** เช่น `These apples here are fresh.`"
+      },
+      {
+        "index": 3,
+        "text": "This",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจำนวน เพราะ **this** ใช้กับเอกพจน์ แต่ `apples` เป็นพหูพจน์ ต้องใช้ **these** ตามแพทเทิร์น `these + plural noun` เช่น `These apples ...`"
+      },
+      {
+        "index": 4,
+        "text": "That",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดทั้งจำนวนและระยะ เพราะ **that** ใช้กับเอกพจน์และสื่อไกล ขณะนี้เป็นพหูพจน์และอยู่ใกล้ (`here`) ดังนั้นรูปที่ถูกต้องคือ `These apples ...`"
+      }
+    ]
+  },
+  {
+    "question": "What does ___ word mean?",
+    "question_knowledge_ids": [
+      561
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "this",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อชี้คำบนหน้าเพจหรือสิ่งที่อยู่ใกล้ผู้พูด ใช้ __this + singular noun__ เช่น `this word` ตัวอย่าง: `What does this word mean?`"
+      },
+      {
+        "index": 2,
+        "text": "that",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะ เพราะ **that** ใช้กับสิ่งที่อยู่ไกลกว่าหรือไม่ได้อยู่ตรงหน้า ถ้าคำอยู่ห่างออกไปหรือบนกระดานไกล ๆ อาจใช้ได้ แต่บริบททั่วไประยะใกล้ควรใช้ `this word`."
+      },
+      {
+        "index": 3,
+        "text": "these",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจำนวน เพราะ **these** ใช้กับพหูพจน์ แต่ `word` เป็นเอกพจน์ ถ้าเป็นหลายคำจะพูด `these words` เช่น `What do these words mean?`"
+      },
+      {
+        "index": 4,
+        "text": "those",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจำนวนและระยะ เพราะ **those** ใช้กับพหูพจน์และสิ่งที่ไกล ในที่นี้เป็นคำเดียวใกล้ตัว ควรใช้ `this word` ตามแพทเทิร์น `this + singular noun`."
+      }
+    ]
+  },
+  {
+    "question": "I’m not sure about ___ kind of music we’re listening to right now.",
+    "question_knowledge_ids": [
+      561
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "this",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกำลังพูดถึงสิ่งที่เกิดขึ้น \"ตอนนี้\" ใช้ __this + singular noun__ กับโครงสร้างคงที่ `this kind of + singular noun` เช่น `this kind of music` ตัวอย่าง: `I’m not sure about this kind of music.`"
+      },
+      {
+        "index": 2,
+        "text": "that",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่แม่นยำ เพราะ **that** มักใช้สื่อสิ่งที่ไกลตัวหรือไม่ใช่ตอนนี้ ในเมื่อกำลังฟังเพลงอยู่ตอนนี้ ใช้ **this** จะชัดกว่า เช่น `this kind of music`."
+      },
+      {
+        "index": 3,
+        "text": "these",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปแบบ เพราะโครงสร้างคงที่คือ `this/that kind of + singular noun` ไม่ใช้ `these kind of` ถ้าจะใช้พหูพจน์จะเป็น `these kinds of + plural noun` เช่น `these kinds of songs`."
+      },
+      {
+        "index": 4,
+        "text": "those",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปแบบและบริบท เพราะ `those kind of` ไม่เป็นทางการและขัดกับแพทเทิร์นมาตรฐาน ควรใช้ `this kind of music` เมื่อพูดถึงสิ่งที่กำลังเกิดขึ้น."
+      }
+    ]
+  },
+  {
+    "question": "___ is my favorite part of the show.",
+    "question_knowledge_ids": [
+      561
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "This",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **this** แบบสรรพนามเพื่อชี้ช่วงเวลาปัจจุบันของโชว์ ใช้รูป __this + be__ เช่น `This is my favorite part.` ตัวอย่างการใช้: `This is amazing!`"
+      },
+      {
+        "index": 2,
+        "text": "These",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจำนวน เพราะกำลังพูดถึง \"ส่วนที่ชอบ\" หนึ่งส่วน ใช้เอกพจน์ **this** ไม่ใช่พหูพจน์ **these** เช่น `This is my favorite part.`"
+      },
+      {
+        "index": 3,
+        "text": "That",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง เพราะ **that** สื่อสิ่งที่ไกลหรือก่อนหน้า หากอยากชี้ช่วงก่อนหน้านี้ค่อยใช้ `That was ...` แต่ในปัจจุบันควรใช้ `This is ...` ให้ชัด."
+      },
+      {
+        "index": 4,
+        "text": "Those",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจำนวนและไม่เข้าบริบท เพราะ **those** ใช้กับพหูพจน์ ในประโยคนี้กล่าวถึงส่วนเดียวของโชว์ จึงควรใช้ `This is my favorite part.`"
+      }
+    ]
+  },
+  {
+    "question": "Look at ___ pictures on the wall over there.",
+    "question_knowledge_ids": [
+      561,
+      562
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "those",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะพูดถึงรูปภาพหลายรูปที่อยู่ไกล (`over there`) ใช้ __those + plural noun__ เช่น `those pictures` ตัวอย่าง: `Look at those pictures on the wall over there.`"
+      },
+      {
+        "index": 2,
+        "text": "these",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ **these** ใช้กับสิ่งที่อยู่ใกล้ผู้พูด แต่มีคำบอกระยะ `over there` แสดงว่าไกล จึงควรใช้ **those** เช่น `those pictures`."
+      },
+      {
+        "index": 3,
+        "text": "this",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจำนวนและระยะ เพราะ **this** ใช้กับเอกพจน์และใกล้ตัว แต่ `pictures` เป็นพหูพจน์และอยู่ไกล (`over there`) ต้องใช้ `those pictures`."
+      },
+      {
+        "index": 4,
+        "text": "that",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจำนวน ถึงแม้ **that** สื่อระยะไกลได้ แต่ใช้กับเอกพจน์ ขณะที่ `pictures` เป็นพหูพจน์ จึงควรใช้ `those pictures` ให้ตรงไวยากรณ์."
+      }
+    ]
+  }
+]

@@ -1,0 +1,519 @@
+[
+  {
+    "question": "If water ___ to 100°C, it boils.",
+    "question_knowledge_ids": [
+      481,
+      495
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "heats",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้าง **Zero Conditional** ต้องใช้ `if + present simple` และถ้าประธานไม่ได้ทำเองควรใช้ **passive**. คำว่า `heats` เป็น active แปลว่า “น้ำทำให้ตัวเองร้อน” ซึ่งไม่เป็นธรรมชาติ. ตัวอย่างที่ผิด: `If water heats to 100°C, it boils.` ควรใช้ `is heated` จะชัดกว่า."
+      },
+      {
+        "index": 2,
+        "text": "is heated",
+        "knowledge_ids": [
+          290,
+          553
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **Zero Conditional** ใช้พูดความจริงทั่วไป: __if + present simple__, __present simple__. และประโยคนี้ควรเป็น **passive** เพราะ “น้ำถูกทำให้ร้อน”: `If water is heated to 100°C, it boils.` ตัวอย่างใช้จริง: `If metal is heated, it expands.`"
+      },
+      {
+        "index": 3,
+        "text": "will heat",
+        "knowledge_ids": [
+          495,
+          507
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะในอนุประโยคที่ขึ้นต้นด้วย **if** ห้ามใช้ **will** ในความหมายเงื่อนไขทั่วไป. โครงสร้างที่ถูกคือ `if + present simple`, ไม่ใช่ `if + will`. ตัวอย่างที่ถูก: `If you press this button, the machine starts.`"
+      },
+      {
+        "index": 4,
+        "text": "heated",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `heated` เป็นรูปอดีตเรียบ ซึ่งไม่ตรงกับความจริงทั่วไปในปัจจุบัน. **Zero Conditional** ต้องเป็นปัจจุบัน: `If water is heated to 100°C, it boils.` ไม่ใช่ `If water heated...`"
+      }
+    ]
+  },
+  {
+    "question": "If she ___ early tomorrow, she will join us for breakfast.",
+    "question_knowledge_ids": [
+      481,
+      495,
+      242
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "arrives",
+        "knowledge_ids": [],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตาม **First Conditional** ใช้ __if + present simple__, __will + base verb__ แม้มีคำว่า **tomorrow** ก็ยังใช้ปัจจุบันใน if-clause: `If she arrives early tomorrow, she will join us.` ตัวอย่าง: `If it rains tomorrow, we will stay home.`"
+      },
+      {
+        "index": 2,
+        "text": "will arrive",
+        "knowledge_ids": [
+          495,
+          507
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะในอนุประโยค **if** ห้ามใช้ **will** ในเงื่อนไขทั่วไป. ควรเป็น `If she arrives ...` ไม่ใช่ `If she will arrive ...`. ตัวอย่างที่ถูก: `If you call me, I will answer.`"
+      },
+      {
+        "index": 3,
+        "text": "arrived",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปอดีตเรียบทำให้ความหมายไปทางสมมติ (คล้าย Second Conditional) ซึ่งไม่ตรงกับแผนอนาคตที่เป็นไปได้จริง. สำหรับเหตุการณ์อนาคตที่มีโอกาสเกิด ใช้ `if + present simple`: `arrives`."
+      },
+      {
+        "index": 4,
+        "text": "was arriving",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **past continuous** ไม่ใช่รูปมาตรฐานใน if-clause ของ First Conditional. โครงสร้างควรเป็น `if + present simple` เช่น `If she arrives early, ...` ไม่ใช่ `If she was arriving, ...`"
+      }
+    ]
+  },
+  {
+    "question": "If I ___ more time now, I would help you.",
+    "question_knowledge_ids": [
+      481,
+      498
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคนี้เป็น **Second Conditional** (สถานการณ์ไม่จริงตอนนี้ มีคำว่า **now**). รูปที่ถูกใน if-clause ต้องเป็น **past simple**: `had`, ไม่ใช่ `have`. ตัวอย่าง: `If I had money, I would buy a bike.`"
+      },
+      {
+        "index": 2,
+        "text": "had",
+        "knowledge_ids": [
+          498
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **Second Conditional** คือ __if + past simple__, __would + base verb__ เพื่อพูดถึงเงื่อนไขที่ขัดกับความจริงตอนนี้: `If I had more time now, I would help you.` ตัวอย่าง: `If she were here, we would start.`"
+      },
+      {
+        "index": 3,
+        "text": "would have",
+        "knowledge_ids": [
+          430,
+          428
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `would` ห้ามอยู่ในอนุประโยค **if**. และ `would have` ใช้กับ **Third Conditional** (เหตุการณ์ในอดีต) ไม่ใช่ตอนนี้. ตัวอย่างที่ถูกของ Third: `If I had had time, I would have helped.`"
+      },
+      {
+        "index": 4,
+        "text": "had had",
+        "knowledge_ids": [
+          511
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `had had` คือ **past perfect**, ใช้ใน **Third Conditional** (พูดถึงอดีต), แต่ประโยคนี้มีคำว่า **now** ชัดว่าพูดถึงปัจจุบัน. ที่ถูกคือ `had` (past simple) ใน Second Conditional."
+      }
+    ]
+  },
+  {
+    "question": "If they ___ the map yesterday, they would not have gotten lost.",
+    "question_knowledge_ids": [
+      481,
+      485
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "check",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Third Conditional** ต้องใช้ **past perfect** ใน if-clause. `check` เป็นปัจจุบัน ไม่สอดคล้องกับคำว่า **yesterday** และโครงสร้าง Third. รูปที่ถูกคือ `had checked`."
+      },
+      {
+        "index": 2,
+        "text": "checked",
+        "knowledge_ids": [
+          289
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปอดีตเรียบยังไม่พอสำหรับ **Third Conditional**, ซึ่งต้องเป็น **past perfect**: `had checked`. ตัวอย่างที่ถูก: `If they had checked the map, they wouldn’t have gotten lost.`"
+      },
+      {
+        "index": 3,
+        "text": "had checked",
+        "knowledge_ids": [
+          280,
+          281
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **Third Conditional** คือ __if + past perfect__, __would have + V3__. ตัวอย่างประโยค: `If they had checked the map yesterday, they would not have gotten lost.` ใช้เพื่อพูดถึงอดีตที่ไม่เกิดขึ้นจริง."
+      },
+      {
+        "index": 4,
+        "text": "would check",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `would` ไม่ควรอยู่ใน if-clause และ `would check` ใช้ในผลลัพธ์ของ Second ไม่ใช่ Third. ที่ถูก: `If they had checked ..., they would not have gotten lost.`"
+      }
+    ]
+  },
+  {
+    "question": "If you ___ to bed earlier last night, you wouldn’t be so tired now.",
+    "question_knowledge_ids": [
+      481,
+      484,
+      511
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "went",
+        "knowledge_ids": [
+          289
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปอดีตเรียบ (`went`) ไม่พอสำหรับเชื่อมอดีตกับผลปัจจุบัน. ประโยคนี้เป็น **Mixed Conditional** (เหตุอดีต → ผลตอนนี้) ต้องใช้ **past perfect**: `had gone`."
+      },
+      {
+        "index": 2,
+        "text": "had gone",
+        "knowledge_ids": [
+          280,
+          281
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง นี่คือ **Mixed Conditional**: __if + past perfect__ (เหตุอดีต), __would + base verb__ (ผลปัจจุบัน). ตัวอย่าง: `If you had gone to bed earlier last night, you wouldn’t be so tired now.` ใช้เมื่ออยากบอกว่าอดีตมีผลต่อสภาพตอนนี้."
+      },
+      {
+        "index": 3,
+        "text": "would go",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `would` ห้ามอยู่ใน if-clause และ `would go` บอกผลลัพธ์อนาคต/สมมติ ไม่ตรงกับเหตุอดีตในประโยคนี้. ควรใช้ `had gone` ใน if-clause."
+      },
+      {
+        "index": 4,
+        "text": "have gone",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `have gone` เป็น **present perfect**, ไม่สอดคล้องกับตัวบอกเวลาอดีต `last night`. โครงสร้างที่ถูกของ Mixed คือ `if + past perfect` → `would + base`: `had gone` → `wouldn’t be`."
+      }
+    ]
+  },
+  {
+    "question": "Unless it ___, we’ll go hiking this weekend.",
+    "question_knowledge_ids": [
+      486,
+      481,
+      495
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "rains",
+        "knowledge_ids": [
+          398,
+          407,
+          385
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **First Conditional** กับ **unless** (แปลว่า “เว้นแต่ว่า”) ใช้ __unless + present simple__, __will + base verb__. ตัวอย่าง: `Unless it rains, we’ll go hiking.` หรือ `Unless you call, I won’t know.`"
+      },
+      {
+        "index": 2,
+        "text": "will rain",
+        "knowledge_ids": [
+          495,
+          507
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะในอนุประโยคที่ขึ้นด้วย **unless/if** ไม่ใช้ **will**. ต้องเป็น `unless it rains` ไม่ใช่ `unless it will rain`. เปรียบเทียบ: `If it rains, we will stay in.`"
+      },
+      {
+        "index": 3,
+        "text": "rained",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `rained` เป็นอดีตเรียบ ทำให้ความหมายเบี้ยวไปจาก First Conditional ที่พูดถึงอนาคตที่เป็นไปได้. ที่ถูกคือปัจจุบัน: `rains`."
+      },
+      {
+        "index": 4,
+        "text": "is raining",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **present continuous** ไม่ใช่รูปมาตรฐานในอนุประโยค **unless** ของเงื่อนไขอนาคตทั่วไป. รูปที่เป็นกลางและถูกต้องคือ `unless it rains`."
+      }
+    ]
+  },
+  {
+    "question": "If he ___ coffee after 6 p.m., he has trouble sleeping.",
+    "question_knowledge_ids": [
+      481,
+      397,
+      398
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "drinks",
+        "knowledge_ids": [
+          398,
+          407,
+          385
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง นี่คือ **Zero Conditional** ใช้กับนิสัย/ข้อเท็จจริง: __if + present simple__, __present simple__. ประโยคที่ถูก: `If he drinks coffee after 6 p.m., he has trouble sleeping.` ตัวอย่างอื่น: `If I eat late, I can’t sleep.`"
+      },
+      {
+        "index": 2,
+        "text": "will drink",
+        "knowledge_ids": [
+          247
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ Zero/First Conditional ไม่ใช้ **will** ใน if-clause. `will drink` ทำให้โครงสร้างผิด: ควรเป็น `drinks`. ตัวอย่างที่ถูก: `If you study, you learn more.`"
+      },
+      {
+        "index": 3,
+        "text": "drank",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `drank` คืออดีตเรียบ จะพาไปสู่ความหมายสมมติแบบ Second Conditional ซึ่งไม่ตรงกับนิสัย/ความจริงทั่วไป. สำหรับนิสัยให้ใช้ `present simple`: `drinks`."
+      },
+      {
+        "index": 4,
+        "text": "is drinking",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `is drinking` เป็น **present continuous** (กำลังกระทำตอนนี้) ไม่ใช่นิสัยประจำ. Zero Conditional ต้องใช้ `present simple`: `drinks`."
+      }
+    ]
+  },
+  {
+    "question": "If I ___ you, I wouldn’t accept that offer.",
+    "question_knowledge_ids": [
+      481,
+      482,
+      509
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "am",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคสมมติปัจจุบัน (Second Conditional) ใช้ **subjunctive** กับกริยา be คือ `were` สำหรับทุกประธาน. `If I am you` จึงไม่ถูกในบริบทนี้."
+      },
+      {
+        "index": 2,
+        "text": "was",
+        "knowledge_ids": [
+          509
+        ],
+        "is_correct": false,
+        "answer_description": "ใกล้เคียงแต่ยังผิดตามมาตรฐานไวยากรณ์แบบเป็นทางการ เพราะใน **Second Conditional** กับกริยา be ควรใช้ `were` กับทุกประธาน. รูปที่ถือว่าถูกต้องที่สุดคือ `If I were you, ...`"
+      },
+      {
+        "index": 3,
+        "text": "were",
+        "knowledge_ids": [
+          482,
+          509
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคคำแนะนำแบบสมมติใช้ **Second Conditional**: __if + past simple (be → were)__ กับทุกประธาน, __would + base verb__. ตัวอย่าง: `If I were you, I wouldn’t accept that offer.` และ `If he were here, we would ask him.`"
+      },
+      {
+        "index": 4,
+        "text": "would be",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `would` ห้ามอยู่ใน if-clause. โครงสร้างที่ถูกคือ `If I were you, ...` ไม่ใช่ `If I would be you, ...` ตัวอย่างที่ถูก: `If she were taller, she would play center.`"
+      }
+    ]
+  },
+  {
+    "question": "If the alarm ___, we would have caught the train.",
+    "question_knowledge_ids": [
+      481,
+      485
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "hadn't failed",
+        "knowledge_ids": [
+          280,
+          281,
+          249
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง นี่คือ **Third Conditional** แบบปฏิเสธ: __if + past perfect (had not + V3)__, __would have + V3__. ตัวอย่าง: `If the alarm hadn’t failed, we would have caught the train.` ใช้พูดถึงอดีตที่ตรงข้ามกับความจริง."
+      },
+      {
+        "index": 2,
+        "text": "didn't fail",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ Third Conditional ต้องใช้ **past perfect** ไม่ใช่อดีตเรียบ. `didn’t fail` จึงไม่พอสำหรับเหตุการณ์ที่เกิดขึ้นแล้วในอดีตที่อยากย้อนสมมติ. ที่ถูกคือ `hadn’t failed`."
+      },
+      {
+        "index": 3,
+        "text": "wouldn't fail",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `would` ไม่ควรอยู่ใน if-clause และรูปนี้ยังสื่ออนาคต/สมมติทั่วไป ไม่ใช่อดีตที่เกิดไปแล้ว. Third Conditional ต้องเป็น `if + had (not) + V3`."
+      },
+      {
+        "index": 4,
+        "text": "hasn't failed",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `present perfect` ไม่ใช่รูปที่ใช้ใน Third Conditional. เราพูดถึงอดีตจบสิ้นแล้ว จึงต้องใช้ **past perfect**: `hadn’t failed`."
+      }
+    ]
+  },
+  {
+    "question": "If you ___ your report by the time the meeting starts, you’ll be fine.",
+    "question_knowledge_ids": [
+      481,
+      216,
+      225,
+      495
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "finish",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะแม้ First Conditional ใช้ `if + present simple` ได้ แต่ที่นี่มีกรอบเวลา `by the time ... starts` สื่อว่า “ทำเสร็จก่อนเวลา” ซึ่งเหมาะกับ **present perfect** (`have finished`) เพื่อเน้นผลเสร็จสิ้นก่อนจุดเวลาในอนาคต."
+      },
+      {
+        "index": 2,
+        "text": "finished",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `finished` เป็นอดีตเรียบ ไม่ตรงบริบทอนาคต. เราต้องการรูปที่เน้น “ทำเสร็จก่อนถึงเวลาเริ่มประชุม” ซึ่งใช้ `have finished` จะชัดกว่า: `If you have finished your report ...`"
+      },
+      {
+        "index": 3,
+        "text": "have finished",
+        "knowledge_ids": [
+          225,
+          216
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปนี้เน้นผลเสร็จก่อน **จุดเวลาในอนาคต**: __if + present perfect__, __will + base verb__. ประโยคที่ถูก: `If you have finished your report by the time the meeting starts, you’ll be fine.` ตัวอย่างคล้ายกัน: `If you have packed, we will leave at 8.`"
+      },
+      {
+        "index": 4,
+        "text": "will have finished",
+        "knowledge_ids": [
+          232,
+          495
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะในอนุประโยค **if** ห้ามใช้ **will**. แม้ `will have finished` จะเป็น future perfect แต่ตำแหน่งนี้ไม่ถูก ต้องเป็น `have finished` แทน. โครงสร้าง: `If + present (perfect), will + base`."
+      }
+    ]
+  },
+  {
+    "question": "If she ___ harder last semester, she would be at the top of the class now.",
+    "question_knowledge_ids": [
+      481,
+      484,
+      511
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "studied",
+        "knowledge_ids": [
+          511,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่คือ **Mixed Conditional** (อดีต → ผลปัจจุบัน) ต้องใช้ **past perfect** ใน if-clause. `studied` เป็นอดีตเรียบ ยังไม่ชัดพอว่าก่อนหน้า “now”. ควรใช้ `had studied`."
+      },
+      {
+        "index": 2,
+        "text": "had studied",
+        "knowledge_ids": [
+          484
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **Mixed Conditional**: __if + past perfect__, __would + base verb (present result)__. ตัวอย่าง: `If she had studied harder last semester, she would be at the top of the class now.` ชี้ว่าอดีตมีผลต่อสถานะปัจจุบัน."
+      },
+      {
+        "index": 3,
+        "text": "would study",
+        "knowledge_ids": [
+          481,
+          498
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `would` ไม่ใช้ใน if-clause และรูปนี้สื่อสมมติอนาคต ไม่ตรงกับอดีต `last semester`. ควรเป็น `had studied` ใน if-clause."
+      },
+      {
+        "index": 4,
+        "text": "has studied",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `present perfect` ไม่ตรงกับตัวบอกเวลาอดีตชัดเจน `last semester`. Mixed Conditional ที่ถูกต้องคือ `if + past perfect`: `had studied`."
+      }
+    ]
+  }
+]

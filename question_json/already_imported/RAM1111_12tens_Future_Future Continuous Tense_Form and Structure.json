@@ -1,0 +1,321 @@
+[
+  {
+    "question": "At 8 p.m. tonight, I ___ my homework.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be doing",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **Future Continuous** คือ **__will be + V-ing__** ใช้บอกการกระทำที่กำลังเกิดอยู่ในช่วงเวลาหนึ่งในอนาคต เช่น `At 8 p.m. tonight, I will be doing my homework.` ตัวอย่างใช้จริง: `This time tomorrow, I will be studying.`"
+      },
+      {
+        "index": 2,
+        "text": "will do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Future Simple** (`will + V1`) ที่เน้นเหตุการณ์จะเกิดขึ้น ไม่ได้เน้น “กำลังดำเนินอยู่” ในช่วงเวลาอนาคต ตัวอย่างที่ผิดกับบริบทนี้: `At 8 p.m., I will do my homework` (ไม่ได้สื่อว่ากำลังทำอยู่ตอน 8 โมง)."
+      },
+      {
+        "index": 3,
+        "text": "am doing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous** ใช้กับตอนนี้หรือแผนใกล้ๆ ไม่ได้ชี้เฉพาะช่วงเวลาคงดำเนินในอนาคต ถ้าจะสื่อภาพกำลังทำในเวลา 8 โมงคืนนี้ต้องใช้ `will be + V-ing` เช่น `I will be doing my homework.`"
+      },
+      {
+        "index": 4,
+        "text": "will doing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยา **be** ในโครงสร้าง Future Continuous โครงสร้างที่ถูกต้องคือ **`will be + V-ing`** ดังนั้นต้องเป็น `will be doing` ไม่ใช่ `will doing`."
+      }
+    ]
+  },
+  {
+    "question": "This time next week, they ___ across Europe.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be traveling",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **__will be + V-ing__** เพื่อบอกว่ากิจกรรมจะกำลังเกิดอยู่ในช่วงเวลาหนึ่งในอนาคต เช่น `This time next week, they will be traveling across Europe.` ตัวอย่างเพิ่ม: `At noon tomorrow, they will be flying.`"
+      },
+      {
+        "index": 2,
+        "text": "are traveling",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous** แม้จะใช้พูดถึงแผนอนาคตได้ แต่ประโยคนี้เน้น “กำลังทำอยู่ในเวลานั้น” จึงควรใช้ Future Continuous ตัวอย่างที่ถูกต้อง: `They will be traveling next week at this time.`"
+      },
+      {
+        "index": 3,
+        "text": "will travel",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Future Simple** (`will + V1`) ที่บอกแค่จะเกิด ไม่เน้นสถานะกำลังดำเนินอยู่ ถ้าต้องการสื่อภาพกำลังเดินทางอยู่ตอนนั้น ให้ใช้ `will be traveling`."
+      },
+      {
+        "index": 4,
+        "text": "will be travel",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `be` ต้องตามด้วย **V-ing** ไม่ใช่ V1 โครงสร้างที่ถูกคือ **`will be + traveling`** ไม่ใช่ `will be travel`."
+      }
+    ]
+  },
+  {
+    "question": "I ___ to the party because I'll be on a plane.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will not be going",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปปฏิเสธของ Future Continuous คือ **__will not (won't) be + V-ing__** เช่น `I will not be going to the party because I'll be on a plane.` ตัวอย่างเพิ่ม: `She won't be attending the meeting tomorrow.`"
+      },
+      {
+        "index": 2,
+        "text": "am not going",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous (negative)** ซึ่งเน้นปัจจุบันหรือแผน แต่ประโยคนี้ต้องการไวยากรณ์ที่สื่อ “กำลังเกิดในอนาคตช่วงหนึ่ง” จึงควรใช้ `will not be going` เพื่อคงโครงสร้าง Future Continuous."
+      },
+      {
+        "index": 3,
+        "text": "will be not going",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะตำแหน่ง **not** วางผิด ควรเป็น **`will not be + V-ing`** ไม่ใช่ `will be not + V-ing` ตัวอย่างที่ถูกต้อง: `I will not be going there.`"
+      },
+      {
+        "index": 4,
+        "text": "won't going",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `won't` ต้องมี **be** ก่อน **V-ing** โครงสร้างถูกคือ **`won't be going`** ไม่ใช่ `won't going`."
+      }
+    ]
+  },
+  {
+    "question": "___ at the library at 3 p.m. tomorrow?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Will you be studying",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคคำถามของ Future Continuous ใช้รูป **__Will + subject + be + V-ing__** เช่น `Will you be studying at the library at 3 p.m. tomorrow?` ตัวอย่างเพิ่ม: `Will they be working at 9 a.m.?`"
+      },
+      {
+        "index": 2,
+        "text": "Are you studying",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นคำถามแบบ **Present Continuous** ซึ่งไม่เน้นช่วงเวลาในอนาคตโดยตรง สำหรับเวลาเจาะจงในอนาคตควรใช้ `Will you be + V-ing?` เพื่อสื่อว่ากำลังทำอยู่ตอนนั้น."
+      },
+      {
+        "index": 3,
+        "text": "Will you studying",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `will` ต้องมี `be` ก่อน **V-ing** โครงสร้างที่ถูกคือ **`Will you be studying ...?`** ไม่ใช่ `Will you studying ...?`"
+      },
+      {
+        "index": 4,
+        "text": "Will be you studying",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสลับตำแหน่งประธานกับกริยา `be` รูปที่ถูกต้องของคำถามคือ **`Will + subject + be + V-ing?`** เช่น `Will you be studying?`"
+      }
+    ]
+  },
+  {
+    "question": "At noon, she ___ lunch with her team.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be having",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **__will be + V-ing__** เพื่อสื่อว่าช่วงเที่ยงนั้นเธอจะ “กำลังกิน” อยู่ เช่น `At noon, she will be having lunch with her team.` ตัวอย่างเพิ่ม: `At 10 a.m., she will be meeting a client.`"
+      },
+      {
+        "index": 2,
+        "text": "will has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **Future Simple** ผิดหลัก (ควรเป็น `will have` ถ้าใช้ Future Simple) และไม่ใช่โครงสร้าง Future Continuous ที่ต้องเป็น `will be having`."
+      },
+      {
+        "index": 3,
+        "text": "will be have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `be` ต้องตามด้วย **V-ing** ไม่ใช่ V1 รูปที่ถูกคือ **`will be having`**."
+      },
+      {
+        "index": 4,
+        "text": "is having",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous** ไม่ได้สื่อว่า “ในอนาคตเวลาเที่ยง” เธอจะกำลังทำอยู่ ถ้าต้องการสื่ออนาคตในช่วงเวลาที่กำหนด ให้ใช้ `will be having`."
+      }
+    ]
+  },
+  {
+    "question": "Don't call me at 10; I ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be sleeping",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **__will be + V-ing__** ใช้บอกว่าช่วง 10 โมงในอนาคต เราจะกำลังนอนอยู่ เช่น `Don't call me at 10; I will be sleeping.` ตัวอย่างเพิ่ม: `At midnight, he will be driving.`"
+      },
+      {
+        "index": 2,
+        "text": "will sleep",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Future Simple** บอกเหตุการณ์จะเกิด แต่ไม่เน้นภาพ “กำลังดำเนิน” ณ เวลา 10 โมง ถ้าต้องการห้ามโทรเพราะกำลังนอนอยู่ ต้องใช้ `will be sleeping`."
+      },
+      {
+        "index": 3,
+        "text": "am sleeping",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous** ใช้กับตอนนี้ ไม่ได้ชี้ว่าที่เวลา 10 โมง (อนาคต) จะกำลังนอนอยู่ โครงสร้างที่ถูกคือ `will be sleeping`."
+      },
+      {
+        "index": 4,
+        "text": "will be sleep",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `be` ต้องเป็น **V-ing** ไม่ใช่รูปพื้นฐาน รูปที่ถูกคือ **`will be sleeping`**."
+      }
+    ]
+  },
+  {
+    "question": "At 7 p.m. tomorrow, we ___ the game.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be watching",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **__will be + V-ing__** เพื่อเน้นว่าช่วง 1 ทุ่มพรุ่งนี้ เราจะกำลังดูเกมอยู่ เช่น `At 7 p.m. tomorrow, we will be watching the game.` ตัวอย่างเพิ่ม: `This time next year, we'll be living abroad.`"
+      },
+      {
+        "index": 2,
+        "text": "watch",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Simple** ซึ่งไม่สื่ออนาคตและไม่เน้นการดำเนินต่อเนื่อง ต้องใช้ `will be watching` เพื่อบอกภาพกำลังกระทำในอนาคต."
+      },
+      {
+        "index": 3,
+        "text": "will watch",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Future Simple** ไม่ได้เน้นว่ากำลังทำอยู่ในเวลานั้น ถ้าต้องการสื่อภาพต่อเนื่อง ให้ใช้ `will be watching`."
+      },
+      {
+        "index": 4,
+        "text": "will be watch",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `be` ต้องเป็น **V-ing** รูปที่ถูกต้องคือ **`will be watching`** ไม่ใช่ `will be watch`."
+      }
+    ]
+  },
+  {
+    "question": "___ the car tomorrow morning?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Will you be using",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำถาม Future Continuous ใช้รูป **__Will + subject + be + V-ing__** เพื่อถามว่าช่วงเวลานั้นจะกำลังใช้/ทำอะไรอยู่ เช่น `Will you be using the car tomorrow morning?` ตัวอย่างเพิ่ม: `Will she be needing any help later?`"
+      },
+      {
+        "index": 2,
+        "text": "Are you going to use",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะเป็นโครงสร้าง **be going to** ที่เน้นแผนหรือหลักฐาน มากกว่าภาพกำลังกระทำ ณ เวลาใดเวลาหนึ่ง ถ้าจะถามว่ากำลังใช้ตอนเช้าอยู่หรือไม่ ควรใช้ `Will you be using ...?`"
+      },
+      {
+        "index": 3,
+        "text": "Will you use",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Future Simple** ถามความตั้งใจทั่วไป ไม่ได้เน้นว่าช่วงเช้าจะกำลังใช้รถอยู่ รูปที่เหมาะคือ `Will you be using ...?` เพื่อสื่อความต่อเนื่อง."
+      },
+      {
+        "index": 4,
+        "text": "Will be you using",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสลับตำแหน่ง โครงสร้างคำถามที่ถูกต้องคือ **`Will + subject + be + V-ing?`** เช่น `Will you be using the car?`"
+      }
+    ]
+  },
+  {
+    "question": "When you arrive, I ___ dinner.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be cooking",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **__will be + V-ing__** เพื่อบอกว่าขณะที่อีกคนมาถึง เราจะ “กำลังทำอาหารอยู่” เช่น `When you arrive, I will be cooking dinner.` ตัวอย่างเพิ่ม: `When they call, we will be driving.`"
+      },
+      {
+        "index": 2,
+        "text": "will cook",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Future Simple** ที่หมายถึง “จะเริ่มทำ” หลังจากเขามาถึง ไม่ได้สื่อว่าขณะเขามาถึงเรากำลังทำอยู่ หากต้องการภาพกำลังดำเนิน ให้ใช้ `will be cooking`."
+      },
+      {
+        "index": 3,
+        "text": "am cooking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous** ใช้กับตอนนี้ ไม่สื่ออนาคต ณ เวลาที่อีกคนมาถึง โครงสร้างที่เหมาะคือ `will be cooking`."
+      },
+      {
+        "index": 4,
+        "text": "will be cook",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `be` ต้องเป็น **V-ing** รูปถูกคือ **`will be cooking`**."
+      }
+    ]
+  },
+  {
+    "question": "By 9 p.m., he ___ with us?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be meeting",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปคำถามยืนยัน (statement question) ใช้ **__will be + V-ing__** ได้ เมื่อต้องการย้ำภาพว่าเวลา 3 ทุ่มเขาจะกำลังพบกับเรา เช่น `By 9 p.m., he will be meeting with us.` ตัวอย่างเพิ่ม: `At 6, he will be talking to the client.`"
+      },
+      {
+        "index": 2,
+        "text": "is meet",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `is + V1` เป็นโครงสร้างผิด ต้องเป็น `is meeting` ถ้าเป็น Present Continuous แต่ที่เหมาะกับอนาคตต่อเนื่องคือ `will be meeting`."
+      },
+      {
+        "index": 3,
+        "text": "will he meeting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปคำถามต้องเป็น **`Will he be meeting ...?`** ถ้าจะใช้รูปคำถามเต็ม แต่ในประโยคนี้เราเติมส่วนกริยา จึงควรใช้ `will be meeting` ให้ครบโครงสร้าง."
+      },
+      {
+        "index": 4,
+        "text": "will be meet",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `be` ต้องตามด้วย **V-ing** ไม่ใช่ V1 โครงสร้างถูกคือ **`will be meeting`**."
+      }
+    ]
+  },
+  {
+    "question": "At this time tomorrow, the kids ___ in the yard.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be playing",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **__will be + V-ing__** เพื่อบอกว่าช่วงเวลานี้ของวันพรุ่งนี้ เด็กๆ จะกำลังเล่นอยู่ เช่น `At this time tomorrow, the kids will be playing in the yard.` ตัวอย่างเพิ่ม: `Next week at 5, they will be practicing.`"
+      },
+      {
+        "index": 2,
+        "text": "play",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Simple** ไม่สื่อภาพอนาคตที่กำลังดำเนินอยู่ ต้องใช้ `will be playing` เพื่อเน้นความต่อเนื่องในอนาคต."
+      },
+      {
+        "index": 3,
+        "text": "will plays",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `will` ตามด้วย V1 เสมอ (ไม่มี s) และถ้าจะใช้อนาคตต่อเนื่องต้องเป็น `will be playing` ไม่ใช่ `will plays`."
+      },
+      {
+        "index": 4,
+        "text": "are playing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous** ใช้กับตอนนี้หรือแผนใกล้ๆ ไม่ได้เน้นว่าช่วงเวลาพรุ่งนี้จะกำลังเล่นอยู่ ควรใช้ `will be playing`."
+      }
+    ]
+  }
+]

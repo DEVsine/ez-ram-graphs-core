@@ -1,0 +1,505 @@
+[
+  {
+    "question": "He ___ to school by bus every day.",
+    "question_knowledge_ids": [
+      380,
+      384,
+      385,
+      398
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "goes",
+        "knowledge_ids": [
+          385,
+          398
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธานเป็นบุคคลที่ 3 เอกพจน์ (He) ต้องเติมกริยา **-s/-es** ใน Present Simple โครงสร้างคือ **__Subject + V1(s/es)__** เช่น `He goes to school by bus every day.` ตัวอย่างใช้จริง: `She goes to the gym after work.`"
+      },
+      {
+        "index": 2,
+        "text": "go",
+        "knowledge_ids": [
+          412,
+          384
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้รูปกริยาพื้นฐานกับประธาน **He** ซึ่งต้องเติม **-es** ให้เป็น `goes` ตัวอย่างที่ผิด: `He go to school...` ควรเป็น `He goes to school...`"
+      },
+      {
+        "index": 3,
+        "text": "is go",
+        "knowledge_ids": [
+          340,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะห้ามใช้ `be + base verb` ใน Present Simple แบบบอกเล่า เราไม่พูด `He is go...` ต้องใช้กริยาหลักตรงๆ เช่น `He goes to school...`"
+      },
+      {
+        "index": 4,
+        "text": "going",
+        "knowledge_ids": [
+          324,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `going` เป็นรูป **-ing** ใช้กับ Continuous ไม่ใช่ Present Simple แบบบอกเล่า ประโยคถูกควรเป็น `He goes to school by bus every day.`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ lunch at noon.",
+    "question_knowledge_ids": [
+      380,
+      384,
+      408,
+      398
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have",
+        "knowledge_ids": [
+          384,
+          398
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน **They** ใช้กริยารูปพื้นฐานไม่ต้องเติม -s โครงสร้างคือ **__Subject + base verb__** เช่น `They have lunch at noon.` ตัวอย่างใช้จริง: `We have class on Mondays.`"
+      },
+      {
+        "index": 2,
+        "text": "has",
+        "knowledge_ids": [
+          408,
+          407
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `has` ใช้กับ **he/she/it** เท่านั้น กับ **They** ต้องใช้ `have` เช่น `They have lunch...`"
+      },
+      {
+        "index": 3,
+        "text": "are have",
+        "knowledge_ids": [
+          340,
+          416
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้าง `be + have` ไม่ถูกในประโยคบอกเล่า Present Simple ควรใช้กริยาหลักเดี่ยวๆ: `They have lunch at noon.`"
+      },
+      {
+        "index": 4,
+        "text": "having",
+        "knowledge_ids": [
+          411,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **-ing** ซึ่งเป็น Continuous ถ้าจะใช้ Continuous ต้องมี `are having` แต่หัวข้อนี้เน้นประโยคบอกเล่า Present Simple: `They have lunch...`"
+      }
+    ]
+  },
+  {
+    "question": "My sister ___ tennis on weekends.",
+    "question_knowledge_ids": [
+      380,
+      385,
+      398
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "plays",
+        "knowledge_ids": [
+          385,
+          398
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธานเป็น **My sister = she** ต้องเติม **-s** ที่กริยา โครงสร้าง **__Subject + V1(s)__** เช่น `My sister plays tennis on weekends.` ตัวอย่างเพิ่ม: `She plays the piano.`"
+      },
+      {
+        "index": 2,
+        "text": "play",
+        "knowledge_ids": [
+          412,
+          384
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะลืมเติม -s ให้กริยาสำหรับบุคคลที่ 3 เอกพจน์ ควรเป็น `plays` เช่น `She plays tennis.`"
+      },
+      {
+        "index": 3,
+        "text": "is playing",
+        "knowledge_ids": [
+          411,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous** ใช้กับกำลังกระทำตอนนี้ แต่ที่นี่พูดถึงกิจวัตร (on weekends) จึงใช้ Present Simple: `My sister plays...`"
+      },
+      {
+        "index": 4,
+        "text": "playes",
+        "knowledge_ids": [
+          291,
+          295
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะการเติม -s ของคำว่า **play** ต้องเป็น `plays` ไม่ใช่ `playes` กฎ: คำลงท้ายด้วยสระ + y เติมแค่ `-s` เช่น `plays`, `enjoys`."
+      }
+    ]
+  },
+  {
+    "question": "The store ___ at 9 a.m. on weekdays.",
+    "question_knowledge_ids": [
+      380,
+      385,
+      400
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "opens",
+        "knowledge_ids": [
+          385,
+          400
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน **The store = it** ต้องเติม -s ให้กริยา โครงสร้าง **__Subject + V1(s)__** เช่น `The store opens at 9 a.m.` ตัวอย่างใช้จริง: `The museum opens at ten.`"
+      },
+      {
+        "index": 2,
+        "text": "open",
+        "knowledge_ids": [
+          384,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่ได้เติม -s ให้กริยากับประธานบุคคลที่ 3 เอกพจน์ ควรเป็น `opens` เช่น `It opens at nine.`"
+      },
+      {
+        "index": 3,
+        "text": "is open",
+        "knowledge_ids": [
+          386,
+          345
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่เป็นโครงสร้างกับกริยา **be** (`is open`) ซึ่งเป็นคำคุณศัพท์ ไม่ใช่กริยาหลักแบบ lexical verb ที่เราต้องการ ประโยคนี้ต้องการกริยาแท้ `opens`."
+      },
+      {
+        "index": 4,
+        "text": "opening",
+        "knowledge_ids": [
+          324,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **-ing** ใช้กับ Continuous ถ้าจะพูดถึงเวลาเปิดเป็นข้อเท็จจริง ใช้ Present Simple: `The store opens at 9 a.m.`"
+      }
+    ]
+  },
+  {
+    "question": "Water ___ at 100°C.",
+    "question_knowledge_ids": [
+      397,
+      385,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "boils",
+        "knowledge_ids": [
+          397,
+          385
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ข้อเท็จจริงทางวิทยาศาสตร์ใช้ Present Simple และประธาน **Water = it** ต้องเติม -s โครงสร้าง **__Subject + V1(s)__** เช่น `Water boils at 100°C.` ตัวอย่าง: `Ice melts at 0°C.`"
+      },
+      {
+        "index": 2,
+        "text": "boil",
+        "knowledge_ids": [
+          397,
+          384
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **it** ต้องใช้รูปเติม -s ควรเป็น `boils` ไม่ใช่ `boil` เช่น `It boils...`"
+      },
+      {
+        "index": 3,
+        "text": "is boiling",
+        "knowledge_ids": [
+          411,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Continuous ใช้กับเหตุการณ์กำลังเกิดตอนนี้ แต่ที่นี่เป็นความจริงทั่วไป ต้องใช้ Present Simple: `Water boils...`"
+      },
+      {
+        "index": 4,
+        "text": "boiles",
+        "knowledge_ids": [
+          291,
+          295
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสะกดการเติม -s ไม่ถูก ต้องเป็น `boils` ไม่ต้องเติม `-es` เนื่องจากลงท้ายด้วยพยัญชนะ + l เฉยๆ"
+      }
+    ]
+  },
+  {
+    "question": "I ___ coffee in the morning.",
+    "question_knowledge_ids": [
+      380,
+      384,
+      398
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "drink",
+        "knowledge_ids": [
+          384,
+          398
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน **I** ใช้กริยารูปพื้นฐาน โครงสร้าง **__Subject + base verb__** เช่น `I drink coffee in the morning.` ตัวอย่างเพิ่ม: `I read books at night.`"
+      },
+      {
+        "index": 2,
+        "text": "drinks",
+        "knowledge_ids": [
+          383,
+          407
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `drinks` ใช้กับ **he/she/it** เท่านั้น กับ **I** ต้องใช้ `drink` เช่น `I drink tea.`"
+      },
+      {
+        "index": 3,
+        "text": "am drink",
+        "knowledge_ids": [
+          340,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้าง `be + base verb` ไม่ถูกในประโยคบอกเล่า Present Simple ต้องใช้กริยาเดียว: `I drink...`"
+      },
+      {
+        "index": 4,
+        "text": "drinking",
+        "knowledge_ids": [
+          411,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูป **-ing** เป็น Continuous ถ้าจะใช้ต้องเป็น `I am drinking...` แต่โจทย์ต้องการ Present Simple บอกกิจวัตร: `I drink...`"
+      }
+    ]
+  },
+  {
+    "question": "She often ___ her keys.",
+    "question_knowledge_ids": [
+      380,
+      385,
+      404,
+      398
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "loses",
+        "knowledge_ids": [
+          385,
+          404
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อมี **adverb of frequency** (often) เรายังใช้ Present Simple แบบเดิม และประธาน **She** ต้องเติม -s โครงสร้าง **__Subject + adverb + V1(s)__** เช่น `She often loses her keys.` ตัวอย่างใช้จริง: `He usually forgets his wallet.`"
+      },
+      {
+        "index": 2,
+        "text": "lose",
+        "knowledge_ids": [
+          412,
+          384
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะลืมเติม -s ให้กริยากับ **she** คำที่ถูกคือ `loses` เช่น `She loses things a lot.`"
+      },
+      {
+        "index": 3,
+        "text": "is loses",
+        "knowledge_ids": [
+          340,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ `be + V1(s)` ซึ่งผิดไวยากรณ์ ประโยคบอกเล่าควรใช้กริยาหลักเดี่ยวๆ: `She often loses her keys.`"
+      },
+      {
+        "index": 4,
+        "text": "losing",
+        "knowledge_ids": [
+          411,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป -ing ถ้าจะใช้ Continuous ต้องเป็น `is losing` แต่ที่นี่เป็นนิสัย/ความถี่ ใช้ Present Simple: `She often loses...`"
+      }
+    ]
+  },
+  {
+    "question": "The sun ___ in the east.",
+    "question_knowledge_ids": [
+      397,
+      385,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "rises",
+        "knowledge_ids": [
+          397,
+          385
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็นข้อเท็จจริงทั่วไป ประธาน **The sun = it** จึงต้องเติม -s โครงสร้าง **__Subject + V1(s)__** เช่น `The sun rises in the east.` ตัวอย่างเพิ่ม: `The sun sets in the west.`"
+      },
+      {
+        "index": 2,
+        "text": "rise",
+        "knowledge_ids": [
+          397,
+          384
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่ได้เติม -s ให้กริยาเมื่อประธานเป็น **it** ควรเป็น `rises` เช่น `It rises...`"
+      },
+      {
+        "index": 3,
+        "text": "is rise",
+        "knowledge_ids": [
+          340,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `be + base verb` ไม่ถูก ต้องใช้กริยาแท้รูปเดียว: `rises` ไม่ใช่ `is rise`"
+      },
+      {
+        "index": 4,
+        "text": "rising",
+        "knowledge_ids": [
+          411,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป -ing ใช้กับ Continuous หรือเป็นคำนาม/คุณศัพท์บางกรณี แต่ที่นี่ต้องการ Present Simple: `rises`"
+      }
+    ]
+  },
+  {
+    "question": "Our teacher ___ homework after each lesson.",
+    "question_knowledge_ids": [
+      380,
+      385,
+      398
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "gives",
+        "knowledge_ids": [
+          385,
+          398
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน **Our teacher = he/she** ต้องเติม -s ให้กริยา โครงสร้าง **__Subject + V1(s)__** เช่น `Our teacher gives homework after each lesson.` ตัวอย่าง: `The teacher gives quizzes every Friday.`"
+      },
+      {
+        "index": 2,
+        "text": "give",
+        "knowledge_ids": [
+          384,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะลืมเติม -s สำหรับบุคคลที่ 3 เอกพจน์ ต้องเป็น `gives` เช่น `She gives homework.`"
+      },
+      {
+        "index": 3,
+        "text": "is give",
+        "knowledge_ids": [
+          340,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `be + base verb` ไม่ถูกในประโยคบอกเล่า Present Simple ใช้กริยาเดียวพอ: `gives`"
+      },
+      {
+        "index": 4,
+        "text": "giving",
+        "knowledge_ids": [
+          411,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป -ing ถ้าจะใช้ Continuous ต้องเป็น `is giving` แต่ที่นี่พูดถึงกิจวัตร จึงใช้ Present Simple: `gives`"
+      }
+    ]
+  },
+  {
+    "question": "Tom and Jerry ___ in the same house.",
+    "question_knowledge_ids": [
+      380,
+      384,
+      398
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "live",
+        "knowledge_ids": [
+          384,
+          398
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธานเป็นพหูพจน์ (**Tom and Jerry = they**) ใช้กริยารูปพื้นฐานไม่เติม -s โครงสร้าง **__Subject (plural) + base verb__** เช่น `Tom and Jerry live in the same house.` ตัวอย่างเพิ่ม: `They live near the park.`"
+      },
+      {
+        "index": 2,
+        "text": "lives",
+        "knowledge_ids": [
+          383,
+          407
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `lives` ใช้กับเอกพจน์ (he/she/it) แต่ `Tom and Jerry` เป็นพหูพจน์ จึงต้องใช้ `live`"
+      },
+      {
+        "index": 3,
+        "text": "are live",
+        "knowledge_ids": [
+          340,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้าง `be + base verb` ไม่ถูก ต้องใช้กริยาเดียว: `live` เช่น `They live...`"
+      },
+      {
+        "index": 4,
+        "text": "living",
+        "knowledge_ids": [
+          411,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป -ing (Continuous) ถ้าจะใช้ต้องเป็น `are living` แต่หัวข้อนี้เป็น Present Simple แบบบอกเล่า: `live`"
+      }
+    ]
+  }
+]

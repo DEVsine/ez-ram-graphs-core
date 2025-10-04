@@ -1,0 +1,321 @@
+[
+  {
+    "question": "It's hot in here. I ___ the window.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will open",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นการตัดสินใจแบบทันทีตอนพูด ใช้ **Future Simple (will)** ตามแพทเทิร์น __will + V1__. เช่น: `It's hot. I will open the window.` แพทเทิร์นนี้ใช้กับการตัดสินใจเฉพาะหน้าและข้อเสนอ/สัญญาได้ด้วย เช่น `I will help you.`"
+      },
+      {
+        "index": 2,
+        "text": "am going to open",
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะ เพราะ **be going to** เน้นว่า \"คิด/วางแผนไว้ก่อนหน้า\" หรือมีหลักฐานล่วงหน้า ซึ่งต่างจากการตัดสินใจทันทีตอนพูด เช่น `I'm going to open the window` จะสื่อว่าเตรียมใจไว้แล้ว"
+      },
+      {
+        "index": 3,
+        "text": "am opening",
+        "is_correct": false,
+        "answer_description": "ผิดจุด เพราะ **Present Continuous** ใช้กับแผนที่จัดการไว้แล้ว/นัดหมาย มากกว่าจะใช้กับการตัดสินใจทันที เช่น `I'm opening the window now` ฟังดูเหมือนกำลังกระทำอยู่แล้ว ไม่ใช่การตัดสินใจ ณ ตอนนี้"
+      },
+      {
+        "index": 4,
+        "text": "open",
+        "is_correct": false,
+        "answer_description": "ไม่ถูก เพราะ **Present Simple** ไม่ใช้เพื่อบอกการตัดสินใจอนาคตแบบเฉพาะหน้า ปกติใช้กับข้อเท็จจริงหรือกิจวัตร เช่น `I open the window every morning.`"
+      }
+    ]
+  },
+  {
+    "question": "Look at those dark clouds. It ___ soon.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is going to rain",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีหลักฐานเห็นชัด (เมฆมืด) จึงใช้ **be going to** ตามแพทเทิร์น __be going to + V1__. ตัวอย่าง: `Look! It's going to rain.` ใช้เมื่อมีสัญญาณบอกล่วงหน้าว่าสิ่งนั้นน่าจะเกิดขึ้น"
+      },
+      {
+        "index": 2,
+        "text": "will rain",
+        "is_correct": false,
+        "answer_description": "ไม่แม่นที่สุดในบริบทนี้ เพราะ **will** มักใช้กับการคาดเดาทั่วไปหรือความเห็นทันที ไม่มีหลักฐานตรงหน้า เช่น `I think it will rain.` แต่เมื่อมีเมฆดำชัดๆ ควรใช้ `be going to`"
+      },
+      {
+        "index": 3,
+        "text": "rains",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Present Simple** ใช้กับความจริงทั่วไปหรือกำหนดการ ไม่ใช้ทำนายเหตุการณ์ที่กำลังจะเกิดในไม่ช้า เช่น `It rains in the rainy season.` ไม่ใช่เหตุการณ์เฉพาะหน้าที่เห็นหลักฐาน"
+      },
+      {
+        "index": 4,
+        "text": "is raining",
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก เพราะรูป **Present Continuous** แปลว่า \"กำลังฝนตกอยู่ตอนนี้\" แต่ประโยคบอกว่า \"อีกเดี๋ยวจะตก\" จึงควรใช้ `is going to rain`"
+      }
+    ]
+  },
+  {
+    "question": "The train ___ at 7:30 tomorrow.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "leaves",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกำหนดการตารางเวลาใช้ **Present Simple** ตามแพทเทิร์น __Present Simple for timetables__. ตัวอย่าง: `The train leaves at 7:30 tomorrow.` และ `My class starts at 9.`"
+      },
+      {
+        "index": 2,
+        "text": "will leave",
+        "is_correct": false,
+        "answer_description": "ไม่เป็นธรรมชาติเท่า เพราะตารางเวลาอย่างรถไฟ/เครื่องบิน นิยมใช้ **Present Simple** มากกว่า เช่น `The bus leaves at 6.` ใช้ `will` มักกับการตัดสินใจหรือสัญญา"
+      },
+      {
+        "index": 3,
+        "text": "is leaving",
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะ เนื่องจาก **Present Continuous** ใช้กับแผนส่วนตัว/การนัดหมาย ไม่ใช่ตารางเวลาสาธารณะ เช่น รถไฟ/เครื่องบิน ควรใช้ `leaves`"
+      },
+      {
+        "index": 4,
+        "text": "is going to leave",
+        "is_correct": false,
+        "answer_description": "ผิดจุด เพราะ `be going to` ใช้กับแผน/ความตั้งใจของผู้พูด ไม่ใช่ตารางเวลาที่ตายตัวของระบบขนส่ง ควรเป็น `leaves`"
+      }
+    ]
+  },
+  {
+    "question": "We ___ the dentist at 3 p.m. tomorrow; the appointment is confirmed.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are seeing",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นนัดหมายที่จัดการแล้ว ใช้ **Present Continuous** เพื่อพูดถึงอนาคต ตามแพทเทิร์น __be + V-ing (future arrangement)__. ตัวอย่าง: `We're seeing the dentist at 3 p.m. tomorrow.` และ `I'm meeting my tutor at 10.`"
+      },
+      {
+        "index": 2,
+        "text": "will see",
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรงจุด เพราะ **will** ไม่เน้นการจัดการล่วงหน้า แต่เน้นการตัดสินใจ/สัญญา เช่น `I'll see the dentist next week` ฟังดูยังไม่ได้นัดจริง"
+      },
+      {
+        "index": 3,
+        "text": "see",
+        "is_correct": false,
+        "answer_description": "ไม่ถูก เพราะ **Present Simple** ไม่ใช้กับแผนส่วนตัวที่นัดไว้แล้ว (นอกจากเป็นตารางเวลา) ควรใช้ `are seeing` เพื่อสื่อว่าได้นัดหมายแน่นอน"
+      },
+      {
+        "index": 4,
+        "text": "are going to see",
+        "is_correct": false,
+        "answer_description": "แม้เข้าใจได้ แต่ในบริบท \"มีการนัดหมายยืนยันแล้ว\" รูปที่เป็นธรรมชาติกว่าคือ **Present Continuous** เพื่อเน้นว่าเป็นการจัดการล่วงหน้า เช่น `We're seeing the dentist at 3.`"
+      }
+    ]
+  },
+  {
+    "question": "Don't worry, I ___ you with your homework.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will help",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นการเสนอ/สัญญาตอนพูด ใช้ **Future Simple (will)** ตามแพทเทิร์น __will + V1__. ตัวอย่าง: `Don't worry, I'll help you.` และ `I'll call you later.`"
+      },
+      {
+        "index": 2,
+        "text": "am going to help",
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่โทนของข้อเสนอทันที เพราะ `be going to` เน้นว่าตั้งใจไว้ก่อนหน้า เช่น `I'm going to help him with his project` คือคิดไว้แล้ว ไม่ได้เสนอสดๆ ตอนนี้"
+      },
+      {
+        "index": 3,
+        "text": "am helping",
+        "is_correct": false,
+        "answer_description": "ผิดจุด เพราะ `am helping` คือกำลังกระทำอยู่ตอนนี้ หรือเป็นแผนที่นัดไว้แล้ว แต่ที่นี่คือการสัญญาช่วยในอนาคต จึงใช้ `will help`"
+      },
+      {
+        "index": 4,
+        "text": "help",
+        "is_correct": false,
+        "answer_description": "ไม่ถูกตามไวยากรณ์สำหรับการสัญญาอนาคต ต้องใช้ `will` เพื่อแสดงความตั้งใจ/ข้อเสนอ เช่น `I will help you.`"
+      }
+    ]
+  },
+  {
+    "question": "The phone is ringing. I ___ it.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will answer",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นการตัดสินใจฉับพลันตอนพูด ใช้ **will** ตามแพทเทิร์น __will + V1__. ตัวอย่าง: `The phone is ringing. I'll answer it.` และ `I'm hungry—I'll make a sandwich.`"
+      },
+      {
+        "index": 2,
+        "text": "am going to answer",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ `be going to` มักสื่อว่าคิดไว้ก่อนหน้า แต่ที่นี่เพิ่งได้ยินโทรศัพท์ดังและตัดสินใจเดี๋ยวนั้น ควรใช้ `will`"
+      },
+      {
+        "index": 3,
+        "text": "am answering",
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย เพราะ `am answering` บอกว่ากำลังตอบอยู่แล้ว ซึ่งยังไม่ได้เริ่มทำ แค่เพิ่งตัดสินใจจะไปตอบ"
+      },
+      {
+        "index": 4,
+        "text": "answer",
+        "is_correct": false,
+        "answer_description": "ไม่ตรงรูปแบบ เพราะการตัดสินใจอนาคตแบบทันทีควรใช้ `will` ไม่ใช่ **Present Simple**"
+      }
+    ]
+  },
+  {
+    "question": "This time tomorrow, I ___ to Japan.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be flying",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกำลังพูดถึงกิจกรรมที่อยู่ระหว่างดำเนินในช่วงเวลาอนาคต ใช้ **Future Continuous** ตามแพทเทิร์น __will be + V-ing__. ตัวอย่าง: `This time tomorrow, I'll be flying to Japan.` เปรียบเทียบกับ `I will fly to Japan tomorrow` ที่เน้นความตั้งใจ/ข้อเท็จจริงเฉยๆ"
+      },
+      {
+        "index": 2,
+        "text": "will fly",
+        "is_correct": false,
+        "answer_description": "ยังไม่ชัดเรื่อง \"กำลังดำเนินอยู่\" ในช่วงเวลาที่ระบุ `this time tomorrow` รูป `will fly` แค่บอกอนาคตทั่วไป ไม่เน้นภาพกำลังกระทำ ควรใช้ `will be flying`"
+      },
+      {
+        "index": 3,
+        "text": "am flying",
+        "is_correct": false,
+        "answer_description": "ไม่ตรงเวลาในประโยค เพราะ `am flying` คือปัจจุบันกำลังกระทำ หรืออนาคตแบบแผนที่จัดไว้แล้ว แต่ที่นี่เน้นสภาพกำลังกระทำในช่วงเวลาอนาคตเฉพาะเจาะจง"
+      },
+      {
+        "index": 4,
+        "text": "fly",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Simple** ซึ่งไม่สื่ออนาคตในกรณีนี้ และไม่สื่อความต่อเนื่องในอนาคต"
+      }
+    ]
+  },
+  {
+    "question": "By 2026, she ___ her degree.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have finished",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะพูดถึงเหตุการณ์ที่จะเสร็จก่อนเวลาหนึ่งในอนาคต ใช้ **Future Perfect** ตามแพทเทิร์น __will have + V3__. ตัวอย่าง: `By 2026, she will have finished her degree.` เปรียบเทียบกับ `She will finish in 2026` ที่ไม่เน้นความเสร็จก่อนจุดเวลา"
+      },
+      {
+        "index": 2,
+        "text": "will finish",
+        "is_correct": false,
+        "answer_description": "ยังไม่สื่อว่า \"เสร็จก่อนถึงปี 2026\" ชัดเจน `will finish` แค่บอกว่าจะจบในอนาคต แต่ไม่เน้นความเสร็จสิ้นก่อนจุดเวลากำหนด"
+      },
+      {
+        "index": 3,
+        "text": "is going to finish",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะกับโครงสร้าง `By + time` ที่ต้องการเน้นผลเสร็จสิ้นก่อนเวลา ซึ่งควรใช้ **Future Perfect** เช่น `will have finished`"
+      },
+      {
+        "index": 4,
+        "text": "finishes",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Present Simple** ใช้กับตาราง/ข้อเท็จจริงทั่วไป ไม่ใช้บอกการเสร็จสิ้นก่อนเวลาหนึ่งในอนาคต"
+      }
+    ]
+  },
+  {
+    "question": "If you need help, I ___ there.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นการสัญญา/รับปากในประโยคหลักหลัง `if` ใช้ **Future Simple** ตามแพทเทิร์น __will + be__. ตัวอย่าง: `If you need help, I'll be there.` จำไว้ว่าในอนุประโยคเวลา/เงื่อนไขใช้ `Present Simple` แต่อีกด้านใช้ `will` ได้"
+      },
+      {
+        "index": 2,
+        "text": "am going to be",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะกับโทนสัญญาทันที `am going to be` ฟังเป็นแผนที่คิดไว้ก่อนแล้ว มากกว่าจะเป็นการรับปาก ณ ตอนนี้ เช่น `If you need help, I'm going to be there` ฟังแปลก"
+      },
+      {
+        "index": 3,
+        "text": "am being",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะ `am being` ใช้กับคุณลักษณะชั่วคราว เช่น `He is being rude.` ไม่ได้ใช้เพื่อบอกว่าจะ \"อยู่ที่นั่น\" ในอนาคต"
+      },
+      {
+        "index": 4,
+        "text": "am",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคหลักที่บอกอนาคต/สัญญาควรใช้ `will` ไม่ใช่ **Present Simple** ต้องเป็น `I will be there.`"
+      }
+    ]
+  },
+  {
+    "question": "Call me when you ___ home.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "get",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะในอนุประโยคเวลา (after/when/before) ที่หมายถึงอนาคต ใช้ **Present Simple** ไม่ใช้ `will` ตามแพทเทิร์น __time clause + Present Simple__. ตัวอย่าง: `Call me when you get home.` เทียบกับ `I will call you when I arrive.`"
+      },
+      {
+        "index": 2,
+        "text": "will get",
+        "is_correct": false,
+        "answer_description": "ผิดหลัก เพราะหลัง `when` ในความหมายอนาคต ห้ามใช้ `will` ต้องใช้ **Present Simple** เช่น `when you get home` ไม่ใช่ `when you will get home`"
+      },
+      {
+        "index": 3,
+        "text": "are going to get",
+        "is_correct": false,
+        "answer_description": "ไม่ถูกใน time clause เพราะหลัง `when` ควรใช้ **Present Simple** เท่านั้น เช่น `when you get home` ไม่ใช่ `when you are going to get home`"
+      },
+      {
+        "index": 4,
+        "text": "are getting",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะสมกับกฎ time clause เช่นกัน หลัง `when` ให้ใช้ **Present Simple**: `when you get home`"
+      }
+    ]
+  },
+  {
+    "question": "According to the schedule, the museum ___ at 10 a.m. next Monday.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "opens",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะอ้างอิงกำหนดการที่ตายตัว ใช้ **Present Simple** ตามแพทเทิร์น __Present Simple for timetables/schedules__. ตัวอย่าง: `The museum opens at 10 a.m. next Monday.` และ `The shop closes at 8.`"
+      },
+      {
+        "index": 2,
+        "text": "will open",
+        "is_correct": false,
+        "answer_description": "ไม่นิยมกับตารางเวลา เนื่องจากกำหนดการสาธารณะควรใช้ **Present Simple** มากกว่า เช่น `The train leaves at 6.` ไม่ใช่ `will leave`"
+      },
+      {
+        "index": 3,
+        "text": "is opening",
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง เพราะ **Present Continuous** เหมาะกับแผนส่วนตัว/นัดหมาย ไม่ใช่ตารางเวลาอย่างพิพิธภัณฑ์"
+      },
+      {
+        "index": 4,
+        "text": "is going to open",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เนื่องจาก `be going to` เน้นแผน/ตั้งใจของผู้พูด ไม่ใช่กำหนดการที่ประกาศไว้ในตาราง"
+      }
+    ]
+  }
+]

@@ -1,0 +1,503 @@
+[
+  {
+    "question": "___ you like spicy food?",
+    "question_knowledge_ids": [
+      194,
+      381,
+      389,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "knowledge_ids": [
+          389,
+          381
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __Do + subject (you) + base verb__ เพื่อถามประโยคคำถามใน Present Simple กับประธานพหูพจน์หรือ I/you/we/they เช่น `Do you like spicy food?` ใช้เมื่อต้องการถามนิสัย/ความชอบในภาพรวม ไม่ใช่ตอนนี้เดี๋ยวนี้นะ เช่น `Do you like coffee?`"
+      },
+      {
+        "index": 2,
+        "text": "Are",
+        "knowledge_ids": [
+          305,
+          340,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Are** ใช้กับกริยา **be** (เช่น `are happy`, `are students`) ไม่ได้ใช้สร้างคำถามกับกริยาหลักอย่าง **like** ใน Present Simple รูปที่ถูกต้องต้องใช้ **do-support**: `Do you like ...?`"
+      },
+      {
+        "index": 3,
+        "text": "Does",
+        "knowledge_ids": [
+          389,
+          407,
+          380
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Does** ใช้กับประธานเอกพจน์บุรุษที่สาม (he/she/it) แต่ประธานที่นี่คือ **you** ต้องใช้ `Do you ...?` ตัวอย่างที่ถูกต้องของ does เช่น `Does he like spicy food?`"
+      },
+      {
+        "index": 4,
+        "text": "Did",
+        "knowledge_ids": [
+          300,
+          382
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Did** เป็นอดีตกาล ไม่ใช่ Present Simple เรากำลังถามเรื่องนิสัยปัจจุบัน จึงต้องใช้ `Do you like ...?` ไม่ใช่ `Did you like ...?`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ not watch TV on weekdays.",
+    "question_knowledge_ids": [
+      193,
+      387,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "does",
+        "knowledge_ids": [
+          387
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างปฏิเสธ Present Simple กับ **she/he/it** คือ __does + not + base verb__ เช่น `She does not watch TV.` สังเกตว่ากริยาหลัก **watch** ต้องเป็นรูปฐาน (ไม่เติม -s เพราะมี `does` แล้ว) เช่น `He does not play games.`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "knowledge_ids": [
+          380,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **she** ต้องใช้ **does not** ไม่ใช่ **do not** ถ้าเป็น `I/you/we/they` ค่อยใช้ `do not` เช่น `They do not watch TV.`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "knowledge_ids": [
+          303,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **is** เป็นกริยา be ไม่ได้ใช้ทำปฏิเสธกับกริยาหลักอย่าง **watch** ใน Present Simple โครงสร้างที่ถูกคือ `does not + base verb` เช่น `She does not watch...`"
+      },
+      {
+        "index": 4,
+        "text": "doesn't watches",
+        "knowledge_ids": [
+          291,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะซ้ำรูป -s ผิดหลัก เมื่อมี **doesn't** แล้ว กริยาหลักต้องเป็น **base verb**: `doesn't watch` ตัวอย่างผิด: `She doesn't watches.` ตัวอย่างถูก: `She doesn't watch TV.`"
+      }
+    ]
+  },
+  {
+    "question": "___ he play football on Sundays?",
+    "question_knowledge_ids": [
+      194,
+      389,
+      381,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Does",
+        "knowledge_ids": [
+          389,
+          407,
+          380
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำถาม Present Simple กับ **he/she/it** ใช้รูป __Does + subject + base verb__ เช่น `Does he play football on Sundays?` ระวังให้กริยาหลักเป็นรูป **play** ไม่ใช่ `plays` เพราะมี `does` ช่วยแล้ว"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          389,
+          384
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **he** ต้องใช้ **Does** ไม่ใช่ **Do** `Do` ใช้กับ I/you/we/they เช่น `Do they play football?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "knowledge_ids": [
+          305,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** ใช้กับกริยา be เท่านั้น ไม่ได้ใช้กับกริยาหลัก **play** รูปที่ถูกควรเป็น `Does he play ...?`"
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "knowledge_ids": [
+          299,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **has** เป็นกริยาช่วยของ Present Perfect ไม่ใช่ Present Simple แบบ do-support ตัวอย่างถูกควรเป็น `Does he play ...?`"
+      }
+    ]
+  },
+  {
+    "question": "Where ___ they live?",
+    "question_knowledge_ids": [
+      195,
+      391,
+      288,
+      381
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "do",
+        "knowledge_ids": [
+          391
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำถาม Wh- ใน Present Simple ใช้ __Wh-word + do/does + subject + base verb__ เช่น `Where do they live?` อีกตัวอย่าง: `When do they eat lunch?`"
+      },
+      {
+        "index": 2,
+        "text": "does",
+        "knowledge_ids": [
+          391,
+          407
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **they** ต้องใช้ **do** ไม่ใช่ **does** ถ้าเป็นประธานเอกพจน์บุรุษที่สาม (he/she/it) จึงใช้ `does` เช่น `Where does he live?`"
+      },
+      {
+        "index": 3,
+        "text": "are",
+        "knowledge_ids": [
+          322,
+          305
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **are** ใช้กับกริยา be ไม่ได้ใช้กับกริยาหลัก **live** ใน Present Simple แบบคำถาม ต้องใช้ `do/does` ช่วย เช่น `Where do they live?`"
+      },
+      {
+        "index": 4,
+        "text": "did",
+        "knowledge_ids": [
+          300
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **did** เป็นอดีตกาล คำถามนี้เป็น Present Simple จึงต้องใช้ `do` ไม่ใช่ `did`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ like this song!",
+    "question_knowledge_ids": [
+      192,
+      409,
+      350
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "do",
+        "knowledge_ids": [
+          409,
+          350
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __do + base verb__ เพื่อ **เน้นย้ำ (emphasis)** ใน Present Simple เช่น `I do like this song!` แสดงความย้ำว่าชอบจริง ๆ อีกตัวอย่าง: `I do want to go.`"
+      },
+      {
+        "index": 2,
+        "text": "does",
+        "knowledge_ids": [
+          407,
+          380
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **I** ต้องใช้ **do** ไม่ใช่ **does** `does` ใช้กับ he/she/it เท่านั้น เช่น `He does like this song.`"
+      },
+      {
+        "index": 3,
+        "text": "am",
+        "knowledge_ids": [
+          386,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **am** เป็นกริยา be และไม่ใช้กับกริยาหลัก **like** เพื่อเน้นใน Present Simple รูปที่ถูกคือ `I do like ...` ไม่ใช่ `I am like ...` (ซึ่งความหมายเปลี่ยน)"
+      },
+      {
+        "index": 4,
+        "text": "really",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำว่า **really** เป็น adverb ไม่ใช่กริยาช่วย do-support ถ้าจะเน้น ใช้ `do` ช่วย: `I do really like this song.` หรือแบบเรียบง่าย `I really like this song.`"
+      }
+    ]
+  },
+  {
+    "question": "We ___ know the answer.",
+    "question_knowledge_ids": [
+      193,
+      387,
+      381,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "don't",
+        "knowledge_ids": [
+          387
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคปฏิเสธกับ **we/they/you/I** ใช้รูป __do not (don't) + base verb__ เช่น `We don't know the answer.` อีกตัวอย่าง: `They don't need help.`"
+      },
+      {
+        "index": 2,
+        "text": "doesn't",
+        "knowledge_ids": [
+          387,
+          407,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **doesn't** ใช้กับ he/she/it เท่านั้น ประธานที่นี่คือ **we** ต้องใช้ `don't` เช่น `We don't know...`"
+      },
+      {
+        "index": 3,
+        "text": "do",
+        "knowledge_ids": [
+          192
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดคำปฏิเสธ **not** ถ้าจะทำปฏิเสธต้องเป็น `do not (don't) know` ไม่ใช่แค่ `do know` (ซึ่งเป็นการเน้นย้ำความตรงข้าม)"
+      },
+      {
+        "index": 4,
+        "text": "aren't",
+        "knowledge_ids": [
+          304,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **aren't** เป็นรูปปฏิเสธของกริยา be ไม่ได้ใช้กับกริยาหลัก **know** ใน Present Simple โครงสร้างที่ถูกต้องคือ `don't + base verb`"
+      }
+    ]
+  },
+  {
+    "question": "Yes, she ___.",
+    "question_knowledge_ids": [
+      353,
+      381,
+      407
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "does",
+        "knowledge_ids": [
+          353,
+          407
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำตอบสั้น (short answer) ตอบรับคำถาม Present Simple ที่ขึ้นด้วย **Does** ใช้รูป __Yes, + subject + does.__ ตัวอย่างบริบท: `Does she drive?` — `Yes, she does.`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "knowledge_ids": [
+          353,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกับประธาน **she** ต้องใช้ **does** ใน short answer รูปที่ถูกคือ `Yes, she does.` ไม่ใช่ `Yes, she do.`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "knowledge_ids": [
+          341,
+          303
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำถามเป็น Present Simple ที่ใช้ **does** ไม่ใช่กริยา be คำตอบสั้นต้องตรงกับกริยาช่วยในคำถาม เช่น `Does she... ?` → `Yes, she does.`"
+      },
+      {
+        "index": 4,
+        "text": "doesn't",
+        "knowledge_ids": [
+          353,
+          387
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่เป็นคำตอบรับ `Yes, ...` จึงต้องเป็นรูปบอกยอมรับ ไม่ใช่ปฏิเสธ ถ้าจะปฏิเสธต้องใช้ `No, she doesn't.`"
+      }
+    ]
+  },
+  {
+    "question": "No, they ___.",
+    "question_knowledge_ids": [
+      353,
+      381
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "don't",
+        "knowledge_ids": [
+          353,
+          387
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำตอบสั้นเชิงปฏิเสธกับคำถามที่ขึ้นต้นด้วย **Do** ใช้รูป __No, + subject + don't.__ ตัวอย่างบริบท: `Do they work on Sunday?` — `No, they don't.`"
+      },
+      {
+        "index": 2,
+        "text": "doesn't",
+        "knowledge_ids": [
+          353,
+          387,
+          407
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **they** ต้องใช้ **don't** ไม่ใช่ **doesn't** ถ้าเป็น `he/she/it` จึงจะใช้ `doesn't` เช่น `No, he doesn't.`"
+      },
+      {
+        "index": 3,
+        "text": "aren't",
+        "knowledge_ids": [
+          341,
+          304
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นกริยา **be** ไม่ตรงกับกริยาช่วยของคำถามแบบ do-support ถ้าคำถามขึ้นต้นด้วย `Do they... ?` คำตอบต้องเป็น `... don't.`"
+      },
+      {
+        "index": 4,
+        "text": "no do",
+        "knowledge_ids": [
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปนี้ไม่มีในไวยากรณ์อังกฤษ คำตอบสั้นต้องเป็น `No, they don't.` หรือ `No, they do not.` ไม่ใช่ `no do`"
+      }
+    ]
+  },
+  {
+    "question": "Why ___ Tom always forget his keys?",
+    "question_knowledge_ids": [
+      195,
+      391,
+      316,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "does",
+        "knowledge_ids": [
+          391,
+          407,
+          316
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำถาม Wh- กับประธานเอกพจน์บุรุษที่สามใช้ __Wh-word + does + subject + base verb__ เช่น `Why does Tom always forget his keys?` สังเกตว่าใช้กริยาหลักรูป **forget** (ไม่เติม -s) เพราะมี `does` แล้ว"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "knowledge_ids": [
+          391,
+          384,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานแท้คือ **Tom** (เอกพจน์บุรุษที่สาม) ต้องใช้ **does** ไม่ใช่ **do** ถ้าเป็น `Why do they always forget...?` จึงค่อยใช้ `do`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "knowledge_ids": [
+          322,
+          305
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **is** ใช้กับกริยา be และไม่เข้ากับโครงสร้างคำถามที่มีกริยาหลัก **forget** ต้องใช้ do-support: `does + base verb`"
+      },
+      {
+        "index": 4,
+        "text": "did",
+        "knowledge_ids": [
+          300
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **did** เป็นอดีตกาล คำถามนี้เป็น Present Simple (ถามนิสัยที่เกิดเป็นประจำ) จึงใช้ `does`"
+      }
+    ]
+  },
+  {
+    "question": "What time ___ your class start?",
+    "question_knowledge_ids": [
+      195,
+      391,
+      381,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "does",
+        "knowledge_ids": [
+          391,
+          407
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคำถามเวลาใน Present Simple คือ __Wh-word + does + subject + base verb__ เมื่อประธานเป็นเอกพจน์ เช่น `What time does your class start?` อีกตัวอย่าง: `When does the movie begin?`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "knowledge_ids": [
+          391,
+          384
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานที่แท้จริงคือ **your class** (เอกพจน์) จึงต้องใช้ **does** ถ้าเป็นพหูพจน์ เช่น `your classes` ค่อยใช้ `do` เช่น `What time do your classes start?`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "knowledge_ids": [
+          322,
+          305
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้กริยา **be** แทน do-support ซึ่งไม่เข้ากับกริยาหลัก **start** โครงสร้างที่ถูกต้องคือ `does + start` ไม่ใช่ `is start`"
+      },
+      {
+        "index": 4,
+        "text": "has",
+        "knowledge_ids": [
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **has** เป็นของ Present Perfect ไม่ใช่ตัวช่วยสำหรับ Present Simple กับกริยาหลัก ต้องใช้ `does`: `What time does your class start?`"
+      }
+    ]
+  }
+]

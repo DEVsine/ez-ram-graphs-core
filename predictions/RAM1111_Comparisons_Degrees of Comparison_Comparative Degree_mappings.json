@@ -1,0 +1,552 @@
+[
+  {
+    "question": "This road is ___ the old one.",
+    "question_knowledge_ids": [
+      462,
+      464,
+      472
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "wider than",
+        "knowledge_ids": [
+          472,
+          464
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างขั้นกว่าแบบคำคุณศัพท์สั้นใช้ __adj-er + than__ เช่น `wider than`. ประโยคสมบูรณ์คือ `This road is wider than the old one.` ใช้เมื่อต้องการเปรียบเทียบถนนสองสายว่าเส้นนี้กว้างกว่าอีกเส้นหนึ่ง."
+      },
+      {
+        "index": 2,
+        "text": "more wide than",
+        "knowledge_ids": [
+          472,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำคุณศัพท์สั้นอย่าง **wide** ต้องใช้รูปเติม **-er** ไม่ใช้ `more` จึงไม่ควรเขียน `more wide than`. ตัวอย่างที่ถูกคือ `The river is wider than the canal.`"
+      },
+      {
+        "index": 3,
+        "text": "widest than",
+        "knowledge_ids": [
+          472,
+          466
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **widest** เป็นขั้นสุด (superlative) และไม่ใช้กับ `than`. ถ้าจะใช้ขั้นสุดต้องเป็น `the widest` เช่น `This is the widest road in town.`"
+      },
+      {
+        "index": 4,
+        "text": "wide than",
+        "knowledge_ids": [
+          472
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดรูปขั้นกว่า ต้องเป็น **wider** ก่อน `than`. เปรียบเทียบสองสิ่งต้องใช้ `adj-er + than` เช่น `wider than`, ไม่ใช่ `wide than`."
+      }
+    ]
+  },
+  {
+    "question": "Anna looks ___ her sister today.",
+    "question_knowledge_ids": [
+      462,
+      464,
+      472
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "happier than",
+        "knowledge_ids": [
+          472,
+          464
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำลงท้าย **-y** อย่าง `happy` เปลี่ยนเป็น __happier + than__ ในขั้นกว่า เช่น `Anna looks happier than her sister.` รูปแบบนี้ใช้เมื่ออยากบอกว่าอันน้าดูมีความสุขมากกว่าน้องสาวในวันนี้."
+      },
+      {
+        "index": 2,
+        "text": "more happy than",
+        "knowledge_ids": [
+          472,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "มักไม่แนะนำในการสอบ เพราะคำที่ลงท้ายด้วย **-y** ควรใช้รูป **-ier** จะเป็นธรรมชาติกว่า เช่น `happier than`. ตัวอย่างที่ดีกว่า: `She is happier than before.`"
+      },
+      {
+        "index": 3,
+        "text": "happy than",
+        "knowledge_ids": [
+          472
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดรูปขั้นกว่า ต้องเปลี่ยน `happy` เป็น `happier` เมื่อมี `than`. ตัวอย่างที่ถูก: `She looks happier than me.`"
+      },
+      {
+        "index": 4,
+        "text": "the happiest than",
+        "knowledge_ids": [
+          466,
+          467
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `the happiest` เป็นขั้นสุด ไม่ใช้คู่กับ `than`. ถ้าจะพูดขั้นสุดต้องเป็น `Anna is the happiest in her class.`"
+      }
+    ]
+  },
+  {
+    "question": "This solution is ___ the previous one.",
+    "question_knowledge_ids": [
+      462,
+      463,
+      464
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "better than",
+        "knowledge_ids": [
+          463,
+          464
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำไม่ปกติ (irregular) ของ **good** คือ __better + than__. ประโยคตัวอย่าง: `This solution is better than the previous one.` ใช้เมื่อเทียบว่าวิธีนี้ดีกว่าวิธีก่อนหน้า."
+      },
+      {
+        "index": 2,
+        "text": "more good than",
+        "knowledge_ids": [
+          463,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **good** มีรูปขั้นกว่าแบบไม่ปกติเป็น `better` ไม่ใช้ `more good`. ควรเขียน `This book is better than that one.`"
+      },
+      {
+        "index": 3,
+        "text": "gooder than",
+        "knowledge_ids": [
+          472,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด รูป `gooder` ไม่มีในไวยากรณ์อังกฤษ มาตรฐาน. ต้องใช้ `better` เช่น `He is better than me at math.`"
+      },
+      {
+        "index": 4,
+        "text": "best than",
+        "knowledge_ids": [
+          466,
+          467
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `best` เป็นขั้นสุด (superlative) และไม่ใช้ร่วมกับ `than`. ถ้าจะใช้ `best` ต้องมี `the` เช่น `This is the best solution.`"
+      }
+    ]
+  },
+  {
+    "question": "Her performance was ___ last year.",
+    "question_knowledge_ids": [
+      462,
+      463,
+      464
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "worse than",
+        "knowledge_ids": [
+          463,
+          464
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ขั้นกว่าของ **bad** คือ __worse + than__. ตัวอย่าง: `Her performance was worse than last year.` หมายถึงผลงานคราวนี้แย่กว่าปีที่แล้ว."
+      },
+      {
+        "index": 2,
+        "text": "more bad than",
+        "knowledge_ids": [
+          463,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **bad** ใช้รูปขั้นกว่าแบบไม่ปกติ `worse` ไม่ใช้ `more bad`. ตัวอย่างที่ถูก: `The weather is worse than yesterday.`"
+      },
+      {
+        "index": 3,
+        "text": "bader than",
+        "knowledge_ids": [
+          472,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด คำว่า `bader` ไม่มีในภาษาอังกฤษ. ควรใช้ `worse than` เช่น `This result is worse than expected.`"
+      },
+      {
+        "index": 4,
+        "text": "worst than",
+        "knowledge_ids": [
+          466,
+          467
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `worst` เป็นขั้นสุดและไม่จับคู่กับ `than`. ถ้าจะใช้ต้องมี `the`: `the worst performance`."
+      }
+    ]
+  },
+  {
+    "question": "The city is ___ I expected.",
+    "question_knowledge_ids": [
+      462,
+      463,
+      464
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "farther than",
+        "knowledge_ids": [
+          463,
+          464
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ขั้นกว่าของ **far** ใช้ได้เป็น __farther than__ (ด้านระยะทาง) หรือ `further than` ก็ใช้ได้ทั่วไป แต่ที่นี่เลือก `farther than`. ตัวอย่าง: `The station is farther than I thought.`"
+      },
+      {
+        "index": 2,
+        "text": "more far than",
+        "knowledge_ids": [
+          472,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `far` มีรูปขั้นกว่าเฉพาะคือ `farther/further` ไม่ใช้ `more far`. ควรเขียน `The shop is further than you said.`"
+      },
+      {
+        "index": 3,
+        "text": "farthest than",
+        "knowledge_ids": [
+          466,
+          467
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจาก `farthest` เป็นขั้นสุด ไม่ใช้กับ `than`. ตัวอย่างถูกของขั้นสุด: `This is the farthest city I've visited.`"
+      },
+      {
+        "index": 4,
+        "text": "far than",
+        "knowledge_ids": [
+          472
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะยังไม่ใช่รูปขั้นกว่า ต้องเป็น `farther` หรือ `further` ก่อน `than`. เช่น `The park is further than the mall.`"
+      }
+    ]
+  },
+  {
+    "question": "We have ___ options today than yesterday.",
+    "question_knowledge_ids": [
+      474,
+      464
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "more",
+        "knowledge_ids": [
+          474,
+          464
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง การเปรียบเทียบจำนวนใช้ __more + countable noun + than__ เช่น `more options than`. ตัวอย่างเต็ม: `We have more options today than yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "many",
+        "knowledge_ids": [
+          517,
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `many` เป็นรูปพื้นฐาน ไม่ใช่ขั้นกว่า จึงวางหน้า `than` ไม่ได้. ต้องใช้ `more` เช่น `more options than`."
+      },
+      {
+        "index": 3,
+        "text": "much",
+        "knowledge_ids": [
+          517,
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด `much` ใช้กับนามนับไม่ได้และไม่ใช่รูปขั้นกว่าในที่นี้. ถ้าจะเปรียบเทียบต้องใช้ `more` เช่น `more time than`, `more water than`."
+      },
+      {
+        "index": 4,
+        "text": "most",
+        "knowledge_ids": [
+          467,
+          474
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `most` เป็นขั้นสุด ไม่ใช้กับ `than`. ถ้าจะใช้ `most` ต้องตามด้วยกลุ่มเทียบทั้งหมด เช่น `the most options`. "
+      }
+    ]
+  },
+  {
+    "question": "There are ___ students in the class this year than last year.",
+    "question_knowledge_ids": [
+      474,
+      530,
+      532
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "fewer",
+        "knowledge_ids": [
+          474,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กับนามนับได้พหูพจน์ใช้ __fewer + plural noun + than__ เช่น `fewer students than`. ตัวอย่างเต็ม: `There are fewer students in the class this year than last year.`"
+      },
+      {
+        "index": 2,
+        "text": "less",
+        "knowledge_ids": [
+          474,
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `students` เป็นนามนับได้พหูพจน์ ควรใช้ `fewer` ไม่ใช่ `less`. `less` ใช้กับนามนับไม่ได้ เช่น `less water than`."
+      },
+      {
+        "index": 3,
+        "text": "few",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด `few` เป็นรูปบอกปริมาณเฉยๆ ไม่ใช่ขั้นกว่า จึงใช้กับ `than` ไม่ได้. ตัวอย่างที่ผิด: `few students than last year`."
+      },
+      {
+        "index": 4,
+        "text": "lesser",
+        "knowledge_ids": [
+          529
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด `lesser` ใช้จำกัดขอบเขตความสำคัญ/ระดับ แต่ไม่นิยมใช้แทน `fewer` กับจำนวนนามพหูพจน์. รูปที่ถูกคือ `fewer students than`."
+      }
+    ]
+  },
+  {
+    "question": "This soup has ___ salt than that one.",
+    "question_knowledge_ids": [
+      474,
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "less",
+        "knowledge_ids": [
+          474,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กับนามนับไม่ได้อย่าง `salt` ใช้ __less + uncountable noun + than__. ตัวอย่าง: `This soup has less salt than that one.` หมายถึงซุปชามนี้เค็มน้อยกว่า."
+      },
+      {
+        "index": 2,
+        "text": "fewer",
+        "knowledge_ids": [
+          474,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `fewer` ใช้กับนามนับได้พหูพจน์ ไม่ใช่นามนับไม่ได้. ตัวอย่างที่ถูกของ `fewer`: `fewer cars than before`."
+      },
+      {
+        "index": 3,
+        "text": "little",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด `little` เป็นรูปพื้นฐานไม่ใช่ขั้นกว่า ถ้าจะเปรียบเทียบควรใช้ `less`. ตัวอย่างผิด: `has little salt than`."
+      },
+      {
+        "index": 4,
+        "text": "least",
+        "knowledge_ids": [
+          467,
+          474
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `least` เป็นขั้นสุดของ `little/less` และไม่ใช้กับ `than`. ตัวอย่างการใช้: `the least salt` (ไม่ได้เปรียบเทียบสองสิ่ง)."
+      }
+    ]
+  },
+  {
+    "question": "She runs ___ her brother.",
+    "question_knowledge_ids": [
+      462,
+      464,
+      472,
+      473
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "faster than",
+        "knowledge_ids": [
+          472,
+          473,
+          464
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำกริยาวิเศษณ์รูปสั้นอย่าง `fast` ใช้ขั้นกว่าเป็น __adj/adv-er + than__ ได้: `faster than`. ประโยคเต็ม: `She runs faster than her brother.` ใช้เมื่อบอกว่าเธอวิ่งเร็วกว่าพี่ชาย."
+      },
+      {
+        "index": 2,
+        "text": "more fast than",
+        "knowledge_ids": [
+          472,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำสั้นอย่าง `fast` ไม่ใช้ `more` ให้ใช้รูปเติม **-er** คือ `faster`. เช่น `This car is faster than that one.`"
+      },
+      {
+        "index": 3,
+        "text": "fastly than",
+        "knowledge_ids": [
+          534,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด คำว่า `fast` ไม่เติม `-ly` เป็นกริยาวิเศษณ์อยู่แล้ว และ `fastly` ไม่เป็นธรรมชาติ. ที่ถูกคือ `faster than` หรือ `as fast as`."
+      },
+      {
+        "index": 4,
+        "text": "fastest than",
+        "knowledge_ids": [
+          466,
+          467
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `fastest` เป็นขั้นสุด จึงไม่ตามด้วย `than`. ถ้าอยากใช้ขั้นสุด: `She is the fastest in her class.`"
+      }
+    ]
+  },
+  {
+    "question": "This box is ___ that one.",
+    "question_knowledge_ids": [
+      462,
+      464,
+      472
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "bigger than",
+        "knowledge_ids": [
+          472,
+          464
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำสั้นที่ลงท้ายพยัญชนะ-สระ-พยัญชนะ เช่น `big` ต้อง **double consonant** แล้วเติม __-er + than__ เป็น `bigger than`. ตัวอย่าง: `This box is bigger than that one.`"
+      },
+      {
+        "index": 2,
+        "text": "more big than",
+        "knowledge_ids": [
+          472,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำสั้นอย่าง `big` ใช้การเติม **-er** ไม่ใช้ `more`. รูปที่ถูกคือ `bigger than`, เช่น `My room is bigger than yours.`"
+      },
+      {
+        "index": 3,
+        "text": "biger than",
+        "knowledge_ids": [
+          295,
+          298
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด สะกดผิด ต้อง **เพิ่ม g เป็นสองตัว** ก่อนเติม `-er` เป็น `bigger than`. ตัวอย่างที่ถูก: `The dog is bigger than the cat.`"
+      },
+      {
+        "index": 4,
+        "text": "biggest than",
+        "knowledge_ids": [
+          466,
+          467
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นขั้นสุด `biggest` ซึ่งไม่ใช้กับ `than`. ถ้าใช้ขั้นสุดต้องมี `the`: `the biggest box`."
+      }
+    ]
+  },
+  {
+    "question": "He is taller ___ his father.",
+    "question_knowledge_ids": [
+      464,
+      468,
+      472,
+      478
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "than",
+        "knowledge_ids": [
+          464,
+          472,
+          478
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างขั้นกว่าต้องตามด้วย __than__ เพื่อเชื่อมการเปรียบเทียบ: `taller than`. ตัวอย่างเต็ม: `He is taller than his father.`"
+      },
+      {
+        "index": 2,
+        "text": "then",
+        "knowledge_ids": [
+          501
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด `then` แปลว่า \"จากนั้น/ตอนนั้น\" ไม่ใช่คำเชื่อมการเปรียบเทียบ. ต้องใช้ `than` เช่น `smarter than`, `older than`."
+      },
+      {
+        "index": 3,
+        "text": "that",
+        "knowledge_ids": [
+          452,
+          453
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด `that` ไม่ใช่คำเชื่อมในโครงสร้างขั้นกว่า. ประโยคที่ถูกต้องคือ `He is taller than his father.`"
+      },
+      {
+        "index": 4,
+        "text": "as",
+        "knowledge_ids": [
+          468,
+          469
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `as` ใช้ในโครงสร้างเท่ากัน `as ... as` ไม่ใช่ขั้นกว่า. ตัวอย่างโครงสร้างอื่น: `He is as tall as his father.` (ความสูงเท่ากัน)"
+      }
+    ]
+  }
+]

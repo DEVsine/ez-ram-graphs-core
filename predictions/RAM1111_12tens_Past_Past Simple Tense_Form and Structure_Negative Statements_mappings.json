@@ -1,0 +1,553 @@
+[
+  {
+    "question": "They ___ to the meeting yesterday.",
+    "question_knowledge_ids": [
+      300,
+      311,
+      306,
+      307
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "didn't go",
+        "knowledge_ids": [
+          300
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างปฏิเสธ **Past Simple (กริยาทั่วไป)** คือ __`didn't + base verb`__ ไม่มีการเติม -ed หรือใช้รูปช่อง 2 อีก เช่น `They didn't go to the meeting.` ตัวอย่างใช้จริง: `I didn't go yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "didn't went",
+        "knowledge_ids": [
+          291,
+          300
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **didn't** ต้องใช้กริยารูปฐาน (base verb) ไม่ใช้ช่อง 2 ดังนั้น `went` ใช้ไม่ได้ ต้องเป็น `go` เช่น: `They didn't go...` ไม่ใช่ `They didn't went...`"
+      },
+      {
+        "index": 3,
+        "text": "weren't go",
+        "knowledge_ids": [
+          291,
+          304,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจาก **weren't + go** ไม่เข้ารูปแบบใดใน Past Simple กริยาทั่วไปต้องใช้ `didn't + base verb` เช่น `didn't go` ถ้าจะใช้ **be** ต้องตามด้วย adjective/noun/place ไม่ใช่กริยา เช่น `They weren't ready.`"
+      },
+      {
+        "index": 4,
+        "text": "not went",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่มีโครงสร้าง **not + V2** ใน Past Simple ประโยคปฏิเสธต้องใช้ `didn't + base verb` เช่น `They didn't go...` ตัวอย่างที่ถูก: `I didn't see him.`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ at home last night.",
+    "question_knowledge_ids": [
+      304,
+      311,
+      306,
+      307
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "wasn't",
+        "knowledge_ids": [
+          304,
+          262
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคปฏิเสธของ **be (was/were)** ในอดีตใช้รูป __`wasn't/weren't`__ โดยประธาน **I/he/she/it → wasn't** เช่น `I wasn't at home last night.` ตัวอย่าง: `He wasn't busy yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "didn't be",
+        "knowledge_ids": [
+          291,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกริยา **be** ไม่ใช้ร่วมกับ **didn't** ใน Past Simple ต้องใช้รูป `wasn't/weren't` แทน เช่น `I wasn't at home.` ไม่ใช่ `I didn't be at home.`"
+      },
+      {
+        "index": 3,
+        "text": "weren't",
+        "knowledge_ids": [
+          291,
+          263
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **I** ต้องใช้ **was/wasn't** ไม่ใช่ **were/weren't** ที่ใช้กับ **you/we/they** ตัวอย่าง: `I wasn't tired.` และ `They weren't tired.`"
+      },
+      {
+        "index": 4,
+        "text": "wasn't be",
+        "knowledge_ids": [
+          291,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะซ้ำกริยา **be** โครงสร้างปฏิเสธของ be ใช้แค่ `wasn't/weren't` แล้วตามด้วย adjective/noun/place เช่น `I wasn't at home.` ไม่ต้องเติม **be** อีก"
+      }
+    ]
+  },
+  {
+    "question": "She ___ the email last Monday.",
+    "question_knowledge_ids": [
+      300,
+      311,
+      306,
+      307
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "didn't send",
+        "knowledge_ids": [
+          300
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างปฏิเสธของ Past Simple (กริยาทั่วไป) คือ __`didn't + base verb`__ เช่น `She didn't send the email.` ตัวอย่างใช้งาน: `We didn't finish the report yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "didn't sent",
+        "knowledge_ids": [
+          291,
+          300
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **didn't** ต้องใช้กริยารูปฐาน **send** ไม่ใช่ **sent** (ช่อง 2) รูปที่ถูกควรเป็น `didn't send` เช่น `She didn't send it.`"
+      },
+      {
+        "index": 3,
+        "text": "wasn't send",
+        "knowledge_ids": [
+          291,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ **be + verb** ไม่ถูกกับ Past Simple ของกริยาทั่วไป ถ้าจะปฏิเสธให้ใช้ `didn't + base verb` เช่น `didn't send` หรือถ้าใช้ be ต้องเป็น `wasn't + adjective/noun` เช่น `She wasn't ready.`"
+      },
+      {
+        "index": 4,
+        "text": "not send",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดตัวช่วย **did** ใน Past Simple ประโยคปฏิเสธต้องเป็น `didn't + base verb` เช่น `She didn't send the email.` ไม่ใช่ `She not send...`"
+      }
+    ]
+  },
+  {
+    "question": "We ___ dinner at the new restaurant.",
+    "question_knowledge_ids": [
+      300,
+      306,
+      307
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "didn't eat",
+        "knowledge_ids": [
+          300
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ Past Simple ปฏิเสธใช้ __`didn't + base verb`__ แม้กริยาจะไม่ปกติ (eat/ate) ก็ต้องกลับเป็นรูปฐาน `eat` เช่น `We didn't eat there.` ตัวอย่าง: `I didn't eat breakfast.`"
+      },
+      {
+        "index": 2,
+        "text": "didn't ate",
+        "knowledge_ids": [
+          291,
+          300
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **didn't** ห้ามใช้รูปช่อง 2 ต้องใช้รูปฐาน ดังนั้นควรเป็น `didn't eat` เช่น `They didn't eat.` ไม่ใช่ `didn't ate.`"
+      },
+      {
+        "index": 3,
+        "text": "weren't eat",
+        "knowledge_ids": [
+          291,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา **be** มารวมกับกริยาหลักผิดรูปแบบ Past Simple ถ้าจะปฏิเสธกริยาทั่วไปให้ใช้ `didn't + base verb` เช่น `didn't eat` ส่วน `weren't` ใช้กับคำคุณศัพท์/คำนาม เช่น `We weren't hungry.`"
+      },
+      {
+        "index": 4,
+        "text": "not ate",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่มีโครงสร้าง `not + V2` ใน Past Simple ปฏิเสธ ต้องเป็น `didn't + base verb` เช่น `We didn't eat dinner.`"
+      }
+    ]
+  },
+  {
+    "question": "The shops ___ open on Sunday last week.",
+    "question_knowledge_ids": [
+      304,
+      311,
+      306,
+      307,
+      263
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "weren't",
+        "knowledge_ids": [
+          304,
+          263
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง สำหรับ **be** ในอดีต ใช้ __`wasn't/weren't`__ ทำปฏิเสธ โดย `shops` เป็นพหูพจน์ จึงใช้ `weren't` เช่น `The shops weren't open.` ตัวอย่าง: `They weren't available yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "didn't open",
+        "knowledge_ids": [
+          300
+        ],
+        "is_correct": false,
+        "answer_description": "เกือบได้ แต่ความหมายจะเปลี่ยนเป็น \"ร้านค้าไม่ได้เปิด (กระทำการเปิด)\" แทนสถานะ \"ไม่ได้เปิดอยู่\" ถ้าพูดถึงสถานะ/เปิดอยู่ ให้ใช้ **be**: `weren't open` ไม่ใช่ `didn't open` ตัวอย่างเปรียบเทียบ: `The shop didn't open at 9.` (การกระทำ) vs `The shop wasn't open.` (สถานะ)"
+      },
+      {
+        "index": 3,
+        "text": "wasn't",
+        "knowledge_ids": [
+          304,
+          262
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน `shops` เป็นพหูพจน์ ต้องใช้ **were/weren't** ไม่ใช่ **was/wasn't** ตัวอย่าง: `The shops weren't busy.`"
+      },
+      {
+        "index": 4,
+        "text": "weren't opened",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `open` ที่นี่เป็น **adjective** ไม่ใช่กริยาถูกกระทำ ไม่ควรใช้รูป `opened` ดังนั้นควรเป็น `weren't open` เช่น `The doors weren't open.`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ finish the project on time.",
+    "question_knowledge_ids": [
+      300,
+      306,
+      307
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "didn't",
+        "knowledge_ids": [
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะช่องว่างนี้ต้องใส่รูปปฏิเสธเต็ม `didn't finish` ไม่ใช่ใส่แค่ `didn't` เฉย ๆ โครงสร้างที่ถูกคือ `didn't + base verb` เช่น `He didn't finish on time.`"
+      },
+      {
+        "index": 2,
+        "text": "doesn't finish",
+        "knowledge_ids": [
+          291,
+          382
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่เป็นรูป **Present Simple** ไม่ใช่ **Past Simple** ที่ต้องใช้ `didn't + base verb` เช่น `He didn't finish...` ไม่ใช่ `He doesn't finish...`"
+      },
+      {
+        "index": 3,
+        "text": "didn't finish",
+        "knowledge_ids": [
+          300
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างปฏิเสธ Past Simple ของกริยาทั่วไปคือ __`didn't + base verb`__ ดังนั้น `He didn't finish the project on time.` จึงถูก ตัวอย่างเพิ่ม: `They didn't submit the file.`"
+      },
+      {
+        "index": 4,
+        "text": "didn't finished",
+        "knowledge_ids": [
+          291,
+          300
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `didn't` ต้องใช้กริยารูปฐาน `finish` ห้ามเติม -ed ตัวอย่างที่ถูก: `He didn't finish.`"
+      }
+    ]
+  },
+  {
+    "question": "Tom ___ a car in 2010.",
+    "question_knowledge_ids": [
+      300,
+      311,
+      306,
+      307
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "didn't have",
+        "knowledge_ids": [
+          300
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้โครงสร้างปฏิเสธ Past Simple แบบ __`didn't + base verb`__ ดังนั้น `didn't have` จึงถูก เช่น `Tom didn't have a car in 2010.` ตัวอย่างเพิ่ม: `I didn't have time yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "didn't had",
+        "knowledge_ids": [
+          291,
+          300
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `didn't` ต้องใช้รูปฐาน `have` ไม่ใช่ `had` ตัวอย่างที่ถูก: `He didn't have a car.`"
+      },
+      {
+        "index": 3,
+        "text": "wasn't have",
+        "knowledge_ids": [
+          291,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา **be** มารวมกับกริยาหลัก ซึ่งไม่ใช่โครงสร้าง Past Simple ที่ถูก ต้องใช้ `didn't + have` แทน เช่น `He didn't have...`"
+      },
+      {
+        "index": 4,
+        "text": "hadn't a car",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในการใช้งานทั่วไป แม้ `hadn't` จะเป็นรูปปฏิเสธของ **have** แต่รูป `hadn't a car` แทบไม่ใช้ในอังกฤษร่วมสมัย ควรใช้ `didn't have a car` เช่น `Tom didn't have a car.`"
+      }
+    ]
+  },
+  {
+    "question": "There ___ any buses after midnight.",
+    "question_knowledge_ids": [
+      304,
+      311,
+      306,
+      307,
+      339
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "weren't",
+        "knowledge_ids": [
+          304,
+          263,
+          339
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง สำหรับประโยค **there + be** ในอดีตแบบปฏิเสธ ใช้ __`there wasn't/there weren't`__ โดย `buses` เป็นพหูพจน์ จึงใช้ `There weren't any buses...` ตัวอย่าง: `There weren't many people.`"
+      },
+      {
+        "index": 2,
+        "text": "wasn't",
+        "knowledge_ids": [
+          304,
+          262,
+          339
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `buses` เป็นพหูพจน์ จึงต้องใช้ `weren't` ไม่ใช่ `wasn't` รูปที่ถูกคือ `There weren't any buses...`"
+      },
+      {
+        "index": 3,
+        "text": "didn't be",
+        "knowledge_ids": [
+          291,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้าง **there + be** ในอดีตไม่ใช้ **didn't be** ต้องใช้ `wasn't/weren't` เช่น `There weren't any buses.`"
+      },
+      {
+        "index": 4,
+        "text": "weren't be",
+        "knowledge_ids": [
+          291,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะซ้ำกริยา `be` รูปที่ถูกคือ `There weren't any buses...` ไม่ต้องมี `be` ต่อท้าย"
+      }
+    ]
+  },
+  {
+    "question": "She ___ know the answer.",
+    "question_knowledge_ids": [
+      300,
+      306,
+      307
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "didn't know",
+        "knowledge_ids": [
+          300
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคปฏิเสธ Past Simple ของกริยาทั่วไปใช้ __`didn't + base verb`__ จึงเป็น `She didn't know the answer.` ตัวอย่างเพิ่ม: `I didn't know about it.`"
+      },
+      {
+        "index": 2,
+        "text": "didn't knew",
+        "knowledge_ids": [
+          291,
+          300
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `didn't` ต้องใช้กริยารูปฐาน `know` ไม่ใช่ช่อง 2 `knew` ตัวอย่างที่ถูก: `She didn't know.`"
+      },
+      {
+        "index": 3,
+        "text": "wasn't know",
+        "knowledge_ids": [
+          291,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ **be + verb** ไม่ถูกต้อง Past Simple ปฏิเสธของกริยาทั่วไปต้องเป็น `didn't + base verb` เช่น `didn't know`"
+      },
+      {
+        "index": 4,
+        "text": "doesn't know",
+        "knowledge_ids": [
+          382,
+          387
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่เป็น **Present Simple** แต่โจทย์เป็นอดีต ควรใช้ `didn't know` เช่น `She didn't know the answer.`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ tired two days ago.",
+    "question_knowledge_ids": [
+      304,
+      311,
+      306,
+      307
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "wasn't",
+        "knowledge_ids": [
+          304,
+          262
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นประโยคสถานะกับ **be** ในอดีต ใช้ __`wasn't/weren't`__ โดย `He` ใช้ `wasn't` เช่น `He wasn't tired two days ago.` ตัวอย่าง: `He wasn't at work yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "didn't tired",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำว่า `tired` เป็น adjective ไม่ใช่กริยาที่จะใช้กับ `didn't` โครงสร้างที่ถูกต้องคือต้องใช้ **be**: `wasn't tired`"
+      },
+      {
+        "index": 3,
+        "text": "weren't",
+        "knowledge_ids": [
+          304,
+          263
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน `He` ต้องใช้ **was/wasn't** ไม่ใช่ **were/weren't** รูปที่ถูกคือ `He wasn't tired...`"
+      },
+      {
+        "index": 4,
+        "text": "wasn't be tired",
+        "knowledge_ids": [
+          291,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะซ้ำกริยา **be** ไม่จำเป็น ใช้แค่ `wasn't + adjective` ก็พอ เช่น `He wasn't tired.`"
+      }
+    ]
+  },
+  {
+    "question": "We ___ any mistakes in the report.",
+    "question_knowledge_ids": [
+      193,
+      300,
+      317,
+      381,
+      420
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "didn't make",
+        "knowledge_ids": [
+          193,
+          300
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ปฏิเสธ Past Simple ของกริยาทั่วไปใช้ __`didn't + base verb`__ ดังนั้น `We didn't make any mistakes.` จึงถูก ตัวอย่าง: `I didn't make a call.`"
+      },
+      {
+        "index": 2,
+        "text": "didn't made",
+        "knowledge_ids": [
+          291,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `didn't` ต้องใช้กริยารูปฐาน `make` ไม่ใช่ `made` รูปที่ถูก: `didn't make` เช่น `They didn't make errors.`"
+      },
+      {
+        "index": 3,
+        "text": "weren't make",
+        "knowledge_ids": [
+          304,
+          264,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ `were` กับกริยาหลักไม่ถูกต้อง ควรใช้ `didn't + base verb` เช่น `didn't make` ถ้าใช้ `weren't` ต้องตามด้วย adjective/noun เช่น `We weren't ready.`"
+      },
+      {
+        "index": 4,
+        "text": "not make",
+        "knowledge_ids": [
+          291,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดตัวช่วย **did** ใน Past Simple โครงสร้างที่ถูกคือ `We didn't make...` ไม่ใช่ `We not make...`"
+      }
+    ]
+  }
+]

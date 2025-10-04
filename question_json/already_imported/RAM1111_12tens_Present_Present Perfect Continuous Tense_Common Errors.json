@@ -1,0 +1,292 @@
+[
+  {
+    "question": "She has ___ to the gym lately.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "been going",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้รูปแบบ **have/has + been + V-ing** เพื่อบอกการกระทำที่เริ่มในอดีตและยังต่อเนื่องถึงปัจจุบัน โดยมีคำบอกเวลาอย่าง *lately* ช่วยยืนยันจังหวะเวลา เช่น: `She has been going to the gym lately.` ใช้ได้ในสถานการณ์ที่เธอเริ่มไปยิมมาพักหนึ่งและยังคงไปอยู่ตอนนี้"
+      },
+      {
+        "index": 2,
+        "text": "been go",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **been** ต้องใช้รูป **V-ing** ไม่ใช่ **base form** โครงสร้างที่ถูกคือ **been + going** เช่น: `She has been going...` ไม่ใช่ `She has been go...`"
+      },
+      {
+        "index": 3,
+        "text": "gone",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **gone** เป็น V3 ของ go ใช้กับ **Present Perfect Simple** (เช่น `She has gone to the gym.`) ที่เน้นผลลัพธ์ ไม่ใช่ความต่อเนื่อง แบบนี้จะไม่เข้ากับคำว่า *lately* ที่สื่อความต่อเนื่อง"
+      },
+      {
+        "index": 4,
+        "text": "going",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดส่วนช่วยกริยาและ **been** โครงสร้าง **Present Perfect Continuous** ต้องมี `has/have + been + V-ing` เช่น: `She has been going...` ไม่ใช่แค่ `She has going...`"
+      }
+    ]
+  },
+  {
+    "question": "I have been studying English ___ two hours.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "for",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **for + ระยะเวลา** กับ **Present Perfect Continuous** เพื่อบอกช่วงเวลาที่ทำต่อเนื่อง เช่น `for two hours` โครงสร้างที่เหมาะคือ **have/has + been + V-ing + for + ระยะเวลา** เช่น: `I have been studying for two hours.`"
+      },
+      {
+        "index": 2,
+        "text": "since two hours",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **since** ใช้กับ **จุดเวลา** (point in time) ไม่ใช่ระยะเวลา ควรใช้ `since 3 p.m.` หรือ `since Monday` เช่น: `I have been studying since 3 p.m.`"
+      },
+      {
+        "index": 3,
+        "text": "from",
+        "is_correct": false,
+        "answer_description": "ผิด ในประโยค tense นี้ไม่ใช้ **from** เพื่อบอกช่วงเวลา ต้องใช้ **for + ระยะเวลา** หรือ **since + จุดเวลา** เช่น: `for two hours` หรือ `since noon`"
+      },
+      {
+        "index": 4,
+        "text": "during",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **during** ใช้กับช่วงเหตุการณ์/คำนาม เช่น `during the meeting` ไม่ใช่บอกความยาวเวลาเป็นตัวเลข ควรใช้ `for two hours`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ been working here since 2021.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "has",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน **He** ต้องใช้ **has** ตามด้วยรูปแบบ **has + been + V-ing** เช่น: `He has been working here since 2021.` โครงสร้างนี้เน้นการทำงานที่เริ่มตั้งแต่ปี 2021 และยังดำเนินต่อมา"
+      },
+      {
+        "index": 2,
+        "text": "have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเอกพจน์บุรุษที่ 3 (**He/She/It**) ต้องใช้ **has** ไม่ใช่ **have** เช่น: `He has been working...` ไม่ใช่ `He have been working...`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **is + V-ing** เป็น **Present Continuous** ใช้บอกตอนนี้ทันที ไม่สื่อระยะยาวตั้งแต่ 2021 ต้องใช้ **has been + V-ing** เพื่อเน้นความต่อเนื่องยาว"
+      },
+      {
+        "index": 4,
+        "text": "had",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **had** เป็น Past Perfect ซึ่งใช้กับอดีตก่อนอดีต ไม่ตรงความหมายที่ยังต่อเนื่องถึงปัจจุบัน ต้องใช้ **has**"
+      }
+    ]
+  },
+  {
+    "question": "They ___ the answer for a while.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "have known",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำกริยา **know** เป็นกริยาเชิงสภาวะ (**stative verb**) ไม่ใช้รูป **Continuous** จึงต้องใช้ **Present Perfect Simple**: **have/has + V3** เช่น: `They have known the answer for a while.` โครงสร้างนี้สอดคล้องกับการรับรู้ที่ต่อเนื่องโดยไม่ต้องใช้ V-ing"
+      },
+      {
+        "index": 2,
+        "text": "have been knowing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **know** เป็น **stative verb** ไม่ใช้รูป **V-ing** ตัวอย่างผิด: `I have been knowing her...` ควรเป็น `I have known her...`"
+      },
+      {
+        "index": 3,
+        "text": "has been knowing",
+        "is_correct": false,
+        "answer_description": "ผิดสองจุด ทั้งใช้ **has** กับประธานพหูพจน์ (**They**) และใช้ **knowing** ซึ่งเป็นรูป Continuous ของกริยาเชิงสภาวะ ควรเป็น `They have known...`"
+      },
+      {
+        "index": 4,
+        "text": "are knowing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ **Present Continuous** กับกริยา **know** ซึ่งไม่เหมาะกับกริยาเชิงสภาวะ ตัวอย่างที่ถูกควรเป็น `They know the answer.` หรือในความหมายต่อเนื่องเป็น `They have known...`"
+      }
+    ]
+  },
+  {
+    "question": "How long ___ you been waiting?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "have",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ในประโยคคำถามของ **Present Perfect Continuous** ใช้รูป **Have/Has + subject + been + V-ing** ดังนั้นต้องเป็น `How long have you been waiting?` โครงสร้างนี้ถามถึงระยะเวลาที่เริ่มในอดีตและยังต่อเนื่อง"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **do/does** ใช้กับ Present Simple ไม่ใช่ **Present Perfect Continuous** โครงสร้างถูกต้องต้องมี `have/has + been + V-ing` เช่น: `Have you been waiting...?`"
+      },
+      {
+        "index": 3,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ **are + V-ing** จะกลายเป็น Present Continuous ซึ่งไม่ถามระยะเวลาต่อเนื่องจากอดีต ควรใช้ `have you been...`"
+      },
+      {
+        "index": 4,
+        "text": "did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **did** เป็น Past Simple ไม่ตรงกับโครงสร้างที่ต้องการถามความต่อเนื่องถึงปัจจุบัน เช่นที่ถูก: `How long have you been waiting?`"
+      }
+    ]
+  },
+  {
+    "question": "She has ___ been studying hard.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "always",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตำแหน่งของ **adverb of frequency** เช่น **always** ใน **Perfect/Perfect Continuous** มักวางหลัง **have/has** และก่อน **been** โครงสร้างคือ `has + always + been + V-ing` เช่น: `She has always been studying hard.` เน้นความถี่ที่ต่อเนื่อง"
+      },
+      {
+        "index": 2,
+        "text": "been always",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะวาง **always** หลัง **been** ซึ่งทำให้รูปแบบแปลก ควรวางหลัง **has**: `has always been studying...`"
+      },
+      {
+        "index": 3,
+        "text": "always studying",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะแบบนี้ตัด **been** ออก ทำให้โครงสร้าง **Present Perfect Continuous** ไม่ครบ ควรเป็น `has always been studying` ไม่ใช่ `has always studying`"
+      },
+      {
+        "index": 4,
+        "text": "studying always",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะตำแหน่ง adverb ไม่ถูก และยังขาด **been** ด้วย โครงสร้างที่ถูกคือ `has always been studying`"
+      }
+    ]
+  },
+  {
+    "question": "We have been living here since ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "2019",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **since + จุดเวลา (point in time)** เช่น ปี วันที่ หรือเวลาชัดเจน ตัวอย่าง: `since 2019`, `since March`, `since 8 a.m.` โครงสร้างเต็มคือ **have/has been + V-ing + since + จุดเวลา** เช่น: `We have been living here since 2019.`"
+      },
+      {
+        "index": 2,
+        "text": "three years",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **three years** เป็นระยะเวลา ต้องใช้กับ **for** ไม่ใช่ **since** ตัวอย่างที่ถูก: `We have been living here for three years.`"
+      },
+      {
+        "index": 3,
+        "text": "a long time",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นระยะเวลา ควรใช้ **for a long time** ไม่ใช่ **since a long time** เช่น: `We have been living here for a long time.`"
+      },
+      {
+        "index": 4,
+        "text": "two months",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นระยะเวลา ต้องใช้ **for two months** ไม่ใช่ **since two months** เช่น: `We have been living here for two months.`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ not been feeling well lately.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "have",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปปฏิเสธของ **Present Perfect Continuous** คือ **have/has + not + been + V-ing** ดังนั้นต้องเป็น `I have not been feeling well lately.` ใช้เมื่ออาการเริ่มก่อนหน้าและยังมีผลตอนนี้"
+      },
+      {
+        "index": 2,
+        "text": "am",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะจะกลายเป็นโครงสร้าง **am not + V-ing** (Present Continuous) ซึ่งไม่สื่อความต่อเนื่องจากอดีต ควรใช้ `have not been feeling`"
+      },
+      {
+        "index": 3,
+        "text": "had",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **had not been + V-ing** เป็น Past Perfect Continuous ใช้กับอดีตก่อนอดีต ไม่ใช่สถานการณ์ปัจจุบัน"
+      },
+      {
+        "index": 4,
+        "text": "did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **did not** ใช้ใน Past Simple ไม่ใช่ Perfect Continuous โครงสร้างที่ถูกคือ `have not been + V-ing`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ three hours ago.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "left",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อมีตัวบอกเวลาที่จบไปแล้วอย่าง **ago** ต้องใช้ **Past Simple** ไม่ใช้ **Perfect/Perfect Continuous** ตัวอย่าง: `She left three hours ago.` รูปแบบนี้ชัดว่ากิจกรรมเสร็จสิ้นในอดีต"
+      },
+      {
+        "index": 2,
+        "text": "has been leaving",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **ago** เป็นเวลาที่เสร็จสิ้น ไม่เข้ากับ **Present Perfect Continuous** ซึ่งเชื่อมถึงปัจจุบัน ตัวอย่างผิด: `She has been leaving three hours ago.`"
+      },
+      {
+        "index": 3,
+        "text": "has left",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Present Perfect** ก็ไม่ใช้กับ **ago** เช่นกัน ควรใช้ Past Simple: `She left three hours ago.`"
+      },
+      {
+        "index": 4,
+        "text": "was leaving",
+        "is_correct": false,
+        "answer_description": "มักไม่เหมาะกับ **ago** ในประโยคสั้นแบบนี้ เพราะ **was leaving** เป็น Past Continuous ต้องมีเหตุการณ์แทรกหรือบริบท เช่น: `She was leaving when I called.` ที่นี่ควรใช้ Past Simple ธรรมดา"
+      }
+    ]
+  },
+  {
+    "question": "We have been ___ for the bus since noon.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "waiting",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง หลัง **have/has been** ต้องตามด้วย **V-ing** ดังนั้น `have been waiting` คือรูปที่ถูก โครงสร้างที่ควรจำคือ **have/has + been + V-ing** เช่น: `We have been waiting for the bus since noon.`"
+      },
+      {
+        "index": 2,
+        "text": "wait",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **been** ต้องเป็น **V-ing** ไม่ใช่คำกริยารูปพื้นฐาน ตัวอย่างที่ถูก: `have been waiting` ไม่ใช่ `have been wait`"
+      },
+      {
+        "index": 3,
+        "text": "been waiting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะถ้าเติม `been waiting` ลงไปจะกลายเป็น `have been been waiting` ซ้ำคำว่า **been** โครงสร้างที่ถูกควรเป็นเพียง `have been waiting`"
+      },
+      {
+        "index": 4,
+        "text": "to waiting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **to + V-ing** ซึ่งไม่เข้ากับ **have/has been** ควรใช้ **V-ing** ตรงๆ: `have been waiting`"
+      }
+    ]
+  }
+]

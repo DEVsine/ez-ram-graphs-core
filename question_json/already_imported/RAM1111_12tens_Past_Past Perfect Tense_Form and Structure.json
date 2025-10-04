@@ -1,0 +1,321 @@
+[
+  {
+    "question": "By the time we arrived, they ___ dinner.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "finished",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ Past Perfect ต้องใช้ **had + V3** แต่คำว่า `finished` เดี่ยวๆ เป็นแค่ V2/V3 โดยไม่มีกริยาช่วย. โครงสร้างที่ถูกคือ `had finished` เช่น: `They had finished dinner by the time we arrived.`"
+      },
+      {
+        "index": 2,
+        "text": "had finished",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง จับหลัก **Past Perfect** คือ **had + V3** ซึ่งตรงกับ `had finished`. ใช้เมื่อต้องการบอกเหตุการณ์ที่ “เสร็จสิ้นก่อน” อีกเหตุการณ์ในอดีต เช่น: `By the time we arrived, they had finished dinner.` โครงสร้างที่เน้น: **had + V3 (finished)**"
+      },
+      {
+        "index": 3,
+        "text": "were finishing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่เป็นรูป **Past Continuous** (`were + V-ing`) ใช้เน้น “กำลังกระทำ” ในอดีต ไม่ใช่ “เสร็จสิ้นก่อนอีกเหตุการณ์”. ตัวอย่างที่ถูกกับ Past Perfect คือ `had finished`, ไม่ใช่ `were finishing`."
+      },
+      {
+        "index": 4,
+        "text": "have finished",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Perfect** (`have/has + V3`) ใช้กับช่วงเวลาปัจจุบัน ไม่เหมาะกับบริบทที่มีเหตุการณ์ในอดีตสองเหตุการณ์. ควรใช้ `had finished` เพื่อชี้ว่าเสร็จแล้วก่อนที่เราไปถึง."
+      }
+    ]
+  },
+  {
+    "question": "She ___ the report before the meeting started.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "completed",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยาช่วย **had** ในรูป Past Perfect. ต้องเป็น **had + V3** เช่น `had completed` เพื่อบอกว่าเสร็จก่อนการประชุมเริ่ม."
+      },
+      {
+        "index": 2,
+        "text": "had completed",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปแบบ **Past Perfect = had + V3** ซึ่งคือ `had completed`. ใช้เมื่อเหตุการณ์หนึ่งเสร็จสิ้นก่อนอีกเหตุการณ์ในอดีต เช่น: `She had completed the report before the meeting started.` โครงสร้างที่เน้น: **had + completed (V3)**"
+      },
+      {
+        "index": 3,
+        "text": "was completing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Continuous** (`was + V-ing`) สื่อว่ากำลังทำอยู่ ไม่ใช่ “ทำเสร็จแล้วก่อน”. ต้องใช้ `had completed` เพื่อเน้นความเสร็จสิ้นก่อนเวลา."
+      },
+      {
+        "index": 4,
+        "text": "had been completed",
+        "is_correct": false,
+        "answer_description": "เกือบใช่แต่เป็น **Passive** (`had been + V3`) ซึ่งเปลี่ยนความหมายเป็นรายงานถูกทำให้เสร็จโดยใครบางคน. ประโยคนี้เน้นว่า “เธอ” เป็นผู้ทำ จึงใช้ **Active**: `had completed` จะตรงกว่า."
+      }
+    ]
+  },
+  {
+    "question": "___ you ever eaten sushi before you went to Japan?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Had",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคำถามของ **Past Perfect** คือ **Had + subject + V3**. ตัวอย่าง: `Had you ever eaten sushi before you went to Japan?` โครงสร้างที่เน้น: **Had + you + V3 (eaten)**"
+      },
+      {
+        "index": 2,
+        "text": "Did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Did + V1` เป็นโครงสร้าง **Past Simple** ไม่ใช่ Past Perfect. ถ้าพูดว่า `Did you ever eat...` จะไม่ชี้ความ ‘เสร็จก่อน’ อย่างชัดเจน."
+      },
+      {
+        "index": 3,
+        "text": "Have",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจาก `Have + subject + V3` เป็น **Present Perfect** ใช้กับปัจจุบัน. ที่นี่เราพูดถึง ‘ก่อนที่ไปญี่ปุ่น’ ซึ่งเป็นอดีต จึงควรใช้ `Had` เปิดประโยคคำถาม."
+      },
+      {
+        "index": 4,
+        "text": "Were",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Were + V-ing` เป็น **Past Continuous** ไม่ใช่รูป Past Perfect. โครงสร้างที่ต้องการคือ `Had + subject + V3` เท่านั้น."
+      }
+    ]
+  },
+  {
+    "question": "They ___ seen the movie, so they were excited.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "hadn't",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปปฏิเสธของ **Past Perfect** คือ **had not (hadn't) + V3**. ตัวอย่าง: `They hadn't seen the movie, so they were excited to watch it.` โครงสร้างที่เน้น: **hadn't + seen (V3)**"
+      },
+      {
+        "index": 2,
+        "text": "haven't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Perfect** (`have/has + V3`) ไม่ใช่ Past Perfect. เราต้องการรูปอดีตที่เสร็จก่อนอีกเหตุการณ์ในอดีต จึงควรใช้ `hadn't seen`."
+      },
+      {
+        "index": 3,
+        "text": "didn't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `didn't + V1` เป็น **Past Simple** ไม่ใช่ Past Perfect. ถ้าพูดว่า `didn't see` จะไม่แสดงความ “ก่อนหน้า” อย่างชัดเจน."
+      },
+      {
+        "index": 4,
+        "text": "weren't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น `be` ในรูปอดีตพหูพจน์ (**were not**) และไม่เข้ากับโครงสร้าง Past Perfect. เราต้องใช้ `hadn't + V3` เช่น `hadn't seen`."
+      }
+    ]
+  },
+  {
+    "question": "When I got to the station, the train ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "left",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `left` (Past Simple) ไม่ได้ชี้ชัดว่าเหตุการณ์นี้เกิดก่อนที่ฉันมาถึง. เพื่อบอกว่า “รถไฟออกไปแล้วก่อนหน้า” ควรใช้ **Past Perfect**: `had left`."
+      },
+      {
+        "index": 2,
+        "text": "had left",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **Past Perfect = had + V3** ใช้เพื่อบอกว่าเหตุการณ์หนึ่งเสร็จสิ้นก่อนอีกเหตุการณ์ในอดีต. ตัวอย่าง: `When I got to the station, the train had left.` โครงสร้างที่เน้น: **had + left (V3)**"
+      },
+      {
+        "index": 3,
+        "text": "was leaving",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Continuous** (`was + V-ing`) บอกว่ากำลังกระทำในอดีต ไม่ใช่ว่า “เกิดขึ้นก่อนแล้ว”. Past Perfect `had left` จะตรงความหมายกว่า."
+      },
+      {
+        "index": 4,
+        "text": "has left",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Perfect** (`has/have + V3`) ใช้กับปัจจุบัน. ที่นี่เป็นบริบทอดีตสองเหตุการณ์ จึงต้องใช้ `had left`."
+      }
+    ]
+  },
+  {
+    "question": "By 2010, the bridge ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had been built",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง นี่คือ **Past Perfect Passive** โครงสร้างคือ **had been + V3**. ใช้เมื่อเน้นผลว่า “สะพานถูกสร้างเสร็จก่อนปี 2010” เช่น: `By 2010, the bridge had been built.` โครงสร้างที่เน้น: **had been + built (V3)**"
+      },
+      {
+        "index": 2,
+        "text": "had built",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Active** (`had + V3`) ซึ่งต้องมีผู้กระทำต่อท้าย เช่น `had built the bridge` และยังขาดประธานผู้กระทำ. ประโยคนี้ต้องการ **Passive**: `had been built`."
+      },
+      {
+        "index": 3,
+        "text": "was built",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple Passive** ไม่ใช่ Past Perfect Passive. เพื่อเน้นว่า “เสร็จก่อนปี 2010” ใช้ `had been built` จะสื่อเวลา ‘ก่อนหน้า’ ชัดกว่า."
+      },
+      {
+        "index": 4,
+        "text": "had been build",
+        "is_correct": false,
+        "answer_description": "ผิดที่รูปคำกริยา `build` ต้องเป็น V3 คือ `built` ไม่ใช่ `build`. รูปที่ถูกคือ **had been built** ตามโครงสร้าง `had been + V3`."
+      }
+    ]
+  },
+  {
+    "question": "___ he finished his homework before dinner?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Did + subject + V1` เป็นโครงสร้าง **Past Simple** ไม่ใช่ Past Perfect. เราต้องการถามรูป Past Perfect ซึ่งใช้ `Had` นำหน้า."
+      },
+      {
+        "index": 2,
+        "text": "Has",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจากเป็น **Present Perfect** (`Has + subject + V3`) ใช้กับปัจจุบัน. ประโยคนี้อ้างถึงอดีต ต้องใช้ `Had`."
+      },
+      {
+        "index": 3,
+        "text": "Had",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปคำถามของ **Past Perfect** คือ **Had + subject + V3**. ตัวอย่างที่ครบคือ: `Had he finished his homework before dinner?` โครงสร้างที่เน้น: **Had + he + finished (V3)**"
+      },
+      {
+        "index": 4,
+        "text": "Was",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นโครงสร้างของ **Past Continuous** (`Was + V-ing`) ไม่ใช่ Past Perfect. คำถาม Past Perfect ต้องขึ้นต้นด้วย `Had`."
+      }
+    ]
+  },
+  {
+    "question": "She had not ___ the message.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "see",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **had (not)** ต้องใช้ **V3** ไม่ใช่ V1. คำที่ถูกคือ `seen` เช่น `had not seen`."
+      },
+      {
+        "index": 2,
+        "text": "saw",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `saw` คือ V2 แต่ Past Perfect ต้องใช้ **V3**. ควรเป็น `had not seen`."
+      },
+      {
+        "index": 3,
+        "text": "seen",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง หลัง **had not** ต้องตามด้วย **V3** จึงใช้ `seen`. ตัวอย่าง: `She had not seen the message before the meeting.` โครงสร้างที่เน้น: **had not + V3 (seen)**"
+      },
+      {
+        "index": 4,
+        "text": "seeing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `V-ing` ไม่ใช้กับรูป **Past Perfect** ที่ต้องการ **V3**. ควรเป็น `had not seen` เท่านั้น."
+      }
+    ]
+  },
+  {
+    "question": "They had already ___ when we called.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "leave",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **had** ต้องเป็น **V3** ไม่ใช่ V1. คำกริยาที่ถูกคือ `left` เช่น `had already left`."
+      },
+      {
+        "index": 2,
+        "text": "left",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **Past Perfect = had + V3** ดังนั้น `left` (V3 ของ leave) จึงถูก. ตัวอย่าง: `They had already left when we called.` โครงสร้างที่เน้น: **had + already + V3 (left)**"
+      },
+      {
+        "index": 3,
+        "text": "leaving",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป V-ing ไม่ใช่ V3 ที่ต้องใช้กับ **had**. รูปที่ถูกคือ `had left` หรือ `had already left`."
+      },
+      {
+        "index": 4,
+        "text": "leaves",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `leaves` เป็นรูป Present Simple (บุรุษที่ 3 เอกพจน์). Past Perfect ต้องใช้ **V3**: `left`."
+      }
+    ]
+  },
+  {
+    "question": "He ___ never traveled abroad before 2015.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **Past Perfect (รูปบอกเล่า)** คือ **had + adverb + V3/V-ed** เช่น `had never traveled`. ประโยคเต็ม: `He had never traveled abroad before 2015.` โครงสร้างที่เน้น: **had + never + V3/V-ed (traveled)**"
+      },
+      {
+        "index": 2,
+        "text": "has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Perfect** (`has + V3`) ใช้กับปัจจุบัน. เราพูดถึง “ก่อนปี 2015” ซึ่งเป็นอดีต จึงต้องใช้ `had`."
+      },
+      {
+        "index": 3,
+        "text": "did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `did + V1` เป็น **Past Simple** และไม่เหมาะกับการวาง adverb `never` ตรงกลางแบบ Past Perfect. รูปที่ถูกคือ `had never traveled`."
+      },
+      {
+        "index": 4,
+        "text": "was",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นกริยา `be` ไม่ใช่กริยาช่วยของ Past Perfect. ต้องใช้ `had` ก่อนกริยาหลักในรูป V3/V-ed."
+      }
+    ]
+  },
+  {
+    "question": "She ___ finished when the power went out.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "hadn't",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปปฏิเสธของ **Past Perfect** คือ **had not (hadn't) + V3**. ประโยคตัวอย่าง: `She hadn't finished when the power went out.` โครงสร้างที่เน้น: **hadn't + finished (V3)**"
+      },
+      {
+        "index": 2,
+        "text": "didn't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple** (`didn't + V1`) ไม่ใช่ Past Perfect. เพื่อสื่อว่า “ยังทำไม่เสร็จก่อนที่ไฟดับ” ต้องใช้ `hadn't finished`."
+      },
+      {
+        "index": 3,
+        "text": "hasn't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Perfect** (`hasn't + V3`) ใช้กับปัจจุบัน. บริบทนี้เป็นอดีตสองเหตุการณ์ จึงใช้ Past Perfect ปฏิเสธ: `hadn't finished`."
+      },
+      {
+        "index": 4,
+        "text": "wasn't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น `be` รูปปฏิเสธ ไม่ใช่โครงสร้างของ Past Perfect. รูปที่ถูกต้องคือ `hadn't + V3` เช่น `hadn't finished`."
+      }
+    ]
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "question": "I think it ___ rain this evening.",
+    "question_knowledge_ids": [
+      203,
+      238,
+      244,
+      248
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will",
+        "knowledge_ids": [
+          238,
+          244,
+          248
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะใช้ **Future Simple** สำหรับการคาดเดาที่มีคำบอกความคิดเห็นอย่าง `I think`. โครงสร้างคือ __will + base verb__ → `will rain`. ตัวอย่าง: `I think it will rain this evening.` และ `She thinks they will win.`"
+      },
+      {
+        "index": 2,
+        "text": "is going to",
+        "knowledge_ids": [
+          238,
+          244,
+          248
+        ],
+        "is_correct": false,
+        "answer_description": "อาจใช้ได้เมื่อมีหลักฐานชัดเจนในปัจจุบัน (เช่น เห็นเมฆดำ) แต่ในประโยคมีตัวบอกอย่าง `I think` เน้นความเห็น ณ ตอนพูด จึงนิยมใช้ **will** มากกว่า. ตัวอย่างที่เหมาะกับ going to: `Look at those clouds! It is going to rain.`"
+      },
+      {
+        "index": 3,
+        "text": "rains",
+        "knowledge_ids": [
+          291,
+          244
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `rains` เป็น **Present Simple** ใช้กับข้อเท็จจริงหรือกิจวัตร ไม่ใช่การคาดเดาอนาคต. ตัวอย่างที่ถูกควรเป็น `It will rain.` ไม่ใช่ `It rains this evening.`"
+      },
+      {
+        "index": 4,
+        "text": "is raining",
+        "knowledge_ids": [
+          244,
+          248
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous** หมายถึงกำลังฝนตกตอนนี้ ไม่ใช่อนาคต. ถ้าจะพูดถึงอนาคตแบบตัดสินใจทันที/คาดเดา ควรใช้ `will rain` เช่น `I think it will rain.`"
+      }
+    ]
+  },
+  {
+    "question": "I’m thirsty. I ___ some water.",
+    "question_knowledge_ids": [
+      237,
+      244,
+      248
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will get",
+        "knowledge_ids": [
+          237,
+          244
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Future Simple** แสดงการตัดสินใจฉับพลัน ณ ขณะพูด. โครงสร้างคือ __will + base verb__ → `will get`. ตัวอย่าง: `I’m cold. I will close the window.`"
+      },
+      {
+        "index": 2,
+        "text": "am going to get",
+        "knowledge_ids": [
+          244,
+          248
+        ],
+        "is_correct": false,
+        "answer_description": "รูปนี้มักใช้เมื่อมีแผนไว้ล่วงหน้าแล้ว แต่ที่นี่คือการตัดสินใจทันที (เพิ่งรู้สึกกระหายน้ำ). ถ้าจะใช้ก็ไม่ผิดตามไวยากรณ์ แต่ไม่ตรง **การใช้ (Uses)** ที่ทดสอบ: การตัดสินใจฉับพลันควรใช้ `will` เช่น `I’ll get some water.`"
+      },
+      {
+        "index": 3,
+        "text": "get",
+        "knowledge_ids": [
+          244
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `get` เดี่ยวๆ ไม่แสดงอนาคต ต้องมีตัวช่วยอย่าง `will`. ตัวอย่างที่ถูก: `I will get some water.`"
+      },
+      {
+        "index": 4,
+        "text": "am get",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปกริยา เพราะหลัง `am` ต้องตามด้วย `V-ing` หรือ `being + past participle` ไม่ใช่ base verb. ตัวอย่างถูก: `I am getting some water` (กำลังกำลังทำ) หรืออนาคตแบบตัดสินใจทันทีใช้ `will get`."
+      }
+    ]
+  },
+  {
+    "question": "Don’t worry, I ___ you with your homework.",
+    "question_knowledge_ids": [
+      237,
+      239,
+      240,
+      244,
+      248
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will help",
+        "knowledge_ids": [
+          237,
+          239,
+          240,
+          244
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Future Simple** เพื่อเสนอความช่วยเหลือ/สัญญา ณ ตอนพูด. โครงสร้างคือ __will + base verb__ → `will help`. ตัวอย่าง: `It’s heavy; I will help you carry it.`"
+      },
+      {
+        "index": 2,
+        "text": "help",
+        "knowledge_ids": [
+          244
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่แสดงอนาคต เพราะขาดตัวช่วย `will`. ต้องเป็น `I will help you` เพื่อบอกการเสนอตัว ณ ตอนพูด."
+      },
+      {
+        "index": 3,
+        "text": "am helping",
+        "knowledge_ids": [
+          244
+        ],
+        "is_correct": false,
+        "answer_description": "เป็น **Present Continuous** แปลว่ากำลังช่วยอยู่ตอนนี้ แต่บริบทคือคำสัญญา/เสนอตัวว่าจะช่วยต่อจากนี้. ใช้ `will help` จะตรงกว่า: `I will help you.`"
+      },
+      {
+        "index": 4,
+        "text": "am going to help",
+        "knowledge_ids": [
+          244,
+          248
+        ],
+        "is_correct": false,
+        "answer_description": "รูปนี้เน้นแผนที่คิดไว้ก่อนหน้านี้ แต่คำพูด `Don’t worry` + การเสนอตัว ณ ตอนนั้น ใช้ `will` เป็นธรรมชาติกว่า. ตัวอย่าง: `Don’t worry, I will help you.`"
+      }
+    ]
+  },
+  {
+    "question": "She promises she ___ on time tomorrow.",
+    "question_knowledge_ids": [
+      239,
+      244,
+      248,
+      242
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be",
+        "knowledge_ids": [
+          239,
+          244
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Future Simple** เพื่อบอกคำสัญญา. โครงสร้างกับกริยา be คือ __will + be__ → `will be`. ตัวอย่าง: `I promise I will be careful.`"
+      },
+      {
+        "index": 2,
+        "text": "is",
+        "knowledge_ids": [
+          244
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `is` เป็นปัจจุบัน ไม่สื่อถึงอนาคต. ต้องใช้ `will be` เช่น `She will be on time tomorrow.`"
+      },
+      {
+        "index": 3,
+        "text": "is going to be",
+        "knowledge_ids": [
+          244,
+          248
+        ],
+        "is_correct": false,
+        "answer_description": "แม้ไวยากรณ์ถูก แต่บริบทคือคำว่า `promises` ซึ่งมักตามด้วย **will** เพื่อแสดงคำสัญญา. ตัวอย่างที่เป็นธรรมชาติ: `She promises she will be on time.`"
+      },
+      {
+        "index": 4,
+        "text": "be",
+        "knowledge_ids": [
+          209,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะขาดตัวช่วยกริยาในอนาคต (`will`). ต้องเป็น `will be`. ตัวอย่าง: `She will be on time.`"
+      }
+    ]
+  },
+  {
+    "question": "Look at those dark clouds! It ___ soon.",
+    "question_knowledge_ids": [
+      203,
+      238,
+      244,
+      248
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is going to rain",
+        "knowledge_ids": [
+          238,
+          244,
+          248
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีหลักฐานชัดเจนตอนพูด (เมฆมืด) จึงใช้รูปแผน/แนวโน้มอนาคต `be going to`. อย่างไรก็ตาม ในหัวข้อ **Future Simple Uses** ให้สังเกตว่าเมื่อไม่มีหลักฐานและเป็นการคาดเดา เราจะใช้ __will + base verb__ แทน. ตัวอย่าง: `Look at those clouds! It is going to rain.`"
+      },
+      {
+        "index": 2,
+        "text": "will rains",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะหลัง `will` ต้องใช้ **base verb** ไม่เติม s. รูปที่ถูกคือ `will rain` เช่น `It will rain.`"
+      },
+      {
+        "index": 3,
+        "text": "rains",
+        "knowledge_ids": [
+          244
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Simple** ใช้กับข้อเท็จจริงทั่วไป ไม่ใช่การทำนายจากหลักฐานตรงหน้า. ควรใช้ `is going to rain` หรือถ้าเป็นการคาดเดาทั่วไปใช้ `will rain`."
+      },
+      {
+        "index": 4,
+        "text": "will be raining",
+        "knowledge_ids": [
+          204
+        ],
+        "is_correct": false,
+        "answer_description": "เป็น **Future Continuous** (จะกำลังกระทำในช่วงเวลาอนาคต) ซึ่งไม่ตรงกับการทำนายจากหลักฐานตรงหน้า. ที่เหมาะคือ `is going to rain` เช่น `It is going to rain soon.`"
+      }
+    ]
+  },
+  {
+    "question": "I don’t have cash. I ___ by card.",
+    "question_knowledge_ids": [
+      237,
+      244,
+      248
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will pay",
+        "knowledge_ids": [
+          237,
+          244
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง แสดงการตัดสินใจทันทีหลังรู้ว่าไม่มีเงินสด. โครงสร้าง __will + base verb__ → `will pay`. ตัวอย่าง: `We don’t have time; we will take a taxi.`"
+      },
+      {
+        "index": 2,
+        "text": "am paying",
+        "knowledge_ids": [
+          244
+        ],
+        "is_correct": false,
+        "answer_description": "เป็นปัจจุบันต่อเนื่อง (กำลังจ่ายอยู่ตอนนี้) ไม่ใช่การตัดสินใจอนาคตทันที. ใช้ `will pay` จะตรงกว่า: `I will pay by card.`"
+      },
+      {
+        "index": 3,
+        "text": "pay",
+        "knowledge_ids": [
+          244
+        ],
+        "is_correct": false,
+        "answer_description": "ขาดตัวช่วยกริยาแสดงอนาคต (`will`). ประโยคที่ถูกคือ `I will pay by card.`"
+      },
+      {
+        "index": 4,
+        "text": "am going to pay",
+        "knowledge_ids": [
+          244,
+          248
+        ],
+        "is_correct": false,
+        "answer_description": "รูปนี้เน้นแผนที่ตั้งไว้ก่อนหน้า แต่บริบทคือคิดตัดสินใจเดี๋ยวนั้น จึงใช้ `will` ดีกว่า. ตัวอย่าง: `I will pay by card.`"
+      }
+    ]
+  },
+  {
+    "question": "If it rains tomorrow, we ___ at home.",
+    "question_knowledge_ids": [
+      486,
+      495,
+      244
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will stay",
+        "knowledge_ids": [
+          495,
+          244
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ในประโยคเงื่อนไข **First Conditional** ใช้ `if + Present Simple` ตามด้วยผลลัพธ์ __will + base verb__. ตัวอย่าง: `If it rains, we will stay at home.`"
+      },
+      {
+        "index": 2,
+        "text": "stay",
+        "knowledge_ids": [
+          495,
+          244
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะในส่วนผลลัพธ์ของ First Conditional ต้องใช้ `will + V1` ไม่ใช่รูปธรรมดา. ตัวอย่างถูก: `we will stay`."
+      },
+      {
+        "index": 3,
+        "text": "are staying",
+        "knowledge_ids": [
+          495,
+          244
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ตรงรูปแบบมาตรฐานของ First Conditional ซึ่งควรเป็น `will + V1` ในประโยคผล. ตัวอย่าง: `If it rains, we will stay at home.`"
+      },
+      {
+        "index": 4,
+        "text": "are going to stay",
+        "knowledge_ids": [
+          495,
+          244
+        ],
+        "is_correct": false,
+        "answer_description": "แม้เข้าใจได้ แต่รูปมาตรฐานของ First Conditional ใช้ `will` ในประโยคผล. เพื่อชัดเจนและตามหลักสอบ ควรใช้ `will stay`."
+      }
+    ]
+  },
+  {
+    "question": "The phone is ringing. I ___ it.",
+    "question_knowledge_ids": [
+      237,
+      244,
+      248
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will answer",
+        "knowledge_ids": [
+          237,
+          244
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Future Simple** แสดงการอาสาทำทันที/ตัดสินใจฉับพลัน. โครงสร้าง __will + base verb__ → `will answer`. ตัวอย่าง: `Someone is at the door. I will get it.`"
+      },
+      {
+        "index": 2,
+        "text": "am answering",
+        "knowledge_ids": [
+          244
+        ],
+        "is_correct": false,
+        "answer_description": "รูปนี้แปลว่ากำลังรับสายอยู่แล้ว ซึ่งไม่ตรง เพราะการตัดสินใจเพิ่งเกิดขึ้น. ใช้ `will answer` เพื่อบอกว่าจะทำเดี๋ยวนี้."
+      },
+      {
+        "index": 3,
+        "text": "answer",
+        "knowledge_ids": [
+          244
+        ],
+        "is_correct": false,
+        "answer_description": "ขาดตัวช่วย `will` ทำให้ไม่ชัดว่าเป็นอนาคต/การตัดสินใจทันที. ควรเป็น `I will answer it.`"
+      },
+      {
+        "index": 4,
+        "text": "am going to answer",
+        "knowledge_ids": [
+          244,
+          248
+        ],
+        "is_correct": false,
+        "answer_description": "สื่อถึงแผนที่คิดไว้แล้วก่อนหน้านี้ ซึ่งไม่ตรงกับการอาสาทำเดี๋ยวนี้. ใช้ `will answer` จะเป็นธรรมชาติกว่า: `I’ll answer it.`"
+      }
+    ]
+  },
+  {
+    "question": "Do you think they ___ the match?",
+    "question_knowledge_ids": [
+      194,
+      238,
+      244,
+      248
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will win",
+        "knowledge_ids": [
+          238,
+          244
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อมีคำถามความคิดเห็น `Do you think …?` ใช้ **will** เพื่อคาดเดาอนาคต. โครงสร้างคือ __will + base verb__ → `will win`. ตัวอย่าง: `Do you think she will come?`"
+      },
+      {
+        "index": 2,
+        "text": "are winning",
+        "knowledge_ids": [
+          244
+        ],
+        "is_correct": false,
+        "answer_description": "เป็น **Present Continuous** หมายถึงกำลังชนะอยู่ตอนนี้ ไม่ใช่อนาคต. สำหรับการคาดเดาอนาคตควรใช้ `will win`."
+      },
+      {
+        "index": 3,
+        "text": "wins",
+        "knowledge_ids": [
+          291,
+          384,
+          380
+        ],
+        "is_correct": false,
+        "answer_description": "เป็น **Present Simple** ใช้กับความจริงทั่วไป/ตารางเวลา ไม่ใช่การคาดเดา. ควรใช้ `will win` เช่น `They will win.`"
+      },
+      {
+        "index": 4,
+        "text": "are going to win",
+        "knowledge_ids": [
+          238,
+          244,
+          248
+        ],
+        "is_correct": false,
+        "answer_description": "ใช้ได้ถ้ามีหลักฐานชัดเจนแล้ว แต่คำถามเป็นความเห็นทั่วไป (`Do you think…`) นิยมใช้ `will` มากกว่า. ตัวอย่าง: `Do you think they will win?`"
+      }
+    ]
+  },
+  {
+    "question": "That bag looks heavy. I ___ you carry it.",
+    "question_knowledge_ids": [
+      237,
+      240,
+      244,
+      248
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will help",
+        "knowledge_ids": [
+          237,
+          240,
+          244
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Future Simple** เพื่ออาสาช่วยเมื่อเห็นสถานการณ์. โครงสร้างคือ __will + base verb__ → `will help`. ตัวอย่าง: `You look tired. I will help you.`"
+      },
+      {
+        "index": 2,
+        "text": "am helping",
+        "knowledge_ids": [
+          244
+        ],
+        "is_correct": false,
+        "answer_description": "แปลว่ากำลังช่วยอยู่ตอนนี้ ซึ่งยังไม่ได้เริ่มทำ. ควรใช้ `will help` เพื่อบอกว่าจะช่วยเดี๋ยวนี้."
+      },
+      {
+        "index": 3,
+        "text": "help",
+        "knowledge_ids": [
+          244
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่บอกอนาคต เพราะไม่มี `will`. ประโยคที่ถูก: `I will help you carry it.`"
+      },
+      {
+        "index": 4,
+        "text": "am going to help",
+        "knowledge_ids": [
+          244,
+          248
+        ],
+        "is_correct": false,
+        "answer_description": "สื่อว่าเป็นแผนมาก่อน แต่ในบริบทนี้คือการเห็นแล้วอาสาช่วยทันที แบบนี้ใช้ `will` จะเป็นธรรมชาติกว่า. เช่น `I’ll help you.`"
+      }
+    ]
+  }
+]

@@ -1,0 +1,474 @@
+[
+  {
+    "question": "___ I known about the delay, I would have left earlier.",
+    "question_knowledge_ids": [
+      499,
+      481
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Had",
+        "knowledge_ids": [
+          499
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้องเลย นี่คือรูป **inversion** ของเงื่อนไขที่ 3 (อดีตไม่เป็นจริง): __Had + subject + past participle__ แทน `If I had known`. ตัวอย่าง: `Had I known about the delay, I would have left earlier.` ใช้เมื่อพูดถึงสิ่งที่รู้อยู่ตอนนี้ว่าไม่ได้เกิดขึ้นในอดีต และผลลัพธ์ก็เลยไม่เกิดขึ้นตามนั้น เช่น `Had she studied, she would have passed.`"
+      },
+      {
+        "index": 2,
+        "text": "If had",
+        "knowledge_ids": [
+          510
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะซ้ำซ้อนโครงสร้าง ใช้ `If + subject + had + V3` ไม่ใช่ `If had`. ตัวอย่างที่ถูก: `If I had known, ...` หรือใช้ inversion ไปเลย: `Had I known, ...` ดังนั้น `If had I known` จึงผิดรูปแบบ"
+      },
+      {
+        "index": 3,
+        "text": "Have",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะกาลไม่สอดคล้อง เงื่อนไขที่ 3 ต้องใช้ **past perfect** (`had + V3`) ไม่ใช่ `have`. ตัวอย่างที่ถูก: `If I had known...` หรือ `Had I known...` ไม่ใช่ `Have I known...`"
+      },
+      {
+        "index": 4,
+        "text": "If have",
+        "knowledge_ids": [
+          510
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะหลัง `If` ต้องตามด้วยประธานก่อน แล้วใช้ `had + V3` สำหรับอดีตที่ไม่เป็นจริง เช่น `If I had known...` ไม่ใช่ `If have known...` โครงสร้างที่ถูกคือ `If + S + had + V3` หรือแบบกลับคำ `Had + S + V3`"
+      }
+    ]
+  },
+  {
+    "question": "___ you need any assistance, press 0.",
+    "question_knowledge_ids": [
+      500,
+      481
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Should",
+        "knowledge_ids": [
+          500
+        ],
+        "is_correct": true,
+        "answer_description": "เยี่ยม! นี่คือ **inversion** ของเงื่อนไขที่ 1 แบบสุภาพ: __Should + subject + base verb__, แทน `If you should need ...`. ตัวอย่าง: `Should you need any assistance, press 0.` ใช้เมื่อต้องการน้ำเสียงทางการ/ประกาศ เช่น `Should you have questions, contact us.`"
+      },
+      {
+        "index": 2,
+        "text": "If should",
+        "knowledge_ids": [
+          510
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะวาง `should` ผิดที่ ถ้าจะใช้ `if` ต้องเป็น `If you should need...` โดยให้ `should` อยู่หลังประธาน หรือใช้ inversion ก็ไม่ต้องมี `if` เช่น `Should you need...`"
+      },
+      {
+        "index": 3,
+        "text": "Do",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะ `do` ไม่ใช่ตัวช่วยสำหรับเงื่อนไขสุภาพแบบนี้ โครงสร้างที่ถูกคือ `If you need...` (ธรรมดา) หรือ `Should you need...` (ทางการ) ไม่ใช่ `Do you need...` ในตำแหน่งเปิดประโยคเงื่อนไข"
+      },
+      {
+        "index": 4,
+        "text": "If do",
+        "knowledge_ids": [
+          510
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะหลัง `if` ต้องเป็นประธาน + กริยา ไม่ใช่ `if do`. ตัวอย่างที่ถูก: `If you need any assistance, press 0.` หรือแบบกลับคำ: `Should you need any assistance, press 0.`"
+      }
+    ]
+  },
+  {
+    "question": "___ I you, I'd apologize immediately.",
+    "question_knowledge_ids": [
+      482,
+      509
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Were",
+        "knowledge_ids": [
+          482,
+          509
+        ],
+        "is_correct": true,
+        "answer_description": "ใช่เลย นี่คือ **inversion** ของเงื่อนไขที่ 2 (ปัจจุบันไม่จริง): __Were + subject + complement__ แทน `If I were you`. ตัวอย่าง: `Were I you, I'd apologize immediately.` ใช้เมื่อสมมุติสิ่งที่ไม่จริงตอนนี้ เช่น `Were he here, we could start.`"
+      },
+      {
+        "index": 2,
+        "text": "Was",
+        "knowledge_ids": [
+          509
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะในโครงสร้างเงื่อนไขที่ 2 เรานิยมใช้ **were** กับทุกประธานในประโยคสมมุติ เช่น `If I were you` ไม่ใช่ `If I was you`. รูปกลับคำก็ต้องเป็น `Were I you, ...`"
+      },
+      {
+        "index": 3,
+        "text": "If were",
+        "knowledge_ids": [
+          510
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดตำแหน่งคำ ถ้าใช้ `if` ต้องเป็น `If I were you, ...` โดยให้ประธานอยู่หน้ากริยา ไม่ใช่ `If were I you`. ถ้าจะกลับคำ ก็ไม่ต้อง `if`: `Were I you, ...`"
+      },
+      {
+        "index": 4,
+        "text": "Be",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `be` ไม่ใช่รูปที่ใช้ในเงื่อนไขสมมุติ ต้องใช้รูป **were** สำหรับปัจจุบันที่ไม่จริง เช่น `If I were you` หรือแบบ inversion `Were I you`"
+      }
+    ]
+  },
+  {
+    "question": "___ for your help, we couldn't have finished on time.",
+    "question_knowledge_ids": [
+      499,
+      485
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Were it not",
+        "knowledge_ids": [
+          499
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง นี่คือรูป **negative inversion** ที่เทียบกับ `If it were not for ...`: __Were it not for + noun__, ใช้กับสถานการณ์ปัจจุบัน/ทั่วไป. ตัวอย่าง: `Were it not for your help, we couldn't have finished on time.` อีกตัวอย่าง: `Were it not for the rain, we'd be outside.`"
+      },
+      {
+        "index": 2,
+        "text": "If it not",
+        "knowledge_ids": [
+          510
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดโครงสร้าง หลัง `if` ต้องตามด้วยประธานและกริยาช่วยในรูปถูกต้อง: `If it were not for...` ไม่ใช่ `If it not for...` ตัวอย่างที่ถูก: `If it were not for your help, ...`"
+      },
+      {
+        "index": 3,
+        "text": "Wasn't it",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิดความหมายและโครงสร้าง `Wasn't it for your help` ไม่ได้สื่อเงื่อนไข เท่ากับกลายเป็นประโยคคำถาม Tag แทน ควรเป็น `Were it not for your help, ...` หรือ `If it were not for your help, ...`"
+      },
+      {
+        "index": 4,
+        "text": "Hadn't it",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Hadn't it for...` ไม่ใช่โครงสร้างเงื่อนไขที่ใช้ได้ หากจะพูดถึงอดีตควรใช้ `Had it not been for ...` เช่น `Had it not been for your help, ...`"
+      }
+    ]
+  },
+  {
+    "question": "___ for the heavy traffic, I would have arrived earlier.",
+    "question_knowledge_ids": [
+      499,
+      485
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Had it not been",
+        "knowledge_ids": [
+          499
+        ],
+        "is_correct": true,
+        "answer_description": "ใช่เลย นี่คือรูป **inversion** สำหรับอดีต: __Had + subject + not + been + for + noun__ เทียบกับ `If it had not been for ...`. ตัวอย่าง: `Had it not been for the heavy traffic, I would have arrived earlier.` อีกตัวอย่าง: `Had it not been for her advice, I would have failed.`"
+      },
+      {
+        "index": 2,
+        "text": "Were it not",
+        "knowledge_ids": [
+          482
+        ],
+        "is_correct": false,
+        "answer_description": "ใกล้เคียงแต่ใช้ผิดกาล `Were it not for...` ใช้กับสถานการณ์ปัจจุบัน/ทั่วไป ไม่ใช่อดีต ถ้าจะพูดถึงอดีตต้องเป็น `Had it not been for...` เช่น `Had it not been for the rain yesterday, ...`"
+      },
+      {
+        "index": 3,
+        "text": "If not was",
+        "knowledge_ids": [
+          510
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปอย่างชัดเจน เพราะควรเป็น `If it had not been for...` สำหรับอดีต ไม่ใช่ `If not was`. โครงสร้างที่ถูก: `If it had not been for the heavy traffic, ...` หรือแบบกลับคำ `Had it not been for ...`"
+      },
+      {
+        "index": 4,
+        "text": "If it didn't",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิดกาลและโครงสร้าง เงื่อนไขอดีต (ที่ไม่จริง) ต้องใช้ **past perfect**: `If it had not been for...` ไม่ใช่ `If it didn't...`. ตัวอย่างที่ถูก: `If it had not been for the traffic, I would have arrived earlier.`"
+      }
+    ]
+  },
+  {
+    "question": "___, we'll leave early to avoid the crowd.",
+    "question_knowledge_ids": [
+      481
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Time permitting",
+        "knowledge_ids": [
+          481
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง นี่คือ **reduced conditional** แบบวลี: __Noun + V-ing__ เพื่อย่อจาก `If time permits`. ตัวอย่าง: `Time permitting, we'll leave early to avoid the crowd.` ใช้ได้กับคำนามอื่นด้วย เช่น `Weather permitting, the game will continue.`"
+      },
+      {
+        "index": 2,
+        "text": "If time permitting",
+        "knowledge_ids": [
+          510
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะซ้ำโครงสร้าง วลี `Noun + V-ing` เป็นรูปย่อที่ไม่ต้องใช้ `if` แล้ว ถ้าจะใช้ `if` ต้องเป็น `If time permits, ...` ไม่ใช่ `If time permitting, ...`"
+      },
+      {
+        "index": 3,
+        "text": "Permitting time",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิดลำดับคำ รูปที่เป็นธรรมชาติคือ `Time permitting, ...` ไม่ใช่ `Permitting time, ...` โครงสร้างที่ถูกต้องคือ **คำนาม + V-ing**"
+      },
+      {
+        "index": 4,
+        "text": "Time permitted",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะกลายเป็นอดีตกริยา `permitted` ซึ่งไม่ใช่รูปวลีลดรูปของเงื่อนไข รูปที่ถูกคือ `Time permitting` (ปัจจุบัน V-ing) หรือแบบเต็ม `If time permits, ...`"
+      }
+    ]
+  },
+  {
+    "question": "___ that we had more time, we could finish the project.",
+    "question_knowledge_ids": [
+      488,
+      481
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Given",
+        "knowledge_ids": [
+          481
+        ],
+        "is_correct": true,
+        "answer_description": "ดีมาก! นี่คือ **reduced form** ของเงื่อนไข โดยใช้ __Given (that) + clause__ แทน `If we had...`. ตัวอย่าง: `Given that we had more time, we could finish the project.` ใช้กับบริบทอื่นได้ เช่น `Given that he is new, he did well.`"
+      },
+      {
+        "index": 2,
+        "text": "If",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะกับช่องว่างนี้ เพราะหลังช่องว่างมี `that` อยู่แล้ว `If that we had...` จึงผิดธรรมชาติ ถ้าจะใช้ `if` ต้องเขียนใหม่เป็น `If we had more time, ...`"
+      },
+      {
+        "index": 3,
+        "text": "Provided",
+        "knowledge_ids": [
+          488
+        ],
+        "is_correct": false,
+        "answer_description": "เกือบได้ แต่ `Provided that we had more time` มักสื่อเงื่อนไขเป็นจริง/คาดหวัง มากกว่าแบบเสมือนจริงในอดีต ถ้าจะใช้ให้ชัดกับอดีตสมมุติ ควรใช้ `If we had had...` หรือรูปย่อ `Given that...` ในประโยคนี้ตั้งใจให้เป็นวลีลดรูป `Given (that)`"
+      },
+      {
+        "index": 4,
+        "text": "Unless",
+        "knowledge_ids": [
+          486
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย เพราะ `unless` หมายถึง 'เว้นเสียแต่ว่า' ซึ่งเป็นเงื่อนไขเชิงลบ ไม่ตรงกับความหมายที่ต้องการ เช่น `Unless we had more time, ...` จะสื่อกลับด้านจากที่ต้องการ"
+      }
+    ]
+  },
+  {
+    "question": "___, the event will go ahead as planned.",
+    "question_knowledge_ids": [
+      481
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Weather permitting",
+        "knowledge_ids": [
+          481
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้องจ้า นี่คือวลี **reduced conditional** รูป __Noun + V-ing__ ที่ย่อมาจาก `If the weather permits`. ตัวอย่าง: `Weather permitting, the event will go ahead as planned.` ใช้กับคำนามอื่นได้ เช่น `No one objecting, we proceeded.`"
+      },
+      {
+        "index": 2,
+        "text": "If weather permitting",
+        "knowledge_ids": [
+          510
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็นการใช้ซ้ำซ้อน รูป `Noun + V-ing` เป็นรูปย่อที่ไม่ต้องมี `if` แล้ว ถ้าจะใช้ `if` ต้องเป็น `If the weather permits, ...`"
+      },
+      {
+        "index": 3,
+        "text": "Weather permitted",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิดรูปกริยา เพราะ `permitted` เป็นอดีตกริยา ไม่ใช่รูปวลีลดรูปที่ใช้ `V-ing` ที่ถูกคือ `Weather permitting, ...` หรือแบบเต็ม `If the weather permits, ...`"
+      },
+      {
+        "index": 4,
+        "text": "If weather allows",
+        "knowledge_ids": [
+          495
+        ],
+        "is_correct": false,
+        "answer_description": "แม้ความหมายพอได้ แต่รูปประโยคนี้ต้องการวลีลดรูป ไม่ใช่ `if`-clause แบบเต็ม ถ้าจะใช้แบบเต็มต้องเปลี่ยนทั้งประโยคเป็น `If the weather allows, the event will go ahead as planned.`"
+      }
+    ]
+  },
+  {
+    "question": "Had I seen him, I ___ hello.",
+    "question_knowledge_ids": [
+      433,
+      280
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "would have said",
+        "knowledge_ids": [
+          433
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตรงกับเงื่อนไขที่ 3: __If/Had + S + had + V3__, ผลลัพธ์ใช้ __would have + V3__. ตัวอย่าง: `Had I seen him, I would have said hello.` หรือ `If I had seen him, I would have said hello.` ใช้พูดถึงอดีตที่ไม่ได้เกิดขึ้นจริง"
+      },
+      {
+        "index": 2,
+        "text": "will say",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะผลลัพธ์ของเงื่อนไขที่ 3 ต้องใช้ `would have + V3` ไม่ใช่อนาคตธรรมดา `will + V1`. ตัวอย่างที่ถูก: `... I would have said hello.`"
+      },
+      {
+        "index": 3,
+        "text": "would say",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ยังไม่พอ เพราะ `would say` ใช้กับเงื่อนไขที่ 2 (ปัจจุบันไม่จริง) แต่ประโยคนี้เป็นอดีตที่ไม่เกิดขึ้น ต้องใช้ `would have + V3` เช่น `would have said`"
+      },
+      {
+        "index": 4,
+        "text": "had said",
+        "knowledge_ids": [
+          280
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็นรูป past perfect ในส่วนผลลัพธ์ ซึ่งไม่ใช่โครงสร้างที่ถูก ต้องใช้ past perfect ในส่วนเงื่อนไข และ `would have + V3` ในส่วนผลลัพธ์ เช่น `Had I seen him, I would have said hello.`"
+      }
+    ]
+  },
+  {
+    "question": "___ there be any changes, we will notify you immediately.",
+    "question_knowledge_ids": [
+      500,
+      481
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Should",
+        "knowledge_ids": [
+          500
+        ],
+        "is_correct": true,
+        "answer_description": "เยี่ยมมาก! นี่คือ **inversion** แบบสุภาพ: __Should + there + base verb__, เท่ากับ `If there should be...`. ตัวอย่าง: `Should there be any changes, we will notify you immediately.` ใช้ได้กับงานทางการ/ประกาศ เช่น `Should there be delays, we'll inform you.`"
+      },
+      {
+        "index": 2,
+        "text": "If should",
+        "knowledge_ids": [
+          510
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดตำแหน่ง `should` ถ้าจะใช้ `if` ต้องเป็น `If there should be any changes, ...` หรือไม่ใช้ `if` แล้วกลับคำเป็น `Should there be any changes, ...`"
+      },
+      {
+        "index": 3,
+        "text": "Were",
+        "knowledge_ids": [
+          482
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดชนิดกริยา เพราะ `were there be` ไม่ใช่รูปที่ถูก ถ้าจะใช้ `were` กับโครงสร้างนี้ไม่ได้ ต้องใช้ `Should there be...` หรือ `If there is/are...`"
+      },
+      {
+        "index": 4,
+        "text": "Had",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิดกาลและโครงสร้าง `Had there be` ไม่ถูก ต้องเป็น `Had there been` ถ้าเป็นอดีต แต่ในประโยคนี้เราพูดถึงอนาคต/ความเป็นไปได้ จึงต้องใช้ `Should there be...`"
+      }
+    ]
+  },
+  {
+    "question": "___ you have any questions, feel free to contact me.",
+    "question_knowledge_ids": [
+      481,
+      486,
+      489,
+      499,
+      500,
+      502
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Should",
+        "knowledge_ids": [
+          481,
+          489
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูป **inversion** สุภาพ: __Should + subject + base verb__ แทน `If you should have...`. ตัวอย่าง: `Should you have any questions, feel free to contact me.` ใช้ในอีเมลหรือประกาศเพื่อความสุภาพ เช่น `Should you need further information, let us know.`"
+      },
+      {
+        "index": 2,
+        "text": "If should",
+        "knowledge_ids": [
+          510
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดตำแหน่ง `should` ถ้าจะใช้ `if` ต้องเป็น `If you should have any questions, ...` หรือใช้รูปกลับคำ `Should you have any questions, ...` โดยไม่ต้องใช้ `if`"
+      },
+      {
+        "index": 3,
+        "text": "Having",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย วลี `Having questions` ไม่ได้ทำหน้าที่เป็นเงื่อนไขสุภาพเหมือน `Should you have...` ถ้าจะใช้วลีลดรูปให้ชัดเจนควรเป็น `If you have...` หรือ `Should you have...`"
+      },
+      {
+        "index": 4,
+        "text": "Were",
+        "knowledge_ids": [
+          482,
+          499
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดประเภทของกริยาช่วย `Were you have` ไม่ถูกต้อง หากจะใช้ `were` ต้องใช้กับ `be` เช่น `Were I you, ...` แต่ประโยคนี้ต้องการโครงสร้างสุภาพ `Should you have...`"
+      }
+    ]
+  }
+]

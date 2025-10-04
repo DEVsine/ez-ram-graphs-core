@@ -1,0 +1,493 @@
+[
+  {
+    "question": "Is this ___ umbrella?",
+    "question_knowledge_ids": [
+      535
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "your",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้องจ้า ใช้ **possessive determiner** ตามแพตเทิร์น `possessive determiner + noun` ใส่หน้า `umbrella` ได้พอดี เช่น: `Is this your umbrella?` นี่คือการบอกความเป็นเจ้าของแบบสั้น ชัดเจน."
+      },
+      {
+        "index": 2,
+        "text": "you",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดนะ เพราะ `you` เป็น **pronoun** (สรรพนาม) ไม่ใช่ **possessive determiner** จึงวางหน้า `umbrella` โดยตรงไม่ได้ เช่น `Is this you umbrella?` ผิด ต้องใช้ `your umbrella`."
+      },
+      {
+        "index": 3,
+        "text": "yours",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`yours` คือ **possessive pronoun** ใช้ยืนเดี่ยวแทนนาม เช่น `Is this yours?` แต่ถ้าจะวางหน้า **นาม** ต้องใช้รูป determiner คือ `your` ดังนั้น `your umbrella` จึงถูกกว่า."
+      },
+      {
+        "index": 4,
+        "text": "you're",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะ `you're` = `you are` เป็นรูปย่อของกริยา ไม่ใช่ตัวบอกความเป็นเจ้าของ ตัวอย่างที่ผิด: `Is this you're umbrella?` ต้องเป็น `your umbrella` เท่านั้น."
+      }
+    ]
+  },
+  {
+    "question": "I can't find ___ keys.",
+    "question_knowledge_ids": [
+      193,
+      535
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "my",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **my** เป็น **possessive determiner** ตามแพตเทิร์น `possessive determiner + noun` เช่น `my keys` ประโยคตัวอย่าง: `I can't find my keys.` ใช้บอกว่าเป็นกุญแจของผู้พูด."
+      },
+      {
+        "index": 2,
+        "text": "mine",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`mine` เป็น **possessive pronoun** ใช้แทนนามและยืนเดี่ยว เช่น `These keys are mine.` แต่ถ้าจะวางหน้า **noun** ต้องใช้ `my` เช่น `my keys`."
+      },
+      {
+        "index": 3,
+        "text": "me",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`me` เป็น **object pronoun** ไม่บอกความเป็นเจ้าของ วางหน้า `keys` ไม่ได้ ตัวอย่างที่ถูกต้องคือ `I can't find my keys.` ไม่ใช่ `me keys`."
+      },
+      {
+        "index": 4,
+        "text": "I'm",
+        "knowledge_ids": [
+          193,
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`I'm` = `I am` เป็นรูปย่อของประธาน+กริยา ไม่ใช่ตัวบอกความเป็นเจ้าของ จึงวางหน้า `keys` ไม่ได้ ต้องใช้ `my keys` ตามแพตเทิร์น `possessive determiner + noun`."
+      }
+    ]
+  },
+  {
+    "question": "Julia is meeting ___ parents tonight.",
+    "question_knowledge_ids": [
+      535
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "her",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะผู้ถูกกล่าวถึงคือ Julia (เพศหญิง) จึงใช้ **her** เป็น **possessive determiner** หน้า `parents` ตามแพตเทิร์น `possessive determiner + noun` เช่น `Julia is meeting her parents tonight.`"
+      },
+      {
+        "index": 2,
+        "text": "hers",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`hers` เป็น **possessive pronoun** ใช้ยืนเดี่ยวแทนนาม เช่น `The parents are hers.` ถ้าวางหน้า **noun** ต้องใช้ `her` เช่น `her parents`."
+      },
+      {
+        "index": 3,
+        "text": "she",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`she` เป็น **subject pronoun** ไม่ใช่ตัวบอกความเป็นเจ้าของ วางหน้า `parents` ไม่ได้ รูปที่ถูกคือ `her parents` ไม่ใช่ `she parents`."
+      },
+      {
+        "index": 4,
+        "text": "their",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "แม้ `their` จะเป็น **possessive determiner** แต่ที่นี่เจ้าของคือ Julia คนเดียว จึงควรใช้ **her** ให้สอดคล้องกับผู้เป็นเจ้าของ เช่น `her parents` ไม่ใช่ `their parents`."
+      }
+    ]
+  },
+  {
+    "question": "The cat is licking ___ paws.",
+    "question_knowledge_ids": [
+      535
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "its",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **its** (ไม่มีอัปสตรอฟี) เป็น **possessive determiner** หน้า `paws` ตามแพตเทิร์น `possessive determiner + noun` ตัวอย่าง: `The cat is licking its paws.`"
+      },
+      {
+        "index": 2,
+        "text": "it's",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`it's` = `it is/it has` ไม่ใช่รูปแสดงความเป็นเจ้าของ จึงวางหน้า `paws` ไม่ได้ ตัวอย่างที่ผิด: `The cat is licking it's paws.` ต้องเป็น `its paws`."
+      },
+      {
+        "index": 3,
+        "text": "their",
+        "knowledge_ids": [
+          558,
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`their` ใช้เมื่อเจ้าของเป็นพหูพจน์หรือไม่ระบุเพศคน แต่ที่นี่เจ้าของคือแมวตัวเดียว ใช้ `its` จะตรงกว่า เช่น `its paws`."
+      },
+      {
+        "index": 4,
+        "text": "her",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "แม้สัตว์บางครั้งใช้ `her/his` ได้ถ้ารู้เพศ แต่รูปกลางที่เป็นมาตรฐานสำหรับสัตว์ทั่วไปคือ `its` ดังนั้น `its paws` จึงเหมาะสมกว่าในบริบททั่วไป."
+      }
+    ]
+  },
+  {
+    "question": "We left ___ bags on the bus.",
+    "question_knowledge_ids": [
+      535
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "our",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **our** เป็น **possessive determiner** หน้า `bags` ตามแพตเทิร์น `possessive determiner + noun` เช่น `We left our bags on the bus.` ชี้ว่าเป็นกระเป๋าของพวกเรา."
+      },
+      {
+        "index": 2,
+        "text": "ours",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`ours` เป็น **possessive pronoun** ใช้ยืนเดี่ยว เช่น `The bags are ours.` ถ้าจะวางหน้า **noun** ต้องใช้ `our` → `our bags`."
+      },
+      {
+        "index": 3,
+        "text": "us",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`us` เป็น **object pronoun** ไม่ใช่ตัวบอกความเป็นเจ้าของ วางหน้า `bags` ไม่ได้ ตัวอย่างที่ถูกต้องคือ `our bags`."
+      },
+      {
+        "index": 4,
+        "text": "we",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`we` เป็น **subject pronoun** ไม่ได้แปลว่า ของพวกเรา ถ้าจะบอกความเป็นเจ้าของต้องใช้ `our` เช่น `our bags` ไม่ใช่ `we bags`."
+      }
+    ]
+  },
+  {
+    "question": "He borrowed ___ brother's bike.",
+    "question_knowledge_ids": [
+      535
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "his",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **his** เป็น **possessive determiner** หน้า `brother's bike` ตามแพตเทิร์น `possessive determiner + (adjective) + noun` เช่น `He borrowed his brother's bike.` บอกว่าจักรยานของพี่/น้องชายเขา."
+      },
+      {
+        "index": 2,
+        "text": "him",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`him` เป็น **object pronoun** ไม่ใช่ตัวบอกความเป็นเจ้าของ จึงวางหน้า `brother's bike` ไม่ได้ ต้องเป็น `his brother's bike`."
+      },
+      {
+        "index": 3,
+        "text": "he",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`he` เป็น **subject pronoun** ใช้เป็นประธาน ไม่สามารถทำหน้าที่นำหน้านามเพื่อบอกความเป็นเจ้าของได้ ต้องใช้ `his` → `his brother's bike`."
+      },
+      {
+        "index": 4,
+        "text": "their",
+        "knowledge_ids": [
+          558,
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`their` ใช้เมื่อเจ้าของเป็นพหูพจน์หรือไม่ระบุเพศ แต่ประธานตรงนี้คือผู้ชายคนเดียว (he) จึงควรใช้ `his` ให้สอดคล้อง เช่น `his brother's bike`."
+      }
+    ]
+  },
+  {
+    "question": "This is ___ car.",
+    "question_knowledge_ids": [
+      535
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "their",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **their** เป็น **possessive determiner** หน้า `car` ตามแพตเทิร์น `possessive determiner + noun` เช่น: `This is their car.` ใช้เมื่อเจ้าของเป็น `they` (มากกว่าหนึ่งคน)."
+      },
+      {
+        "index": 2,
+        "text": "theirs",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`theirs` เป็น **possessive pronoun** ใช้ยืนเดี่ยว เช่น `This car is theirs.` แต่ถ้าวางหน้า **noun** ต้องใช้ `their` → `their car`."
+      },
+      {
+        "index": 3,
+        "text": "they",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`they` เป็น **subject pronoun** ไม่ใช่ตัวบอกความเป็นเจ้าของ จึงวางหน้า `car` ไม่ได้ ตัวอย่างที่ถูกต้องคือ `their car`."
+      },
+      {
+        "index": 4,
+        "text": "they're",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`they're` = `they are` เป็นรูปย่อของประธาน+กริยา ไม่ใช่ possessive determiner ดังนั้น `they're car` จึงผิด ต้องใช้ `their car`."
+      }
+    ]
+  },
+  {
+    "question": "This is not ___ seat; it's reserved.",
+    "question_knowledge_ids": [
+      535
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "your",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **your** หน้า `seat` ตามแพตเทิร์น `possessive determiner + noun` เช่น: `This is not your seat.` ใช้บอกว่าเก้าอี้นี้ไม่ใช่ของคุณ."
+      },
+      {
+        "index": 2,
+        "text": "yours",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`yours` เป็น **possessive pronoun** ใช้ยืนเดี่ยว เช่น `This seat is not yours.` แต่ถ้าวางหน้า **noun** ต้องใช้ `your` → `your seat`."
+      },
+      {
+        "index": 3,
+        "text": "you",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`you` เป็นสรรพนาม ไม่บอกความเป็นเจ้าของ จึงใช้หน้า `seat` ไม่ได้ ตัวอย่างที่ถูกคือ `your seat` ไม่ใช่ `you seat`."
+      },
+      {
+        "index": 4,
+        "text": "you're",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`you're` = `you are` เป็นรูปย่อของกริยา ไม่ใช่ตัวบอกความเป็นเจ้าของ ดังนั้นรูปที่ถูกต้องคือ `your seat`."
+      }
+    ]
+  },
+  {
+    "question": "I like ___ new idea.",
+    "question_knowledge_ids": [
+      535
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "her",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **her** เป็น **possessive determiner** หน้า `new idea` ตามแพตเทิร์น `possessive determiner + adjective + noun` เช่น: `I like her new idea.` ชี้ว่าเป็นไอเดียใหม่ของผู้หญิงคนนั้น."
+      },
+      {
+        "index": 2,
+        "text": "hers",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`hers` เป็น **possessive pronoun** ใช้ยืนเดี่ยว เช่น `The new idea is hers.` แต่ถ้าวางหน้า **noun** ต้องใช้ `her` → `her new idea`."
+      },
+      {
+        "index": 3,
+        "text": "she",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`she` เป็นประธาน ไม่บอกความเป็นเจ้าของ วางหน้า `new idea` ไม่ได้ ตัวอย่างที่ถูกคือ `her new idea`."
+      },
+      {
+        "index": 4,
+        "text": "she's",
+        "knowledge_ids": [
+          352,
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`she's` = `she is/has` เป็นรูปย่อของกริยา ไม่ใช่ possessive determiner ดังนั้นต้องใช้ `her new idea` เท่านั้น."
+      }
+    ]
+  },
+  {
+    "question": "You should wash ___ hands before eating.",
+    "question_knowledge_ids": [
+      535
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "your",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **your** เป็น **possessive determiner** หน้า `hands` ตามแพตเทิร์น `possessive determiner + noun` เช่น `You should wash your hands before eating.` ใช้บอกความเป็นเจ้าของในบริบททั่วไป."
+      },
+      {
+        "index": 2,
+        "text": "yours",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`yours` เป็น **possessive pronoun** ใช้ยืนเดี่ยว เช่น `These hands are yours` (ตัวอย่างเชิงโครงสร้าง) แต่เมื่อวางหน้า **noun** ต้องใช้ `your` → `your hands`."
+      },
+      {
+        "index": 3,
+        "text": "you",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`you` เป็นสรรพนาม ไม่ใช่ตัวบอกความเป็นเจ้าของ จึงใช้หน้า `hands` ไม่ได้ โครงสร้างที่ถูกคือ `your hands`."
+      },
+      {
+        "index": 4,
+        "text": "you're",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`you're` = `you are` เป็นรูปย่อของกริยา ไม่ใช่ possessive determiner รูปที่ถูกต้องต้องเป็น `your hands` เท่านั้น."
+      }
+    ]
+  },
+  {
+    "question": "Don't ignore ___ advice.",
+    "question_knowledge_ids": [
+      535,
+      559
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "his",
+        "knowledge_ids": [
+          535,
+          559
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **his** เป็น **possessive determiner** หน้า `advice` ตามแพตเทิร์น `possessive determiner + noun` เช่น `Don't ignore his advice.` ชี้ว่าเป็นคำแนะนำของผู้ชายคนนั้น."
+      },
+      {
+        "index": 2,
+        "text": "him",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`him` เป็น **object pronoun** ไม่บอกความเป็นเจ้าของ จึงวางหน้า `advice` ไม่ได้ ต้องใช้ `his advice` ไม่ใช่ `him advice`."
+      },
+      {
+        "index": 3,
+        "text": "he",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`he` เป็น **subject pronoun** ใช้เป็นประธานเท่านั้น ไม่สามารถใช้หน้า **noun** เพื่อบอกความเป็นเจ้าของได้ รูปที่ถูกคือ `his advice`."
+      },
+      {
+        "index": 4,
+        "text": "he's",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`he's` = `he is/has` เป็นรูปย่อของกริยา ไม่ใช่ possessive determiner ดังนั้นต้องใช้ `his advice` ตามแพตเทิร์น `possessive determiner + noun`."
+      }
+    ]
+  }
+]

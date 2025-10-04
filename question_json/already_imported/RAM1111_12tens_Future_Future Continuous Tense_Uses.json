@@ -1,0 +1,292 @@
+[
+  {
+    "question": "At 8 p.m. tomorrow, I ___ my homework.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be doing",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะพูดถึงกิจกรรมที่กำลังดำเนินอยู่ในเวลาเฉพาะในอนาคต ใช้รูป __will be + V-ing__ เช่น `At 8 p.m. tomorrow, I will be doing my homework.` ตัวอย่างใช้จริง: `At this time next week, she will be taking an exam.`"
+      },
+      {
+        "index": 2,
+        "text": "will do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **will + V1** เน้นการกระทำแบบครบถ้วนในอนาคต ไม่เน้นว่ากำลังทำอยู่ ณ เวลานั้น เช่น `I will do my homework tomorrow` (ทำให้เสร็จในวันพรุ่งนี้) แต่โจทย์ต้องการภาพ “กำลังทำอยู่เวลา 8 โมง” จึงควรใช้ `will be doing`."
+      },
+      {
+        "index": 3,
+        "text": "am doing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **present continuous** ใช้กับตอนนี้หรือแผนที่ตกลงแล้วใกล้ ๆ ไม่ได้ชี้ว่ากำลังเกิดขึ้นในเวลาเฉพาะของอนาคตแบบชัดเจน เช่น `I am doing my homework now.` สำหรับอนาคตเวลาเฉพาะต้องใช้ `will be doing`."
+      },
+      {
+        "index": 4,
+        "text": "will have done",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **future perfect** (`will have + V3`) เน้นผลว่าเสร็จสิ้นก่อนเวลาในอนาคต เช่น `By 8 p.m., I will have done my homework.` แต่โจทย์ต้องการภาพ “กำลังทำอยู่ตอน 8 โมง” ไม่ใช่ “ทำเสร็จแล้ว”."
+      }
+    ]
+  },
+  {
+    "question": "This time next week, they ___ across Europe by train.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be traveling",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะสื่อถึง **เหตุการณ์กำลังดำเนินอยู่ ณ เวลาเฉพาะในอนาคต** ใช้ __will be + V-ing__. ตัวอย่าง: `This time next week, they will be traveling across Europe by train.` และ `At noon tomorrow, I will be flying to Bangkok.`"
+      },
+      {
+        "index": 2,
+        "text": "are traveling",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **are traveling** คือ present continuous ใช้กับตอนนี้หรือแผนที่ใกล้มาก ๆ แต่ประโยคมีตัวบ่งชี้เวลา “this time next week” ต้องการรูปอนาคตกำลังกระทำ คือ `will be traveling`."
+      },
+      {
+        "index": 3,
+        "text": "will travel",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **will + V1** บอกอนาคตทั่วไป ไม่โฟกัสว่า “กำลังทำอยู่” ณ เวลานั้น เช่น `They will travel next week.` แต่ถ้าอยากเน้นภาพขณะเดินทางอยู่ ต้องใช้ `will be traveling`."
+      },
+      {
+        "index": 4,
+        "text": "will have traveled",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **future perfect** ใช้เน้นว่าทำเสร็จก่อนเวลาหนึ่งในอนาคต เช่น `By next week, they will have traveled across Europe.` ซึ่งไม่ตรงกับโจทย์ที่เน้น “กำลังเดินทางอยู่ตอนนั้น”."
+      }
+    ]
+  },
+  {
+    "question": "Don't call at 10 a.m.; I ___ a meeting then.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be having",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะต้องการสื่อว่า “ในเวลา 10 โมงกำลังประชุมอยู่” จึงใช้ __will be + V-ing__. ตัวอย่างใช้: `Don't disturb her at noon; she will be teaching.` และ `At 10 a.m., I will be having a meeting.`"
+      },
+      {
+        "index": 2,
+        "text": "will have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `will have` เป็นอนาคตทั่วไป ไม่เน้นความต่อเนื่อง เช่น `I will have a meeting tomorrow.` แต่ที่โจทย์ต้องการคือภาพช่วงเวลาที่กำลังดำเนินอยู่ จึงควรเป็น `will be having`."
+      },
+      {
+        "index": 3,
+        "text": "am having",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นปัจจุบันต่อเนื่อง ใช้กับตอนนี้ เช่น `I am having a meeting now.` แต่ประโยคมีเวลาอนาคตชัดเจน (10 a.m. ในอนาคต) ควรใช้ `will be having` เพื่อเน้นกำลังเกิดขึ้นในเวลานั้น."
+      },
+      {
+        "index": 4,
+        "text": "will have had",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **future perfect** (`will have had`) เน้นว่า “ได้มีประชุมเสร็จไปแล้วก่อน 10 โมง” เช่น `By 10 a.m., I will have had a meeting.` ซึ่งไม่ตรงกับการห้ามโทรเพราะกำลังประชุมอยู่."
+      }
+    ]
+  },
+  {
+    "question": "At midnight, she ___ at the hospital.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be working",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เน้นเหตุการณ์ที่กำลังเกิดขึ้นในเวลาอนาคตเฉพาะ (เที่ยงคืน) ใช้ __will be + V-ing__. เช่น `At midnight, she will be working at the hospital.` และ `At 6 p.m., he will be cooking dinner.`"
+      },
+      {
+        "index": 2,
+        "text": "will work",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `will work` แค่บอกว่าจะทำงาน ไม่เน้นว่ากำลังทำอยู่ ณ ช่วงเวลานั้น เช่น `She will work tomorrow.` แต่โจทย์ต้องการภาพกำลังทำงานตอนเที่ยงคืน ซึ่งควรใช้ `will be working`."
+      },
+      {
+        "index": 3,
+        "text": "is working",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `is working` ใช้กับตอนนี้หรือกำหนดการใกล้ ๆ แต่ประโยคต้องการชี้ภาพตอน “เที่ยงคืนในอนาคต” จึงต้องใช้ `will be working` เพื่อเน้นความต่อเนื่องในอนาคต."
+      },
+      {
+        "index": 4,
+        "text": "will have worked",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `will have worked` เน้นเสร็จสิ้นก่อนเวลาหนึ่งในอนาคต (future perfect) เช่น `By midnight, she will have worked for 12 hours.` ไม่ตรงกับโจทย์ที่เน้นกำลังทำงานอยู่ตอนเที่ยงคืน."
+      }
+    ]
+  },
+  {
+    "question": "When you arrive at 7, we ___ dinner.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be having",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __will be + V-ing__ เพื่อบอกว่าตอนที่อีกฝ่ายมาถึง (เวลาอนาคต) เราจะกำลังกินข้าวอยู่ เช่น `When you arrive at 7, we will be having dinner.` ใช้ได้ดีเวลาพูดถึงเหตุการณ์ที่กำลังดำเนินอยู่ซ้อนกับอีกเหตุการณ์ในอนาคต."
+      },
+      {
+        "index": 2,
+        "text": "will have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `will have dinner` บอกแผนอนาคตทั่วไป ไม่โฟกัสช่วงเวลาที่กำลังกินอยู่ เช่น `We will have dinner at 7.` แต่โจทย์ต้องการภาพขณะกำลังกินตอนที่อีกฝ่ายมาถึง."
+      },
+      {
+        "index": 3,
+        "text": "are having",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นปัจจุบันต่อเนื่อง ซึ่งไม่สื่อเวลาอนาคตชัด ๆ ในกรณีนี้ เช่น `We are having dinner now.` สำหรับเหตุการณ์กำลังเกิดขึ้นในอนาคตควรใช้ `will be having`."
+      },
+      {
+        "index": 4,
+        "text": "will have had",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **future perfect** แปลว่า “จะกินเสร็จไปแล้วก่อน 7 โมง” เช่น `By 7, we will have had dinner.` ซึ่งไม่ตรงกับความหมาย “กำลังกินอยู่ตอน 7 โมง”."
+      }
+    ]
+  },
+  {
+    "question": "By this time tomorrow, I ___ on the beach.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be relaxing",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคสื่อสภาพที่กำลังดำเนินอยู่ในเวลาหนึ่งของอนาคต ใช้ __will be + V-ing__. ตัวอย่าง: `By this time tomorrow, I will be relaxing on the beach.` หรือ `This time next month, he will be studying abroad.`"
+      },
+      {
+        "index": 2,
+        "text": "will relax",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `will relax` เป็นอนาคตทั่วไป ไม่เน้นความต่อเนื่อง เช่น `I will relax tomorrow.` แต่โจทย์ต้องการภาพว่ากำลังนอนชิลอยู่ ณ เวลานั้น จึงต้องใช้ `will be relaxing`."
+      },
+      {
+        "index": 3,
+        "text": "am relaxing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปปัจจุบันต่อเนื่อง ใช้กับตอนนี้ เช่น `I am relaxing now.` ไม่ได้บอกภาพในอนาคตที่แน่ชัดเหมือน `will be relaxing`."
+      },
+      {
+        "index": 4,
+        "text": "will have relaxed",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **future perfect** เน้นเสร็จสิ้นก่อนเวลา เช่น `By this time tomorrow, I will have relaxed.` ซึ่งไม่สื่อว่ากำลังพักผ่อนอยู่ตอนนั้น."
+      }
+    ]
+  },
+  {
+    "question": "___ you ___ us for dinner at 7 tonight?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Will you be joining",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปคำถามแบบสุภาพเกี่ยวกับแผน/กิจกรรมที่คาดว่าจะเกิดขึ้น ใช้ __will + subject + be + V-ing__ เช่น `Will you be joining us for dinner at 7 tonight?` ใช้บ่อยเพื่อถามอย่างสุภาพว่าอีกฝ่ายมีแผนเข้าร่วมไหม."
+      },
+      {
+        "index": 2,
+        "text": "Will you join",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทความสุภาพ เพราะ `Will you join` ตรงเกินไปและเน้นการตัดสินใจตอนนี้ มากกว่าถามถึงแผนที่คาดว่าจะเกิดขึ้น เช่น `Will you join us?` ใช้ได้แต่โทนน้อยสุภาพกว่า `Will you be joining ...?`."
+      },
+      {
+        "index": 3,
+        "text": "Are you joining",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น present continuous ซึ่งแม้บางครั้งใช้ถามแผนได้ แต่โจทย์เน้นรูปแบบ **Future Continuous** เพื่อความสุภาพและคาดการณ์กิจกรรม เช่นควรเป็น `Will you be joining us ...?` ไม่ใช่ `Are you joining ...?`."
+      },
+      {
+        "index": 4,
+        "text": "Do you join",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Do you join` เป็น present simple ใช้กับนิสัย/ความจริงทั่วไป เช่น `Do you join the club every week?` ไม่สื่อการเชิญหรือถามแผนสำหรับเย็นนี้."
+      }
+    ]
+  },
+  {
+    "question": "At 9 tomorrow morning, the team ___ their weekly briefing.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be holding",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __will be + V-ing__ เพื่อบอกว่ากิจกรรมจะกำลังเกิดขึ้นเวลา 9 โมง เช่น `the team will be holding their weekly briefing.` ใช้เมื่อต้องการเน้น “กำลังดำเนินอยู่” ในอนาคต."
+      },
+      {
+        "index": 2,
+        "text": "will hold",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `will hold` เป็นอนาคตทั่วไป ไม่ชี้ภาพช่วงเวลาในอนาคตว่า “กำลังประชุมอยู่” เช่น `The team will hold a briefing tomorrow.` ไม่เท่ากับ `will be holding` ที่เน้นความต่อเนื่อง."
+      },
+      {
+        "index": 3,
+        "text": "are holding",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปปัจจุบันต่อเนื่อง ใช้กับตอนนี้หรือแผนที่จัดไว้ใกล้ ๆ แต่โจทย์ต้องการเน้นรูป **Future Continuous** เพื่อสถานะกำลังเกิดขึ้นในเวลาอนาคตที่ระบุ."
+      },
+      {
+        "index": 4,
+        "text": "will have held",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **future perfect** แปลว่า “จะได้จัดเสร็จแล้วก่อน 9 โมง” เช่น `By 9, the team will have held the briefing.` ซึ่งต่างจากภาพ “กำลังประชุมอยู่ตอน 9 โมง”."
+      }
+    ]
+  },
+  {
+    "question": "Don't come too late; the speaker ___ by then.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be speaking",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง แปลว่า “อย่ามาสายเกินไป ตอนนั้นผู้บรรยายจะกำลังพูดอยู่แล้ว” ใช้ __will be + V-ing__ เพื่อเน้นเหตุการณ์กำลังดำเนินในอนาคต เช่น `the speaker will be speaking by then.`"
+      },
+      {
+        "index": 2,
+        "text": "will speak",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `will speak` บอกอนาคตแบบข้อเท็จจริงเฉย ๆ เช่น `The speaker will speak at 7.` แต่ประโยคนี้ต้องการเตือนว่าตอนนั้น “กำลังพูดอยู่แล้ว” จึงใช้ `will be speaking`."
+      },
+      {
+        "index": 3,
+        "text": "is speaking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นปัจจุบันต่อเนื่อง สื่อว่ากำลังพูดตอนนี้ เช่น `The speaker is speaking now.` ไม่สอดคล้องกับ `by then` ซึ่งชี้เวลาในอนาคต."
+      },
+      {
+        "index": 4,
+        "text": "will have spoken",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `will have spoken` หมายถึง “พูดเสร็จไปแล้วก่อนเวลานั้น” เช่น `By then, the speaker will have spoken.` ซึ่งความหมายต่างจากโจทย์ที่ต้องการสื่อว่า “กำลังพูดอยู่ตอนนั้น”."
+      }
+    ]
+  },
+  {
+    "question": "At 6 p.m., I ___ on the train home while you are finishing work.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be sitting",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีเหตุการณ์คู่ขนานในอนาคต (ฉันกำลังนั่งรถไฟ ในขณะที่คุณกำลังเลิกงาน) ใช้ __will be + V-ing__ เพื่อเน้นความต่อเนื่องพร้อมกัน เช่น `At 6 p.m., I will be sitting on the train home while you are finishing work.`"
+      },
+      {
+        "index": 2,
+        "text": "will sit",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `will sit` ไม่เน้นความต่อเนื่อง จึงไม่สื่อภาพ “กำลังนั่งอยู่ตอน 6 โมง” ควรใช้ `will be sitting` เพื่อให้เห็นเหตุการณ์ที่กำลังเกิดขึ้นพร้อม ๆ กัน."
+      },
+      {
+        "index": 3,
+        "text": "am sitting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นปัจจุบันต่อเนื่อง ใช้กับตอนนี้ เช่น `I am sitting on the train now.` แต่โจทย์ระบุเวลาในอนาคตชัดเจน (6 p.m.) จึงต้องใช้ `will be sitting`."
+      },
+      {
+        "index": 4,
+        "text": "will have sat",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **future perfect** บอกว่า “นั่งเสร็จแล้วก่อน 6 โมง” เช่น `By 6 p.m., I will have sat on the train.` ไม่ตรงกับโจทย์ที่ต้องการภาพกำลังนั่งตอน 6 โมง."
+      }
+    ]
+  }
+]

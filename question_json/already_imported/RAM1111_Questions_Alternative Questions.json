@@ -1,0 +1,321 @@
+[
+  {
+    "question": "__ you want tea or coffee?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคคำถามแบบเลือก (**Alternative Question**) ที่ใช้กริยาหลักไม่ใช่ be ต้องขึ้นต้นด้วย **Do/Does** แล้วตามด้วยประธานและกริยาช่องพื้นฐาน พร้อมตัวเลือกเชื่อมด้วย **or**. โครงสร้างคือ __Do + subject + base verb + ... or ...?__ เช่น `Do you want tea or coffee?` ใช้ถามเลือกได้ชัดเจน."
+      },
+      {
+        "index": 2,
+        "text": "Are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Are** ใช้กับกริยา **be** เช่น `Are you hungry or full?` แต่ในประโยคนี้กริยาหลักคือ **want** ไม่ใช่ be. ต้องใช้ `Do you want ... or ...?` แทน."
+      },
+      {
+        "index": 3,
+        "text": "Did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Did** ใช้กับอดีต (Past Simple) แต่ประโยคนี้เป็นการถามทั่วไปในปัจจุบัน. ตัวอย่างที่ถูกในอดีตคือ `Did you want tea or coffee yesterday?` แต่ที่นี่ควรใช้ `Do`."
+      },
+      {
+        "index": 4,
+        "text": "Have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Have** ใช้เปิดคำถามกับ Present Perfect เช่น `Have you finished or not?` ซึ่งไม่ตรงกับกริยา **want** ใน Present Simple. รูปที่ถูกคือ `Do you want tea or coffee?`"
+      }
+    ]
+  },
+  {
+    "question": "Is she coming by bus __ by train?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "or",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคคำถามแบบทางเลือกต้องเชื่อมตัวเลือกด้วย **or** เพื่อให้ผู้ตอบเลือกอย่างใดอย่างหนึ่ง. รูปแบบคือ __Auxiliary/Be + subject + verb ... or ...?__ เช่น `Is she coming by bus or by train?` หรือ `Are you eating here or taking away?`"
+      },
+      {
+        "index": 2,
+        "text": "and",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **and** หมายถึง “และ” ไม่ใช่การให้เลือกหนึ่งในสอง. ใช้ `and` จะสื่อว่า “ทั้งสองอย่าง” แทน เช่น `She is coming by bus and by train` ซึ่งไม่สมเหตุสมผล."
+      },
+      {
+        "index": 3,
+        "text": "nor",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **nor** ใช้กับโครงสร้างปฏิเสธคู่ เช่น `neither A nor B`. ที่นี่เป็นคำถามเลือกธรรมดา ควรใช้ `or` ไม่ใช่ `nor`."
+      },
+      {
+        "index": 4,
+        "text": "and/or",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **and/or** ใช้ในงานเขียนทางการเพื่อเปิดโอกาสทั้งสอง ไม่ใช่รูปคำถามทางเลือกชัดเจน. ในคำถามแบบเลือกหนึ่งในสองควรใช้ `or` ตรงๆ เช่น `by bus or by train?`"
+      }
+    ]
+  },
+  {
+    "question": "__ she a designer or an architect?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกริยาเป็น **be (is)** ต้องสลับหน้าหลังขึ้นต้นด้วย **Is** แล้วตามด้วยประธาน. โครงสร้างคือ __Is/Are + subject + complement ... or ...?__ เช่น `Is she a designer or an architect?` หรือ `Are they students or teachers?`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Does** ใช้กับกริยาหลักทั่วไป ไม่ใช้กับ **be**. ถ้าเป็นกริยาทั่วไปจะเป็น `Does she work as a designer or an architect?` แต่ประโยคนี้ต้องใช้ `Is`."
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Are** ใช้กับพหูพจน์หรือ you/they/we. ประธานคือ **she** (เอกพจน์) จึงต้องใช้ `Is she ...?` ไม่ใช่ `Are she ...?`"
+      },
+      {
+        "index": 4,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do** ก็ใช้กับกริยาทั่วไปเช่นกัน ไม่ใช้กับ **be**. รูปที่ถูกคือ `Is she a designer or an architect?`"
+      }
+    ]
+  },
+  {
+    "question": "Would you prefer to stay in __ go out?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "or",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำถามแบบเลือกต้องใช้ **or** เพื่อให้ผู้ฟังเลือกหนึ่งในสอง. โครงสร้างคือ __Modal + subject + base verb ... or base verb ...?__ เช่น `Would you prefer to stay in or go out?` และ `Should I call you or text you?`"
+      },
+      {
+        "index": 2,
+        "text": "and",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **and** แปลว่า “และ” ทำให้ฟังเหมือนอยากทำทั้งสองอย่างพร้อมกัน. คำถามแบบเลือกหนึ่งในสองต้องใช้ `or` เช่น `... stay in or go out?`"
+      },
+      {
+        "index": 3,
+        "text": "nor",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **nor** ใช้คู่กับ **neither** ในโครงสร้างปฏิเสธ `neither A nor B`. ที่นี่เป็นคำถามเลือกทั่วไป จึงต้องใช้ `or`."
+      },
+      {
+        "index": 4,
+        "text": "but",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **but** แปลว่า “แต่” ใช้แสดงความขัดแย้ง ไม่ใช่การให้เลือก. โครงสร้างที่ถูกต้องต้องมี `or` เช่น `Would you prefer tea or coffee?`"
+      }
+    ]
+  },
+  {
+    "question": "__ they at home or at work right now?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Are",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะใช้กริยา **be** กับประธานพหูพจน์ **they** ต้องขึ้นต้นด้วย **Are** ในประโยคคำถาม. โครงสร้างคือ __Are + subject + place ... or place ...?__ เช่น `Are they at home or at work?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do** ใช้กับกริยาทั่วไป ไม่ใช้กับกริยา **be**. ถ้าจะใช้ `do` ต้องเปลี่ยนกริยา เช่น `Do they work at home or at the office?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** ใช้กับเอกพจน์ (he/she/it) ไม่เข้ากับ **they**. ที่ถูกต้องคือ `Are they ...?`"
+      },
+      {
+        "index": 4,
+        "text": "Have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Have** ใช้ใน Present Perfect เช่น `Have they arrived or not?` แต่ประโยคนี้ถามสถานที่ด้วย **be** จึงไม่ใช่ `Have`."
+      }
+    ]
+  },
+  {
+    "question": "Can we meet on Monday __ Tuesday?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "or",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **or** เพื่อให้ผู้ฟังเลือกวันนัดหมายหนึ่งในสอง. โครงสร้างคือ __Modal (Can) + subject + base verb ... on A or B?__ เช่น `Can we meet on Monday or Tuesday?`"
+      },
+      {
+        "index": 2,
+        "text": "and",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **and** จะหมายถึงทั้งสองวัน ซึ่งไม่ใช่คำถามแบบเลือก. คำถามที่ต้องการให้เลือกควรใช้ `or` เช่น `... Monday or Tuesday?`"
+      },
+      {
+        "index": 3,
+        "text": "nor",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **nor** ใช้ในโครงสร้างปฏิเสธคู่ `neither A nor B`. ตรงนี้เป็นคำถามเชิญชวนให้เลือกวัน ควรใช้ `or`."
+      },
+      {
+        "index": 4,
+        "text": "to",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **to** เป็นบุพบทที่ไม่ใช่ตัวเชื่อมทางเลือก. รูปที่ถูกคือ `on Monday or Tuesday` ไม่ใช่ `on Monday to Tuesday` ในคำถามเลือก."
+      }
+    ]
+  },
+  {
+    "question": "__ you like cats or dogs?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะถามความชอบในปัจจุบันด้วยกริยาทั่วไป ต้องใช้ **Do** นำหน้า. โครงสร้างคือ __Do/Does + subject + base verb ... or ...?__ เช่น `Do you like cats or dogs?` หรือ `Does he prefer tea or coffee?`"
+      },
+      {
+        "index": 2,
+        "text": "Are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Are** ใช้กับกริยา **be** เช่น `Are you happy or sad?` แต่กริยาหลักที่นี่คือ **like** จึงต้องใช้ `Do`."
+      },
+      {
+        "index": 3,
+        "text": "Did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Did** เป็นอดีต ถ้าถามอดีตจะเป็น `Did you like cats or dogs when you were young?` แต่ประโยคนี้ถามปัจจุบัน ควรใช้ `Do`."
+      },
+      {
+        "index": 4,
+        "text": "Have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Have** ใช้กับ Present Perfect ไม่ใช่คำถามความชอบทั่วไป. รูปที่ถูกคือ `Do you like ... or ...?`"
+      }
+    ]
+  },
+  {
+    "question": "__ you going to cook dinner or order takeout?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Are",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะโครงสร้าง **be going to** ต้องใช้กริยา **be** ที่สอดคล้องกับประธาน `you` คือ `are`. รูปแบบคือ __Are + subject + going to + base verb ... or ...?__ เช่น `Are you going to cook dinner or order takeout?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะถ้าใช้ **Do** จะไม่เข้ากับ `going to` ซึ่งต้องใช้กับ **be** (`am/is/are`). ตัวอย่างผิด: `Do you going to...` ควรเป็น `Are you going to...`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** ใช้กับ he/she/it ไม่ตรงกับประธาน `you`. รูปที่ถูกคือ `Are you going to ...?`"
+      },
+      {
+        "index": 4,
+        "text": "Will",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะถ้าจะใช้ **will** ต้องเขียนใหม่ทั้งโครงสร้างเป็น `Will you cook dinner or order takeout?` ไม่ใช่ `Will you going to ...` ซึ่งผิด. สำหรับรูป `going to` ต้องใช้ `are`."
+      }
+    ]
+  },
+  {
+    "question": "__ the movie start at 6 or at 7?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Does",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธานเป็นเอกพจน์ `the movie` และกริยาหลักเป็นกริยาทั่วไป `start` จึงต้องใช้ **Does** ขึ้นต้น. โครงสร้างคือ __Does + singular subject + base verb ... or ...?__ เช่น `Does the movie start at 6 or at 7?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do** ใช้กับประธานพหูพจน์หรือ I/you/we/they. ประธาน `the movie` เป็นเอกพจน์ จึงต้องใช้ `Does`."
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** ใช้กับกริยา **be** แต่ที่นี่ใช้กริยาทั่วไป `start`. รูป `Is the movie start...` ผิด ต้องเป็น `Does the movie start...`"
+      },
+      {
+        "index": 4,
+        "text": "Will",
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูกในบริบทนี้ เพราะโครงสร้างประโยคกำหนดกริยา `start` เป็นปัจจุบันปกติ. ถ้าจะใช้ **will** ต้องเป็น `Will the movie start at 6 or at 7?` ซึ่งเปลี่ยนกาลและความหมาย."
+      }
+    ]
+  },
+  {
+    "question": "__ it rain today or stay sunny?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Will",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะถามการคาดการณ์อนาคตใช้ **will** + base verb. โครงสร้างคือ __Will + subject + base verb ... or base verb ...?__ เช่น `Will it rain today or stay sunny?` หรือ `Will we drive or take the bus?`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Does** ใช้กับปัจจุบันทั่วไป (habit/fact) ไม่ใช่การคาดการณ์สภาพอากาศอนาคต. เช่น `Does it rain on Sundays or Mondays?` จะถามความถี่ ไม่ใช่วันนี้."
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** ต้องตามด้วย V-ing หรือคำคุณศัพท์ เช่น `Is it raining or sunny?` แต่ที่นี่ใช้กริยาฐาน `rain/stay` จึงต้องใช้ `Will`."
+      },
+      {
+        "index": 4,
+        "text": "Did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Did** เป็นอดีตและไม่เข้ากับการคาดการณ์วันนี้. ตัวอย่างอดีตที่ถูกคือ `Did it rain yesterday or stay sunny?`"
+      }
+    ]
+  },
+  {
+    "question": "Has Tom finished the report __ is he still working on it?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "or",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **or** เชื่อมสองทางเลือกที่มีโครงสร้างประโยคครบทั้งสองฝั่ง. รูปแบบคือ __Auxiliary + subject + ... or Auxiliary + subject + ...?__ เช่น `Has Tom finished the report or is he still working on it?`"
+      },
+      {
+        "index": 2,
+        "text": "and",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **and** ทำให้ความหมายเป็น “ทั้งสองอย่าง” ซึ่งขัดแย้งกัน (`finished` กับ `still working`). ในคำถามทางเลือกต้องใช้ `or`."
+      },
+      {
+        "index": 3,
+        "text": "nor",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **nor** ใช้กับปฏิเสธคู่ `neither A nor B`. ที่นี่ไม่ใช่รูปปฏิเสธ แต่เป็นการให้เลือกสถานะงาน จึงต้องใช้ `or`."
+      },
+      {
+        "index": 4,
+        "text": "but",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **but** ใช้แสดงความขัดแย้ง ไม่ใช่การให้เลือกหนึ่งในสอง. โครงสร้างคำถามที่ถูกคือ `... finished ... or is he still ...?`"
+      }
+    ]
+  }
+]

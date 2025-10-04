@@ -1,0 +1,478 @@
+[
+  {
+    "question": "We stayed inside ___ it was raining.",
+    "question_knowledge_ids": [
+      447,
+      449,
+      457,
+      458,
+      454,
+      455
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "because",
+        "knowledge_ids": [
+          447,
+          457
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **because** เพื่อบอก “สาเหตุ” โดยตามด้วยประโยค (clause). โครงสร้างที่ควรจำคือ __because + clause__ เช่น `We stayed inside because it was raining.` ตัวอย่างใช้งาน: `I left early because I felt sick.`"
+      },
+      {
+        "index": 2,
+        "text": "because of",
+        "knowledge_ids": [
+          454,
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **because of** เป็นบุพบท ต้องตามด้วยคำนามหรือวลีคำนาม ไม่ใช่ประโยค เช่นควรเป็น `We stayed inside because of the rain.` ไม่ใช่ `because of it was raining`."
+      },
+      {
+        "index": 3,
+        "text": "so",
+        "knowledge_ids": [
+          449,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **so** ใช้บอก “ผลลัพธ์” ไม่ใช่ “สาเหตุ” โครงสร้างคือ `clause, so + clause` เช่น `It was raining, so we stayed inside.` แต่ช่องว่างนี้ต้องการคำเชื่อมสาเหตุแบบ **cause clause**."
+      },
+      {
+        "index": 4,
+        "text": "although",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **although** ใช้บอกความขัดแย้ง (contrast) ไม่ใช่เหตุผล เช่น `Although it was raining, we went outside.` ในโจทย์ต้องการคำที่บอกเหตุผลว่าทำไมเราถึงอยู่ข้างใน"
+      }
+    ]
+  },
+  {
+    "question": "___ you arrived early, we could discuss the plan.",
+    "question_knowledge_ids": [
+      447,
+      457,
+      449,
+      450,
+      458
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Since",
+        "knowledge_ids": [
+          447,
+          457
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **since** ใช้ขึ้นประโยคย่อยเพื่อบอกเหตุผลอย่างสุภาพกว่า **because** โครงสร้างคือ __Since + clause__, ตามด้วยประโยคหลัก เช่น `Since you arrived early, we could discuss the plan.` อีกตัวอย่าง: `Since it’s raining, let’s stay in.`"
+      },
+      {
+        "index": 2,
+        "text": "So",
+        "knowledge_ids": [
+          449,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **so** ใช้บอกผล ไม่ใช่เหตุผลตำแหน่งนี้ และมักอยู่กลางระหว่าง 2 ประโยคอิสระ เช่น `You arrived early, so we could discuss the plan.` ไม่ใช่ขึ้นต้นประโยคเพื่อบอกสาเหตุ"
+      },
+      {
+        "index": 3,
+        "text": "But",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **but** ใช้บอกความขัดแย้ง ไม่ได้บอกเหตุผล เช่น `You arrived early, but we still waited.` ในโจทย์ต้องการคำเชื่อม “เหตุผล” ของการได้คุยแผน"
+      },
+      {
+        "index": 4,
+        "text": "Therefore",
+        "knowledge_ids": [
+          450,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **therefore** เป็นกริยาวิเศษณ์เชื่อมเชิงตรรกะ (conjunctive adverb) ใช้หน้าประโยคใหม่พร้อมเครื่องหมาย เช่น `You arrived early; therefore, we could discuss the plan.` ไม่ใช่คำเชื่อมสาเหตุแบบ **subordinator**"
+      }
+    ]
+  },
+  {
+    "question": "I took a taxi ___ I didn't want to be late.",
+    "question_knowledge_ids": [
+      447,
+      457,
+      449,
+      458
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "as",
+        "knowledge_ids": [
+          447,
+          457
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **as** ใช้บอกเหตุผลคล้าย **because/since** และให้โทนอ่อนๆ โครงสร้างคือ __as + clause__, เช่น `I took a taxi as I didn't want to be late.` อีกตัวอย่าง: `As it was getting dark, we headed home.`"
+      },
+      {
+        "index": 2,
+        "text": "when",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **when** เน้น “เวลา” ไม่ใช่ “เหตุผล” เช่น `I took a taxi when it started to rain.` แต่โจทย์ต้องการคำที่บอกสาเหตุว่าทำไมถึงนั่งแท็กซี่"
+      },
+      {
+        "index": 3,
+        "text": "while",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **while** ใช้บอกเหตุการณ์ที่เกิดพร้อมกัน (ขณะเดียวกัน) ไม่ใช่เหตุผล เช่น `While I was walking, it started to rain.` จึงไม่เข้ากับความหมาย “เพราะไม่อยากสาย”"
+      },
+      {
+        "index": 4,
+        "text": "so",
+        "knowledge_ids": [
+          449,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **so** ให้ความหมายเป็น “ดังนั้น/ผลลัพธ์” เช่น `I didn't want to be late, so I took a taxi.` แต่ช่องว่างนี้ต้องการคำที่บอกเหตุผลนำหน้า (**cause clause**) ไม่ใช่ผล"
+      }
+    ]
+  },
+  {
+    "question": "___ the roads are clear now, let's drive to the beach.",
+    "question_knowledge_ids": [
+      447,
+      457,
+      450,
+      458
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Now that",
+        "knowledge_ids": [
+          447,
+          457
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **now that** ใช้เมื่อสภาพการณ์เปลี่ยนไปแล้วและเป็นเหตุผลใหม่ โครงสร้างคือ __now that + clause__, เช่น `Now that the roads are clear, let's drive to the beach.` อีกตัวอย่าง: `Now that you’re here, we can start.`"
+      },
+      {
+        "index": 2,
+        "text": "Because of",
+        "knowledge_ids": [
+          454
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **because of** เป็นบุพบท ต้องตามด้วยคำนาม/วลีคำนาม ไม่ใช่ประโยคเต็ม เช่นควรเป็น `Because of the clear roads, let's drive...` ไม่ใช่ `Because of the roads are clear`"
+      },
+      {
+        "index": 3,
+        "text": "Even though",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **even though** ใช้บอกความขัดแย้ง ไม่ใช่เหตุผล เช่น `Even though the roads are clear, we decided to stay.` ซึ่งขัดกับความหมายในโจทย์ที่ต้องการ “เพราะตอนนี้ถนนโล่ง”"
+      },
+      {
+        "index": 4,
+        "text": "Therefore",
+        "knowledge_ids": [
+          450,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **therefore** เป็นกริยาวิเศษณ์เชื่อมผลลัพธ์ ต้องตามรูปแบบประโยคอิสระพร้อมเครื่องหมาย เช่น `The roads are clear; therefore, let's drive...` ไม่ใช่คำเชื่อมสาเหตุหน้าประโยคย่อย"
+      }
+    ]
+  },
+  {
+    "question": "The flight was canceled ___ heavy fog.",
+    "question_knowledge_ids": [
+      454,
+      455,
+      457
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "because of",
+        "knowledge_ids": [
+          454
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **because of** ตามด้วยคำนาม/วลีคำนาม โครงสร้างคือ __because of + noun/gerund__, เช่น `The flight was canceled because of heavy fog.` อีกตัวอย่าง: `We stayed in because of the storm.`"
+      },
+      {
+        "index": 2,
+        "text": "because",
+        "knowledge_ids": [
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **because** ต้องตามด้วยประโยค (subject + verb) เช่น `... because heavy fog covered the city.` ไม่ใช่ตามด้วยคำนามโดดๆ แบบ `because heavy fog`"
+      },
+      {
+        "index": 3,
+        "text": "since",
+        "knowledge_ids": [
+          447
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **since** เป็นคำเชื่อมประโยคย่อย ต้องตามด้วยประโยคเต็ม เช่น `since heavy fog covered the runway.` ในโจทย์ตามหลังเป็นคำนาม `heavy fog` จึงใช้ไม่ได้"
+      },
+      {
+        "index": 4,
+        "text": "as",
+        "knowledge_ids": [
+          447
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **as** ต้องตามด้วยประโยค ไม่ใช่คำนาม เช่น `... as heavy fog covered the city.` ช่องนี้เป็นวลีคำนาม จึงควรใช้ **because of**"
+      }
+    ]
+  },
+  {
+    "question": "She stayed home ___ her back hurt.",
+    "question_knowledge_ids": [
+      447,
+      454,
+      455,
+      457,
+      450
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "because",
+        "knowledge_ids": [
+          447
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **because** ใช้บอกเหตุผลโดยตามด้วยประโยคเต็ม โครงสร้างคือ __because + clause__, เช่น `She stayed home because her back hurt.` อีกตัวอย่าง: `I left because I was tired.`"
+      },
+      {
+        "index": 2,
+        "text": "because of",
+        "knowledge_ids": [
+          454,
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **because of** ต้องตามด้วยคำนาม/วลีคำนาม ไม่ใช่ประโยค เช่นควรเป็น `She stayed home because of back pain.` ไม่ใช่ `because of her back hurt`"
+      },
+      {
+        "index": 3,
+        "text": "due to",
+        "knowledge_ids": [
+          455
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **due to** ก็เป็นบุพบทเหมือนกัน ต้องตามด้วยคำนาม เช่น `She stayed home due to back pain.` แต่ในโจทย์ตามด้วยประโยค `her back hurt` จึงไม่เข้ารูปแบบ"
+      },
+      {
+        "index": 4,
+        "text": "therefore",
+        "knowledge_ids": [
+          450,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **therefore** บอกผลลัพธ์ ไม่ใช่เหตุผล และมักใช้เชื่อมประโยคอิสระพร้อมเครื่องหมาย เช่น `Her back hurt; therefore, she stayed home.` ช่องว่างนี้ต้องการคำเชื่อมสาเหตุ"
+      }
+    ]
+  },
+  {
+    "question": "He wore a coat, ___ it was cold.",
+    "question_knowledge_ids": [
+      457,
+      449,
+      450,
+      451
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "for",
+        "knowledge_ids": [
+          457
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **for** ในที่นี้เป็นคำเชื่อมความหมาย “เพราะว่า” ใช้เชื่อมประโยคอิสระสองประโยค และมีโทนค่อนข้างเป็นทางการ/วรรณกรรม โครงสร้างคือ `clause,` __for + clause__ เช่น `He wore a coat, for it was cold.` อีกตัวอย่าง: `I must go, for it is late.`"
+      },
+      {
+        "index": 2,
+        "text": "so",
+        "knowledge_ids": [
+          449,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **so** บอกผลลัพธ์ เช่น `It was cold, so he wore a coat.` แต่ในโจทย์ต้องการคำที่อธิบาย “เหตุผล” ที่ตามหลังคอมมา"
+      },
+      {
+        "index": 3,
+        "text": "therefore",
+        "knowledge_ids": [
+          450,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **therefore** เป็นกริยาวิเศษณ์ ต้องใช้รูปแบบเครื่องหมาย เช่น `It was cold; therefore, he wore a coat.` ไม่ใช่คำเชื่อมอย่าง **for/because** ที่วางหลังคอมมาได้โดยตรง"
+      },
+      {
+        "index": 4,
+        "text": "due to",
+        "knowledge_ids": [
+          455
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **due to** เป็นบุพบท ต้องตามด้วยคำนาม ไม่สามารถตามด้วยประโยค `it was cold` เช่น `He wore a coat due to the cold weather.` จึงไม่ตรงกับช่องว่างนี้"
+      }
+    ]
+  },
+  {
+    "question": "___ the exam was difficult, most students finished late.",
+    "question_knowledge_ids": [
+      447,
+      457,
+      458
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Because",
+        "knowledge_ids": [
+          447,
+          457
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **Because** ใช้ขึ้นประโยคย่อยบอกเหตุผล แล้วตามด้วยประโยคหลัก โครงสร้างคือ __Because + clause__, เช่น `Because the exam was difficult, most students finished late.` อีกตัวอย่าง: `Because it rained, the match was postponed.`"
+      },
+      {
+        "index": 2,
+        "text": "Although",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **although** บอกความขัดแย้ง เช่น `Although the exam was difficult, most students finished early.` ซึ่งความหมายสวนทางกับโจทย์ที่ต้องการเหตุผลนำไปสู่ผลลัพธ์"
+      },
+      {
+        "index": 3,
+        "text": "However",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **however** เป็นกริยาวิเศษณ์เชื่อมประโยค ไม่ใช่คำเชื่อมสาเหตุ และต้องใช้เครื่องหมาย เช่น `The exam was difficult; however, most students finished early.`"
+      },
+      {
+        "index": 4,
+        "text": "So",
+        "knowledge_ids": [
+          449,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **so** ใช้บอกผลลัพธ์ ไม่ใช่สาเหตุขึ้นต้นประโยคย่อย เช่น `The exam was difficult, so most students finished late.` แต่ในช่องว่างนี้ต้องการคำเชื่อมสาเหตุ"
+      }
+    ]
+  },
+  {
+    "question": "Meet me inside ___ it's noisy out here.",
+    "question_knowledge_ids": [
+      447,
+      454,
+      455,
+      457,
+      458,
+      449
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "since",
+        "knowledge_ids": [
+          447,
+          457
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **since** ใช้บอกเหตุผลอย่างสุภาพ โครงสร้างคือ __since + clause__, เช่น `Meet me inside since it's noisy out here.` อีกตัวอย่าง: `Since you’re busy, I’ll email you instead.`"
+      },
+      {
+        "index": 2,
+        "text": "so",
+        "knowledge_ids": [
+          449,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **so** เป็นตัวเชื่อมผลลัพธ์ เช่น `It's noisy out here, so meet me inside.` แต่ในช่องว่างต้องการคำเชื่อมสาเหตุที่ขึ้นหน้าเหตุผล"
+      },
+      {
+        "index": 3,
+        "text": "despite",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **despite** เป็นบุพบทบอกความขัดแย้ง ต้องตามด้วยคำนาม/วลีคำนาม เช่น `Despite the noise, meet me outside.` ซึ่งไม่ใช่การบอกเหตุผลแบบโจทย์"
+      },
+      {
+        "index": 4,
+        "text": "due to",
+        "knowledge_ids": [
+          455
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **due to** ต้องตามด้วยคำนาม ไม่ใช่ประโยค `it's noisy` ถ้าจะใช้ควรเป็น `due to the noise` แต่โครงนี้ไม่เข้ากับประโยคหลัง"
+      }
+    ]
+  },
+  {
+    "question": "Classes were moved online ___ the pandemic.",
+    "question_knowledge_ids": [
+      455,
+      454,
+      457
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "due to",
+        "knowledge_ids": [
+          455
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **due to** เป็นบุพบท ใช้กับคำนาม/วลีคำนาม โครงสร้างคือ __due to + noun__, เช่น `Classes were moved online due to the pandemic.` อีกตัวอย่าง: `Flights were delayed due to fog.`"
+      },
+      {
+        "index": 2,
+        "text": "because",
+        "knowledge_ids": [
+          447
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **because** ต้องตามด้วยประโยค (subject + verb) เช่น `... because the pandemic spread quickly.` แต่ในโจทย์เป็นคำนาม `the pandemic` จึงไม่ตรงรูปแบบ"
+      },
+      {
+        "index": 3,
+        "text": "since",
+        "knowledge_ids": [
+          447
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **since** ต้องตามด้วยประโยค เช่น `since the pandemic spread.` แต่ช่องนี้ตามด้วยคำนาม จึงควรใช้ **due to** หรือ **because of**"
+      },
+      {
+        "index": 4,
+        "text": "so",
+        "knowledge_ids": [
+          449,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **so** บอกผลลัพธ์ ไม่ใช่สาเหตุในรูปบุพบท เช่น `The pandemic worsened, so classes were moved online.` ไม่สามารถวางหน้า `the pandemic` แบบนี้ได้"
+      }
+    ]
+  }
+]

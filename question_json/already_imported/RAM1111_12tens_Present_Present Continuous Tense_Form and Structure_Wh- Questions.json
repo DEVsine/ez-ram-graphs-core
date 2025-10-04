@@ -1,0 +1,292 @@
+[
+  {
+    "question": "___ you doing right now?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "What are",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคำถามแบบ **Wh- question ใน Present Continuous** คือ __Wh- + am/is/are + subject + V-ing__ ดังนั้น `What are you doing right now?` จึงถูกต้อง. ตัวอย่างใช้จริง: `What are you doing now?` หรือ `What are you studying this evening?`"
+      },
+      {
+        "index": 2,
+        "text": "What do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `do` เป็นโครงสร้าง **Present Simple** ไม่ใช่ **Present Continuous** สำหรับถามสิ่งที่เกิดขึ้นตอนนี้ต้องใช้ `be + V-ing`. ตัวอย่างที่ผิด: `What do you doing?` → ที่ถูกต้อง: `What are you doing?`"
+      },
+      {
+        "index": 3,
+        "text": "What is",
+        "is_correct": false,
+        "answer_description": "เกือบถูก แต่ใช้กับประธานเอกพจน์ไม่ใช่ `you` ที่เป็นพหูพจน์เชิงไวยากรณ์ จึงต้องใช้ `are` แทน. ตัวอย่างที่ถูก: `What is she doing?` แต่กับ you ต้องเป็น `What are you doing?`"
+      },
+      {
+        "index": 4,
+        "text": "What are doing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดประธานหลังกริยา `are` โครงสร้างต้องเป็น `are + subject + V-ing`. ตัวอย่างที่ถูก: `What are you doing?` ไม่ใช่ `What are doing?`"
+      }
+    ]
+  },
+  {
+    "question": "Where ___ she going?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคถามแบบ **Wh-** ใน Present Continuous ใช้รูป __Wh- + am/is/are + subject + V-ing__. ดังนั้น `Where is she going?` จึงตรงรูปแบบ เช่น `Where is she going after class?`"
+      },
+      {
+        "index": 2,
+        "text": "does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `does` ใช้กับ Present Simple ไม่เข้ากับ V-ing ที่ตามมา. โครงสร้างที่ถูกต้องควรเป็น `be + V-ing` เช่น `Where is she going?` ไม่ใช่ `Where does she going?`"
+      },
+      {
+        "index": 3,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจากประธาน `she` เป็นเอกพจน์ ต้องใช้ `is` ไม่ใช่ `are`. ตัวอย่างถูก: `Where is she going?` ตัวอย่างผิด: `Where are she going?`"
+      },
+      {
+        "index": 4,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `do` เป็นของ Present Simple และไม่ใช้กับ `V-ing`. ควรใช้ `is` กับ `she` เช่น `Where is she going?`"
+      }
+    ]
+  },
+  {
+    "question": "Why ___ they laughing?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง Wh- question ของ Present Continuous คือ __Wh- + am/is/are + subject + V-ing__. ดังนั้น `Why are they laughing?` ใช้ได้พอดี เช่น `Why are they laughing so loudly?`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `do` เป็นของ Present Simple ไม่ใช่ Present Continuous ที่ใช้ `be + V-ing`. ตัวอย่างที่ถูก: `Why are they laughing?` ไม่ใช่ `Why do they laughing?`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน `they` เป็นพหูพจน์ ต้องใช้ `are` ไม่ใช่ `is`. ตัวอย่างถูก: `They are laughing.` → คำถาม: `Why are they laughing?`"
+      },
+      {
+        "index": 4,
+        "text": "am",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `am` ใช้กับประธาน `I` เท่านั้น ไม่ใช้กับ `they`. ตัวอย่างที่ถูก: `Why am I laughing?` แต่สำหรับ `they` ต้อง `Why are they laughing?`"
+      }
+    ]
+  },
+  {
+    "question": "Who ___ he talking to?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปแบบคำถามคือ __Wh- + am/is/are + subject + V-ing__. ดังนั้น `Who is he talking to?` จึงถูก เช่น `Who is he talking to on the phone?`"
+      },
+      {
+        "index": 2,
+        "text": "does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้โครงสร้าง Present Simple และตามด้วยกริยา base ไม่ใช่ V-ing. ตัวอย่างที่ผิด: `Who does he talking to?` → ที่ถูกต้อง: `Who is he talking to?`"
+      },
+      {
+        "index": 3,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน `he` เป็นเอกพจน์ ต้องใช้ `is`. ตัวอย่างถูก: `Who is he talking to?` ไม่ใช่ `Who are he talking to?`"
+      },
+      {
+        "index": 4,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลเดียวกับ Present Simple ที่ไม่เข้ากับ V-ing. แก้เป็น `is`: `Who is he talking to?`"
+      }
+    ]
+  },
+  {
+    "question": "When ___ we meeting?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคำถามคือ __Wh- + am/is/are + subject + V-ing__. ประโยค `When are we meeting?` ใช้ถามแผนที่กำลังจะเกิดขึ้น เช่น `When are we meeting tomorrow?`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ Present Simple (`do`) ไม่ใช้กับรูป `meeting` ที่เป็น V-ing. ที่ถูกคือ `are`: `When are we meeting?`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน `we` เป็นพหูพจน์ ต้องใช้ `are` ไม่ใช่ `is`. ตัวอย่างถูก: `We are meeting at 6.` → คำถาม: `When are we meeting?`"
+      },
+      {
+        "index": 4,
+        "text": "am",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจาก `am` ใช้กับ `I` เท่านั้น ไม่เข้ากับ `we`. รูปที่ถูกคือ `are`: `When are we meeting?`"
+      }
+    ]
+  },
+  {
+    "question": "What ___ happening here?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ `what` ในที่นี้ตามด้วยเรื่องราวเอกพจน์ (สิ่งที่กำลังเกิดขึ้น) จึงใช้ `is` ตามรูป __Wh- + am/is/are + subject + V-ing__. ตัวอย่าง: `What is happening here?` หรือ `What is happening now?`"
+      },
+      {
+        "index": 2,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะบริบทนี้ถือว่าเป็นเอกพจน์ ไม่ใช้ `are`. ตัวอย่างถูก: `What is happening?` ไม่ใช่ `What are happening?`"
+      },
+      {
+        "index": 3,
+        "text": "does",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจาก `does` เป็นของ Present Simple และไม่เข้าคู่กับ `happening` ที่เป็น V-ing. ควรใช้ `is`: `What is happening here?`"
+      },
+      {
+        "index": 4,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลเรื่องกาลเวลาและรูป V-ing เช่นเดียวกัน. คำที่ถูกคือ `is`: `What is happening?`"
+      }
+    ]
+  },
+  {
+    "question": "How ___ your project going?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อประธานจริงคือ `your project` (เอกพจน์) จึงใช้ `is` ตามโครงสร้าง __Wh- + am/is/are + subject + V-ing__. ตัวอย่าง: `How is your project going these days?`"
+      },
+      {
+        "index": 2,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `project` เป็นเอกพจน์ ไม่ใช้ `are`. เปรียบเทียบ: `How is your project going?` vs. `How are your projects going?` (พหูพจน์)"
+      },
+      {
+        "index": 3,
+        "text": "does",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจากใช้โครงสร้าง Present Simple ผิดกาล และยังไม่เข้ากับ `going` ที่เป็น V-ing. ที่ถูก: `How is your project going?`"
+      },
+      {
+        "index": 4,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลเดียวกับ Present Simple และความไม่เข้ากันกับ V-ing. ใช้ `is` แทน: `How is your project going?`"
+      }
+    ]
+  },
+  {
+    "question": "Which movie ___ you watching tonight?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคำถาม __Wh-/Which + am/is/are + subject + V-ing__ ใช้ถามแผนที่กำลังจะเกิดขึ้น/กำลังทำ. ดังนั้น `Which movie are you watching tonight?` จึงเหมาะ เช่น `Which movie are you watching this weekend?`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `do` เป็น Present Simple และไม่จับคู่กับ `watching` ที่เป็น V-ing. ต้องใช้ `are`: `Which movie are you watching?`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `you` ต้องใช้ `are` ไม่ใช่ `is`. ตัวอย่างถูก: `You are watching...` → คำถาม: `Which movie are you watching?`"
+      },
+      {
+        "index": 4,
+        "text": "am",
+        "is_correct": false,
+        "answer_description": "ผิด `am` ใช้กับ `I` เท่านั้น ไม่ใช้กับ `you`. คำตอบที่ถูกคือ `are`: `Which movie are you watching tonight?`"
+      }
+    ]
+  },
+  {
+    "question": "Whose phone ___ ringing?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคือ __Whose + noun + am/is/are + V-ing__. คำว่า `phone` เป็นเอกพจน์จึงใช้ `is`: `Whose phone is ringing?`"
+      },
+      {
+        "index": 2,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `phone` เป็นเอกพจน์ ควรใช้ `is` ไม่ใช่ `are`. ถ้าเป็นพหูพจน์ถึงจะใช้ `are` เช่น `Whose phones are ringing?`"
+      },
+      {
+        "index": 3,
+        "text": "does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป Present Simple และไม่เข้ากับ `ringing` ที่เป็น V-ing. รูปที่ถูก: `Whose phone is ringing?`"
+      },
+      {
+        "index": 4,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลกาลเวลาและรูป V-ing เช่นเดิม ไม่ใช้ `do` ที่นี่. ใช้ `is` แทน: `Whose phone is ringing?`"
+      }
+    ]
+  },
+  {
+    "question": "What ___ the children doing in the yard?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน `the children` เป็นพหูพจน์ จึงใช้ `are` ตามโครงสร้าง __Wh- + am/is/are + subject + V-ing__. ตัวอย่าง: `What are the children doing in the yard?`"
+      },
+      {
+        "index": 2,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `children` เป็นพหูพจน์ ไม่ใช้ `is`. ที่ถูกต้องคือ `are`: `What are the children doing...?`"
+      },
+      {
+        "index": 3,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจากเป็น Present Simple และไม่เข้ากับ `doing` ที่เป็น V-ing. แก้เป็น `are`: `What are the children doing...?`"
+      },
+      {
+        "index": 4,
+        "text": "does",
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลเรื่องกาลและประธานพหูพจน์ (`children`) ซึ่งไม่ใช้ `does`. คำตอบที่ถูก: `are`"
+      }
+    ]
+  }
+]

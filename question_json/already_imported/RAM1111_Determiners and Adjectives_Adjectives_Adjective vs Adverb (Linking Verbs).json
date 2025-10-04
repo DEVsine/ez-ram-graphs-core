@@ -1,0 +1,292 @@
+[
+  {
+    "question": "The soup smells ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "delicious",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกริยา **smell** เป็น **linking verb** จึงต้องตามด้วยคำคุณศัพท์ (adjective) เพื่อบอกลักษณะของซุป โครงสร้างคือ __linking verb + adjective__ เช่น `The soup smells delicious.` หรือ `The flowers smell nice.` ตัวอย่างการใช้: `This perfume smells amazing.`"
+      },
+      {
+        "index": 2,
+        "text": "deliciously",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **deliciously** เป็นคำกริยาวิเศษณ์ (adverb) ใช้ขยายกริยา *การกระทำ* ไม่ใช่ใช้หลัง **linking verb** อย่าง **smell** ซึ่งต้องใช้ adjective เช่น `smells delicious` ไม่ใช่ `smells deliciously`."
+      },
+      {
+        "index": 3,
+        "text": "well",
+        "is_correct": false,
+        "answer_description": "ผิด ในประโยคนี้ **well** เป็น adverb (ปกติใช้ขยายกริยา) แต่ **smell** ทำหน้าที่เป็น **linking verb** ที่ต้องตามด้วย adjective เพื่อบรรยาย **ซุป** เช่น `The soup smells good.` ไม่ใช่ `smells well`."
+      },
+      {
+        "index": 4,
+        "text": "nicely",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **nicely** เป็น adverb และไม่เหมาะกับ **smell** ที่เป็น linking verb โครงสร้างที่ถูกคือ `smells nice` (adjective) เช่น `The soup smells nice.` ไม่ใช่ `smells nicely`."
+      }
+    ]
+  },
+  {
+    "question": "He felt ___ after the workout.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "tired",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **feel** เป็น **linking verb** ที่ตามด้วย adjective เพื่อบอกสภาพของประธาน โครงสร้าง __linking verb + adjective__ เช่น `He felt tired after the workout.` หรือ `I feel sleepy.` ตัวอย่างเพิ่มเติม: `She felt happy.`"
+      },
+      {
+        "index": 2,
+        "text": "tiredly",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **tiredly** เป็น adverb ใช้บอก “ลักษณะการกระทำ” เช่น `He walked tiredly.` แต่กับ **feel** ซึ่งเป็น linking verb ต้องใช้ adjective: `feel tired`."
+      },
+      {
+        "index": 3,
+        "text": "quickly",
+        "is_correct": false,
+        "answer_description": "ผิด **quickly** เป็น adverb และไม่เหมาะกับ **feel** ที่ใช้บอกสภาพของประธาน จำไว้ว่า linking verbs (เช่น **be, feel, seem, look**) ต้องตามด้วย adjective เช่น `feel fine`, `feel tired`."
+      },
+      {
+        "index": 4,
+        "text": "badly",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **badly** เป็น adverb ใช้บอกว่าทำอะไร “ได้ไม่ดี” เช่น `He sings badly.` แต่หลัง **feel** ควรใช้ adjective: `feel bad` (รู้สึกไม่ดี) ไม่ใช่ `feel badly`."
+      }
+    ]
+  },
+  {
+    "question": "The milk turned ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "sour",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **turn** ในความหมาย “กลายเป็น” เป็น **linking verb** จึงตามด้วย adjective เพื่อบอกสภาพใหม่ของนม โครงสร้างคือ __linking verb + adjective__ เช่น `The milk turned sour.` หรือ `The sky turned gray.`"
+      },
+      {
+        "index": 2,
+        "text": "sourly",
+        "is_correct": false,
+        "answer_description": "ผิด **sourly** เป็น adverb ใช้บอกลักษณะการกระทำ เช่น `He spoke sourly` (พูดอย่างบึ้งตึง) แต่ที่นี่ **turn** เป็น linking verb ควรใช้ adjective: `turned sour`."
+      },
+      {
+        "index": 3,
+        "text": "quickly",
+        "is_correct": false,
+        "answer_description": "ผิด แม้ **quickly** จะเป็น adverb บอกความเร็ว แต่ที่นี่เราต้องการคำที่บอก “สภาพของนม” หลัง **turn** ซึ่งเป็น linking verb จึงควรเป็น adjective เช่น `turned sour` ไม่ใช่ `turned quickly`."
+      },
+      {
+        "index": 4,
+        "text": "well",
+        "is_correct": false,
+        "answer_description": "ผิด **well** (adverb) ใช้ขยายกริยา แต่ **turn** ในความหมาย “กลายเป็น” ต้องตามด้วย adjective เพื่อบอกผลลัพธ์ของสภาพ เช่น `turned bad`, `turned sour` ไม่ใช่ `turned well`."
+      }
+    ]
+  },
+  {
+    "question": "She looks ___ in that dress.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "beautiful",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **look** เป็น **linking verb** (หมายถึง “ดูแล้วเป็น”) จึงต้องตามด้วย adjective เพื่อบอกลักษณะของเธอ โครงสร้าง __linking verb + adjective__ เช่น `She looks beautiful in that dress.` หรือ `He looks tired.`"
+      },
+      {
+        "index": 2,
+        "text": "beautifully",
+        "is_correct": false,
+        "answer_description": "ผิด **beautifully** เป็น adverb ใช้บอกลักษณะการกระทำ เช่น `She sings beautifully.` แต่เมื่อ **look** เป็น linking verb ต้องใช้ adjective: `looks beautiful` ไม่ใช่ `looks beautifully`."
+      },
+      {
+        "index": 3,
+        "text": "carefully",
+        "is_correct": false,
+        "answer_description": "ผิด **carefully** เป็น adverb และไม่ใช่คำบรรยายลักษณะหลัง **look** แบบ linking verb ตัวอย่างที่ถูกต้องคือ `look + adjective` เช่น `looks happy`, `looks great`."
+      },
+      {
+        "index": 4,
+        "text": "brightly",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น adverb ใช้บอกวิธีการ เช่น `smile brightly` แต่กับ **look** (ลักษณะ/สภาพ) ต้องใช้ adjective เช่น `looks bright` หรือ `looks beautiful`."
+      }
+    ]
+  },
+  {
+    "question": "The plan seems ___ to me.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "reasonable",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยา **seem** เป็น **linking verb** ที่ต้องตามด้วย adjective เพื่อบอกลักษณะ/ความเห็น โครงสร้าง __linking verb + adjective__ เช่น `The plan seems reasonable.` และ `It seems possible.`"
+      },
+      {
+        "index": 2,
+        "text": "reasonably",
+        "is_correct": false,
+        "answer_description": "ผิด **reasonably** เป็น adverb ใช้ขยายกริยา/คำคุณศัพท์ เช่น `He acted reasonably.` แต่หลัง **seem** ควรใช้ adjective: `seems reasonable` ไม่ใช่ `seems reasonably`."
+      },
+      {
+        "index": 3,
+        "text": "clearly",
+        "is_correct": false,
+        "answer_description": "ผิด **clearly** เป็น adverb บอกความชัดเจนของการกระทำหรือทั้งประโยค เช่น `He speaks clearly.` แต่ **seem** เป็น linking verb จึงต้องใช้ adjective: `seems clear` หรือ `seems reasonable`."
+      },
+      {
+        "index": 4,
+        "text": "quickly",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **quickly** เป็น adverb ไม่ได้บอก “ลักษณะของแผน” หลัง **seem** เราควรใช้ adjective เช่น `seems practical`, `seems reasonable`."
+      }
+    ]
+  },
+  {
+    "question": "The fish tastes ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "fresh",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **taste** เป็น **linking verb** เมื่อต้องการบอกคุณสมบัติของอาหาร จึงใช้ adjective โครงสร้าง __linking verb + adjective__ เช่น `The fish tastes fresh.` หรือ `The soup tastes salty.`"
+      },
+      {
+        "index": 2,
+        "text": "freshly",
+        "is_correct": false,
+        "answer_description": "ผิด **freshly** เป็น adverb มักใช้ในสำนวนเช่น `freshly baked bread` (ขยายกริยาช่องถูกกระทำ) แต่หลัง **taste** ซึ่งเป็น linking verb ต้องใช้ adjective: `tastes fresh`."
+      },
+      {
+        "index": 3,
+        "text": "well",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **well** เป็น adverb และไม่เหมาะกับ **taste** ที่ใช้บอกคุณลักษณะของอาหาร ตัวอย่างที่ถูกต้องคือ `tastes good`, `tastes fresh` ไม่ใช่ `tastes well`."
+      },
+      {
+        "index": 4,
+        "text": "strongly",
+        "is_correct": false,
+        "answer_description": "ผิด **strongly** เป็น adverb ใช้บอกความเข้มของการกระทำ เช่น `agree strongly` แต่หลัง **taste** (linking verb) ต้องใช้ adjective: `tastes strong` หรือ `tastes spicy`."
+      }
+    ]
+  },
+  {
+    "question": "The room grew ___ as the sun set.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "dark",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **grow** ในความหมาย “กลายเป็น/ค่อยๆ เป็น” เป็น **linking verb** จึงตามด้วย adjective เพื่อบอกสภาพ โครงสร้าง __linking verb + adjective__ เช่น `The room grew dark.` และ `He grew tired.`"
+      },
+      {
+        "index": 2,
+        "text": "darkly",
+        "is_correct": false,
+        "answer_description": "ผิด **darkly** เป็น adverb (เช่น `smile darkly`) แต่หลัง **grow** ที่ทำหน้าที่เป็น linking verb ต้องใช้ adjective: `grew dark` ไม่ใช่ `grew darkly`."
+      },
+      {
+        "index": 3,
+        "text": "quickly",
+        "is_correct": false,
+        "answer_description": "ผิด แม้จะเป็น adverb ที่บอกความเร็ว แต่คำที่ต้องการหลัง **grow** (linking verb) คือ adjective เพื่อบอกสภาพ เช่น `grew quiet`, `grew dark`."
+      },
+      {
+        "index": 4,
+        "text": "darkness",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **darkness** เป็นคำนาม ไม่สามารถวางหลัง linking verb เพื่อบรรยายสภาพได้ โครงสร้างควรเป็น adjective: `grew dark`."
+      }
+    ]
+  },
+  {
+    "question": "They remained ___ throughout the meeting.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "calm",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **remain** เป็น **linking verb** ที่ใช้บอกว่าสภาพยังคงเหมือนเดิม จึงตามด้วย adjective โครงสร้าง __linking verb + adjective__ เช่น `They remained calm.` หรือ `She remained silent.`"
+      },
+      {
+        "index": 2,
+        "text": "calmly",
+        "is_correct": false,
+        "answer_description": "ผิด **calmly** เป็น adverb ใช้บอกวิธีการกระทำ เช่น `speak calmly` แต่หลัง **remain** (linking verb) ต้องใช้ adjective: `remained calm`."
+      },
+      {
+        "index": 3,
+        "text": "silence",
+        "is_correct": false,
+        "answer_description": "ผิด **silence** เป็นคำนาม ไม่ใช่ adjective ที่ใช้หลัง **remain** โครงสร้างที่ถูกต้องคือ `remained silent` (adjective) ไม่ใช่ `remained silence`."
+      },
+      {
+        "index": 4,
+        "text": "quietly",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **quietly** เป็น adverb ใช้ขยายกริยา เช่น `work quietly` แต่ **remain** เป็น linking verb ต้องใช้ adjective: `remain quiet`."
+      }
+    ]
+  },
+  {
+    "question": "His idea sounds ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "interesting",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **sound** เป็น **linking verb** เมื่อใช้บอกความรู้สึกที่ได้รับ จึงต้องตามด้วย adjective โครงสร้าง __linking verb + adjective__ เช่น `His idea sounds interesting.` หรือ `That sounds great.`"
+      },
+      {
+        "index": 2,
+        "text": "interestingly",
+        "is_correct": false,
+        "answer_description": "ผิด **interestingly** เป็น adverb ใช้บอกลักษณะของการเล่า/การพูด เช่น `He spoke interestingly.` แต่หลัง **sound** (linking verb) ต้องใช้ adjective: `sounds interesting`."
+      },
+      {
+        "index": 3,
+        "text": "loudly",
+        "is_correct": false,
+        "answer_description": "ผิด **loudly** เป็น adverb บอกระดับเสียงของการกระทำ เช่น `talk loudly` แต่ประโยคนี้ใช้ **sound** เพื่อบอก “ความรู้สึก/คุณภาพของไอเดีย” จึงควรเป็น adjective: `sounds good`, `sounds interesting`."
+      },
+      {
+        "index": 4,
+        "text": "suddenly",
+        "is_correct": false,
+        "answer_description": "ผิด **suddenly** เป็น adverb บอกความกะทันหันของเหตุการณ์ ไม่ใช่คำบรรยายคุณลักษณะของไอเดีย หลัง **sound** แบบ linking verb ต้องเป็น adjective เช่น `sounds strange`, `sounds reasonable`."
+      }
+    ]
+  },
+  {
+    "question": "The flowers appear ___ in spring.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "bright",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **appear** ในความหมาย “ดูแล้วเป็น/ปรากฏว่า” เป็น **linking verb** จึงตามด้วย adjective เพื่อบอกคุณลักษณะ โครงสร้าง __linking verb + adjective__ เช่น `The flowers appear bright.` และ `He appears confident.`"
+      },
+      {
+        "index": 2,
+        "text": "brightly",
+        "is_correct": false,
+        "answer_description": "ผิด **brightly** เป็น adverb ใช้กับการกระทำ เช่น `smile brightly` แต่เมื่อ **appear** เป็น linking verb ต้องใช้ adjective: `appear bright` ไม่ใช่ `appear brightly`."
+      },
+      {
+        "index": 3,
+        "text": "brightness",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **brightness** เป็นคำนาม ไม่ใช้หลัง linking verb เพื่อบรรยายสภาพ โครงสร้างที่ถูกต้องคือ `appear bright` (adjective) เช่น `The sky appears clear.`"
+      },
+      {
+        "index": 4,
+        "text": "brightful",
+        "is_correct": false,
+        "answer_description": "ผิด คำว่า **brightful** ไม่เป็นคำมาตรฐานในภาษาอังกฤษ ควรใช้ adjective ที่ถูกต้องเช่น **bright**: `The flowers appear bright.`"
+      }
+    ]
+  }
+]

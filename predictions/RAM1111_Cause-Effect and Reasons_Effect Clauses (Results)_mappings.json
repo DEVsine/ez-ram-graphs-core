@@ -1,0 +1,492 @@
+[
+  {
+    "question": "He was ___ tired that he fell asleep on the bus.",
+    "question_knowledge_ids": [
+      449,
+      452,
+      526
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "so",
+        "knowledge_ids": [
+          452
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะผลลัพธ์ใช้โครงสร้าง __so + adjective/adverb + that + result__ เช่น `so tired that...` แปลว่า “เหนื่อยมากจนกระทั่ง…”. ตัวอย่าง: `He was so tired that he fell asleep on the bus.` ใช้ **so** หน้า adjective (**tired**) แล้วตามด้วย **that** เพื่อบอกผลที่ตามมา"
+      },
+      {
+        "index": 2,
+        "text": "such",
+        "knowledge_ids": [
+          453
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **such** ต้องตามด้วย `such + (a/an) + adjective + noun + that` เช่น `such a tiring day that...` แต่ในประโยคนี้มีแค่ adjective (**tired**) ไม่มีคำนามตามหลัง จึงใช้ **so** แทนจะถูกกว่า เช่น: `so tired that...`"
+      },
+      {
+        "index": 3,
+        "text": "therefore",
+        "knowledge_ids": [
+          450
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **therefore** เป็น **conjunctive adverb** มักใช้หลัง `;` หรือขึ้นต้นประโยคใหม่ เช่น `He was tired; therefore, he fell asleep.` แต่ช่องว่างนี้ต้องการคำหน้า adjective เพื่อทำรูปผลลัพธ์แบบ `so ... that`"
+      },
+      {
+        "index": 4,
+        "text": "very",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `very tired` ไม่เชื่อมผลลัพธ์ด้วยตัวเอง ถ้าจะบอกเหตุ-ผลชัด ๆ ต้องใช้ `so + adj + that` เช่น `so tired that he fell asleep` ไม่ใช่ `very tired that ...`"
+      }
+    ]
+  },
+  {
+    "question": "It rained heavily; ___, the match was canceled.",
+    "question_knowledge_ids": [
+      457,
+      458,
+      450,
+      451
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "therefore",
+        "knowledge_ids": [
+          450
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **therefore** เป็นคำเชื่อมผลลัพธ์แบบ **conjunctive adverb** หลังเครื่องหมาย `;` แสดงผลที่ตามมาอย่างเป็นเหตุผล ตัวอย่าง: `It rained heavily; therefore, the match was canceled.` ลองจำแพตเทิร์น __clause; therefore, clause__"
+      },
+      {
+        "index": 2,
+        "text": "so",
+        "knowledge_ids": [
+          458,
+          501
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะก่อนช่องว่างมี `;` แล้ว หากใช้ **so** มักเชื่อมด้วยเครื่องหมายจุลภาค `,` เช่น `It rained heavily, so the match was canceled.` รูปที่มี `; so,` ไม่นิยมและดูไม่เป็นทางการ"
+      },
+      {
+        "index": 3,
+        "text": "because",
+        "knowledge_ids": [
+          447
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **because** ใช้บอกสาเหตุ ไม่ใช่ผลลัพธ์ โครงสร้างจะเป็น `The match was canceled because it rained heavily.` ที่นี่เราต้องการคำชี้ผลหลังฝนตก จึงไม่เหมาะ"
+      },
+      {
+        "index": 4,
+        "text": "although",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **although** เป็นคำเชื่อมแสดงความขัดแย้ง ไม่ใช่ผลลัพธ์ เช่น `Although it rained, the match continued.` แต่ประโยคนี้ต้องการผลคือ “จึงยกเลิกการแข่งขัน”"
+      }
+    ]
+  },
+  {
+    "question": "It was ___ an interesting book that I finished it in one day.",
+    "question_knowledge_ids": [
+      452,
+      453,
+      526
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "such",
+        "knowledge_ids": [
+          453
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ต้องใช้โครงสร้าง __such + (a/an) + adjective + noun + that + result__ เพราะตามหลังมีคำนาม (**book**) เช่น `such an interesting book that...` ตัวอย่าง: `It was such an interesting book that I finished it in one day.`"
+      },
+      {
+        "index": 2,
+        "text": "so",
+        "knowledge_ids": [
+          452
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **so** ใช้กับ adjective/adverb เดี่ยว ๆ เช่น `so interesting that...` แต่ที่นี่มีคำนาม (**book**) ด้วย จึงต้องเป็น `such an interesting book that...`"
+      },
+      {
+        "index": 3,
+        "text": "too",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด ความหมายของ **too** คือ “เกินไป” มักตามด้วยผลลบหรือ `to + verb` เช่น `too interesting to put down` แต่ประโยคนี้ต้องการโครงสร้างผลลัพธ์แบบ `... that ...`"
+      },
+      {
+        "index": 4,
+        "text": "very",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด `very interesting book` ได้ แต่จะไม่เชื่อมผลลัพธ์ด้วย `that` เช่นนี้ ถ้าจะเชื่อมผล ต้องใช้ `such ... that` เช่น `such an interesting book that...`"
+      }
+    ]
+  },
+  {
+    "question": "She spoke ___ quietly that no one could hear her.",
+    "question_knowledge_ids": [
+      452,
+      526
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "so",
+        "knowledge_ids": [
+          452
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้โครงสร้างผลลัพธ์ __so + adjective/adverb + that + result__ กับ adverb ได้ เช่น `so quietly that...` ตัวอย่าง: `She spoke so quietly that no one could hear her.` บอกผลว่าเธอพูดเบาจนไม่มีใครได้ยิน"
+      },
+      {
+        "index": 2,
+        "text": "such",
+        "knowledge_ids": [
+          453
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **such** ต้องตามด้วยคำนาม เช่น `such a quiet voice that...` แต่ที่นี่ใช้ adverb (**quietly**) จึงควรใช้ **so**"
+      },
+      {
+        "index": 3,
+        "text": "too",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **too** สื่อความหมาย “เกินไป” และมักตามด้วยผลเชิงลบหรือ `to + verb` เช่น `too quietly to be heard` แต่ประโยคนี้ใช้แพตเทิร์นผลลัพธ์แบบ `... that ...`"
+      },
+      {
+        "index": 4,
+        "text": "very",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด `very quietly` ไม่สามารถเชื่อมผลด้วย `that` โดยตรง ถ้าจะเชื่อมผลลัพธ์ต้องใช้ `so ... that` เช่น `so quietly that...`"
+      }
+    ]
+  },
+  {
+    "question": "The road was icy; ___, we drove slowly.",
+    "question_knowledge_ids": [
+      458,
+      451,
+      457
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "as a result",
+        "knowledge_ids": [
+          451
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __as a result__ เพื่อชี้ “ผลที่ตามมา” หลังเหตุการณ์ก่อนหน้า รูปประโยคนิยมเป็น `clause; as a result, clause` เช่น `The road was icy; as a result, we drove slowly.` ชัดเจนว่าเพราะถนนลื่น จึงขับช้า"
+      },
+      {
+        "index": 2,
+        "text": "because",
+        "knowledge_ids": [
+          447
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **because** ใช้บอกสาเหตุไม่ใช่ผล ถ้าจะใช้ต้องกลับลำดับ เช่น `We drove slowly because the road was icy.` แต่ช่องว่างนี้ต้องการคำชี้ผล"
+      },
+      {
+        "index": 3,
+        "text": "even though",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **even though** เป็นคำเชื่อมความขัดแย้ง ไม่ได้แสดงผลลัพธ์ ตัวอย่างความขัดแย้ง: `Even though the road was icy, we drove fast.` ซึ่งต่างจากประโยคนี้"
+      },
+      {
+        "index": 4,
+        "text": "so that",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **so that** มักใช้บอก “วัตถุประสงค์” เช่น `We drove slowly so that we wouldn't slip.` แต่โจทย์นี้ต้องการบอกผลจากเหตุ จึงใช้ `as a result`"
+      }
+    ]
+  },
+  {
+    "question": "She forgot the key, ___ she couldn't open the door.",
+    "question_knowledge_ids": [
+      457,
+      458,
+      449,
+      447
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "so",
+        "knowledge_ids": [
+          449,
+          458
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **so** เป็นตัวเชื่อมบอก “ผลลัพธ์” ระหว่างสองประโยค: __clause, so clause__ เช่น `She forgot the key, so she couldn't open the door.` แปลว่าเพราะลืมกุญแจ จึงเปิดประตูไม่ได้"
+      },
+      {
+        "index": 2,
+        "text": "because",
+        "knowledge_ids": [
+          447
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **because** ใช้บอกสาเหตุ ถ้าจะใช้ต้องกลับลำดับเป็น `She couldn't open the door because she forgot the key.` ไม่ใช่เติมหลังจุลภาคในรูปนี้"
+      },
+      {
+        "index": 3,
+        "text": "although",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **although** แสดงความขัดแย้ง ไม่ใช่ผล เช่น `Although she forgot the key, she opened the door somehow.` ไม่สอดคล้องกับความหมายที่ต้องการ"
+      },
+      {
+        "index": 4,
+        "text": "however",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **however** เป็น conjunctive adverb ใช้หลัง `;` หรือขึ้นต้นประโยคใหม่ และแสดงความขัดแย้ง เช่น `She forgot the key; however, she opened the door.` ไม่ใช่บอกผล"
+      }
+    ]
+  },
+  {
+    "question": "It was ___ a hot day that we stayed indoors.",
+    "question_knowledge_ids": [
+      452,
+      453,
+      526
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "such",
+        "knowledge_ids": [
+          453
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีคำนาม (**day**) จึงใช้โครงสร้าง __such + (a/an) + adjective + noun + that + result__ เช่น `such a hot day that...` ตัวอย่าง: `It was such a hot day that we stayed indoors.`"
+      },
+      {
+        "index": 2,
+        "text": "so",
+        "knowledge_ids": [
+          452
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **so** ใช้กับ adjective/adverb เดี่ยว ๆ เช่น `so hot that...` แต่ถ้ามีคำนามตามหลัง (เช่น **day**) ต้องเปลี่ยนเป็น `such a/an + adj + noun + that`"
+      },
+      {
+        "index": 3,
+        "text": "too",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **too** ให้ความหมาย “ร้อนเกินไป” และมักตามด้วย `to + verb` เช่น `too hot to go outside` ไม่ใช่โครงสร้างผลลัพธ์แบบ `... that ...`"
+      },
+      {
+        "index": 4,
+        "text": "very",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด `very hot day` ใช้ได้ในคำบรรยาย แต่ถ้าจะเชื่อมผลลัพธ์ด้วย `that` ต้องใช้ `such ... that` เช่น `such a hot day that...`"
+      }
+    ]
+  },
+  {
+    "question": "The traffic was terrible; ___, we arrived late.",
+    "question_knowledge_ids": [
+      458,
+      451,
+      450
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "consequently",
+        "knowledge_ids": [
+          451
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __consequently__ เป็น **conjunctive adverb** เพื่อบอกผลลัพธ์หลังเหตุการณ์ เช่น `The traffic was terrible; consequently, we arrived late.` แพตเทิร์น: `clause; consequently, clause`"
+      },
+      {
+        "index": 2,
+        "text": "nevertheless",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **nevertheless** แสดงความขัดแย้ง/สวนทาง เช่น `It rained; nevertheless, we played.` แต่ที่นี่ต้องการผลตามเหตุ จึงไม่เหมาะ"
+      },
+      {
+        "index": 3,
+        "text": "because",
+        "knowledge_ids": [
+          447
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **because** ใช้เชื่อมสาเหตุ ไม่ใช่ผล ถ้าใช้ต้องกลับเป็น `We arrived late because the traffic was terrible.`"
+      },
+      {
+        "index": 4,
+        "text": "since",
+        "knowledge_ids": [
+          447
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **since** ในความหมาย “เพราะว่า” ก็เป็นตัวเชื่อมสาเหตุ ไม่ได้ชี้ผลลัพธ์ เช่น `Since the traffic was terrible, we arrived late.` โจทย์นี้ต้องการคำชี้ผลหลัง `;`"
+      }
+    ]
+  },
+  {
+    "question": "He drove too fast; ___, he got a ticket.",
+    "question_knowledge_ids": [
+      458,
+      450
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "thus",
+        "knowledge_ids": [
+          450
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **thus** เป็นคำเชื่อมผลแบบทางการเล็กน้อย แสดงผลที่ตามมา: __clause; thus, clause__ ตัวอย่าง: `He drove too fast; thus, he got a ticket.` สั้น ชัด และบอกเหตุ→ผล"
+      },
+      {
+        "index": 2,
+        "text": "so that",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **so that** มักใช้บอก “วัตถุประสงค์” เช่น `He drove fast so that he could arrive early.` ไม่ใช่การบอกผลลัพธ์แบบตามหลังเหตุการณ์"
+      },
+      {
+        "index": 3,
+        "text": "because",
+        "knowledge_ids": [
+          447
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **because** คือคำเชื่อมเหตุ ถ้าจะใช้ต้องสลับตำแหน่ง เช่น `He got a ticket because he drove too fast.` แต่ที่นี่ต้องการคำชี้ผลหลัง `;`"
+      },
+      {
+        "index": 4,
+        "text": "despite",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **despite** แปลว่า “แม้ว่า/ทั้ง ๆ ที่” ใช้แสดงความขัดแย้ง ไม่ใช่ผลลัพธ์ เช่น `Despite driving fast, he didn't get a ticket.` ซึ่งความหมายสวนทางกับโจทย์"
+      }
+    ]
+  },
+  {
+    "question": "The speaker was ___ boring that many people left early.",
+    "question_knowledge_ids": [
+      452,
+      526
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "so",
+        "knowledge_ids": [
+          452
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้โครงสร้างผลลัพธ์ __so + adjective + that + result__ เช่น `so boring that...` ตัวอย่าง: `The speaker was so boring that many people left early.` ชี้ผลว่า “น่าเบื่อมากจนหลายคนออกก่อนเวลา”"
+      },
+      {
+        "index": 2,
+        "text": "such",
+        "knowledge_ids": [
+          453
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **such** ต้องตามด้วยคำนาม เช่น `such a boring speaker that...` แต่ที่นี่ตามหลังเป็น adjective (**boring**) โดยไม่มีคำนาม จึงต้องใช้ **so**"
+      },
+      {
+        "index": 3,
+        "text": "too",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **too** สื่อความหมาย “เกินไป” และมักตามด้วยส่วนขยายอื่น เช่น `too boring to listen to` ไม่ใช่โครงสร้าง `... that ...` เพื่อบอกผลลัพธ์"
+      },
+      {
+        "index": 4,
+        "text": "enough",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **enough** ใช้ในโครงสร้าง `adjective + enough + to + verb` เช่น `boring enough to...` ซึ่งไม่ใช่รูป `so ... that` ที่ต้องการในประโยคนี้"
+      }
+    ]
+  },
+  {
+    "question": "He made the explanation so clear ___ everyone understood immediately.",
+    "question_knowledge_ids": [
+      449,
+      452,
+      457,
+      458
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "that",
+        "knowledge_ids": [
+          458
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคนี้ใช้โครงสร้าง __so + adjective/adverb + that + result__ จึงต้องตามด้วย **that** เพื่อเชื่อมผลลัพธ์ ตัวอย่าง: `He made the explanation so clear that everyone understood immediately.` แปลว่า “ชัดเจนมากจนทุกคนเข้าใจทันที”"
+      },
+      {
+        "index": 2,
+        "text": "so that",
+        "knowledge_ids": [
+          452,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **so that** มักใช้บอกวัตถุประสงค์ เช่น `He spoke slowly so that everyone could understand.` ที่นี่เป็นโครงสร้างผลลัพธ์ `so ... that` จึงต้องใช้ **that** อย่างเดียว"
+      },
+      {
+        "index": 3,
+        "text": "because",
+        "knowledge_ids": [
+          447,
+          457
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **because** เชื่อมสาเหตุ ไม่ใช่ผลลัพธ์ รูปที่ถูกคือ `so clear that...` ไม่ใช่ `so clear because...`"
+      },
+      {
+        "index": 4,
+        "text": "when",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **when** เป็นคำเชื่อมเวลา ไม่ได้สื่อความหมายเหตุ→ผล เช่น `so clear when everyone understood` ไม่ได้ความหมาย ถูกต้องควรเป็น `so clear that...`"
+      }
+    ]
+  }
+]

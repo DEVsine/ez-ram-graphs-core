@@ -1,0 +1,483 @@
+[
+  {
+    "question": "I stayed home ___ I was sick.",
+    "question_knowledge_ids": [
+      447,
+      454,
+      455,
+      457,
+      459
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "because",
+        "knowledge_ids": [
+          447,
+          457,
+          459
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะต้องตามด้วยประโยคที่มี **ประธาน + กริยา** รูปแบบคือ __because + clause (subject + verb)__ เช่น `I stayed home because I was sick.` ตัวอย่างใช้ได้อีก: `We left early because we were tired.`"
+      },
+      {
+        "index": 2,
+        "text": "because of",
+        "knowledge_ids": [
+          454,
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `because of` ต้องตามด้วย **คำนาม/วลี/กริยาเติม -ing** ไม่ใช่ประโยคเต็ม เช่นควรเป็น `because of illness` ไม่ใช่ `because of I was sick`. ตัวอย่างที่ถูก: `I stayed home because of a fever.`"
+      },
+      {
+        "index": 3,
+        "text": "so",
+        "knowledge_ids": [
+          449,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `so` ใช้แสดงผลลัพธ์ ไม่ใช่เหตุผลในช่องว่างนี้ โครงสร้างจะเป็น `reason, so + result` เช่น `I was sick, so I stayed home.` แต่ประโยคนี้ต้องการสาเหตุ: `... because I was sick.`"
+      },
+      {
+        "index": 4,
+        "text": "due to",
+        "knowledge_ids": [
+          455,
+          461
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `due to` ใช้เหมือน `because of` คือหน้าตามด้วยคำนาม ไม่ใช่ประโยค เช่น `due to illness` ไม่ใช่ `due to I was sick`. ตัวอย่างถูกต้อง: `The flight was delayed due to bad weather.`"
+      }
+    ]
+  },
+  {
+    "question": "___ it was raining, we canceled the picnic.",
+    "question_knowledge_ids": [
+      447,
+      454,
+      457,
+      458,
+      459
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Because",
+        "knowledge_ids": [
+          447,
+          457
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อวางเหตุผลไว้หน้าประโยค ใช้รูปแบบ __Because + clause, + main clause__ และใส่คอมมาแบ่งสองส่วน เช่น `Because it was raining, we canceled the picnic.` ตัวอย่างเพิ่ม: `Because I was tired, I went home early.`"
+      },
+      {
+        "index": 2,
+        "text": "Because of",
+        "knowledge_ids": [
+          454,
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Because of` ต้องตามด้วยคำนาม เช่น `Because of the rain, ...` แต่ที่ตามมาคือประโยค `it was raining` ซึ่งเป็น clause จึงใช้ไม่ได้ในที่นี้. ถ้าจะใช้ให้ถูก: `Because of the rain, we canceled the picnic.`"
+      },
+      {
+        "index": 3,
+        "text": "So",
+        "knowledge_ids": [
+          449,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจาก `So` แปลว่า \"ดังนั้น\" ใช้แสดงผล ไม่ใช่สาเหตุ และไม่วางขึ้นต้นแบบนี้เพื่อให้เหตุผล. โครงสร้างที่ถูกของ `so` คือ `reason, so result` เช่น `It was raining, so we canceled the picnic.`"
+      },
+      {
+        "index": 4,
+        "text": "Although",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Although` ใช้แสดง **ความขัดแย้ง** ไม่ใช่เหตุผล เช่น `Although it was raining, we went on a picnic.` ในข้อนี้ต้องการคำที่บอกสาเหตุ จึงควรใช้ `Because`."
+      }
+    ]
+  },
+  {
+    "question": "She didn't go to the party ___ she had to work late.",
+    "question_knowledge_ids": [
+      447,
+      454,
+      457,
+      459
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "because",
+        "knowledge_ids": [
+          447,
+          457
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคือ __main clause + because + clause__ เพื่อบอกเหตุผลที่ไม่ไปงาน เช่น `She didn't go to the party because she had to work late.` ตัวอย่างเพิ่ม: `I left early because I felt sick.`"
+      },
+      {
+        "index": 2,
+        "text": "because of",
+        "knowledge_ids": [
+          454,
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะตามหลัง `because of` ต้องเป็นคำนาม/วลี ไม่ใช่ประโยคเต็ม `she had to work late`. ถ้าจะใช้ให้ถูก: `She didn't go to the party because of work.` หรือ `... because of her late shift.`"
+      },
+      {
+        "index": 3,
+        "text": "so",
+        "knowledge_ids": [
+          449,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `so` ใช้เชื่อมผลลัพธ์ ไม่ใช่ให้เหตุผลในช่องว่างนี้ รูปแบบ `so` ที่ถูกจะเป็น `She had to work late, so she didn't go to the party.` ดังนั้นที่ช่องว่างควรเป็น `because`."
+      },
+      {
+        "index": 4,
+        "text": "however",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `however` เป็นคำเชื่อมแสดง **การขัดแย้ง** และมักใช้ขึ้นประโยคใหม่ เช่น `She was tired. However, she went to the party.` ในที่นี้เราต้องการเหตุผล จึงต้องใช้ `because`."
+      }
+    ]
+  },
+  {
+    "question": "We left early ___ the traffic was getting worse.",
+    "question_knowledge_ids": [
+      447,
+      454,
+      457,
+      459
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "because",
+        "knowledge_ids": [
+          447,
+          457
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __because + clause (subject + verb)__ เพื่อบอกเหตุผล เช่น `We left early because the traffic was getting worse.` เมื่อ `because` อยู่กลางประโยค โดยทั่วไปไม่ต้องใส่คอมมาก่อน `because` ในประโยคสั้นๆ."
+      },
+      {
+        "index": 2,
+        "text": "because of",
+        "knowledge_ids": [
+          454,
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `because of` ควรเป็นคำนาม เช่น `because of heavy traffic` ไม่ใช่ `the traffic was getting worse` ที่เป็นประโยคเต็ม. รูปแบบที่ถูก: `We left early because of the heavy traffic.`"
+      },
+      {
+        "index": 3,
+        "text": "so",
+        "knowledge_ids": [
+          449,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `so` ใช้ให้ผลลัพธ์ เช่น `The traffic was getting worse, so we left early.` แต่ช่องว่างนี้ต้องการคำบอกเหตุผล จึงควรใช้ `because` ไม่ใช่ `so`."
+      },
+      {
+        "index": 4,
+        "text": "although",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `although` แปลว่า \"แม้ว่า\" ใช้บอกความขัดแย้ง เช่น `We left early although the traffic was light.` แต่ในที่นี้ต้องการเหตุผล ต้องใช้ `because`."
+      }
+    ]
+  },
+  {
+    "question": "I didn't call you ___ my phone battery died.",
+    "question_knowledge_ids": [
+      447,
+      454,
+      450,
+      457,
+      459
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "because",
+        "knowledge_ids": [
+          447,
+          457
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคเหตุผลใช้รูปแบบ __because + clause__ เช่น `I didn't call you because my phone battery died.` ตัวอย่างเพิ่ม: `He stayed home because he felt sick.`"
+      },
+      {
+        "index": 2,
+        "text": "because of",
+        "knowledge_ids": [
+          454,
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะตามหลัง `because of` ต้องเป็นคำนาม เช่น `because of a dead battery` ไม่ใช่ประโยค `my phone battery died`. รูปแบบที่ถูกต้อง: `I didn't call you because of a dead battery.`"
+      },
+      {
+        "index": 3,
+        "text": "so that",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `so that` ใช้บอก **จุดประสงค์** (purpose) ไม่ใช่เหตุผล/สาเหตุ เช่น `I left early so that I could catch the bus.` ประโยคนี้ต้องการเหตุผล จึงใช้ `because`."
+      },
+      {
+        "index": 4,
+        "text": "therefore",
+        "knowledge_ids": [
+          450,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `therefore` เป็นคำกริยาวิเศษณ์เชื่อมผลลัพธ์ มักขึ้นต้นประโยคใหม่ เช่น `My battery died. Therefore, I didn't call you.` ในช่องว่างนี้ต้องใช้คำเชื่อมเหตุผลคือ `because`."
+      }
+    ]
+  },
+  {
+    "question": "Because she was nervous, ___ forgot her lines on stage.",
+    "question_knowledge_ids": [
+      447,
+      449,
+      450,
+      458
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "she",
+        "knowledge_ids": [],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อมีอนุประโยคขึ้นต้นด้วย `Because...` แล้ว ตามด้วยประโยคหลักที่มี **ประธานชัดเจน** รูปแบบคือ __Because + clause, + main clause__. ตัวอย่าง: `Because she was nervous, she forgot her lines on stage.`"
+      },
+      {
+        "index": 2,
+        "text": "therefore she",
+        "knowledge_ids": [
+          450,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่ควรใช้ `because` และ `therefore` พร้อมกัน มันซ้ำความหมายเหตุ-ผลในประโยคเดียว เช่น `Because she was nervous, therefore she forgot...` เป็นโครงสร้างที่ควรหลีกเลี่ยง. ใช้อย่างใดอย่างหนึ่ง: `Because... , she ...` หรือ `She was nervous; therefore, she ...`"
+      },
+      {
+        "index": 3,
+        "text": "so she",
+        "knowledge_ids": [
+          449,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะห้ามใช้ `because ... so ...` ในประโยคเดียวกัน มันซ้ำซ้อน เช่น `Because she was nervous, so she forgot...` ไม่ถูก. ใช้อันเดียวพอ: `Because she was nervous, she forgot...` หรือ `She was nervous, so she forgot...`"
+      },
+      {
+        "index": 4,
+        "text": "although she",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `although` แสดงความขัดแย้ง ไม่ใช่ผลของเหตุผล `Because...` ที่ขึ้นต้นอยู่แล้ว. โครงสร้างที่ถูกควรเป็น `Because she was nervous, she forgot...`"
+      }
+    ]
+  },
+  {
+    "question": "We stayed inside ___ it was extremely cold.",
+    "question_knowledge_ids": [
+      447,
+      454,
+      457,
+      458,
+      459
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "because",
+        "knowledge_ids": [
+          447,
+          457
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพื่อบอกเหตุผลใช้ __because + clause__ เช่น `We stayed inside because it was extremely cold.` ตัวอย่างเพิ่มเติม: `They wore jackets because it was windy.`"
+      },
+      {
+        "index": 2,
+        "text": "because of",
+        "knowledge_ids": [
+          454,
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะตาม `because of` ต้องเป็นคำนาม เช่น `because of the extreme cold` ไม่ใช่ประโยค `it was extremely cold`. ตัวอย่างที่ถูก: `We stayed inside because of the cold weather.`"
+      },
+      {
+        "index": 3,
+        "text": "despite",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `despite` แปลว่า \"ทั้งๆ ที่\" และตามด้วยคำนาม/ -ing เช่น `Despite the cold, we went outside.` ซึ่งสื่อความขัดแย้ง ไม่ใช่สาเหตุ. ที่นี่ต้องการเหตุผล จึงใช้ `because`."
+      },
+      {
+        "index": 4,
+        "text": "so",
+        "knowledge_ids": [
+          449,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `so` แสดงผลลัพธ์ ต้องมีเหตุผลก่อนหน้า เช่น `It was extremely cold, so we stayed inside.` แต่ช่องว่างนี้ต้องการตัวเชื่อมเหตุผล จึงควรใช้ `because`."
+      }
+    ]
+  },
+  {
+    "question": "He took a taxi ___ he didn't want to be late.",
+    "question_knowledge_ids": [
+      447,
+      454,
+      450,
+      457,
+      458,
+      459
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "because",
+        "knowledge_ids": [
+          447,
+          457
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __because + clause__ เพื่อบอกเหตุผลของการกระทำ เช่น `He took a taxi because he didn't want to be late.` ตัวอย่างเพิ่ม: `I brought an umbrella because it might rain.`"
+      },
+      {
+        "index": 2,
+        "text": "for",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด แม้ `for` บางครั้งใช้แปลว่า \"เพราะว่า\" ในภาษาเขียนทางการ แต่โครงสร้างและน้ำเสียงต่างกัน และไม่นิยมในประโยคสนทนาแบบนี้. ใช้ `because` จะตรงและเป็นธรรมชาติกว่า: `... because he didn't want to be late.`"
+      },
+      {
+        "index": 3,
+        "text": "therefore",
+        "knowledge_ids": [
+          450,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `therefore` ใช้ขึ้นต้นประโยคผลลัพธ์ ไม่ใช้เชื่อมกลางประโยคแบบนี้ ตัวอย่างที่ถูก: `He didn't want to be late. Therefore, he took a taxi.` ในช่องว่างนี้ควรใช้ `because`."
+      },
+      {
+        "index": 4,
+        "text": "because of",
+        "knowledge_ids": [
+          454,
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `because of` ต้องตามด้วยคำนาม เช่น `because of his fear of being late` ไม่ใช่ประโยค `he didn't want to be late.` โครงสร้างที่ถูก: `because + clause`."
+      }
+    ]
+  },
+  {
+    "question": "Because I was tired, I ___ to bed early.",
+    "question_knowledge_ids": [
+      447,
+      458
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "went",
+        "knowledge_ids": [],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อต้นประโยคเป็นเหตุผลด้วย `Because ...` ให้ตามด้วยประโยคหลักปกติ รูปแบบคือ __Because + clause, + main clause__. ประโยคที่ถูก: `Because I was tired, I went to bed early.`"
+      },
+      {
+        "index": 2,
+        "text": "so went",
+        "knowledge_ids": [
+          458,
+          460
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นการใช้ `because` คู่กับ `so` ในประโยคเดียวกัน (`Because ..., so ...`) ซึ่งซ้ำซ้อนและผิดโครงสร้าง. ใช้อย่างใดอย่างหนึ่ง: `Because I was tired, I went...` หรือ `I was tired, so I went...`"
+      },
+      {
+        "index": 3,
+        "text": "because went",
+        "knowledge_ids": [
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `because` ใช้ขึ้นต้น **อนุประโยคเหตุผล** ไม่ได้วางหน้ากริยาของประโยคหลักแบบนี้ โครงสร้างที่ถูกคือ `Because I was tired, I went ...` ไม่ใช่ `I because went ...`"
+      },
+      {
+        "index": 4,
+        "text": "go",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกาลเวลาในประโยคบอกเล่าอดีตควรใช้กริยาช่อง 2 `went` ไม่ใช่ `go`. ประโยคที่ถูกต้อง: `Because I was tired, I went to bed early.`"
+      }
+    ]
+  },
+  {
+    "question": "I brought a jacket ___ the forecast said it would be cold.",
+    "question_knowledge_ids": [
+      447,
+      454,
+      457,
+      459
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "because",
+        "knowledge_ids": [
+          447,
+          457
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __because + clause__ เพื่ออธิบายเหตุผล เช่น `I brought a jacket because the forecast said it would be cold.` ตัวอย่างเพิ่ม: `She stayed home because the roads were icy.`"
+      },
+      {
+        "index": 2,
+        "text": "because of",
+        "knowledge_ids": [
+          454,
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `because of` ต้องตามด้วยคำนาม เช่น `because of the forecast` ไม่ใช่ประโยค `the forecast said...`. ตัวอย่างที่ถูก: `I brought a jacket because of the cold forecast.`"
+      },
+      {
+        "index": 3,
+        "text": "although",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `although` บอกความขัดแย้ง ไม่ใช่เหตุผล เช่น `Although the forecast said it would be cold, I didn't bring a jacket.` ที่นี่ต้องการเหตุผล จึงใช้ `because`."
+      },
+      {
+        "index": 4,
+        "text": "so",
+        "knowledge_ids": [
+          449,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `so` ใช้บอกผลลัพธ์ ไม่ใช่เหตุผลในตำแหน่งนี้ โครงสร้างที่ถูกสำหรับ `so` คือ `The forecast said it would be cold, so I brought a jacket.`"
+      }
+    ]
+  }
+]

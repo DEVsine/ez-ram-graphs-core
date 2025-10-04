@@ -1,0 +1,292 @@
+[
+  {
+    "question": "She ___ finish the report on time yesterday.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "couldn't",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **couldn't** เพื่อบอกว่า “ทำไม่ได้” ในอดีต โครงสร้างที่ควรจำคือ __couldn't + base verb__ เช่น `She couldn't finish the report yesterday.` นี่สื่อว่าพยายามแล้วแต่ไม่สำเร็จ เช่น `I couldn't find my keys this morning.`"
+      },
+      {
+        "index": 2,
+        "text": "shouldn't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **shouldn't** ใช้ให้คำแนะนำ/บอกว่าไม่ควรทำ ไม่ได้บอกความสามารถหรือความสำเร็จ/ไม่สำเร็จ เช่น `You shouldn't stay up too late.` ในโจทย์ต้องการสื่อ “ทำไม่ทัน” ในอดีต จึงไม่เข้ากัน"
+      },
+      {
+        "index": 3,
+        "text": "might not",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **might not** สื่อ “อาจจะไม่” (ความเป็นไปได้) ไม่ได้ยืนยันว่า “ไม่สำเร็จ” เหมือน **couldn't** เช่น `She might not finish` = อาจไม่เสร็จ (ยังไม่แน่) แต่โจทย์พูดถึงเมื่อวาน จบไปแล้วและผลคือไม่เสร็จ"
+      },
+      {
+        "index": 4,
+        "text": "mustn't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **mustn't** คือ “ห้าม” (prohibition) ไม่ใช่ “ทำไม่ทัน/ทำไม่ได้” เช่น `You mustn't smoke here.` โจทย์ไม่ได้พูดถึงข้อห้าม แต่พูดถึงความล้มเหลวในอดีต"
+      }
+    ]
+  },
+  {
+    "question": "All employees ___ wear ID badges in the building.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "must",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **must** ใช้แสดง “ข้อบังคับ/ความจำเป็นสูง” โครงสร้างพื้นฐานคือ __must + base verb__ เช่น `Employees must wear badges.` ตัวอย่างใช้จริง: `You must show your ID at the gate.`"
+      },
+      {
+        "index": 2,
+        "text": "should",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **should** เป็นแค่คำแนะนำ ไม่ใช่ข้อบังคับ เช่น `You should wear a jacket.` = ควรใส่ ไม่ได้ “ต้องใส่” ตามกฎ บริษัทมักใช้ภาษาบังคับ จึงต้องใช้ **must**"
+      },
+      {
+        "index": 3,
+        "text": "can",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **can** เน้น “สามารถ/อนุญาตได้” ไม่ใช่ “ต้อง” เช่น `You can wear casual clothes on Friday.` ในโจทย์เป็นกฎข้อบังคับ ต้องใช้ **must**"
+      },
+      {
+        "index": 4,
+        "text": "might",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **might** คือ “อาจจะ” (ความเป็นไปได้ต่ำ) ไม่เกี่ยวกับข้อบังคับ เช่น `It might rain later.` ไม่ตรงความหมายที่ต้องการ"
+      }
+    ]
+  },
+  {
+    "question": "You ___ bring your own water; we provide bottles.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "needn't",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **needn't** แปลว่า “ไม่จำเป็นต้อง” โครงสร้างคือ __needn't + base verb__ เช่น `You needn't bring water.` ใช้กรณีไม่มีความจำเป็น เพราะมีเตรียมไว้ให้แล้ว"
+      },
+      {
+        "index": 2,
+        "text": "mustn't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **mustn't** = “ห้าม” ซึ่งแรงเกินไปและผิดความหมาย โจทย์ต้องการสื่อว่า “ไม่จำเป็น” ไม่ใช่ “ห้าม” ตัวอย่างผิด: `You mustn't bring water.` = ห้ามเอามา"
+      },
+      {
+        "index": 3,
+        "text": "shouldn't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **shouldn't** = “ไม่ควร” (เชิงคำแนะนำ) ไม่ใช่ “ไม่จำเป็น” เช่น `You shouldn't drink too much soda.` โจทย์ต้องการลดภาระ ไม่ใช่เตือน"
+      },
+      {
+        "index": 4,
+        "text": "can't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **can't** = “ไม่สามารถ/ห้าม” ซึ่งสื่อข้อจำกัด ไม่ใช่การยกเลิกความจำเป็น ตัวอย่าง: `You can't enter.` = เข้าไม่ได้/ห้ามเข้า"
+      }
+    ]
+  },
+  {
+    "question": "You ___ back up your files regularly.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "should",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **should** ใช้ให้คำแนะนำที่เหมาะสม โครงสร้างคือ __should + base verb__ เช่น `You should back up your files.` ตัวอย่าง: `You should save your work often to avoid data loss.`"
+      },
+      {
+        "index": 2,
+        "text": "must",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ **must** แข็งกว่า เป็นกฎ/ข้อบังคับ หากต้องการแค่คำแนะนำควรใช้ **should** เช่น `You must submit the form by Friday.` = ต้อง (กฎ)"
+      },
+      {
+        "index": 3,
+        "text": "might",
+        "is_correct": false,
+        "answer_description": "ผิดนิดหน่อย เพราะ **might** ใช้แสดงความเป็นไปได้ ไม่ใช่คำแนะนำ เช่น `It might rain.` ไม่ได้สื่อว่าควรทำอะไร"
+      },
+      {
+        "index": 4,
+        "text": "could",
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง เพราะ **could** มักสื่อ “ความเป็นไปได้/ตัวเลือก” มากกว่าคำแนะนำตรงๆ เช่น `You could back up your files` = ก็ได้ (เป็นหนึ่งในตัวเลือก) แต่บริบทนี้ต้องการคำแนะนำชัดๆ จึงใช้ **should**"
+      }
+    ]
+  },
+  {
+    "question": "It ___ snow tonight according to the forecast.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "might",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **might** แปลว่า “อาจจะ” (ความเป็นไปได้) โครงสร้างคือ __might + base verb__ เช่น `It might snow tonight.` อีกตัวอย่าง: `She might be late.`"
+      },
+      {
+        "index": 2,
+        "text": "must",
+        "is_correct": false,
+        "answer_description": "แรงไปหน่อย เพราะ **must** แปลว่า “ต้อง/แน่ๆ” ใช้เมื่อตัดสินใจเชิงตรรกะที่มั่นใจมาก เช่น `He must be tired after the trip.` พยากรณ์อากาศควรใช้ **might** เพื่อสื่อความไม่แน่นอน"
+      },
+      {
+        "index": 3,
+        "text": "should",
+        "is_correct": false,
+        "answer_description": "ไม่ตรง เพราะ **should** มักสื่อ “ควร” (คำแนะนำ) หรือ “คาดว่า” แต่กับสภาพอากาศที่ไม่แน่ชัด ใช้ **might** จะธรรมชาติกว่า เช่น `It should arrive by 5.` = คาดว่าจะมาถึง"
+      },
+      {
+        "index": 4,
+        "text": "can",
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะ เพราะ **can** สื่อ “สามารถ/ความเป็นไปได้ทั่วไป” ไม่ใช่การคาดการณ์เฉพาะครั้ง เช่น `It can snow in winter.` = โดยทั่วไป ในที่นี้ต้องการ “อาจจะคืนนี้” จึงใช้ **might**"
+      }
+    ]
+  },
+  {
+    "question": "He just called from Tokyo, so he ___ be in New York now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "can't",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **can't** ใช้สำหรับข้อสรุปเชิงตรรกะเชิงลบว่า “เป็นไปไม่ได้” โครงสร้างคือ __can't + base verb__ เช่น `He can't be in New York now.` ตัวอย่าง: `She can't be serious.`"
+      },
+      {
+        "index": 2,
+        "text": "must",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **must** สื่อข้อสรุปเชิงบวกว่า “ต้องเป็นเช่นนั้นแน่” แต่ข้อมูลบอกว่าเพิ่งโทรมาจากโตเกียว จึงตรงข้ามกับนิวยอร์ก ใช้ **can't** เพื่อปฏิเสธความเป็นไปได้"
+      },
+      {
+        "index": 3,
+        "text": "might",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ **might** คือ “อาจจะ” ซึ่งยังเปิดความเป็นไปได้ แต่หลักฐานชัดว่าคนอยู่โตเกียว จึงควรใช้ **can't** เพื่อบอกว่า “ไม่น่าเป็นไปได้”"
+      },
+      {
+        "index": 4,
+        "text": "should",
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย เพราะ **should** มักสื่อความคาดหวังว่า “น่าจะ” เช่น `They should arrive soon.` แต่ข้อมูลขัดแย้งกัน จึงต้องใช้ **can't** เพื่อปฏิเสธ"
+      }
+    ]
+  },
+  {
+    "question": "___ we start the meeting now?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Shall",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **shall** กับ `we/I` เพื่อเสนอแนะหรือชวนทำอะไรด้วยกัน โครงสร้างคือ __Shall + we/I + base verb?__ เช่น `Shall we start now?` และ `Shall I open the window?`"
+      },
+      {
+        "index": 2,
+        "text": "Will",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะในบริบทชวน/เสนอ **Will** มักใช้ถามความตั้งใจหรืออนาคต เช่น `Will you come tomorrow?` การชวนเริ่มประชุมใช้ **Shall we... ?** จะเป็นธรรมชาติกว่า โดยเฉพาะแบบสุภาพ"
+      },
+      {
+        "index": 3,
+        "text": "Should",
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง **Should** ใช้ถามความเห็นเชิงคำแนะนำ เช่น `Should we start now?` ก็พอได้ แต่รูปแบบมาตรฐานของการชวน/เสนอทางเลือกคือ **Shall we... ?**"
+      },
+      {
+        "index": 4,
+        "text": "Can",
+        "is_correct": false,
+        "answer_description": "ไม่แม่นยำ **Can** เน้นความสามารถ/ขออนุญาต เช่น `Can we start now?` = เราเริ่มได้ไหม (ขออนุญาต) แต่โจทย์เป็นการ “ชวนเริ่ม” ซึ่งใช้ **Shall we... ?** ชัดกว่า"
+      }
+    ]
+  },
+  {
+    "question": "___ you possibly explain this problem to me?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Could",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **Could** ใช้ขอความช่วยเหลือแบบสุภาพกว่า **Can** โครงสร้างคือ __Could + you + base verb ... ?__ เช่น `Could you explain this to me?` อีกตัวอย่าง: `Could you help me with my homework?`"
+      },
+      {
+        "index": 2,
+        "text": "Can",
+        "is_correct": false,
+        "answer_description": "แม้ใช้ได้ในชีวิตจริง แต่ความสุภาพน้อยกว่า **Could** โดยเฉพาะเมื่อมีคำว่า `possibly` ที่เน้นความสุภาพ ตัวอย่างที่เหมาะกว่า: `Could you possibly open the window?`"
+      },
+      {
+        "index": 3,
+        "text": "Should",
+        "is_correct": false,
+        "answer_description": "ผิดหน้าที่ **Should** ใช้ให้คำแนะนำ/ถามความเหมาะสม ไม่ใช่ขอให้คนอื่นทำอะไรให้ เช่น `Should I call him?` ในที่นี้เราต้องการคำขอความช่วยเหลือ ใช้ **Could**"
+      },
+      {
+        "index": 4,
+        "text": "Must",
+        "is_correct": false,
+        "answer_description": "ฟังดูบังคับเกินไป **Must** สื่อความจำเป็น/ข้อบังคับ เช่น `You must finish this today.` เวลา “ขอ” อย่างสุภาพควรใช้ **Could you...?**"
+      }
+    ]
+  },
+  {
+    "question": "When we lived by the beach, we ___ go for a swim every morning.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "would",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **would** ใช้เล่าความเคยชินในอดีต (past habit) โครงสร้างคือ __would + base verb__ เช่น `We would swim every morning.` อีกตัวอย่าง: `When I was a kid, my dad would read to me every night.`"
+      },
+      {
+        "index": 2,
+        "text": "could",
+        "is_correct": false,
+        "answer_description": "ไม่ตรง **could** เน้น “ความสามารถ” มากกว่านิสัย เช่น `We could swim` = เราว่ายน้ำเป็น แต่ประโยคนี้เล่า “ทำเป็นประจำ” จึงใช้ **would**"
+      },
+      {
+        "index": 3,
+        "text": "should",
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย **should** = ควร (คำแนะนำ) ไม่ใช่เล่าความเคยชินในอดีต ตัวอย่างถูก: `We should exercise more.` แต่ในโจทย์คือเรื่องเล่าอดีต ต้องใช้ **would**"
+      },
+      {
+        "index": 4,
+        "text": "might",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ **might** สื่อความเป็นไปได้/ความไม่แน่ชัด เช่น `We might go later.` แต่โจทย์เล่าพฤติกรรมที่เกิดขึ้นเป็นประจำในอดีต จึงใช้ **would**"
+      }
+    ]
+  },
+  {
+    "question": "The train left at 9; it ___ arrive by 11.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "should",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **should** ใช้แสดง “ความคาดหวังตามแผน/ปกติ” โครงสร้างคือ __should + base verb__ เช่น `It should arrive by 11.` อีกตัวอย่าง: `They should be here soon.`"
+      },
+      {
+        "index": 2,
+        "text": "must",
+        "is_correct": false,
+        "answer_description": "แรงเกินไป **must** สื่อข้อสรุปมั่นใจมากหรือข้อบังคับ เช่น `He must be home now.` ในที่นี้เป็นการคาดการณ์ตามตารางเวลา จึงใช้ **should** จะเหมาะกว่า"
+      },
+      {
+        "index": 3,
+        "text": "might",
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง **might** คือ “อาจจะ” ความมั่นใจต่ำ แต่ตามตารางรถไฟ เราคาดหวังเวลาถึงได้ค่อนข้างแน่ จึงใช้ **should** เพื่อสื่อความคาดหมายทั่วไป"
+      },
+      {
+        "index": 4,
+        "text": "can",
+        "is_correct": false,
+        "answer_description": "ไม่เข้าบริบท **can** มักสื่อความสามารถหรือความเป็นไปได้ทั่วไป เช่น `Trains can be late.` ประโยคนี้ต้องการคาดการณ์ตามตาราง จึงใช้ **should**"
+      }
+    ]
+  }
+]

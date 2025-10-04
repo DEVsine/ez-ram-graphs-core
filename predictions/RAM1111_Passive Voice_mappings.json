@@ -1,0 +1,549 @@
+[
+  {
+    "question": "Emails ___ to all members every Monday.",
+    "question_knowledge_ids": [
+      290,
+      318,
+      553
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are sent",
+        "knowledge_ids": [
+          290,
+          553
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็น **Present Simple Passive** ใช้กับเหตุการณ์ที่เกิดเป็นประจำ โดยโครงสร้างคือ __`am/is/are + past participle (V3)`__. ตัวอย่าง: `Emails are sent to all members every Monday.` แสดงว่าอีเมลถูกส่งเป็นกิจวัตร ไม่เน้นว่าใครส่ง"
+      },
+      {
+        "index": 2,
+        "text": "send",
+        "knowledge_ids": [
+          547,
+          569
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `send` เป็นรูป **active** (ประธานทำกริยา) และยังไม่สอดคล้องกับประธานพหูพจน์ “Emails” ใน passive ต้องใช้ **be + V3** เช่น `Emails are sent...` ไม่ใช่ `Emails send...`"
+      },
+      {
+        "index": 3,
+        "text": "are sending",
+        "knowledge_ids": [
+          555,
+          556
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous** (`are sending`) ซึ่งใช้กับเหตุการณ์ที่กำลังเกิดตอนนี้ และยังเป็นรูป **active** อีกด้วย ถ้าจะใช้ continuous แบบ passive ต้องเป็น `are being sent` แต่บริบทประจำสัปดาห์ควรใช้ present simple passive: `are sent`"
+      },
+      {
+        "index": 4,
+        "text": "were sent",
+        "knowledge_ids": [
+          290,
+          306,
+          307
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple Passive** (เหตุการณ์ในอดีตจบไปแล้ว) แต่ประโยคพูดถึงกิจวัตรทุกวันจันทร์ ควรใช้ **Present Simple Passive**: `are sent` เช่น `Emails are sent every Monday.`"
+      }
+    ]
+  },
+  {
+    "question": "The novel ___ by George Orwell in 1949.",
+    "question_knowledge_ids": [
+      290,
+      306,
+      307,
+      318
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was published",
+        "knowledge_ids": [
+          290,
+          306,
+          307
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Past Simple Passive** เพราะมีปีระบุชัด (1949) โครงสร้างคือ __`was/were + V3`__. ตัวอย่าง: `The novel was published by George Orwell in 1949.` ใช้ passive เพื่อเน้นผลงาน ไม่เน้นผู้กระทำ"
+      },
+      {
+        "index": 2,
+        "text": "is published",
+        "knowledge_ids": [
+          290,
+          556
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Simple Passive** ซึ่งใช้กับข้อเท็จจริงทั่วไป/กิจวัตร แต่ประโยคมีเวลาอดีตชัดเจน (1949) จึงควรใช้ `was published` เช่น `The novel was published...`"
+      },
+      {
+        "index": 3,
+        "text": "has been published",
+        "knowledge_ids": [
+          419,
+          556
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Perfect Passive** ใช้กับเหตุการณ์อดีตที่เชื่อมถึงปัจจุบัน และไม่ระบุเวลาแน่ชัด หากมีปีชัดเจนควรใช้ **past simple** เช่น `was published in 1949`"
+      },
+      {
+        "index": 4,
+        "text": "published",
+        "knowledge_ids": [
+          547,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยา **be** ในรูป passive โครงสร้างต้องเป็น `be + V3` เช่น `was published` ไม่ใช่ `The novel published...`"
+      }
+    ]
+  },
+  {
+    "question": "The road ___ at the moment.",
+    "question_knowledge_ids": [
+      290,
+      555,
+      318
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is being repaired",
+        "knowledge_ids": [
+          555
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็น **Present Continuous Passive** สำหรับเหตุการณ์ที่กำลังเกิดขึ้นตอนนี้ โดยใช้โครงสร้าง __`am/is/are + being + V3`__. ตัวอย่าง: `The road is being repaired at the moment.` แปลว่า “ถนนกำลังถูกซ่อมอยู่ตอนนี้”"
+      },
+      {
+        "index": 2,
+        "text": "is repaired",
+        "knowledge_ids": [
+          552
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `is repaired` มักสื่อถึงสภาพทั่วไป/ข้อเท็จจริงถาวร ไม่ใช่เหตุการณ์ที่ “กำลัง” เกิดตอนนี้ ถ้าต้องการเน้นกำลังดำเนินอยู่ ให้ใช้ `is being repaired`"
+      },
+      {
+        "index": 3,
+        "text": "is repairing",
+        "knowledge_ids": [
+          291,
+          547
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **active** (ถนนเป็นผู้ซ่อมเอง ซึ่งไม่สมเหตุผล) และโครงสร้าง continuous passive ต้องมี `being` เช่น `is being repaired`"
+      },
+      {
+        "index": 4,
+        "text": "was being repaired",
+        "knowledge_ids": [
+          251,
+          290
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Continuous Passive** ใช้กับอดีตที่กำลังเกิดขึ้น แต่ประโยคมีตัวบ่งชี้เวลาปัจจุบัน `at the moment` ควรใช้ `is being repaired`"
+      }
+    ]
+  },
+  {
+    "question": "All tickets ___ already.",
+    "question_knowledge_ids": [
+      290,
+      419,
+      286
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been sold",
+        "knowledge_ids": [
+          419,
+          290,
+          286
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็น **Present Perfect Passive** ใช้กับผลลัพธ์ที่เกิดแล้วจนถึงปัจจุบัน โดยโครงสร้างคือ __`have/has + been + V3`__. ตัวอย่าง: `All tickets have been sold already.` แปลว่า “ตั๋วทั้งหมดถูกขายไปแล้วตอนนี้”"
+      },
+      {
+        "index": 2,
+        "text": "are sold",
+        "knowledge_ids": [
+          552
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `are sold` สื่อข้อเท็จจริงทั่วไป ไม่เน้นผลลัพธ์ที่เพิ่งเสร็จสิ้น ถ้าต้องการบอกว่า “ตอนนี้หมดแล้ว” ควรใช้ **present perfect passive**: `have been sold`"
+      },
+      {
+        "index": 3,
+        "text": "were sold",
+        "knowledge_ids": [
+          306,
+          290
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นอดีตเรียบ (past simple) แต่คำว่า `already` มักใช้เน้นผลปัจจุบันที่เสร็จแล้ว เหมาะกับ **present perfect** มากกว่า เช่น `have been sold already`"
+      },
+      {
+        "index": 4,
+        "text": "have sold",
+        "knowledge_ids": [
+          430,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **active** (ต้องมีผู้กระทำ) และขาด `been` ใน passive โครงสร้างที่ถูกคือ `have been sold` ไม่ใช่ `have sold`"
+      }
+    ]
+  },
+  {
+    "question": "This device ___ carefully.",
+    "question_knowledge_ids": [
+      423,
+      430,
+      432
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "must be handled",
+        "knowledge_ids": [
+          423,
+          430,
+          432
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **Modal Passive** ใช้กับความจำเป็น/คำแนะนำ โดยโครงสร้างคือ __`modal + be + V3`__ เช่น `must be handled`. ตัวอย่าง: `This device must be handled carefully.` แปลว่า “อุปกรณ์นี้ต้องถูกใช้อย่างระมัดระวัง”"
+      },
+      {
+        "index": 2,
+        "text": "must handle",
+        "knowledge_ids": [
+          430,
+          547
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **active** (ใครต้อง handle?) และไม่ตรงกับการเน้นวัตถุที่ถูกกระทำ ถ้าจะใช้ passive ต้องเป็น `must be handled`"
+      },
+      {
+        "index": 3,
+        "text": "must be handling",
+        "knowledge_ids": [
+          431,
+          556
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `must be handling` เป็นรูปต่อเนื่องและยังสื่อความเป็น active มากกว่า รูป passive มาตรฐานกับ modal คือ `modal + be + V3` เช่น `must be handled`"
+      },
+      {
+        "index": 4,
+        "text": "must handled",
+        "knowledge_ids": [
+          291,
+          295
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาด `be` และใช้รูป V3 ติดกับ modal โดยตรง ซึ่งผิดโครงสร้าง ควรเป็น `must be handled` (modal + be + V3)"
+      }
+    ]
+  },
+  {
+    "question": "He ___ by a bee yesterday.",
+    "question_knowledge_ids": [
+      299,
+      306,
+      311
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "got stung",
+        "knowledge_ids": [
+          299,
+          306,
+          311
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **get-passive** ในอดีตเรียบ โครงสร้างคือ __`get + V3`__ เพื่อสื่อว่าโดนกระทำ (มักให้ความรู้สึกเกิดขึ้นกับผู้รับผล) ตัวอย่าง: `He got stung by a bee yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "was got stung",
+        "knowledge_ids": [
+          556
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นการผสมโครงสร้างซ้อนกัน (`was` + `got` + V3) ซึ่งไม่ถูก ต้องเลือกอย่างใดอย่างหนึ่ง: `was stung` (be-passive) หรือ `got stung` (get-passive)"
+      },
+      {
+        "index": 3,
+        "text": "was stunged",
+        "knowledge_ids": [
+          291,
+          295
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ V3 ไม่ถูกต้อง คำกริยา `sting` รูป V3 คือ `stung` ไม่ใช่ `stunged` ตัวอย่างที่ถูก: `He was stung by a bee.`"
+      },
+      {
+        "index": 4,
+        "text": "got sting",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `get` ต้องใช้รูป **V3** ไม่ใช่ V1 ดังนั้นควรเป็น `got stung` ไม่ใช่ `got sting` เช่น `He got stung...`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ a promotion last year.",
+    "question_knowledge_ids": [
+      290,
+      306,
+      311
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was given",
+        "knowledge_ids": [
+          290,
+          306,
+          311
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะใช้ **Passive กับกริยาที่มีกรรมสองตัว** (give) โครงสร้างคือ __`was/were + V3`__ และวางกรรมทางอ้อมเป็นประธาน: `She was given a promotion last year.` เน้นว่าผู้รับ “ถูกให้” ไม่เน้นผู้ให้"
+      },
+      {
+        "index": 2,
+        "text": "gave",
+        "knowledge_ids": [
+          547
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **active** และต้องมีกรรมตรงชัดเจน เช่น `She gave him a promotion.` แต่ประโยคนี้ต้องการเน้นว่าเธอเป็นผู้รับ ไม่ใช่ผู้ให้ จึงควรใช้ `was given`"
+      },
+      {
+        "index": 3,
+        "text": "was giving",
+        "knowledge_ids": [
+          251,
+          556
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Continuous Active/Passive** ที่สื่อกำลังกระทำในอดีต และยังขาดกรรมให้ครบความหมาย ใช้รูปอดีตเรียบ passive ให้ตรงจุด: `was given`"
+      },
+      {
+        "index": 4,
+        "text": "has given",
+        "knowledge_ids": [
+          419,
+          382
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Perfect Active** (เธอเป็นผู้ให้) ซึ่งขัดกับความหมายที่ต้องการเน้นผู้รับ ถ้าจะเน้นผู้รับให้ใช้ passive: `was given` (มีเวลาอดีตชัด “last year”)"
+      }
+    ]
+  },
+  {
+    "question": "The new policy ___ by many employees.",
+    "question_knowledge_ids": [
+      290,
+      548
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is complained about",
+        "knowledge_ids": [
+          548,
+          290
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็น **Passive กับกริยาตามด้วยบุพบท** โครงสร้างคือ __`be + V3 + preposition`__ โดยต้องรักษาบุพบท `about` ไว้ด้วย ตัวอย่าง: `The new policy is complained about by many employees.`"
+      },
+      {
+        "index": 2,
+        "text": "is complained",
+        "knowledge_ids": [
+          548,
+          556
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกริยา `complain` ต้องมีบุพบท `about` เสมอในความหมายนี้ ถ้าเป็น passive ต้องคง `about` ไว้: `is complained about` ไม่ใช่ `is complained`"
+      },
+      {
+        "index": 3,
+        "text": "is about complained",
+        "knowledge_ids": [
+          548,
+          556
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสลับตำแหน่งคำ โครงสร้างต้องเป็น `be + V3 + preposition` เช่น `is complained about` ไม่ใช่ `is about complained`"
+      },
+      {
+        "index": 4,
+        "text": "complains about",
+        "knowledge_ids": [
+          548,
+          547
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **active** (ใครเป็นผู้บ่น?) และรูปกริยา `complains` ยังเป็นเอกพจน์ ไม่ตรงกับการเน้นนโยบายที่ถูกบ่นถึง ควรใช้ passive: `is complained about`"
+      }
+    ]
+  },
+  {
+    "question": "I want ___ by an expert.",
+    "question_knowledge_ids": [
+      549,
+      550
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "to be guided",
+        "knowledge_ids": [
+          549,
+          550
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Passive Infinitive** เพื่อบอกความต้องการ “ถูกทำ” โครงสร้างคือ __`to be + V3`__. ตัวอย่าง: `I want to be guided by an expert.` แปลว่า “ฉันอยากได้รับการแนะนำโดยผู้เชี่ยวชาญ”"
+      },
+      {
+        "index": 2,
+        "text": "be guided",
+        "knowledge_ids": [
+          549,
+          556
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `want` ต้องใช้ `to-infinitive` จึงต้องมี `to` นำหน้า รูปที่ถูกคือ `to be guided` ไม่ใช่ `be guided`"
+      },
+      {
+        "index": 3,
+        "text": "to being guided",
+        "knowledge_ids": [
+          549,
+          556
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ `to` ตามด้วย **gerund** ซึ่งไม่ถูกกับ `want` ปกติ `want` ใช้ `to + V1` หากต้องการ passive ให้เป็น `to be guided`"
+      },
+      {
+        "index": 4,
+        "text": "to guide",
+        "knowledge_ids": [
+          550
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **active infinitive** (ฉันอยากแนะนำคนอื่น) แต่ประโยคต้องการความหมาย “อยากถูกแนะนำ” จึงต้องใช้ passive: `to be guided`"
+      }
+    ]
+  },
+  {
+    "question": "The window ___ by the end of the day.",
+    "question_knowledge_ids": [
+      225,
+      215,
+      290,
+      553
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be fixed",
+        "knowledge_ids": [
+          225,
+          215,
+          290
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **Future Simple Passive** ใช้กับสิ่งที่จะถูกทำให้เสร็จในอนาคต โครงสร้างคือ __`will be + V3`__. ตัวอย่าง: `The window will be fixed by the end of the day.`"
+      },
+      {
+        "index": 2,
+        "text": "will fix",
+        "knowledge_ids": [
+          547
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **active** และยังไม่ระบุผู้กระทำ หากต้องการเน้นว่าหน้าต่าง “จะถูกซ่อม” ต้องใช้ passive: `will be fixed`"
+      },
+      {
+        "index": 3,
+        "text": "is fixing",
+        "knowledge_ids": [
+          556
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous Active** ไม่สอดคล้องกับตัวบ่งชี้เวลาอนาคต `by the end of the day` รูปที่ถูกคือ `will be fixed`"
+      },
+      {
+        "index": 4,
+        "text": "will be fixing",
+        "knowledge_ids": [
+          224
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Future Continuous Passive** ซึ่งเน้น “กำลังดำเนินอยู่ในอนาคต” ไม่ใช่ “เสร็จสิ้นภายในกำหนด” กับ `by the end of the day` ควรใช้ `will be fixed`"
+      }
+    ]
+  },
+  {
+    "question": "The instructions ___ in several languages.",
+    "question_knowledge_ids": [
+      290,
+      546,
+      553
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are written",
+        "knowledge_ids": [
+          290,
+          553
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Present Simple Passive** เพื่อบอกลักษณะทั่วไป/สภาพถาวร โครงสร้างคือ __`am/is/are + V3`__. ตัวอย่าง: `The instructions are written in several languages.` หมายถึง “คู่มือถูกเขียนไว้หลายภาษา”"
+      },
+      {
+        "index": 2,
+        "text": "are writing",
+        "knowledge_ids": [
+          291,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous Active** (ใครกำลังเขียน?) ไม่ตรงกับการอธิบายสภาพของคู่มือ ถ้าจะใช้ passive ต้องเป็น `are written`"
+      },
+      {
+        "index": 3,
+        "text": "were written",
+        "knowledge_ids": [
+          290,
+          553
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นอดีตเรียบ ถ้าต้องการบอกสภาพทั่วไป/คุณสมบัติในปัจจุบัน ควรใช้ **present simple passive**: `are written`"
+      },
+      {
+        "index": 4,
+        "text": "have written",
+        "knowledge_ids": [
+          419,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **present perfect active** และขาดกรรมผู้กระทำให้ชัดเจน ใน passive ต้องใช้ `have/has been + V3` หรือสำหรับสภาพทั่วไปใช้ `are written`"
+      }
+    ]
+  }
+]

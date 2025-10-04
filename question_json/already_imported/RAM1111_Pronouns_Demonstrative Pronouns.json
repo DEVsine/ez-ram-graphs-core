@@ -1,0 +1,321 @@
+[
+  {
+    "question": "___ is my favorite mug.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "This",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **demonstrative pronoun** แบบเอกพจน์ใกล้ตัวคือ __this__ เมื่อชี้สิ่งของที่อยู่ใกล้เรา โครงสร้างพื้นฐาน: __`this + singular noun`__ เช่น `This mug is my favorite.` หรือใช้เดี่ยวๆเป็นสรรพนามก็ได้: `This is my favorite mug.`"
+      },
+      {
+        "index": 2,
+        "text": "These",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **these** ใช้กับพหูพจน์ใกล้ตัว ไม่เข้ากับนามเอกพจน์อย่าง `mug` โครงสร้างที่ถูกต้องสำหรับพหูพจน์คือ `these + plural noun` เช่น `These mugs are new.` แต่ในประโยคนี้พูดถึงแก้วใบเดียว ต้องใช้ `this`."
+      },
+      {
+        "index": 3,
+        "text": "That",
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะ เพราะ **that** ใช้กับสิ่งที่อยู่ไกลตัว (เอกพจน์) ประโยคนี้ปกติหมายถึงแก้วที่เราถือหรืออยู่ใกล้ เลยควรใช้ `this` ตัวอย่างความต่าง: `This is my favorite mug (ใกล้).` vs `That is my favorite mug (ไกล).`"
+      },
+      {
+        "index": 4,
+        "text": "Those",
+        "is_correct": false,
+        "answer_description": "ผิดสองจุดเลย คือ **those** ใช้กับพหูพจน์และสิ่งที่ไกล ในประโยคนี้เป็นเอกพจน์และสื่อถึงของใกล้ ควรใช้ `this` แทน เช่น `Those mugs are on the shelf.` ใช้ได้เมื่อพูดถึงหลายใบและอยู่ไกล."
+      }
+    ]
+  },
+  {
+    "question": "Look at ___! The mountains are beautiful.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "those",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะพูดถึงภูเขาหลายลูกที่อยู่ไกล ใช้ __`those`__ สำหรับพหูพจน์ไกลตัว โครงสร้างที่พบบ่อย: __`those + plural noun`__ เช่น `Those mountains are beautiful.`"
+      },
+      {
+        "index": 2,
+        "text": "that",
+        "is_correct": false,
+        "answer_description": "ผิดจำนวน เพราะ **that** ใช้กับเอกพจน์ไกลตัว แต่ที่นี่พูดถึง `mountains` หลายลูก ควรเป็น `those` เช่น `That mountain is high.` (ลูกเดียว) แต่หลายลูกต้อง `Those mountains are high.`"
+      },
+      {
+        "index": 3,
+        "text": "this",
+        "is_correct": false,
+        "answer_description": "ผิดระยะและจำนวน **this** ใช้เอกพจน์ใกล้ตัว ไม่เข้ากับ `mountains` ที่เป็นพหูพจน์และอยู่ไกล ตัวอย่างที่ถูกกับใกล้และเอกพจน์: `This mountain is steep.`"
+      },
+      {
+        "index": 4,
+        "text": "these",
+        "is_correct": false,
+        "answer_description": "ผิดระยะ เพราะ **these** ใช้พหูพจน์ใกล้ตัว แต่บริบทบอกถึงภูเขาที่เรามองอยู่ไกล ควรใช้ `those` เช่น `These mountains are behind my house.` (ใกล้) แต่ถ้าไกล: `Those mountains are far away.`"
+      }
+    ]
+  },
+  {
+    "question": "I don't like ___ kind of joke.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "this",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะรูปแบบมาตรฐานคือ __`this kind of + singular noun`__ เมื่อพูดถึงประเภทโดยรวม เช่น `this kind of joke` ตัวอย่างใช้จริง: `I don't like this kind of music.` เป็นการชี้ชนิดเดียวแบบใกล้หรือที่กำลังพูดถึงอยู่"
+      },
+      {
+        "index": 2,
+        "text": "these",
+        "is_correct": false,
+        "answer_description": "ผิดบ่อยมาก! ไม่ใช้ `these kind of ...` เพราะ **kind** เป็นเอกพจน์ ต้องใช้ `this kind of ...` ถ้าจะใช้ `these` ต้องทำ `kinds` ให้เป็นพหูพจน์: `these kinds of jokes`"
+      },
+      {
+        "index": 3,
+        "text": "that",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่คำตอบที่ดีที่สุดในบริบทอดีฟอลต์ แม้ `that kind of joke` จะถูกหลัก แต่ประโยคทั่วไปที่พูดถึงประเภทที่กำลังกล่าวถึงนิยมใช้ `this` มากกว่า เช่น `I don't like this kind of joke.` ถ้าจะเน้นไกล/ห่างไอเดียค่อยใช้ `that`"
+      },
+      {
+        "index": 4,
+        "text": "those",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะ `those` ต้องคู่กับพหูพจน์ และถ้าใช้กับ `kind` ต้องเปลี่ยนเป็น `kinds`: `those kinds of jokes` แต่ในประโยคนี้ต้องการรูปเอกพจน์มาตรฐานคือ `this kind of joke`"
+      }
+    ]
+  },
+  {
+    "question": "Who is ___ over there by the door?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "that",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __`that`__ เมื่อชี้คน/สิ่งของที่อยู่ไกล เช่นมีคำบอกตำแหน่ง `over there` โครงสร้างตัวอย่าง: __`that + noun`__ หรือใช้เป็นสรรพนามได้: `Who is that?`"
+      },
+      {
+        "index": 2,
+        "text": "this",
+        "is_correct": false,
+        "answer_description": "ผิดระยะ เพราะ **this** ใช้กับสิ่งที่อยู่ใกล้ผู้พูด แต่ในประโยคมี `over there` ชัดเจนว่าไกล ควรเป็น `that` เช่น `Who is that over there?`"
+      },
+      {
+        "index": 3,
+        "text": "these",
+        "is_correct": false,
+        "answer_description": "ผิดจำนวน **these** เป็นพหูพจน์ แต่ `Who is ...?` ใช้เอกพจน์ และชี้คนคนเดียว ใช้ `that` ดีกว่า ถ้าหลายคนค่อยใช้ `Who are those people over there?`"
+      },
+      {
+        "index": 4,
+        "text": "those",
+        "is_correct": false,
+        "answer_description": "ผิดรูปประโยค เพราะ `Who is ...?` เป็นเอกพจน์ ขณะที่ **those** เป็นพหูพจน์ ถ้าจะใช้ those ต้องเปลี่ยนกริยาเป็น `are` และนามพหูพจน์: `Who are those people over there?`"
+      }
+    ]
+  },
+  {
+    "question": "Are ___ your keys here on the table?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "these",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ `keys` เป็นพหูพจน์และอยู่ใกล้ (here) ใช้ __`these`__ โครงสร้างพื้นฐาน: __`these + plural noun`__ เช่น `Are these your keys?` หรือ `These keys are yours.`"
+      },
+      {
+        "index": 2,
+        "text": "this",
+        "is_correct": false,
+        "answer_description": "ผิดจำนวน **this** ใช้เอกพจน์ ขณะที่ `keys` เป็นพหูพจน์ ควรใช้ `these` ตัวอย่างเปรียบเทียบ: `Is this your key?` (กุญแจดอกเดียว) vs `Are these your keys?` (หลายดอก)"
+      },
+      {
+        "index": 3,
+        "text": "that",
+        "is_correct": false,
+        "answer_description": "ผิดระยะและจำนวน `that` คือเอกพจน์ไกลตัว แต่บริบทมี `here on the table` หมายถึงใกล้และเป็นพหูพจน์ ควรใช้ `these` แทน เช่น `These keys here are mine.`"
+      },
+      {
+        "index": 4,
+        "text": "those",
+        "is_correct": false,
+        "answer_description": "ผิดระยะ **those** ใช้พหูพจน์แต่ไกลตัว ในเมื่อมีคำว่า `here` แสดงว่าใกล้ ต้องใช้ `these` เช่น `Those keys over there are yours.` ใช้ได้เมื่อของอยู่ไกล"
+      }
+    ]
+  },
+  {
+    "question": "___ is what I meant.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "This",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __`This`__ เพื่ออ้างถึงแนวคิด/ประโยค/สิ่งที่เพิ่งพูดไป (discourse reference) โครงสร้างเน้นใจความ: __`This is + clause/noun phrase`__ เช่น `This is what I meant.` หรือ `This is exactly my point.`"
+      },
+      {
+        "index": 2,
+        "text": "These",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ **these** มักใช้กับสิ่งของนับได้หลายชิ้น ไม่ใช่การสรุปแนวคิดเดี่ยวๆ ตัวอย่างที่ผิด: `These is what I meant.` (กริยาก็ไม่เข้ากัน) ใช้ `This is what I meant.` จะชัดกว่า"
+      },
+      {
+        "index": 3,
+        "text": "That",
+        "is_correct": false,
+        "answer_description": "แม้บางบริบทจะใช้ `That` เพื่อชี้ไอเดียที่ห่างไปแล้วได้ แต่เมื่อสรุปสิ่งที่เพิ่งอธิบายหรือกำลังชี้ให้ดู นิยมใช้ `This` มากกว่า เช่น `This is what I mean right now.`"
+      },
+      {
+        "index": 4,
+        "text": "Those",
+        "is_correct": false,
+        "answer_description": "ผิดทั้งจำนวนและหน้าที่ **those** ใช้กับนามพหูพจน์ไกลตัว ไม่ใช้สรุปแนวคิดเดี่ยวๆ ตัวอย่างที่ถูก: `Those books are mine.` แต่ประโยคนี้ต้องการ `This is what I meant.`"
+      }
+    ]
+  },
+  {
+    "question": "I’ll take ___ one here on the left, please.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "this",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะชี้สิ่งของที่อยู่ใกล้ด้วยคำว่า `here` และระบุชิ้นเดียว ใช้ __`this one`__ โครงสร้างชัดๆ: __`this + one`__ เช่น `I'll take this one.` หรือ `This one is cheaper.`"
+      },
+      {
+        "index": 2,
+        "text": "that",
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรงบริบท เพราะมีคำว่า `here` แปลว่าใกล้ ควรใช้ `this` ถ้าของอยู่ไกลค่อยใช้ `that one` เช่น `I'll take that one over there.`"
+      },
+      {
+        "index": 3,
+        "text": "these",
+        "is_correct": false,
+        "answer_description": "ผิดจำนวน **these** ใช้พหูพจน์ แต่ประโยคมีคำว่า `one` แสดงว่าเลือก 1 ชิ้น ต้องใช้ `this one` หรือ `that one` ตามระยะ เช่น `These ones` ก็ไม่เป็นทางการและเลี่ยงใช้"
+      },
+      {
+        "index": 4,
+        "text": "those",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **those** เป็นพหูพจน์และมักหมายถึงของไกล ขัดกับ `here` และ `one` ที่เป็นเอกพจน์ ตัวอย่างที่ถูกต้อง: `I'll take this one here.`"
+      }
+    ]
+  },
+  {
+    "question": "How much is ___? (pointing at a dress in the shop window across the street)",
+    "choices": [
+      {
+        "index": 1,
+        "text": "that",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะชี้สิ่งที่อยู่ไกล (ข้ามถนน ในตู้โชว์) ใช้ __`that`__ สำหรับเอกพจน์ไกลตัว โครงสร้างถามราคา: __`How much is that?`__ เช่น `How much is that dress?`"
+      },
+      {
+        "index": 2,
+        "text": "this",
+        "is_correct": false,
+        "answer_description": "ผิดระยะ **this** ใช้กับของใกล้ตัว แต่บริบทบอกว่าอยู่ไกล ควรใช้ `that` เช่น `How much is this?` ใช้เมื่อของอยู่ตรงหน้าเรา"
+      },
+      {
+        "index": 3,
+        "text": "these",
+        "is_correct": false,
+        "answer_description": "ผิดจำนวน **these** ใช้พหูพจน์ แต่คำถามใช้ `is` และชี้ไปที่ `a dress` (ชิ้นเดียว) ตัวอย่างพหูพจน์: `How much are these shoes?`"
+      },
+      {
+        "index": 4,
+        "text": "those",
+        "is_correct": false,
+        "answer_description": "ไม่เข้ากับกริยา `is` เพราะ **those** เป็นพหูพจน์ ต้องใช้ `are` แทน ถ้าจะถามหลายชิ้นไกล: `How much are those dresses?` แต่ที่นี่เป็นชิ้นเดียวจึงใช้ `that`"
+      }
+    ]
+  },
+  {
+    "question": "___ are not ripe; let's pick others from that tree.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "These",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะพูดถึงของหลายชิ้นที่อยู่ใกล้เรา ใช้ __`These + are`__ สำหรับพหูพจน์ใกล้ตัว ตัวอย่าง: __`These are not ripe.`__ หรือ `These apples are not ripe.`"
+      },
+      {
+        "index": 2,
+        "text": "This",
+        "is_correct": false,
+        "answer_description": "ผิดจำนวน **This** เป็นเอกพจน์ แต่ประโยคใช้กริยา `are` และสื่อถึงหลายชิ้น ควรใช้ `These` เช่น `This is not ripe.` จะใช้เมื่อมีชิ้นเดียว"
+      },
+      {
+        "index": 3,
+        "text": "That",
+        "is_correct": false,
+        "answer_description": "ไม่ตรงระยะและจำนวน **That** คือเอกพจน์ไกลตัว ขัดกับบริบทที่พูดถึงของหลายชิ้นใกล้เรา ถ้าจะพูดถึงของไกลหลายชิ้นให้ใช้ `Those are not ripe.`"
+      },
+      {
+        "index": 4,
+        "text": "Those",
+        "is_correct": false,
+        "answer_description": "ผิดระยะ เพราะประโยคต่อมาชี้ไปที่ `that tree` (ต้นนั้นไกล) ทำให้ของชุดแรกควรเป็นของใกล้เรา จึงใช้ `These` ถ้าของชุดแรกอยู่ไกล ค่อยใช้ `Those are not ripe.`"
+      }
+    ]
+  },
+  {
+    "question": "Is ___ water clean enough to drink?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "this",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ `water` เป็นนามนับไม่ได้และมองเป็นหน่วยเดียวใกล้ตัว ใช้ __`this + uncountable noun`__ ได้ เช่น `this water` ตัวอย่าง: __`Is this water clean?`__ หรือ `This water tastes strange.`"
+      },
+      {
+        "index": 2,
+        "text": "these",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **these** ใช้กับพหูพจน์นับได้ ไม่ใช้กับนามนับไม่ได้อย่าง `water` ถ้าจะแยกเป็นภาชนะหลายชิ้น ค่อยใช้ `these bottles of water`"
+      },
+      {
+        "index": 3,
+        "text": "that",
+        "is_correct": false,
+        "answer_description": "แม้ใช้ได้ถ้าชี้ของไกล แต่จากบริบทถามของที่อยู่ตรงหน้า (จะดื่ม) ใช้ `this` ชัดกว่า เช่น `Is that water clean enough to drink?` จะใช้เมื่ออยู่ไกล"
+      },
+      {
+        "index": 4,
+        "text": "those",
+        "is_correct": false,
+        "answer_description": "ผิดสองชั้น ทั้งระยะและชนิดนาม **those** ใช้พหูพจน์และของไกล แต่ `water` เป็นนามนับไม่ได้เอกภาพ เช่น `Those glasses of water are mine.` ได้ แต่ไม่ใช่ `those water`"
+      }
+    ]
+  },
+  {
+    "question": "___ is my classmate from Japan.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "This",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เวลาแนะนำคนที่อยู่ใกล้เรา ใช้ __`This is + person`__ ได้สุภาพและธรรมชาติ เช่น __`This is my classmate.`__ หรือ `This is Yuki, my classmate from Japan.`"
+      },
+      {
+        "index": 2,
+        "text": "These",
+        "is_correct": false,
+        "answer_description": "ผิดจำนวน **These** ใช้พหูพจน์ แต่ประโยคนี้เป็นเอกพจน์และตามด้วย `is` ถ้าจะแนะนำหลายคนค่อยใช้ `These are my classmates.`"
+      },
+      {
+        "index": 3,
+        "text": "That",
+        "is_correct": false,
+        "answer_description": "ไม่เป็นธรรมชาติเท่า `This` ในการแนะนำคนที่อยู่ใกล้เรา ปกติใช้ `This is ...` แต่ถ้าคนอยู่ไกลหรือต้องการชี้ไปไกลจริงๆ ค่อยใช้ `That is my classmate.`"
+      },
+      {
+        "index": 4,
+        "text": "Those",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **those** เป็นพหูพจน์และเข้าคู่กับ `are` ไม่ใช่ `is` ตัวอย่างที่ถูก: `Those are my classmates.` แต่ประโยคนี้เป็นเอกพจน์ใกล้ตัว ควรใช้ `This`"
+      }
+    ]
+  }
+]

@@ -1,0 +1,558 @@
+[
+  {
+    "question": "You can drive, ___?",
+    "question_knowledge_ids": [
+      410,
+      576,
+      569,
+      420,
+      416
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "can't you?",
+        "knowledge_ids": [
+          576,
+          410,
+          420
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะแท็กคำถามต้องสลับขั้วจากบอกเล่าเป็นปฏิเสธ และใช้กริยาช่วยตัวเดิมจากประโยคหลัก คือ **can** จึงได้ __`can't + subject pronoun`__ → `can't you?` ตัวอย่าง: `You can swim, can't you?`"
+      },
+      {
+        "index": 2,
+        "text": "can you?",
+        "knowledge_ids": [
+          577,
+          410,
+          420
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคหลักเป็นบอกเล่า (`You can drive`) แท็กต้องเป็นปฏิเสธ ไม่ใช่บอกเล่าอีกครั้ง รูปที่ถูกควรเป็น `can't you?` เช่น: `You can speak Thai, can't you?`"
+      },
+      {
+        "index": 3,
+        "text": "can't you",
+        "knowledge_ids": [
+          410,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดเครื่องหมายคำถาม และรูปแท็กควรครบถ้วนในรูปแบบ `aux + n't + subject + ?` เช่น `can't you?` การลืม `?` ทำให้ประโยคไม่เป็นแท็กคำถามสมบูรณ์"
+      },
+      {
+        "index": 4,
+        "text": "do you?",
+        "knowledge_ids": [
+          410,
+          569
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ **do** แทนที่จะใช้กริยาช่วยตัวเดียวกับในประโยคหลักที่เป็น **can** แท็กต้องใช้กริยาช่วยตัวเดิม เช่น: `You can help, can't you?` ไม่ใช่ `do you?`"
+      }
+    ]
+  },
+  {
+    "question": "She isn't ready, ___?",
+    "question_knowledge_ids": [
+      410,
+      577,
+      570,
+      416
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is she?",
+        "knowledge_ids": [
+          577,
+          410,
+          570
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคหลักเป็นปฏิเสธ (`isn't`) แท็กต้องเป็นบอกเล่าโดยใช้กริยา **be** ตัวเดียวกันและสรรพนามตรงกับประธาน จึงได้ __`is + she?`__ ตัวอย่าง: `She isn't hungry, is she?`"
+      },
+      {
+        "index": 2,
+        "text": "isn't she?",
+        "knowledge_ids": [
+          576,
+          410,
+          570
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะแท็กต้องสลับขั้วจากปฏิเสธเป็นบอกเล่า ไม่ใช่ปฏิเสธซ้ำ หากประโยคหลักเป็นลบ (`isn't`) แท็กควรเป็น `is she?` เช่น: `He isn't here, is he?`"
+      },
+      {
+        "index": 3,
+        "text": "does she?",
+        "knowledge_ids": [
+          410,
+          569
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคใช้กริยา **be** (is) ไม่ใช่กริยาแท้ที่ต้องใช้ **do-support** แท็กจึงต้องใช้ `is` ไม่ใช่ `does` เช่น: `She is tired, isn't she?`"
+      },
+      {
+        "index": 4,
+        "text": "are she?",
+        "knowledge_ids": [
+          410,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะจับคู่ **are** กับประธานเอกพจน์ **she** ไม่ได้ ควรใช้ `is she?` เช่น: `She isn't late, is she?`"
+      }
+    ]
+  },
+  {
+    "question": "He didn't see the movie, ___?",
+    "question_knowledge_ids": [
+      410,
+      577,
+      569,
+      420
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "did he?",
+        "knowledge_ids": [
+          577,
+          410,
+          420
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคหลักเป็นปฏิเสธด้วย **didn't** แท็กต้องเป็นบอกเล่าด้วยกริยาช่วยตัวเดียวกัน จึงได้ __`did + subject?`__ → `did he?` ตัวอย่าง: `They didn't call, did they?`"
+      },
+      {
+        "index": 2,
+        "text": "didn't he?",
+        "knowledge_ids": [
+          576,
+          410,
+          420
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะแท็กต้องสลับขั้วจากปฏิเสธเป็นบอกเล่า ไม่ใช่ปฏิเสธซ้ำ เมื่อประโยคมี `didn't` แล้ว แท็กควรเป็น `did he?`"
+      },
+      {
+        "index": 3,
+        "text": "does he?",
+        "knowledge_ids": [
+          410,
+          569
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกาลในประโยคคืออดีต (**didn't see**) แท็กจึงต้องใช้ **did** ไม่ใช่ **does** ตัวอย่างที่ถูก: `He didn't go, did he?`"
+      },
+      {
+        "index": 4,
+        "text": "was he?",
+        "knowledge_ids": [
+          410,
+          570
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ **be (was)** แทน **do (did)** ทั้งที่ประโยคหลักใช้กริยาช่วย do ในอดีต แท็กต้องตรงชนิดเดียวกัน เช่น `did he?` ไม่ใช่ `was he?`"
+      }
+    ]
+  },
+  {
+    "question": "They watch TV every night, ___?",
+    "question_knowledge_ids": [
+      410,
+      576,
+      569,
+      420,
+      398
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "don't they?",
+        "knowledge_ids": [
+          576,
+          410,
+          420
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคหลักเป็นบอกเล่าใน **Present Simple** (กริยาแท้ `watch`) แท็กใช้ **do-support** และสลับเป็นปฏิเสธ จึงได้ __`don't + they?`__ ตัวอย่าง: `You like music, don't you?`"
+      },
+      {
+        "index": 2,
+        "text": "do they?",
+        "knowledge_ids": [
+          577,
+          410,
+          420
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคหลักเป็นบอกเล่าอยู่แล้ว แท็กต้องเป็นปฏิเสธเพื่อสลับขั้ว รูปที่ถูกคือ `don't they?` ไม่ใช่ `do they?`"
+      },
+      {
+        "index": 3,
+        "text": "aren't they?",
+        "knowledge_ids": [
+          410,
+          570
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้กริยา **be** (are) ทั้งที่ประโยคหลักใช้กริยาแท้ (`watch`) ซึ่งต้องใช้ **do-support** ในแท็ก เช่น `don't they?`"
+      },
+      {
+        "index": 4,
+        "text": "won't they?",
+        "knowledge_ids": [
+          410,
+          421
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `won't` เป็นอนาคต แต่ประโยคหลักเป็นปัจจุบันทั่วไป แท็กต้องตรงกาลและชนิดกริยาช่วยกับประโยคหลัก เช่น `don't they?`"
+      }
+    ]
+  },
+  {
+    "question": "___ you ever been to London?",
+    "question_knowledge_ids": [
+      419,
+      416,
+      408,
+      194,
+      288
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Have",
+        "knowledge_ids": [
+          419,
+          408,
+          194
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นคำถาม **Present Perfect** ต้องใช้กริยาช่วย **have/has** หน้าประธาน จึงได้โครงสร้าง __`Have + subject + past participle`__ เช่น: `Have you ever seen it?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          389,
+          194
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **do** ใช้กับ Present Simple ที่มีกริยาแท้รูปพื้นฐาน ไม่ใช่กับ Present Perfect ตัวอย่างที่ถูกต้องคือ `Have you ever been...?` ไม่ใช่ `Do you ever been...?`"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "knowledge_ids": [
+          305,
+          570
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **are** ใช้กับกริยา **be** หรือรูปต่อเนื่อง/คุณศัพท์ ไม่ใช่กับโครงสร้าง **have + V3** เช่น `Are you being...?` จึงใช้ไม่ได้ในที่นี้"
+      },
+      {
+        "index": 4,
+        "text": "Did",
+        "knowledge_ids": [
+          300,
+          194
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **did** เป็นอดีตกาลของ do ใช้ถาม Past Simple กับกริยาแท้ ไม่ใช่ Present Perfect ตัวอย่างผิด: `Did you ever been...?` ถูกต้อง: `Have you ever been...?`"
+      }
+    ]
+  },
+  {
+    "question": "You ___ smoke here; it's forbidden.",
+    "question_knowledge_ids": [
+      423,
+      430,
+      416
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "mustn't",
+        "knowledge_ids": [
+          423,
+          430
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะต้องการแสดงข้อห้าม ใช้ **modal** ปฏิเสธว่า __`mustn't + base verb`__ เช่น: `You mustn't park here.` ประโยคนี้จึงเป็น `You mustn't smoke here.`"
+      },
+      {
+        "index": 2,
+        "text": "don't must",
+        "knowledge_ids": [
+          420,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **must** เป็น modal verb ห้ามใช้กับ **do-support** จึงห้ามพูด `don't must` ต้องใช้ `mustn't + V1` เช่น: `You mustn't enter.`"
+      },
+      {
+        "index": 3,
+        "text": "must not to",
+        "knowledge_ids": [
+          430,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **must not** ต้องตามด้วยกริยาช่องพื้นฐาน ไม่ใส่ `to` โครงสร้างที่ถูกคือ `must not + V1` เช่น: `must not smoke`"
+      },
+      {
+        "index": 4,
+        "text": "mustn't to",
+        "knowledge_ids": [
+          430,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใส่ `to` เกินมาหลัง modal ซึ่งไม่ถูก ต้องเป็น `mustn't + V1` เช่น: `You mustn't use your phone.`"
+      }
+    ]
+  },
+  {
+    "question": "Why ___ you like coffee?",
+    "question_knowledge_ids": [
+      391,
+      381,
+      389,
+      387
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "don't",
+        "knowledge_ids": [
+          387,
+          384
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นคำถามปฏิเสธใน **Present Simple** ต้องใช้ **do-support** กับประธาน `you` และใส่ not จึงได้ __`Why don't you + base verb`__ ตัวอย่าง: `Why don't you join us?`"
+      },
+      {
+        "index": 2,
+        "text": "do not",
+        "knowledge_ids": [
+          387
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในเชิงการใช้ เพราะคำถามสนทนาใช้รูปย่อ `don't` มากกว่า รูปเต็ม `do not` ฟังเป็นทางการหรือเน้นย้ำเกินไป ตัวอย่างธรรมชาติ: `Why don't you like it?`"
+      },
+      {
+        "index": 3,
+        "text": "aren't",
+        "knowledge_ids": [
+          305,
+          570
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้กริยา **be** แต่ประโยคนี้กริยาแท้คือ `like` ต้องใช้ **do-support** ไม่ใช่ **be** รูปที่ถูกคือ `Why don't you like...?`"
+      },
+      {
+        "index": 4,
+        "text": "doesn't",
+        "knowledge_ids": [
+          407,
+          387
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `doesn't` ใช้กับประธานเอกพจน์บุรุษที่สาม (he/she/it) แต่ประธานที่นี่คือ `you` ต้องใช้ `don't` เช่น: `Why don't you try?`"
+      }
+    ]
+  },
+  {
+    "question": "Close the door, ___?",
+    "question_knowledge_ids": [
+      440,
+      481,
+      441,
+      421
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will you?",
+        "knowledge_ids": [
+          440,
+          481,
+          441
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะแท็กคำถามกับประโยคคำสั่ง (imperative) นิยมใช้ __`will you?`__ เพื่อความสุภาพ เช่น: `Pass me the salt, will you?`"
+      },
+      {
+        "index": 2,
+        "text": "do you?",
+        "knowledge_ids": [
+          440,
+          569
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะแท็กกับคำสั่งไม่ใช้ **do you?** มาตรฐานคือ `will you?` หรือแบบสุภาพมาก `would you?` เช่น: `Be quiet, will you?`"
+      },
+      {
+        "index": 3,
+        "text": "willn't you?",
+        "knowledge_ids": [
+          317,
+          421
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปย่อของ **will not** คือ `won't` ไม่ใช่ `willn't` ถ้าจะใช้ปฏิเสธควรเป็น `won't you?` แต่ปกติคำสั่งใช้ `will you?`"
+      },
+      {
+        "index": 4,
+        "text": "shall you?",
+        "knowledge_ids": [
+          427,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในเชิงธรรมชาติของภาษา ปกติไม่ใช้ `shall you?` กับคำสั่ง มักใช้ `will you?` หรือ `would you?` มากกว่า เช่น: `Open the window, will you?`"
+      }
+    ]
+  },
+  {
+    "question": "I'm late, ___?",
+    "question_knowledge_ids": [
+      440,
+      342,
+      318,
+      350
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "aren't I?",
+        "knowledge_ids": [
+          342,
+          350
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นกรณีพิเศษของแท็กเมื่อประธานเป็น `I am` ต้องใช้ __`aren't I?`__ ไม่ใช้ `amn't I?` ตัวอย่าง: `I'm right, aren't I?`"
+      },
+      {
+        "index": 2,
+        "text": "amn't I?",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด แม้จะดูตรงตรรกะ แต่ภาษาอังกฤษมาตรฐานไม่ใช้ `amn't I?` รูปที่ถูกต้องและเป็นข้อยกเว้นคือ `aren't I?`"
+      },
+      {
+        "index": 3,
+        "text": "am I?",
+        "knowledge_ids": [
+          342,
+          570
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะแท็กต้องสลับขั้วจากบอกเล่าไปปฏิเสธ แต่ `am I?` เป็นบอกเล่า จึงไม่สอดคล้อง กรณีพิเศษนี้ต้องใช้ `aren't I?`"
+      },
+      {
+        "index": 4,
+        "text": "isn't I?",
+        "knowledge_ids": [
+          318,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะจับคู่ `isn't` กับประธาน `I` ไม่ถูกหลัก การใช้ที่ถูกคือ `aren't I?` เช่น: `I'm late, aren't I?`"
+      }
+    ]
+  },
+  {
+    "question": "She has finished, ___?",
+    "question_knowledge_ids": [
+      410,
+      576,
+      419,
+      416
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "hasn't she?",
+        "knowledge_ids": [
+          576,
+          410,
+          419
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคหลักเป็นบอกเล่าใน **Present Perfect** แท็กต้องเป็นปฏิเสธและใช้กริยาช่วยตัวเดิม จึงได้ __`hasn't + she?`__ ตัวอย่าง: `He has left, hasn't he?`"
+      },
+      {
+        "index": 2,
+        "text": "doesn't she?",
+        "knowledge_ids": [
+          410,
+          420
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคใช้ **has** (Present Perfect) ไม่ใช่กริยาแท้ที่ต้องใช้ **do** แท็กจึงต้องใช้ `hasn't she?` ไม่ใช่ `doesn't she?`"
+      },
+      {
+        "index": 3,
+        "text": "has she?",
+        "knowledge_ids": [
+          577,
+          410,
+          419
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะแท็กต้องสลับขั้วจากบอกเล่าเป็นปฏิเสธ ไม่ใช่บอกเล่าอีก รูปถูกคือ `hasn't she?`"
+      },
+      {
+        "index": 4,
+        "text": "isn't she?",
+        "knowledge_ids": [
+          410,
+          570
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้กริยา **be** แทน **have** ซึ่งไม่ตรงกับประโยคหลัก แท็กต้องใช้กริยาช่วยชนิดเดียวกันกับที่ปรากฏ เช่น `hasn't she?`"
+      }
+    ]
+  },
+  {
+    "question": "Should we go now, ___ wait a bit?",
+    "question_knowledge_ids": [],
+    "choices": [
+      {
+        "index": 1,
+        "text": "or",
+        "knowledge_ids": [],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นคำถามด้วย **modal** และต้องเชื่อมทางเลือกด้วย __`or`__ โครงสร้างเช่น `Should we A, or B?` ตัวอย่าง: `Should we start now, or wait?`"
+      },
+      {
+        "index": 2,
+        "text": "and",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `and` เชื่อมการกระทำที่เกิดร่วมกัน ไม่ใช่ทางเลือก ในคำถามเลือกควรใช้ `or` เช่น: `Should we stay, or go?`"
+      },
+      {
+        "index": 3,
+        "text": "but",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `but` ใช้ตัดกันทางความหมาย ไม่ใช่เสนอทางเลือกในคำถาม โครงสร้างที่ถูกคือ `Should we..., or ...?`"
+      },
+      {
+        "index": 4,
+        "text": "nor",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `nor` ใช้คู่กับ `neither` ในโครงสร้างปฏิเสธแบบทางการ เช่น `neither A nor B` ที่นี่เป็นคำถามให้เลือก จึงต้องใช้ `or`"
+      }
+    ]
+  }
+]

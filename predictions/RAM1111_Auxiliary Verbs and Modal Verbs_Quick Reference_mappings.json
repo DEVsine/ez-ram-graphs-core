@@ -1,0 +1,579 @@
+[
+  {
+    "question": "___ she like coffee?",
+    "question_knowledge_ids": [
+      194,
+      288,
+      315,
+      389,
+      381,
+      420,
+      570,
+      318,
+      338
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Does",
+        "knowledge_ids": [
+          389,
+          381,
+          420
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคคำถามใน **Present Simple** กับประธานเอกพจน์ (she/he/it) ต้องใช้ __Does + subject + base verb__ เช่น `Does she like coffee?` คำกริยาหลักหลัง Does ต้องเป็นรูป **base** เสมอ เช่น `like` ไม่ใช่ `likes`."
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          389,
+          381,
+          420,
+          380,
+          407,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะ **Do** ใช้กับประธานพหูพจน์หรือ I/you/we/they เช่น `Do they like coffee?` สำหรับ she ต้องใช้ `Does` แทน."
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "knowledge_ids": [
+          305,
+          340,
+          570
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจุด เพราะ **Is** เป็นกริยา **be** ใช้กับคำคุณศัพท์/นาม ไม่ได้ใช้ถามพฤติกรรมทั่วไปแบบ **like** ใน Present Simple เช่น `Is she happy?` (ถูก) แต่ต้องเป็น `Does she like coffee?` สำหรับกริยาทั่วไป."
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "knowledge_ids": [
+          419,
+          408
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ถูก เพราะ **Has** เป็นกริยาช่วยของ **Present Perfect** เช่น `Has she finished?` แต่ประโยคนี้เป็นการถามนิสัย/ความชอบแบบ Present Simple ต้องใช้ `Does`."
+      }
+    ]
+  },
+  {
+    "question": "He ___ know the answer.",
+    "question_knowledge_ids": [
+      193,
+      439,
+      387,
+      380,
+      407,
+      420,
+      381
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "doesn't",
+        "knowledge_ids": [
+          387,
+          380,
+          407
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคปฏิเสธใน **Present Simple** กับ he/she/it ใช้รูป __doesn't + base verb__ เช่น `He doesn't know the answer.` กริยาหลักต้องเป็นรูป **base** (ไม่เติม s) หลัง `doesn't` เสมอ."
+      },
+      {
+        "index": 2,
+        "text": "don't",
+        "knowledge_ids": [
+          387,
+          380,
+          407,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะ `don't` ใช้กับ I/you/we/they เช่น `They don't know.` กับ he ต้องใช้ `doesn't` เท่านั้น."
+      },
+      {
+        "index": 3,
+        "text": "isn't",
+        "knowledge_ids": [
+          304,
+          386
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดชนิดกริยา `isn't` เป็นรูปปฏิเสธของ **be** ซึ่งใช้กับคำคุณศัพท์/นาม เช่น `He isn't ready.` แต่ประโยคนี้ใช้กริยาทั่วไป `know` จึงต้องใช้ `doesn't`."
+      },
+      {
+        "index": 4,
+        "text": "hasn't",
+        "knowledge_ids": [
+          419,
+          408
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ถูก เพราะ `hasn't` ใช้กับโครงสร้าง **Present Perfect** เช่น `He hasn't finished.` ที่นี่เป็น Present Simple ปกติ ควรใช้ `doesn't`."
+      }
+    ]
+  },
+  {
+    "question": "They ___ studying now.",
+    "question_knowledge_ids": [
+      318,
+      338,
+      321,
+      324,
+      328,
+      329,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are",
+        "knowledge_ids": [
+          318,
+          338,
+          321
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **Present Continuous** ใช้โครงสร้าง __be (am/is/are) + V-ing__ กับ `they` ต้องใช้ `are`: `They are studying now.` นี่คือการใช้ **be** เป็นกริยาช่วยเพื่อบอกกำลังกระทำตอนนี้."
+      },
+      {
+        "index": 2,
+        "text": "is",
+        "knowledge_ids": [
+          318,
+          338,
+          321
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะ `is` ใช้กับประธานเอกพจน์ (he/she/it) ไม่ใช่ `they` ตัวอย่างที่ถูกต้อง: `She is studying now.` สำหรับ `they` ต้องเป็น `are`."
+      },
+      {
+        "index": 3,
+        "text": "do",
+        "knowledge_ids": [
+          340,
+          315
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ตรงโครงสร้าง เนื่องจาก Continuous ต้องใช้ **be + V-ing** ไม่ได้ใช้ `do` เช่น `They are studying`, ไม่ใช่ `They do studying`."
+      },
+      {
+        "index": 4,
+        "text": "have",
+        "knowledge_ids": [
+          419
+        ],
+        "is_correct": false,
+        "answer_description": "สับสนกับ Perfect Tense เพราะ `have` ใช้ใน **Present Perfect** (`have/has + V3`) แต่ประโยคนี้เป็น Continuous ต้องใช้ `are + studying`."
+      }
+    ]
+  },
+  {
+    "question": "She ___ finished her homework.",
+    "question_knowledge_ids": [
+      419,
+      371,
+      366,
+      408
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "has",
+        "knowledge_ids": [
+          419,
+          408
+        ],
+        "is_correct": true,
+        "answer_description": "ใช่เลย โครงสร้าง **Present Perfect** คือ __has/have + past participle (V3)__ กับ `she` ใช้ `has`: `She has finished her homework.` แสดงผลลัพธ์ที่เสร็จเรียบร้อยแล้ว."
+      },
+      {
+        "index": 2,
+        "text": "have",
+        "knowledge_ids": [
+          419,
+          408,
+          364
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก เพราะ `have` ใช้กับ I/you/we/they เช่น `They have finished.` กับ `she` ต้องใช้ `has`."
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "knowledge_ids": [
+          386
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดโครงสร้าง `is` ใช้กับ Continuous (`is + V-ing`) เช่น `She is finishing.` แต่ที่นี่ต้องการ Perfect (`has + V3`)."
+      },
+      {
+        "index": 4,
+        "text": "did",
+        "knowledge_ids": [
+          300
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ใช่ เพราะ `did` ใช้ใน Past Simple (`did + base verb`) เช่น `She did her homework.` แต่ที่นี่ใช้ Perfect เพื่อเน้นผลลัพธ์ ต้องเป็น `has finished`."
+      }
+    ]
+  },
+  {
+    "question": "These days, I ___ drive a car.",
+    "question_knowledge_ids": [
+      542,
+      417,
+      426,
+      430
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "can",
+        "knowledge_ids": [
+          426,
+          430
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **modal verb** แสดงความสามารถปัจจุบัน: __can + base verb__ เช่น `I can drive a car.` คำว่า `These days` เน้นปัจจุบัน จึงใช้ `can` ไม่ใช่รูปอดีต."
+      },
+      {
+        "index": 2,
+        "text": "am",
+        "knowledge_ids": [
+          386
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดชนิดกริยา เพราะ `am` ต้องตามด้วย adjective/noun หรือ V-ing เช่น `I am a driver.` หรือ `I am driving.` แต่ถ้าจะพูดถึงความสามารถ ต้องใช้ `can + drive`."
+      },
+      {
+        "index": 3,
+        "text": "could",
+        "knowledge_ids": [
+          426,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`could` มักใช้บอกความสามารถในอดีตหรือความเป็นไปได้แบบสุภาพ เช่น `When I was young, I could run fast.` ที่นี่เน้นปัจจุบันด้วย `These days` จึงควรใช้ `can`."
+      },
+      {
+        "index": 4,
+        "text": "have",
+        "knowledge_ids": [
+          571
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ใช่ เพราะ `have` ไม่ได้เป็น modal แสดงความสามารถ และรูป `have drive` ก็ผิดไวยากรณ์ ตัวอย่างที่ถูกต้องคือ `I can drive a car.`"
+      }
+    ]
+  },
+  {
+    "question": "By law, you ___ wear a seat belt.",
+    "question_knowledge_ids": [
+      542,
+      417,
+      423,
+      430,
+      505
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "must",
+        "knowledge_ids": [
+          423,
+          430
+        ],
+        "is_correct": true,
+        "answer_description": "ใช่เลย ใช้ **must** แสดงกฎ/ข้อบังคับที่เข้มงวด: __must + base verb__ เช่น `You must wear a seat belt.` คำว่า `By law` บอกชัดว่าเป็นข้อบังคับตามกฎหมาย."
+      },
+      {
+        "index": 2,
+        "text": "have",
+        "knowledge_ids": [
+          434
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะต้องใช้ `have to` ไม่ใช่ `have` เฉยๆ เช่น `You have to wear a seat belt.` ถ้าใช้ `have` เดี่ยวๆ จะขาดโครงสร้าง."
+      },
+      {
+        "index": 3,
+        "text": "should",
+        "knowledge_ids": [
+          425
+        ],
+        "is_correct": false,
+        "answer_description": "`should` ให้คำแนะนำ/คำเสนอแนะ ไม่ได้เข้มงวดเท่า `must` เช่น `You should wear a seat belt.` (แนะนำ) แต่เพราะเป็นกฎหมาย ต้องใช้ `must`."
+      },
+      {
+        "index": 4,
+        "text": "had",
+        "knowledge_ids": [
+          257
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดกาล `had` เป็นอดีตของ `have` และยังไม่สมบูรณ์เพราะควรเป็น `had to` ถ้าจะบังคับในอดีต ตัวอย่างอดีต: `We had to wear seat belts yesterday.`"
+      }
+    ]
+  },
+  {
+    "question": "___ I open the window, please? (formal)",
+    "question_knowledge_ids": [
+      197,
+      441,
+      417,
+      426,
+      240
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "May",
+        "knowledge_ids": [
+          426,
+          240
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **may** ขออนุญาตแบบสุภาพ/เป็นทางการ: __May + I + base verb?__ เช่น `May I open the window, please?` ลองจำไว้ว่า `may` = ขออนุญาตสุภาพ."
+      },
+      {
+        "index": 2,
+        "text": "Can",
+        "knowledge_ids": [
+          426,
+          240
+        ],
+        "is_correct": false,
+        "answer_description": "`Can I...` ใช้ได้ในภาษาพูดไม่เป็นทางการ แต่โจทย์กำกับว่า `(formal)` จึงควรใช้ `May I...` แทน เช่น `May I sit here?`"
+      },
+      {
+        "index": 3,
+        "text": "Should",
+        "knowledge_ids": [
+          425
+        ],
+        "is_correct": false,
+        "answer_description": "`Should I...` คือถามความเห็น/ขอคำแนะนำ เช่น `Should I open the window?` ไม่ใช่การขออนุญาต จึงไม่ตรงวัตถุประสงค์."
+      },
+      {
+        "index": 4,
+        "text": "Must",
+        "knowledge_ids": [
+          423
+        ],
+        "is_correct": false,
+        "answer_description": "ฟังดูบังคับเกินไป `Must I...` คือถามถึงข้อบังคับ เช่น `Must I open the window?` ว่าจำเป็นต้องทำไหม ไม่ใช่ขออนุญาตอย่างสุภาพ."
+      }
+    ]
+  },
+  {
+    "question": "I'm cold. I ___ close the window.",
+    "question_knowledge_ids": [
+      421,
+      244,
+      248,
+      244,
+      411,
+      542
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will",
+        "knowledge_ids": [
+          421
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **will** สำหรับการตัดสินใจฉับพลัน ณ ขณะพูด: __will + base verb__ เช่น `I will close the window.` สถานการณ์นี้เพิ่งคิดจะทำเดี๋ยวนั้นเลย จึงเหมาะกับ `will`."
+      },
+      {
+        "index": 2,
+        "text": "am going to",
+        "knowledge_ids": [
+          244,
+          248
+        ],
+        "is_correct": false,
+        "answer_description": "`be going to` มักใช้กับแผนที่วางไว้ล่วงหน้า หรือสิ่งที่มีหลักฐานว่าจะเกิด เช่น `I'm going to visit my grandma this weekend.` ที่นี่เป็นการตัดสินใจสดๆ จึงควรใช้ `will`."
+      },
+      {
+        "index": 3,
+        "text": "am closing",
+        "knowledge_ids": [
+          411,
+          321
+        ],
+        "is_correct": false,
+        "answer_description": "รูป Continuous เน้นกำลังกระทำหรือแผนที่กำลังเกิดขึ้น แต่ไม่ได้สื่อ “การตัดสินใจทันที” เท่า `will` ตัวอย่างถูกต้อง: `I will close the window.`"
+      },
+      {
+        "index": 4,
+        "text": "have to",
+        "knowledge_ids": [
+          434
+        ],
+        "is_correct": false,
+        "answer_description": "`have to` สื่อความจำเป็นจากกฎหรือปัจจัยภายนอก เช่น `I have to wear a uniform.` ที่นี่เป็นการอาสาทำทันที จึงใช้ `will` ดีกว่า."
+      }
+    ]
+  },
+  {
+    "question": "If you have a headache, you ___ take a rest.",
+    "question_knowledge_ids": [
+      497,
+      542,
+      425,
+      423,
+      426
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "should",
+        "knowledge_ids": [
+          425
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **should** เพื่อให้คำแนะนำ: __should + base verb__ เช่น `You should take a rest.` เป็นการบอกว่าทำแล้วจะดีกว่า ไม่ใช่ข้อบังคับ."
+      },
+      {
+        "index": 2,
+        "text": "must",
+        "knowledge_ids": [
+          423
+        ],
+        "is_correct": false,
+        "answer_description": "`must` แรงไป และสื่อถึงข้อบังคับ/ความจำเป็นสูง เช่น `You must take the medicine.` ที่นี่เป็นคำแนะนำธรรมดา จึงใช้ `should` เหมาะกว่า."
+      },
+      {
+        "index": 3,
+        "text": "can",
+        "knowledge_ids": [
+          426
+        ],
+        "is_correct": false,
+        "answer_description": "`can` แปลว่า “สามารถ” ไม่ได้สื่อคำแนะนำ เช่น `You can take a rest` = คุณสามารถพักได้ แต่ไม่ได้บอกว่าควรจะพัก เหมือน `should`."
+      },
+      {
+        "index": 4,
+        "text": "will",
+        "knowledge_ids": [
+          421
+        ],
+        "is_correct": false,
+        "answer_description": "`will` บอกอนาคต/ความตั้งใจ ไม่ได้เป็นคำแนะนำ เช่น `You will take a rest` ฟังแปลกและแข็งทื่อ ควรใช้ `should` เพื่อให้คำแนะนำ."
+      }
+    ]
+  },
+  {
+    "question": "She's from Japan, ___?",
+    "question_knowledge_ids": [
+      410,
+      440,
+      576,
+      577
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "isn't she",
+        "knowledge_ids": [
+          576
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **question tag** คือ __auxiliary (ปฏิเสธ/ยืนยันสลับกัน) + pronoun__ ประโยคหลักเป็นบอกเล่า `She is...` แท็กจึงเป็นปฏิเสธ: `isn't she?` เช่น `She's a teacher, isn't she?`"
+      },
+      {
+        "index": 2,
+        "text": "is she",
+        "knowledge_ids": [
+          577
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะแท็กต้องสลับเป็นปฏิเสธเมื่อประโยคหลักเป็นบอกเล่า ดังนั้นควรเป็น `isn't she?` ไม่ใช่ `is she?`"
+      },
+      {
+        "index": 3,
+        "text": "doesn't she",
+        "knowledge_ids": [
+          410,
+          569,
+          420,
+          381
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ถูกชนิดกริยาช่วย ประโยคหลักใช้ **be (is)** ดังนั้นแท็กต้องใช้ `is` ไม่ใช่ `do/does` ตัวอย่างที่ใช้ `does` คือ `She likes tea, doesn't she?`"
+      },
+      {
+        "index": 4,
+        "text": "won't she",
+        "knowledge_ids": [
+          410,
+          421
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `won't` ใช้กับ `will` ในประโยคหลัก หากประโยคหลักเป็น `She will come, won't she?` จึงจะถูก ที่นี่ใช้ `is` ต้องใช้ `isn't she?`"
+      }
+    ]
+  },
+  {
+    "question": "You ___ bring your passport; it's not necessary.",
+    "question_knowledge_ids": [
+      417,
+      423,
+      425,
+      426,
+      429,
+      430,
+      436
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "don't have to",
+        "knowledge_ids": [
+          429,
+          436,
+          430
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง แปลว่า “ไม่จำเป็นต้อง...” โครงสร้างคือ __don't/doesn't have to + base verb__ เช่น `You don't have to bring your passport.` ใช้เมื่อสิ่งนั้นไม่บังคับ ไม่ใช่ห้าม."
+      },
+      {
+        "index": 2,
+        "text": "mustn't",
+        "knowledge_ids": [
+          423,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`mustn't` แปลว่า “ห้าม” ซึ่งแรงกว่าและความหมายผิดจากโจทย์ที่บอกว่า “ไม่จำเป็น” ตัวอย่าง: `You mustn't smoke here.` = ห้ามสูบ ไม่ใช่แค่ไม่จำเป็น."
+      },
+      {
+        "index": 3,
+        "text": "shouldn't",
+        "knowledge_ids": [
+          425,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`shouldn't` คือ “ไม่ควร” เป็นคำแนะนำเชิงลบ ไม่ใช่บอกว่าไม่จำเป็น เช่น `You shouldn't eat too much sugar.` โจทย์นี้ต้องการความหมาย “ไม่จำเป็น” จึงใช้ `don't have to`."
+      },
+      {
+        "index": 4,
+        "text": "can't",
+        "knowledge_ids": [
+          426,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`can't` แปลว่า “ไม่สามารถ/เป็นไปไม่ได้” ซึ่งเป็นข้อจำกัด ไม่ตรงกับความหมาย “ไม่จำเป็น” ตัวอย่าง: `You can't enter.` = เข้าไม่ได้ (ถูกห้าม/เป็นไปไม่ได้)."
+      }
+    ]
+  }
+]

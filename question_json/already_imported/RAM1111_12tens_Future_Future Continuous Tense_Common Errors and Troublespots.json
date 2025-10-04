@@ -1,0 +1,321 @@
+[
+  {
+    "question": "At 8 p.m. tonight, I ___ dinner.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be cooking",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะอนาคตดำเนินต่อเนื่องใช้โครงสร้าง __will be + V-ing__ เพื่อบอกว่ากิจกรรมกำลังเกิดขึ้นในช่วงเวลาอนาคต เช่น `At 8 p.m. tonight, I will be cooking dinner.` ใช้เมื่อต้องการเน้น “ช่วงเวลา” ที่การกระทำกำลังดำเนินอยู่ ไม่ใช่เพียงจุดเริ่ม-จบเดียว."
+      },
+      {
+        "index": 2,
+        "text": "am cooking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `am cooking` คือ **Present Continuous** ใช้กับตอนนี้หรือแผนใกล้ๆ แต่ประโยคมีตัวบอกเวลาอนาคตชัดเจน `tonight at 8 p.m.` จึงควรใช้ **Future Continuous** เช่น `I will be cooking.`"
+      },
+      {
+        "index": 3,
+        "text": "will cook",
+        "is_correct": false,
+        "answer_description": "ยังไม่แม่น เพราะ `will cook` เป็น **Future Simple** เน้นการตัดสินใจหรือเหตุการณ์เดี่ยว ไม่ได้สื่อว่า “ระหว่างเวลา 8 โมง” กำลังกระทำอยู่ ตัวอย่างที่ถูกต้องสำหรับสถานการณ์นี้คือ `I will be cooking at 8 p.m.`"
+      },
+      {
+        "index": 4,
+        "text": "will be cook",
+        "is_correct": false,
+        "answer_description": "ผิดรูปแบบ เพราะหลัง `be` ต้องเป็นรูป **V-ing** ไม่ใช่ V1 ดังนั้น `will be cook` ใช้ไม่ได้ รูปที่ถูกคือ `will be cooking` เช่น `I will be cooking dinner.`"
+      }
+    ]
+  },
+  {
+    "question": "When you arrive, I ___ at the gate.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be waiting",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __will be + V-ing__ เพื่อบอกว่าช่วงที่อีกคน “arrive” นั้น เรากำลังรออยู่ เช่น `When you arrive, I will be waiting at the gate.` สังเกตด้วยว่าในอนุประโยคเวลา (after, when, while) ใช้ **Present Simple**: `when you arrive` ไม่ใช้ `will arrive`."
+      },
+      {
+        "index": 2,
+        "text": "will wait",
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรงใจ เพราะ `will wait` เป็นเหตุการณ์จุดๆ ไม่ได้สื่อความต่อเนื่องระหว่างเวลาที่อีกฝ่ายมาถึง เราอยากเน้น “กำลังรออยู่ในช่วงนั้น” จึงควรใช้ `will be waiting`."
+      },
+      {
+        "index": 3,
+        "text": "am waiting",
+        "is_correct": false,
+        "answer_description": "ผิดเวลา เพราะ `am waiting` คือปัจจุบันกำลังกระทำ แต่ประโยคจุดโฟกัสที่อนาคตในช่วงที่อีกคนมาถึง ตัวอย่างที่ถูกคือ `I will be waiting` เพื่อเน้นเหตุการณ์กำลังดำเนินในอนาคต."
+      },
+      {
+        "index": 4,
+        "text": "will be wait",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะหลัง `be` ต้องเป็น **V-ing** ไม่ใช่ V1 รูปที่ถูกต้องคือ `will be waiting` เช่น `I will be waiting at the gate.`"
+      }
+    ]
+  },
+  {
+    "question": "At 10 a.m. tomorrow, she ___ the answer.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be knowing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกริยา **stative verbs** อย่าง **know, believe, love** ปกติไม่ใช้รูปต่อเนื่อง จึงไม่ใช้ `will be knowing` ให้ใช้ `will know` แทน เช่น `She will know the answer.`"
+      },
+      {
+        "index": 2,
+        "text": "will know",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกริยา **know** เป็น **stative verb** ไม่ใช้รูปต่อเนื่อง เลยใช้ __will + V1__ เช่น `She will know the answer at 10 a.m.` ใช้เมื่อพูดถึงสภาพความรู้/ความเชื่อที่เกิดขึ้นในอนาคตโดยไม่เน้นความต่อเนื่อง."
+      },
+      {
+        "index": 3,
+        "text": "is knowing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `know` ไม่ใช้กับรูปต่อเนื่องอย่าง `is knowing` ปกติใช้ `knows` หรือ `will know` เช่น `She will know the answer tomorrow.`"
+      },
+      {
+        "index": 4,
+        "text": "will be know",
+        "is_correct": false,
+        "answer_description": "ผิดรูปแบบ หลัง `be` ต้องตามด้วย **V-ing** หากจะใช้ต่อเนื่อง แต่กับ `know` ก็ไม่ใช้ต่อเนื่องอยู่ดี รูปที่ถูกคือ `will know`."
+      }
+    ]
+  },
+  {
+    "question": "___ you be using the printer at 3 p.m.?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Will",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคำถามของอนาคตดำเนินต่อเนื่องคือ __Will + subject + be + V-ing?__ เช่น `Will you be using the printer at 3 p.m.?` ใช้เพื่อถามแผน/กิจกรรมที่กำลังดำเนินอยู่ในช่วงเวลาหนึ่งในอนาคต (ฟังสุภาพ)."
+      },
+      {
+        "index": 2,
+        "text": "Are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Are you using… at 3 p.m.?` จะเป็นปัจจุบันต่อเนื่องหรือแผนใกล้ๆ แต่หากถามถึงช่วงเวลาอนาคตแบบสุภาพและต่อเนื่อง ควรใช้ `Will you be using…?`"
+      },
+      {
+        "index": 3,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิดรูปแบบ เนื่องจาก `Do you be using…` ใช้ไม่ได้ และ `Do you use…?` ก็ไม่สื่อกิจกรรมที่กำลังดำเนินในช่วงเวลาหนึ่งในอนาคต รูปที่ถูกคือ `Will you be using…?`"
+      },
+      {
+        "index": 4,
+        "text": "Will be",
+        "is_correct": false,
+        "answer_description": "ยังไม่ครบประโยค คำถามต้องสลับตำแหน่งเป็น `Will you be using…?` ไม่ใช่ขึ้นต้นเพียง `Will be` ที่ไม่มีประธานอยู่หลัง will."
+      }
+    ]
+  },
+  {
+    "question": "They ___ with us at 7; they have another meeting.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "won't be meeting",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปปฏิเสธของอนาคตดำเนินต่อเนื่องคือ __won’t be + V-ing__ เช่น `They won’t be meeting with us at 7.` ใช้เมื่อกิจกรรมช่วงเวลานั้นจะไม่เกิดขึ้นเพราะติดเหตุอื่น."
+      },
+      {
+        "index": 2,
+        "text": "willn't be meeting",
+        "is_correct": false,
+        "answer_description": "ผิดสะกด รูปย่อที่ถูกต้องคือ **won’t**, ไม่ใช่ `willn’t` ตัวอย่างที่ถูกต้อง: `They won’t be meeting at 7.`"
+      },
+      {
+        "index": 3,
+        "text": "won't meeting",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะขาด **be** หลัง `won’t` โครงสร้างต้องเป็น `won’t be + V-ing` เช่น `won’t be meeting` ไม่ใช่ `won’t meeting`."
+      },
+      {
+        "index": 4,
+        "text": "will not meeting",
+        "is_correct": false,
+        "answer_description": "ผิดรูป หลัง `will not` ต้องมี `be + V-ing` จึงควรเป็น `will not be meeting` ไม่ใช่ `will not meeting`."
+      }
+    ]
+  },
+  {
+    "question": "This time next week, we ___ on the beach.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be sitting",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อมีตัวบอกเวลาอย่าง `This time next week` ควรใช้ __will be + V-ing__ เพื่อเน้นกิจกรรมที่กำลังดำเนินในช่วงนั้น เช่น `We will be sitting on the beach.` ใช้เพื่อวาดภาพบรรยากาศในอนาคตได้ชัดมาก."
+      },
+      {
+        "index": 2,
+        "text": "are sitting",
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะ เพราะ `are sitting` คือปัจจุบันต่อเนื่อง ไม่ได้สื่อช่วงเวลาหนึ่งในอนาคตอย่าง `this time next week` ทางที่ถูกคือ `will be sitting`."
+      },
+      {
+        "index": 3,
+        "text": "will sit",
+        "is_correct": false,
+        "answer_description": "ยังไม่ชัดเรื่องความต่อเนื่อง `will sit` เป็นเหตุการณ์เดี่ยว แต่เราต้องการภาพว่า “กำลังนั่งอยู่ในช่วงเวลานั้น” จึงใช้ `will be sitting` จะตรงกว่า."
+      },
+      {
+        "index": 4,
+        "text": "will be sit",
+        "is_correct": false,
+        "answer_description": "ผิดรูป หลัง `be` ต้องเป็น **V-ing** จึงต้องใช้ `will be sitting` ไม่ใช่ `will be sit`."
+      }
+    ]
+  },
+  {
+    "question": "While you present, I ___ notes.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be taking",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __will be + V-ing__ เพื่อบอกว่าระหว่างที่อีกคนกำลังพรีเซนต์ เราจะกำลังจดโน้ตอยู่ เช่น `While you present, I will be taking notes.` สังเกตว่าในอนุประโยคเวลาหลัง `while` ใช้รูปปัจจุบัน (`you present`) ไม่ใช้ `will present`."
+      },
+      {
+        "index": 2,
+        "text": "will take",
+        "is_correct": false,
+        "answer_description": "ยังไม่เน้นความต่อเนื่องพอ `will take` เหมือนเหตุการณ์เดี่ยว แต่เราต้องการสื่อว่าระหว่างพรีเซนต์ เราก็ “กำลังจด” อยู่ จึงควรเป็น `will be taking`."
+      },
+      {
+        "index": 3,
+        "text": "am taking",
+        "is_correct": false,
+        "answer_description": "ผิดเวลา เพราะ `am taking` คือปัจจุบันต่อเนื่อง ไม่ใช่ช่วงอนาคตที่สอดคล้องกับ `while you present` ที่อ้างถึงอนาคตโดยนัย ตัวอย่างที่ถูกคือ `I will be taking notes.`"
+      },
+      {
+        "index": 4,
+        "text": "will be take",
+        "is_correct": false,
+        "answer_description": "ผิดรูป หลัง `be` ต้องเป็น **V-ing** จึงควรเป็น `will be taking` ไม่ใช่ `will be take`."
+      }
+    ]
+  },
+  {
+    "question": "He will ___ meeting with clients at noon.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "probably be",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตำแหน่งของกริยาวิเศษณ์บ่อยๆ จะวางหลัง `will` และก่อน `be`: __will + probably + be + V-ing__ เช่น `He will probably be meeting with clients at noon.` แบบนี้อ่านลื่นและเป็นธรรมชาติ."
+      },
+      {
+        "index": 2,
+        "text": "be probably",
+        "is_correct": false,
+        "answer_description": "ยังไม่ธรรมชาติ เพราะวาง `probably` หลัง `be` ในโครงสร้างอนาคตดำเนินต่อเนื่อง ควรวางหลัง `will` เช่น `will probably be meeting` จะถูกกว่า."
+      },
+      {
+        "index": 3,
+        "text": "probably being",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะขาด `be` ก่อน V-ing โครงสร้างต้องเป็น `will + adverb + be + V-ing` เช่น `will probably be meeting` ไม่ใช่ `will probably being`."
+      },
+      {
+        "index": 4,
+        "text": "being probably",
+        "is_correct": false,
+        "answer_description": "ผิดหลัก เพราะไม่มี `be` ในตำแหน่งที่ถูกต้องและรูป `being probably` ไม่เข้ากับโครงสร้างอนาคตดำเนินต่อเนื่อง รูปที่ถูกควรเป็น `will probably be meeting`."
+      }
+    ]
+  },
+  {
+    "question": "At 5, I'm ___ to be working on the report.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "going",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างแผนอนาคตแบบต่อเนื่องคือ __be going to be + V-ing__ เช่น `I'm going to be working on the report at 5.` ใช้เมื่อต้องการบอกแผนที่ได้วางไว้แล้วและจะกำลังทำอยู่ในเวลานั้น."
+      },
+      {
+        "index": 2,
+        "text": "will going",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะ `will` กับ `going to` ไม่ใช้ซ้อนกัน ไม่ควรเป็น `will going to…` ควรเลือกอย่างใดอย่างหนึ่ง เช่น `will be working` หรือ `am going to be working`."
+      },
+      {
+        "index": 3,
+        "text": "go",
+        "is_correct": false,
+        "answer_description": "ผิดรูป โครงสร้างที่ถูกคือ `be going to` ไม่ใช่ `be go to` ต้องใช้ `going` เช่น `I'm going to be working…`"
+      },
+      {
+        "index": 4,
+        "text": "to going",
+        "is_correct": false,
+        "answer_description": "ผิดไวยากรณ์ เพราะหลัง `I'm` ในโครงสร้างนี้ต้องเป็น `going to…` ไม่ใช่ `to going…` รูปที่ถูกคือ `I'm going to be working…`"
+      }
+    ]
+  },
+  {
+    "question": "Don't call at 6; we ___ dinner then.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be having",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __will be + V-ing__ เพื่อบอกว่าช่วงเวลา 6 โมงเราจะ “กำลังกินข้าวอยู่” เช่น `We will be having dinner at 6.` โครงสร้างนี้ช่วยเน้นว่าช่วงเวลานั้นไม่สะดวกเพราะกิจกรรมกำลังดำเนินอยู่."
+      },
+      {
+        "index": 2,
+        "text": "will have",
+        "is_correct": false,
+        "answer_description": "ยังไม่เน้นอารมณ์ “กำลังทำอยู่” `will have` เป็นอนาคตธรรมดา อาจเข้าใจได้แต่ไม่ชัดเรื่องความไม่สะดวกในช่วงเวลา จึงควรใช้ `will be having` จะตรงกว่า."
+      },
+      {
+        "index": 3,
+        "text": "are having",
+        "is_correct": false,
+        "answer_description": "ผิดเวลา เพราะ `are having` คือปัจจุบันต่อเนื่อง แต่ในที่นี้เราพูดถึงเวลาอนาคตที่แน่ชัด `at 6` จึงควรใช้ Future Continuous: `will be having`."
+      },
+      {
+        "index": 4,
+        "text": "will be have",
+        "is_correct": false,
+        "answer_description": "ผิดรูป หลัง `be` ต้องใช้ **V-ing** จึงต้องเป็น `will be having` ไม่ใช่ `will be have`."
+      }
+    ]
+  },
+  {
+    "question": "At midnight, the team ___ the system for updates.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be checking",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __will be + V-ing__ เพื่อบอกกิจกรรมที่กำลังดำเนินอยู่ในช่วงเวลาอนาคตที่กำหนด เช่น `At midnight, the team will be checking the system.` ใช้บ่อยเพื่อแจ้งตารางงานหรือช่วงเวลาที่ไม่สะดวกรบกวน."
+      },
+      {
+        "index": 2,
+        "text": "will checking",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เนื่องจากหลัง `will` ต้องตามด้วย **base form** หรือใน Future Continuous ต้องเป็น `will be + V-ing` ดังนั้น `will checking` ใช้ไม่ได้."
+      },
+      {
+        "index": 3,
+        "text": "checks",
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะ `checks` เป็น **Present Simple** ใช้กับตารางเวลาหรือความจริงทั่วไป แต่ที่นี่เน้น “ช่วงเวลาหนึ่งในอนาคต” ที่กำลังทำอยู่ จึงควรเป็น `will be checking`."
+      },
+      {
+        "index": 4,
+        "text": "will be check",
+        "is_correct": false,
+        "answer_description": "ผิดรูป หลัง `be` ต้องเป็น **V-ing** จึงต้องเป็น `will be checking` ไม่ใช่ `will be check`."
+      }
+    ]
+  }
+]

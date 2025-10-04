@@ -1,0 +1,534 @@
+[
+  {
+    "question": "I don't have ___ time to finish this today.",
+    "question_knowledge_ids": [
+      530,
+      532,
+      517
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "much",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำนาม **time** เป็นนามนับไม่ได้ จึงใช้ตัวบอกปริมาณ **much** ได้ โดยเฉพาะในประโยคปฏิเสธ/คำถาม โครงสร้างที่ควรจำคือ __much + uncountable noun__. ตัวอย่าง: `I don't have much time today.` และ `Do you have much time?`"
+      },
+      {
+        "index": 2,
+        "text": "many",
+        "knowledge_ids": [
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **many** ใช้กับนามนับได้พหูพจน์เท่านั้น เช่น `many books`, `many people`. แต่ **time** เป็นนามนับไม่ได้ จึงควรใช้ **much time** ในประโยคเชิงปฏิเสธหรือคำถาม เช่น `I don't have much time.`"
+      },
+      {
+        "index": 3,
+        "text": "several",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **several** ใช้กับนามนับได้พหูพจน์ เช่น `several ideas`, `several chairs`. คำว่า **time** ในความหมาย “เวลา” เป็นนามนับไม่ได้ จึงใช้ `much time` หรือ `a lot of time` แทน"
+      },
+      {
+        "index": 4,
+        "text": "few",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **few** ใช้กับนามนับได้พหูพจน์ เช่น `few friends`, `few tickets`. แต่ **time** เป็นนามนับไม่ได้ จึงต้องใช้ **little/much/a lot of time** เช่น `I have little time.` หรือ `I don't have much time.`"
+      }
+    ]
+  },
+  {
+    "question": "There are ___ books on the table.",
+    "question_knowledge_ids": [
+      530,
+      532
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "many",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **books** เป็นนามนับได้พหูพจน์ จึงใช้ **many** ได้ โครงสร้างคือ __many + plural countable noun__. ตัวอย่าง: `There are many books on the table.` หรือ `She has many friends.`"
+      },
+      {
+        "index": 2,
+        "text": "much",
+        "knowledge_ids": [
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **much** ใช้กับนามนับไม่ได้ เช่น `much water`, `much information`. แต่ **books** เป็นนามนับได้พหูพจน์ ควรใช้ **many books** ไม่ใช่ `much books`"
+      },
+      {
+        "index": 3,
+        "text": "a little",
+        "knowledge_ids": [
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **a little** ใช้กับนามนับไม่ได้ เช่น `a little sugar`, `a little time`. สำหรับนามนับได้พหูพจน์อย่าง **books** ต้องใช้ **a few** หรือ **many** เช่น `a few books`"
+      },
+      {
+        "index": 4,
+        "text": "little",
+        "knowledge_ids": [
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **little** ใช้กับนามนับไม่ได้และสื่อความหมายเชิงลบ เช่น `little money`. แต่ **books** เป็นนามนับได้พหูพจน์ จึงต้องใช้ **few/a few/many** เช่น `many books`"
+      }
+    ]
+  },
+  {
+    "question": "We need ___ information before making a decision.",
+    "question_knowledge_ids": [
+      530,
+      518
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "some",
+        "knowledge_ids": [
+          518,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **information** เป็นนามนับไม่ได้ และการขอหรือพูดกลางๆ ใช้ **some** ได้ดี โครงสร้างคือ __some + uncountable noun__. ตัวอย่าง: `We need some information.` หรือ `Can I have some water?`"
+      },
+      {
+        "index": 2,
+        "text": "many",
+        "knowledge_ids": [
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **many** ใช้กับนามนับได้พหูพจน์ แต่ **information** เป็นนามนับไม่ได้ ต้องใช้ **some information** หรือ **a lot of information** แทน เช่น `We have a lot of information.`"
+      },
+      {
+        "index": 3,
+        "text": "several",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **several** ต้องตามด้วยนามนับได้พหูพจน์ เช่น `several questions`. คำว่า **information** นับไม่ได้ จึงใช้ `some information` หรือ `a piece of information` (เมื่อต้องการระบุเป็นชิ้นๆ)"
+      },
+      {
+        "index": 4,
+        "text": "few",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **few** ใช้กับนามนับได้พหูพจน์ แต่ **information** เป็นนามนับไม่ได้ ถ้าจะสื่อว่ามีน้อยกับนามนับไม่ได้ต้องใช้ **little** เช่น `We have little information.`"
+      }
+    ]
+  },
+  {
+    "question": "She has ___ friends in this city, so she often feels lonely.",
+    "question_knowledge_ids": [
+      517,
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "few",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะต้องการสื่อว่า “มีน้อยจนกระทบ” และ **friends** เป็นนามนับได้พหูพจน์ จึงใช้ **few** ได้ โครงสร้างคือ __few + plural countable noun__. ตัวอย่าง: `She has few friends, so she feels lonely.`"
+      },
+      {
+        "index": 2,
+        "text": "a few",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "เกือบถูก แต่ **a few** สื่อความหมายบวกเล็กน้อยว่า “มีอยู่บ้างพอใช้” ซึ่งขัดกับส่วนหลังที่บอกว่าเหงา เช่น `She has a few friends, so she is not lonely.` ถ้าต้องการสื่อผลลบควรใช้ **few**"
+      },
+      {
+        "index": 3,
+        "text": "little",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **little** ใช้กับนามนับไม่ได้ แต่ **friends** เป็นนามนับได้พหูพจน์ จึงควรใช้ **few friends** หรือ **a few friends** ตามความหมายที่ต้องการ"
+      },
+      {
+        "index": 4,
+        "text": "a little",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **a little** ใช้กับนามนับไม่ได้ เช่น `a little water`. กับนามนับได้พหูพจน์อย่าง **friends** ต้องใช้ **few/a few** เช่น `a few friends`"
+      }
+    ]
+  },
+  {
+    "question": "Could you give me ___ advice about my resume?",
+    "question_knowledge_ids": [
+      530,
+      518,
+      531
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "some",
+        "knowledge_ids": [
+          518,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **advice** เป็นนามนับไม่ได้ จึงใช้ **some** เพื่อขอในน้ำเสียงสุภาพ โครงสร้างคือ __some + uncountable noun__. ตัวอย่าง: `Could you give me some advice?` หรือ `I need some advice.`"
+      },
+      {
+        "index": 2,
+        "text": "a few",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **a few** ใช้กับนามนับได้พหูพจน์ แต่ **advice** นับไม่ได้ ถ้าต้องการนับเป็นชิ้นๆ ต้องใช้รูป **a few pieces of advice** เช่น `a few pieces of advice`"
+      },
+      {
+        "index": 3,
+        "text": "much",
+        "knowledge_ids": [
+          532,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะ เพราะในประโยคขอร้อง/บอกเล่าแบบทั่วไป เรามักใช้ **some** มากกว่า **much** เช่น `Could you give me some advice?` คำว่า **much advice** มักเกิดในรูปปฏิเสธ/คำถาม เช่น `I don't need much advice.`"
+      },
+      {
+        "index": 4,
+        "text": "an",
+        "knowledge_ids": [
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **advice** เป็นนามนับไม่ได้ จึงห้ามใช้ **a/an** นำหน้า ถ้าต้องการ 1 ชิ้น ให้ใช้ **a piece of advice** เช่น `Can I have a piece of advice?`"
+      }
+    ]
+  },
+  {
+    "question": "There isn't ___ sugar left in the jar.",
+    "question_knowledge_ids": [
+      530,
+      532
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "much",
+        "knowledge_ids": [
+          530,
+          532
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **sugar** เป็นนามนับไม่ได้ และประโยคนี้เป็นรูปปฏิเสธ จึงใช้ **much** ได้เหมาะมาก โครงสร้างคือ __not + much + uncountable noun__. ตัวอย่าง: `There isn't much sugar left.`"
+      },
+      {
+        "index": 2,
+        "text": "many",
+        "knowledge_ids": [
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **many** ใช้กับนามนับได้พหูพจน์ แต่ **sugar** เป็นนามนับไม่ได้ จึงต้องใช้ **much sugar** หรือ **a lot of sugar** แทน เช่น `We don't have much sugar.`"
+      },
+      {
+        "index": 3,
+        "text": "several",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **several** ใช้กับนามนับได้พหูพจน์ เช่น `several cookies` แต่ **sugar** เป็นนามนับไม่ได้ ต้องใช้ **much/little/a lot of** เท่านั้น"
+      },
+      {
+        "index": 4,
+        "text": "a few",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **a few** ใช้กับนามนับได้พหูพจน์ เช่น `a few apples`. สำหรับนามนับไม่ได้อย่าง **sugar** ต้องใช้ **a little** เพื่อสื่อว่าเหลือนิดหน่อย เช่น `There is a little sugar left.`"
+      }
+    ]
+  },
+  {
+    "question": "He drank ___ water after the run.",
+    "question_knowledge_ids": [
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "a lot of",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะในประโยคบอกเล่า เรานิยมใช้ **a lot of** กับนามนับไม่ได้อย่าง **water** เพื่อสื่อว่ามีปริมาณมาก โครงสร้างคือ __a lot of + uncountable noun__. ตัวอย่าง: `He drank a lot of water.`"
+      },
+      {
+        "index": 2,
+        "text": "much",
+        "knowledge_ids": [
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ในเชิงไวยากรณ์ไม่ผิดกับนามนับไม่ได้ แต่ในประโยคบอกเล่าทั่วไป **much** ฟังไม่เป็นธรรมชาติ เรามักใช้ **a lot of** แทน เช่น `He drank a lot of water.` ส่วน **much** ใช้บ่อยในปฏิเสธ/คำถาม เช่น `Did he drink much water?`"
+      },
+      {
+        "index": 3,
+        "text": "many",
+        "knowledge_ids": [
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **many** ใช้กับนามนับได้พหูพจน์ แต่ **water** เป็นนามนับไม่ได้ จึงควรใช้ **a lot of water** หรือ **much water** (ในปฏิเสธ/คำถาม)"
+      },
+      {
+        "index": 4,
+        "text": "several",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **several** ใช้กับนามนับได้พหูพจน์ เช่น `several bottles`. ถ้าต้องการนับน้ำเป็นหน่วย ต้องบอกภาชนะ เช่น `several bottles of water` ไม่ใช่ `several water`"
+      }
+    ]
+  },
+  {
+    "question": "There was a large ___ of traffic this morning.",
+    "question_knowledge_ids": [
+      530,
+      474
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "amount",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **traffic** เป็นนามนับไม่ได้ จึงใช้ **amount** ไม่ใช่ **number** โครงสร้างที่ถูกคือ __a large amount of + uncountable noun__. ตัวอย่าง: `There was a large amount of traffic this morning.`"
+      },
+      {
+        "index": 2,
+        "text": "number",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **number** ใช้กับนามนับได้พหูพจน์ เช่น `a large number of people`. แต่ **traffic** เป็นนามนับไม่ได้ จึงต้องใช้ **amount of traffic**"
+      },
+      {
+        "index": 3,
+        "text": "numbers",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **numbers** เป็นคำนามพหูพจน์หมายถึง “ตัวเลขหลายตัว” ไม่ใช่ตัวบอกปริมาณนามข้างหลัง การใช้ `a large numbers of traffic` จึงผิด ต้องใช้ `a large amount of traffic`"
+      },
+      {
+        "index": 4,
+        "text": "many",
+        "knowledge_ids": [
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **many** ใช้กับนามนับได้พหูพจน์ แต่ **traffic** เป็นนามนับไม่ได้ จึงควรใช้ **much traffic** (เช่นในปฏิเสธ/คำถาม) หรือ **a large amount of traffic**"
+      }
+    ]
+  },
+  {
+    "question": "We have ___ money to travel this summer—just enough for a short trip.",
+    "question_knowledge_ids": [
+      517,
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "a little",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **money** เป็นนามนับไม่ได้ และต้องการสื่อว่ามี “เล็กน้อยพอใช้” โครงสร้างคือ __a little + uncountable noun__. ตัวอย่าง: `We have a little money, so we can take a short trip.`"
+      },
+      {
+        "index": 2,
+        "text": "little",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ **little** มีน้ำเสียงลบว่า “น้อยจนแทบไม่มี” ซึ่งขัดกับส่วนที่บอกว่ายังพอไปทริปสั้นๆ ได้ ถ้าต้องการบอกว่าน้อยแต่ยังพอใช้ ให้ใช้ **a little money**"
+      },
+      {
+        "index": 3,
+        "text": "a few",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **a few** ใช้กับนามนับได้พหูพจน์ แต่ **money** เป็นนามนับไม่ได้ หากจะนับเป็นหน่วยควรพูดเป็นสกุลเงิน เช่น `a few dollars` ไม่ใช่ `a few money`"
+      },
+      {
+        "index": 4,
+        "text": "few",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **few** ใช้กับนามนับได้พหูพจน์ แต่ **money** เป็นนามนับไม่ได้ หากต้องการสื่อว่ามีน้อยกับนามนับไม่ได้ ให้ใช้ **little** หรือ **a little** เช่น `We have little money.`"
+      }
+    ]
+  },
+  {
+    "question": "There were ___ people at the meeting than we expected.",
+    "question_knowledge_ids": [
+      474,
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "fewer",
+        "knowledge_ids": [
+          474,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **people** เป็นนามนับได้พหูพจน์ จึงใช้คำเปรียบเทียบ **fewer** แทน **less** โครงสร้างคือ __fewer + plural countable noun__. ตัวอย่าง: `There were fewer people than we expected.`"
+      },
+      {
+        "index": 2,
+        "text": "less",
+        "knowledge_ids": [
+          474,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดตามหลักทั่วไป เพราะ **less** ใช้กับนามนับไม่ได้ เช่น `less time`, `less water`. สำหรับนามนับได้พหูพจน์อย่าง **people** ต้องใช้ **fewer people**"
+      },
+      {
+        "index": 3,
+        "text": "little",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **little** ใช้กับนามนับไม่ได้ และไม่ใช่รูปเปรียบเทียบที่คู่กับ `than` ในบริบทนี้ ควรใช้ **fewer** กับนามนับได้ เช่น `fewer people than...`"
+      },
+      {
+        "index": 4,
+        "text": "few",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะประโยคเป็นการเปรียบเทียบกับ `than` จึงต้องใช้รูปเปรียบเทียบ **fewer** ไม่ใช่ **few** เช่น `fewer people than we expected`"
+      }
+    ]
+  },
+  {
+    "question": "I don't get ___ emails on weekends.",
+    "question_knowledge_ids": [
+      193,
+      530,
+      532,
+      563
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "many",
+        "knowledge_ids": [
+          530,
+          532
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **emails** เป็นนามนับได้พหูพจน์ และประโยคเป็นรูปปฏิเสธ จึงใช้ **many** ได้เหมาะ โครงสร้างคือ __not + many + plural countable noun__. ตัวอย่าง: `I don't get many emails on weekends.`"
+      },
+      {
+        "index": 2,
+        "text": "much",
+        "knowledge_ids": [
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **much** ใช้กับนามนับไม่ได้ เช่น `much work`. แต่ **emails** เป็นนามนับได้พหูพจน์ จึงต้องใช้ **many emails** ไม่ใช่ `much emails`"
+      },
+      {
+        "index": 3,
+        "text": "a little",
+        "knowledge_ids": [
+          517,
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **a little** ใช้กับนามนับไม่ได้ เช่น `a little milk`. สำหรับนามนับได้พหูพจน์ควรใช้ **a few** หรือ **many** เช่น `a few emails`"
+      },
+      {
+        "index": 4,
+        "text": "little",
+        "knowledge_ids": [
+          517,
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **little** ใช้กับนามนับไม่ได้ และสื่อความหมายลบ เช่น `little time`. สำหรับนามนับได้พหูพจน์อย่าง **emails** ต้องใช้ **few/a few/many**"
+      }
+    ]
+  }
+]

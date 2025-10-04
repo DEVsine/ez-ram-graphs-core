@@ -1,0 +1,476 @@
+[
+  {
+    "question": "There is ___ apple on the table.",
+    "question_knowledge_ids": [
+      531,
+      514
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "a",
+        "knowledge_ids": [
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจ้า เพราะคำว่า `apple` เริ่มด้วยเสียงสระ /æ/ ต้องใช้ **an** ไม่ใช่ **a**. โครงสร้างที่ถูกคือ `an + vowel sound + noun` เช่น `an apple`, `an orange`."
+      },
+      {
+        "index": 2,
+        "text": "an",
+        "knowledge_ids": [
+          531,
+          512
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้องเลย! ใช้ **__an + คำนามที่ขึ้นต้นด้วยเสียงสระ__** เช่น `an apple`. ตัวอย่างประโยค: `There is an apple on the table.` ใช้เมื่อพูดถึงสิ่งหนึ่งอย่างทั่วไป ยังไม่เฉพาะเจาะจง."
+      },
+      {
+        "index": 3,
+        "text": "the",
+        "knowledge_ids": [
+          531,
+          513
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะ **the** ใช้กับสิ่งที่ผู้พูดและผู้ฟังรู้ว่าอันไหนชัดเจนอยู่แล้ว แต่ที่นี่พูดถึงแอปเปิลแบบทั่วไปครั้งแรก ควรใช้ `an apple` เช่น `There is an apple on the table.`"
+      },
+      {
+        "index": 4,
+        "text": "— (no article)",
+        "knowledge_ids": [
+          514,
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ใส่ไม่ได้ครับผม เพราะ `apple` เป็นนามนับได้เอกพจน์ ต้องมี **a/an/the** เสมอเมื่ออยู่เดี่ยวๆ จึงต้องใช้ `an apple` ไม่ใช่ Ø `apple`."
+      }
+    ]
+  },
+  {
+    "question": "She is ___ engineer at a tech company.",
+    "question_knowledge_ids": [
+      531
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "an",
+        "knowledge_ids": [
+          531,
+          512
+        ],
+        "is_correct": true,
+        "answer_description": "ใช่เลย! อาชีพใช้กับ **__a/an + job__** และคำว่า `engineer` เริ่มด้วยเสียงสระ /e/ จึงใช้ `an engineer`. ตัวอย่าง: `She is an engineer at a tech company.` ใช้เมื่อพูดถึงอาชีพทั่วไป ไม่เฉพาะคนไหน."
+      },
+      {
+        "index": 2,
+        "text": "a",
+        "knowledge_ids": [
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "เกือบถูก แต่ `engineer` เริ่มด้วยเสียงสระ /e/ จึงต้องใช้ **an** ไม่ใช่ **a**. ตัวอย่างที่ถูก: `She is an engineer.` ไม่ใช่ `a engineer`."
+      },
+      {
+        "index": 3,
+        "text": "the",
+        "knowledge_ids": [
+          531,
+          513
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ใช่จ้า เพราะ **the** ใช้เมื่อเฉพาะเจาะจง แต่ที่นี่แค่บอกอาชีพทั่วไป ควรใช้ `an engineer`. โครงสร้างอาชีพที่ถูกคือ `be + a/an + job` เช่น `He is a teacher.`"
+      },
+      {
+        "index": 4,
+        "text": "— (no article)",
+        "knowledge_ids": [
+          514,
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "ห้ามละบทความกับนามนับได้เอกพจน์อย่าง `engineer` ในตำแหน่งนี้ ต้องใส่ **a/an** เสมอ เช่น `She is an engineer.`"
+      }
+    ]
+  },
+  {
+    "question": "He bought ___ umbrella because it was raining.",
+    "question_knowledge_ids": [
+      531
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "an",
+        "knowledge_ids": [
+          531,
+          512
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง! คำว่า `umbrella` เริ่มด้วยเสียงสระ /ʌ/ จึงใช้ **__an + umbrella__**. ตัวอย่าง: `He bought an umbrella because it was raining.` ใช้เมื่อต้องการพูดถึงของชิ้นหนึ่งแบบไม่เฉพาะ."
+      },
+      {
+        "index": 2,
+        "text": "a",
+        "knowledge_ids": [
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก เพราะ `umbrella` ขึ้นต้นด้วยเสียงสระ ต้องใช้ **an** ไม่ใช่ **a**. ตัวอย่างที่ถูก: `an umbrella`, `an egg`."
+      },
+      {
+        "index": 3,
+        "text": "the",
+        "knowledge_ids": [
+          531,
+          513
+        ],
+        "is_correct": false,
+        "answer_description": "ถ้าใช้ **the** จะหมายถึงร่มที่ทั้งสองฝ่ายรู้ว่าอันไหนชิ้นไหน แต่ในประโยคนี้เป็นการพูดทั่วไปว่าซื้อร่มหนึ่งคัน จึงควรใช้ `an umbrella`."
+      },
+      {
+        "index": 4,
+        "text": "— (no article)",
+        "knowledge_ids": [
+          514,
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "ใช้ Ø ไม่ได้กับ `umbrella` ที่เป็นนามนับได้เอกพจน์ ต้องมี **a/an** เช่น `an umbrella`. ถ้าเป็นพหูพจน์ค่อยใช้ Ø ได้ เช่น `He bought umbrellas.`"
+      }
+    ]
+  },
+  {
+    "question": "I have ___ one-way ticket to Bangkok.",
+    "question_knowledge_ids": [
+      531,
+      533
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "a",
+        "knowledge_ids": [
+          531
+        ],
+        "is_correct": true,
+        "answer_description": "เยี่ยม! ถึงจะขึ้นต้นด้วยตัวอักษร `o` แต่คำว่า `one` ออกเสียงขึ้นต้นเป็นพยัญชนะ /w/ จึงใช้ **__a + one-way ticket__**. ตัวอย่าง: `I have a one-way ticket to Bangkok.`"
+      },
+      {
+        "index": 2,
+        "text": "an",
+        "knowledge_ids": [
+          531,
+          512
+        ],
+        "is_correct": false,
+        "answer_description": "หลงเสียงนิดนึง คำว่า `one` ออกเสียง /wʌn/ เป็นเสียงพยัญชนะ ไม่ใช่เสียงสระ จึงห้ามใช้ **an** ต้องใช้ `a one-way ticket` แทน."
+      },
+      {
+        "index": 3,
+        "text": "the",
+        "knowledge_ids": [
+          531,
+          513
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ใช่จ้า เพราะยังไม่ได้ชี้เฉพาะว่าตั๋วใบไหน ใช้ **the** เมื่อต่างฝ่ายรู้ชัดเจนแล้ว แต่ที่นี่เป็นการบอกว่ามี “ตั๋วหนึ่งใบ” แบบทั่วไป ควรใช้ `a one-way ticket`."
+      },
+      {
+        "index": 4,
+        "text": "— (no article)",
+        "knowledge_ids": [
+          514,
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "ละไม่ได้ เพราะ `ticket` เป็นนามนับได้เอกพจน์ ต้องมีตัวกำกับ **a/an/the** เสมอ ในที่นี้ควรใช้ `a one-way ticket`."
+      }
+    ]
+  },
+  {
+    "question": "She has ___ MBA from Stanford.",
+    "question_knowledge_ids": [
+      531
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "an",
+        "knowledge_ids": [
+          531,
+          512
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้องมาก! ตัวย่อ `MBA` ออกเสียงขึ้นต้นเป็นเสียงสระ /ˌɛm/ จึงใช้ **__an + MBA__**. ตัวอย่าง: `She has an MBA from Stanford.` หลักคือดูที่ “เสียง” ไม่ใช่ตัวอักษร."
+      },
+      {
+        "index": 2,
+        "text": "a",
+        "knowledge_ids": [
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะ `MBA` ออกเสียงขึ้นต้นเป็นเสียงสระ /ˌɛm/ ต้องใช้ **an** ไม่ใช่ **a**. ตัวอย่างที่ถูก: `an MBA`, `an MA`."
+      },
+      {
+        "index": 3,
+        "text": "the",
+        "knowledge_ids": [
+          531,
+          513
+        ],
+        "is_correct": false,
+        "answer_description": "การใช้ **the** จะชี้เฉพาะ แต่ประโยคนี้พูดถึงปริญญาแบบทั่วไป ควรใช้ `an MBA`. ใช้ **the** เมื่อระบุชัด เช่น `the MBA program we discussed`."
+      },
+      {
+        "index": 4,
+        "text": "— (no article)",
+        "knowledge_ids": [
+          514,
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "ละบทความไม่ได้ เพราะ `MBA` ในที่นี้นับได้เป็นคุณวุฒิหนึ่งรายการ ควรใช้ `an MBA`. ถ้าจะไม่ใช้บทความ ต้องเปลี่ยนโครงสร้างเช่น `She studied MBA` ซึ่งก็ยังไม่เป็นธรรมชาติเท่า `She has an MBA`."
+      }
+    ]
+  },
+  {
+    "question": "It takes ___ hour to get there.",
+    "question_knowledge_ids": [
+      531,
+      512
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "an",
+        "knowledge_ids": [
+          531,
+          512
+        ],
+        "is_correct": true,
+        "answer_description": "ชนะเลิศ! คำว่า `hour` ตัว h ไม่ออกเสียง จึงขึ้นต้นด้วยเสียงสระ /aʊ/ ต้องใช้ **__an + hour__**. ตัวอย่าง: `It takes an hour to get there.`"
+      },
+      {
+        "index": 2,
+        "text": "a",
+        "knowledge_ids": [
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูกนะ เพราะ `hour` ออกเสียงขึ้นต้นเป็นเสียงสระ /aʊ/ (h เงียบ) จึงต้องใช้ **an** ไม่ใช่ **a**. ใช้ให้ถูก: `an hour`, `an honor`."
+      },
+      {
+        "index": 3,
+        "text": "the",
+        "knowledge_ids": [
+          531,
+          513
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะไม่ได้ระบุชั่วโมงไหนแบบเฉพาะเจาะจง แค่บอกระยะเวลาโดยรวม ใช้ `an hour` จะเป็นธรรมชาติและถูกหลักกว่า."
+      },
+      {
+        "index": 4,
+        "text": "— (no article)",
+        "knowledge_ids": [
+          514,
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "Ø ใช้ไม่ได้กับ `hour` ที่เป็นนามนับได้เอกพจน์ในตำแหน่งนี้ ต้องใช้ **a/an** จึงต้องเขียน `an hour` ไม่ใช่ `hour` ลอยๆ."
+      }
+    ]
+  },
+  {
+    "question": "He is ___ European artist.",
+    "question_knowledge_ids": [
+      531
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "a",
+        "knowledge_ids": [
+          531
+        ],
+        "is_correct": true,
+        "answer_description": "ใช่เลย! แม้ `European` จะขึ้นต้นด้วยตัวอักษรสระ e แต่เสียงขึ้นต้นคือ /j/ (เหมือนเสียง “ยู”) จึงใช้ **__a + European__**. ตัวอย่าง: `He is a European artist.`"
+      },
+      {
+        "index": 2,
+        "text": "an",
+        "knowledge_ids": [
+          531,
+          512
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเราดูที่ “เสียง” ไม่ใช่ตัวสะกด คำว่า `European` เริ่มด้วยเสียงพยัญชนะ /j/ ต้องใช้ **a** ไม่ใช่ **an**. ตัวอย่างที่ถูก: `a European`, `a university`."
+      },
+      {
+        "index": 3,
+        "text": "the",
+        "knowledge_ids": [
+          531,
+          513
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ใช่จ้า เพราะกำลังบอกสัญชาติแบบทั่วไป ไม่ได้เฉพาะศิลปินคนใด จึงใช้ `a European artist` แทน `the European artist`."
+      },
+      {
+        "index": 4,
+        "text": "— (no article)",
+        "knowledge_ids": [
+          514,
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "ละไม่ได้เพราะ `artist` เป็นนามนับได้เอกพจน์ ต้องมี **a/an/the** นำหน้า ในที่นี้ควรใช้ `a European artist`."
+      }
+    ]
+  },
+  {
+    "question": "We saw ___ unicorn in the forest.",
+    "question_knowledge_ids": [
+      531
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "a",
+        "knowledge_ids": [
+          531
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง! คำว่า `unicorn` เริ่มด้วยเสียง /juː/ (ยูกับเสียงยอ) จึงใช้ **__a + unicorn__** ไม่ใช่ an. ตัวอย่าง: `We saw a unicorn in the forest.`"
+      },
+      {
+        "index": 2,
+        "text": "an",
+        "knowledge_ids": [
+          531,
+          512
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะแม้ `unicorn` จะขึ้นต้นด้วยตัว u แต่เสียงขึ้นต้นคือ /j/ (ยู) จัดเป็นเสียงพยัญชนะ ต้องใช้ **a**, เช่น `a unicorn`, `a university`."
+      },
+      {
+        "index": 3,
+        "text": "the",
+        "knowledge_ids": [
+          531,
+          513
+        ],
+        "is_correct": false,
+        "answer_description": "ถ้าใช้ **the** จะหมายถึงยูนิคอร์นตัวที่รู้กันอยู่แล้วว่าอันไหน แต่ที่นี่เป็นการกล่าวครั้งแรกและทั่วไป ควรใช้ `a unicorn`."
+      },
+      {
+        "index": 4,
+        "text": "— (no article)",
+        "knowledge_ids": [
+          514,
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ใส่ไม่ได้ เพราะ `unicorn` เป็นนามนับได้เอกพจน์ ต้องมีบทความ จึงต้องเป็น `a unicorn` ในประโยคนี้."
+      }
+    ]
+  },
+  {
+    "question": "Can I have ___ piece of advice?",
+    "question_knowledge_ids": [
+      531,
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "a",
+        "knowledge_ids": [
+          531
+        ],
+        "is_correct": true,
+        "answer_description": "ตอบถูก! แม้ `advice` จะนับไม่ได้ แต่เราใช้นามนับได้ตัวกลาง `piece` จึงใช้ **__a + piece of advice__**. ตัวอย่าง: `Can I have a piece of advice?` หรือ `a piece of cake`."
+      },
+      {
+        "index": 2,
+        "text": "an",
+        "knowledge_ids": [
+          531,
+          512
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ใช่จ้า เพราะ `piece` ขึ้นต้นด้วยเสียงพยัญชนะ /p/ ต้องใช้ **a** ไม่ใช่ **an**. รูปที่ถูกคือ `a piece of advice`."
+      },
+      {
+        "index": 3,
+        "text": "— (no article)",
+        "knowledge_ids": [
+          514,
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ได้นะ เพราะ `piece` เป็นนามนับได้เอกพจน์ ต้องมี **a/an** นำหน้า จึงควรใช้ `a piece of advice` ไม่ใช่ `piece of advice` เฉยๆ."
+      },
+      {
+        "index": 4,
+        "text": "a advice",
+        "knowledge_ids": [
+          531,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดหลักเลย เพราะ `advice` เป็นนามนับไม่ได้ ห้ามใช้ **a/an** นำหน้าโดยตรง ต้องใช้ตัวชี้ปริมาณ เช่น `a piece of advice` หรือ `some advice`."
+      }
+    ]
+  },
+  {
+    "question": "She wants to be ___ doctor in the future.",
+    "question_knowledge_ids": [
+      531
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "a",
+        "knowledge_ids": [
+          531
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง! อาชีพใช้รูป **__a/an + job__** และคำว่า `doctor` เริ่มด้วยเสียงพยัญชนะ /d/ จึงใช้ `a doctor`. ตัวอย่าง: `She wants to be a doctor in the future.`"
+      },
+      {
+        "index": 2,
+        "text": "an",
+        "knowledge_ids": [
+          531,
+          512
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดนะ เพราะ `doctor` เริ่มด้วยเสียงพยัญชนะ /d/ ต้องใช้ **a** ไม่ใช่ **an**. ที่ถูกคือ `a doctor` เหมือน `a teacher`, `a driver`."
+      },
+      {
+        "index": 3,
+        "text": "the",
+        "knowledge_ids": [
+          531,
+          513
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ใช่จ้า เพราะไม่ได้ชี้เฉพาะหมอคนไหน เป็นการพูดถึงอาชีพทั่วไป ต้องใช้ `a doctor` ไม่ใช่ `the doctor`."
+      },
+      {
+        "index": 4,
+        "text": "— (no article)",
+        "knowledge_ids": [
+          514,
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "ละบทความไม่ได้ เนื่องจาก `doctor` เป็นนามนับได้เอกพจน์ในตำแหน่งนี้ จำเป็นต้องมี `a/an` จึงต้องเป็น `a doctor`."
+      }
+    ]
+  }
+]

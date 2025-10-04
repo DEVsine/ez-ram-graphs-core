@@ -1,0 +1,321 @@
+[
+  {
+    "question": "If I ___ enough money, I would buy a small farm.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **Second Conditional** คือ __if + past simple, would + base verb__ ใช้พูดถึงเหตุการณ์ที่ไม่จริง/สมมติในปัจจุบันหรืออนาคต เช่น `If I had enough money, I would buy a small farm.` ใช้กริยาช่อง Past Simple คือ **had** แม้จะพูดถึงอนาคตก็ตาม เพื่อบอกว่าเป็นเงื่อนไขสมมติ"
+      },
+      {
+        "index": 2,
+        "text": "have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **have** เป็นปัจจุบันธรรมดา ใช้กับ **First Conditional** มากกว่า เช่น `If I have enough money, I will buy...` แต่ประโยคนี้ต้องการเงื่อนไขสมมติ จึงควรใช้ past simple คือ **had**"
+      },
+      {
+        "index": 3,
+        "text": "will have",
+        "is_correct": false,
+        "answer_description": "ผิด ในอนุประโยคที่ขึ้นต้นด้วย **if** ห้ามใช้ **will** ใน Second Conditional โครงสร้างที่ถูกคือ `if + past simple` เช่น `If I had...` แล้วตามด้วย `would + V1`"
+      },
+      {
+        "index": 4,
+        "text": "would have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **would have + V3** เป็นรูปที่ไปทางเงื่อนไขในอดีต (Third Conditional) เช่น `If I had had..., I would have bought...` แต่ประโยคนี้พูดถึงปัจจุบัน/อนาคตแบบสมมติ จึงต้องใช้ **had** เฉยๆ ใน if-clause"
+      }
+    ]
+  },
+  {
+    "question": "She would travel more if she ___ more free time.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตามแพตเทิร์น __if + past simple, would + base verb__ ใช้กับสถานการณ์สมมติที่ไม่เป็นจริงตอนนี้ เช่น `She would travel more if she had more free time.` ตรงนี้ **had** เป็น past simple แสดงว่าเวลาว่างตอนนี้ไม่มีพอ"
+      },
+      {
+        "index": 2,
+        "text": "has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **has** เป็นปัจจุบันธรรมดา จะเหมาะกับ First Conditional มากกว่า เช่น `If she has more free time, she will travel more.` แต่ประโยคนี้ใช้ **would** จึงต้องคู่กับ past simple คือ **had**"
+      },
+      {
+        "index": 3,
+        "text": "will have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใน if-clause ของ Second Conditional ไม่ใช้ **will** โครงสร้างที่ถูกควรเป็น `if she had...` แล้วตามด้วย `would + V1` ในประโยคหลัก"
+      },
+      {
+        "index": 4,
+        "text": "would have",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจาก **would have** เป็นโครงสร้างที่ใช้กับเงื่อนไขอดีต (Third Conditional) แต่ประโยคนี้กำลังสมมติปัจจุบัน/อนาคต ควรใช้ past simple ใน if-clause คือ **had**"
+      }
+    ]
+  },
+  {
+    "question": "If he were taller, he ___ basketball better.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "would play",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง Second Conditional คือ __if + past simple (were), would + base verb__ เช่น `If he were taller, he would play basketball better.` ใช้ **were** กับทุกประธานเพื่อเน้นความสมมติ และใช้ **would + play** ในผลลัพธ์"
+      },
+      {
+        "index": 2,
+        "text": "will play",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **will** ใช้ใน First Conditional (`If + present, will + V1`) แต่ประโยคนี้เป็นสมมติ ใช้ **would + V1** แทน และ if-clause ใช้ past (were)"
+      },
+      {
+        "index": 3,
+        "text": "plays",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **plays** เป็นปัจจุบันธรรมดา ไม่เข้ากับเงื่อนไขสมมติ Second Conditional ซึ่งต้องใช้ `would + V1` ในประโยคหลัก เช่น `would play`"
+      },
+      {
+        "index": 4,
+        "text": "played",
+        "is_correct": false,
+        "answer_description": "ผิด แม้จะเป็น past แต่ส่วนที่เว้นว่างอยู่ในประโยคหลัก ควรเป็น `would + V1` ไม่ใช่ past simple เดี่ยวๆ โครงสร้างที่ถูกคือ `he would play...`"
+      }
+    ]
+  },
+  {
+    "question": "If I ___ you, I wouldn't take that risk.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "were",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง สำนวนสมมติที่นิยมคือ __If I were you, ...__ ใช้ **were** กับ I/He/She/It เพื่อเน้นความไม่จริง เช่น `If I were you, I wouldn't take that risk.` โครงสร้างรวมคือ __if + past simple, would(n't) + base verb__"
+      },
+      {
+        "index": 2,
+        "text": "was",
+        "is_correct": false,
+        "answer_description": "ผิด ใน Second Conditional แบบทางการและเป็นมาตรฐาน ควรใช้ **were** กับทุกประธานใน if-clause (`subjunctive were`) เช่น `If I were you...` ไม่ใช้ **was**"
+      },
+      {
+        "index": 3,
+        "text": "am",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **am** เป็นปัจจุบันธรรมดา ใช้ใน First Conditional มากกว่า แต่ประโยคนี้เป็นเงื่อนไขสมมติที่ไม่จริงตอนนี้ จึงต้องใช้ past แบบพิเศษคือ **were**"
+      },
+      {
+        "index": 4,
+        "text": "be",
+        "is_correct": false,
+        "answer_description": "ผิด รูป **be** ไม่ผันตาม tense และไม่เหมาะใน if-clause ที่ต้องใช้ past simple ใน Second Conditional รูปที่ถูกคือ `were`"
+      }
+    ]
+  },
+  {
+    "question": "If they studied harder, they ___ the exam.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "would pass",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง Second Conditional คือ __if + past simple, would + base verb__ เช่น `If they studied harder, they would pass the exam.` แปลว่านี่เป็นการสมมติว่าตอนนี้ยังเรียนไม่หนักพอ"
+      },
+      {
+        "index": 2,
+        "text": "will pass",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **will** ใช้กับ First Conditional (`If + present, will + V1`) แต่ที่นี่เป็นสมมติ จึงควรใช้ **would + V1**"
+      },
+      {
+        "index": 3,
+        "text": "pass",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคหลักใน Second Conditional ต้องใช้ `would + V1` ไม่ใช่ **present simple** เดี่ยวๆ ตัวอย่างที่ถูก: `they would pass`"
+      },
+      {
+        "index": 4,
+        "text": "passed",
+        "is_correct": false,
+        "answer_description": "ผิด แม้จะเป็น past แต่ตำแหน่งนี้เป็นประโยคหลักของผลลัพธ์ ควรใช้ **would + V1** ไม่ใช่ **past simple** เช่น `would pass`"
+      }
+    ]
+  },
+  {
+    "question": "If it ___ tomorrow, we would stay at home.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "rained",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใน Second Conditional ใช้ __if + past simple__ แม้จะพูดถึงอนาคต เช่น `If it rained tomorrow, we would stay at home.` โครงสร้างผลลัพธ์คือ **would + base verb**"
+      },
+      {
+        "index": 2,
+        "text": "rains",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **rains** เป็น present simple ที่เข้ากับ First Conditional แบบ `If it rains tomorrow, we will stay home.` แต่ประโยคนี้ใช้ **would** จึงต้องคู่กับ past simple คือ **rained**"
+      },
+      {
+        "index": 3,
+        "text": "will rain",
+        "is_correct": false,
+        "answer_description": "ผิด ไม่ใช้ **will** ใน if-clause ของเงื่อนไขสมมติ โครงสร้างที่ถูกต้องคือ `if + past simple` เช่น `if it rained...`"
+      },
+      {
+        "index": 4,
+        "text": "would rain",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **would** ไม่ควรอยู่ใน if-clause ของ Second Conditional ควรอยู่ในประโยคหลัก เช่น `we would stay...`"
+      }
+    ]
+  },
+  {
+    "question": "If she ___ how to code, she would build an app.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "knew",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __if + past simple (knew), would + base verb__ เพื่อสื่อว่านี่คือสถานการณ์สมมติ เช่น `If she knew how to code, she would build an app.` แปลว่า ณ ตอนนี้เธอยังไม่รู้โค้ด"
+      },
+      {
+        "index": 2,
+        "text": "knows",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **knows** เป็นปัจจุบันธรรมดา เข้ากับ First Conditional มากกว่า (`If she knows..., she will...`) แต่ประโยคนี้ใช้ **would** จึงต้องใช้ **knew**"
+      },
+      {
+        "index": 3,
+        "text": "will know",
+        "is_correct": false,
+        "answer_description": "ผิด ใน if-clause ห้ามใช้ **will** สำหรับ Second Conditional ต้องใช้ past simple เช่น `if she knew...`"
+      },
+      {
+        "index": 4,
+        "text": "would know",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **would** ไม่ควรอยู่ใน if-clause ของ Second Conditional รูปที่ถูกคือ **knew** แล้วตามด้วย `would + V1` ในประโยคหลัก"
+      }
+    ]
+  },
+  {
+    "question": "I ___ you with the project if I had more time.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "would help",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง Second Conditional คือ __if + past simple, would + base verb__ ประโยคตัวอย่าง: `I would help you with the project if I had more time.` สื่อว่าเวลาตอนนี้ไม่พอ เลยช่วยไม่ได้"
+      },
+      {
+        "index": 2,
+        "text": "will help",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **will help** สื่อถึง First Conditional (`If I have..., I will help...`) แต่ที่นี่ if-clause ใช้ past (`had`) แสดงถึงสมมติ จึงต้องใช้ **would help**"
+      },
+      {
+        "index": 3,
+        "text": "help",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคหลักของ Second Conditional ต้องเป็น `would + V1` ไม่ใช่ base verb เดี่ยวๆ ควรเป็น `would help`"
+      },
+      {
+        "index": 4,
+        "text": "helped",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ **past simple** ในประโยคหลักไม่ตรงกับโครงสร้าง Second Conditional ที่ควรเป็น **would + V1** เช่น `would help`"
+      }
+    ]
+  },
+  {
+    "question": "Were he more careful, he ___ fewer mistakes.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "would make",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง นี่คือรูปย่ออินเวอร์ชันของ Second Conditional: __Were + subject + adjective/noun, would + base verb__ เช่น `Were he more careful, he would make fewer mistakes.` มีความหมายเท่ากับ `If he were more careful, ...`"
+      },
+      {
+        "index": 2,
+        "text": "makes",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคหลักใน Second Conditional ต้องใช้ **would + V1** ไม่ใช่ present simple เช่น `would make` ไม่ใช่ `makes`"
+      },
+      {
+        "index": 3,
+        "text": "will make",
+        "is_correct": false,
+        "answer_description": "ผิด **will** ใช้กับ First Conditional เท่านั้น แต่ที่นี่เป็นเงื่อนไขสมมติ จึงควรใช้ **would + make**"
+      },
+      {
+        "index": 4,
+        "text": "made",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ **past simple** ในประโยคหลักไม่ตรงแพตเทิร์น Second Conditional ต้องเป็น `would + base verb` เช่น `would make`"
+      }
+    ]
+  },
+  {
+    "question": "If we ___ a car, we could visit the countryside.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง Second Conditional คือ __if + past simple, would/could + base verb__ เช่น `If we had a car, we could visit the countryside.` ตรงนี้ใช้ **could** เพื่อสื่อถึงความสามารถ/ความเป็นไปได้ในผลลัพธ์"
+      },
+      {
+        "index": 2,
+        "text": "have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **have** เป็น present simple จะเข้ากับ First Conditional มากกว่า (`If we have a car, we will/can visit...`) แต่ประโยคนี้ใช้ **could** แบบสมมติ จึงต้องใช้ **had**"
+      },
+      {
+        "index": 3,
+        "text": "will have",
+        "is_correct": false,
+        "answer_description": "ผิด ไม่ใช้ **will** ใน if-clause ของ Second Conditional ต้องเป็น past simple คือ **had** แล้วผลลัพธ์ใช้ `would/could + V1`"
+      },
+      {
+        "index": 4,
+        "text": "would have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **would have** ชี้ไปที่ Third Conditional (เงื่อนไขอดีต) แต่ที่นี่เป็นสมมติปัจจุบัน/อนาคต จึงต้องใช้ **had**"
+      }
+    ]
+  },
+  {
+    "question": "If the app ___ faster, more users would stay.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "loaded",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __if + past simple, would + base verb__ เพื่อสมมติสถานการณ์ เช่น `If the app loaded faster, more users would stay.` บอกเป็นนัยว่าตอนนี้แอปช้าเกินไปจึงมีผู้ใช้ออก"
+      },
+      {
+        "index": 2,
+        "text": "loads",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **loads** เป็น present simple เข้ากับ First Conditional มากกว่า (`If the app loads faster, more users will stay.`) แต่ที่นี่เราใช้ **would** จึงต้องใช้ past simple คือ **loaded**"
+      },
+      {
+        "index": 3,
+        "text": "will load",
+        "is_correct": false,
+        "answer_description": "ผิด ใน if-clause ของ Second Conditional ห้ามใช้ **will** ต้องใช้ past simple เช่น `if the app loaded...`"
+      },
+      {
+        "index": 4,
+        "text": "would load",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **would** ไม่ควรอยู่ใน if-clause ของ Second Conditional ควรอยู่ในผลลัพธ์ เช่น `more users would stay` ส่วน if-clause ใช้ **loaded**"
+      }
+    ]
+  }
+]

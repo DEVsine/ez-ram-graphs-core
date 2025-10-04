@@ -1,0 +1,577 @@
+[
+  {
+    "question": "By the time she arrives, she ___ for three hours.",
+    "question_knowledge_ids": [
+      216,
+      236,
+      211,
+      217,
+      219,
+      220
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been waiting",
+        "knowledge_ids": [
+          211,
+          217
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างของ Future Perfect Continuous คือ __will have been + V-ing__ เพื่อเน้น “ระยะเวลา” ที่ดำเนินต่อเนื่องจนถึงจุดเวลาในอนาคต เช่น `By the time she arrives, she will have been waiting for three hours.` แปลว่า พอเธอมาถึง ก็จะรอมาแล้วรวมสามชั่วโมง ใช้กับตัวบอกเวลาอย่าง **by the time + present simple** ได้พอดีเลย"
+      },
+      {
+        "index": 2,
+        "text": "will be waiting",
+        "knowledge_ids": [
+          220,
+          211
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจุดโฟกัส เพราะ **will be + V-ing** (Future Continuous) เน้นสภาพที่กำลังเกิด ณ จุดหนึ่งในอนาคต ไม่ได้เน้น “ระยะเวลาที่สะสมมาก่อนถึงจุดนั้น” ตัวอย่างที่ถูกกับระยะเวลาในอนาคตควรเป็น `will have been waiting for three hours` มากกว่า"
+      },
+      {
+        "index": 3,
+        "text": "will have waited",
+        "knowledge_ids": [
+          219,
+          223
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง เพราะ **will have + V3** (Future Perfect) เน้นผลสำเร็จมากกว่ากระบวนการต่อเนื่อง เช่น `will have waited for three hours` ฟังดูได้ แต่ถ้าอยากเน้นการ “นั่งรอมายาวๆ” ควรใช้รูปต่อเนื่อง __will have been waiting__ จะชัดกว่า"
+      },
+      {
+        "index": 4,
+        "text": "will has been waiting",
+        "knowledge_ids": [
+          364,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปแบบ เพราะหลัง **will** ต้องเป็น **have** ไม่ใช่ **has** โครงสร้างที่ถูกคือ __will have been + V-ing__ เช่น `she will have been waiting` ไม่ใช่ `she will has been waiting`"
+      }
+    ]
+  },
+  {
+    "question": "This time next month, they ___ in Bangkok for two years.",
+    "question_knowledge_ids": [
+      200,
+      211,
+      217,
+      219,
+      220
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been living",
+        "knowledge_ids": [
+          211,
+          217
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะต้องการสื่อ “อยู่มาต่อเนื่องเป็นเวลา 2 ปีจนถึงเวลาหนึ่งในอนาคต” ใช้ __will have been + V-ing__ เช่น `they will have been living in Bangkok for two years.` ตัวนี้เน้นระยะเวลาที่ต่อเนื่องชัดเจน"
+      },
+      {
+        "index": 2,
+        "text": "will be living",
+        "knowledge_ids": [
+          220,
+          211
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรงเป้า เพราะ **will be living** เน้นสภาพกำลังดำเนินในอนาคต แต่ไม่สื่อระยะเวลาที่สะสมไว้ ถ้าจะเน้นตัวเลขเวลาอย่าง **for two years** ใช้ `will have been living` จะชัดกว่า"
+      },
+      {
+        "index": 3,
+        "text": "will have lived",
+        "knowledge_ids": [
+          219
+        ],
+        "is_correct": false,
+        "answer_description": "ฟังได้ในบางบริบท แต่จะเน้น “ผลรวม” มากกว่า “กระบวนการต่อเนื่อง” เช่น `will have lived for two years` เน้นเหมือนสรุปผล ถ้าต้องการชูความต่อเนื่อง ใช้ __will have been living__ ดีกว่า"
+      },
+      {
+        "index": 4,
+        "text": "will have been live",
+        "knowledge_ids": [
+          291,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดหลักการผันกริยา เพราะหลัง **been** ต้องใช้รูป **V-ing** ไม่ใช่ **base form** รูปที่ถูกคือ `been living` ในโครงสร้าง __will have been + V-ing__"
+      }
+    ]
+  },
+  {
+    "question": "By next week, I ___ the rules for three months.",
+    "question_knowledge_ids": [
+      215,
+      217,
+      211,
+      207,
+      219
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have known",
+        "knowledge_ids": [
+          207,
+          217
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกริยา **know** เป็นกริยาเชิงสภาพ (stative verb) ไม่ค่อยใช้รูปต่อเนื่อง ดังนั้นควรใช้ **Future Perfect**: `will have known` มากกว่า รูปที่เหมาะคือ `By next week, I will have known the rules for three months.` ประเด็นพิเศษ: หลีกเลี่ยง __will have been knowing__"
+      },
+      {
+        "index": 2,
+        "text": "will have been knowing",
+        "knowledge_ids": [
+          207,
+          219
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะ **know** เป็นกริยาเชิงสภาพ ไม่ใช้รูป **-ing** ตามปกติ การพูดว่า `will have been knowing` จึงฟังแปลก ใช้ `will have known` จะถูกต้อง เช่น `I will have known the rules for three months.`"
+      },
+      {
+        "index": 3,
+        "text": "will be knowing",
+        "knowledge_ids": [
+          207,
+          224
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดหลักใช้ต่อเนื่องกับกริยาเชิงสภาพ เพราะ **know** ไม่ค่อยใช้รูปต่อเนื่องแบบ **will be knowing** ทางที่ดีใช้ `will have known` หรือ `will know` ตามบริบท"
+      },
+      {
+        "index": 4,
+        "text": "will has known",
+        "knowledge_ids": [
+          364,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะหลัง **will** ต้องตามด้วย **have** ไม่ใช่ **has** รูปที่ถูกคือ `will have known` ไม่ใช่ `will has known`"
+      }
+    ]
+  },
+  {
+    "question": "When you call me at 8 p.m., I ___ for your email for over two hours.",
+    "question_knowledge_ids": [
+      236,
+      201,
+      211,
+      217
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been waiting",
+        "knowledge_ids": [
+          211,
+          217
+        ],
+        "is_correct": true,
+        "answer_description": "ตอบนี้ใช่เลย เพราะต้องการสื่อว่า “ณ 8 โมงคืนนี้ จะรอมาเกินสองชั่วโมงแล้ว” จึงใช้ __will have been + V-ing__ เช่น `I will have been waiting for over two hours.` เน้นระยะเวลาที่สะสมก่อนถึงจุดเวลาในอนาคต"
+      },
+      {
+        "index": 2,
+        "text": "will have been waited",
+        "knowledge_ids": [
+          547,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเอา **passive** มาใช้ผิดที่ โครงสร้าง Future Perfect Continuous เป็นแบบกระทำเอง: __will have been + V-ing__ เช่น `been waiting` ไม่ใช่ `been waited`"
+      },
+      {
+        "index": 3,
+        "text": "will has been waiting",
+        "knowledge_ids": [
+          364,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูป หลัง **will** ต้องเป็น **have** เสมอ ไม่ใช่ **has** รูปที่ถูกคือ `will have been waiting`"
+      },
+      {
+        "index": 4,
+        "text": "will be waited",
+        "knowledge_ids": [
+          547,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดทั้งแง่ความหมายและโครงสร้าง เพราะเป็น **passive** (`be waited`) ซึ่งไม่สื่อว่า “ฉันเป็นฝ่ายรอ” ควรใช้รูปต่อเนื่องเชิงกระทำเอง `will have been waiting`"
+      }
+    ]
+  },
+  {
+    "question": "By the time the conference starts, we ___ data for six months.",
+    "question_knowledge_ids": [
+      215,
+      211,
+      217,
+      219,
+      220
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been collecting",
+        "knowledge_ids": [
+          211,
+          217
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะต้องการเน้น “เก็บข้อมูลมาต่อเนื่อง 6 เดือนจนถึงเวลาที่งานเริ่ม” ใช้ __will have been + V-ing__ เช่น `we will have been collecting data for six months.` โครงสร้างเวลา `by the time + present simple` ก็ตรงกับกฎด้วย"
+      },
+      {
+        "index": 2,
+        "text": "will have collected",
+        "knowledge_ids": [
+          219,
+          225
+        ],
+        "is_correct": false,
+        "answer_description": "สื่อ “ผลรวม” ได้ แต่ไม่เน้นกระบวนการต่อเนื่อง ถ้าโจทย์เน้นตัวเลขระยะเวลาอย่าง **for six months** ให้ใช้ Future Perfect Continuous จะชัดกว่า เช่น `will have been collecting`"
+      },
+      {
+        "index": 3,
+        "text": "will be collecting for six months",
+        "knowledge_ids": [
+          220,
+          211,
+          217
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจุด เพราะ **will be collecting** เน้นภาพกำลังกระทำในอนาคต แต่ไม่ได้สื่อว่า “สะสมมาเป็นเวลา 6 เดือนก่อนถึงจุดนั้น” ต้องใช้ __will have been collecting__ เพื่อเน้นระยะเวลาที่ครบก่อนงานเริ่ม"
+      },
+      {
+        "index": 4,
+        "text": "will have been collect",
+        "knowledge_ids": [
+          291,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปคำกริยา หลัง **been** ต้องเป็น **V-ing** ไม่ใช่ **base form** รูปที่ถูกคือ `been collecting` ตามแพทเทิร์น __will have been + V-ing__"
+      }
+    ]
+  },
+  {
+    "question": "By noon tomorrow, the team ___ without a break for five hours.",
+    "question_knowledge_ids": [
+      215,
+      242,
+      211,
+      217
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been working",
+        "knowledge_ids": [
+          211,
+          217
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะต้องการบอกว่า “ถึงเที่ยงพรุ่งนี้ จะทำงานต่อเนื่องมา 5 ชั่วโมงแล้ว” ใช้ __will have been + V-ing__ เช่น `the team will have been working for five hours.` เน้นความต่อเนื่องและระยะเวลา"
+      },
+      {
+        "index": 2,
+        "text": "will have been work",
+        "knowledge_ids": [
+          291,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูป หลัง **been** ต้องเป็น **V-ing** ดังนั้นควรเป็น `been working` ไม่ใช่ `been work` โครงสร้างที่ถูกคือ __will have been + V-ing__"
+      },
+      {
+        "index": 3,
+        "text": "will has been working",
+        "knowledge_ids": [
+          364,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดหลักการช่วยกริยา เพราะหลัง **will** ต้องตามด้วย **have** เสมอ ไม่ใช่ **has** รูปที่ถูกคือ `will have been working`"
+      },
+      {
+        "index": 4,
+        "text": "will be worked",
+        "knowledge_ids": [
+          547,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น **passive voice** (`be worked`) ซึ่งไม่ได้สื่อว่าทีมเป็นฝ่ายทำงานเอง ต้องใช้ `will have been working` เพื่อสื่อการกระทำต่อเนื่องโดยประธาน"
+      }
+    ]
+  },
+  {
+    "question": "By 10 p.m., she ___ dinner since 7 p.m.",
+    "question_knowledge_ids": [
+      215,
+      272,
+      211
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been cooking",
+        "knowledge_ids": [
+          211,
+          272
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ `since 7 p.m.` เป็นจุดเริ่มเวลา และเราต้องการเน้นระยะเวลาที่ดำเนินต่อเนื่องจนถึง 10 โมง ใช้ __will have been + V-ing__ ได้เลย เช่น `she will have been cooking since 7 p.m.`"
+      },
+      {
+        "index": 2,
+        "text": "will have been cooked",
+        "knowledge_ids": [
+          547,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น **passive** (`been cooked`) ซึ่งแปลว่าถูกทำอาหาร ไม่ตรงกับความหมายที่เธอเป็นคนทำอาหารเอง ควรใช้ `been cooking` แทน"
+      },
+      {
+        "index": 3,
+        "text": "will have cooked since 7 p.m.",
+        "knowledge_ids": [
+          354,
+          374,
+          219
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เข้ากับ `since` เท่าไร เพราะรูปนี้เน้นผลสำเร็จมากกว่ากระบวนการต่อเนื่อง ถ้าจะสื่อ “ทำมาตั้งแต่ 1 ทุ่ม” ใช้ `will have been cooking since 7 p.m.` จะชัดกว่า"
+      },
+      {
+        "index": 4,
+        "text": "will has been cooking",
+        "knowledge_ids": [
+          364,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปช่วยกริยา หลัง **will** ต้องเป็น **have** เสมอ โครงสร้างที่ถูกคือ __will have been + V-ing__ เช่น `will have been cooking`"
+      }
+    ]
+  },
+  {
+    "question": "By next Friday, he ___ on the report for two weeks already.",
+    "question_knowledge_ids": [
+      215,
+      243,
+      211,
+      217,
+      286
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been working",
+        "knowledge_ids": [
+          211,
+          217,
+          286
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะต้องการเน้นว่า “ทำรายงานมาต่อเนื่องครบ 2 สัปดาห์แล้ว ณ ศุกร์หน้า” ใช้ __will have been + V-ing__ เช่น `he will have been working on the report for two weeks.` คำว่า `already` สามารถวางท้ายประโยคได้ตามที่โจทย์ให้"
+      },
+      {
+        "index": 2,
+        "text": "will have been work",
+        "knowledge_ids": [
+          291,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูป หลัง **been** ต้องใช้ **V-ing** ไม่ใช่รูปธรรมดา ดังนั้นควรเป็น `been working` ตามแพทเทิร์น __will have been + V-ing__"
+      },
+      {
+        "index": 3,
+        "text": "will be working for two weeks",
+        "knowledge_ids": [
+          220,
+          211,
+          217
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจุด เพราะ **will be working** ไม่ได้สื่อระยะเวลาที่สะสมจนถึงจุดหนึ่งในอนาคต ถ้าต้องการเน้นตัวเลขเวลาอย่าง `for two weeks` ใช้ `will have been working` จะตรงกว่า"
+      },
+      {
+        "index": 4,
+        "text": "will have worked already for two weeks",
+        "knowledge_ids": [
+          219,
+          286,
+          217
+        ],
+        "is_correct": false,
+        "answer_description": "ความหมายจะเอนไปทางสรุปผล (Future Perfect) มากกว่าความต่อเนื่อง และตำแหน่ง `already` ก็ฟังขัดเล็กน้อยในบริบทนี้ ทางที่ชัดคือใช้ __will have been working__ เพื่อเน้นการทำงานต่อเนื่อง"
+      }
+    ]
+  },
+  {
+    "question": "By the time you ___, I will have been studying for hours.",
+    "question_knowledge_ids": [
+      216,
+      236
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "arrive",
+        "knowledge_ids": [
+          236,
+          216
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะในอนุประโยคเวลาใช้ **present simple** หลัง `by the time` ไม่ใช้อนาคต เช่น `By the time you arrive, ...` หลักใหญ่คือ __time clause ใช้ present เพื่อพูดถึงอนาคต__ จากนั้นประโยคหลักใช้ Future Perfect Continuous ได้ เช่น `I will have been studying for hours.`"
+      },
+      {
+        "index": 2,
+        "text": "will arrive",
+        "knowledge_ids": [
+          236,
+          495
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดตามกฎ time clause เพราะหลัง `by the time` ห้ามใช้อนาคต ควรใช้ **present simple**: `by the time you arrive` ตัวอย่างที่ถูก: `By the time you arrive, I will have been studying...`"
+      },
+      {
+        "index": 3,
+        "text": "are arriving",
+        "knowledge_ids": [
+          236
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ใช่รูปมาตรฐานใน time clause หลัง `by the time` ปกติใช้ **present simple** ไม่ใช่ **present continuous** รูปที่ถูกคือ `by the time you arrive`"
+      },
+      {
+        "index": 4,
+        "text": "arrived",
+        "knowledge_ids": [
+          236
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดกาลเวลาใน time clause เพราะเราอ้างถึงอนาคต จึงใช้ **present simple** ไม่ใช่ **past** รูปที่ถูกคือ `by the time you arrive`"
+      }
+    ]
+  },
+  {
+    "question": "By midnight, they ___ for 24 hours yet—they start at 6 a.m.",
+    "question_knowledge_ids": [
+      215,
+      211,
+      217,
+      286,
+      249
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "won't have been traveling",
+        "knowledge_ids": [
+          249,
+          211,
+          217,
+          286
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างปฏิเสธของ Future Perfect Continuous คือ __will not (won't) have been + V-ing__ เช่น `they won't have been traveling for 24 hours` เพราะเริ่มตอน 6 โมงเช้า ถึงเที่ยงคืนยังไม่ครบ 24 ชม."
+      },
+      {
+        "index": 2,
+        "text": "won't be traveling",
+        "knowledge_ids": [
+          220,
+          211,
+          217,
+          249
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจุด เพราะ **won't be traveling** ไม่ได้สื่อถึงระยะเวลาที่สะสมจนถึงเที่ยงคืน เพียงบอกว่าจะไม่กำลังเดินทาง ณ ช่วงนั้น ใช้ `won't have been traveling` เพื่อเน้นจำนวนชั่วโมงที่ยังไม่ครบ"
+      },
+      {
+        "index": 3,
+        "text": "will haven't been traveling",
+        "knowledge_ids": [
+          249
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปช่วยกริยา ไม่วาง **not** ถูกที่ ควรเป็น `will not have been traveling` หรือย่อ `won't have been traveling` ห้ามใช้ `will haven't ...`"
+      },
+      {
+        "index": 4,
+        "text": "will have not been traveling",
+        "knowledge_ids": [
+          249,
+          316
+        ],
+        "is_correct": false,
+        "answer_description": "แม้พอเข้าใจ แต่ตำแหน่ง **not** มักย่อเป็น `won't` แล้ววางหน้า `have` จะเป็นธรรมชาติกว่า เช่น `won't have been traveling` ซึ่งเป็นรูปมาตรฐาน"
+      }
+    ]
+  },
+  {
+    "question": "By 2026, she ___ at this company since 2020.",
+    "question_knowledge_ids": [
+      211,
+      215,
+      272,
+      219
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been working",
+        "knowledge_ids": [
+          211,
+          215,
+          272,
+          219
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ `since 2020` เป็นจุดเริ่มเวลา และต้องการเน้นการทำงานต่อเนื่องจนถึงปี 2026 ใช้ __will have been + V-ing__ เช่น `she will have been working at this company since 2020.`"
+      },
+      {
+        "index": 2,
+        "text": "will have been worked",
+        "knowledge_ids": [
+          290,
+          267,
+          547
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะใช้รูป **passive** (`been worked`) แต่ความหมายต้องการให้เธอเป็นผู้กระทำ (ทำงาน) เอง ควรใช้ `been working` ตามแพทเทิร์น __will have been + V-ing__"
+      },
+      {
+        "index": 3,
+        "text": "will have worked since 2020",
+        "knowledge_ids": [
+          219,
+          225,
+          215,
+          272
+        ],
+        "is_correct": false,
+        "answer_description": "สื่อได้ว่าอยู่มานาน แต่เมื่อเน้นความต่อเนื่องยาวๆ ตั้งแต่จุดเริ่ม (since) จนถึงอนาคต ปกติจะใช้ Future Perfect Continuous ชัดกว่า เช่น `will have been working` เพื่อเน้นกระบวนการ"
+      },
+      {
+        "index": 4,
+        "text": "will has been working",
+        "knowledge_ids": [
+          430,
+          364
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูป หลัง **will** ต้องเป็น **have** ไม่ใช่ **has** รูปที่ถูกคือ `will have been working`"
+      }
+    ]
+  }
+]

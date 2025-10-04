@@ -1,0 +1,576 @@
+[
+  {
+    "question": "___ are you doing?",
+    "question_knowledge_ids": [
+      195,
+      302,
+      574
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "What",
+        "knowledge_ids": [
+          195,
+          302
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำถามแบบ **Wh- question** ที่ถามถึงกิจกรรมใช้โครงสร้าง __Wh-word + be + subject + V-ing__ เช่น `What are you doing?` แปลว่า “คุณกำลังทำอะไรอยู่”. ตัวอย่างใช้จริง: `What are they watching?`"
+      },
+      {
+        "index": 2,
+        "text": "How",
+        "knowledge_ids": [
+          195,
+          302,
+          574
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **How** ใช้ถาม “อย่างไร/วิธีการ” เช่น `How are you doing?` (คุณเป็นอย่างไรบ้าง) ซึ่งความหมายต่างกับการถามว่า “ทำอะไร”. ประโยคนี้ต้องการถามถึงกิจกรรม จึงควรใช้ **What**."
+      },
+      {
+        "index": 3,
+        "text": "Where",
+        "knowledge_ids": [
+          195,
+          302
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Where** ใช้ถาม “ที่ไหน” เช่น `Where are you going?` ซึ่งถามสถานที่ ไม่ได้ถามกิจกรรม. เราต้องการถามว่า “กำลังทำอะไร” จึงใช้ `What are you doing?`."
+      },
+      {
+        "index": 4,
+        "text": "When",
+        "knowledge_ids": [
+          195,
+          302
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **When** ใช้ถาม “เมื่อไหร่” เช่น `When are you leaving?` แต่ประโยคนี้ถามถึงกิจกรรมปัจจุบัน จึงต้องใช้ **What** ไม่ใช่ **When**."
+      }
+    ]
+  },
+  {
+    "question": "Where ___ she live?",
+    "question_knowledge_ids": [
+      195,
+      288,
+      315,
+      389,
+      381
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "does",
+        "knowledge_ids": [
+          315,
+          389
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคำถาม Present Simple กับกริยาปกติใช้ __Wh-word + do/does + subject + base verb__. ดังนั้นต้องเป็น `Where does she live?` ไม่เติม s ที่กริยาเพราะมี `does` แล้ว เช่น `What does he do?`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "knowledge_ids": [
+          315,
+          389,
+          364
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **she** ต้องใช้ **does** ไม่ใช่ **do**. รูปที่ถูกคือ `Where does she live?` ไม่ใช่ `Where do she live?`."
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "knowledge_ids": [
+          305,
+          340,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกริยาแท้คือ **live** (ไม่ใช่ be-verb) จึงต้องใช้ **do/does** ช่วย ไม่ใช่ **is**. ตัวอย่างที่ใช้ is ได้เช่น `Where is she?` (ไม่มีกริยาหลักตามหลัง)."
+      },
+      {
+        "index": 4,
+        "text": "did",
+        "knowledge_ids": [
+          300,
+          381
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **did** เป็นรูปอดีต แต่ประโยคนี้เป็น Present Simple. ถ้าถามอดีตจะเป็น `Where did she live?` (และใช้กริยาช่องฐาน `live`)."
+      }
+    ]
+  },
+  {
+    "question": "___ is your birthday?",
+    "question_knowledge_ids": [
+      195,
+      302
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "When",
+        "knowledge_ids": [
+          195,
+          302
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ถามเรื่อง “เวลา/วันที่” ใช้ __When + be + subject__ → `When is your birthday?` แปลว่า “วันเกิดของคุณเมื่อไหร่”. ตัวอย่างเพิ่ม: `When is the exam?`"
+      },
+      {
+        "index": 2,
+        "text": "What time",
+        "knowledge_ids": [
+          195,
+          302
+        ],
+        "is_correct": false,
+        "answer_description": "เกือบถูก แต่ `What time` มักใช้กับเวลาเป็นชั่วโมง/นาที เช่น `What time is the meeting?` ส่วน “วันเกิดเมื่อไหร่” ใช้ **When** จะธรรมชาติกว่า: `When is your birthday?`"
+      },
+      {
+        "index": 3,
+        "text": "Where",
+        "knowledge_ids": [
+          195,
+          302
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Where** ใช้ถามสถานที่ ไม่ใช่เวลา เช่น `Where is your party?` แต่ถ้าถาม “เมื่อไหร่” ต้องใช้ **When**."
+      },
+      {
+        "index": 4,
+        "text": "How",
+        "knowledge_ids": [
+          195,
+          302,
+          574
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **How** ถามวิธี/ลักษณะ เช่น `How is your day?` ไม่ได้ถามเวลา. สำหรับเวลา/วันที่ ให้ใช้ `When is ...?`"
+      }
+    ]
+  },
+  {
+    "question": "Who ___ the keys?",
+    "question_knowledge_ids": [
+      195,
+      302,
+      392,
+      408
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "has",
+        "knowledge_ids": [
+          392,
+          408
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นคำถามแบบ **subject question** ใช้ __Wh-subject (Who) + main verb__ โดยไม่ต้องใช้ do/does เช่น `Who has the keys?` ตัวอย่างเพิ่ม: `Who needs help?`"
+      },
+      {
+        "index": 2,
+        "text": "do have",
+        "knowledge_ids": [
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **subject question** ไม่ใช้ตัวช่วย do/does และรูปนี้ก็ซ้ำซ้อน (`do have`). ควรเป็น `Who has the keys?`"
+      },
+      {
+        "index": 3,
+        "text": "does have",
+        "knowledge_ids": [
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลเดียวกัน: คำถามที่ **Who** เป็นประธาน ไม่ต้องใช้ **does**. ใช้กริยาหลักเลยว่า `Who has the keys?`"
+      },
+      {
+        "index": 4,
+        "text": "have",
+        "knowledge_ids": [
+          380
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานโดยนัยคือ **who** ทำหน้าที่เอกพจน์ จึงต้องใช้กริยาเอกพจน์ **has** ไม่ใช่ **have**. รูปที่ถูกคือ `Who has the keys?`"
+      }
+    ]
+  },
+  {
+    "question": "What are you listening ___?",
+    "question_knowledge_ids": [
+      559
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "to",
+        "knowledge_ids": [
+          559
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง วลีถูกต้องคือ **listen to** จึงต้องเติม __to__: `What are you listening to?` โครงสร้าง __Wh-word + be + subject + V-ing + preposition__ ใช้กับคำกริยาที่ต้องมีบุพบท เช่น `Who are you talking to?`"
+      },
+      {
+        "index": 2,
+        "text": "at",
+        "knowledge_ids": [
+          559
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกริยา **listen** ต้องใช้บุพบท **to** ไม่ใช่ **at**. ตัวอย่างที่ถูก: `listen to music` ไม่ใช่ `listen at music`."
+      },
+      {
+        "index": 3,
+        "text": "for",
+        "knowledge_ids": [
+          559
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `listen for` มีความหมาย “เงี่ยหูฟังหาเสียงบางอย่าง” ซึ่งไม่ตรงความหมายทั่วไปของ “ฟังอะไรอยู่”. ที่ถูกคือ `listen to ...` เช่น `listen to a podcast`."
+      },
+      {
+        "index": 4,
+        "text": "on",
+        "knowledge_ids": [
+          559
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **listen on** ไม่ใช่คู่คำมาตรฐานสำหรับหมายความว่า “ฟังสิ่งใด”. ต้องใช้ `listen to` เช่น `What are you listening to?`"
+      }
+    ]
+  },
+  {
+    "question": "How much ___ this book cost?",
+    "question_knowledge_ids": [
+      195,
+      288,
+      315,
+      389,
+      381
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "does",
+        "knowledge_ids": [
+          315,
+          389
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ถามราคาด้วย **How much** และกริยาปกติใช้โครงสร้าง __How much + do/does + subject + base verb__ → `How much does this book cost?` อีกตัวอย่าง: `How much does it weigh?`"
+      },
+      {
+        "index": 2,
+        "text": "is",
+        "knowledge_ids": [
+          305,
+          340,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกริยาหลักคือ **cost** จึงต้องใช้ตัวช่วย **do/does** ไม่ใช่ **be (is)**. ถ้าใช้ `is` จะต้องตามด้วยคำนาม/คุณศัพท์ เช่น `How much is it?` (ไม่มีกริยา cost)."
+      },
+      {
+        "index": 3,
+        "text": "do",
+        "knowledge_ids": [
+          315,
+          389,
+          364
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **this book** (เอกพจน์) จึงต้องใช้ **does** ไม่ใช่ **do**. รูปถูกต้องคือ `How much does this book cost?`"
+      },
+      {
+        "index": 4,
+        "text": "did",
+        "knowledge_ids": [
+          300,
+          381
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **did** เป็นอดีต แต่ประโยคถามราคาทั่วไปปัจจุบัน ควรใช้ **does**. ถ้าเป็นอดีตจะเป็น `How much did this book cost (last year)?`"
+      }
+    ]
+  },
+  {
+    "question": "___ umbrella is this?",
+    "question_knowledge_ids": [
+      195,
+      302,
+      567,
+      535
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Whose",
+        "knowledge_ids": [
+          567,
+          535
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะถาม “ของใคร” ใช้ __Whose + noun + be + ...__ → `Whose umbrella is this?` ตัวอย่างเพิ่ม: `Whose bag is on the table?`"
+      },
+      {
+        "index": 2,
+        "text": "Who",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Who** ใช้ถามคน (ตัวตน) ไม่ได้ถามความเป็นเจ้าของ. ถ้าถาม “เป็นของใคร” ต้องใช้ **Whose** เช่น `Whose phone is this?`"
+      },
+      {
+        "index": 3,
+        "text": "Which",
+        "knowledge_ids": [
+          575
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Which** ใช้ให้เลือกจากตัวเลือก เช่น `Which umbrella is yours?` แต่ถ้าถามความเป็นเจ้าของโดยตรง ต้องใช้ **Whose**."
+      },
+      {
+        "index": 4,
+        "text": "Who's",
+        "knowledge_ids": [
+          352
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Who's** คือย่อของ `who is/ who has` ไม่ใช่คำถามความเป็นเจ้าของ. ประโยคที่ถูกต้องคือ `Whose umbrella is this?`"
+      }
+    ]
+  },
+  {
+    "question": "Why ___ they late?",
+    "question_knowledge_ids": [
+      195,
+      305,
+      318,
+      381
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are",
+        "knowledge_ids": [
+          305,
+          318
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ถามด้วย **Why** และกริยา be ใช้โครงสร้าง __Why + be + subject + complement__ → `Why are they late?` ตัวอย่าง: `Why is he angry?`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "knowledge_ids": [
+          315,
+          389,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกริยาในประโยคนี้คือ **be (are)** ไม่ใช่กริยาปกติที่ต้องใช้ **do**. ถ้ากริยาปกติ เช่น `Why do they arrive late?` ถึงจะใช้ do."
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "knowledge_ids": [
+          305,
+          318,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **they** (พหูพจน์) ต้องใช้ **are** ไม่ใช่ **is**. รูปถูกคือ `Why are they late?`"
+      },
+      {
+        "index": 4,
+        "text": "were",
+        "knowledge_ids": [
+          305,
+          262,
+          263
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **were** เป็นอดีต แต่ประโยคนี้เป็นปัจจุบัน. ถ้าถามอดีตจะเป็น `Why were they late yesterday?`"
+      }
+    ]
+  },
+  {
+    "question": "Which color ___ you prefer, blue or green?",
+    "question_knowledge_ids": [
+      195,
+      288,
+      315,
+      389,
+      381
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "do",
+        "knowledge_ids": [
+          315,
+          389
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อมี **Which + noun** ตามด้วยประโยคกริยาปกติ ใช้ __do/does + subject + base verb__ → `Which color do you prefer?` ตัวอย่างเพิ่ม: `Which course do you recommend?`"
+      },
+      {
+        "index": 2,
+        "text": "are",
+        "knowledge_ids": [
+          305,
+          340,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกริยาหลักคือ **prefer** ไม่ใช่ be-verb จึงไม่ใช้ **are**. โครงสร้างที่ถูกคือ `Which color do you prefer?`"
+      },
+      {
+        "index": 3,
+        "text": "does",
+        "knowledge_ids": [
+          315,
+          389,
+          407
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **you** ต้องใช้ **do** ไม่ใช่ **does**. ที่ถูกคือ `Which color do you prefer?`"
+      },
+      {
+        "index": 4,
+        "text": "did",
+        "knowledge_ids": [
+          300,
+          381
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **did** เป็นอดีต แต่คำถามนี้เป็นปัจจุบันทั่วไป. ถ้าเป็นอดีต: `Which color did you prefer back then?`"
+      }
+    ]
+  },
+  {
+    "question": "What time ___ the meeting start?",
+    "question_knowledge_ids": [
+      195,
+      288,
+      315,
+      389,
+      381
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "did",
+        "knowledge_ids": [
+          300,
+          381
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะไม่มีบริบทอดีต ถ้าจะถามอดีตจริง ๆ ใช้ได้: `What time did the meeting start?` แต่ในปัจจุบันทั่วไปควรใช้ `does` กับกริยา `start`."
+      },
+      {
+        "index": 2,
+        "text": "does",
+        "knowledge_ids": [
+          315,
+          389
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ถามเวลาใน Present Simple ใช้ __Wh- phrase (What time) + do/does + subject + base verb__ → `What time does the meeting start?` ตัวอย่าง: `What time does the store open?`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "knowledge_ids": [
+          305,
+          340,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะมีคำกริยาหลัก **start** จึงต้องใช้ **do/does** ช่วย ไม่ใช่ **be (is)**. ถ้าใช้ is จะเป็นโครงสร้างอีกแบบ เช่น `What time is the meeting?` (ไม่มีกริยา start)."
+      },
+      {
+        "index": 4,
+        "text": "was",
+        "knowledge_ids": [
+          305,
+          382
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **was** เป็นอดีตของ be และไม่เข้ากับกริยาหลัก `start` ในรูปคำถาม do-support. ถ้าถามอดีตที่ไม่มี `start` อาจเป็น `What time was the meeting?`"
+      }
+    ]
+  },
+  {
+    "question": "Where ___ the nearest ATM?",
+    "question_knowledge_ids": [
+      195,
+      288,
+      305,
+      318,
+      339,
+      340,
+      381,
+      570,
+      581
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "knowledge_ids": [
+          305,
+          318,
+          339,
+          340
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ถามสถานที่และใช้ **be-verb** กับประธานเอกพจน์ (`the nearest ATM`) จึงใช้ __Where + is + singular subject__ → `Where is the nearest ATM?` ตัวอย่าง: `Where is the restroom?`"
+      },
+      {
+        "index": 2,
+        "text": "does",
+        "knowledge_ids": [
+          292,
+          315,
+          381,
+          569
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่มี กริยาหลัก ให้ใช้ do/does ช่วย ที่นี่ใช้ **be-verb** กับคำนามสถานที่. รูปที่ถูกคือ `Where is the nearest ATM?`"
+      },
+      {
+        "index": 3,
+        "text": "are",
+        "knowledge_ids": [
+          305,
+          318,
+          339,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเป็นเอกพจน์ (`ATM` หนึ่งเครื่อง) จึงต้องใช้ **is** ไม่ใช่ **are**. ตัวอย่างเทียบ: `Where are the ATMs?` (พหูพจน์)."
+      },
+      {
+        "index": 4,
+        "text": "do",
+        "knowledge_ids": [
+          292,
+          315,
+          381,
+          569
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **do** ใช้กับกริยาปกติ แต่ประโยคนี้เป็นโครงสร้าง **be-verb** บอกตำแหน่ง. ต้องใช้ `Where is ...?`"
+      }
+    ]
+  }
+]

@@ -1,0 +1,292 @@
+[
+  {
+    "question": "I ___ to the library right now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "am going",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **I** ต้องใช้โครงสร้าง **am + V-ing** ใน **Present Continuous** ขีดเส้นใต้แพตเทิร์น: `I + am + V-ing`. ตัวอย่าง: `I am going to the library.` แปลว่า “ฉันกำลังไปห้องสมุดตอนนี้”"
+      },
+      {
+        "index": 2,
+        "text": "is going",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **is** ใช้กับประธานเอกพจน์บุรุษที่ 3 เช่น **he/she/it** ไม่ใช้กับ **I**. ตัวอย่างที่ถูก: `He is going to the library.` แต่กับ I ต้องเป็น `I am going...`"
+      },
+      {
+        "index": 3,
+        "text": "are going",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **are** ใช้กับ **you/we/they** หรือประธานพหูพจน์ ไม่ใช้กับ **I**. ตัวอย่างที่ถูก: `They are going to the library.` แต่ต้องเป็น `I am going...` สำหรับประธาน I"
+      },
+      {
+        "index": 4,
+        "text": "going",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยาช่วยใน **Present Continuous** ต้องมี **be (am/is/are)** นำหน้า **V-ing** เสมอ เช่น `I am going...` ไม่ใช่แค่ `I going...`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ dinner with her friends at the moment.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is having",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **she** ใช้กับ **is + V-ing** ใน **Present Continuous** โครงสร้างเน้น: `She + is + V-ing`. ตัวอย่าง: `She is having dinner now.` หมายถึงเธอกำลังกินข้าวอยู่ตอนนี้"
+      },
+      {
+        "index": 2,
+        "text": "are having",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **are** ใช้กับ **you/we/they** หรือพหูพจน์ ไม่ใช้กับเอกพจน์บุรุษที่ 3 อย่าง **she**. ตัวอย่างที่ถูกต้องคือ `They are having dinner.` แต่สำหรับ she ต้องเป็น `is having`"
+      },
+      {
+        "index": 3,
+        "text": "am having",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **am** ใช้เฉพาะกับ **I** เท่านั้น ไม่ใช้กับ **she**. ถ้าประธานเป็น I จึงจะถูก เช่น `I am having dinner.`"
+      },
+      {
+        "index": 4,
+        "text": "is have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใน **Present Continuous** ต้องใช้รูป **V-ing** ไม่ใช่รูปพื้นฐาน หลัง **is** ต้องเป็น **having** เช่น `She is having dinner.` ไม่ใช่ `is have`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ for the bus right now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are waiting",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **they** ใช้กับ **are + V-ing** ใน **Present Continuous** โครงสร้างที่ควรจำ: `They + are + V-ing`. ตัวอย่าง: `They are waiting for the bus.` แปลว่า “พวกเขากำลังรอรถบัสอยู่ตอนนี้”"
+      },
+      {
+        "index": 2,
+        "text": "is waiting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **is** ใช้กับประธานเอกพจน์ เช่น **he/she/it** ไม่ใช้กับ **they** ซึ่งเป็นพหูพจน์. ตัวอย่างที่ถูกกับเอกพจน์: `He is waiting.`"
+      },
+      {
+        "index": 3,
+        "text": "am waiting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **am** ใช้กับ **I** เท่านั้น ไม่ตรงกับประธาน **they**. ถ้าเป็น I จะถูก: `I am waiting for the bus.`"
+      },
+      {
+        "index": 4,
+        "text": "waiting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยาช่วย **be** ในรูป **Present Continuous** ต้องเป็น `are waiting` สำหรับ they ไม่ใช่แค่ `they waiting`"
+      }
+    ]
+  },
+  {
+    "question": "My family ___ to the countryside this weekend.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is traveling",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **my family** นับเป็นประธานเอกพจน์ในภาษาอังกฤษแบบอเมริกัน จึงใช้ **is + V-ing** โครงสร้าง: `Singular subject + is + V-ing` เช่น `My family is traveling this weekend.`"
+      },
+      {
+        "index": 2,
+        "text": "are traveling",
+        "is_correct": false,
+        "answer_description": "ส่วนใหญ่ถือว่าผิดในสไตล์อเมริกัน เพราะ **family** มองเป็นเอกพจน์ ควรใช้ **is** มากกว่า. ตัวอย่างเปรียบเทียบ: `The families are traveling.` (พหูพจน์) แต่ `My family is traveling.` (เอกพจน์)"
+      },
+      {
+        "index": 3,
+        "text": "am traveling",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **am** ใช้กับ **I** เท่านั้น ไม่ใช้กับคำนามอย่าง **my family**. โครงสร้างที่ถูกคือ `My family is traveling...`"
+      },
+      {
+        "index": 4,
+        "text": "is travel",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **is** ต้องเป็น **V-ing** ไม่ใช่รูปพื้นฐาน จึงควรเป็น `is traveling` ไม่ใช่ `is travel`"
+      }
+    ]
+  },
+  {
+    "question": "You ___ too fast on the highway.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are driving",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **you** ใช้กับ **are + V-ing** ใน **Present Continuous** แพตเทิร์นเน้น: `You + are + V-ing`. ตัวอย่าง: `You are driving too fast.`"
+      },
+      {
+        "index": 2,
+        "text": "is driving",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **is** ไม่ใช้กับ **you** ใช้กับเอกพจน์บุรุษที่ 3 เท่านั้น เช่น `He is driving.` สำหรับ you ต้องใช้ `are driving`"
+      },
+      {
+        "index": 3,
+        "text": "am driving",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **am** ใช้กับ **I** เท่านั้น ไม่เข้ากับประธาน **you**. รูปที่ถูกต้องคือ `You are driving...`"
+      },
+      {
+        "index": 4,
+        "text": "driving",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยาช่วย **be** โครงสร้าง **Present Continuous** ต้องเป็น `be + V-ing` เช่น `You are driving...` ไม่ใช่ `You driving...`"
+      }
+    ]
+  },
+  {
+    "question": "The children ___ in the backyard now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are playing",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **the children** เป็นพหูพจน์ จึงใช้ **are + V-ing** โครงสร้างที่ควรจำ: `Plural subject + are + V-ing`. ตัวอย่าง: `The children are playing in the backyard.`"
+      },
+      {
+        "index": 2,
+        "text": "is playing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **children** เป็นพหูพจน์ ต้องใช้ **are** ไม่ใช่ **is**. ตัวอย่างพหูพจน์ที่ถูก: `Children are playing.`"
+      },
+      {
+        "index": 3,
+        "text": "am playing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **am** ใช้กับ **I** เท่านั้น ไม่เข้ากับประธาน **the children**. โครงสร้างที่ถูกคือ `The children are playing...`"
+      },
+      {
+        "index": 4,
+        "text": "are play",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **are** ต้องเป็น **V-ing** ไม่ใช่ **base form** รูปที่ถูกต้องคือ `are playing` ไม่ใช่ `are play`"
+      }
+    ]
+  },
+  {
+    "question": "Each student ___ for the exam this week.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is studying",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **each + singular noun** ถือเป็นเอกพจน์ จึงใช้ **is + V-ing** แพตเทิร์นเน้น: `Each + singular noun + is + V-ing`. ตัวอย่าง: `Each student is studying for the exam.`"
+      },
+      {
+        "index": 2,
+        "text": "are studying",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะแม้จะหมายถึงหลายคน แต่โครงสร้าง **each + noun** ทำหน้าที่เป็นเอกพจน์ ต้องใช้ **is** ไม่ใช่ **are**. ตัวอย่างที่ถูก: `Each student is studying...`"
+      },
+      {
+        "index": 3,
+        "text": "am studying",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **am** ใช้กับ **I** เท่านั้น แต่ประธานคือ **Each student** (เอกพจน์) จึงต้องใช้ `is studying` ไม่ใช่ `am studying`"
+      },
+      {
+        "index": 4,
+        "text": "is study",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **is** ต้องตามด้วย **V-ing** ไม่ใช่รูปพื้นฐาน จึงควรเป็น `is studying` ไม่ใช่ `is study`"
+      }
+    ]
+  },
+  {
+    "question": "My friends and I ___ a project together this month.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are working",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธานแบบเชื่อมด้วย **and** (My friends and I) เป็นพหูพจน์ จึงใช้ **are + V-ing** โครงสร้าง: `Plural subject + are + V-ing`. ตัวอย่าง: `My friends and I are working on a project.`"
+      },
+      {
+        "index": 2,
+        "text": "is working",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเป็นพหูพจน์ ไม่ใช้ **is** ควรใช้ **are**. ตัวอย่างเปรียบเทียบ: `He is working.` (เอกพจน์) แต่ `My friends and I are working.` (พหูพจน์)"
+      },
+      {
+        "index": 3,
+        "text": "am working",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะถึงแม้จะมีคำว่า **I** แต่ประธานทั้งหมดคือ **My friends and I** ซึ่งเป็นพหูพจน์ ต้องใช้ **are** ไม่ใช่ **am**. รูปที่ถูก: `are working`"
+      },
+      {
+        "index": 4,
+        "text": "working",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยาช่วย **be** รูป **Present Continuous** ต้องเป็น `be + V-ing` เช่น `are working` ไม่ใช่ `working` เฉยๆ"
+      }
+    ]
+  },
+  {
+    "question": "The news ___ trending on social media right now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำว่า **news** แม้ลงท้ายด้วย s แต่ถือเป็นคำนามเอกพจน์ จึงใช้ **is** ในโครงสร้าง **be + V-ing/adj/phrase** ที่นี่ตามด้วยส่วนขยาย โครงสร้างเน้น: `Singular (news) + is + ...` เช่น `The news is trending right now.`"
+      },
+      {
+        "index": 2,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **news** เป็นเอกพจน์ทางไวยากรณ์ ไม่ใช่พหูพจน์ จึงห้ามใช้ **are**. ตัวอย่างที่ถูก: `The news is shocking.` หรือ `The news is trending.`"
+      },
+      {
+        "index": 3,
+        "text": "am",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **am** ใช้กับ **I** เท่านั้น ไม่ใช้กับคำนามอย่าง **news**. รูปที่ถูกคือ `The news is ...`"
+      },
+      {
+        "index": 4,
+        "text": "be",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **be** เป็นรูปฐาน ใช้ไม่ได้ตรงๆ ต้องผันเป็น **am/is/are** ให้ตรงกับประธาน เช่น `The news is trending...`"
+      }
+    ]
+  },
+  {
+    "question": "Neither Tom nor his parents ___ watching the game right now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กับโครงสร้าง **Neither A nor B** กริยาจะสอดคล้องกับส่วนที่อยู่ใกล้ที่สุด (B) ประโยคนี้ใกล้สุดคือ **his parents** (พหูพจน์) จึงใช้ **are** ขีดเส้นใต้แพตเทิร์น: `Neither A nor B + are (ถ้า B พหูพจน์)` เช่น `Neither Tom nor his parents are watching...`"
+      },
+      {
+        "index": 2,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะต้องดูประธานที่ใกล้กริยาสุดในโครงสร้าง **Neither...nor...** ซึ่งคือ **his parents** (พหูพจน์) จึงไม่ใช้ **is**. ตัวอย่างเปรียบเทียบ: `Neither Tom nor his sister is watching.` (ถ้า B เป็นเอกพจน์)"
+      },
+      {
+        "index": 3,
+        "text": "am",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **am** ใช้กับ **I** เท่านั้น และไม่เกี่ยวกับโครงสร้าง **Neither...nor...** ที่นี่ประธานใกล้สุดคือ **his parents** จึงต้องเป็น `are`"
+      },
+      {
+        "index": 4,
+        "text": "be",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะต้องใช้รูปผันของ **be** ให้สอดคล้องกับประธาน ไม่ใช่รูปฐาน **be** คำตอบที่ถูกคือ `are` เพราะ **parents** เป็นพหูพจน์"
+      }
+    ]
+  }
+]

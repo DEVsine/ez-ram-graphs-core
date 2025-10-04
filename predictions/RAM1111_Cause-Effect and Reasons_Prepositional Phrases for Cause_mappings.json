@@ -1,0 +1,512 @@
+[
+  {
+    "question": "They stayed indoors ___ the storm.",
+    "question_knowledge_ids": [
+      447,
+      454,
+      457,
+      459
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "because of the storm",
+        "knowledge_ids": [
+          454
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นวลีบุพบทเหตุผล: ใช้ __because of + noun/gerund__ เพื่อบอกสาเหตุที่เป็นคำนาม เช่น `because of the storm`. ประโยคสมบูรณ์คือ `They stayed indoors because of the storm.` ตัวอย่างเพิ่มเติม: `The game was canceled because of rain.`"
+      },
+      {
+        "index": 2,
+        "text": "because the storm",
+        "knowledge_ids": [
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **because** เป็น conjunction ต้องตามด้วยประโยค (subject + verb) ไม่ใช่คำนามเดี่ยวๆ เช่นต้องเป็น `because the storm was heavy` ไม่ใช่ `because the storm`. ถ้าจะใช้หน้าคำนามให้ใช้ **because of + noun** เช่น `because of the storm`."
+      },
+      {
+        "index": 3,
+        "text": "since of the storm",
+        "knowledge_ids": [
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปนี้ไม่มีในไวยากรณ์อังกฤษ `since of` ใช้ไม่ได้. ถ้าจะบอกเหตุผลด้วยคำนามให้ใช้ `because of/owing to/due to + noun` เช่น `because of the storm`."
+      },
+      {
+        "index": 4,
+        "text": "as the storm",
+        "knowledge_ids": [
+          447
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **as** เมื่อใช้บอกเหตุเป็น conjunction ต้องตามด้วยประโยค เช่น `as the storm was severe`. ถ้าช่องว่างต้องตามด้วยคำนาม ให้ใช้ **because of + noun** แทน เช่น `because of the storm`."
+      }
+    ]
+  },
+  {
+    "question": "The delay was ___ a system error.",
+    "question_knowledge_ids": [
+      455,
+      457,
+      460
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "due to a system error",
+        "knowledge_ids": [
+          455
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้โครงสร้าง __be + due to + noun__ เพื่อชี้สาเหตุที่เชื่อมกับคำนามข้างหน้า เช่น `The delay was due to a system error.` อีกตัวอย่าง: `The accident was due to driver fatigue.`"
+      },
+      {
+        "index": 2,
+        "text": "because a system error",
+        "knowledge_ids": [
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **because** ต้องตามด้วยประโยค (subject + verb) ไม่ใช่คำนามเดี่ยว เช่นควรเป็น `because a system error occurred`. ถ้าจะตามด้วยคำนาม ให้ใช้ **because of + noun** หรือ **due to + noun**."
+      },
+      {
+        "index": 3,
+        "text": "owing that a system error",
+        "knowledge_ids": [
+          455,
+          460
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปที่ถูกคือ **owing to + noun** ไม่ใช่ `owing that`. ตัวอย่างที่ถูกต้อง: `The flight was postponed owing to fog.`"
+      },
+      {
+        "index": 4,
+        "text": "due to that a system error happened",
+        "knowledge_ids": [
+          455,
+          460
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **due to** ต้องตามด้วยคำนาม/วลีคำนาม ไม่รับประโยคเต็ม. ถ้าจะใช้ประโยคเต็มให้เขียนใหม่เป็น `because a system error happened` หรือเปลี่ยนเป็นวลีคำนาม: `due to a system error`."
+      }
+    ]
+  },
+  {
+    "question": "He opened the email ___ curiosity.",
+    "question_knowledge_ids": [
+      457
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "out of",
+        "knowledge_ids": [
+          457
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง สำนวนเหตุผลแบบแรงจูงใจใช้ __out of + emotion/motive__ เช่น `out of curiosity`, `out of fear`, `out of kindness`. ประโยคที่ถูกคือ `He opened the email out of curiosity.`"
+      },
+      {
+        "index": 2,
+        "text": "from",
+        "knowledge_ids": [
+          457
+        ],
+        "is_correct": false,
+        "answer_description": "มักไม่ใช้ `from curiosity` ในความหมายแรงจูงใจในสถานการณ์นี้ รูปที่เป็นธรรมชาติกว่าคือ **out of curiosity**. ตัวอย่างที่ถูก: `She called out of concern.`"
+      },
+      {
+        "index": 3,
+        "text": "for",
+        "knowledge_ids": [
+          457
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในความหมายสาเหตุแบบแรงจูงใจ เพราะ `for curiosity` ไม่ใช่สำนวนมาตรฐาน. ควรใช้สำนวนคงรูป **out of curiosity** แทน เช่น `He asked out of curiosity.`"
+      },
+      {
+        "index": 4,
+        "text": "thanks to",
+        "knowledge_ids": [
+          456
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ **thanks to** มักใช้กับสาเหตุเชิงบวกที่นำไปสู่ผลดี เช่น `We finished early thanks to your help.` ประโยคนี้เป็นแรงจูงใจส่วนตัว ควรใช้ `out of curiosity`."
+      }
+    ]
+  },
+  {
+    "question": "The project succeeded ___ your support.",
+    "question_knowledge_ids": [
+      456,
+      457,
+      451
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "thanks to",
+        "knowledge_ids": [
+          456
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __thanks to + noun/gerund__ เพื่อบอกสาเหตุเชิงบวกหรือสิ่งที่ช่วยให้สำเร็จ เช่น `The project succeeded thanks to your support.` อีกตัวอย่าง: `Thanks to good planning, we saved time.`"
+      },
+      {
+        "index": 2,
+        "text": "because your support",
+        "knowledge_ids": [
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **because** ต้องตามด้วยประโยคเต็ม ไม่ใช่คำนามเดี่ยวๆ ควรเป็น `because you supported us`. ถ้าจะตามด้วยคำนามให้ใช้ `because of your support` หรือ `thanks to your support`."
+      },
+      {
+        "index": 3,
+        "text": "due to you support",
+        "knowledge_ids": [
+          455
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดพิมพ์คำ/โครงสร้าง ควรเป็น `due to your support` (ต้องใช้ `your` ไม่ใช่ `you`) และวลีต้องครบ. อย่างไรก็ตาม ประโยคนี้เจาะจงสาเหตุเชิงบวก จึงเหมาะกับ `thanks to` มากกว่า."
+      },
+      {
+        "index": 4,
+        "text": "as a result your support",
+        "knowledge_ids": [
+          451
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปที่ถูกคือ **as a result of + noun** ต้องมี `of` เช่น `as a result of your support`. สำหรับน้ำเสียงเชิงบวก ใช้ `thanks to` ยิ่งชัดและธรรมชาติ."
+      }
+    ]
+  },
+  {
+    "question": "The meeting was canceled ___ staff.",
+    "question_knowledge_ids": [
+      457,
+      454
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "for lack of",
+        "knowledge_ids": [
+          454
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้สำนวน __for lack of + noun__ เพื่อบอกสาเหตุว่า \"เพราะขาดแคลน...\" เช่น `The meeting was canceled for lack of staff.` ตัวอย่างเพิ่ม: `The plan failed for lack of funds.`"
+      },
+      {
+        "index": 2,
+        "text": "due to lacking",
+        "knowledge_ids": [
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เป็นธรรมชาติและมักผิดรูป เพราะ **due to** ควรตามด้วยคำนาม/วลีคำนาม ไม่ใช่ `lacking` แบบเดี่ยวๆ. หากใช้ `due to` ให้เขียน `due to a lack of staff`."
+      },
+      {
+        "index": 3,
+        "text": "because of lack staffs",
+        "knowledge_ids": [
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะนับผิดรูป ควรเป็น `a lack of staff` (คำว่า staff โดยทั่วไปนับไม่ได้) และควรใช้บทความ `a`. รูปที่ดีคือ `because of a lack of staff` หรือสั้นๆ `for lack of staff`."
+      },
+      {
+        "index": 4,
+        "text": "out of lack of",
+        "knowledge_ids": [
+          457
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `out of` ใช้กับอารมณ์/แรงจูงใจ (`out of curiosity/fear`) ไม่ใช่ใช้กับ `lack`. รูปที่ถูกคือ **for lack of + noun**."
+      }
+    ]
+  },
+  {
+    "question": "She worked overnight ___ fear of missing the deadline.",
+    "question_knowledge_ids": [
+      457,
+      454
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "for",
+        "knowledge_ids": [
+          457
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง สำนวนคงรูปคือ __for fear of + noun/gerund__ เช่น `for fear of missing the deadline`. ประโยคเต็ม: `She worked overnight for fear of missing the deadline.`"
+      },
+      {
+        "index": 2,
+        "text": "because of fear to miss",
+        "knowledge_ids": [
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปกริยา หลัง **because of** ควรใช้คำนามหรือ **gerund** ไม่ใช่ `to + verb`. ควรเป็น `because of fear of missing the deadline` แต่สำนวนที่เป็นธรรมชาติยิ่งคือ `for fear of ...`."
+      },
+      {
+        "index": 3,
+        "text": "owing to she feared missing",
+        "knowledge_ids": [
+          460
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **owing to** ต้องตามด้วยคำนาม/วลีคำนาม ไม่ใช่ประโยคเต็ม. ถ้าจะใช้ **owing to** ให้เป็น `owing to her fear of missing the deadline`."
+      },
+      {
+        "index": 4,
+        "text": "thanks to fear of",
+        "knowledge_ids": [
+          456
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเชิงความหมาย **thanks to** ใช้กับสาเหตุเชิงบวกที่ก่อผลดี ไม่เหมาะกับคำว่า `fear`. ประโยคนี้ควรใช้ `for fear of ...` เพื่อสื่อแรงจูงใจเชิงหลีกเลี่ยง."
+      }
+    ]
+  },
+  {
+    "question": "The accident happened ___ his carelessness.",
+    "question_knowledge_ids": [
+      457
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "through",
+        "knowledge_ids": [
+          457
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __through + noun__ เพื่อบอกสาเหตุเชิงวิธีการ/ปัจจัย เช่น `through his carelessness` หรือ `through human error`. ประโยคเต็ม: `The accident happened through his carelessness.`"
+      },
+      {
+        "index": 2,
+        "text": "because",
+        "knowledge_ids": [
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะ **because** ต้องตามด้วยประโยค เช่น `because he was careless`. ถ้าจะตามด้วยคำนาม ให้ใช้ `because of his carelessness` หรือ `through his carelessness`."
+      },
+      {
+        "index": 3,
+        "text": "as a result his carelessness",
+        "knowledge_ids": [
+          451
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะขาด `of`. รูปที่ถูกคือ **as a result of + noun** เช่น `as a result of his carelessness`. อย่างไรก็ตาม ประโยคนี้ใช้ `through` ก็สั้นและตรงกว่า."
+      },
+      {
+        "index": 4,
+        "text": "out of his carelessness",
+        "knowledge_ids": [
+          457
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดสำนวน `out of` ใช้กับอารมณ์/แรงจูงใจ (`out of fear/curiosity`) ไม่ใช่กับ `carelessness`. ใช้ `through his carelessness` หรือ `because of his carelessness` แทน."
+      }
+    ]
+  },
+  {
+    "question": "We postponed the picnic ___ the heavy rain.",
+    "question_knowledge_ids": [
+      455,
+      454,
+      456,
+      457
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "owing to",
+        "knowledge_ids": [
+          455
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __owing to + noun/gerund__ เพื่อบอกเหตุผลอย่างเป็นทางการเล็กน้อย เช่น `We postponed the picnic owing to the heavy rain.` ตัวอย่างเพิ่ม: `Owing to traffic, we arrived late.`"
+      },
+      {
+        "index": 2,
+        "text": "because",
+        "knowledge_ids": [
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่ตามด้วยคำนามเปล่าๆ เพราะ **because** ต้องตามด้วยประโยค เช่น `because it was raining heavily`. ถ้าตามด้วยคำนามให้ใช้ `because of the heavy rain` หรือ `owing to the heavy rain`."
+      },
+      {
+        "index": 3,
+        "text": "due to the heavy rain fell",
+        "knowledge_ids": [
+          455,
+          460
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะ **due to** ต้องตามด้วยคำนาม/วลีคำนาม ไม่ใช่ประโยค/กริยา `fell`. ควรเป็น `due to the heavy rain` ถ้าจะใช้รูปนี้."
+      },
+      {
+        "index": 4,
+        "text": "thanks to the heavy rain",
+        "knowledge_ids": [
+          456
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะเชิงความหมาย เพราะ **thanks to** สื่อผลดี แต่การต้องเลื่อนปิกนิกเพราะฝนหนักไม่ใช่ผลดี. ควรใช้ `owing to` หรือ `because of` เพื่อสื่อเหตุผลเป็นกลาง/ลบ."
+      }
+    ]
+  },
+  {
+    "question": "She felt exhausted ___ working late all week.",
+    "question_knowledge_ids": [
+      457,
+      454
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "from",
+        "knowledge_ids": [
+          457
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __from + noun/gerund__ เพื่อบอกสาเหตุของสภาพหรือความรู้สึก เช่น `exhausted from working late`. ประโยคเต็ม: `She felt exhausted from working late all week.`"
+      },
+      {
+        "index": 2,
+        "text": "because working late",
+        "knowledge_ids": [
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะ **because** ต้องตามด้วยประโยคเต็ม ไม่ใช่คำกริยาแบบไม่ผัน. ถ้าจะตามด้วยคำนาม/กริยาเติม -ing ใช้ `because of working late` หรือใช้สั้นๆ `from working late`."
+      },
+      {
+        "index": 3,
+        "text": "because of work late",
+        "knowledge_ids": [
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปคำ หลัง **because of** ควรใช้คำนามหรือ **gerund** ไม่ใช่ `work` รูป base. ควรเป็น `because of working late` หรือ `from working late`."
+      },
+      {
+        "index": 4,
+        "text": "due to she worked late",
+        "knowledge_ids": [
+          460
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **due to** ต้องตามด้วยวลีคำนาม ไม่ใช่ประโยคเต็ม. ถ้าจะใช้ให้เปลี่ยนเป็น `due to her working late` หรือใช้ `from working late` ซึ่งธรรมชาติกว่า."
+      }
+    ]
+  },
+  {
+    "question": "___ the new evidence, the judge reopened the case.",
+    "question_knowledge_ids": [
+      457
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "In view of",
+        "knowledge_ids": [
+          457
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __in view of + noun/NP__ เพื่อบอกเหตุผล/พิจารณาจากข้อมูลใหม่ เช่น `In view of the new evidence, ...`. ประโยคเต็ม: `In view of the new evidence, the judge reopened the case.`"
+      },
+      {
+        "index": 2,
+        "text": "Because of that the new evidence",
+        "knowledge_ids": [
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดโครงสร้าง ซ้ำซ้อนและวางคำไม่ถูก ที่ถูกคือ `Because of the new evidence, ...` ถ้าจะใช้วลีเหตุผลขึ้นต้นประโยคให้เป็น **because of + noun** โดยไม่ต้องใส่ `that`."
+      },
+      {
+        "index": 3,
+        "text": "Due to that the new evidence",
+        "knowledge_ids": [
+          460
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **due to** ต้องตามด้วยคำนามตรงๆ ไม่ใช่ `that + noun`. ควรเป็น `Due to the new evidence, ...` หรือใช้ `In view of the new evidence, ...` ซึ่งเป็นทางการและชัดเจน."
+      },
+      {
+        "index": 4,
+        "text": "Thanks of the new evidence",
+        "knowledge_ids": [
+          456
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดสำนวน รูปที่ถูกคือ **thanks to + noun** ไม่ใช่ `thanks of`. และในบริบททางกฎหมาย มักใช้ `in view of` เพื่อบอกว่ามีการพิจารณาจากหลักฐานใหม่."
+      }
+    ]
+  },
+  {
+    "question": "He apologized ___ the confusion caused by his email.",
+    "question_knowledge_ids": [
+      403,
+      447,
+      454,
+      455,
+      451,
+      458,
+      559
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "for",
+        "knowledge_ids": [
+          403,
+          559
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคำขอโทษคือ __apologize for + noun/gerund__ และวลีเหตุผลที่ตามมาคือคำนาม `the confusion...`. ประโยคที่ถูก: `He apologized for the confusion caused by his email.` ใช้กรณีบอกสาเหตุของการขอโทษ."
+      },
+      {
+        "index": 2,
+        "text": "because of",
+        "knowledge_ids": [
+          454,
+          457
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะกับกริยา `apologize` โดยตรง รูปที่ถูกคือ `apologize for ...` ไม่ใช่ `apologize because of ...`. ถ้าจะใส่ `because of`, ต้องเปลี่ยนโครงสร้างเป็น `He apologized because of the confusion` ซึ่งฟังแข็งและไม่นิยม."
+      },
+      {
+        "index": 3,
+        "text": "as a result of",
+        "knowledge_ids": [
+          451,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดกับกริยานี้ โครงสร้างมาตรฐานคือ `apologize for + noun/gerund`. `as a result of` ใช้บอกเหตุผลทั่วไปได้ แต่ไม่เข้ากับกริยา `apologize` โดยตรง เช่น `He canceled the meeting as a result of the storm.`"
+      },
+      {
+        "index": 4,
+        "text": "due to",
+        "knowledge_ids": [
+          455,
+          461
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เข้ากับโครงสร้างกริยา `apologize` ที่ต้องใช้บุพบท `for`. ควรเขียน `He apologized for the confusion ...` หากต้องการบอกสาเหตุด้วย `due to` ให้แยกเป็นประโยคอื่น เช่น `The confusion was due to his email.`"
+      }
+    ]
+  }
+]

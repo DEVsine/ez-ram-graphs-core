@@ -1,0 +1,511 @@
+[
+  {
+    "question": "Do you know ___ the meeting starts?",
+    "question_knowledge_ids": [
+      195,
+      585
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "when the meeting starts",
+        "knowledge_ids": [
+          585
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้องจ้า เพราะเป็น **indirect question** ต้องใช้ลำดับคำแบบประโยคบอกเล่า: `wh-word + subject + verb` เช่น __`when + the meeting + starts`__. ตัวอย่าง: `Do you know when the meeting starts?` หรือ `I don't remember when the movie begins.`"
+      },
+      {
+        "index": 2,
+        "text": "when does the meeting start",
+        "knowledge_ids": [
+          581,
+          585
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะใช้รูปแบบ **ประโยคคำถามตรง** (inversion) `does + subject + base verb` ซึ่งไม่ใช้ใน **indirect question**. ควรเปลี่ยนเป็น `when the meeting starts` เช่น: `Do you know when the meeting starts?` ไม่ใช่ `Do you know when does the meeting start?`"
+      },
+      {
+        "index": 3,
+        "text": "when start the meeting",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะลำดับคำผิด และกริยาไม่ผันตามประธาน (`start` แทนที่จะเป็น `starts`). โครงสร้างที่ถูกคือ **`wh-word + subject + verb`** เช่น `when the meeting starts`."
+      },
+      {
+        "index": 4,
+        "text": "that when the meeting starts",
+        "knowledge_ids": [
+          460
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเติมคำเชื่อม **that** เกินความจำเป็น ทำให้ประโยคเทอะทะและไม่เป็นธรรมชาติ. ใช้แค่ `when the meeting starts` ก็พอ เช่น `Do you know when the meeting starts?`"
+      }
+    ]
+  },
+  {
+    "question": "Could you tell me ___ to get to the station?",
+    "question_knowledge_ids": [
+      197,
+      574,
+      585
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "how to",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "เกือบถูกแต่ยังไม่ครบ เพราะต้องเป็นวลีเต็มว่า `how to get to the station`. ถ้าใส่แค่ `how to` ประโยคจะขาดกริยาที่ตามหลัง `to` ทำให้ไม่สมบูรณ์."
+      },
+      {
+        "index": 2,
+        "text": "how to get",
+        "knowledge_ids": [
+          585
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ครบ เพราะ `get` ต้องมีส่วนเติมเต็ม `to the station` เพื่อให้ความหมายชัด. รูปที่ถูกควรเป็น `how to get to the station` ใน **indirect question** แบบ `wh-word + to-infinitive`."
+      },
+      {
+        "index": 3,
+        "text": "how to get to the station",
+        "knowledge_ids": [
+          197,
+          585
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้โครงสร้าง **indirect question** แบบ __`wh-word + to-infinitive`__ เช่น `how to + get`. ตัวอย่าง: `Could you tell me how to get to the station?` หรือ `I don't know where to go.`"
+      },
+      {
+        "index": 4,
+        "text": "how do I get to the station",
+        "knowledge_ids": [
+          581,
+          585
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็นรูปคำถามตรง `do I get` (inversion) ซึ่งไม่ใช้ภายหลัง `Could you tell me...`. ควรใช้รูปแบบบอกเล่า: `how to get to the station` แทน."
+      }
+    ]
+  },
+  {
+    "question": "I wonder ___ to call her.",
+    "question_knowledge_ids": [
+      585
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "if",
+        "knowledge_ids": [
+          585
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `if` ไม่ใช้โครงสร้าง `to-infinitive` แบบนี้ เราจะไม่พูดว่า `if to call`. ถ้าจะใช้ `to + verb` ใน **indirect question** ต้องใช้ **`whether + to-infinitive`** เช่น `whether to call`."
+      },
+      {
+        "index": 2,
+        "text": "that",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `that` ไม่ได้ใช้เปิดประโยคคำถามอ้อม และไม่เข้ากับโครงสร้าง `to-infinitive`. ตัวอย่างที่ผิด: `I wonder that to call her.` ควรใช้ `whether to call her`."
+      },
+      {
+        "index": 3,
+        "text": "whether",
+        "knowledge_ids": [
+          585
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเมื่อใช้โครงสร้าง __`whether + to-infinitive`__ จะสื่อความหมายว่า “ดีไหม/ควรไหม”. ตัวอย่าง: `I wonder whether to call her.` หรือ `She can't decide whether to go.`"
+      },
+      {
+        "index": 4,
+        "text": "whether or not",
+        "knowledge_ids": [
+          492,
+          585
+        ],
+        "is_correct": false,
+        "answer_description": "เกือบถูก แต่ถ้าใช้ `whether or not` ต้องตามด้วย `to-infinitive` ต่อให้ครบ เช่น `whether or not to call her`. ในช่องว่างนี้มีแค่คำเดียว เลยยังไม่สมบูรณ์."
+      }
+    ]
+  },
+  {
+    "question": "Do you know ___ I should bring to the interview?",
+    "question_knowledge_ids": [
+      195,
+      585
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "what should I bring",
+        "knowledge_ids": [
+          581,
+          585
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้รูปคำถามตรง `should I bring` ซึ่งต้องสลับเป็นลำดับแบบบอกเล่าใน **indirect question**. ควรเป็น `what I should bring` ไม่ใช่ `what should I bring`."
+      },
+      {
+        "index": 2,
+        "text": "what I should bring",
+        "knowledge_ids": [
+          585
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ลำดับคำของ **indirect question**: __`wh-word + subject + modal + base verb`__ เช่น `what + I + should + bring`. ตัวอย่าง: `Do you know what I should bring to the interview?`"
+      },
+      {
+        "index": 3,
+        "text": "that what I should bring",
+        "knowledge_ids": [
+          460
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเติม `that` เกินมา ไม่ใช้ `that` นำหน้า `what` ในคำถามอ้อมแบบนี้. รูปที่ถูกคือ `what I should bring` ตรงๆ."
+      },
+      {
+        "index": 4,
+        "text": "what do I bring",
+        "knowledge_ids": [
+          581,
+          585
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นคำถามตรง (`do I bring`) ที่มีการสลับประธานกับกริยาช่วย. ใน **indirect question** ต้องใช้ `what I bring/should bring` แทน."
+      }
+    ]
+  },
+  {
+    "question": "She asked me ___ he lived.",
+    "question_knowledge_ids": [
+      585
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "where he lived",
+        "knowledge_ids": [
+          585
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โดยใช้โครงสร้าง **indirect question** หลังคำกริยารายงาน (`asked me`) เป็นแบบ __`wh-word + subject + verb (ผันตามกาล)`__. ตัวอย่าง: `She asked me where he lived.` หรือ `He wondered where she was.`"
+      },
+      {
+        "index": 2,
+        "text": "where does he live",
+        "knowledge_ids": [
+          581,
+          585
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปคำถามตรง (inversion) `does he live`. ในคำถามอ้อมต้องเป็น `where he lived` โดยไม่มี `does` และไม่สลับคำ."
+      },
+      {
+        "index": 3,
+        "text": "where did he live",
+        "knowledge_ids": [
+          300,
+          585
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะยังคงเป็นคำถามตรง (มี `did` และสลับลำดับ). รูปที่ถูกคือ `where he lived` ซึ่งเป็นลำดับแบบบอกเล่า."
+      },
+      {
+        "index": 4,
+        "text": "that where he lived",
+        "knowledge_ids": [
+          460
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่ใช้ `that` นำหน้า `where` ในคำถามอ้อมลักษณะนี้. ใช้ `where he lived` ตรงๆ ก็พอ."
+      }
+    ]
+  },
+  {
+    "question": "Can you explain ___ the project was delayed?",
+    "question_knowledge_ids": [
+      585
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "why the project was delayed",
+        "knowledge_ids": [
+          585
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็น **indirect question** ที่ใช้โครงสร้าง __`wh-word (why) + subject + verb`__. ตัวอย่าง: `Can you explain why the project was delayed?` หรือ `Please tell me why she left early.`"
+      },
+      {
+        "index": 2,
+        "text": "why was the project delayed",
+        "knowledge_ids": [
+          581,
+          585
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปคำถามตรง (สลับเป็น `was + subject`). ในคำถามอ้อมต้องเป็นลำดับบอกเล่า: `why the project was delayed`."
+      },
+      {
+        "index": 3,
+        "text": "that why the project was delayed",
+        "knowledge_ids": [
+          460
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่จำเป็นต้องมี `that` ก่อน `why` และทำให้ซ้ำซ้อน. ใช้แค่ `why the project was delayed` ก็พอ."
+      },
+      {
+        "index": 4,
+        "text": "why did the project delay",
+        "knowledge_ids": [
+          300,
+          585
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดสองจุด: เป็นคำถามตรง (มี `did`) และกริยา `delay` ใช้ผิดความหมาย/รูป. ในคำถามอ้อมควรใช้ `why the project was delayed` แปลว่าโครงการถูกเลื่อนเพราะอะไร."
+      }
+    ]
+  },
+  {
+    "question": "I'm not sure ___ to start.",
+    "question_knowledge_ids": [
+      585
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "where",
+        "knowledge_ids": [
+          585
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะตามด้วยโครงสร้าง __`wh-word + to-infinitive`__ ในคำถามอ้อมที่พูดถึงวิธี/ที่ทาง เช่น `where to start`. ตัวอย่าง: `I'm not sure where to start.` หรือ `Tell me where to sit.`"
+      },
+      {
+        "index": 2,
+        "text": "where do",
+        "knowledge_ids": [
+          581,
+          585
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `do` ทำให้เป็นคำถามตรง และยังชนกับ `to start` ที่ตามมา. ควรเป็น `where to start` ใน **indirect question**."
+      },
+      {
+        "index": 3,
+        "text": "where should",
+        "knowledge_ids": [
+          581,
+          585
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นโครงสร้างคำถามตรงกับ modal (`should`) และไม่เข้ากับ `to start` ที่ตามหลัง. ใช้ `where to start` จะถูกกว่าและกระชับ."
+      },
+      {
+        "index": 4,
+        "text": "where I",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยาหลังประธาน และไม่ใช่รูป `to-infinitive`. ถ้าจะให้ถูกในบริบทนี้ต้องเป็น `where to start`."
+      }
+    ]
+  },
+  {
+    "question": "Could you tell me ___ any vegetarian options?",
+    "question_knowledge_ids": [
+      585
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are there if",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะลำดับคำมั่วและใช้ `if` ผิดที่ ควรให้ `if/whether` นำหน้าอนุประโยค. โครงสร้างที่ถูกคือ `if there are` ใน **indirect question** แบบถามใช่-ไม่ใช่."
+      },
+      {
+        "index": 2,
+        "text": "if are there",
+        "knowledge_ids": [
+          581,
+          585
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะยังคงใช้ลำดับคำแบบคำถามตรง (`are there`). ในคำถามอ้อมต้องใช้ลำดับบอกเล่า: `if + there are`."
+      },
+      {
+        "index": 3,
+        "text": "whether are there",
+        "knowledge_ids": [
+          581,
+          585
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดด้วยเหตุผลเดียวกัน คือลำดับคำยังเป็นคำถามตรง. รูปที่ถูกคือ `whether there are` หรือ `if there are`."
+      },
+      {
+        "index": 4,
+        "text": "if there are",
+        "knowledge_ids": [
+          585
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำถามใช่-ไม่ใช่ในรูป **indirect question** ใช้ __`if/whether + subject + verb`__. ตัวอย่าง: `Could you tell me if there are any vegetarian options?` หรือ `I wonder if he is at home.`"
+      }
+    ]
+  },
+  {
+    "question": "He didn't say ___ coming to the party.",
+    "question_knowledge_ids": [
+      585
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "if was he",
+        "knowledge_ids": [
+          581,
+          585
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นการสลับคำแบบคำถามตรง (`was he`). ในคำถามอ้อมต้องใช้ลำดับบอกเล่าและมีประธานก่อนกริยา: `if he was` หรือ `whether he was`."
+      },
+      {
+        "index": 2,
+        "text": "was whether he",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะลำดับคำไม่ถูกและ `was` ถูกวางไว้ต้นวลีโดยไม่มีประธานนำหน้า. ควรใช้ `whether he was` ในโครงสร้างคำถามอ้อม."
+      },
+      {
+        "index": 3,
+        "text": "that whether he was",
+        "knowledge_ids": [
+          460
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเติม `that` เกินและทำให้ประโยคซ้ำซ้อน. ใช้ `whether he was` หรือ `if he was` ก็พอ."
+      },
+      {
+        "index": 4,
+        "text": "whether he was",
+        "knowledge_ids": [
+          585
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้รูปแบบคำถามใช่-ไม่ใช่ใน **indirect question**: __`whether + subject + be`__. ตัวอย่าง: `He didn't say whether he was coming to the party.` หรือ `Please let me know whether you can join.`"
+      }
+    ]
+  },
+  {
+    "question": "I have no idea ___ so upset.",
+    "question_knowledge_ids": [
+      585
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "why she is",
+        "knowledge_ids": [
+          585
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะใช้โครงสร้าง **indirect question**: __`wh-word (why) + subject + verb`__. ตัวอย่าง: `I have no idea why she is so upset.` หรือ `Do you know why he is late?`"
+      },
+      {
+        "index": 2,
+        "text": "why is she",
+        "knowledge_ids": [
+          581,
+          585
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นคำถามตรงแบบสลับประธาน (`is she`). ในคำถามอ้อมต้องกลับเป็น `why she is` ตามลำดับบอกเล่า."
+      },
+      {
+        "index": 3,
+        "text": "that why she is",
+        "knowledge_ids": [
+          460
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่ใช้ `that` นำหน้า `why` ในคำถามอ้อม. ใช้ `why she is so upset` ก็เพียงพอและเป็นธรรมชาติ."
+      },
+      {
+        "index": 4,
+        "text": "what is she",
+        "knowledge_ids": [
+          581,
+          585
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดทั้งคำถาม (`what` ไม่เข้ากับความหมาย) และรูปแบบยังเป็นคำถามตรง. ในที่นี้ต้องใช้ `why she is` เพื่อบอกเหตุผล."
+      }
+    ]
+  },
+  {
+    "question": "Do you remember ___ we parked the car?",
+    "question_knowledge_ids": [
+      195,
+      288,
+      585
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "where did",
+        "knowledge_ids": [
+          292,
+          581,
+          585
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปคำถามตรง (`did we park`). ใน **indirect question** ต้องใช้ลำดับคำแบบบอกเล่า: `where we parked`."
+      },
+      {
+        "index": 2,
+        "text": "where we parked",
+        "knowledge_ids": [
+          585
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้โครงสร้างคำถามอ้อม __`wh-word + subject + verb (past)`__. ตัวอย่าง: `Do you remember where we parked the car?` หรือ `I forget where I put my keys.`"
+      },
+      {
+        "index": 3,
+        "text": "that where we parked",
+        "knowledge_ids": [
+          529
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเติม `that` เกินความจำเป็น ทำให้ประโยคฟุ่มเฟือย. ใช้แค่ `where we parked` ก็ชัดเจนและถูกต้อง."
+      },
+      {
+        "index": 4,
+        "text": "where to parked",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดไวยากรณ์ เพราะ `to` ต้องตามด้วยกริยารูป base (`to park`) ไม่ใช่ `parked`. และบริบทนี้ไม่ใช่รูป `wh + to-infinitive` ด้วย."
+      }
+    ]
+  }
+]

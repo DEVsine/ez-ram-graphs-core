@@ -1,0 +1,512 @@
+[
+  {
+    "question": "This puzzle is ___ than that one.",
+    "question_knowledge_ids": [
+      462,
+      464,
+      472
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "easier",
+        "knowledge_ids": [
+          472
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำคุณศัพท์ที่ลงท้ายด้วย -y อย่าง **easy** เปลี่ยนเป็นขั้นกว่าเป็น __`easier`__ (y → i + er). ตัวอย่าง: `This quiz is easier than yesterday's quiz.` โครงสร้างขั้นกว่าคือ **adjective + -er + than** เช่น `smaller than`, `faster than`."
+      },
+      {
+        "index": 2,
+        "text": "more easy",
+        "knowledge_ids": [
+          472
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำคุณศัพท์สั้น (หนึ่งพยางค์หรือลงท้าย -y) ใช้ **-er** ไม่ใช่ `more` เช่นต้องเป็น `easier than` ไม่ใช่ `more easy than`. ตัวอย่างที่ถูก: `This puzzle is easier than that one.`"
+      },
+      {
+        "index": 3,
+        "text": "easiest",
+        "knowledge_ids": [
+          466,
+          467
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `easiest` เป็นขั้นสุดยอด ต้องใช้กับ **the** และเปรียบเทียบกับหลายสิ่ง เช่น `the easiest puzzle`. ในประโยคนี้มีคำว่า **than** แสดงว่าต้องใช้ขั้นกว่า `easier`."
+      },
+      {
+        "index": 4,
+        "text": "the most easy",
+        "knowledge_ids": [
+          467
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด สองจุด: (1) ใช้โครงสร้างขั้นสุดยอด `the most + adj` แต่ประโยคนี้เป็นการเปรียบเทียบสองสิ่งเพราะมี **than** (2) คำว่า `easy` ควรใช้รูป **easier** ในขั้นกว่า ไม่ใช่ `more easy`."
+      }
+    ]
+  },
+  {
+    "question": "Of all the players, Mia is ___.",
+    "question_knowledge_ids": [
+      466,
+      467
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "the fastest",
+        "knowledge_ids": [
+          467
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ขั้นสุดยอดรูป __`the + adjective-est`__ สำหรับคำสั้น: `the fastest`. ตัวอย่าง: `Mia is the fastest in the team.` โครงสร้างนี้บอกว่า **เหนือกว่าทุกคนในกลุ่ม**."
+      },
+      {
+        "index": 2,
+        "text": "faster",
+        "knowledge_ids": [
+          462,
+          472
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `faster` เป็นขั้นกว่า ใช้เมื่อเปรียบเทียบแค่ 2 คน/สิ่ง เช่น `Mia is faster than Anna.` ที่นี่มีวลี `Of all the players` ต้องใช้ขั้นสุดยอด `the fastest`."
+      },
+      {
+        "index": 3,
+        "text": "fastest",
+        "knowledge_ids": [
+          466,
+          467
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขั้นสุดยอดต้องมี **the** นำหน้า: `the fastest`. ตัวอย่างที่ถูก: `Mia is the fastest.`"
+      },
+      {
+        "index": 4,
+        "text": "more fast",
+        "knowledge_ids": [
+          472
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำคุณศัพท์สั้นอย่าง `fast` ใช้ `-er/-est` ไม่ใช้ `more/most`. รูปที่ถูกคือ `faster` หรือ `the fastest` ตามบริบท."
+      }
+    ]
+  },
+  {
+    "question": "My bag is not ___ yours.",
+    "question_knowledge_ids": [
+      468,
+      469
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "as heavy as",
+        "knowledge_ids": [
+          468,
+          469
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างปฏิเสธความเท่ากันคือ __`not as + adjective + as`__. ตัวอย่าง: `My bag is not as heavy as yours.` แปลว่า “กระเป๋าของฉันไม่หนักเท่าของเธอ” ใช้เมื่อบอกว่าไม่เท่ากัน."
+      },
+      {
+        "index": 2,
+        "text": "so heavy than",
+        "knowledge_ids": [
+          464
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้าง `so ... than` ไม่มีในหลักไวยากรณ์การเปรียบเทียบแบบนี้ ควรใช้ `as ... as` หรือ `-er ... than` เช่น `not as heavy as` หรือ `heavier than`."
+      },
+      {
+        "index": 3,
+        "text": "heavier as",
+        "knowledge_ids": [
+          464
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขั้นกว่าใช้โครงสร้าง `adjective-er + than` ต้องเขียนว่า `heavier than` ไม่ใช่ `heavier as`. ตัวอย่างที่ถูก: `My bag is heavier than yours.`"
+      },
+      {
+        "index": 4,
+        "text": "as heavier as",
+        "knowledge_ids": [
+          468
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอาโครงสร้างมาปนกัน ระหว่าง `as + adj + as` กับ `adj-er + than`. ถ้าจะใช้ `as ... as` ต้องเป็น `as heavy as` เท่านั้น."
+      }
+    ]
+  },
+  {
+    "question": "Today is ___ than yesterday.",
+    "question_knowledge_ids": [
+      463,
+      464
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "worse",
+        "knowledge_ids": [
+          463
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำไม่ปกติของ **bad** คือขั้นกว่า __`worse`__ และขั้นสุดยอด `the worst`. ตัวอย่าง: `Today is worse than yesterday.` และ `This is the worst day ever.`"
+      },
+      {
+        "index": 2,
+        "text": "badder",
+        "knowledge_ids": [
+          472
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `bad` เป็นคำไม่ปกติ ไม่สร้างขั้นกว่าด้วย `-er`. รูปที่ถูกต้องคือ `worse than` ไม่ใช่ `badder than`."
+      },
+      {
+        "index": 3,
+        "text": "the worst",
+        "knowledge_ids": [
+          466,
+          467
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `the worst` เป็นขั้นสุดยอด ใช้เมื่อเทียบกับหลายสิ่ง ไม่ใช่โครงสร้างที่มี **than** ซึ่งต้องใช้ขั้นกว่า `worse`."
+      },
+      {
+        "index": 4,
+        "text": "more bad",
+        "knowledge_ids": [
+          472
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำไม่ปกติ `bad` ไม่ใช้ `more` ในขั้นกว่า ต้องใช้ `worse`: `Today is worse than yesterday.`"
+      }
+    ]
+  },
+  {
+    "question": "We have ___ apples this week than last week.",
+    "question_knowledge_ids": [
+      474,
+      530,
+      532
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "fewer",
+        "knowledge_ids": [
+          474,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __`fewer + นามนับได้พหูพจน์`__ เพื่อบอกว่าจำนวนน้อยกว่า เช่น `fewer apples`. ตัวอย่าง: `We have fewer apples this week than last week.` จำไว้ว่า `fewer` ใช้กับนับได้, `less` ใช้กับนับไม่ได้."
+      },
+      {
+        "index": 2,
+        "text": "less",
+        "knowledge_ids": [
+          474,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `apples` เป็นนามนับได้พหูพจน์ ควรใช้ `fewer` ไม่ใช่ `less`. `less` ใช้กับนามนับไม่ได้ เช่น `less water`, `less time`."
+      },
+      {
+        "index": 3,
+        "text": "fewest",
+        "knowledge_ids": [
+          467,
+          474
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `fewest` เป็นขั้นสุดยอด (the fewest) ต้องมี **the** และใช้เมื่อเทียบกับหลายกลุ่ม ไม่ใช่โครงสร้างที่มี **than** ซึ่งบอกขั้นกว่า."
+      },
+      {
+        "index": 4,
+        "text": "lesser",
+        "knowledge_ids": [
+          474
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด `lesser` เป็นคำคุณศัพท์เฉพาะบริบท (เช่น `the lesser evil`) ไม่ใช้แทน `fewer/less` ในโครงสร้างนี้. สำหรับจำนวนนับได้ ให้ใช้ `fewer`."
+      }
+    ]
+  },
+  {
+    "question": "She sings ___ than her sister.",
+    "question_knowledge_ids": [
+      463,
+      473
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "better",
+        "knowledge_ids": [
+          463,
+          473
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง การเปรียบเทียบกริยาวิเศษณ์ของ **well** ใช้รูปไม่ปกติเป็น __`better`__. ตัวอย่าง: `She sings better than her sister.` และขั้นสุดยอดคือ `the best` เช่น `She sings the best in class.`"
+      },
+      {
+        "index": 2,
+        "text": "more good",
+        "knowledge_ids": [
+          472
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเมื่อพูดถึง “ร้องเพลงได้ดี” ต้องใช้กริยาวิเศษณ์ `well` และขั้นกว่าเป็น `better` ไม่ใช่ `more good`. ตัวอย่างที่ถูก: `She sings better than her sister.`"
+      },
+      {
+        "index": 3,
+        "text": "weller",
+        "knowledge_ids": [
+          472
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `well` เป็นคำไม่ปกติ ขั้นกว่าไม่เติม `-er` แต่เปลี่ยนเป็น `better`. รูป `weller` ไม่มีใช้จริงในกรณีนี้."
+      },
+      {
+        "index": 4,
+        "text": "best",
+        "knowledge_ids": [
+          466
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `best` เป็นขั้นสุดยอด ต้องใช้กับ **the** และบริบทที่เทียบกับหลายคน เช่น `She is the best singer.` ที่นี่มี **than** ต้องใช้ขั้นกว่า `better`."
+      }
+    ]
+  },
+  {
+    "question": "The ___ you practice, the ___ you become.",
+    "question_knowledge_ids": [
+      465
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "more / better",
+        "knowledge_ids": [
+          465
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคู่เปรียบเทียบคือ __`the + comparative, the + comparative`__ แต่เวลาเติมคำในช่องว่างมักย่อเหลือคำเปรียบเทียบ: `The more you practice, the better you become.` ใช้เมื่อสิ่งหนึ่งเพิ่ม อีกสิ่งก็ดีขึ้น/แย่ลงตาม เช่น `The harder you work, the luckier you get.`"
+      },
+      {
+        "index": 2,
+        "text": "more / best",
+        "knowledge_ids": [
+          465,
+          466
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะส่วนหลังควรเป็นขั้นกว่า `better` ไม่ใช่ขั้นสุดยอด `best`. โครงสร้างที่ถูกคือ `The more you practice, the better you become.`"
+      },
+      {
+        "index": 3,
+        "text": "most / better",
+        "knowledge_ids": [
+          467
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะส่วนแรกต้องเป็นขั้นกว่า `more` พร้อม `the` นำหน้าในโครงสร้าง ไม่ใช่ `most`. ตัวอย่างที่ถูก: `The more you read, the better you write.`"
+      },
+      {
+        "index": 4,
+        "text": "the more / the better",
+        "knowledge_ids": [
+          465
+        ],
+        "is_correct": false,
+        "answer_description": "เกือบถูกแต่ไม่ตรงรูปแบบของช่องว่างในประโยคนี้ซึ่งแยกคำด้วย `___ / ___` ให้ใส่เฉพาะคำเปรียบเทียบ ไม่รวม `the`. หากจะเขียนเต็มประโยค ต้องเป็น `The more you practice, the better you become.`"
+      }
+    ]
+  },
+  {
+    "question": "We need no ___ discussion; let's vote.",
+    "question_knowledge_ids": [
+      462,
+      463
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "further",
+        "knowledge_ids": [
+          463
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __`further`__ เพื่อสื่อความหมายว่า “เพิ่มเติม” หรือ “ต่อไป” ในเชิงนามธรรม เช่น `no further questions` หรือ `further discussion`. ตัวอย่าง: `We need no further discussion.`"
+      },
+      {
+        "index": 2,
+        "text": "farther",
+        "knowledge_ids": [
+          462
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `farther` มักใช้กับระยะทางทางกายภาพ เช่น `The station is farther than I thought.` ที่นี่พูดถึงการสนทนาเชิงนามธรรม จึงควรใช้ `further`."
+      },
+      {
+        "index": 3,
+        "text": "more far",
+        "knowledge_ids": [
+          472
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด โครงสร้างเปรียบเทียบของ `far` ไม่ใช้ `more far` แต่ใช้ `farther/further`. ตัวอย่างที่ถูก: `We need no further discussion.`"
+      },
+      {
+        "index": 4,
+        "text": "furthest",
+        "knowledge_ids": [
+          466
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `furthest` เป็นขั้นสุดยอดและสื่อความหมายระยะทางหรือระดับไกลที่สุด ซึ่งไม่เข้ากับบริบท “การสนทนาเพิ่มเติม”. ควรใช้ `further`."
+      }
+    ]
+  },
+  {
+    "question": "This is ___ difficult exam I've ever taken.",
+    "question_knowledge_ids": [
+      466,
+      467,
+      513
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "the most",
+        "knowledge_ids": [
+          467,
+          513
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ขั้นสุดยอดของคำคุณศัพท์ยาวใช้รูป __`the most + adjective`__ เช่น `the most difficult`. ตัวอย่างเต็ม: `This is the most difficult exam I've ever taken.` และใช้เมื่อเทียบกับทุกครั้ง/ทุกสิ่งที่ผ่านมา."
+      },
+      {
+        "index": 2,
+        "text": "most",
+        "knowledge_ids": [
+          477
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขั้นสุดยอดต้องมี **the** นำหน้า: `the most difficult`. รูปไม่มี `the` ทำให้ประโยคไม่สมบูรณ์."
+      },
+      {
+        "index": 3,
+        "text": "more",
+        "knowledge_ids": [
+          462,
+          472
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `more` เป็นขั้นกว่า ใช้กับ `than` เช่น `more difficult than`. ที่นี่เป็นประสบการณ์ที่เคยเจอมา (ever) ซึ่งบอกขั้นสุดยอด."
+      },
+      {
+        "index": 4,
+        "text": "the more",
+        "knowledge_ids": [
+          467
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `the more` เป็นโครงสร้างขั้นกว่า และยังชวนให้สับสนกับคู่เปรียบเทียบ `the more..., the more...`. ที่นี่ควรเป็น `the most difficult`."
+      }
+    ]
+  },
+  {
+    "question": "This laptop is ___ faster than my old one.",
+    "question_knowledge_ids": [
+      470,
+      526
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "much",
+        "knowledge_ids": [
+          470
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำเสริมระดับขั้นกว่าใช้ __`much/a lot/far + comparative`__ เช่น `much faster`. ตัวอย่าง: `This laptop is much faster than my old one.` และ `The new route is much shorter.`"
+      },
+      {
+        "index": 2,
+        "text": "very",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `very` ไม่ใช้ขยายขั้นกว่า ใช้กับคำคุณศัพท์ปกติ เช่น `very fast`. ถ้าขั้นกว่า ให้ใช้ `much faster` หรือ `a lot faster`."
+      },
+      {
+        "index": 3,
+        "text": "so",
+        "knowledge_ids": [
+          452
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด `so` มักใช้โครงสร้าง `so + adj/adv + that ...` เช่น `so fast that...` ไม่ได้ใช้โดยตรงหน้าขั้นกว่าแบบ `so faster`. ควรเป็น `much faster`."
+      },
+      {
+        "index": 4,
+        "text": "too",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `too` สื่อความหมายเชิงลบว่า “เกินไป” เช่น `too fast` ไม่ได้ใช้ขยายรูปขั้นกว่า `faster`. หากต้องการเน้นขั้นกว่า ให้ใช้ `much faster`."
+      }
+    ]
+  },
+  {
+    "question": "Her idea is ___ mine.",
+    "question_knowledge_ids": [
+      462,
+      464,
+      468
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "the same as",
+        "knowledge_ids": [
+          468
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างเท่ากันใช้ __`the same + (noun) + as`__ หรือ `be the same as`. ตัวอย่าง: `Her idea is the same as mine.` และ `This size is the same as that one.`"
+      },
+      {
+        "index": 2,
+        "text": "similar than",
+        "knowledge_ids": [
+          464
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `similar` ใช้บุพบท `to` ไม่ใช่ `than`. ถ้าจะใช้ `similar` ต้องเป็น `similar to mine`."
+      },
+      {
+        "index": 3,
+        "text": "as same as",
+        "knowledge_ids": [
+          468
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้างนี้ซ้ำคำ `as` เกิน จำไว้ว่าใช้ `the same as` ไม่ใช่ `as same as`. ตัวอย่างที่ถูก: `Her idea is the same as mine.`"
+      },
+      {
+        "index": 4,
+        "text": "the most same as",
+        "knowledge_ids": [
+          467
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำว่า `same` ไม่ใช้รูปขั้นกว่า/ขั้นสุดยอด จึงไม่มี `most same`. โครงสร้างที่ถูกคือ `the same as`."
+      }
+    ]
+  }
+]

@@ -1,0 +1,292 @@
+[
+  {
+    "question": "By the time the bus arrived, we had been waiting ___ two hours.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "for",
+        "is_correct": true,
+        "answer_description": "ถูกต้องจ้า ใช้ **for + ระยะเวลา** กับ Past Perfect Continuous เพื่อบอกว่าทำต่อเนื่องมานานเท่าไร เช่น โครงสร้าง __had been + V-ing + for + period__ ตัวอย่าง: `We had been waiting for two hours.` หรือ `She had been studying for months.`"
+      },
+      {
+        "index": 2,
+        "text": "since",
+        "is_correct": false,
+        "answer_description": "ผิดนะ เพราะ **since** ต้องตามด้วย **จุดเริ่มต้นเวลา (point in time)** เช่น `since 3 p.m.` หรือ `since Monday` ไม่ใช่ระยะเวลาอย่าง `two hours` ตัวอย่างที่ถูก: `We had been waiting since 3 p.m.`"
+      },
+      {
+        "index": 3,
+        "text": "during",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่จ้า **during** ใช้กับ **คำนามช่วงเวลา** เช่น `during the meeting` ไม่ใช้กับตัวเลขระยะเวลา `two hours` เช่นนี้ ตัวอย่างที่ถูก: `We had been waiting for two hours during the storm.` (ใช้ during + คำนาม)"
+      },
+      {
+        "index": 4,
+        "text": "in",
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูกจ้า **in** มักใช้บอกระยะเวลาที่ใช้ทำให้เสร็จ (เช่น `in two hours` = ภายในสองชั่วโมง) ไม่เข้ากับความหมาย “รอมาเป็นเวลา...” แบบต่อเนื่อง ควรใช้ `for two hours` จะชัดกว่า"
+      }
+    ]
+  },
+  {
+    "question": "She had been studying ___ 6 p.m. when her friend called.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "since",
+        "is_correct": true,
+        "answer_description": "ถูกต้องเลย ใช้ **since + เวลาเริ่มต้น (point in time)** กับ Past Perfect Continuous ตามแพทเทิร์น __had been + V-ing + since + start time__ เช่น `She had been studying since 6 p.m.` หรือ `They had been living here since 2019.`"
+      },
+      {
+        "index": 2,
+        "text": "for",
+        "is_correct": false,
+        "answer_description": "เกือบถูกแต่ยังไม่ชัวร์ เพราะ **for** ใช้กับระยะเวลา เช่น `for two hours` แต่หลังช่องว่างเป็นเวลาเจาะจง `6 p.m.` ซึ่งควรใช้ **since** ตัวอย่างที่ถูก: `She had been studying since 6 p.m.`"
+      },
+      {
+        "index": 3,
+        "text": "by",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่นะ **by** ใช้บอกเส้นตายหรือจุดเวลาเสร็จสิ้น (`by 6 p.m.`) ไม่ใช่ใช้บอกว่าเริ่มทำตั้งแต่เมื่อไร ถ้าจะสื่อว่าเริ่มตั้งแต่ 6 โมง ต้องใช้ `since 6 p.m.`"
+      },
+      {
+        "index": 4,
+        "text": "from",
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง ใช้ **from** มักตามด้วยโครง `from ... to/until ...` ถ้าจะใช้เดี่ยวๆจะดูขาดข้อมูล ตัวอย่างที่ถูกถ้าจะใช้ from: `She had been studying from 6 p.m. until 9 p.m.` แต่ในประโยคนี้ควรใช้ `since 6 p.m.`"
+      }
+    ]
+  },
+  {
+    "question": "They had been arguing all morning ___ they decided to take a break.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "before",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **before** เพื่อเชื่อมเหตุการณ์ต่อเนื่องก่อนอีกเหตุการณ์ในอดีต ตามแพทเทิร์น __had been + V-ing + before + past simple__ เช่น `They had been arguing all morning before they decided to take a break.`"
+      },
+      {
+        "index": 2,
+        "text": "until",
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะ **until** มักใช้บอกทำต่อเนื่อง “จนกระทั่ง” จุดเวลานั้น เช่น `They argued until they decided...` (จะใช้ `argued` ธรรมดา หรือ `had been arguing until + time` ก็ได้) แต่กับเหตุการณ์ past simple แบบนี้ **before** ตรงกว่า"
+      },
+      {
+        "index": 3,
+        "text": "by",
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย **by** ใช้บอกเส้นตาย/จุดเวลาที่ก่อนถึง เช่น `by noon` ไม่ได้ใช้เชื่อมสองเหตุการณ์แบบนี้ จึงไม่เข้ากับโครงสร้างประโยค"
+      },
+      {
+        "index": 4,
+        "text": "since",
+        "is_correct": false,
+        "answer_description": "ไม่ถูก เพราะ **since** ใช้กับจุดเริ่มต้นเวลา (`since 9 a.m.`) ไม่ได้ใช้เชื่อมเหตุการณ์ว่า “ก่อนที่จะ...” ต้องใช้ `before` ในที่นี้"
+      }
+    ]
+  },
+  {
+    "question": "He had been working on the report ___ three days before the deadline.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "for",
+        "is_correct": true,
+        "answer_description": "ใช่เลย ใช้ **for + ระยะเวลา** เพื่อบอกความต่อเนื่อง ตามแพทเทิร์น __had been + V-ing + for + period__ เช่น `He had been working on the report for three days before the deadline.`"
+      },
+      {
+        "index": 2,
+        "text": "since",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะ **since** ต้องตามด้วยจุดเริ่มต้นเวลา เช่น `since Monday` หรือ `since last week` ไม่ใช่ระยะเวลา `three days` ตัวอย่างที่ถูก: `He had been working since Monday.`"
+      },
+      {
+        "index": 3,
+        "text": "by",
+        "is_correct": false,
+        "answer_description": "ไม่ตรงความหมาย **by** บอกเส้นตาย (`by Friday`) ไม่ได้บอกความยาวของระยะเวลาที่ทำต่อเนื่อง จึงไม่เข้ากับ `three days`"
+      },
+      {
+        "index": 4,
+        "text": "during",
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ **during** ใช้กับคำนามช่วงเวลา เช่น `during the holiday` ไม่ใช้กับตัวเลขระยะเวลา `three days` แบบนี้ ควรใช้ `for three days`"
+      }
+    ]
+  },
+  {
+    "question": "By 5 p.m., I had been driving ___ eight hours.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "for",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **for + ระยะเวลา** เพื่อบอกว่าทำต่อเนื่องมากี่ชั่วโมงแล้ว โครงสร้าง __had been + V-ing + for + period__ เช่น `I had been driving for eight hours.` หรือ `She had been reading for a long time.`"
+      },
+      {
+        "index": 2,
+        "text": "since",
+        "is_correct": false,
+        "answer_description": "ผิดนะ เพราะ **since** ต้องตามด้วยเวลาเริ่มต้น เช่น `since 9 a.m.` ไม่ใช่ `eight hours` ตัวอย่าง: `I had been driving since 9 a.m.`"
+      },
+      {
+        "index": 3,
+        "text": "until",
+        "is_correct": false,
+        "answer_description": "ไม่ตรง **until** ใช้บอกทำต่อไปจนถึงเวลาใดเวลาหนึ่ง เช่น `I drove until 5 p.m.` แต่ตรงนี้ต้องการบอกระยะเวลา จึงใช้ `for eight hours`"
+      },
+      {
+        "index": 4,
+        "text": "in",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่จ้า **in** มักแปลว่า ‘ภายใน’ เช่น `finish in two hours` ซึ่งเป็นความหมายเสร็จในเวลา ไม่ใช่การทำต่อเนื่องมาเป็นเวลา ดังนั้นต้องใช้ `for`"
+      }
+    ]
+  },
+  {
+    "question": "When we moved to London, we had been living in Paris ___ 2019.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "since",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **since + ปี/วันที่/เวลา** เพื่อบอกจุดเริ่มต้น ตามแพทเทิร์น __had been + V-ing + since + start time__ เช่น `We had been living in Paris since 2019.`"
+      },
+      {
+        "index": 2,
+        "text": "for",
+        "is_correct": false,
+        "answer_description": "ผิดนะ เพราะ **for** ต้องตามด้วยระยะเวลา เช่น `for three years` แต่หลังช่องว่างเป็นปี `2019` ซึ่งเป็นจุดเริ่มต้น ต้องใช้ `since 2019`"
+      },
+      {
+        "index": 3,
+        "text": "by",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่ **by** บอกเส้นตายหรือก่อนถึงเวลาใดเวลา เช่น `by 2019` แต่ไม่ได้สื่อว่าอยู่มาตั้งแต่เมื่อไร ต้องใช้ `since 2019` เพื่อบอกจุดเริ่มต้น"
+      },
+      {
+        "index": 4,
+        "text": "from",
+        "is_correct": false,
+        "answer_description": "ยังไม่โอเค เพราะ **from** มักต้องมีคู่ `to/until` เช่น `from 2019 to 2021` หากใช้เดี่ยวๆ จะดูไม่ครบความหมาย ในที่นี้ควรใช้ `since 2019`"
+      }
+    ]
+  },
+  {
+    "question": "By the time the teacher came in, the students had been chatting ___ the break started.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "since",
+        "is_correct": true,
+        "answer_description": "ถูกจ้า ใช้ **since + จุดเริ่มต้นเหตุการณ์** ตามแพทเทิร์น __had been + V-ing + since + start event__ เช่น `had been chatting since the break started.` ตัวอย่างเพิ่ม: `He had been working since the meeting began.`"
+      },
+      {
+        "index": 2,
+        "text": "for",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่ เพราะ **for** ต้องตามด้วยระยะเวลา (`for ten minutes`) แต่หลังช่องว่างเป็นเหตุการณ์ `the break started` ซึ่งเป็นจุดเริ่มต้น ควรใช้ `since`"
+      },
+      {
+        "index": 3,
+        "text": "by",
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย **by** ใช้บอกเส้นตายหรือก่อนถึงเวลาใดเวลา (`by noon`) ไม่ได้บอกว่าเริ่มตั้งแต่เมื่อไร จึงไม่เข้ากับประโยคนี้"
+      },
+      {
+        "index": 4,
+        "text": "during",
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง **during** ใช้กับคำนามช่วงเวลา (`during the break`) แต่ที่นี่เราต้องการจุดเริ่มต้นของการกระทำต่อเนื่อง ควรใช้ `since the break started`"
+      }
+    ]
+  },
+  {
+    "question": "He had been waiting at the station ___ his train was announced.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "until",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **until** เพื่อบอกว่าทำต่อเนื่อง “จนกระทั่ง” เหตุการณ์หนึ่งเกิดขึ้น โครงสร้าง __had been + V-ing + until + clause/time__ เช่น `He had been waiting until his train was announced.`"
+      },
+      {
+        "index": 2,
+        "text": "by the time",
+        "is_correct": false,
+        "answer_description": "ใกล้เคียงแต่โครงสร้างต่างกัน ถ้าใช้ **by the time** ต้องสลับรูปประโยค: `By the time his train was announced, he had been waiting...` แต่ในตำแหน่งช่องว่างนี้ควรใช้ `until`"
+      },
+      {
+        "index": 3,
+        "text": "since",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่ เพราะ **since** บอก “ตั้งแต่” จุดเริ่มต้น (`since 3 p.m.`) แต่ที่นี่หมายถึงทำต่อเนื่องจนถึงเหตุการณ์หนึ่ง จึงต้องใช้ `until`"
+      },
+      {
+        "index": 4,
+        "text": "for",
+        "is_correct": false,
+        "answer_description": "ผิดจ้า **for** ใช้กับระยะเวลา (`for two hours`) แต่ตามด้วยประโยค `his train was announced` ซึ่งเป็นเหตุการณ์ ไม่ใช่ตัวเลขเวลา จึงใช้ไม่ได้"
+      }
+    ]
+  },
+  {
+    "question": "She had been practicing the piano ___ two solid hours when her fingers finally hurt.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "for",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **for + ระยะเวลา** ใน Past Perfect Continuous ตามแพทเทิร์น __had been + V-ing + for + period__ เช่น `She had been practicing for two hours.` หรือ `They had been talking for ages.`"
+      },
+      {
+        "index": 2,
+        "text": "since",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่ เพราะ **since** ต้องตามด้วยเวลาเริ่มต้น (`since noon`) ไม่ใช่ระยะเวลา `two hours` ตัวอย่างที่ถูก: `She had been practicing since noon.`"
+      },
+      {
+        "index": 3,
+        "text": "by",
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย **by** ใช้บอกก่อนถึงเวลา เช่น `by 5 p.m.` ไม่ได้ใช้บอกความยาวของการกระทำ จึงไม่เข้ากับ `two solid hours`"
+      },
+      {
+        "index": 4,
+        "text": "until",
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง **until** ใช้ชี้จุดสิ้นสุดของการกระทำ (`until midnight`) แต่ช่องว่างนี้ตามด้วยระยะเวลา ต้องใช้ `for two solid hours`"
+      }
+    ]
+  },
+  {
+    "question": "By the time we found the cafe, we had been walking ___ sunrise.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "since",
+        "is_correct": true,
+        "answer_description": "ใช่เลย ใช้ **since + จุดเริ่มต้น** เช่น `since sunrise` โครงสร้าง __had been + V-ing + since + start time__ เช่น `We had been walking since sunrise.` หรือ `He had been working since dawn.`"
+      },
+      {
+        "index": 2,
+        "text": "from",
+        "is_correct": false,
+        "answer_description": "ยังไม่โอเค **from** มักใช้คู่กับ `to/until` เช่น `from sunrise to noon` ใช้เดี่ยวๆ จะดูไม่สมบูรณ์ ในที่นี้ใช้ `since sunrise` จะชัดกว่า"
+      },
+      {
+        "index": 3,
+        "text": "for",
+        "is_correct": false,
+        "answer_description": "ไม่ถูก เพราะ **for** ต้องตามด้วยระยะเวลา (`for three hours`) แต่ `sunrise` เป็นจุดเริ่มต้นเวลา ต้องใช้ `since sunrise`"
+      },
+      {
+        "index": 4,
+        "text": "by",
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย **by** ใช้บอกว่า “ก่อนถึง/ไม่เกิน” เวลาใดเวลา (`by noon`) ไม่ได้สื่อจุดเริ่มต้นของการเดินต่อเนื่อง ดังนั้นไม่เข้ากับประโยคนี้"
+      }
+    ]
+  }
+]

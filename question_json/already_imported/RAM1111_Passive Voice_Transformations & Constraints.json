@@ -1,0 +1,292 @@
+[
+  {
+    "question": "The report has ___ already.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "been checked",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้รูป **Present Perfect Passive**: __has/have + been + V3__ เพราะประธานเป็นสิ่งของ (the report) และการกระทำเสร็จแล้ว เช่น `The report has been checked already.` เหมาะเมื่อเน้น “ผลลัพธ์” ว่ารายงานถูกตรวจแล้ว ไม่สนใจว่าใครตรวจ."
+      },
+      {
+        "index": 2,
+        "text": "has checked",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **Present Perfect Active** (has + V3) ต้องมีประธานผู้กระทำ เช่น `She has checked the report.` แต่ประโยคนี้ต้องการรูป **passive** เพื่อเน้นสิ่งที่ถูกกระทำ."
+      },
+      {
+        "index": 3,
+        "text": "was checked",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple Passive** ไม่สอดคล้องกับคำว่า **already** ที่มักใช้กับ **present perfect** เพื่อเน้นผล ณ ปัจจุบัน ตัวอย่างที่ถูกคือ `has been checked already`."
+      },
+      {
+        "index": 4,
+        "text": "is checking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous Active** (กำลังกระทำอยู่) และยังไม่ใช่รูป passive ด้วย ตัวอย่างที่ถูกควรเป็น `has been checked` เพื่อเน้นว่าทำเสร็จแล้ว."
+      }
+    ]
+  },
+  {
+    "question": "The window was broken ___ the storm.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "by",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __by + agent/causer__ เพื่อระบุผู้ก่อเหตุในรูป **passive** เช่น `The window was broken by the storm.` โครงสร้างคือ **be + V3 + by + agent** เน้นผลว่า “หน้าต่างถูกทำให้แตก” มากกว่าจะโฟกัสผู้กระทำ."
+      },
+      {
+        "index": 2,
+        "text": "from",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **from** ไม่ได้ใช้ระบุผู้กระทำใน passive หากต้องการผู้ก่อเหตุใช้ **by** แทน เช่น `broken by the storm` ไม่ใช่ `broken from the storm`."
+      },
+      {
+        "index": 3,
+        "text": "with",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **with** ใช้ระบุเครื่องมือ/อุปกรณ์ (instrument) เช่น `cut with a knife` แต่กรณีนี้พายุเป็นผู้ก่อเหตุ ควรใช้ **by**."
+      },
+      {
+        "index": 4,
+        "text": "because of",
+        "is_correct": false,
+        "answer_description": "แม้ความหมายพอได้ แต่ใน **passive** เราใช้ **by** เพื่อบอกผู้ก่อเหตุ ไม่ใช้ **because of** เช่นควรเขียน `was broken by the storm` แทน `was broken because of the storm`."
+      }
+    ]
+  },
+  {
+    "question": "A loud noise ___ last night.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "happened",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกริยา **happen** เป็นกริยา **intransitive** (ไม่รับกรรม) จึง __ไม่สามารถทำเป็น passive ได้__ ตัวอย่างที่ถูก: `A loud noise happened last night.` หรือพูดธรรมชาติกว่า: `There was a loud noise last night.`"
+      },
+      {
+        "index": 2,
+        "text": "was happened",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **happen** เป็นกริยาไม่รับกรรม จึงห้ามใช้รูป **be + V3** แบบ `was happened` ซึ่งไม่มีอยู่จริง ควรใช้ `happened` ธรรมดา."
+      },
+      {
+        "index": 3,
+        "text": "was being happened",
+        "is_correct": false,
+        "answer_description": "ผิดสองชั้น ทั้งเพราะ **happen** ทำ passive ไม่ได้ และรูป **progressive passive** แบบนี้ยิ่งผิด เช่น `was being happened` ไม่ถูกต้องเลย."
+      },
+      {
+        "index": 4,
+        "text": "got happened",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **get-passive** ใช้กับกริยาที่ทำ passive ได้เท่านั้น แต่ **happen** ไม่รับกรรม จึงใช้ไม่ได้ ต้องเป็น `happened` เฉยๆ."
+      }
+    ]
+  },
+  {
+    "question": "I ___ a seat.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "was given",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **double-object passive** จากประโยค active `They gave me a seat.` เปลี่ยนเป็น __I + was + given + object__ → `I was given a seat.` รูปแบบนี้เน้นผู้ได้รับประโยชน์ (indirect object) เป็นประธาน."
+      },
+      {
+        "index": 2,
+        "text": "gave",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกลายเป็นรูป **active** และยังขาดกรรม เช่น `I gave a seat` ต้องบอกว่าให้ใคร และไม่ตรงจุดประสงค์การแปลงเป็น passive."
+      },
+      {
+        "index": 3,
+        "text": "was gave",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอารูป **be + V2** มาซ้ำซ้อน ควรใช้ **be + V3** → `was given` ไม่ใช่ `was gave`."
+      },
+      {
+        "index": 4,
+        "text": "were given",
+        "is_correct": false,
+        "answer_description": "ผิดที่สอดคล้องพจน์ ประธาน **I** ต้องใช้ **was** ไม่ใช่ **were** รูปที่ถูกคือ `I was given a seat.`"
+      }
+    ]
+  },
+  {
+    "question": "The kids ___ looked after while we were out.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **Present Perfect Passive** ของกริยาวลี **look after** (กริยาที่มีบุพบท/วลี) โครงสร้างคือ __have/has + been + V3__ → `The kids have been looked after...` แสดงผลลัพธ์ว่าเด็กๆ ได้รับการดูแลแล้วในช่วงที่เราออกไป."
+      },
+      {
+        "index": 2,
+        "text": "are being",
+        "is_correct": false,
+        "answer_description": "เกือบได้ แต่รูปนี้เป็น **Present Continuous Passive** (กำลังกำลังเกิดขึ้นตอนนี้) ซึ่งไม่เข้ากับบริบท `while we were out` ที่เป็นอดีต/ช่วงเวลาจบไปแล้ว."
+      },
+      {
+        "index": 3,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะขาดรูป passive ที่สมบูรณ์ ต้องเป็น **be + V3** หรือรูป perfect เช่น `have been looked after` ไม่ใช่ `are looked after` ในบริบทผลลัพธ์ที่จบแล้ว."
+      },
+      {
+        "index": 4,
+        "text": "were",
+        "is_correct": false,
+        "answer_description": "ยังไม่ครบโครงสร้าง passive เพราะต้องเป็น **were + V3** ถ้าจะใช้ past simple passive ควรเป็น `were looked after`, แต่บริบทนี้เน้นผลที่เชื่อมกับปัจจุบัน จึงใช้ `have been looked after` ดีกว่า."
+      }
+    ]
+  },
+  {
+    "question": "He ___ fired yesterday (informal).",
+    "choices": [
+      {
+        "index": 1,
+        "text": "got",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **get-passive** ในภาษาพูดเพื่อเน้นเหตุการณ์กะทันหัน/ไม่คาดคิด เช่น __get + V3__ → `He got fired yesterday.` รูปนี้ฟังเป็นกันเองและธรรมชาติมากในบทสนทนา."
+      },
+      {
+        "index": 2,
+        "text": "was",
+        "is_correct": false,
+        "answer_description": "แม้ `He was fired yesterday.` จะถูกไวยากรณ์ แต่โจทย์ระบุว่า (informal) จึงควรใช้ **get-passive** มากกว่าเพื่อโทนภาษาพูด. ถ้าทางการค่อยใช้ **be-passive**."
+      },
+      {
+        "index": 3,
+        "text": "has been",
+        "is_correct": false,
+        "answer_description": "ผิดเวลา เพราะมีคำบอกเวลาอดีตชัดเจน `yesterday` จึงไม่ใช้ **present perfect** (`has been fired`) แต่ใช้อดีตกาลแทน (`got fired` หรือ `was fired`)."
+      },
+      {
+        "index": 4,
+        "text": "is getting",
+        "is_correct": false,
+        "answer_description": "ผิดด้านเวลาและความหมาย รูป **present continuous** บอกกำลังกำลังเกิด แต่มี `yesterday` ชี้อดีตที่เสร็จแล้ว จึงไม่สอดคล้อง."
+      }
+    ]
+  },
+  {
+    "question": "The bridge ___ repaired this week.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is being",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Present Continuous Passive**: __am/is/are + being + V3__ → `The bridge is being repaired this week.` เน้นว่ากระบวนการ “กำลังดำเนินอยู่” ในช่วงสัปดาห์นี้."
+      },
+      {
+        "index": 2,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ยังไม่ครบโครงสร้าง passive เพราะขาด **being + V3** ถ้าจะบอกกำลังกระทำ ต้องเป็น `is being repaired` ไม่ใช่ `is repaired`."
+      },
+      {
+        "index": 3,
+        "text": "has been being",
+        "is_correct": false,
+        "answer_description": "รูป **perfect continuous passive** (`has been being + V3`) แทบไม่ใช้ในภาษาจริงและฟังแปลกมาก ควรใช้ `is being repaired` เพื่อบอกกำลังกำลังดำเนินอยู่."
+      },
+      {
+        "index": 4,
+        "text": "was being",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะ **was being + V3** คืออดีตกำลังกระทำ แต่ประโยคมี `this week` ชี้ปัจจุบัน จึงควรใช้ `is being repaired`."
+      }
+    ]
+  },
+  {
+    "question": "The form must ___ by Friday.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "be submitted",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **Modal Passive** คือ __modal + be + V3__ → `must be submitted` เหมาะเมื่อระบุข้อบังคับ/เส้นตาย เช่น `The form must be submitted by Friday.`"
+      },
+      {
+        "index": 2,
+        "text": "submitted",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **modal** ต้องตามด้วยกริยาช่อง **base form** ไม่ใช่ V3 เดี่ยวๆ จึงควรเป็น `must be submitted` ไม่ใช่ `must submitted`."
+      },
+      {
+        "index": 3,
+        "text": "be submit",
+        "is_correct": false,
+        "answer_description": "ผิดรูปกริยา หลัง **be** ต้องเป็น **V3** จึงควรเป็น `be submitted` ไม่ใช่ `be submit` โครงสร้างเต็มๆ คือ `must be submitted`."
+      },
+      {
+        "index": 4,
+        "text": "to be submitted",
+        "is_correct": false,
+        "answer_description": "ไม่เข้ากับ modal โดยตรง เพราะหลัง **must** ใช้ **base form** ของกริยา (`be`) ไม่ต้องมี `to` รูปที่ถูกคือ `must be submitted`."
+      }
+    ]
+  },
+  {
+    "question": "The door is ___ at night.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "locked",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปนี้เป็น **stative passive**/adjectival passive แสดงสภาพว่าประตู “ถูกล็อกอยู่” โครงสร้างเน้นสภาพ: __be + V3 (as adjective)__ เช่น `The door is locked at night.` หรือ `The shop is closed on Sundays.`"
+      },
+      {
+        "index": 2,
+        "text": "locking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **locking** ทำให้ประตูเป็นผู้ “กำลังล็อก” คนอื่น ซึ่งไม่สมเหตุสมผล และไม่ใช่รูป passive ที่ต้องการ ควรใช้ `is locked` เพื่อบอกสภาพ."
+      },
+      {
+        "index": 3,
+        "text": "be locked",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะขาดรูปผันของ **be** ให้ตรงกับประธานและกาล ต้องเป็น `is locked` ไม่ใช่ `is be locked` หรือ `be locked` ลอยๆ."
+      },
+      {
+        "index": 4,
+        "text": "been locked",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะ `been` ต้องตามหลัง **has/have/had** ในรูป perfect เช่น `has been locked` แต่บริบทนี้เป็นข้อเท็จจริงทั่วไปตอนกลางคืน จึงใช้ `is locked`."
+      }
+    ]
+  },
+  {
+    "question": "The actor ___ to be dating her.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is said",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **reporting passive** ใช้โครงสร้าง __S + be + said + to V__ เช่น `The actor is said to be dating her.` ใช้เมื่ออยากอ้างอิงข่าว/คำบอกเล่าโดยไม่ระบุผู้พูด."
+      },
+      {
+        "index": 2,
+        "text": "said",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยา **be** ในรูป passive ควรเป็น `is said` ไม่ใช่ `said` เฉยๆ เช่น `He is said to...`."
+      },
+      {
+        "index": 3,
+        "text": "is saying",
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย กลายเป็นนักแสดงเป็นผู้พูดเอง (`is saying`) ไม่ใช่ถูกกล่าวว่า ควรใช้รูป passive `is said to...` เพื่อเน้นคำบอกเล่าจากคนอื่น."
+      },
+      {
+        "index": 4,
+        "text": "has said",
+        "is_correct": false,
+        "answer_description": "ผิดโครงสร้าง เป็นรูป active perfect (`has said`) ต้องมีว่าเขาพูดอะไร (`has said that...`) แต่โจทย์ต้องการรูป **reporting passive**: `is said to...`."
+      }
+    ]
+  }
+]

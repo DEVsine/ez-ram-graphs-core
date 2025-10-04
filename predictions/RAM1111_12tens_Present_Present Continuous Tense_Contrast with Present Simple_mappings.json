@@ -1,0 +1,593 @@
+[
+  {
+    "question": "Right now, she ___ to the office.",
+    "question_knowledge_ids": [
+      318,
+      324,
+      328,
+      329,
+      335,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is walking",
+        "knowledge_ids": [
+          318,
+          324,
+          328,
+          329
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกำลังพูดถึงเหตุการณ์ที่เกิดขึ้น **ตอนนี้** จึงใช้ Present Continuous ตามแพทเทิร์น __am/is/are + V-ing__. ตัวอย่าง: `Right now, she is walking to the office.` เทียบกับนิสัยทั่วไปจะใช้ Present Simple เช่น: `She walks to the office every day.`"
+      },
+      {
+        "index": 2,
+        "text": "walks",
+        "knowledge_ids": [
+          411,
+          398
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูป **walks** เป็น Present Simple ใช้กับนิสัยหรือข้อเท็จจริงที่เกิดเป็นประจำ เช่น `She walks to the office on weekdays.` แต่ประโยคมีคำว่า **Right now** ที่สื่อถึงตอนนี้ ควรใช้ `is walking`."
+      },
+      {
+        "index": 3,
+        "text": "walk",
+        "knowledge_ids": [
+          384,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **she** ต้องเติม -s ใน Present Simple เป็น `walks` หากพูดถึงนิสัย แต่ที่นี่เรากำลังพูดถึงเหตุการณ์ขณะนี้ จึงควรใช้ `is walking` ตามกฎ Present Continuous."
+      },
+      {
+        "index": 4,
+        "text": "is walk",
+        "knowledge_ids": [
+          318,
+          291,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะต่อหลัง **be** ต้องใช้รูป **V-ing** ไม่ใช่ V1 ธรรมดา แพทเทิร์นที่ถูกคือ `is walking` เช่น `She is walking now.`"
+      }
+    ]
+  },
+  {
+    "question": "Today, he ___ tea instead of coffee.",
+    "question_knowledge_ids": [
+      318,
+      324,
+      331,
+      336,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is drinking",
+        "knowledge_ids": [
+          318,
+          324,
+          331,
+          336
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **Today** ชี้ถึงเหตุการณ์ชั่วคราวเฉพาะวันนี้ จึงใช้ Present Continuous ตามแพทเทิร์น __am/is/are + V-ing__. ตัวอย่าง: `Today, he is drinking tea.` ถ้าเป็นนิสัยปกติจะใช้ Present Simple เช่น `He drinks coffee every morning.`"
+      },
+      {
+        "index": 2,
+        "text": "drinks",
+        "knowledge_ids": [
+          398,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `drinks` บอกนิสัย/กิจวัตร (Present Simple) แต่ประโยคเน้นสถานการณ์เฉพาะวันนี้ ควรใช้ `is drinking` เพื่อสื่อความหมายว่าชั่วคราว."
+      },
+      {
+        "index": 3,
+        "text": "drink",
+        "knowledge_ids": [
+          384,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกับประธาน **he** ใน Present Simple ต้องใช้ `drinks` ถ้าพูดถึงนิสัย แต่ที่นี่ควรใช้ Present Continuous: `is drinking` เพราะเป็นเหตุการณ์เฉพาะวันนี้."
+      },
+      {
+        "index": 4,
+        "text": "is drink",
+        "knowledge_ids": [
+          318,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปหลัง **is** ต้องเป็น **V-ing** ไม่ใช่ V1 แพทเทิร์นที่ถูกคือ `is drinking` เช่น `He is drinking tea now.`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ you very well.",
+    "question_knowledge_ids": [
+      384,
+      401,
+      411
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "know",
+        "knowledge_ids": [
+          384,
+          401
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำกริยา **know** เป็นกริยาสภาพ (stative verb) ไม่ค่อยใช้ในรูปกำลังกระทำ จึงใช้ Present Simple: __V1 (do/does + V1 ในปฏิเสธ/คำถาม)__. ตัวอย่าง: `I know you very well.` ถ้าใช้ `am knowing` จะฟังแปลกและผิดหลักทั่วไป."
+      },
+      {
+        "index": 2,
+        "text": "am knowing",
+        "knowledge_ids": [
+          265,
+          401
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **know** เป็นกริยาสภาพ ไม่ใช้รูป **Continuous** ตามปกติ ควรเป็น `I know you very well.` หากอยากใช้ Continuous ใช้กับกริยาแอ็กชัน เช่น `I am learning English.`"
+      },
+      {
+        "index": 3,
+        "text": "knows",
+        "knowledge_ids": [
+          351,
+          380
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **I** ต้องใช้รูปฐาน `know` ไม่เติม -s ตัวอย่างที่ถูก: `I know the answer.` เติม -s ใช้กับ **he/she/it** เช่น `She knows the answer.`"
+      },
+      {
+        "index": 4,
+        "text": "am know",
+        "knowledge_ids": [
+          318,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `am` ต้องเป็น **V-ing** ถ้าเป็น Continuous แต่กริยา `know` ปกติใช้ Present Simple: `I know you very well.`"
+      }
+    ]
+  },
+  {
+    "question": "The train ___ at 7 p.m. tonight.",
+    "question_knowledge_ids": [
+      400,
+      332,
+      345,
+      318,
+      324,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "leaves",
+        "knowledge_ids": [
+          400,
+          411
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตารางเวลา/กำหนดการทางการใช้ **Present Simple** แม้จะเป็นอนาคตก็ตาม แพทเทิร์นคือ __V1 (สำหรับ he/she/it เติม -s)__ เช่น `The train leaves at 7 p.m.` เปรียบเทียบ: ถ้าเป็นแผนส่วนตัวตอนนี้อาจใช้ Continuous เช่น `I am leaving at 7 p.m.`"
+      },
+      {
+        "index": 2,
+        "text": "is leaving",
+        "knowledge_ids": [
+          332,
+          345
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะประโยคพูดถึง **ตารางเวลา** ของรถไฟ ควรใช้ Present Simple: `The train leaves at 7 p.m.` รูป Continuous เหมาะกับแผนส่วนบุคคลที่จัดไว้แล้ว เช่น `I am leaving at 7.`"
+      },
+      {
+        "index": 3,
+        "text": "leave",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดด้านรูปคำกริยา ประธานคือ **The train (it)** ต้องใช้ `leaves` ถ้าเป็น Present Simple สำหรับตารางเวลา เช่น `The bus leaves at 9.`"
+      },
+      {
+        "index": 4,
+        "text": "is leave",
+        "knowledge_ids": [
+          318,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปไวยากรณ์ เพราะหลัง `is` ต้องเป็น **V-ing** ไม่ใช่ V1 และโดยความหมายควรใช้ Present Simple สำหรับตารางเวลา: `leaves`."
+      }
+    ]
+  },
+  {
+    "question": "This week, we ___ at my aunt's house.",
+    "question_knowledge_ids": [
+      318,
+      324,
+      330,
+      331,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are staying",
+        "knowledge_ids": [
+          318,
+          330,
+          331
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำว่า **This week** ชี้ถึงสถานการณ์ชั่วคราว จึงใช้ Present Continuous ตามแพทเทิร์น __am/is/are + V-ing__. ตัวอย่าง: `This week, we are staying at my aunt's house.` ถ้าเป็นความจริงถาวรจะใช้ Present Simple เช่น `We live in Bangkok.`"
+      },
+      {
+        "index": 2,
+        "text": "stay",
+        "knowledge_ids": [
+          343,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `stay` (Present Simple) บอกนิสัยหรือข้อเท็จจริงถาวร แต่บริบทคือช่วงเวลาชั่วคราว **This week** ควรใช้ `are staying` เพื่อเน้นความไม่ถาวร."
+      },
+      {
+        "index": 3,
+        "text": "stays",
+        "knowledge_ids": [
+          351,
+          380
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดทั้งรูปและความหมาย ประธาน **we** ไม่เติม -s และบริบทชั่วคราวควรใช้ Continuous: `are staying` เช่น `We are staying there this week.`"
+      },
+      {
+        "index": 4,
+        "text": "are stay",
+        "knowledge_ids": [
+          318,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปไวยากรณ์ เพราะหลัง `are` ต้องใช้ **V-ing** แพทเทิร์นที่ถูกคือ `are staying` ไม่ใช่ `are stay`."
+      }
+    ]
+  },
+  {
+    "question": "She's always ___ during meetings.",
+    "question_knowledge_ids": [
+      333,
+      316,
+      318,
+      324
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "interrupting",
+        "knowledge_ids": [
+          333,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "เกือบถูกแต่ยังขาดกริยา **be** หน้า V-ing ใน Present Continuous รูปที่สมบูรณ์ควรเป็น `is always interrupting` เพื่อแสดงความรำคาญ/ติ เช่น `She's always interrupting others.`"
+      },
+      {
+        "index": 2,
+        "text": "is always interrupting",
+        "knowledge_ids": [
+          333,
+          414
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปนี้ใช้ **Present Continuous + always** เพื่อสื่อความรู้สึกหงุดหงิดกับพฤติกรรมที่เกิดบ่อย แพทเทิร์นคือ __am/is/are + always + V-ing__. ตัวอย่าง: `She's always interrupting during meetings.` เทียบกับการบอกนิสัยกลางๆ ใช้ Present Simple: `She always interrupts during meetings.`"
+      },
+      {
+        "index": 3,
+        "text": "always interrupts",
+        "knowledge_ids": [
+          404,
+          316
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะตามเจตนา เพราะ `always + V1(s)` เป็น Present Simple บอกนิสัยทั่วๆ ไป เช่น `She always interrupts.` ถ้าต้องการสื่อความหงุดหงิด ให้ใช้ Continuous: `is always interrupting`."
+      },
+      {
+        "index": 4,
+        "text": "is always interrupt",
+        "knowledge_ids": [
+          333,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะหลัง **be** ต้องเป็น **V-ing** ไม่ใช่ V1 แพทเทิร์นที่ถูกต้อง: `is always interrupting`."
+      }
+    ]
+  },
+  {
+    "question": "Right now, I ___ lunch.",
+    "question_knowledge_ids": [
+      318,
+      324,
+      328,
+      335,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "am having",
+        "knowledge_ids": [
+          318,
+          324,
+          328,
+          335
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยา `have` เมื่อหมายถึงการกินอาหารเป็น **กริยาแอ็กชัน** ใช้ Present Continuous ได้ แพทเทิร์น __am/is/are + V-ing__. ตัวอย่าง: `Right now, I am having lunch.` แต่ถ้า `have` ในความหมายความเป็นเจ้าของ มักใช้ Present Simple เช่น `I have a car.`"
+      },
+      {
+        "index": 2,
+        "text": "have",
+        "knowledge_ids": [
+          411,
+          343
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดตามบริบท เพราะมีคำว่า **Right now** ควรใช้ Continuous: `am having` เพื่อเน้นว่ากำลังกินอยู่ตอนนี้ `have lunch` ใน Simple มักใช้บอกกิจวัตร เช่น `I have lunch at noon.`"
+      },
+      {
+        "index": 3,
+        "text": "am have",
+        "knowledge_ids": [
+          318,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูป หลัง `am` ต้องตามด้วย **V-ing** ไม่ใช่ V1 รูปที่ถูกต้องคือ `am having` เช่น `I am having dinner now.`"
+      },
+      {
+        "index": 4,
+        "text": "am has",
+        "knowledge_ids": [
+          408,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดสองชั้น ทั้งการใช้ `has` กับประธาน **I** และรูปหลัง `am` ต้องเป็น V-ing คำตอบที่ถูกต้องคือ `am having`."
+      }
+    ]
+  },
+  {
+    "question": "He ___ to believe this story.",
+    "question_knowledge_ids": [
+      387,
+      249,
+      401,
+      411
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "doesn't want",
+        "knowledge_ids": [
+          387,
+          249
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยา **want** เป็นกริยาสภาพ จึงใช้ Present Simple เพื่อบอกความรู้สึก/ความต้องการ แพทเทิร์นปฏิเสธคือ __do/does + not + V1__. ตัวอย่าง: `He doesn't want to believe this story.`"
+      },
+      {
+        "index": 2,
+        "text": "isn't wanting",
+        "knowledge_ids": [
+          265,
+          401
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **want** เป็นกริยาสภาพ ไม่ใช้รูป Continuous ตามปกติ ควรใช้ Present Simple: `He doesn't want to believe this story.`"
+      },
+      {
+        "index": 3,
+        "text": "don't want",
+        "knowledge_ids": [
+          387,
+          364
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่ใช้ตัวช่วยผิด ประธาน **he** ต้องใช้ `doesn't`, ไม่ใช่ `don't` รูปที่ถูกคือ `He doesn't want ...`."
+      },
+      {
+        "index": 4,
+        "text": "not want",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปประโยค เพราะปฏิเสธ Present Simple ต้องใช้ `do/does not + V1` สำหรับประธาน **he** คือ `doesn't want` เช่น `He doesn't want to go.`"
+      }
+    ]
+  },
+  {
+    "question": "Listen! The birds ___.",
+    "question_knowledge_ids": [
+      318,
+      324,
+      328,
+      329,
+      335,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are singing",
+        "knowledge_ids": [
+          318,
+          324,
+          328,
+          329
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำสั่ง **Listen!** บอกว่ากำลังเกิดขึ้นตอนนี้ จึงใช้ Present Continuous ตามแพทเทิร์น __am/is/are + V-ing__. ตัวอย่าง: `Listen! The birds are singing.` ถ้าเป็นข้อเท็จจริงทั่วไปจะใช้ Present Simple เช่น `Birds sing in the morning.`"
+      },
+      {
+        "index": 2,
+        "text": "sing",
+        "knowledge_ids": [
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดตามบริบท เพราะประโยคเน้นเหตุการณ์ขณะนี้ด้วยคำว่า **Listen!** จึงควรใช้ `are singing` ไม่ใช่ Present Simple ที่ใช้บอกข้อเท็จจริงทั่วไป เช่น `Birds sing.`"
+      },
+      {
+        "index": 3,
+        "text": "sings",
+        "knowledge_ids": [
+          351,
+          380
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดทั้งรูปและกาล ประธานคือ **the birds (they)** ต้องใช้ `sing` ถ้าเป็น Present Simple แต่ประโยคนี้ควรใช้ Continuous: `are singing` เพราะเน้นตอนนี้."
+      },
+      {
+        "index": 4,
+        "text": "are sing",
+        "knowledge_ids": [
+          318,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะหลัง `are` ต้องใช้ **V-ing** ไม่ใช่ V1 รูปที่ถูกต้องคือ `are singing`."
+      }
+    ]
+  },
+  {
+    "question": "I ___ the soup now.",
+    "question_knowledge_ids": [
+      318,
+      324,
+      328,
+      335,
+      340,
+      344
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "am tasting",
+        "knowledge_ids": [
+          318,
+          324,
+          328,
+          344
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง `taste` ในความหมาย “ลองชิม” เป็นกริยาแอ็กชัน ใช้ Present Continuous ได้ แพทเทิร์น __am/is/are + V-ing__. ตัวอย่าง: `I am tasting the soup now.` แต่ถ้าหมายถึงรสชาติถาวร ใช้ Present Simple: `The soup tastes good.`"
+      },
+      {
+        "index": 2,
+        "text": "taste",
+        "knowledge_ids": [
+          411,
+          344
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดตามบริบท เพราะมีคำว่า **now** ควรใช้ Continuous: `am tasting` เพื่อเน้นการกระทำที่กำลังเกิดขึ้น ถ้าเป็นสภาพรสชาติคงที่ค่อยใช้ `tastes` เช่น `It tastes salty.`"
+      },
+      {
+        "index": 3,
+        "text": "am taste",
+        "knowledge_ids": [
+          318,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูป หลัง `am` ต้องตามด้วย **V-ing** ไม่ใช่ V1 รูปที่ถูกคือ `am tasting` เช่น `I am tasting it now.`"
+      },
+      {
+        "index": 4,
+        "text": "am tasted",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดกาลและกรรมวาจก `tasted` เป็นรูปอดีตกริมาหรือ Passive ซึ่งไม่เข้ากับบริบทปัจจุบันต่อเนื่อง ควรใช้ `am tasting`."
+      }
+    ]
+  },
+  {
+    "question": "She ___ a lot of responsibility in her job, but right now she ___ a break.",
+    "question_knowledge_ids": [
+      328,
+      330,
+      343,
+      344,
+      351,
+      408,
+      411
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "has; is taking",
+        "knowledge_ids": [
+          351,
+          408,
+          328,
+          330,
+          411
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตำแหน่งแรกเป็นข้อเท็จจริงถาวรใช้ Present Simple: `She __has__ a lot of responsibility.` ตำแหน่งที่สองเป็นเหตุการณ์ชั่วคราวตอนนี้ใช้ Present Continuous: `she __is taking__ a break.` แพทเทิร์นรวม: __V1(s/es)__ สำหรับความถาวร และ __am/is/are + V-ing__ สำหรับสิ่งที่กำลังเกิดขึ้น."
+      },
+      {
+        "index": 2,
+        "text": "is having; takes",
+        "knowledge_ids": [
+          328,
+          330,
+          344,
+          411,
+          351
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `have` ในความหมาย “มี/ครอบครอง” เป็นกริยาสภาพ ควรใช้ Present Simple: `has` ไม่ใช่ `is having`. ส่วน `takes` เป็นนิสัย ไม่เข้ากับบริบทตอนนี้ ควรเป็น `is taking`."
+      },
+      {
+        "index": 3,
+        "text": "has; takes",
+        "knowledge_ids": [
+          351,
+          408,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดครึ่งหลัง เพราะ `takes` บอกนิสัยทั่วไป แต่ประโยคมีนัยว่า **right now** กำลังพักอยู่ ควรใช้ `is taking` ในตำแหน่งที่สอง."
+      },
+      {
+        "index": 4,
+        "text": "is having; is taking",
+        "knowledge_ids": [
+          328,
+          330,
+          344,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่ตำแหน่งแรก `have` (ความหมายมี/ถือครอง) ไม่ใช้ Continuous โดยทั่วไป ควรเป็น `has`. แม้ตำแหน่งที่สอง `is taking` จะถูก แต่คำตอบต้องถูกทั้งคู่."
+      }
+    ]
+  }
+]

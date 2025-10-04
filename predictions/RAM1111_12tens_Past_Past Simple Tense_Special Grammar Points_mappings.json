@@ -1,0 +1,483 @@
+[
+  {
+    "question": "He ___ to the meeting yesterday.",
+    "question_knowledge_ids": [
+      300,
+      311,
+      291
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "didn't come",
+        "knowledge_ids": [
+          300
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะรูปปฏิเสธของ **Past Simple** ใช้ __`did not (didn't) + base verb`__ ไม่ผันกริยา เช่น `He didn't come to the meeting yesterday.` ตัวอย่างใช้จริง: `I didn't eat breakfast this morning.`"
+      },
+      {
+        "index": 2,
+        "text": "doesn't come",
+        "knowledge_ids": [
+          311,
+          382
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปปัจจุบัน **Present Simple** (`doesn't + base verb`) แต่ประโยคมีคำบอกเวลา **yesterday** ต้องใช้ Past Simple เช่น: ใช้ `didn't come` แทน `doesn't come`."
+      },
+      {
+        "index": 3,
+        "text": "didn't came",
+        "knowledge_ids": [
+          300,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **didn't** ต้องใช้กริยารูปฐาน ไม่ใช้ V2 ดังนั้น `came` จึงผิด ตัวอย่างที่ถูก: `didn't come`, เช่น `They didn't come.`"
+      },
+      {
+        "index": 4,
+        "text": "wasn't come",
+        "knowledge_ids": [
+          304,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้าง **be + V** แบบนี้ไม่ใช้กับ Past Simple ทั่วไป และ `be + come` ก็ไม่ถูก ต้องใช้ `didn't + base verb` เช่น: `He wasn't come` ผิด → ที่ถูกคือ `He didn't come`."
+      }
+    ]
+  },
+  {
+    "question": "There ___ many people at the party.",
+    "question_knowledge_ids": [
+      339,
+      311,
+      262,
+      263,
+      305
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "were",
+        "knowledge_ids": [
+          339,
+          263
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **There were** + นามพหูพจน์ เพื่อบอกว่ามีหลายคนในอดีต รูปแบบคือ __`There were + plural noun`__ เช่น `There were many people at the party.` อีกตัวอย่าง: `There were two dogs in the yard.`"
+      },
+      {
+        "index": 2,
+        "text": "was",
+        "knowledge_ids": [
+          339,
+          262
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `was` ใช้กับนามเอกพจน์ แต่ `many people` เป็นพหูพจน์ ต้องใช้ `were` ตัวอย่างเปรียบเทียบ: `There was a person` (เอกพจน์) vs `There were many people` (พหูพจน์)."
+      },
+      {
+        "index": 3,
+        "text": "are",
+        "knowledge_ids": [
+          339
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `are` เป็นปัจจุบัน แต่ประโยคนี้เล่าถึงอดีต (at the party ในบริบทอดีต) และควรใช้ Past Simple: `were`."
+      },
+      {
+        "index": 4,
+        "text": "be",
+        "knowledge_ids": [
+          339,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `be` เป็นรูปไม่ผัน ไม่สามารถวางเดี่ยวๆ ในประโยคบอกเล่าได้ ต้องผันเป็น `was/were` ตามจำนวนคำนาม เช่น `There were many people.`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ the keys on the table.",
+    "question_knowledge_ids": [
+      306,
+      299,
+      311,
+      291
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "left",
+        "knowledge_ids": [
+          306,
+          299
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยา **leave** ช่อง 2 คือ `left` ใช้ใน Past Simple เมื่อเล่าเหตุการณ์ที่เกิดและจบในอดีต รูปแบบคือ __`Subject + V2 (regular/irregular)`__ เช่น `She left the keys on the table.` อีกตัวอย่าง: `I left my book at school.`"
+      },
+      {
+        "index": 2,
+        "text": "leave",
+        "knowledge_ids": [
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `leave` เป็นรูปฐาน ใช้กับ `do/does/did` หรือปัจจุบัน แต่ Past Simple แบบบอกเล่า ต้องใช้ V2: `left` เช่น `She left...` ไม่ใช่ `She leave...`"
+      },
+      {
+        "index": 3,
+        "text": "leaved",
+        "knowledge_ids": [
+          295,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **leave** เป็นกริยาผันไม่ปกติ (irregular) ไม่เติม -ed รูปที่ถูกคือ `left` ตัวอย่างผิด: `She leaved` → ถูก: `She left`."
+      },
+      {
+        "index": 4,
+        "text": "was leaving",
+        "knowledge_ids": [
+          251,
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่เป็น **Past Continuous** ใช้เน้นเหตุการณ์กำลังเกิดในอดีต ไม่ตรงกับประโยคบอกการกระทำที่เสร็จสมบูรณ์ ควรใช้ Past Simple: `She left...`"
+      }
+    ]
+  },
+  {
+    "question": "___ you finish the report last night?",
+    "question_knowledge_ids": [
+      194,
+      315,
+      311,
+      292
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Did",
+        "knowledge_ids": [
+          194,
+          315
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง การถามคำถามใน **Past Simple** ใช้ __`Did + subject + base verb + ...?`__ เช่น `Did you finish the report last night?` อีกตัวอย่าง: `Did they call you yesterday?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          381,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Do` ใช้กับปัจจุบัน แต่มีคำว่า **last night** บอกอดีต ต้องใช้ `Did` เช่น `Did you finish...` ไม่ใช่ `Do you finish...`"
+      },
+      {
+        "index": 3,
+        "text": "Were",
+        "knowledge_ids": [
+          305,
+          292
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Were` ใช้ถามเกี่ยวกับ **be** หรือ Past Continuous ไม่ได้ใช้กับกริยาทั่วไปแบบ `finish` โครงสร้างที่ถูกคือ `Did + base verb`."
+      },
+      {
+        "index": 4,
+        "text": "Have",
+        "knowledge_ids": [
+          419,
+          292
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Have + past participle` เป็นโครงสร้างของ **Present Perfect** ไม่ใช่ Past Simple ที่ต้องใช้ `Did + base verb` ในประโยคคำถามอดีตทั่วไป"
+      }
+    ]
+  },
+  {
+    "question": "I ___ tired after the trip.",
+    "question_knowledge_ids": [
+      318,
+      262,
+      311
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was",
+        "knowledge_ids": [
+          318,
+          262
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธานเอกพจน์ **I/he/she/it** ใช้ **was** ใน Past Simple โครงสร้างคือ __`Subject + was/were + complement`__ เช่น `I was tired after the trip.` อีกตัวอย่าง: `She was happy yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "were",
+        "knowledge_ids": [
+          318,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `were` ใช้กับประธานพหูพจน์หรือ `you/we/they` ไม่ใช้กับ `I` ในอดีต ตัวอย่างที่ถูก: `You were late.` แต่ `I was tired.`"
+      },
+      {
+        "index": 3,
+        "text": "am",
+        "knowledge_ids": [
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `am` เป็นปัจจุบัน แต่ประโยคเล่าอดีตหลังทริป ควรใช้ Past Simple: `was`."
+      },
+      {
+        "index": 4,
+        "text": "be",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `be` เป็นรูปไม่ผัน ใช้เดี่ยวๆ ไม่ได้ ต้องผันเป็น `was/were` ตามประธาน เช่น `I was...`"
+      }
+    ]
+  },
+  {
+    "question": "He moved here three years ___.",
+    "question_knowledge_ids": [
+      312
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "ago",
+        "knowledge_ids": [
+          312
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำบอกเวลา **ago** ใช้กับอดีตเพื่อบอกว่า \"เมื่อ...ที่แล้ว\" วางท้ายประโยค รูปแบบคือ __`... + time period + ago`__ เช่น `He moved here three years ago.` อีกตัวอย่าง: `I saw her two days ago.`"
+      },
+      {
+        "index": 2,
+        "text": "before",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `before` ใช้เทียบกับเวลาอีกเหตุการณ์หนึ่ง ไม่ใช่บอกช่วงเวลาที่แล้วชัดๆ แบบ `ago` เช่น `He moved here before 2020` ไม่ใช่ `three years before` โดยไม่มีจุดอ้างอิง."
+      },
+      {
+        "index": 3,
+        "text": "last",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `last` ต้องตามด้วยหน่วยเวลาเช่น `last year/last week` ไม่วางเดี่ยวๆ ท้ายประโยคแบบนี้ และรูปประโยคนี้ต้องการ `ago`."
+      },
+      {
+        "index": 4,
+        "text": "previous",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `previous` เป็นคำคุณศัพท์ ต้องขยายคำนาม เช่น `the previous year` ไม่ใช่วางเดี่ยวๆ ท้ายประโยค ต้องใช้ `ago` เพื่อบอกอดีตที่แล้วมา"
+      }
+    ]
+  },
+  {
+    "question": "We ___ to the museum last weekend.",
+    "question_knowledge_ids": [
+      299,
+      306,
+      311,
+      291
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "went",
+        "knowledge_ids": [
+          299,
+          306
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยา **go** ช่อง 2 คือ `went` ใช้กับ Past Simple สำหรับเหตุการณ์ที่จบแล้วในอดีต โครงสร้างคือ __`Subject + V2`__ เช่น `We went to the museum last weekend.` อีกตัวอย่าง: `She went home early.`"
+      },
+      {
+        "index": 2,
+        "text": "go",
+        "knowledge_ids": [
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `go` เป็นรูปฐาน ไม่ใช่ V2 ที่ใช้ใน Past Simple บอกเล่า ควรใช้ `went` เช่น `We went...`"
+      },
+      {
+        "index": 3,
+        "text": "gone",
+        "knowledge_ids": [
+          293,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `gone` เป็น **past participle** ใช้กับ `have/has/had` ไม่ใช้เดี่ยวๆ ใน Past Simple ตัวอย่างที่ถูกของ Present Perfect: `We have gone to the museum.`"
+      },
+      {
+        "index": 4,
+        "text": "were go",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นการใช้ `be + base verb` ซึ่งไม่ถูกกับ Past Simple กริยาทั่วไป ต้องใช้ V2 `went` ไม่ใช่ `were go`."
+      }
+    ]
+  },
+  {
+    "question": "Did they enjoy the movie? — Yes, they ___.",
+    "question_knowledge_ids": [
+      353,
+      194,
+      315
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "did",
+        "knowledge_ids": [
+          353
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำตอบสั้นของคำถาม Past Simple ที่ขึ้นต้นด้วย `Did` ต้องตอบด้วย __`Yes, subject + did.`__ เช่น `Yes, they did.` อีกตัวอย่าง: `Did she call you? — Yes, she did.`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "knowledge_ids": [
+          353,
+          381
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `do` เป็นปัจจุบัน คำถามเป็น Past Simple (`Did...`) คำตอบสั้นต้องสอดคล้องเป็น `did` ไม่ใช่ `do`."
+      },
+      {
+        "index": 3,
+        "text": "were",
+        "knowledge_ids": [
+          341
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `were` ใช้กับกริยา **be** แต่คำถามใช้กริยาทั่วไป `enjoy` ไม่ใช่ `be` ดังนั้นคำตอบสั้นต้องใช้ `did`."
+      },
+      {
+        "index": 4,
+        "text": "have",
+        "knowledge_ids": [
+          353
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `have` ไม่ตรงกับรูปของคำถาม Past Simple (`Did...`) คำตอบสั้นต้องใช้ `did` เช่น `Yes, they did.`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ a cold last week.",
+    "question_knowledge_ids": [
+      306,
+      311,
+      408
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had",
+        "knowledge_ids": [
+          306
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยา **have** ช่อง 2 คือ `had` ใช้บอกอดีตเรียบง่าย รูปแบบคือ __`Subject + V2`__ เช่น `She had a cold last week.` อีกตัวอย่าง: `We had a meeting yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "has",
+        "knowledge_ids": [
+          408
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `has` เป็นปัจจุบัน แต่มีคำบอกเวลา **last week** ต้องใช้ Past Simple: `had`."
+      },
+      {
+        "index": 3,
+        "text": "have",
+        "knowledge_ids": [
+          384,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปฐาน ไม่ใช่ V2 สำหรับ Past Simple แบบบอกเล่า ควรใช้ `had` เช่น `She had...`"
+      },
+      {
+        "index": 4,
+        "text": "was having",
+        "knowledge_ids": [
+          251,
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Continuous** (`was having`) ใช้เน้นเหตุการณ์กำลังเกิด ไม่พอดีกับการบอกข้อเท็จจริงที่เสร็จสิ้นในอดีต ใช้ Past Simple: `had` จะชัดกว่า"
+      }
+    ]
+  },
+  {
+    "question": "He ___ in 2001.",
+    "question_knowledge_ids": [
+      290,
+      313,
+      267
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was born",
+        "knowledge_ids": [
+          290,
+          267
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง การพูดถึงการกำเนิดใช้รูปคงที่ __`was/were born`__ เสมอ เช่น `He was born in 2001.` อีกตัวอย่าง: `They were born in Thailand.`"
+      },
+      {
+        "index": 2,
+        "text": "borned",
+        "knowledge_ids": [
+          295,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำว่า `born` ไม่ผันเป็น `borned` รูปที่ถูกต้องคือ `was/were born` เช่น `He was born...`"
+      },
+      {
+        "index": 3,
+        "text": "did born",
+        "knowledge_ids": [
+          439,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้างการกำเนิดไม่ใช้ `did + born` ต้องใช้รูปคงที่ `was/were born` เท่านั้น เช่น `He was born...`"
+      },
+      {
+        "index": 4,
+        "text": "was be born",
+        "knowledge_ids": [
+          553,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะซ้ำกริยา `was + be` ไม่ถูกหลัก ควรใช้รูปสมบูรณ์ `was born` เช่น `He was born in 2001.`"
+      }
+    ]
+  }
+]

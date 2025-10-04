@@ -1,0 +1,292 @@
+[
+  {
+    "question": "___ you been studying for the exam?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Have",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำถามแบบ **Yes/No question** ของ **Present Perfect Continuous** ใช้โครงสร้าง __Have/Has + subject + been + V-ing__. ตัวอย่างที่ถูก: `Have you been studying for the exam?` ใช้ถามกิจกรรมที่เริ่มในอดีตและยังต่อเนื่องถึงตอนนี้ เช่น `Have you been studying since morning?`"
+      },
+      {
+        "index": 2,
+        "text": "Has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **you** ต้องใช้ **Have** ไม่ใช่ **Has**. โครงสร้างที่ถูกคือ `Have you been + V-ing` เช่น `Have you been studying?` ไม่ใช่ `Has you been studying?`"
+      },
+      {
+        "index": 3,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do/Does** ใช้กับ **Present Simple**, ไม่ใช่ **Present Perfect Continuous**. ตัวอย่างโครงสร้างที่ถูกควรเป็น `Have you been studying?` ไม่ใช่ `Do you studying?` (ผิดทั้งกาลและรูปกริยา)"
+      },
+      {
+        "index": 4,
+        "text": "Did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Did** เป็นตัวช่วยของ **Past Simple** ไม่เข้ากับรูป **been + V-ing**. คำถามที่ถูกต้องคือ `Have you been studying?` ไม่ใช่ `Did you been studying?` ซึ่งผิดโครงสร้าง"
+      }
+    ]
+  },
+  {
+    "question": "___ she been waiting long?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Has",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **she** ใช้ **Has** ตามรูป __Have/Has + subject + been + V-ing__. ประโยคที่ถูกคือ `Has she been waiting long?` ใช้ถามว่าเธอรอนานหรือยังตั้งแต่อดีตจนถึงปัจจุบัน"
+      },
+      {
+        "index": 2,
+        "text": "Have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **she** เป็นเอกพจน์บุคคลที่สาม ต้องใช้ **Has** ไม่ใช่ **Have**. รูปที่ถูก: `Has she been waiting?` ตัวอย่างผิด: `Have she been waiting?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** ใช้กับ **Present Continuous** ไม่ใช่ **Present Perfect Continuous**. ถ้าจะใช้ Is จะเป็น `Is she waiting?` แต่คำถามนี้ต้องเป็น `Has she been waiting?`"
+      },
+      {
+        "index": 4,
+        "text": "Was",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Was** เป็นอดีตกาลของ **be** และไม่เข้ากับรูป **been + V-ing** ในคำถามแบบนี้. ตัวอย่างที่ถูกต้องคือ `Has she been waiting long?` ไม่ใช่ `Was she been waiting?`"
+      }
+    ]
+  },
+  {
+    "question": "___ they been working here since 2020?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Have",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **they** ใช้ **Have** ตามโครงสร้าง __Have/Has + subject + been + V-ing__. ตัวอย่างถูกต้อง: `Have they been working here since 2020?` ใช้คู่กับคำบอกเวลาอย่าง **since/for** ได้ เช่น `since 2020`, `for three years`"
+      },
+      {
+        "index": 2,
+        "text": "Has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานพหูพจน์ **they** ต้องใช้ **Have** ไม่ใช่ **Has**. รูปที่ถูก: `Have they been working...?` ไม่ใช่ `Has they been working...?`"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Are** เป็นของ **Present Continuous** ไม่ใช่ **Present Perfect Continuous**. ถ้าใช้ Are จะเป็น `Are they working here?` ซึ่งไม่สื่อถึงระยะเวลาต่อเนื่องตั้งแต่อดีต"
+      },
+      {
+        "index": 4,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do** ใช้ถามใน **Present Simple** และไม่ใช้กับรูป `been + V-ing`. ตัวอย่างที่ถูกควรเป็น `Have they been working here since 2020?` ไม่ใช่ `Do they been working...?`"
+      }
+    ]
+  },
+  {
+    "question": "___ it been raining all day?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Has",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **it** ใช้ **Has** และต้องตามด้วย __been + V-ing__ ในคำถาม. รูปที่ถูกคือ `Has it been raining all day?` ใช้ถามเหตุการณ์ที่เริ่มก่อนหน้าและยังมีผลถึงปัจจุบัน เช่นฝนตกทั้งวัน"
+      },
+      {
+        "index": 2,
+        "text": "Have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกับประธานเอกพจน์อย่าง **it** ต้องใช้ **Has** ไม่ใช่ **Have**. ตัวอย่างที่ถูก: `Has it been raining?` ไม่ใช่ `Have it been raining?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** ใช้กับ `V-ing` โดยไม่มี **been** เช่น `Is it raining?` ซึ่งเป็น **Present Continuous** ไม่ใช่ **Present Perfect Continuous**. ประโยคนี้ต้องใช้ `Has it been raining...?`"
+      },
+      {
+        "index": 4,
+        "text": "Was",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Was** เป็นอดีตกาลและไม่ใช้สร้างคำถามของ **Present Perfect Continuous**. รูปผิด: `Was it been raining?` รูปถูก: `Has it been raining all day?`"
+      }
+    ]
+  },
+  {
+    "question": "___ your brother been practicing the guitar?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Has",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธานแท้คือ **your brother** (เอกพจน์) จึงใช้ **Has** ตามโครงสร้าง __Have/Has + subject + been + V-ing__. ประโยคตัวอย่าง: `Has your brother been practicing the guitar?` ใช้ถามกิจกรรมที่ฝึกต่อเนื่อง"
+      },
+      {
+        "index": 2,
+        "text": "Have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **your brother** เป็นเอกพจน์ ต้องใช้ **Has**. ตัวอย่างที่ถูกต้องคือ `Has your brother been practicing...?` ไม่ใช่ `Have your brother been practicing...?`"
+      },
+      {
+        "index": 3,
+        "text": "Does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Does** ใช้กับ **Present Simple** เช่น `Does your brother practice the guitar?` แต่โจทย์นี้ต้องการรูป **Present Perfect Continuous** ซึ่งต้องเป็น `Has your brother been practicing...?`"
+      },
+      {
+        "index": 4,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** เป็นของ **Present Continuous** (`Is your brother practicing?`) ไม่ใช่ **Present Perfect Continuous**. รูปที่ถูกควรมี `been` ด้วย: `Has your brother been practicing...?`"
+      }
+    ]
+  },
+  {
+    "question": "___ I been doing this right?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Have",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **I** ใช้ **Have** ในคำถามรูป __Have/Has + subject + been + V-ing__. ตัวอย่าง: `Have I been doing this right?` ใช้ถามว่าที่ทำมาตลอดช่วงเวลาหนึ่งถูกไหม"
+      },
+      {
+        "index": 2,
+        "text": "Has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกับ **I** ต้องใช้ **Have** เสมอ ไม่ใช้ **Has**. ตัวอย่างถูก: `Have I been doing it correctly?` ไม่ใช่ `Has I been doing...`"
+      },
+      {
+        "index": 3,
+        "text": "Am",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Am** ใช้กับ **Present Continuous** (`Am I doing this right?`) ซึ่งไม่ได้สื่อความต่อเนื่องจากอดีตถึงปัจจุบัน. รูปที่โจทย์ต้องการคือ `Have I been doing this right?`"
+      },
+      {
+        "index": 4,
+        "text": "Did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Did** ใช้กับ **Past Simple** ไม่เข้ากับ `been + V-ing`. ตัวอย่างที่ถูกควรเป็น `Have I been doing this right?` ไม่ใช่ `Did I been doing this right?`"
+      }
+    ]
+  },
+  {
+    "question": "___ the kids been playing outside?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Have",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **the kids** เป็นพหูพจน์ จึงใช้ **Have** ตามรูปคำถาม __Have/Has + subject + been + V-ing__. ตัวอย่าง: `Have the kids been playing outside?` ใช้ถามกิจกรรมที่เกิดขึ้นต่อเนื่องช่วงหนึ่ง"
+      },
+      {
+        "index": 2,
+        "text": "Has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **the kids** เป็นพหูพจน์ ต้องใช้ **Have** ไม่ใช่ **Has**. รูปที่ถูกคือ `Have the kids been playing...?` ไม่ใช่ `Has the kids...`"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Are** เป็นของ **Present Continuous** (`Are the kids playing outside?`) ไม่ใช่ **Present Perfect Continuous**. ต้องมี `been` ด้วย: `Have the kids been playing...?`"
+      },
+      {
+        "index": 4,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do** ใช้ถามนิสัย/ความจริงทั่วไป (**Present Simple**) เช่น `Do the kids play outside?` แต่โจทย์นี้ต้องการรูป `Have + subject + been + V-ing`"
+      }
+    ]
+  },
+  {
+    "question": "___ he been feeling better lately?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Has",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **he** ใช้ **Has** และตามด้วยโครงสร้าง __been + V-ing__. ประโยคที่ถูก: `Has he been feeling better lately?` ใช้ถามอาการที่ดีขึ้นอย่างต่อเนื่องในช่วงที่ผ่านมา"
+      },
+      {
+        "index": 2,
+        "text": "Have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเอกพจน์บุคคลที่สาม (**he**) ต้องใช้ **Has**. ตัวอย่างที่ถูก: `Has he been feeling better?` ไม่ใช่ `Have he been feeling better?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Is he feeling better?` เป็น **Present Continuous** ไม่ใช่ **Present Perfect Continuous**. โจทย์นี้ต้องใช้ `Has he been feeling...` เพื่อสื่อความต่อเนื่องจากอดีตถึงปัจจุบัน"
+      },
+      {
+        "index": 4,
+        "text": "Did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Did** ใช้กับ **Past Simple** และไม่ใช้กับ `been + V-ing`. รูปที่ถูกต้องคือ `Has he been feeling better lately?`"
+      }
+    ]
+  },
+  {
+    "question": "___ we been using the correct file?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Have",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **we** ใช้ **Have** และต้องตามรูป __Have/Has + subject + been + V-ing__. ตัวอย่างประโยค: `Have we been using the correct file?` ใช้เช็คการกระทำที่ทำต่อเนื่องมาช่วงหนึ่ง"
+      },
+      {
+        "index": 2,
+        "text": "Has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกับประธาน **we** ต้องใช้ **Have** ไม่ใช่ **Has**. ตัวอย่างที่ถูก: `Have we been using...?` ไม่ใช่ `Has we been using...?`"
+      },
+      {
+        "index": 3,
+        "text": "Were",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Were** เป็นอดีตของ **be** และไม่ใช้ในโครงสร้างคำถามของ **Present Perfect Continuous**. รูปที่ถูกคือ `Have we been using...?` ไม่ใช่ `Were we been using...?`"
+      },
+      {
+        "index": 4,
+        "text": "Are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Are** ใช้กับ **Present Continuous** (`Are we using...?`) ซึ่งไม่สื่อความต่อเนื่องจากอดีต. โครงสร้างที่ถูกต้องคือ `Have we been using...?`"
+      }
+    ]
+  },
+  {
+    "question": "___ the machine been making that noise?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Has",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **the machine** เป็นเอกพจน์ จึงใช้ **Has** ตามโครงสร้าง __Have/Has + subject + been + V-ing__. ประโยคตัวอย่าง: `Has the machine been making that noise?` ใช้ถามเสียงที่เกิดขึ้นต่อเนื่องช่วงหนึ่ง"
+      },
+      {
+        "index": 2,
+        "text": "Have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเอกพจน์ (**the machine**) ต้องใช้ **Has**. ตัวอย่างถูก: `Has the machine been making...?` ไม่ใช่ `Have the machine been making...?`"
+      },
+      {
+        "index": 3,
+        "text": "Does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Does** เป็นของ **Present Simple** (`Does the machine make...?`) ไม่ใช่ **Present Perfect Continuous**. คำถามนี้ต้องใช้ `Has + subject + been + V-ing`"
+      },
+      {
+        "index": 4,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** ใช้กับ `V-ing` โดยไม่มี **been** เช่น `Is the machine making...?` ซึ่งเป็น **Present Continuous**. โครงสร้างที่ถูกคือ `Has the machine been making...?`"
+      }
+    ]
+  }
+]

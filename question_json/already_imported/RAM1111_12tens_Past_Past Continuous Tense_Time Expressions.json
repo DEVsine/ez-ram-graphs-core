@@ -1,0 +1,292 @@
+[
+  {
+    "question": "I was cooking ___ the phone rang.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "when",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __when + past simple__ เพื่อบอกเหตุการณ์สั้นๆ ที่เข้ามาแทรกตอนที่อีกเหตุการณ์กำลังดำเนินอยู่ (`was cooking`). รูปแบบที่ใช้คือ __Past Continuous + when + Past Simple__ เช่น: `I was cooking when the phone rang.` หรือ `She was walking when it started to rain.`"
+      },
+      {
+        "index": 2,
+        "text": "while",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **while** มักตามด้วยประโยคที่เป็น **Past Continuous** เพื่อเน้นความยาวของการเกิดเหตุการณ์สองอย่างพร้อมกัน เช่น: `While I was cooking, the phone rang.` ในช่องว่างนี้ตามมาด้วย `the phone rang` (past simple) จึงไม่เข้าทรงที่นิยมใช้"
+      },
+      {
+        "index": 3,
+        "text": "as",
+        "is_correct": false,
+        "answer_description": "ผิด หลายครั้ง **as** ใช้คล้าย **while** เพื่อบอกเหตุการณ์ที่เกิดพร้อมกันแบบค่อยๆ เกิด จึงมักตามด้วยรูป **Past Continuous** เช่น `As I was cooking, she was setting the table.` ที่นี่เราต้องการตัวเชื่อมสำหรับเหตุการณ์แทรก ซึ่งคือ **when**"
+      },
+      {
+        "index": 4,
+        "text": "during",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **during** ต้องตามด้วย **คำนาม** ไม่ใช่ประโยค เช่น `during the meeting`, `during the movie` ไม่ใช่ `during the phone rang`. โครงสร้างที่ถูกคือ `I was cooking when the phone rang.`"
+      }
+    ]
+  },
+  {
+    "question": "She was studying ___ 8 p.m. last night.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "at",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __at + เวลาเฉพาะ (clock time)__ เช่น `at 8 p.m.` เพื่อบอกจุดเวลา เช่น: `She was studying at 8 p.m. last night.` รูปแบบ __was/were + V-ing + at + specific time__ ใช้บอกว่ากำลังทำสิ่งนั้นตอนเวลานั้นพอดี"
+      },
+      {
+        "index": 2,
+        "text": "in",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **in** ใช้กับช่วงเวลาที่กว้าง เช่น `in the morning`, `in 2020` ไม่ใช่เวลาจุดๆ อย่าง 8 p.m. ตัวอย่างที่ถูก: `She was studying at 8 p.m.`"
+      },
+      {
+        "index": 3,
+        "text": "on",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **on** ใช้กับวัน/วันที่ เช่น `on Monday`, `on July 5th` ไม่ใช่เวลานาทีเป๊ะๆ แบบ 8 p.m. จึงควรใช้ `at 8 p.m.`"
+      },
+      {
+        "index": 4,
+        "text": "since",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **since** ใช้บอกจุดเริ่มต้นของช่วงเวลา (เหมาะกับ Perfect Tense) เช่น `since 8 p.m.` แต่ที่นี่เราต้องการระบุจุดเวลาในอดีตตอนที่กำลังกระทำ → ใช้ `at 8 p.m.`"
+      }
+    ]
+  },
+  {
+    "question": "They were playing football ___ 6 to 8 p.m.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "from",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้โครงสร้าง __from ... to ...__ เพื่อบอกช่วงเวลาอย่างชัดเจน เช่น: `They were playing football from 6 to 8 p.m.` รูปแบบนี้ช่วยบอกว่ากิจกรรม **ดำเนินต่อเนื่อง** ในกรอบเวลานั้น"
+      },
+      {
+        "index": 2,
+        "text": "since",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **since** ใช้บอกจุดเริ่ม (มักใช้กับ Perfect) เช่น `since 6 p.m.` และไม่จับคู่กับ `to 8 p.m.` โครงสร้างที่ถูกสำหรับช่วงเวลาคือ `from 6 to 8 p.m.`"
+      },
+      {
+        "index": 3,
+        "text": "at",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **at** ใช้กับเวลาจุดเดียว เช่น `at 7 p.m.` แต่ประโยคนี้เป็นช่วงตั้งแต่ 6 ถึง 8 จึงต้องใช้ `from ... to ...`"
+      },
+      {
+        "index": 4,
+        "text": "during",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **during** ตามด้วยคำนาม เช่น `during the game` ไม่ใช่ตัวเลขเวลาแบบ `during 6 to 8 p.m.` ถ้าจะบอกช่วงชั่วโมงให้ใช้ `from 6 to 8 p.m.`"
+      }
+    ]
+  },
+  {
+    "question": "He was driving ___ I was texting him.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "while",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __while + Past Continuous__ เพื่อบอกสองเหตุการณ์ที่เกิด *พร้อมกัน* ในอดีต เช่น: `He was driving while I was texting him.` รูปแบบเน้นความยาว/ความต่อเนื่องของทั้งสองการกระทำที่ซ้อนทับกัน"
+      },
+      {
+        "index": 2,
+        "text": "when",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะ **when** มักใช้กับเหตุการณ์สั้นๆ ที่แทรกเข้ามา (`Past Simple`) เช่น `He was driving when I texted him.` แต่ประโยคในโจทย์ทั้งสองฝั่งเป็น **Past Continuous** จึงควรใช้ `while`"
+      },
+      {
+        "index": 3,
+        "text": "during",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **during** ต้องตามด้วยคำนาม เช่น `during the drive` ไม่ใช่ประโยคเต็ม `I was texting him` ถ้าจะใช้ประโยคเต็มให้ใช้ `while + clause`"
+      },
+      {
+        "index": 4,
+        "text": "because",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **because** เป็นตัวเชื่อมเหตุผล ไม่ใช่ตัวบอกเวลา เช่น `He left because he was tired.` ประโยคนี้ต้องการบอกเวลา/ความพร้อมกัน จึงใช้ `while`"
+      }
+    ]
+  },
+  {
+    "question": "We were having dinner ___ that moment.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "at",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __at + that moment__ เพื่อชี้จุดเวลาหนึ่งในอดีตที่กำลังกระทำบางอย่าง เช่น: `We were having dinner at that moment.` รูปแบบ __was/were + V-ing + at that moment__ เน้นวินาที/ช่วงจุดนั้นจริงๆ"
+      },
+      {
+        "index": 2,
+        "text": "in",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **in** ใช้กับช่วงกว้าง เช่น `in the evening`, `in 2022` แต่คำว่า `that moment` เป็นจุดเวลาเจาะจง จึงต้องใช้ `at`"
+      },
+      {
+        "index": 3,
+        "text": "on",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **on** ใช้กับวัน/วันที่ เช่น `on Monday`, `on July 4th` ไม่เข้ากับ `that moment` ควรใช้ `at that moment`"
+      },
+      {
+        "index": 4,
+        "text": "by",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **by** หมายถึง “ไม่เกิน/ภายในก่อนถึงเวลา...” เช่น `by 8 p.m.` ซึ่งสื่อเส้นตาย ไม่ใช่จุดเวลาที่กำลังกระทำอยู่ จึงไม่ตรงกับความหมายที่ต้องการ"
+      }
+    ]
+  },
+  {
+    "question": "I was walking home ___ sunset.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "at",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __at + sunset/noon/midnight__ เพื่อบอกจุดเวลาแบบเหตุการณ์ตามธรรมชาติ เช่น: `I was walking home at sunset.` รูปแบบนี้ช่วยชี้ว่าในช่วงนั้นพอดีเรากำลังเดินอยู่"
+      },
+      {
+        "index": 2,
+        "text": "in",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **in** มักใช้กับช่วงกว้าง เช่น `in the evening` แต่คำว่า `sunset` เป็นจุดเวลาชัดเจน จึงต้องใช้ `at sunset`"
+      },
+      {
+        "index": 3,
+        "text": "on",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **on** ใช้กับวัน/วันที่ (`on Monday`) ไม่ใช่เหตุการณ์เวลาอย่าง `sunset` ตัวอย่างที่ถูกคือ `at sunset`"
+      },
+      {
+        "index": 4,
+        "text": "by",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **by** แปลว่า “ก่อนถึงเวลา...” เช่น `I finished by sunset.` ซึ่งเน้นเส้นตาย ไม่ใช่การกำลังทำในจุดเวลานั้น จึงไม่ตรงกับ Past Continuous"
+      }
+    ]
+  },
+  {
+    "question": "She was crying ___ her favorite song was playing.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "while",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __while + Past Continuous__ เพื่อบอกสองเหตุการณ์ที่ดำเนินพร้อมกัน เช่น `She was crying while her favorite song was playing.` โครงสร้างนี้เน้นความยาวต่อเนื่องของทั้งสองเหตุการณ์"
+      },
+      {
+        "index": 2,
+        "text": "when",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะ `when + past simple` มักใช้กับเหตุการณ์สั้นๆ แทรก เช่น `She was crying when the song ended.` แต่ที่โจทย์ต้องการความพร้อมกันต่อเนื่อง จึงใช้ `while` เหมาะกว่า"
+      },
+      {
+        "index": 3,
+        "text": "during",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **during** ต้องตามด้วยคำนาม เช่น `during the song` ไม่ใช่ประโยคเต็ม `her favorite song was playing` ถ้าจะเป็นประโยคใช้ `while`"
+      },
+      {
+        "index": 4,
+        "text": "until",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **until** เน้น “จนถึงเวลา/เหตุการณ์หนึ่ง” เช่น `She was crying until the song ended.` แต่โจทย์เน้นความพร้อมกันระหว่างที่เพลงกำลังเล่น จึงใช้ `while`"
+      }
+    ]
+  },
+  {
+    "question": "We were talking ___ the meeting.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "during",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __during + คำนาม__ เพื่อบอกว่ากิจกรรมเกิดขึ้นในช่วงเหตุการณ์นั้น เช่น: `We were talking during the meeting.` รูปแบบนี้เข้าคู่ดีกับ Past Continuous เพื่อเน้นความยาวของการคุย"
+      },
+      {
+        "index": 2,
+        "text": "while",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะ **while** ต้องตามด้วยประโยค (S + V) เช่น `while the meeting was going on` ไม่ใช่คำนามเดี่ยวๆ ถ้าต้องการคำนามให้ใช้ `during`"
+      },
+      {
+        "index": 3,
+        "text": "for",
+        "is_correct": false,
+        "answer_description": "ผิดในที่นี้ เพราะ **for** มักตามด้วย “ระยะเวลา” เช่น `for two hours` ไม่ใช่เหตุการณ์/กิจกรรมอย่าง `the meeting` ถ้าจะพูดให้ถูกควรใช้ `during the meeting`"
+      },
+      {
+        "index": 4,
+        "text": "at",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **at** ใช้กับเวลาจุด (`at 3 p.m.`) หรือสถานที่จุด แต่ `the meeting` เป็นเหตุการณ์ช่วงเวลา จึงควรใช้ `during`"
+      }
+    ]
+  },
+  {
+    "question": "He wasn’t listening ___ my presentation.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "during",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __during + คำนาม__ เพื่อบอกว่าบางอย่างเกิดขึ้นในช่วงเหตุการณ์นั้น เช่น: `He wasn’t listening during my presentation.` รูปแบบนี้ชี้ว่าตลอดช่วงพรีเซนต์ เขาไม่ได้ตั้งใจฟัง"
+      },
+      {
+        "index": 2,
+        "text": "while",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **while** ต้องตามด้วยประโยคเต็ม เช่น `while I was presenting` ไม่ใช่คำนาม `my presentation` จึงไม่เข้ากับช่องว่างนี้"
+      },
+      {
+        "index": 3,
+        "text": "when",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `when` มักตามด้วยประโยค (S + V) และใช้กับเหตุการณ์แทรก เช่น `He wasn’t listening when I started.` ที่นี่ต้องการคำนาม ดังนั้น `during my presentation` จึงถูก"
+      },
+      {
+        "index": 4,
+        "text": "since",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **since** ใช้ระบุจุดเริ่มเวลา (เหมาะกับ Perfect) เช่น `since morning` ไม่ได้ใช้กับคำนามเหตุการณ์แบบนี้ในความหมาย “ระหว่างที่”"
+      }
+    ]
+  },
+  {
+    "question": "I was still working ___ 9 p.m.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "until",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __until + เวลา__ เพื่อบอกว่ากิจกรรมดำเนินต่อเนื่อง “จนถึง” เวลานั้น เช่น: `I was still working until 9 p.m.` รูปแบบนี้เข้ากับ Past Continuous เพื่อเน้นความต่อเนื่องจนถึงจุดสิ้นสุด"
+      },
+      {
+        "index": 2,
+        "text": "by",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **by** แปลว่า “ไม่ช้ากว่า/ก่อนถึงเวลา” มักสื่อเส้นตาย เช่น `I finished by 9 p.m.` ไม่ได้สื่อว่ากระทำต่อเนื่องจนถึงเวลานั้น จึงไม่ตรงใจความ"
+      },
+      {
+        "index": 3,
+        "text": "at",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **at 9 p.m.** คือจุดเวลาเฉพาะ เช่น `I was working at 9 p.m.` แต่ประโยคนี้ต้องการสื่อความต่อเนื่อง “จนถึง” เวลานั้น ซึ่งควรใช้ `until`"
+      },
+      {
+        "index": 4,
+        "text": "for",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **for** ใช้กับ “ระยะเวลา” เช่น `for three hours` ไม่ได้เชื่อมกับเวลาเฉพาะอย่าง `9 p.m.` ถ้าจะบอกจนถึงเวลาให้ใช้ `until 9 p.m.`"
+      }
+    ]
+  }
+]

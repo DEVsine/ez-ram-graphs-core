@@ -1,0 +1,292 @@
+[
+  {
+    "question": "He ___ to school by bus.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "goes",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธานเป็น **He (บุรุษที่ 3 เอกพจน์)** ต้องเติม `-es` กับกริยาที่ลงท้ายด้วย `-o` โครงสร้างคือ __Subject + V1(s/es)__ เช่น: `He goes to school by bus.` หรือ `She goes home early.`"
+      },
+      {
+        "index": 2,
+        "text": "go",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปพื้นฐาน `go` ใช้กับ **I/you/we/they** ไม่ใช่ he/she/it สำหรับบุรุษที่ 3 เอกพจน์ต้องเป็น `goes` เช่น: `They go to school.` แต่ `He goes to school.`"
+      },
+      {
+        "index": 3,
+        "text": "is go",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคบอกเล่าใน **Present Simple** ไม่ใช้ `be + V1` กับกริยาทั่วไป โครงสร้างที่ถูกคือ `Subject + V1(s/es)` เช่น: `He goes...` ไม่ใช่ `He is go...`"
+      },
+      {
+        "index": 4,
+        "text": "going",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `going` เป็นรูป **V-ing** ใช้กับ **Present Continuous** (`be + V-ing`) ไม่ใช่ Present Simple ตัวอย่างผิด: `He going to school.` ตัวอย่างถูก: `He goes to school.` หรือถ้า Continuous: `He is going to school.`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ breakfast at 7 a.m.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "have",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **They (พหูพจน์)** ใช้กริยารูปพื้นฐาน โครงสร้าง __Subject + V1__ เช่น: `They have breakfast at 7 a.m.` หรือ `We have class on Monday.`"
+      },
+      {
+        "index": 2,
+        "text": "has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `has` ใช้กับ **he/she/it** เท่านั้น ไม่ใช้กับ **they** ตัวอย่างที่ถูก: `She has breakfast.` แต่กับ they ต้องเป็น `They have breakfast.`"
+      },
+      {
+        "index": 3,
+        "text": "do have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปบอกเล่าใน Present Simple ไม่ต้องใช้ **do** ช่วย ใช้เพียง `Subject + V1` ก็พอ เช่น: `They have breakfast.` (ไม่ใช่ `They do have breakfast.` ยกเว้นกรณีเน้นน้ำเสียงเป็นพิเศษ)"
+      },
+      {
+        "index": 4,
+        "text": "are have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา **be (are)** มาใช้กับกริยาทั่วไป `have` ซึ่งไม่เข้ากัน โครงสร้างถูกคือ `Subject + V1` เช่น: `They have breakfast.` ไม่ใช่ `They are have breakfast.`"
+      }
+    ]
+  },
+  {
+    "question": "My sister ___ three languages.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "speaks",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธานเป็น **My sister = she** ต้องเติม **-s** ที่กริยาหลักใน Present Simple โครงสร้าง __Subject + V1(s)__ เช่น: `My sister speaks three languages.` หรือ `He speaks English.`"
+      },
+      {
+        "index": 2,
+        "text": "speak",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะลืมเติม **-s** สำหรับบุรุษที่ 3 เอกพจน์ ตัวอย่างที่ถูก: `She speaks Thai.` ส่วน `They speak Thai.` ใช้กับพหูพจน์"
+      },
+      {
+        "index": 3,
+        "text": "is speak",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ `be + V1` กับกริยาแท้ ซึ่งไม่ใช่รูปของ Present Simple รูปถูกคือ `My sister speaks...` ไม่ใช่ `My sister is speak...`"
+      },
+      {
+        "index": 4,
+        "text": "speaking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **V-ing** (Continuous) ถ้าจะใช้ต้องมี `be` เช่น `She is speaking.` แต่ประโยคนี้ต้องการ Present Simple: `She speaks...`"
+      }
+    ]
+  },
+  {
+    "question": "The shop ___ fresh bread every morning.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "sells",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **The shop = it** ต้องเติม **-s** ที่กริยา โครงสร้าง __Subject + V1(s)__ เช่น: `The shop sells fresh bread every morning.` และ `The company sells software online.`"
+      },
+      {
+        "index": 2,
+        "text": "sell",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะลืมเติม **-s** เมื่อประธานเป็นเอกพจน์บุรุษที่ 3 ตัวอย่างถูก: `It sells bread.` ส่วน `They sell bread.` ใช้กับพหูพจน์"
+      },
+      {
+        "index": 3,
+        "text": "is sell",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `be + V1` ไม่ใช่โครงสร้างของ Present Simple กับกริยาทั่วไป ต้องใช้ `Subject + V1(s)` เช่น: `The shop sells...`"
+      },
+      {
+        "index": 4,
+        "text": "selling",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **V-ing** ที่ใช้กับ Continuous ถ้าจะใช้ต้องเป็น `The shop is selling...` แต่ประโยคนี้เป็นข้อเท็จจริงทั่วไป จึงใช้ Present Simple: `sells`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ very happy.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกริยา **be** ใน Present Simple ใช้รูป `is` กับ **he/she/it** โครงสร้าง __Subject + be (am/is/are)__ เช่น: `She is very happy.` หรือ `He is tall.`"
+      },
+      {
+        "index": 2,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `are` ใช้กับ **you/we/they** ไม่ใช่ she ตัวอย่างถูก: `They are happy.` แต่กับ she ต้องเป็น `She is happy.`"
+      },
+      {
+        "index": 3,
+        "text": "am",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `am` ใช้กับ **I** เท่านั้น เช่น `I am happy.` สำหรับ she ต้องใช้ `is`: `She is happy.`"
+      },
+      {
+        "index": 4,
+        "text": "be",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `be` เป็นรูปพื้นฐานของกริยา ไม่ใช้เดี่ยว ๆ ในประโยคบอกเล่า ต้องเปลี่ยนเป็นรูป `am/is/are` เช่น: `She is happy.`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ in Bangkok.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "live",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **I** ใช้กริยารูปพื้นฐานใน Present Simple โครงสร้าง __Subject + V1__ เช่น: `I live in Bangkok.` หรือ `I work from home.`"
+      },
+      {
+        "index": 2,
+        "text": "lives",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `-s` ใช้กับ **he/she/it** เท่านั้น กับ **I** ต้องใช้รูปพื้นฐาน เช่น: `I live...` ไม่ใช่ `I lives...`"
+      },
+      {
+        "index": 3,
+        "text": "am live",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนำ `be + V1` มาใช้กับกริยาทั่วไป ซึ่งไม่ถูกต้อง รูปที่ถูกคือ `I live...` ถ้าเป็น Continuous จะเป็น `I am living...`"
+      },
+      {
+        "index": 4,
+        "text": "living",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **V-ing** ต้องมี `be` นำหน้า (`am/is/are`) เช่น `I am living...` แต่ประโยคนี้ต้องการ Present Simple บอกข้อเท็จจริง: `I live...`"
+      }
+    ]
+  },
+  {
+    "question": "The train ___ on time.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "arrives",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **The train = it** ต้องเติม **-s** ที่กริยาใน Present Simple โครงสร้าง __Subject + V1(s)__ เช่น: `The train arrives on time.` หรือ `The bus arrives at 8.`"
+      },
+      {
+        "index": 2,
+        "text": "arrive",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะลืมเติม **-s** สำหรับบุรุษที่ 3 เอกพจน์ ตัวอย่างที่ถูก: `It arrives.` ส่วน `They arrive.` ใช้กับพหูพจน์"
+      },
+      {
+        "index": 3,
+        "text": "is arrive",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้าง `be + V1` ไม่ถูกสำหรับ Present Simple ที่เป็นกริยาทั่วไป ต้องใช้ `Subject + V1(s)` เช่น: `The train arrives...`"
+      },
+      {
+        "index": 4,
+        "text": "arriving",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป Continuous (`be + V-ing`) ถ้าใช้ต้องเป็น `The train is arriving.` แต่ประโยคนี้พูดถึงตาราง/ข้อเท็จจริง จึงใช้ Present Simple: `arrives`"
+      }
+    ]
+  },
+  {
+    "question": "Our teacher ___ homework on Mondays.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "gives",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **Our teacher = he/she** ต้องเติม **-s** ที่กริยา โครงสร้าง __Subject + V1(s)__ เช่น: `Our teacher gives homework on Mondays.` หรือ `The teacher gives quizzes every week.`"
+      },
+      {
+        "index": 2,
+        "text": "give",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่เติม **-s** กับบุรุษที่ 3 เอกพจน์ ตัวอย่างถูก: `She gives homework.` ส่วน `They give homework.` ใช้กับพหูพจน์"
+      },
+      {
+        "index": 3,
+        "text": "is give",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ `be + V1` ซึ่งไม่ใช่รูปของ Present Simple กับกริยาแท้ ต้องเป็น `gives` เช่น: `The teacher gives...`"
+      },
+      {
+        "index": 4,
+        "text": "giving",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **V-ing** ถ้าจะใช้ต้องเป็น `is giving` แต่ประโยคนี้เป็นกิจวัตร/ตาราง จึงใช้ Present Simple: `gives`"
+      }
+    ]
+  },
+  {
+    "question": "It ___ a lot in April here.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "rains",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **It** ต้องเติม **-s** ที่กริยาหลัก โครงสร้าง __Subject + V1(s)__ เช่น: `It rains a lot in April here.` หรือ `It rains in the afternoon.`"
+      },
+      {
+        "index": 2,
+        "text": "rain",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะลืมเติม **-s** สำหรับ **it** ตัวอย่างถูก: `It rains a lot.` ส่วนกับพหูพจน์: `They rain` ไม่ค่อยใช้กับคำนี้อยู่แล้ว"
+      },
+      {
+        "index": 3,
+        "text": "is rain",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้าง `be + V1` ไม่ถูกกับกริยาทั่วไปใน Present Simple ต้องใช้ `It rains...` ไม่ใช่ `It is rain...` (ถ้าใช้คำนาม `rain` ต้องว่า `It is rainy.`)"
+      },
+      {
+        "index": 4,
+        "text": "raining",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **V-ing** ต้องใช้กับ `be`: `It is raining.` แต่ประโยคนี้พูดถึงความถี่/ข้อเท็จจริงทั่วไป จึงใช้ Present Simple: `rains`"
+      }
+    ]
+  },
+  {
+    "question": "My parents ___ TV after dinner.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "watch",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **My parents (พหูพจน์)** ใช้กริยารูปพื้นฐาน โครงสร้าง __Subject + V1__ เช่น: `My parents watch TV after dinner.` หรือ `They watch movies on weekends.`"
+      },
+      {
+        "index": 2,
+        "text": "watches",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `-es` ใช้กับ **he/she/it** ไม่ใช้กับประธานพหูพจน์ ตัวอย่างถูก: `He watches TV.` แต่ `My parents watch TV.`"
+      },
+      {
+        "index": 3,
+        "text": "are watch",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `be + V1` ไม่ใช่โครงสร้างของ Present Simple สำหรับกริยาทั่วไป ต้องใช้ `Subject + V1` เช่น: `They watch...`"
+      },
+      {
+        "index": 4,
+        "text": "watching",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **V-ing** (Continuous) ถ้าจะใช้ต้องเป็น `are watching` เช่น `They are watching TV.` แต่ประโยคนี้เป็นกิจวัตร จึงใช้ Present Simple: `watch`"
+      }
+    ]
+  }
+]

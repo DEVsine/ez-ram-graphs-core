@@ -1,0 +1,613 @@
+[
+  {
+    "question": "She ___ to her friend on the phone right now.",
+    "question_knowledge_ids": [
+      328,
+      329,
+      335,
+      318,
+      321,
+      324,
+      411
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is talking",
+        "knowledge_ids": [
+          328,
+          329,
+          318,
+          321,
+          324
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกำลังเกิดขึ้น “right now” ต้องใช้ **Present Continuous** โครงสร้าง __`am/is/are + V-ing`__. ตัวอย่าง: `She is talking to her friend on the phone right now.` ใช้แบบนี้เมื่อบอกการกระทำที่กำลังดำเนินอยู่ตอนนี้เลยจ้า"
+      },
+      {
+        "index": 2,
+        "text": "talks",
+        "knowledge_ids": [
+          397,
+          398,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **talks** เป็น **Present Simple** ใช้กับข้อเท็จจริงหรือสิ่งที่ทำเป็นประจำ ไม่เหมาะกับคำว่า **right now** ที่บอก “กำลังตอนนี้”. ตัวอย่างที่ถูกต้องคือ `She is talking...` ไม่ใช่ `She talks...` ในบริบทนี้"
+      },
+      {
+        "index": 3,
+        "text": "talk",
+        "knowledge_ids": [
+          291,
+          384
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **talk** เป็นรูป base form ไม่เข้ากับประธาน **She** และไม่ใช่รูป **V-ing** สำหรับเหตุการณ์กำลังเกิดขึ้น. ควรเป็น `is talking` ตามแพตเทิร์น `is + V-ing`"
+      },
+      {
+        "index": 4,
+        "text": "was talking",
+        "knowledge_ids": [
+          251,
+          262,
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **was talking** เป็น **Past Continuous** หมายถึงกำลังกระทำ “ในอดีต”. แต่มีคำบอกเวลา **right now** จึงต้องใช้ **Present Continuous**: `is talking`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ with my aunt this week while my apartment is being repaired.",
+    "question_knowledge_ids": [
+      330,
+      331,
+      336,
+      318,
+      321,
+      324,
+      411
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "am staying",
+        "knowledge_ids": [
+          330,
+          331,
+          336,
+          318,
+          321,
+          324
+        ],
+        "is_correct": true,
+        "answer_description": "ใช่เลย เพราะเป็นสถานการณ์ **ชั่วคราว** แค่สัปดาห์นี้ ใช้ **Present Continuous** โครงสร้าง __`am/is/are + V-ing`__. ประโยคตัวอย่าง: `I am staying with my aunt this week.` ใช้เมื่ออยู่ชั่วคราว ไม่ใช่นิสัยถาวร"
+      },
+      {
+        "index": 2,
+        "text": "stay",
+        "knowledge_ids": [
+          398,
+          405,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **stay** (Present Simple) ให้ความหมายเป็นนิสัย/ประจำ ซึ่งไม่เข้ากับ **this week** ที่สื่อความชั่วคราว. ควรใช้ `am staying` เพื่อบอกช่วงเวลาชั่วคราว"
+      },
+      {
+        "index": 3,
+        "text": "stays",
+        "knowledge_ids": [
+          351,
+          407
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **stays** ต้องใช้กับประธานเอกพจน์บุคคลที่สาม (เช่น He/She/It) แต่ประธานคือ **I** และบริบทเป็นชั่วคราว ควรใช้ `am staying` แทน"
+      },
+      {
+        "index": 4,
+        "text": "am stay",
+        "knowledge_ids": [
+          209,
+          291,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้าง **am + base verb** ไม่ถูก รูปที่ถูกคือ `am + V-ing`. ต้องเป็น `am staying` ไม่ใช่ `am stay`"
+      }
+    ]
+  },
+  {
+    "question": "Our team ___ the new client at 10 a.m. tomorrow. The meeting is already confirmed.",
+    "question_knowledge_ids": [
+      332,
+      345,
+      245,
+      318,
+      321,
+      324
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are meeting",
+        "knowledge_ids": [
+          332,
+          318,
+          321,
+          324
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Present Continuous** กับแผนที่ “นัดหมายแน่นอนในอนาคต” โครงสร้าง __`am/is/are + V-ing`__. ตัวอย่าง: `Our team are meeting the new client tomorrow at 10 a.m.` ใช้เมื่อมีการนัดหมายชัดเจนแล้ว"
+      },
+      {
+        "index": 2,
+        "text": "meet",
+        "knowledge_ids": [
+          400,
+          245
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะ เพราะ **meet** (Present Simple) ไม่สื่อความเป็นการนัดหมายที่ถูกจัดไว้แล้วในอนาคต. ถ้าต้องการบอกแผนแน่นอน ควรใช้ `are meeting`"
+      },
+      {
+        "index": 3,
+        "text": "meets",
+        "knowledge_ids": [
+          400,
+          351,
+          407,
+          245
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดทั้งรูปและความหมาย ประธานคือ **Our team** (พหูพจน์ความหมาย) จึงไม่ใช้ **meets** และบริบทคือ “นัดหมายในอนาคตที่ยืนยันแล้ว” ควรใช้ `are meeting`"
+      },
+      {
+        "index": 4,
+        "text": "are meet",
+        "knowledge_ids": [
+          291,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะใช้ **are + base verb** ซึ่งไม่ถูกต้อง ต้องเป็น **are + V-ing** เช่น `are meeting`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ always borrowing my books without asking!",
+    "question_knowledge_ids": [
+      333,
+      316,
+      318,
+      414
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "knowledge_ids": [
+          318,
+          303
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคนี้ใช้ **Present Continuous** เพื่อบ่น/รำคาญนิสัยไม่ดีที่เกิดซ้ำ โดยมีคำว่า **always** โครงสร้างคือ __`am/is/are + always + V-ing`__. ตัวอย่าง: `He is always borrowing my books.` สื่ออารมณ์ไม่พอใจเล็ก ๆ"
+      },
+      {
+        "index": 2,
+        "text": "always borrows",
+        "knowledge_ids": [
+          404,
+          398,
+          316,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดโทนความหมาย เพราะ **always + V1(s)** เป็น **Present Simple** เน้นความเป็นนิสัยปกติ แต่ไม่ได้สื่ออารมณ์รำคาญแบบที่ **is always V-ing** ทำ. ถ้าต้องการบ่น ควรใช้ `is always borrowing`"
+      },
+      {
+        "index": 3,
+        "text": "borrows",
+        "knowledge_ids": [
+          398,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคนี้ตั้งใจใช้รูป **V-ing** หลัง **always** เพื่อสื่ออารมณ์บ่น ถ้าใช้ **borrows** จะเป็นเพียงข้อเท็จจริงทั่วไป ไม่ได้อารมณ์นั้น. ที่ถูกคือ `is always borrowing`"
+      },
+      {
+        "index": 4,
+        "text": "was",
+        "knowledge_ids": [
+          251,
+          262
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **was** เป็นอดีต (**Past**) แต่บริบทเป็นการบ่นนิสัยที่ยังเกิดขึ้นในปัจจุบัน ควรใช้ `is + always + V-ing` เช่น `is always borrowing`"
+      }
+    ]
+  },
+  {
+    "question": "The weather ___ warmer as spring approaches.",
+    "question_knowledge_ids": [
+      334,
+      328,
+      318,
+      324
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is getting",
+        "knowledge_ids": [
+          334,
+          318,
+          324
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Present Continuous** กับการเปลี่ยนแปลงที่กำลังเกิดขึ้น (getting warmer) โครงสร้าง __`am/is/are + V-ing`__. ตัวอย่าง: `The weather is getting warmer these days.` ใช้เมื่อสิ่งหนึ่งกำลังค่อย ๆ เปลี่ยน"
+      },
+      {
+        "index": 2,
+        "text": "gets",
+        "knowledge_ids": [
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรงประเด็น เพราะ **gets** (Present Simple) มักใช้บอกข้อเท็จจริงทั่วไป/นิสัย ไม่เน้นกระบวนการเปลี่ยนแปลงที่กำลังดำเนินอยู่. ที่เหมาะคือ `is getting` เพื่อเน้นความต่อเนื่องตอนนี้"
+      },
+      {
+        "index": 3,
+        "text": "is got",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปไวยากรณ์ เพราะ **be + got** ไม่ใช่โครงสร้างของ Present Continuous. ต้องเป็น `is getting` (be + V-ing) เช่น `is getting warmer`"
+      },
+      {
+        "index": 4,
+        "text": "get",
+        "knowledge_ids": [
+          291,
+          384
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **get** เป็น base form ไม่สอดคล้องกับประธานเอกพจน์ **The weather** และไม่ใช่รูป **V-ing** ที่ใช้บอกการเปลี่ยนแปลงต่อเนื่อง. ควรเป็น `is getting`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ for her finals these days.",
+    "question_knowledge_ids": [
+      356,
+      331,
+      336,
+      318,
+      321,
+      324
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is studying",
+        "knowledge_ids": [
+          356,
+          331,
+          336,
+          318,
+          321,
+          324
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **these days** บอกช่วงเวลารอบ ๆ ตอนนี้ (ชั่วคราว) ใช้ **Present Continuous** โครงสร้าง __`am/is/are + V-ing`__. ตัวอย่าง: `She is studying for her finals these days.`"
+      },
+      {
+        "index": 2,
+        "text": "studies",
+        "knowledge_ids": [
+          398,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะ **studies** (Present Simple) เน้นกิจวัตร/นิสัย แต่ที่นี่เป็นช่วงเวลาเฉพาะ “these days” ที่ชั่วคราว ควรใช้ `is studying` เพื่อสื่อว่าอยู่ในช่วงกำลังอ่านอย่างต่อเนื่อง"
+      },
+      {
+        "index": 3,
+        "text": "study",
+        "knowledge_ids": [
+          291,
+          384
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะรูป **study** ไม่สอดคล้องกับประธาน **She** และไม่ใช่รูป **V-ing**. ต้องใช้ `is studying` เพื่อบอกการกระทำต่อเนื่องช่วงนี้"
+      },
+      {
+        "index": 4,
+        "text": "is study",
+        "knowledge_ids": [
+          209,
+          291,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปแบบ เพราะ **be + base verb** ไม่ถูกต้อง ต้องเป็น **be + V-ing**. รูปที่ถูกคือ `is studying`"
+      }
+    ]
+  },
+  {
+    "question": "I can't talk now; I ___ dinner.",
+    "question_knowledge_ids": [
+      328,
+      329,
+      335,
+      318,
+      321,
+      324
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "am cooking",
+        "knowledge_ids": [
+          328,
+          329,
+          318,
+          321,
+          324
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำว่า **now** บอกว่ากำลังเกิดขึ้นตอนนี้ ใช้ **Present Continuous** โครงสร้าง __`am/is/are + V-ing`__. ตัวอย่าง: `I am cooking dinner now.`"
+      },
+      {
+        "index": 2,
+        "text": "cook",
+        "knowledge_ids": [
+          398,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **cook** (Present Simple) หมายถึงทำเป็นประจำ ไม่ได้เน้นว่ากำลังทำตอนนี้. บริบท `can't talk now` ต้องใช้ `am cooking`"
+      },
+      {
+        "index": 3,
+        "text": "am cook",
+        "knowledge_ids": [
+          209,
+          291,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดโครงสร้าง เพราะต้องใช้ **be + V-ing** ไม่ใช่ **be + base verb**. รูปที่ถูกคือ `am cooking`"
+      },
+      {
+        "index": 4,
+        "text": "cooking",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ครบ เพราะขาดกริยา **be** หน้ารูป **V-ing**. ต้องเป็น `am cooking` ตามแพตเทิร์น `am + V-ing`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ on a new app this month.",
+    "question_knowledge_ids": [
+      331,
+      330,
+      318,
+      321,
+      324
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are working",
+        "knowledge_ids": [
+          331,
+          330,
+          318,
+          321,
+          324
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Present Continuous** สำหรับโครงการที่กำลังดำเนินอยู่ช่วงนี้ โครงสร้าง __`am/is/are + V-ing`__. ตัวอย่าง: `They are working on a new app this month.`"
+      },
+      {
+        "index": 2,
+        "text": "work",
+        "knowledge_ids": [
+          398,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง เพราะ **work** (Present Simple) สื่อกิจวัตรประจำ ไม่สื่อโครงการที่กำลังทำอยู่ในช่วงเวลาจำกัดอย่าง **this month**. ควรเป็น `are working`"
+      },
+      {
+        "index": 3,
+        "text": "works",
+        "knowledge_ids": [
+          351,
+          407
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะประธาน **They** เป็นพหูพจน์ จึงใช้ **work** ไม่ใช่ **works** และบริบทก็ต้องการรูปต่อเนื่อง `are working` ด้วย"
+      },
+      {
+        "index": 4,
+        "text": "are work",
+        "knowledge_ids": [
+          291,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดโครงสร้าง ต้องใช้ **are + V-ing** ไม่ใช่ **are + base verb**. รูปที่ถูกคือ `are working`"
+      }
+    ]
+  },
+  {
+    "question": "___ you coming to the meeting now?",
+    "question_knowledge_ids": [
+      194,
+      305,
+      321,
+      288,
+      318
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Are",
+        "knowledge_ids": [
+          194,
+          305,
+          321,
+          318
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคคำถามใน **Present Continuous** ใช้โครงสร้าง __`Am/Is/Are + subject + V-ing`__. ตัวอย่าง: `Are you coming now?` ใช้เมื่อถามกิจกรรมที่กำลังจะเกิดขึ้น/กำลังมุ่งหน้าในตอนนี้"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          292,
+          340,
+          315
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do + subject + V1** เป็นโครงสร้างคำถามของ **Present Simple** ไม่ใช่แบบต่อเนื่อง. ที่ถูกคือ `Are you + V-ing ...?` เช่น `Are you coming...?`"
+      },
+      {
+        "index": 3,
+        "text": "Did",
+        "knowledge_ids": [
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Did** เป็นอดีต (Past Simple) ไม่เข้ากับบริบท **now** ที่บอกปัจจุบัน. โครงสร้างที่ถูกคือ `Are you coming ...?`"
+      },
+      {
+        "index": 4,
+        "text": "Were",
+        "knowledge_ids": [
+          251
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Were** ใช้กับ **Past Continuous** (อดีต) แต่คำว่า **now** ชี้ปัจจุบัน. ควรใช้ `Are` ใน Present Continuous"
+      }
+    ]
+  },
+  {
+    "question": "He ___ attending the workshop today; he's sick.",
+    "question_knowledge_ids": [
+      193,
+      304,
+      320,
+      318
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "isn't",
+        "knowledge_ids": [
+          193,
+          304,
+          320,
+          318
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปปฏิเสธของ **Present Continuous** คือ __`am/is/are + not + V-ing`__. ตัวอย่าง: `He isn't attending the workshop today.` ใช้เมื่อบอกกิจกรรมที่กำลังจะเกิด/กำลังดำเนิน แต่มีการปฏิเสธ"
+      },
+      {
+        "index": 2,
+        "text": "doesn't",
+        "knowledge_ids": [
+          387,
+          420,
+          346
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **doesn't + V1** เป็นปฏิเสธของ **Present Simple** ไม่ใช่ **Present Continuous**. โครงสร้างที่ถูกต้องคือ `isn't + V-ing` เช่น `isn't attending`"
+      },
+      {
+        "index": 3,
+        "text": "won't",
+        "knowledge_ids": [
+          421,
+          249
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง เนื่องจาก **won't + V1** เป็น **Future Simple** บอกอนาคตทั่วไป ไม่ใช่รูปต่อเนื่องปัจจุบัน. ที่ถูกคือ `isn't attending`"
+      },
+      {
+        "index": 4,
+        "text": "didn't",
+        "knowledge_ids": [
+          300
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นอดีต (**Past Simple**) แต่ประโยคพูดถึง **today** และรูปต่อเนื่องในปัจจุบัน. ต้องใช้ `isn't attending`"
+      }
+    ]
+  },
+  {
+    "question": "Listen! The birds ___ in the garden.",
+    "question_knowledge_ids": [
+      328,
+      335,
+      340,
+      324,
+      318,
+      338
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are singing",
+        "knowledge_ids": [
+          328,
+          324,
+          318,
+          338
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำสั่ง **Listen!** ชี้ว่ากำลังเกิดขึ้นตอนนี้ จึงใช้ **Present Continuous** โครงสร้าง __`am/is/are + V-ing`__. ตัวอย่าง: `The birds are singing in the garden.`"
+      },
+      {
+        "index": 2,
+        "text": "sing",
+        "knowledge_ids": [
+          397,
+          398,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง เพราะ **sing** (Present Simple) เน้นข้อเท็จจริงทั่วไป แต่ที่นี่กำลังเกิดขึ้น “ตอนนี้” ควรใช้ `are singing` เพื่อสื่อความต่อเนื่อง"
+      },
+      {
+        "index": 3,
+        "text": "are sing",
+        "knowledge_ids": [
+          291,
+          264
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดโครงสร้าง เพราะต้องเป็น **are + V-ing** ไม่ใช่ **are + base verb**. รูปที่ถูกคือ `are singing`"
+      },
+      {
+        "index": 4,
+        "text": "were singing",
+        "knowledge_ids": [
+          251,
+          263,
+          259
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **were singing** เป็น **Past Continuous** (กำลังทำในอดีต) แต่มีคำชี้เวลาอย่าง `Listen!` บอกว่ากำลังเกิดตอนนี้ จึงควรใช้ `are singing`"
+      }
+    ]
+  }
+]

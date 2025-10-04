@@ -1,0 +1,515 @@
+[
+  {
+    "question": "Do you have ___ sugar?",
+    "question_knowledge_ids": [
+      518,
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "any",
+        "knowledge_ids": [
+          518,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะในประโยคคำถามเรามักใช้ **any** กับนามนับไม่ได้หรือพหูพจน์ เพื่อถามว่ามีอยู่ไหม โครงสร้างคือ __Do/Does + subject + have + any + noun?__ เช่น `Do you have any sugar?` หรือ `Does she have any friends?` ตัวอย่างใช้จริง: `Do you have any sugar for the recipe?`"
+      },
+      {
+        "index": 2,
+        "text": "some",
+        "knowledge_ids": [
+          518,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "โดยทั่วไป **some** ใช้กับประโยคบอกเล่า และใช้ในคำถามได้ก็ต่อเมื่อเป็นการเสนอ/เชิญ เช่น `Would you like some tea?` แต่ในคำถามธรรมดาแบบเช็คว่ามีไหม ควรใช้ **any** เช่น `Do you have any sugar?` ไม่ใช่ `Do you have some sugar?`"
+      },
+      {
+        "index": 3,
+        "text": "much",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "**much** เป็นตัวบอกปริมาณที่ใช้วางหน้าคำนามนับไม่ได้ แต่ต้องอยู่ในรูป `much + noun` ไม่ได้ใช้เดี่ยวๆในช่องว่างนี้ เช่น `Do you have much sugar?` จึงจะถูก ที่ว่างนี้ต้องการคำกำกับนามแบบทั่วไปในคำถาม จึงใช้ **any** ดีกว่า"
+      },
+      {
+        "index": 4,
+        "text": "many",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "**many** ใช้กับคำนามนับได้พหูพจน์ เช่น `many books` แต่คำว่า **sugar** เป็นนามนับไม่ได้ จึงใช้ **many** ไม่ได้ ควรใช้ `any sugar` หรือในบางบริบท `much sugar` เช่น `Do you have any sugar?`"
+      }
+    ]
+  },
+  {
+    "question": "There isn't ___ water left.",
+    "question_knowledge_ids": [
+      193,
+      518,
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "much",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **water** เป็นนามนับไม่ได้ และในประโยคปฏิเสธนิยมใช้ **much** โครงสร้างคือ __not + much + uncountable noun__ เช่น `There isn't much water left.` หรือ `We don't have much time.`"
+      },
+      {
+        "index": 2,
+        "text": "many",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "**many** ใช้กับคำนามนับได้พหูพจน์ เช่น `many people` แต่ **water** เป็นนามนับไม่ได้ จึงใช้ไม่ได้ ตัวอย่างที่ถูกต้องคือ `There aren't many bottles.` (n. นับได้) แต่ต้องใช้ `There isn't much water.` สำหรับนามนับไม่ได้"
+      },
+      {
+        "index": 3,
+        "text": "a few",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "**a few** ใช้กับนามนับได้พหูพจน์ เช่น `a few apples` แต่ **water** นับไม่ได้ จึงเข้าคู่กันไม่ได้ ถ้าจะสื่อว่ามีนิดหน่อยกับนามนับไม่ได้ ใช้ `a little water` ในประโยคบอกเล่า เช่น `There is a little water.`"
+      },
+      {
+        "index": 4,
+        "text": "several",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "**several** หมายถึง \"หลาย\" และใช้กับนามนับได้พหูพจน์เท่านั้น เช่น `several books` แต่ **water** เป็นนามนับไม่ได้ จึงใช้ **several** ไม่ได้ โครงสร้างที่ถูกคือ `There isn't much water left.`"
+      }
+    ]
+  },
+  {
+    "question": "We have ___ chairs, so some guests must stand.",
+    "question_knowledge_ids": [
+      517,
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "few",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **few** (ไม่มี a) สื่อความหมายเชิงลบว่า \"แทบไม่มี/น้อยจนไม่พอ\" ใช้กับนามนับได้พหูพจน์ โครงสร้างคือ __few + plural countable noun__ เช่น `We have few chairs.` ตัวอย่างใช้จริง: `Few buses run at night, so it's hard to get home.`"
+      },
+      {
+        "index": 2,
+        "text": "a few",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "**a few** หมายถึง \"มีอยู่บ้าง\" (พอมี ใช้ได้) ซึ่งขัดกับส่วนหลังที่บอกว่าต้องมีคนยืน แปลว่าจำนวนไม่พอ จึงควรใช้ **few** มากกว่า เช่น `We have few chairs, so some guests must stand.`"
+      },
+      {
+        "index": 3,
+        "text": "little",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "**little** ใช้กับนามนับไม่ได้ เช่น `little time` แต่ **chairs** เป็นนามนับได้พหูพจน์ จึงใช้ **little** ไม่ได้ ต้องใช้คู่ `few + chairs` เช่น `few chairs`"
+      },
+      {
+        "index": 4,
+        "text": "several",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "**several** แปลว่า \"หลาย\" ซึ่งสื่อว่ามีพอสมควร ขัดกับบริบทที่บอกว่าที่นั่งไม่พอ ถ้าต้องการสื่อว่าไม่เพียงพอควรใช้ **few** เช่น `We have few chairs, so some guests must stand.`"
+      }
+    ]
+  },
+  {
+    "question": "I have ___ time, so we can discuss it now.",
+    "question_knowledge_ids": [
+      517,
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "a little",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **a little** ใช้กับนามนับไม่ได้และมีนัยบวกว่า \"มีอยู่บ้าง (พอใช้)\" โครงสร้างคือ __a little + uncountable noun__ เช่น `I have a little time.` ตัวอย่าง: `We have a little money, so we can buy snacks.`"
+      },
+      {
+        "index": 2,
+        "text": "little",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "**little** (ไม่มี a) มีนัยลบว่า \"แทบไม่มี/ไม่พอ\" ซึ่งขัดกับประโยคที่ตามมาว่าเราคุยได้ตอนนี้ ถ้าต้องการสื่อว่าพอมี ควรใช้ **a little** เช่น `I have a little time, so we can discuss it now.`"
+      },
+      {
+        "index": 3,
+        "text": "a few",
+        "knowledge_ids": [
+          520,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "**a few** ใช้กับคำนามนับได้พหูพจน์ เช่น `a few minutes` แต่คำว่า **time** เป็นนามนับไม่ได้ จึงไม่เข้ากัน หากอยากใช้คำนามนับได้ ให้เปลี่ยนเป็น `a few minutes` ได้"
+      },
+      {
+        "index": 4,
+        "text": "many",
+        "knowledge_ids": [
+          520,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "**many** ใช้กับนามนับได้พหูพจน์ เช่น `many books` แต่ **time** เป็นนามนับไม่ได้ จึงควรใช้ `much time` (โดยเฉพาะในปฏิเสธ/คำถาม) หรือ `a little time` ในบอกเล่าแบบนี้"
+      }
+    ]
+  },
+  {
+    "question": "He didn't give me ___ information.",
+    "question_knowledge_ids": [
+      193,
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "much",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **information** เป็นนามนับไม่ได้ และในประโยคปฏิเสธนิยมใช้ **much** โครงสร้างคือ __not + much + uncountable noun__ เช่น `He didn't give me much information.` อีกตัวอย่าง: `We don't have much time.`"
+      },
+      {
+        "index": 2,
+        "text": "many",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "**many** ใช้กับนามนับได้พหูพจน์ แต่ **information** เป็นนามนับไม่ได้ จึงใช้ไม่ได้ ถ้าจะพูดให้เป็นนับได้ต้องใช้คำว่า `many pieces of information` แทน เช่น `He didn't give me many pieces of information.`"
+      },
+      {
+        "index": 3,
+        "text": "a few",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "**a few** ใช้กับนามนับได้พหูพจน์ เช่น `a few details` แต่คำว่า **information** นับไม่ได้ จึงไม่เข้ากัน ประโยคปฏิเสธแบบนี้ใช้ `much information` จะถูกกว่า"
+      },
+      {
+        "index": 4,
+        "text": "several",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "**several** ตามด้วยนามนับได้พหูพจน์ เช่น `several questions` แต่ **information** เป็นนามนับไม่ได้ จึงใช้ไม่ได้ หากอยากนับได้ให้เปลี่ยนเป็น `several pieces of information`"
+      }
+    ]
+  },
+  {
+    "question": "___ option is fine for me.",
+    "question_knowledge_ids": [
+      520
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Either",
+        "knowledge_ids": [
+          520
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **either** ใช้กับตัวเลือก 2 ตัว หมายถึง \"ตัวไหนก็ได้\" โครงสร้างคือ __either + singular noun__ เช่น `Either option is fine for me.` ตัวอย่างเพิ่มเติม: `You can sit on either side.`"
+      },
+      {
+        "index": 2,
+        "text": "Neither",
+        "knowledge_ids": [
+          520
+        ],
+        "is_correct": false,
+        "answer_description": "**neither** หมายถึง \"ไม่ทั้งสอง\" ซึ่งขัดกับความหมายประโยคที่ว่าทางไหนก็โอเค ถ้าจะสื่อว่าไม่เอาทั้งสองต้องใช้ `Neither option is acceptable.` แต่ประโยคนี้ต้องการ **Either**"
+      },
+      {
+        "index": 3,
+        "text": "Both",
+        "knowledge_ids": [
+          520
+        ],
+        "is_correct": false,
+        "answer_description": "**both** ใช้กับนามพหูพจน์ เช่น `both options are...` และตามด้วยกริยาเอกพจน์ไม่ได้ ประโยคนี้ใช้รูปเอกพจน์ `is` จึงไม่เข้ากัน ทางที่ถูกคือ `Either option is...`"
+      },
+      {
+        "index": 4,
+        "text": "Any",
+        "knowledge_ids": [
+          520
+        ],
+        "is_correct": false,
+        "answer_description": "**any** มักใช้กับจำนวนตัวเลือกที่ไม่จำกัดหรือมากกว่า 2 และโครงสร้างมักเป็น `any + plural noun` เช่น `Any options are fine` (แต่ฟังดูแปลก) สำหรับกรณีมี 2 ตัวเลือก ใช้ **either** จะชัดและถูกต้องกว่า"
+      }
+    ]
+  },
+  {
+    "question": "___ the students has a locker.",
+    "question_knowledge_ids": [
+      519,
+      520,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Each of",
+        "knowledge_ids": [
+          519,
+          380
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง __each of + plural noun + singular verb__ เช่น `Each of the students has a locker.` ใช้ **each of** เมื่อต้องการเน้นทีละคน ตัวอย่าง: `Each of the employees has an ID card.`"
+      },
+      {
+        "index": 2,
+        "text": "Every of",
+        "knowledge_ids": [
+          519
+        ],
+        "is_correct": false,
+        "answer_description": "**every of** เป็นรูปผิด ไม่นิยมใช้ `every of + noun` ให้ใช้ `every + singular noun` เช่น `Every student has a locker.` หรือใช้ `each of the + plural noun` ตามประโยคนี้"
+      },
+      {
+        "index": 3,
+        "text": "All of",
+        "knowledge_ids": [
+          520
+        ],
+        "is_correct": false,
+        "answer_description": "**all of** ต้องใช้กับกริยาพหูพจน์ เช่น `All of the students have lockers.` แต่ในประโยคนี้ตามด้วย `has` (เอกพจน์) จึงไม่เข้ากัน หากจะใช้ **all of** ให้เปลี่ยนกริยาเป็น `have`"
+      },
+      {
+        "index": 4,
+        "text": "Either of",
+        "knowledge_ids": [
+          520
+        ],
+        "is_correct": false,
+        "answer_description": "**either of** ใช้กับตัวเลือก 2 อย่างเท่านั้น และโดยมากกริยาเป็นเอกพจน์ในภาษาพูด เช่น `Either of the options is fine.` แต่ที่นี่พูดถึงนักเรียนหลายคน จึงควรใช้ `Each of the students has...`"
+      }
+    ]
+  },
+  {
+    "question": "___ of my parents are teachers.",
+    "question_knowledge_ids": [
+      520
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Both",
+        "knowledge_ids": [
+          520
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **both of + plural noun/pronoun + plural verb** เช่น __Both of__ my parents __are__ teachers. โครงสร้างนี้สื่อว่า \"ทั้งสองคน\" ตัวอย่างเพิ่ม: `Both of the books are interesting.`"
+      },
+      {
+        "index": 2,
+        "text": "Either",
+        "knowledge_ids": [
+          520
+        ],
+        "is_correct": false,
+        "answer_description": "**either** หมายถึง \"คนใดคนหนึ่ง\" (หนึ่งในสอง) และมักตามด้วยกริยาเอกพจน์ เช่น `Either of my parents is...` ซึ่งไม่ตรงกับความหมายว่า \"ทั้งสองคนเป็นครู\" จึงผิด"
+      },
+      {
+        "index": 3,
+        "text": "Neither",
+        "knowledge_ids": [
+          520
+        ],
+        "is_correct": false,
+        "answer_description": "**neither** หมายถึง \"ไม่ทั้งสอง\" และมักตามด้วยกริยาเอกพจน์ เช่น `Neither of my parents is...` ซึ่งความหมายตรงข้ามกับโจทย์ ดังนั้นใช้ **Both** จึงถูก"
+      },
+      {
+        "index": 4,
+        "text": "Any",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "**any** มักใช้กับจำนวนไม่จำกัดหรือมากกว่า 2 และไม่ได้สื่อความหมายว่า \"ทั้งสอง\" ตามโจทย์ หากต้องการสื่อว่าทั้งสองคน ให้ใช้ **both (of)** เช่น `Both of my parents are teachers.`"
+      }
+    ]
+  },
+  {
+    "question": "How ___ money do you need?",
+    "question_knowledge_ids": [
+      195,
+      574,
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "much",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **much** กับนามนับไม่ได้ในคำถาม โครงสร้างคือ __How much + uncountable noun + do/does + subject + need?__ เช่น `How much money do you need?` ตัวอย่างเพิ่ม: `How much time do we have?`"
+      },
+      {
+        "index": 2,
+        "text": "many",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "**many** ใช้กับนามนับได้พหูพจน์ เช่น `How many books...` แต่ **money** เป็นนามนับไม่ได้ จึงต้องใช้ **much** เช่น `How much money do you need?`"
+      },
+      {
+        "index": 3,
+        "text": "few",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "**few** เป็นตัวบอกปริมาณกับนามนับได้พหูพจน์ และไม่ใช้ในโครงสร้างคำถามแบบนี้ ถ้าจะถามปริมาณกับนามนับไม่ได้ต้องใช้ `How much + noun` เช่น `How much sugar do you need?`"
+      },
+      {
+        "index": 4,
+        "text": "little",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "**little** ใช้ในบอกเล่า/บรรยายความหมายว่า \"แทบไม่มี\" ไม่ใช่คำถาม \"เท่าไหร่\" โครงสร้างคำถามควรใช้ `How much + uncountable noun` เช่น `How much money do you need?`"
+      }
+    ]
+  },
+  {
+    "question": "Would you like ___ tea?",
+    "question_knowledge_ids": [
+      197,
+      518,
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "some",
+        "knowledge_ids": [
+          518,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เวลาเสนอ/เชิญชวน มักใช้ **some** กับนามนับไม่ได้หรือพหูพจน์ โครงสร้างคือ __Would you like + some + noun?__ เช่น `Would you like some tea?` ตัวอย่างเพิ่มเติม: `Would you like some cookies?`"
+      },
+      {
+        "index": 2,
+        "text": "any",
+        "knowledge_ids": [
+          518
+        ],
+        "is_correct": false,
+        "answer_description": "**any** ใช้บ่อยในคำถามทั่วไป แต่ในประโยคเชิญ/เสนอแบบสุภาพ นิยมใช้ **some** มากกว่า เช่น `Would you like some tea?` การใช้ `any` จะฟังดูเป็นการถามเชิงตรวจสอบมากกว่าเชิญชวน"
+      },
+      {
+        "index": 3,
+        "text": "much",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "**much** ต้องตามด้วยนามและอยู่ในโครงสร้างอื่น เช่น `How much tea...?` ไม่ได้ใช้เดี่ยวๆในช่องว่างนี้ ประโยคเชิญชวนควรใช้ `some tea` จึงจะเป็นธรรมชาติ"
+      },
+      {
+        "index": 4,
+        "text": "many",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "**many** ใช้กับนามนับได้พหูพจน์ แต่ **tea** เป็นนามนับไม่ได้ จึงใช้ไม่ได้ ถ้าจะใช้กับนับได้อาจพูด `many cups of tea` แต่ในที่นี้ใช้ `some tea` จะถูกต้องกว่า"
+      }
+    ]
+  },
+  {
+    "question": "We have ___ milk in the fridge.",
+    "question_knowledge_ids": [
+      530,
+      517,
+      518,
+      521
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "no",
+        "knowledge_ids": [
+          521
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **no + noun** กับประโยคบอกเล่าเพื่อให้ความหมายปฏิเสธ โครงสร้างคือ __subject + have/has + no + noun__ เช่น `We have no milk in the fridge.` ตัวอย่างเพิ่ม: `There is no sugar on the shelf.`"
+      },
+      {
+        "index": 2,
+        "text": "any",
+        "knowledge_ids": [
+          518
+        ],
+        "is_correct": false,
+        "answer_description": "**any** ต้องใช้กับประโยคปฏิเสธหรือคำถาม เช่น `We don't have any milk.` หรือ `Do we have any milk?` แต่ประโยคนี้เป็นบอกเล่าเชิงปฏิเสธเชิงเดียว ควรใช้ **no**"
+      },
+      {
+        "index": 3,
+        "text": "some",
+        "knowledge_ids": [
+          518
+        ],
+        "is_correct": false,
+        "answer_description": "**some** ในบอกเล่าหมายถึง \"มีบ้าง\" ซึ่งขัดกับความหมายที่ต้องการสื่อว่าไม่มีนม ถ้าต้องการบอกว่าไม่มีเลย ใช้ `no milk` หรือใช้รูปปฏิเสธ `don't have any milk`"
+      },
+      {
+        "index": 4,
+        "text": "little",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "**little** หมายถึง \"แทบไม่มี\" กับนามนับไม่ได้ เช่น `We have little milk.` แต่ประโยคนี้เจาะจงว่าตู้เย็นไม่มีเลย จึงใช้ **no** จะชัดเจนกว่า ถ้าต้องการสื่อว่าน้อยมากแต่ยังพอมี ค่อยใช้ `a little milk`"
+      }
+    ]
+  }
+]

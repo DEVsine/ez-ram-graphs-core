@@ -1,0 +1,292 @@
+[
+  {
+    "question": "I ___ call you later.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปแบบ Future Simple คือ __will + กริยารูปฐาน (base form)__ ไม่มี to และไม่เติม s เช่น `I will call you later.` ใช้ได้ทั้งทุกประธาน เช่น `She will call.` หรือ `They will call.`"
+      },
+      {
+        "index": 2,
+        "text": "will to",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **will** ต้องตามด้วยกริยา **รูปฐาน** ไม่ใช้ `to` รูปที่ถูกคือ `will call` ไม่ใช่ `will to call` เช่น: `I will call you.`"
+      },
+      {
+        "index": 3,
+        "text": "will calls",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **will** ห้ามเติม s ที่กริยา กริยาต้องเป็นรูปฐานเสมอ เช่นควรเป็น `will call` ไม่ใช่ `will calls` ตัวอย่างที่ถูก: `She will call later.`"
+      },
+      {
+        "index": 4,
+        "text": "am will",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา **be (am/is/are)** มาใช้ร่วมกับ **will** โดยไม่จำเป็น โครงสร้าง Future Simple ไม่ต้องใช้ be หน้ากริยาแบบนี้ ควรเป็น `I will call…` ไม่ใช่ `I am will call…`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ be late for the meeting.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคนี้ต้องตามด้วยกริยา **be** เพื่อเชื่อมกับ adjective `late` รูปที่ถูกคือ `will be` เช่น `She will be late.`"
+      },
+      {
+        "index": 2,
+        "text": "will be",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อกริยาหลักคือ **be** ให้ใช้รูป __will + be__ เช่น `She will be late for the meeting.` ใช้กับคำนามหรือคุณศัพท์ได้ เช่น `He will be a teacher.`"
+      },
+      {
+        "index": 3,
+        "text": "will is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **is** เป็นรูปของ be ในปัจจุบัน หลัง **will** ต้องใช้รูปฐาน **be** เท่านั้น ตัวอย่างที่ถูก: `She will be late.`"
+      },
+      {
+        "index": 4,
+        "text": "will being",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **will** ห้ามใช้ V-ing ใน Future Simple ต้องใช้รูปฐาน เช่น `will be` ไม่ใช่ `will being` ตัวอย่างที่ถูก: `They will be happy.`"
+      }
+    ]
+  },
+  {
+    "question": "___ you help me with this?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด คำถามอนาคตใช้ **will** ไม่ใช้ **do/does** โครงสร้างต้องเป็น `Will + subject + base verb?` เช่น `Will you help me?`"
+      },
+      {
+        "index": 2,
+        "text": "Are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Are you help…` ใช้ไม่ได้ และรูปอนาคตของ Future Simple ต้องใช้ **will** ไม่ใช่ be + V1 รูปที่ถูกคือ `Will you help me?`"
+      },
+      {
+        "index": 3,
+        "text": "Will",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคำถาม Future Simple คือ __Will + subject + base verb?__ เช่น `Will you help me with this?` คำตอบสั้นๆ ก็ทำได้: `Yes, I will.` หรือ `No, I won’t.`"
+      },
+      {
+        "index": 4,
+        "text": "Shall",
+        "is_correct": false,
+        "answer_description": "เกือบได้ แต่ **shall** ใช้ได้จำกัดกับ **I/We** เป็นภาษาทางการหรือข้อเสนอ เช่น `Shall we go?` ที่นี่ประธานคือ `you` จึงควรใช้ `Will you…?`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ not attend the event.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะต้องการรูป **ปฏิเสธ** ต้องมี `not` หลัง will โครงสร้างควรเป็น `will not` หรือ `won’t` เช่น `They will not attend.`"
+      },
+      {
+        "index": 2,
+        "text": "will not",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปปฏิเสธของ Future Simple คือ __will not + base verb__ (ย่อได้เป็น `won’t`) เช่น `They will not attend the event.` หรือ `They won’t attend.`"
+      },
+      {
+        "index": 3,
+        "text": "don’t will",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา **do** มาใช้กับ **will** ซึ่งผิดโครงสร้าง ไม่ใช้ `don’t will` แต่ใช้ `will not` เช่น `They will not attend.`"
+      },
+      {
+        "index": 4,
+        "text": "aren’t will",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะผสม **be (are)** กับ **will** แบบผิด ตำแหน่งและรูปไม่ถูกต้อง ควรเป็น `They will not attend.` หรือ `They won’t attend.`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ be there at 8 p.m.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "’ll",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง การย่อของ `will` กับประธาน `I` คือ __I’ll__ โครงสร้างยังคงเป็น __will + base verb__ เช่น `I’ll be there at 8 p.m.` หรือ `I’ll call you.`"
+      },
+      {
+        "index": 2,
+        "text": "’m",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `I’m be there` ใช้ไม่ได้ ถ้าจะพูดอนาคตใน Future Simple ต้องใช้ `I will/I’ll be…` เช่น `I’ll be there.`"
+      },
+      {
+        "index": 3,
+        "text": "’s will",
+        "is_correct": false,
+        "answer_description": "ผิด โครงสร้างการย่อแบบนี้ไม่มีในภาษาอังกฤษ และไม่ควรวาง `will` หลัง `’s` รูปที่ถูกคือ `I’ll be…`"
+      },
+      {
+        "index": 4,
+        "text": "will be’s",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเติม `’s` ต่อท้ายกริยา ซึ่งไม่มีในโครงสร้าง Future Simple รูปถูกคือ `will be` เช่น `I will be there.`"
+      }
+    ]
+  },
+  {
+    "question": "We will ___ the report tomorrow.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "finish",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง หลัง **will** ใช้กริยา **รูปฐาน** เสมอ โครงสร้างคือ __will + base verb__ เช่น `We will finish the report tomorrow.` และ `They will start soon.`"
+      },
+      {
+        "index": 2,
+        "text": "to finish",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **will** ห้ามใช้ `to` ต้องใช้กริยารูปฐาน เช่น `will finish` ไม่ใช่ `will to finish` ตัวอย่างที่ถูก: `We will finish it.`"
+      },
+      {
+        "index": 3,
+        "text": "finishes",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะห้ามเติม s หลัง **will** กริยาต้องเป็นรูปฐาน เช่น `will finish` ไม่ใช่ `will finishes` ตัวอย่างที่ถูก: `She will finish soon.`"
+      },
+      {
+        "index": 4,
+        "text": "finishing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **V-ing** ไม่ใช้หลัง **will** ใน Future Simple ต้องเป็นรูปฐาน เช่น `will finish` ไม่ใช่ `will finishing`"
+      }
+    ]
+  },
+  {
+    "question": "___ he arrive on time?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Will",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำถามอนาคตใช้โครงสร้าง __Will + subject + base verb?__ เช่น `Will he arrive on time?` คำตอบสั้น: `Yes, he will.` หรือ `No, he won’t.`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Does he arrive…?` เป็นปัจจุบัน ไม่ใช่อนาคต ถ้าจะใช้อนาคตต้องเป็น `Will he arrive…?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Is he arrive…?` โครงสร้างไม่ถูก และไม่ใช่อนาคตแบบ Future Simple รูปที่ถูกคือ `Will he arrive on time?`"
+      },
+      {
+        "index": 4,
+        "text": "Will does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะห้ามใช้ **will** คู่กับ **do/does** ในประโยคคำถาม ใช้ `Will + subject + base verb` ก็พอ เช่น `Will he arrive…?`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ probably finish early.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตำแหน่ง adverb อย่าง **probably** มักวางหลัง **will** และก่อนกริยา รูปแบบคือ __will + adverb + base verb__ เช่น `They will probably finish early.`"
+      },
+      {
+        "index": 2,
+        "text": "probably will",
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะ เพราะใน Future Simple โดยทั่วไปวาง adverb ไว้หลัง **will** ไม่ใช่หน้ามัน โครงสร้างที่เป็นธรรมชาติคือ `will probably finish` เช่น `They will probably finish early.`"
+      },
+      {
+        "index": 3,
+        "text": "will to",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **will** ไม่ใช้ `to` และยังวาง adverb ไม่ถูกด้วย รูปที่ถูกคือ `will probably finish`"
+      },
+      {
+        "index": 4,
+        "text": "will finishing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **will** ต้องใช้กริยารูปฐาน ไม่ใช่ V-ing รูปถูกคือ `will finish` เช่น `They will finish early.`"
+      }
+    ]
+  },
+  {
+    "question": "No worries — I ___ help you with that.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "won’t",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะบริบทคือการเสนอความช่วยเหลือ ควรเป็นประโยคบอกเล่าไม่ใช่ปฏิเสธ `won’t` แปลว่า \"จะไม่\" ซึ่งขัดกับความหมายที่ต้องการ"
+      },
+      {
+        "index": 2,
+        "text": "will",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __will + base verb__ เพื่อเสนอความช่วยเหลือหรือสัญญา เช่น `I will help you with that.` หรือแบบย่อ `I’ll help you.`"
+      },
+      {
+        "index": 3,
+        "text": "am will",
+        "is_correct": false,
+        "answer_description": "ผิด โครงสร้าง Future Simple ไม่ใช้ **be + will** ต้องใช้ `will + V1` ตรงๆ เช่น `I will help you.`"
+      },
+      {
+        "index": 4,
+        "text": "help",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดตัวช่วยแสดงอนาคต (**will**) ทำให้ไม่เป็น Future Simple รูปที่ถูกคือ `I will help you.`"
+      }
+    ]
+  },
+  {
+    "question": "___, we’ll send you the invoice tomorrow.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Don’t worry",
+        "is_correct": false,
+        "answer_description": "ไม่ตรงจุดทดสอบโครงสร้าง แม้จะเป็นวลีถูกต้อง แต่ช่องว่างนี้ตั้งใจทดสอบรูปย่อของ `we will` ในประโยคหลักที่ตามมา"
+      },
+      {
+        "index": 2,
+        "text": "Yes",
+        "is_correct": false,
+        "answer_description": "ไม่เกี่ยวกับโครงสร้าง Future Simple ที่ตามมา ประโยคนี้ต้องการคอมม่าตามด้วยอนุประโยคหลักซึ่งมี `we’ll send…` อยู่แล้ว"
+      },
+      {
+        "index": 3,
+        "text": "Tomorrow",
+        "is_correct": false,
+        "answer_description": "แม้จะเป็นคำบอกเวลาอนาคต แต่ในประโยคนี้ได้ใส่ `tomorrow` ไว้ท้ายแล้ว จึงซ้ำซ้อนและไม่ใช่คำที่ถูกออกแบบให้เติม"
+      },
+      {
+        "index": 4,
+        "text": "Sure",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างหลักคือ `we’ll send…` ซึ่งเป็นรูปย่อของ __will + base verb__: `we will send` เช่น `Sure, we’ll send you the invoice tomorrow.` แสดงรูปแบบ Future Simple ได้ชัดเจน"
+      }
+    ]
+  }
+]

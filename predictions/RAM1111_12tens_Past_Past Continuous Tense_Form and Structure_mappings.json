@@ -1,0 +1,517 @@
+[
+  {
+    "question": "At 8 p.m. yesterday, he ___ TV.",
+    "question_knowledge_ids": [
+      251,
+      259,
+      266,
+      262
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was watching",
+        "knowledge_ids": [
+          251,
+          259,
+          262
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะรูป Past Continuous ใช้ **__was/were + V-ing__** เพื่อบอกว่ากำลังทำสิ่งใดสิ่งหนึ่งอยู่ในช่วงเวลาหนึ่งในอดีต เช่น `He was watching TV at 8 p.m.` ตัวอย่างใช้จริง: `At 9 last night, I was reading a book.`"
+      },
+      {
+        "index": 2,
+        "text": "watched",
+        "knowledge_ids": [
+          266,
+          306,
+          311
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `watched` เป็นรูป **Past Simple** ใช้บอกเหตุการณ์เสร็จสิ้น ไม่เน้น “กำลัง” เช่น `He watched TV last night.` แต่โจทย์มีเวลาเฉพาะ `at 8 p.m.` ที่สื่อว่ากำลังทำอยู่ ควรใช้ `was watching`"
+      },
+      {
+        "index": 3,
+        "text": "is watching",
+        "knowledge_ids": [
+          318,
+          328
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `is watching` เป็น **Present Continuous** ใช้กับตอนนี้ ไม่ใช่อดีต คำว่า `yesterday` ชี้ชัดว่าเป็นอดีต ต้องใช้ `was watching` เช่น `Yesterday at 8, he was watching TV.`"
+      },
+      {
+        "index": 4,
+        "text": "were watching",
+        "knowledge_ids": [
+          380,
+          509
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **he** เป็นเอกพจน์ ต้องใช้ **was** ไม่ใช่ **were** โครงสร้างที่ถูกคือ `he was watching` เช่น `He was watching TV at 8 p.m.`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ for the test; they were playing games.",
+    "question_knowledge_ids": [
+      251,
+      253,
+      304,
+      320
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "weren't studying",
+        "knowledge_ids": [
+          304,
+          320,
+          251
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างปฏิเสธของ Past Continuous คือ **__was/were + not + V-ing__** เช่น `They weren't studying.` ใช้เมื่อต้องการบอกว่า “ตอนนั้นไม่ได้กำลังทำ” ตัวอย่าง: `We weren't working at 10 p.m.`"
+      },
+      {
+        "index": 2,
+        "text": "didn't study",
+        "knowledge_ids": [
+          300,
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple (ปฏิเสธ)** `didn't + V1` ไม่ได้เน้น “กำลังทำ” ณ ช่วงเวลาในอดีต ประโยคนี้เปรียบเทียบกับ `they were playing` ซึ่งเป็น continuous จึงควรใช้ `weren't studying`"
+      },
+      {
+        "index": 3,
+        "text": "wasn't studying",
+        "knowledge_ids": [
+          364,
+          338
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ **wasn't** กับประธานเอกพจน์ แต่ประธานคือ **They** (พหูพจน์) ต้องใช้ **weren't** โครงสร้างที่ถูก: `They weren't studying.`"
+      },
+      {
+        "index": 4,
+        "text": "not studying",
+        "knowledge_ids": [
+          317,
+          264
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยา **be** ใน Past Continuous โครงสร้างต้องเป็น `were not + V-ing` เช่น `They weren't studying.` ไม่ใช่เดี่ยวๆ `not studying`"
+      }
+    ]
+  },
+  {
+    "question": "What ___ at 6 last night?",
+    "question_knowledge_ids": [
+      195,
+      288,
+      251,
+      259
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "were you doing",
+        "knowledge_ids": [
+          195,
+          322,
+          251
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปคำถามของ Past Continuous คือ **__Was/Were + subject + V-ing?__** เช่น `What were you doing at 6?` ใช้ถามว่ากำลังทำอะไรในช่วงเวลาอดีต"
+      },
+      {
+        "index": 2,
+        "text": "did you do",
+        "knowledge_ids": [
+          391,
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นคำถาม **Past Simple** ซึ่งถามเหตุการณ์เสร็จสิ้น ไม่เน้นลักษณะกำลังทำ ถ้าจะถามลักษณะกำลังทำ ควรใช้ `were you doing` เช่น `What were you doing at 6?`"
+      },
+      {
+        "index": 3,
+        "text": "are you doing",
+        "knowledge_ids": [
+          302,
+          328
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous** ใช้กับปัจจุบัน แต่โจทย์มี `last night` เป็นอดีต จึงต้องใช้ `were you doing`"
+      },
+      {
+        "index": 4,
+        "text": "was you doing",
+        "knowledge_ids": [
+          292,
+          383,
+          338
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **you** ต้องใช้ **were** ไม่ใช่ **was** โครงสร้างถูกคือ `Were you doing...?` เช่น `What were you doing at 6?`"
+      }
+    ]
+  },
+  {
+    "question": "While I ___ dinner, the phone rang.",
+    "question_knowledge_ids": [
+      253,
+      260,
+      251
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was cooking",
+        "knowledge_ids": [
+          253,
+          251
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างเมื่อใช้ `while` นิยมตามด้วยเหตุการณ์ที่ **กำลังดำเนินอยู่** ในอดีต ใช้ **__was/were + V-ing__** เช่น `While I was cooking, the phone rang.`"
+      },
+      {
+        "index": 2,
+        "text": "cooked",
+        "knowledge_ids": [
+          266,
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `while` มักตามด้วยเหตุการณ์ที่กำลังดำเนินอยู่ (continuous) ไม่ใช่ Past Simple ตัวอย่างที่ถูก: `While I was cooking, the phone rang.`"
+      },
+      {
+        "index": 3,
+        "text": "am cooking",
+        "knowledge_ids": [
+          318,
+          328
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous** แต่เหตุการณ์เป็นอดีต (สังเกต `rang`) จึงควรใช้ Past Continuous `was cooking`"
+      },
+      {
+        "index": 4,
+        "text": "were cooking",
+        "knowledge_ids": [
+          383,
+          338
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **I** ต้องใช้ **was** ไม่ใช่ **were** รูปที่ถูกคือ `I was cooking`"
+      }
+    ]
+  },
+  {
+    "question": "In high school, she ___ always talking in class.",
+    "question_knowledge_ids": [
+      333,
+      316,
+      251,
+      262
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was always talking",
+        "knowledge_ids": [
+          333,
+          251,
+          262
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง การวาง **adverb of frequency** (เช่น always) กับ continuous ให้วางหลังกริยา **be**: **__be + adverb + V-ing__** เช่น `She was always talking in class.` ใช้สื่อความรู้สึกบ่อยจนรำคาญก็ได้"
+      },
+      {
+        "index": 2,
+        "text": "always was talking",
+        "knowledge_ids": [
+          316
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะวาง adverb ไว้หน้ากริยา **be** ซึ่งไม่เป็นธรรมชาติ โครงสร้างควรเป็น `was + always + V-ing` เช่น `was always talking`"
+      },
+      {
+        "index": 3,
+        "text": "was talking always",
+        "knowledge_ids": [
+          316
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา adverb ไปไว้ท้ายเกินไป รูปมาตรฐานคือ `be + adverb + V-ing` เช่น `was always talking` ไม่ใช่ `was talking always`"
+      },
+      {
+        "index": 4,
+        "text": "were always talking",
+        "knowledge_ids": [
+          383,
+          338
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **she** เป็นเอกพจน์ ต้องใช้ **was** ไม่ใช่ **were** รูปที่ถูกคือ `she was always talking`"
+      }
+    ]
+  },
+  {
+    "question": "At that moment, he ___ at his desk.",
+    "question_knowledge_ids": [
+      251,
+      259,
+      262
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was sitting",
+        "knowledge_ids": [
+          251,
+          262
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ Past Continuous: **__was/were + V-ing__** เพื่อบอกว่ากำลังทำอยู่ ณ ช่วงเวลาหนึ่ง เช่น `He was sitting at his desk.` ตัวอย่าง: `They were sitting quietly when I entered.`"
+      },
+      {
+        "index": 2,
+        "text": "was siting",
+        "knowledge_ids": [
+          291,
+          349
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสะกดรูป **V-ing** ของ `sit` ไม่ถูก ต้องเป็นการซ้ำตัวสะกดท้าย: `sitting` ตัวอย่างที่ถูก: `He was sitting at his desk.`"
+      },
+      {
+        "index": 3,
+        "text": "were sitting",
+        "knowledge_ids": [
+          383,
+          338
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **he** ต้องใช้ **was** ไม่ใช่ **were** โครงสร้างที่ถูกคือ `he was sitting`"
+      },
+      {
+        "index": 4,
+        "text": "sat",
+        "knowledge_ids": [
+          266,
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `sat` เป็น **Past Simple** ไม่แสดงลักษณะ “กำลังนั่งอยู่” ณ ขณะนั้น ต้องใช้ `was sitting` เพื่อเน้นกำลังดำเนินอยู่"
+      }
+    ]
+  },
+  {
+    "question": "The bridge ___ at that time.",
+    "question_knowledge_ids": [
+      251,
+      290,
+      267,
+      262
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was being repaired",
+        "knowledge_ids": [
+          290,
+          267,
+          251,
+          262
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง นี่คือรูป **Passive** ของ Past Continuous: **__was/were being + past participle (V3)__** เช่น `The bridge was being repaired.` ใช้เมื่อเน้นการกระทำที่กำลังเกิดขึ้นกับประธาน"
+      },
+      {
+        "index": 2,
+        "text": "was repairing",
+        "knowledge_ids": [
+          290,
+          553
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปนี้เป็น Active แปลว่าสะพาน “กำลังซ่อมอะไรบางอย่าง” ซึ่งไม่สมเหตุผล ถ้าจะบอกว่าสะพานถูกซ่อม ต้องเป็น Passive: `was being repaired`"
+      },
+      {
+        "index": 3,
+        "text": "were being repaired",
+        "knowledge_ids": [
+          290,
+          383,
+          338
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **The bridge** เป็นเอกพจน์ ต้องใช้ **was** ไม่ใช่ **were** รูปที่ถูก: `was being repaired`"
+      },
+      {
+        "index": 4,
+        "text": "was repaired",
+        "knowledge_ids": [
+          290,
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple Passive** ไม่ได้สื่อว่า “กำลังถูกซ่อมอยู่” ณ ช่วงเวลานั้น ถ้าต้องการเน้นกำลังเกิดขึ้น ใช้ `was being repaired`"
+      }
+    ]
+  },
+  {
+    "question": "___ they talking to the manager at 3 p.m.?",
+    "question_knowledge_ids": [
+      194,
+      305,
+      263
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Were",
+        "knowledge_ids": [
+          305,
+          263
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคำถาม Past Continuous คือ **__Was/Were + subject + V-ing?__** ดังนั้นขึ้นต้นด้วย `Were` เช่น `Were they talking to the manager at 3 p.m.?`"
+      },
+      {
+        "index": 2,
+        "text": "Was",
+        "knowledge_ids": [
+          305,
+          262
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **they** เป็นพหูพจน์ ต้องใช้ **were** ไม่ใช่ **was** ตัวอย่างที่ถูก: `Were they talking...?`"
+      },
+      {
+        "index": 3,
+        "text": "Did",
+        "knowledge_ids": [
+          439,
+          381
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Did` ใช้กับ **Past Simple** ไม่ใช่ Past Continuous รูปคำถามที่ถูกคือ `Were they talking...?`"
+      },
+      {
+        "index": 4,
+        "text": "Are",
+        "knowledge_ids": [
+          305,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Are` เป็นปัจจุบัน (Present) แต่เวลา `at 3 p.m.` ในบริบทอดีตควรใช้ Past Continuous: `Were they talking...?`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ listening, so he missed the instructions.",
+    "question_knowledge_ids": [
+      193,
+      304,
+      251
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "wasn't",
+        "knowledge_ids": [
+          304,
+          251
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคปฏิเสธ Past Continuous ใช้ **__was/were + not + V-ing__** ดังนั้น `He wasn't listening` จึงถูก ตัวอย่าง: `I wasn't paying attention.`"
+      },
+      {
+        "index": 2,
+        "text": "didn't",
+        "knowledge_ids": [
+          300
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `didn't` ใช้กับ **Past Simple** และต้องตามด้วยกริยา V1 (`didn't listen`) แต่บริบทต้องการรูปกำลังกระทำอยู่ จึงควรเป็น `wasn't listening`"
+      },
+      {
+        "index": 3,
+        "text": "weren't",
+        "knowledge_ids": [
+          383,
+          338
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **He** เป็นเอกพจน์ ต้องใช้ **wasn't** ไม่ใช่ **weren't** รูปที่ถูก: `He wasn't listening`"
+      },
+      {
+        "index": 4,
+        "text": "not",
+        "knowledge_ids": [
+          317,
+          264
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยา **be** และกริยา **V-ing** โครงสร้างปฏิเสธ Past Continuous ต้องเป็น `was/were + not + V-ing` เช่น `wasn't listening`"
+      }
+    ]
+  },
+  {
+    "question": "Why ___ she crying during the movie?",
+    "question_knowledge_ids": [
+      195,
+      288,
+      251,
+      262
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was she",
+        "knowledge_ids": [
+          195,
+          322,
+          251,
+          262
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะยังขาดกริยา **V-ing** หลังประธาน โครงสร้างคำถาม Past Continuous ต้องเป็น `Was/Were + subject + V-ing` เช่น `Why was she crying?`"
+      },
+      {
+        "index": 2,
+        "text": "she was crying",
+        "knowledge_ids": [
+          413,
+          288
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสลับลำดับคำผิด รูปคำถามต้อง **ผกผัน** เอา `was` ขึ้นหน้า: `Why was she crying?` ไม่ใช่ `Why she was crying?`"
+      },
+      {
+        "index": 3,
+        "text": "did she cry",
+        "knowledge_ids": [
+          391,
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple** (`did + V1`) ไม่ใช่ Past Continuous ถ้าต้องการถามสิ่งที่กำลังเกิดขึ้น ณ ตอนนั้น ต้องใช้ `was she crying`"
+      },
+      {
+        "index": 4,
+        "text": "was she crying",
+        "knowledge_ids": [
+          195,
+          322,
+          251
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปคำถาม Past Continuous คือ **__Was/Were + subject + V-ing__** เช่น `Why was she crying during the movie?` ใช้ถามสาเหตุของสิ่งที่กำลังเกิดขึ้นในอดีต"
+      }
+    ]
+  }
+]

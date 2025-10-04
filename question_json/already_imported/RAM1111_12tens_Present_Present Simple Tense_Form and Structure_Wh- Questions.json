@@ -1,0 +1,292 @@
+[
+  {
+    "question": "Where ___ you usually have lunch?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "do",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคำถาม Wh- ใน Present Simple คือ __Wh- + do/does + subject + base verb__ เพราะประธานคือ `you` จึงใช้ **do** และกริยาหลักใช้รูปพื้นฐาน `have`. ตัวอย่าง: `Where do you usually have lunch?` ใช้ถามสถานที่ที่กินข้าวเที่ยงเป็นประจำ"
+      },
+      {
+        "index": 2,
+        "text": "does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `does` ใช้กับประธานเอกพจรบุคคลที่สาม (he, she, it) แต่ประธานที่นี่คือ `you`. โครงสร้างที่ถูกคือ **Wh- + do + you + base verb** เช่น `Where do you have lunch?`"
+      },
+      {
+        "index": 3,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่ไม่ใช่ประโยคที่มีกริยา **be** เป็นกริยาหลัก เราถามถึงการกระทำ (have lunch) จึงต้องใช้ **do/does** ช่วย. ตัวอย่างที่ถูก: `Where do you have lunch?` ไม่ใช่ `Where are you have lunch?`"
+      },
+      {
+        "index": 4,
+        "text": "did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `did` เป็นรูปอดีต (Past Simple) แต่หัวข้อนี้คือ **Present Simple** เพื่อพูดถึงกิจวัตร. ตัวอย่างที่ถูกในปัจจุบัน: `Where do you have lunch?` ถ้าเป็นอดีตค่อยใช้ `Where did you have lunch?`"
+      }
+    ]
+  },
+  {
+    "question": "What time ___ the shop open on weekdays?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "does",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธานคือ `the shop` (เอกพจน์) จึงใช้โครงสร้าง __Wh- + does + singular subject + base verb__. กริยาหลัก `open` ต้องเป็นรูปพื้นฐานไม่เติม -s เมื่อมี `does`. ตัวอย่าง: `What time does the shop open on weekdays?`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `the shop` เป็นเอกพจน์ ต้องใช้ **does** ไม่ใช่ **do**. โครงสร้างที่ถูกคือ `What time does the shop open...?` ไม่ใช่ `do the shop open`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจากคำถามนี้ถามถึงการกระทำของกริยาหลัก `open` จึงต้องใช้ **do/does** ช่วย ไม่ใช่ **be**. ตัวอย่างผิด: `What time is the shop open on weekdays?` (จะเปลี่ยนความหมายเป็นสภาพ) ซึ่งต่างจากถามเวลาเปิดตามปกติ"
+      },
+      {
+        "index": 4,
+        "text": "did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `did` เป็นรูปอดีต ไม่ตรงกับ **Present Simple** ที่ใช้พูดถึงตารางเวลาหรือข้อเท็จจริงปัจจุบัน. รูปที่ถูก: `What time does the shop open...?`"
+      }
+    ]
+  },
+  {
+    "question": "Why ___ he study English every day?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "does",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธานคือ `he` จึงใช้โครงสร้าง __Why + does + he + base verb__. กริยาหลักต้องเป็นรูปพื้นฐาน `study` ไม่เติม -s เพราะมี `does` แล้ว. ตัวอย่าง: `Why does he study English every day?`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `he` เป็นเอกพจน์บุคคลที่สาม ต้องใช้ **does** ไม่ใช่ **do**. โครงสร้างที่ถูกคือ `Why does he study...` ไม่ใช่ `Why do he study...`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำถามเกี่ยวกับการกระทำปกติ (study) ต้องใช้ **do/does** ไม่ใช่ **be**. ตัวอย่างถูก: `Why does he study English every day?`"
+      },
+      {
+        "index": 4,
+        "text": "has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **has** เป็นกริยา have ในรูปเอกพจน์ ไม่ใช่ตัวช่วยสำหรับ Present Simple ในคำถามทั่วไป. เราต้องใช้ `does + base verb` เช่น `does + study` ไม่ใช่ `has study`"
+      }
+    ]
+  },
+  {
+    "question": "Who ___ dinner in your family?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "cooks",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อ **Wh- word** ทำหน้าที่เป็นประธาน (เช่น **Who**) เราไม่ใช้ do/does แต่ผันกริยาตามปกติ: __Who + verb (เอกพจน์เติม -s)__ ใน Present Simple. ตัวอย่าง: `Who cooks dinner in your family?` และ `Who makes breakfast at home?`"
+      },
+      {
+        "index": 2,
+        "text": "cook",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเมื่อ **Who** เป็นประธานเดี่ยว กริยาควรใช้รูปเอกพจน์เติม -s คือ `cooks`. โครงสร้างถูกคือ `Who cooks dinner...?` ไม่ใช่ `Who cook dinner...?`"
+      },
+      {
+        "index": 3,
+        "text": "does cook",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเมื่อ **Who** เป็นประธานของประโยคคำถาม เราไม่ใช้ **does** ช่วยในรูปนี้ ควรใช้กริยาหลักผันเอกพจน์ `cooks`. ตัวอย่างผิด: `Who does cook dinner?` (จะกลายเป็นการเน้นย้ำ ไม่ใช่รูปพื้นฐานที่เรียน)"
+      },
+      {
+        "index": 4,
+        "text": "do cook",
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลเดียวกับด้านบน รูป **do + verb** ใช้ในกรณีเน้นย้ำ ไม่ใช่รูปคำถามมาตรฐานเมื่อ **Who** เป็นประธาน. ใช้ `Who cooks...` จบเลยจะถูกต้องกว่า"
+      }
+    ]
+  },
+  {
+    "question": "Where ___ she from?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกริยาหลักคือ **be** เราจึงใช้โครงสร้าง __Wh- + be + subject__. ประธานคือ `she` จึงใช้ `is`: `Where is she from?` ใช้ถามบ้านเกิด/ถิ่นกำเนิด เช่น `She is from Japan.`"
+      },
+      {
+        "index": 2,
+        "text": "does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเมื่อกริยาหลักเป็น **be** เราไม่ใช้ **do/does** ช่วย. รูปที่ถูกต้องคือ `Where is she from?` ไม่ใช่ `Where does she from?`"
+      },
+      {
+        "index": 3,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจากประธานคือ `she` (เอกพจน์) ต้องใช้ `is` ไม่ใช่ `are`. รูปที่ถูกต้อง: `Where is she from?`"
+      },
+      {
+        "index": 4,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลเดียวกับ `does` กริยาหลักเป็น **be** จึงห้ามใช้ **do** ช่วย. ใช้ `is` แทน: `Where is she from?`"
+      }
+    ]
+  },
+  {
+    "question": "How often ___ they play basketball?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "do",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้โครงสร้าง __How often + do/does + subject + base verb__ เพื่อถามความถี่ของกิจวัตร. ประธาน `they` จึงใช้ **do** และกริยาหลักเป็นรูปพื้นฐาน `play`. ตัวอย่าง: `How often do they play basketball?`"
+      },
+      {
+        "index": 2,
+        "text": "does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `they` เป็นพหูพจน์ ต้องใช้ **do** ไม่ใช่ **does**. โครงสร้างถูก: `How often do they play...?`"
+      },
+      {
+        "index": 3,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเราไม่ได้ใช้กริยา **be** ในการถามการกระทำปกติแบบนี้ ต้องใช้ **do/does** ตามด้วยกริยาหลักรูปพื้นฐาน. ตัวอย่างถูก: `How often do they play basketball?`"
+      },
+      {
+        "index": 4,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลเดียวกับตัวเลือก `are` การถามความถี่ของการกระทำต้องใช้ **do/does**, ไม่ใช่ **be**. ใช้ `do` กับ `they` เท่านั้น"
+      }
+    ]
+  },
+  {
+    "question": "What ___ this word mean?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "does",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธานจริงคือ `this word` (เอกพจน์) จึงใช้โครงสร้าง __Wh- + does + singular subject + base verb__. กริยาหลักต้องเป็นรูปพื้นฐาน `mean` ไม่เติม -s. ตัวอย่าง: `What does this word mean?` ใช้ถามความหมายคำศัพท์"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `this word` เป็นเอกพจน์ ต้องใช้ **does** ไม่ใช่ **do**. รูปที่ถูกคือ `What does this word mean?`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคนี้ไม่ใช่โครงสร้าง **be** เราถามการกระทำ/ความหมายของกริยา `mean` จึงต้องใช้ **does** ช่วย. ตัวอย่างถูก: `What does this word mean?`"
+      },
+      {
+        "index": 4,
+        "text": "means",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเมื่อใช้ **does** (ซึ่งควรจะมี) กริยาหลักต้องเป็นรูปพื้นฐาน ไม่ใช่เติม -s. รูปที่ถูกต้อง: `What does this word mean?` ไม่ใช่ `What does this word means?`"
+      }
+    ]
+  },
+  {
+    "question": "Which color ___ you prefer, blue or green?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "do",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้โครงสร้าง __Which + do/does + subject + base verb__ เพราะประธานคือ `you` จึงใช้ **do** และกริยาหลักใช้รูปพื้นฐาน `prefer`. ตัวอย่าง: `Which color do you prefer, blue or green?`"
+      },
+      {
+        "index": 2,
+        "text": "does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `you` ต้องใช้ **do** ไม่ใช่ **does**. โครงสร้างที่ถูกคือ `Which color do you prefer...?`"
+      },
+      {
+        "index": 3,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจากเราถามเกี่ยวกับความชอบ (กริยาหลัก `prefer`) ไม่ใช่สถานะ จึงต้องใช้ **do** ช่วย ไม่ใช่ **be**. ตัวอย่างถูก: `Which color do you prefer?`"
+      },
+      {
+        "index": 4,
+        "text": "did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `did` เป็นอดีตกาล ไม่ตรงกับ **Present Simple** ที่ใช้ถามนิสัยหรือความชอบทั่วไป. ใช้ `do` กับ `you` เท่านั้นในกรณีนี้"
+      }
+    ]
+  },
+  {
+    "question": "How much ___ it cost?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "does",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธานคือ `it` (เอกพจน์) ต้องใช้โครงสร้าง __How much + does + subject + base verb__. กริยาหลัก `cost` เป็นรูปพื้นฐาน ไม่เติม -s เมื่อมี `does`. ตัวอย่าง: `How much does it cost?` ใช้ถามราคา"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `it` ต้องใช้ **does** ไม่ใช่ **do**. รูปถูก: `How much does it cost?`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่ไม่ใช่โครงสร้าง **be** + adjective/ noun แต่เป็นการถามการกระทำของกริยา `cost`. ต้องใช้ **does + cost** แทน เช่น `How much does it cost?`"
+      },
+      {
+        "index": 4,
+        "text": "costs",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเมื่อมีตัวช่วย **does** (ซึ่งต้องมีในคำถามนี้) กริยาหลักต้องเป็นรูปพื้นฐาน ไม่เติม -s. ที่ถูกต้องคือ `does + cost` ไม่ใช่ `does + costs`"
+      }
+    ]
+  },
+  {
+    "question": "When ___ your class start?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "does",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธานคือ `your class` (เอกพจน์เหมือน `it`) จึงใช้โครงสร้าง __When + does + subject + base verb__. กริยาหลัก `start` อยู่รูปพื้นฐานเพราะมี `does`. ตัวอย่าง: `When does your class start?` ใช้ถามเวลาเริ่มคาบเรียน"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `your class` เป็นเอกพจน์ จึงต้องใช้ **does** ไม่ใช่ **do**. รูปที่ถูก: `When does your class start?`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเราถามการกระทำ `start` ไม่ใช่สถานะ จึงต้องใช้ **do/does** ช่วย. ตัวอย่างถูก: `When does your class start?`"
+      },
+      {
+        "index": 4,
+        "text": "starts",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเมื่อมี **does** ในคำถาม กริยาหลักต้องเป็นรูปพื้นฐาน ไม่เติม -s. ที่ถูกต้องคือ `does + start` ไม่ใช่ `does + starts`"
+      }
+    ]
+  }
+]

@@ -1,0 +1,520 @@
+[
+  {
+    "question": "If it ___ tomorrow, we will cancel the picnic.",
+    "question_knowledge_ids": [
+      481,
+      495
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "rains",
+        "knowledge_ids": [
+          495
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้โครงสร้าง __if + present simple, will + base verb__ สำหรับ First Conditional เมื่อพูดถึงเหตุการณ์อนาคตที่มีโอกาสเกิดจริง เช่น `If it rains tomorrow, we will cancel the picnic.` รูป **present simple** (rains) ใน if-clause เป็นมาตรฐาน แม้จะพูดถึงอนาคตก็ตาม."
+      },
+      {
+        "index": 2,
+        "text": "will rain",
+        "knowledge_ids": [
+          495,
+          507
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใน if-clause ห้ามใช้ **will** ใน First Conditional โครงสร้างที่ถูกต้องคือ **if + present simple** ไม่ใช่ `if + will + V` เช่นควรเป็น `If it rains, ...` ไม่ใช่ `If it will rain, ...`."
+      },
+      {
+        "index": 3,
+        "text": "rained",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **rained** เป็น past simple ซึ่งจะพาไปสู่ Second Conditional (เชิงสมมติ) แต่ประโยคนี้พูดถึงอนาคตที่คาดว่าจะเกิดจริง จึงควรใช้ present simple: `If it rains, we will cancel...`."
+      },
+      {
+        "index": 4,
+        "text": "would rain",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิดมาก เพราะ **would** ห้ามอยู่ใน if-clause และยังเป็นรูปสมมติที่ไม่ตรงบริบท โครงสร้างที่ถูกต้อง: **if + present simple** เช่น `If it rains, ...`."
+      }
+    ]
+  },
+  {
+    "question": "You won't pass unless you ___ harder.",
+    "question_knowledge_ids": [
+      486,
+      508
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "study",
+        "knowledge_ids": [
+          486
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **unless = if...not** และต้องใช้ __present simple__ ในเงื่อนไขที่เป็นข้อเท็จจริงทั่วไป เช่น `You won't pass unless you study harder.` ลองเทียบ: `You won't pass if you don't study harder.` ความหมายเหมือนกัน."
+      },
+      {
+        "index": 2,
+        "text": "don't study",
+        "knowledge_ids": [
+          508
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **unless** แปลว่า “ถ้าไม่” อยู่แล้ว ถ้าใส่ **don't** ซ้ำจะกลายเป็นปฏิเสธซ้อน ทำให้ความหมายเพี้ยน เช่น `unless you don't study` = ถ้าคุณไม่ไม่เรียน (สับสน) ควรใช้ `unless you study`."
+      },
+      {
+        "index": 3,
+        "text": "won't study",
+        "knowledge_ids": [
+          495
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะในอนุประโยคเงื่อนไข (after unless/if) ไม่ใช้ **will** ให้ใช้ **present simple** แทน เช่นควรเป็น `unless you study`, ไม่ใช่ `unless you won't study`."
+      },
+      {
+        "index": 4,
+        "text": "studied",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **studied** เป็น past simple ซึ่งไม่ตรงกับโครงสร้างข้อเท็จจริง/นิสัยในปัจจุบันกับ unless ควรใช้ present simple: `unless you study`."
+      }
+    ]
+  },
+  {
+    "question": "If I ___ rich, I would travel the world.",
+    "question_knowledge_ids": [
+      482,
+      498,
+      509
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "am",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคนี้เป็น Second Conditional (สมมติสถานการณ์ตรงข้ามความจริงปัจจุบัน) ต้องใช้ **past simple**/รูปพิเศษของ to be คือ **were** กับทุกประธาน ไม่ใช่ `am`."
+      },
+      {
+        "index": 2,
+        "text": "was",
+        "knowledge_ids": [
+          509
+        ],
+        "is_correct": false,
+        "answer_description": "เกือบถูก แต่สำหรับภาษามาตรฐาน/ทางการ ใน Second Conditional ใช้ **were** กับทุกประธาน (รวม I/he/she/it) เรียกว่า **subjunctive were** เช่น `If I were rich, ...`."
+      },
+      {
+        "index": 3,
+        "text": "were",
+        "knowledge_ids": [
+          482,
+          509
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง Second Conditional คือ __if + past simple, would + base verb__ และกรณี verb to be ใช้รูปพิเศษ **were** กับทุกประธาน เช่น `If I were rich, I would travel the world.` ใช้เมื่อพูดถึงสิ่งที่ไม่เป็นจริงในปัจจุบัน."
+      },
+      {
+        "index": 4,
+        "text": "will be",
+        "knowledge_ids": [
+          495
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **will** ไม่ใช้ใน if-clause และ `will be` ทำให้ความหมายเป็น First Conditional (เหตุการณ์เป็นไปได้จริงในอนาคต) ซึ่งไม่ตรงกับประโยคสมมติปัจจุบันนี้."
+      }
+    ]
+  },
+  {
+    "question": "If they had left earlier, they ___ the train.",
+    "question_knowledge_ids": [
+      433,
+      481
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will catch",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ Third Conditional ใช้กับอดีตที่เปลี่ยนไม่ได้แล้ว ต้องใช้ `would have + V3` ในประโยคหลัก ไม่ใช่ `will catch` ซึ่งเป็นอนาคตธรรมดา."
+      },
+      {
+        "index": 2,
+        "text": "would catch",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปนี้เหมาะกับ Second Conditional (ปัจจุบัน/อนาคตสมมติ) แต่ประโยคนี้พูดถึงเหตุการณ์ในอดีต ควรใช้ `would have + V3` เช่น `would have caught`."
+      },
+      {
+        "index": 3,
+        "text": "would have caught",
+        "knowledge_ids": [
+          433
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง Third Conditional คือ __if + had + V3, would have + V3__ ใช้พูดถึงอดีตที่ไม่เกิดขึ้นจริง เช่น `If they had left earlier, they would have caught the train.`"
+      },
+      {
+        "index": 4,
+        "text": "had caught",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `had caught` เป็น past perfect ใช้ใน if-clause แล้ว แต่ตำแหน่งนี้เป็นประโยคหลัก ต้องใช้ `would have + V3` เช่น `... they would have caught ...`."
+      }
+    ]
+  },
+  {
+    "question": "If I had studied medicine, I ___ a doctor now.",
+    "question_knowledge_ids": [
+      511,
+      485
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกำลังพูดถึงผลในปัจจุบันที่มาจากเงื่อนไขในอดีต (Mixed Conditional) ไม่ใช้ `will` และไม่ใช่อนาคต ควรใช้ `would be`."
+      },
+      {
+        "index": 2,
+        "text": "would be",
+        "knowledge_ids": [
+          511,
+          485
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง นี่คือ Mixed Conditional: __if + had + V3, would + base verb (now)__ ใช้เมื่อเงื่อนไขเป็นอดีต แต่ผลลัพธ์อยู่ปัจจุบัน เช่น `If I had studied medicine, I would be a doctor now.`"
+      },
+      {
+        "index": 3,
+        "text": "would have been",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `would have been` บอกผลในอดีต แต่ท้ายประโยคมีคำว่า **now** แปลว่าเน้นผลปัจจุบัน จึงควรใช้ `would be` แทน."
+      },
+      {
+        "index": 4,
+        "text": "am",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะถ้าใช้ `am` จะกลายเป็นข้อเท็จจริงปัจจุบัน แต่ if-clause ใช้ `had studied` (อดีตสมมติ) ซึ่งบอกว่าไม่ได้เกิดขึ้นจริง."
+      }
+    ]
+  },
+  {
+    "question": "If you need help, ___ me know.",
+    "question_knowledge_ids": [
+      500,
+      481
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "let",
+        "knowledge_ids": [
+          500,
+          481
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้คำสั่ง/ข้อเสนอในประโยคหลักหลัง if-clause ได้ โครงสร้างคือ __if + present simple, imperative__ เช่น `If you need help, let me know.` เป็นรูปสุภาพและธรรมชาติมาก."
+      },
+      {
+        "index": 2,
+        "text": "will let",
+        "knowledge_ids": [
+          495
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะในประโยคหลักของ First Conditional แม้จะใช้ `will + V` ได้ แต่กับสำนวนขอให้แจ้ง ใช้ **imperative** (คำสั่ง/ขอร้อง) จะเป็นธรรมชาติ เช่น `let me know` ไม่ใช่ `will let me know` ตรงช่องว่างนี้."
+      },
+      {
+        "index": 3,
+        "text": "would let",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `would` ไม่ใช้ในรูปขอร้องลักษณะนี้ และทำให้ประโยคฟังแปลก ควรใช้คำสั่งสั้นๆ: `let me know`."
+      },
+      {
+        "index": 4,
+        "text": "letting",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `letting` เป็นรูป -ing ไม่ใช่คำสั่ง รูปที่ถูกคือ base form สำหรับ imperative: `let me know`."
+      }
+    ]
+  },
+  {
+    "question": "Should you ___ any questions, feel free to ask.",
+    "question_knowledge_ids": [
+      499,
+      481
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have",
+        "knowledge_ids": [
+          499
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง นี่คือการกลับรูป (inversion) ของ First Conditional: __Should + subject + base verb, ...__ แทน `If you have ...` เช่น `Should you have any questions, feel free to ask.` ฟังเป็นทางการสุภาพ."
+      },
+      {
+        "index": 2,
+        "text": "had",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `Should you ...` ต้องใช้ **base form** ไม่ใช่ past simple รูปถูกคือ `Should you have any questions, ...`."
+      },
+      {
+        "index": 3,
+        "text": "will have",
+        "knowledge_ids": [
+          495
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `Should you` ห้ามใช้ `will` และใน if/inversion-clause โดยทั่วไปไม่ใช้ future auxiliary อยู่แล้ว ใช้ base form: `have`."
+      },
+      {
+        "index": 4,
+        "text": "having",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป -ing ซึ่งไม่เข้ากับโครงสร้าง inversion แบบนี้ โครงสร้างต้องเป็น `Should you + base verb` เช่น `Should you have ...`."
+      }
+    ]
+  },
+  {
+    "question": "Take an umbrella in case it ___ later.",
+    "question_knowledge_ids": [
+      489,
+      203
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "rains",
+        "knowledge_ids": [
+          489
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง หลัง **in case** ใช้ __present simple__ เพื่อบอกเหตุผลเชิงป้องกัน เช่น `Take an umbrella in case it rains later.` ความหมายคือพกไว้เผื่อฝนตก."
+      },
+      {
+        "index": 2,
+        "text": "will rain",
+        "knowledge_ids": [
+          495
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **in case** ไม่ใช้ **will** ถึงจะพูดถึงอนาคตก็ตาม ต้องใช้ present simple: `in case it rains`."
+      },
+      {
+        "index": 3,
+        "text": "rained",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `rained` เป็น past simple ซึ่งไม่เข้ากับความหมายเชิงป้องกันในอนาคตกับ `in case` ควรใช้ `rains`."
+      },
+      {
+        "index": 4,
+        "text": "is raining",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ present continuous เน้นกำลังกระทำตอนนี้ ไม่ใช่ความเป็นไปได้ในอนาคตกับ `in case` รูปมาตรฐานคือ `in case it rains`."
+      }
+    ]
+  },
+  {
+    "question": "If she ___ earlier, she would have caught the bus.",
+    "question_knowledge_ids": [
+      433,
+      485
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had left",
+        "knowledge_ids": [
+          433,
+          485
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง นี่คือ Third Conditional: __if + had + V3, would have + V3__ เช่น `If she had left earlier, she would have caught the bus.` ใช้พูดถึงอดีตที่ไม่เกิดขึ้นจริง."
+      },
+      {
+        "index": 2,
+        "text": "would leave",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `would` ห้ามอยู่ใน if-clause และรูปนี้ก็เป็น Second Conditional ไม่ตรงกับผลลัพธ์อดีต (`would have caught`)."
+      },
+      {
+        "index": 3,
+        "text": "left",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะต้องใช้ **past perfect (had + V3)** ใน if-clause ของ Third Conditional ไม่ใช่ past simple เฉยๆ รูปที่ถูกคือ `had left`."
+      },
+      {
+        "index": 4,
+        "text": "would have left",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **would have** ไม่ควรอยู่ใน if-clause ควรอยู่ในประโยคหลักเท่านั้น โครงสร้างที่ถูกต้องคือ `If + had + V3, would have + V3`."
+      }
+    ]
+  },
+  {
+    "question": "I'll go for a run if it ___ raining.",
+    "question_knowledge_ids": [
+      495,
+      249
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "not",
+        "knowledge_ids": [
+          249
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `it` ต้องตามด้วยกริยา be ที่ผัน ไม่ใช่คำ `not` เดี่ยวๆ รูปที่ถูกคือ `isn't raining` หรือ `is not raining`."
+      },
+      {
+        "index": 2,
+        "text": "doesn't",
+        "knowledge_ids": [
+          495,
+          249
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `raining` เป็นรูปคำนามกริยาต่อจาก **be** ไม่ใช่กริยาแท้ที่ใช้กับ **do/does** จึงห้าม `doesn't raining` ควรเป็น `isn't raining`."
+      },
+      {
+        "index": 3,
+        "text": "isn't",
+        "knowledge_ids": [
+          249
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคือ __if + subject + be (not) + V-ing__ เมื่อพูดถึงสภาพอากาศต่อเนื่อง เช่น `if it isn't raining` ตัวอย่าง: `I'll go for a run if it isn't raining.`"
+      },
+      {
+        "index": 4,
+        "text": "won't",
+        "knowledge_ids": [
+          495
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใน if-clause ไม่ใช้ **will/won't** และ `won't raining` ก็ผิดรูปอีกด้วย ควรใช้ `isn't raining`."
+      }
+    ]
+  },
+  {
+    "question": "Unless you ___ earlier, you will miss the meeting.",
+    "question_knowledge_ids": [
+      486,
+      495,
+      508
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "leave",
+        "knowledge_ids": [
+          486
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง หลัง **unless** ใช้ __present simple__ เพื่อบอกเงื่อนไขเชิงลบ เช่น `Unless you leave earlier, you will miss the meeting.` เทียบความหมายกับ `If you don't leave earlier, ...` ได้เลย."
+      },
+      {
+        "index": 2,
+        "text": "won't leave",
+        "knowledge_ids": [
+          486,
+          495
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะห้ามใช้ **will** ในอนุประโยคเงื่อนไข (หลัง unless/if) รูปถูกคือ `unless you leave` ไม่ใช่ `unless you won't leave`."
+      },
+      {
+        "index": 3,
+        "text": "left",
+        "knowledge_ids": [
+          486
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น past simple ซึ่งไม่ใช่รูปมาตรฐานของ First Conditional กับ unless ควรใช้ present simple: `leave`."
+      },
+      {
+        "index": 4,
+        "text": "don't leave",
+        "knowledge_ids": [
+          486
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **unless** มีความหมายว่า “ถ้าไม่” อยู่แล้ว การใส่ `don't` จะเป็นปฏิเสธซ้อนและทำให้ความหมายงง ควรใช้ `unless you leave`."
+      }
+    ]
+  },
+  {
+    "question": "If he ___ more polite, people would like him more.",
+    "question_knowledge_ids": [
+      482,
+      498,
+      509
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "knowledge_ids": [
+          498
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่เป็น Second Conditional (สถานการณ์สมมติในปัจจุบัน) ไม่ใช่ข้อเท็จจริงปัจจุบัน จึงไม่ใช้ present simple ใน if-clause."
+      },
+      {
+        "index": 2,
+        "text": "were",
+        "knowledge_ids": [
+          482,
+          498
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง Second Conditional คือ __if + past simple, would + base verb__ และกับ verb to be ให้ใช้ **were** กับทุกประธาน เช่น `If he were more polite, people would like him more.`"
+      },
+      {
+        "index": 3,
+        "text": "will be",
+        "knowledge_ids": [
+          498
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `will` ไม่ใช้ใน if-clause และรูปนี้จะสื่อ First Conditional ซึ่งไม่ตรงกับการสมมติสถานการณ์ปัจจุบัน."
+      },
+      {
+        "index": 4,
+        "text": "was",
+        "knowledge_ids": [
+          498,
+          509
+        ],
+        "is_correct": false,
+        "answer_description": "ภาษาใช้จริงบางครั้งเห็น `was` แต่รูปมาตรฐานสำหรับเงื่อนไขสมมติคือ **were** กับทุกประธาน (subjunctive) ดังนั้นควรใช้ `were` จะถูกต้องและปลอดภัยกว่าในการสอบ."
+      }
+    ]
+  }
+]

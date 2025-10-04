@@ -1,0 +1,292 @@
+[
+  {
+    "question": "He is ___ a marathon this weekend.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "runing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกริยาที่เป็นพยางค์เดียวและลงท้ายด้วยรูปแบบ **C–V–C** (เช่น `run`) ต้อง **เพิ่มพยัญชนะท้ายซ้ำ** ก่อนเติม -ing ไม่ใช่ตัดออกเฉยๆ. รูปที่ถูกควรเป็น `running` เช่น: `He is running a marathon.`"
+      },
+      {
+        "index": 2,
+        "text": "running",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตามกฎ __พยางค์เดียวรูปแบบ C–V–C ให้ดับเบิลพยัญชนะท้าย + -ing__: `run` → `running`. ใช้ได้เช่นประโยค: `He is running a marathon this weekend.` และ `She is running to catch the bus.`"
+      },
+      {
+        "index": 3,
+        "text": "ranning",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสระเปลี่ยนจาก `u` เป็น `a` โดยไม่มีเหตุผลทางการสะกด กริยาเดิมคือ `run` จึงต้องคงสระเดิมไว้. รูปที่ถูกคือ `running` ไม่ใช่ `ranning`."
+      },
+      {
+        "index": 4,
+        "text": "run",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้าง **Present Continuous** ต้องเป็น `be + V-ing`. การใช้ `run` เป็นรูปฐานทำให้ประโยคขาดเครื่องหมายกำลังกระทำ เช่นควรเป็น `He is running ...` ไม่ใช่ `He is run ...`."
+      }
+    ]
+  },
+  {
+    "question": "She is ___ dinner now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "making",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตามกฎ __คำกริยาลงท้ายด้วย silent -e ให้ตัด e ออกแล้วเติม -ing__: `make` → `making`. ตัวอย่างใช้: `She is making dinner now.` หรือ `He is making a plan.`"
+      },
+      {
+        "index": 2,
+        "text": "makeing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำที่ลงท้ายด้วย silent **e** เช่น `make` ต้องตัด e ก่อนเติม -ing. รูปที่ถูกคือ `making` ไม่ใช่ `makeing`."
+      },
+      {
+        "index": 3,
+        "text": "make",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะต้องใช้รูป **V-ing** ใน Present Continuous. ประโยคที่ถูกคือ `She is making dinner now.` ไม่ใช่ `She is make dinner now.`"
+      },
+      {
+        "index": 4,
+        "text": "makking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `make` ไม่ใช่รูป C–V–C ที่ต้องดับเบิลพยัญชนะท้าย และตัว k ก็ไม่ได้ซ้ำในคำเดิม. รูปถูกคือ `making` ตามกฎตัด -e แล้วเติม -ing."
+      }
+    ]
+  },
+  {
+    "question": "The baby is ___ down for a nap.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "lieing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำลงท้ายด้วย **-ie** ให้เปลี่ยนเป็น **-ying** เมื่อเติม -ing. ดังนั้น `lie` ต้องเป็น `lying` ไม่ใช่ `lieing`."
+      },
+      {
+        "index": 2,
+        "text": "lying",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตามกฎ __-ie → -ying__: `lie` → `lying`. ใช้ได้เช่น `The baby is lying down for a nap.` และ `He is lying on the sofa.`"
+      },
+      {
+        "index": 3,
+        "text": "lie",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้าง Present Continuous ต้องใช้ `be + V-ing`. ต้องเป็น `is lying` ไม่ใช่ `is lie`."
+      },
+      {
+        "index": 4,
+        "text": "lyeing",
+        "is_correct": false,
+        "answer_description": "ผิด เป็นการสะกดที่เอา `lye` (อีกคำที่หมายถึงน้ำด่าง) มาปนกับ `lie`. รูปกริยาที่ถูกคือ `lying` เท่านั้น เช่น `is lying`."
+      }
+    ]
+  },
+  {
+    "question": "They are ___ in the pool right now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "swiming",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำพยางค์เดียวรูปแบบ **C–V–C** (`swim`) ต้อง **ดับเบิลพยัญชนะท้าย** ก่อนเติม -ing. ดังนั้นต้องเป็น `swimming` ไม่ใช่ `swiming`."
+      },
+      {
+        "index": 2,
+        "text": "swimming",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้กฎ __C–V–C → double consonant + -ing__: `swim` → `swimming`. ตัวอย่าง: `They are swimming in the pool right now.` หรือ `He is swimming fast.`"
+      },
+      {
+        "index": 3,
+        "text": "swimmng",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสะกดตกตัวอักษร `i` ไป ทำให้คำไม่ถูกต้อง. รูปถูกต้องคือ `swimming` ที่มีตัวอักษรครบและดับเบิล `m`."
+      },
+      {
+        "index": 4,
+        "text": "swam",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `swam` เป็นรูปอดีตกาล (Past Simple). โครงสร้างที่ต้องการคือ **be + V-ing**: `are swimming`."
+      }
+    ]
+  },
+  {
+    "question": "He is ___ the bike for his sister.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "fixing",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำลงท้ายด้วย `x` ไม่ต้องดับเบิลพยัญชนะ ให้เติม -ing ตรงๆ: __base + -ing__: `fix` → `fixing`. ใช้ได้เช่น `He is fixing the bike.` และ `She is fixing her computer.`"
+      },
+      {
+        "index": 2,
+        "text": "fixxing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะตัวอักษรที่ลงท้ายด้วย **w, x, y** โดยปกติไม่ดับเบิลก่อนเติม -ing. ที่ถูกคือ `fixing` ไม่ใช่ `fixxing`."
+      },
+      {
+        "index": 3,
+        "text": "fixeing",
+        "is_correct": false,
+        "answer_description": "ผิด การเติม `-eing` ไม่มีกฎรองรับกับคำนี้ เพราะ `fix` ไม่ได้ลงท้ายด้วย -e. ควรเป็น `fixing` แบบตรงๆ."
+      },
+      {
+        "index": 4,
+        "text": "fix",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ Present Continuous ต้องใช้รูป **V-ing**. ประโยคที่ถูกคือ `He is fixing the bike ...` ไม่ใช่ `He is fix ...`."
+      }
+    ]
+  },
+  {
+    "question": "I am ___ an email to my teacher.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "writing",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตามกฎ __คำลงท้ายด้วย silent -e ให้ตัด e แล้วเติม -ing__: `write` → `writing`. ตัวอย่าง: `I am writing an email.` และ `She is writing a report.`"
+      },
+      {
+        "index": 2,
+        "text": "writeing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะต้องตัด **e** ออกก่อนเติม -ing เมื่อเป็น silent e. รูปที่ถูกคือ `writing`."
+      },
+      {
+        "index": 3,
+        "text": "writting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `write` ไม่ใช่รูป C–V–C ที่ต้องดับเบิลพยัญชนะ `t`. การดับเบิลทำให้สะกดผิด ควรเป็น `writing`."
+      },
+      {
+        "index": 4,
+        "text": "write",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจาก Present Continuous ต้องใช้ `be + V-ing`. ประโยคถูกต้องคือ `I am writing an email ...`."
+      }
+    ]
+  },
+  {
+    "question": "They are ___ their new project this week.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "beginning",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำว่า `begin` เน้นเสียงพยางค์หลัง จึงต้อง __ดับเบิลพยัญชนะท้าย + -ing__: `begin` → `beginning`. ตัวอย่าง: `They are beginning their new project.` และ `The class is beginning now.`"
+      },
+      {
+        "index": 2,
+        "text": "begining",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะลืมดับเบิลตัว `n` ทั้งที่คำนี้เน้นพยางค์หลัง ต้องเขียน `beginning` ไม่ใช่ `begining`."
+      },
+      {
+        "index": 3,
+        "text": "beggining",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะดับเบิลตัว `g` โดยไม่จำเป็น และยังสะกดสลับตำแหน่ง ตัวที่ต้องดับเบิลคือ `n`. รูปถูกคือ `beginning`."
+      },
+      {
+        "index": 4,
+        "text": "began",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `began` เป็นรูป Past Simple. Present Continuous ต้องเป็น `are beginning` ไม่ใช่ `are began`."
+      }
+    ]
+  },
+  {
+    "question": "The company is ___ a new store downtown.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "opening",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำสองพยางค์ที่ไม่ได้เน้นพยางค์ท้ายอย่าง `open` ไม่ต้องดับเบิลพยัญชนะ: ใช้รูป __base + -ing__: `open` → `opening`. ตัวอย่าง: `The company is opening a new store.` และ `They are opening registrations today.`"
+      },
+      {
+        "index": 2,
+        "text": "opennig",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะดับเบิล `n` โดยไม่มีกฎรองรับในคำนี้ และยังสะกด `-ig` ผิด. รูปที่ถูกคือ `opening`."
+      },
+      {
+        "index": 3,
+        "text": "openning",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำว่า `open` ไม่เน้นพยางค์ท้าย จึงไม่ดับเบิล `n`. ต้องเป็น `opening` เท่านั้น."
+      },
+      {
+        "index": 4,
+        "text": "open",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะต้องใช้ **V-ing** ใน Present Continuous: `is opening`. การใช้ `is open` จะเปลี่ยนความหมายเป็นคำนาม/คุณศัพท์ว่า “เปิดอยู่” ไม่ใช่กำลังกระทำ."
+      }
+    ]
+  },
+  {
+    "question": "She is ___ about the exam results.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "panicking",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยาลงท้ายด้วยตัวอักษร **c** ให้เติม __k + -ing__: `panic` → `panicking`. ตัวอย่าง: `She is panicking about the exam.` และ `People are panicking over the news.`"
+      },
+      {
+        "index": 2,
+        "text": "panicing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลังตัว `c` ต้องใส่ `k` ก่อน -ing เพื่อคงเสียง /k/. รูปที่ถูกคือ `panicking`."
+      },
+      {
+        "index": 3,
+        "text": "paniccing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะการดับเบิล `c` ไม่ถูกกฎ และยังขาดตัว `k` ที่ช่วยคงเสียง. ให้ใช้ `panicking` เท่านั้น."
+      },
+      {
+        "index": 4,
+        "text": "panic",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจาก Present Continuous ต้องเป็น `be + V-ing`. ประโยคที่ถูก: `She is panicking ...` ไม่ใช่ `She is panic ...`."
+      }
+    ]
+  },
+  {
+    "question": "We are ___ the doctor this afternoon.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "seeing",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำลงท้ายด้วย **-ee** ไม่ต้องตัด e ออก ให้เติม -ing ได้เลย: __-ee + -ing__: `see` → `seeing`. ตัวอย่าง: `We are seeing the doctor this afternoon.` และ `I am seeing my friends later.`"
+      },
+      {
+        "index": 2,
+        "text": "seing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะทำการตัดตัว `e` ออกจนเหลือ `se-` ซึ่งทำให้สะกดผิด. รูปที่ถูกคือ `seeing` เนื่องจาก `see` ลงท้ายด้วย -ee."
+      },
+      {
+        "index": 3,
+        "text": "seeeing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเติม `e` เกินจำเป็น การทำให้เป็น -ing ไม่ต้องเพิ่ม e เพิ่มอีก. เขียนแค่ `seeing` ก็พอ."
+      },
+      {
+        "index": 4,
+        "text": "see",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะต้องใช้รูป **V-ing** ใน Present Continuous. ประโยคควรเป็น `We are seeing the doctor ...` ไม่ใช่ `We are see ...`."
+      }
+    ]
+  }
+]

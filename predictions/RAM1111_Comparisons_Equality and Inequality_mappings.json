@@ -1,0 +1,544 @@
+[
+  {
+    "question": "This test is ___ the previous one.",
+    "question_knowledge_ids": [
+      462,
+      464,
+      468,
+      469
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "as difficult as",
+        "knowledge_ids": [
+          468
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะการเปรียบเทียบความเสมอภาคใช้รูป __as + adjective + as__ เช่น `as difficult as` หมายถึง \"ยากพอๆ กับ\". ตัวอย่าง: `This test is as difficult as the previous one.` แปลว่าแบบทดสอบนี้ยากพอๆ กับฉบับก่อนครับ/ค่ะ"
+      },
+      {
+        "index": 2,
+        "text": "more difficult as",
+        "knowledge_ids": [
+          464
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะถ้าใช้ **more + adj** ต้องตามด้วย **than** ไม่ใช่ **as** รูปที่ถูกคือ **more difficult than** เช่น `This test is more difficult than the previous one.`"
+      },
+      {
+        "index": 3,
+        "text": "as more difficult as",
+        "knowledge_ids": [
+          464,
+          468,
+          476
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะซ้ำโครงสร้าง เอา **as ... as** ไปผสมกับ **more** ซึ่งเป็นการเปรียบเทียบขั้นกว่า ทำให้โครงสร้างเพี้ยน เช่น `as more difficult as` ใช้ไม่ได้ ควรใช้ `as difficult as` หรือ `more difficult than` ให้ชัดไปเลย"
+      },
+      {
+        "index": 4,
+        "text": "so difficult as",
+        "knowledge_ids": [
+          469
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในประโยคบอกเล่า เพราะรูป **so + adj + as** มักใช้ในประโยคปฏิเสธ เช่น `not so difficult as` ถ้าเป็นประโยคธรรมดาแบบบอกเล่า ให้ใช้ `as difficult as`"
+      }
+    ]
+  },
+  {
+    "question": "The room isn't ___ the living room.",
+    "question_knowledge_ids": [
+      462,
+      464,
+      468,
+      469
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "as big as",
+        "knowledge_ids": [
+          468
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างปฏิเสธก็ยังใช้ __not + as + adjective + as__ เช่น `isn't as big as` แปลว่า \"ไม่ใหญ่เท่ากับ\". ตัวอย่าง: `The room isn't as big as the living room.` = ห้องนี้ไม่ใหญ่เท่าห้องนั่งเล่น"
+      },
+      {
+        "index": 2,
+        "text": "so bigger as",
+        "knowledge_ids": [
+          464,
+          476
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **so ... as** ต้องใช้กับคำคุณศัพท์ธรรมดา ไม่ใช่รูปขั้นกว่า และห้ามเติม -er อีก รูปถูกของ **so ... as** ในปฏิเสธคือ `not so big as` หรือใช้ `not as big as` ก็ได้"
+      },
+      {
+        "index": 3,
+        "text": "as biggest as",
+        "knowledge_ids": [
+          467
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **biggest** เป็นขั้นสุด (**superlative**) ใช้กับ the + noun ไม่ใช้ในโครงสร้าง **as ... as** ตัวอย่างที่ถูก: `as big as` หรือ `the biggest room in the house` ในบริบทอื่น"
+      },
+      {
+        "index": 4,
+        "text": "bigger than",
+        "knowledge_ids": [
+          464
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดกับความหมายที่ต้องการ เพราะประโยคเป็นรูปปฏิเสธ `isn't` และต้องการแสดงว่า \"ไม่ใหญ่เท่า\" ไม่ใช่ \"ใหญ่กว่า\" รูปที่เหมาะคือ `isn't as big as`, ไม่ใช่ `bigger than`"
+      }
+    ]
+  },
+  {
+    "question": "She sings ___ her sister.",
+    "question_knowledge_ids": [
+      462,
+      464,
+      468,
+      473,
+      534
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "as beautifully as",
+        "knowledge_ids": [
+          468,
+          473,
+          534
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเปรียบเทียบความสามารถ/ลักษณะการกระทำใช้วาง __as + adverb + as__ เช่น `as beautifully as` แปลว่า \"เพราะพริ้งเท่ากับ\". ตัวอย่าง: `She sings as beautifully as her sister.` = เธอร้องเพลงเพราะพอๆ กับพี่สาว"
+      },
+      {
+        "index": 2,
+        "text": "as beautiful as",
+        "knowledge_ids": [
+          534
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจุดคำชนิด เพราะหลัง verb **sings** ต้องใช้ **adverb** (beautifully) ไม่ใช่ **adjective** (beautiful) ตัวอย่างที่ถูก: `She sings as beautifully as her sister.`"
+      },
+      {
+        "index": 3,
+        "text": "more beautifully as",
+        "knowledge_ids": [
+          464,
+          473
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้างขั้นกว่าใช้ **more + adverb + than** ไม่ใช่ **as** รูปที่ถูกควรเป็น `more beautifully than her sister` ถ้าต้องการบอกว่า \"ร้องเพราะกว่า\""
+      },
+      {
+        "index": 4,
+        "text": "as beautifully than",
+        "knowledge_ids": [
+          464,
+          468
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้าง **as ... as** ต้องปิดท้ายด้วย **as** ไม่ใช่ **than** รูปที่ถูกคือ `as beautifully as`"
+      }
+    ]
+  },
+  {
+    "question": "We have ___ chairs than students.",
+    "question_knowledge_ids": [
+      474,
+      517,
+      530,
+      532
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "fewer",
+        "knowledge_ids": [
+          474,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะนับได้พหูพจน์ (**chairs, students**) ใช้ __fewer + plural count nouns + than__ เพื่อบอกว่า \"น้อยกว่า\". ตัวอย่าง: `We have fewer chairs than students.` = เรามีเก้าน้อยกว่านักเรียน"
+      },
+      {
+        "index": 2,
+        "text": "less",
+        "knowledge_ids": [
+          474,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในกรณีนี้ เพราะ **less** ใช้กับคำนามนับไม่ได้ เช่น `less water than` แต่ **chairs/students** เป็นนามนับได้พหูพจน์ จึงต้องใช้ `fewer`"
+      },
+      {
+        "index": 3,
+        "text": "little",
+        "knowledge_ids": [
+          517
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **little** เป็นตัวบอกปริมาณสำหรับนามนับไม่ได้ และธรรมดาไม่ใช้กับการเปรียบเทียบพร้อม **than** ในรูปนี้ ควรใช้ `fewer` กับนามพหูพจน์"
+      },
+      {
+        "index": 4,
+        "text": "few than",
+        "knowledge_ids": [
+          464
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะโครงสร้างไม่ถูก ต้องใช้รูปเปรียบเทียบ `fewer ... than` ไม่ใช่ `few than` ตัวอย่างที่ถูก: `fewer chairs than students`"
+      }
+    ]
+  },
+  {
+    "question": "Tom is ___ his brother.",
+    "question_knowledge_ids": [
+      462,
+      464,
+      472
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "more patient than",
+        "knowledge_ids": [
+          464,
+          472
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างขั้นกว่าใช้ __more + adjective (ยาว) + than__ เช่น `more patient than` เพื่อบอกว่า \"อดทนกว่า\". ตัวอย่าง: `Tom is more patient than his brother.`"
+      },
+      {
+        "index": 2,
+        "text": "as more patient as",
+        "knowledge_ids": [
+          464,
+          476
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะผสมสองโครงสร้าง **as ... as** กับ **more ... than** เข้าด้วยกัน ทำให้ผิดรูป ควรเลือกอย่างใดอย่างหนึ่ง เช่น `as patient as` หรือ `more patient than`"
+      },
+      {
+        "index": 3,
+        "text": "patienter than",
+        "knowledge_ids": [
+          472,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำคุณศัพท์ยาวอย่าง **patient** ไม่เติม -er แต่ใช้ **more + adj** แทน รูปที่ถูกคือ `more patient than`"
+      },
+      {
+        "index": 4,
+        "text": "more patient as",
+        "knowledge_ids": [
+          464
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **more + adj** ต้องตามด้วย **than** เพื่อเทียบกับอีกฝ่าย รูปถูกคือ `more patient than`"
+      }
+    ]
+  },
+  {
+    "question": "He has ___ money as I do.",
+    "question_knowledge_ids": [
+      468,
+      474,
+      517,
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "as much",
+        "knowledge_ids": [
+          468,
+          474,
+          517,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **money** เป็นนามนับไม่ได้ ต้องใช้ __as much + uncountable noun + as__ เช่น `as much money as` แปลว่า \"มีเงินเท่ากับ\". ตัวอย่าง: `He has as much money as I do.`"
+      },
+      {
+        "index": 2,
+        "text": "as many",
+        "knowledge_ids": [
+          474,
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **many** ใช้กับนามนับได้พหูพจน์ แต่ **money** เป็นนามนับไม่ได้ จึงต้องใช้ `as much money as` ไม่ใช่ `as many money as`"
+      },
+      {
+        "index": 3,
+        "text": "more",
+        "knowledge_ids": [
+          464
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดกับโครงสร้างที่เว้นไว้ เพราะประโยคต้องการรูป **as ... as** เพื่อแสดงความเท่ากัน คำว่า `more` เป็นขั้นกว่าและต้องมี `than` เช่น `more money than`"
+      },
+      {
+        "index": 4,
+        "text": "so much",
+        "knowledge_ids": [
+          469
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในโครงสร้างนี้ เพราะถ้าใช้ **so ... as** มักอยู่ในรูปปฏิเสธ (`not so ... as`) และยังขาด **as** ตัวหลังด้วย รูปที่ถูกคือ `as much money as`"
+      }
+    ]
+  },
+  {
+    "question": "There are ___ apples as oranges.",
+    "question_knowledge_ids": [
+      468,
+      474,
+      517,
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "as many",
+        "knowledge_ids": [
+          468,
+          474,
+          517,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **apples/oranges** เป็นนามนับได้พหูพจน์ ใช้ __as many + plural noun + as__ เช่น `as many apples as oranges`. ตัวอย่าง: `There are as many apples as oranges.`"
+      },
+      {
+        "index": 2,
+        "text": "as much",
+        "knowledge_ids": [
+          474,
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **as much** ใช้กับนามนับไม่ได้ แต่ **apples** เป็นนามพหูพจน์นับได้ ต้องใช้ `as many` เช่น `as many apples as`"
+      },
+      {
+        "index": 3,
+        "text": "so many",
+        "knowledge_ids": [
+          469
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะขาด **as** ตัวหลัง และ **so many** ไม่ใช่โครงสร้างเปรียบเทียบความเท่ากัน ใช้บอกปริมาณมากเฉยๆ เช่น `so many apples` แต่ไม่ใช่ `so many apples as oranges`"
+      },
+      {
+        "index": 4,
+        "text": "many as",
+        "knowledge_ids": [
+          468
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะสลับตำแหน่งและขาด **as** ตัวหน้า โครงสร้างที่ถูกคือ `as many ... as` เช่น `as many apples as oranges`"
+      }
+    ]
+  },
+  {
+    "question": "This route is not ___ the other one.",
+    "question_knowledge_ids": [
+      462,
+      464,
+      469
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "so direct as",
+        "knowledge_ids": [
+          469
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ในประโยคปฏิเสธสามารถใช้รูป __not so + adjective + as__ เช่น `not so direct as` เพื่อบอกว่า \"ไม่ตรงเท่า\". ตัวอย่าง: `This route is not so direct as the other one.`"
+      },
+      {
+        "index": 2,
+        "text": "as more direct as",
+        "knowledge_ids": [
+          464,
+          476
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา **as ... as** ไปชนกับ **more** ซึ่งเป็นขั้นกว่า โครงสร้างปนกัน ใช้ได้สองแบบเท่านั้นคือ `not so/as direct as` หรือ `more direct than`"
+      },
+      {
+        "index": 3,
+        "text": "so more direct than",
+        "knowledge_ids": [
+          464,
+          470
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขั้นกว่าใช้ `more + adj + than` ไม่ต้องมี `so` นำหน้า และรูปนี้ยืดเยื้อไม่เป็นธรรมชาติ รูปที่ถูก: `more direct than`"
+      },
+      {
+        "index": 4,
+        "text": "more direct as",
+        "knowledge_ids": [
+          464
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขั้นกว่าใช้ `than` ไม่ใช่ `as` ต้องเป็น `more direct than` ถ้าต้องการเปรียบว่าเส้นทางนี้ตรงกว่า"
+      }
+    ]
+  },
+  {
+    "question": "Her idea is ___ mine.",
+    "question_knowledge_ids": [
+      527
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "the same as",
+        "knowledge_ids": [
+          527
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างความเท่ากันของสิ่งสองอย่างใช้ __the same + noun + as__ หรือย่อเป็น `be the same as` เช่นในประโยคนี้ `is the same as`. ตัวอย่าง: `Her idea is the same as mine.`"
+      },
+      {
+        "index": 2,
+        "text": "same than",
+        "knowledge_ids": [
+          527
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลังคำว่า **same** ต้องใช้ **as** ไม่ใช่ **than** รูปที่ถูกคือ `the same as` เช่น `This plan is the same as that one.`"
+      },
+      {
+        "index": 3,
+        "text": "similar than",
+        "knowledge_ids": [
+          527
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **similar** ต้องตามด้วย **to** ไม่ใช่ **than** ถ้าจะใช้รูปนี้ควรเป็น `Her idea is similar to mine.`"
+      },
+      {
+        "index": 4,
+        "text": "the same like",
+        "knowledge_ids": [
+          527
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้างมาตรฐานคือ **the same ... as** ไม่ใช้ **like** ตัวอย่างที่ถูก: `Her idea is the same as mine.`"
+      }
+    ]
+  },
+  {
+    "question": "This soup has ___ salt than the other pot.",
+    "question_knowledge_ids": [
+      474,
+      517,
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "less",
+        "knowledge_ids": [
+          474,
+          517,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **salt** เป็นนามนับไม่ได้ ใช้ __less + uncountable noun + than__ เพื่อบอกว่า \"น้อยกว่า\". ตัวอย่าง: `This soup has less salt than the other pot.`"
+      },
+      {
+        "index": 2,
+        "text": "fewer",
+        "knowledge_ids": [
+          474,
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **fewer** ใช้กับนามนับได้พหูพจน์ แต่ **salt** เป็นนามนับไม่ได้ ต้องใช้ `less salt than`"
+      },
+      {
+        "index": 3,
+        "text": "little",
+        "knowledge_ids": [
+          517
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในโครงสร้างเปรียบเทียบ เพราะ `little` ใช้บอกปริมาณแบบทั่วไป ไม่ใช่เปรียบเทียบพร้อม **than** รูปที่ถูกคือ `less salt than`"
+      },
+      {
+        "index": 4,
+        "text": "few",
+        "knowledge_ids": [
+          517
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `few` ใช้กับนามนับได้พหูพจน์ และในที่นี้ต้องการรูปเปรียบเทียบ ใช้ `less salt than` จะถูกต้องกว่า"
+      }
+    ]
+  },
+  {
+    "question": "My laptop is ___ powerful as a gaming PC.",
+    "question_knowledge_ids": [
+      468,
+      469,
+      462,
+      464
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "not as",
+        "knowledge_ids": [
+          469,
+          468
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะต้องการบอกว่า \"ไม่ทรงพลังเท่า\" ใช้รูปปฏิเสธ __not as + adjective + as__ เช่น `not as powerful as`. ตัวอย่าง: `My laptop is not as powerful as a gaming PC.`"
+      },
+      {
+        "index": 2,
+        "text": "as",
+        "knowledge_ids": [
+          468
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะถ้าใส่แค่ `as` ตัวเดียว ประโยคจะไม่ครบโครงสร้าง **as ... as** และยังขาดรูปปฏิเสธที่สื่อว่า \"ไม่เท่า\" ควรเป็น `not as powerful as`"
+      },
+      {
+        "index": 3,
+        "text": "so as",
+        "knowledge_ids": [
+          469
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `so ... as` ต้องมีคำคุณศัพท์ขั้นกลางคั่น เช่น `so powerful as` และมักใช้ในปฏิเสธพร้อม `not` ถ้าจะใช้จริงต้องเป็น `not so powerful as` ซึ่งยังไม่พอดีกับช่องว่างนี้"
+      },
+      {
+        "index": 4,
+        "text": "more",
+        "knowledge_ids": [
+          464,
+          474
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดโครงสร้าง เพราะถ้าใช้ `more` ต้องตามด้วยคำคุณศัพท์และ `than` เช่น `more powerful than` แต่ประโยคนี้ตั้งใจสื่อความไม่เท่ากันแบบ `not as ... as`"
+      }
+    ]
+  }
+]

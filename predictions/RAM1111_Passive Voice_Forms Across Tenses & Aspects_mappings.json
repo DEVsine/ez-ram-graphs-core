@@ -1,0 +1,592 @@
+[
+  {
+    "question": "The letters ___ every Monday.",
+    "question_knowledge_ids": [
+      290,
+      418,
+      553
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are sent",
+        "knowledge_ids": [
+          290,
+          418,
+          553
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูป **Present Simple Passive** ใช้โครงสร้าง __am/is/are + V3__ เพื่อบอกนิสัย/ตารางงาน เช่นจดหมายถูกส่งทุกวันจันทร์ ตัวอย่าง: `The letters are sent every Monday.` และ `Packages are delivered in the morning.`"
+      },
+      {
+        "index": 2,
+        "text": "send",
+        "knowledge_ids": [
+          264,
+          290
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **Active** (กริยาช่อง 1) และยังไม่มีประธานผู้กระทำ เช่น `People send the letters every Monday.` ถึงจะถูก ถ้าจะใช้ **Passive** ต้องเป็น `are sent`."
+      },
+      {
+        "index": 3,
+        "text": "are sending",
+        "knowledge_ids": [
+          555,
+          290
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **Present Continuous Active** (`are + V-ing`) ไม่ใช่ Passive และยังขาดกรรม เช่น `They are sending the letters now.` ถ้าจะเป็น Passive ต่อเนื่องต้องใช้ `are being sent`."
+      },
+      {
+        "index": 4,
+        "text": "were sent",
+        "knowledge_ids": [
+          306,
+          311,
+          290,
+          553
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple Passive** (อดีต) แต่ประโยคพูดถึงกิจวัตรประจำวันจันทร์ในปัจจุบัน ต้องใช้ Present Simple Passive: `are sent` เช่น `every Monday` ชี้ว่าปัจจุบันเป็นนิสัย."
+      }
+    ]
+  },
+  {
+    "question": "The window ___ during the storm last night.",
+    "question_knowledge_ids": [
+      306,
+      311,
+      290,
+      553
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was broken",
+        "knowledge_ids": [
+          306,
+          311,
+          290,
+          553
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Past Simple Passive** เพราะเหตุการณ์เกิดและจบในอดีต (เมื่อคืน) โครงสร้างคือ __was/were + V3__. ตัวอย่าง: `The window was broken during the storm last night.` และ `Several trees were knocked down.`"
+      },
+      {
+        "index": 2,
+        "text": "is broken",
+        "knowledge_ids": [
+          306,
+          290,
+          553
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Simple** ซึ่งขัดกับตัวบอกเวลา `last night` ที่เป็นอดีต ต้องใช้ `was broken` เพื่อให้สอดคล้องกับอดีต."
+      },
+      {
+        "index": 3,
+        "text": "has been broken",
+        "knowledge_ids": [
+          419,
+          290
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Perfect Passive** ใช้กับเหตุการณ์ที่เน้นผลถึงปัจจุบัน แต่มีตัวบอกเวลาอดีตชัดเจน `last night` ทำให้ไม่เข้ากัน ควรใช้ Past Simple Passive."
+      },
+      {
+        "index": 4,
+        "text": "was being broken",
+        "knowledge_ids": [
+          251,
+          260,
+          290,
+          553
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Continuous Passive** (กำลังกระทำในอดีต) แต่ตัวบอกเวลา `last night` ไม่ได้เน้นช่วงกำลังกระทำ ควรใช้รูปเสร็จสิ้นในอดีต `was broken`."
+      }
+    ]
+  },
+  {
+    "question": "A new bridge ___ over the river now.",
+    "question_knowledge_ids": [
+      555,
+      290,
+      553
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is being built",
+        "knowledge_ids": [
+          555,
+          290,
+          553
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Present Continuous Passive** เพื่อบอกว่างานกำลังดำเนินอยู่ตอนนี้ โครงสร้างคือ __am/is/are being + V3__. ตัวอย่าง: `A new bridge is being built now.` และ `The road is being repaired this week.`"
+      },
+      {
+        "index": 2,
+        "text": "is built",
+        "knowledge_ids": [
+          290
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Present Simple Passive** ใช้กับข้อเท็จจริงหรือตารางงาน ไม่เน้นกำลังกระทำ ณ ขณะนี้ คำว่า `now` บอกชัดว่าต้องใช้ `is being built`."
+      },
+      {
+        "index": 3,
+        "text": "was being built",
+        "knowledge_ids": [
+          251,
+          290,
+          553
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นอดีตต่อเนื่อง (`was/were being + V3`) แต่ประโยคใช้ `now` ซึ่งคือปัจจุบัน ต้องใช้ `is being built` ให้ตรงเวลา."
+      },
+      {
+        "index": 4,
+        "text": "has been built",
+        "knowledge_ids": [
+          419,
+          290,
+          553
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Perfect Passive** (สร้างเสร็จแล้ว) แต่คำว่า `now` สื่อว่ากำลังก่อสร้างอยู่ ไม่ได้เสร็จสิ้น จึงควรใช้รูปกำลังกระทำ."
+      }
+    ]
+  },
+  {
+    "question": "The road ___ when the accident happened.",
+    "question_knowledge_ids": [
+      251,
+      253,
+      260,
+      290,
+      553
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was being repaired",
+        "knowledge_ids": [
+          251,
+          253,
+          260,
+          290,
+          553
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Past Continuous Passive** เพื่อบอกว่าถนนกำลังถูกซ่อมอยู่ในช่วงเวลาที่อีกเหตุการณ์เกิดขึ้น โครงสร้างคือ __was/were being + V3__. ตัวอย่าง: `The road was being repaired when the accident happened.`"
+      },
+      {
+        "index": 2,
+        "text": "was repaired",
+        "knowledge_ids": [
+          306,
+          290
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `was repaired` เน้นว่า 'ซ่อมเสร็จแล้ว' ในอดีต ไม่ได้สื่อว่ากำลังซ่อมอยู่ตอนที่อุบัติเหตุเกิด ต้องใช้ `was being repaired` เพื่อเน้นช่วงเวลา."
+      },
+      {
+        "index": 3,
+        "text": "is being repaired",
+        "knowledge_ids": [
+          555,
+          260,
+          290
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นปัจจุบันต่อเนื่อง แต่เหตุการณ์หลัก `happened` เป็นอดีต จึงต้องให้กาลสอดคล้องกันเป็นอดีตต่อเนื่อง (`was being repaired`)."
+      },
+      {
+        "index": 4,
+        "text": "had been repaired",
+        "knowledge_ids": [
+          280,
+          290,
+          553
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Perfect Passive** แปลว่า 'ถูกซ่อมเสร็จก่อนหน้า' ซึ่งขัดกับความหมายที่ต้องการว่าในเวลานั้นกำลังซ่อมอยู่ ใช้ `was being repaired` จะถูกกว่า."
+      }
+    ]
+  },
+  {
+    "question": "The report ___ already.",
+    "question_knowledge_ids": [
+      419,
+      286,
+      290,
+      553
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "has been finished",
+        "knowledge_ids": [
+          419,
+          286,
+          290,
+          553
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Present Perfect Passive** เพื่อเน้นผลที่เพิ่งเสร็จและมีผลถึงปัจจุบัน โครงสร้างคือ __has/have been + V3__. ตัวอย่าง: `The report has been finished already.` และ `The tickets have been sold out.`"
+      },
+      {
+        "index": 2,
+        "text": "is finished",
+        "knowledge_ids": [
+          552
+        ],
+        "is_correct": false,
+        "answer_description": "พอใช้ได้ในบางบริบท แต่เมื่อมีคำว่า `already` มักเน้นผลที่เพิ่งเสร็จ จึงใช้ `has been finished` ชัดกว่า ถ้าจะใช้ `is finished` จะฟังเหมือนสภาพว่าเสร็จแล้วเฉยๆ."
+      },
+      {
+        "index": 3,
+        "text": "was finished",
+        "knowledge_ids": [
+          306,
+          290
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดกับนัยของคำว่า `already` ที่มักจับคู่กับ **Present Perfect** เพื่อเชื่อมผลมาถึงปัจจุบัน `was finished` เป็นอดีตจบไป ไม่เน้นผลถึงตอนนี้."
+      },
+      {
+        "index": 4,
+        "text": "has being finished",
+        "knowledge_ids": [
+          222,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปแบบ ไวยากรณ์ **Present Perfect Passive** ต้องเป็น `has/have been + V3` ไม่ใช่ `has being + V3`. ตัวอย่างที่ถูก: `has been finished`."
+      }
+    ]
+  },
+  {
+    "question": "By 2010, the stadium ___ for two years.",
+    "question_knowledge_ids": [
+      280,
+      217,
+      285,
+      290,
+      553
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had been closed",
+        "knowledge_ids": [
+          280,
+          217,
+          285,
+          290,
+          553
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Past Perfect Passive** เพื่อบอกสภาพที่เริ่มก่อนและดำเนินถึงจุดเวลาในอดีต (ปี 2010) โครงสร้างคือ __had been + V3__. ตัวอย่าง: `By 2010, the stadium had been closed for two years.`"
+      },
+      {
+        "index": 2,
+        "text": "was closed",
+        "knowledge_ids": [
+          306,
+          290
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่แม่น เพราะ `was closed` เป็นอดีตทั่วไป ไม่ได้สื่อความยาวเวลาถึงจุดหนึ่งในอดีต (`for two years` + `By 2010`) จึงควรใช้ Past Perfect Passive."
+      },
+      {
+        "index": 3,
+        "text": "has been closed",
+        "knowledge_ids": [
+          419,
+          290
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเวลา `By 2010` เป็นจุดอ้างอิงในอดีต ต้องใช้ **Past Perfect** (`had been closed`) ไม่ใช่ **Present Perfect** (`has been closed`)."
+      },
+      {
+        "index": 4,
+        "text": "had being closed",
+        "knowledge_ids": [
+          222,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปแบบ Passive เพราะใช้ `being` ผิดตำแหน่ง โครงสร้างที่ถูกต้องคือ `had been + V3` เช่น `had been closed`, ไม่ใช่ `had being + V3`."
+      }
+    ]
+  },
+  {
+    "question": "The results ___ tomorrow.",
+    "question_knowledge_ids": [
+      421,
+      242,
+      290,
+      553
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will be announced",
+        "knowledge_ids": [
+          421,
+          432,
+          242,
+          290,
+          553
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Future Simple Passive** เพื่อบอกเหตุการณ์ที่จะเกิดขึ้นในอนาคต โครงสร้างคือ __will be + V3__. ตัวอย่าง: `The results will be announced tomorrow.` และ `The winners will be chosen next week.`"
+      },
+      {
+        "index": 2,
+        "text": "are announced",
+        "knowledge_ids": [
+          398,
+          290
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะ `tomorrow` ชี้อนาคต แต่ `are announced` เป็น Present Simple Passive ใช้กับตารางงานทั่วไป หากจะเน้นอนาคตควรใช้ `will be announced`."
+      },
+      {
+        "index": 3,
+        "text": "are being announced",
+        "knowledge_ids": [
+          555,
+          242,
+          290
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปต่อเนื่องปัจจุบัน (`are being + V3`) หมายถึงกำลังประกาศตอนนี้ แต่มีคำว่า `tomorrow` จึงต้องใช้อนาคต `will be announced`."
+      },
+      {
+        "index": 4,
+        "text": "will announce",
+        "knowledge_ids": [
+          430,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น **Active** (`will + V1`) และยังไม่มีผู้กระทำที่ชัดเจน ถ้าจะคงสำนวนเน้นผล (Passive) ต้องใช้ `will be announced`."
+      }
+    ]
+  },
+  {
+    "question": "This old house ___ into a museum next year.",
+    "question_knowledge_ids": [
+      244,
+      290,
+      553
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is going to be turned",
+        "knowledge_ids": [
+          244,
+          432,
+          243,
+          290,
+          553
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้รูป **be going to + Passive** เพื่อแผนที่ตัดสินใจไว้แล้ว โครงสร้างคือ __am/is/are going to be + V3__. ตัวอย่าง: `This old house is going to be turned into a museum next year.`"
+      },
+      {
+        "index": 2,
+        "text": "is going to turn",
+        "knowledge_ids": [
+          248,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Active** (`be going to + V1`) ประธาน `This old house` ไม่สามารถเป็นผู้กระทำได้เอง ถ้าจะใช้ Passive ต้องเป็น `is going to be turned`."
+      },
+      {
+        "index": 3,
+        "text": "will be turning",
+        "knowledge_ids": [
+          204,
+          224
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เป็นธรรมชาติสำหรับกำหนดการในอนาคตแบบผลลัพธ์เสร็จสิ้น รูป `will be turning` คือ Future Continuous Passive/Active ที่แทบไม่ใช้ในกรณีนี้ ใช้ `is going to be turned` ชัดกว่า."
+      },
+      {
+        "index": 4,
+        "text": "was turned",
+        "knowledge_ids": [
+          306,
+          290
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะมี `next year` เป็นอนาคต แต่ `was turned` เป็นอดีตเรียบร้อยแล้ว ต้องใช้รูปอนาคตแบบ Passive."
+      }
+    ]
+  },
+  {
+    "question": "All devices ___ before use.",
+    "question_knowledge_ids": [
+      423,
+      430,
+      432,
+      290
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "must be tested",
+        "knowledge_ids": [
+          423,
+          430,
+          432,
+          290
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Modal + Passive** เพื่อแสดงกฎ/ความจำเป็น โครงสร้างคือ __modal (must/can/should/…) + be + V3__. ตัวอย่าง: `All devices must be tested before use.` และ `Safety rules must be followed.`"
+      },
+      {
+        "index": 2,
+        "text": "must test",
+        "knowledge_ids": [
+          430,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Active** (`must + V1`) และยังไม่รู้ว่าใครต้องทดสอบ ต้องการเน้นว่าอุปกรณ์เป็นผู้ถูกกระทำ จึงใช้ `must be tested`."
+      },
+      {
+        "index": 3,
+        "text": "are must be tested",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดไวยากรณ์ ซ้ำกริยา `are` โดยไม่จำเป็น โครงสร้างที่ถูกคือ `must be + V3` ไม่ต้องมี `are` นำหน้า เช่น `must be tested`."
+      },
+      {
+        "index": 4,
+        "text": "should testing",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปแบบ Modal Passive เพราะใช้ `testing` แทน V3 โครงสร้างที่ถูกต้องคือ `should be tested` ไม่ใช่ `should testing`."
+      }
+    ]
+  },
+  {
+    "question": "He ___ by a bee yesterday.",
+    "question_knowledge_ids": [
+      306,
+      311,
+      299
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "got stung",
+        "knowledge_ids": [
+          299,
+          306,
+          311
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **get-passive** ที่ใช้บ่อยในภาษาพูด แสดงว่าถูกกระทำในอดีต โครงสร้างพื้นฐานคือ __get + V3__ ในอดีตใช้ `got + V3`. ตัวอย่าง: `He got stung by a bee yesterday.` และ `She got promoted last year.`"
+      },
+      {
+        "index": 2,
+        "text": "is stung",
+        "knowledge_ids": [
+          290
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะเป็น **Present Simple Passive** แต่มีคำว่า `yesterday` ซึ่งเป็นอดีต ต้องใช้รูปอดีต เช่น `was stung` หรือสำนวน `got stung`."
+      },
+      {
+        "index": 3,
+        "text": "was stinging",
+        "knowledge_ids": [
+          251,
+          299
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย และยังเป็น **Past Continuous Active** (ตัวเขากำลังต่อย) ซึ่งไม่ใช่สิ่งที่ต้องการ ถ้าจะใช้ Passive ในอดีตควรเป็น `was stung` หรือ `got stung`."
+      },
+      {
+        "index": 4,
+        "text": "has been stung yesterday",
+        "knowledge_ids": [
+          311,
+          419,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดการจับคู่กาล เพราะ **Present Perfect** ไม่ใช้กับตัวบอกเวลาอดีตที่ชัดเจนอย่าง `yesterday` ควรใช้ Past Simple Passive เช่น `was stung` หรือ `got stung`."
+      }
+    ]
+  },
+  {
+    "question": "The invitations ___ by the designer at the moment.",
+    "question_knowledge_ids": [
+      290,
+      555,
+      553,
+      318
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are being printed",
+        "knowledge_ids": [
+          290,
+          555,
+          553
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Present Continuous Passive** เพื่อบอกว่ากำลังถูกพิมพ์อยู่ตอนนี้ โครงสร้างคือ __am/is/are being + V3__. ตัวอย่าง: `The invitations are being printed at the moment.`"
+      },
+      {
+        "index": 2,
+        "text": "have been printed",
+        "knowledge_ids": [
+          290,
+          419,
+          363
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดนัยเวลา เพราะ `at the moment` ชี้ว่ากำลังกระทำอยู่ แต่ `have been printed` แปลว่าเสร็จแล้วในช่วงที่ผ่านมาและมีผลถึงปัจจุบัน ไม่ตรงกับกำลังกระทำ."
+      },
+      {
+        "index": 3,
+        "text": "are printed",
+        "knowledge_ids": [
+          290,
+          539,
+          540
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง เพราะเป็น Present Simple Passive ที่มักใช้กับข้อเท็จจริง/นิสัย ไม่ได้สื่อว่ากำลังกระทำในขณะนี้ ซึ่ง `at the moment` ต้องใช้ `are being printed`."
+      },
+      {
+        "index": 4,
+        "text": "were being printed",
+        "knowledge_ids": [
+          290,
+          251,
+          553
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดกาล เนื่องจากเป็นอดีตต่อเนื่อง แต่คำบอกเวลา `at the moment` คือปัจจุบัน ต้องใช้ `are being printed` ให้สอดคล้อง."
+      }
+    ]
+  }
+]

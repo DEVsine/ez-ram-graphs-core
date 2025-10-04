@@ -1,0 +1,569 @@
+[
+  {
+    "question": "By the time the train arrived, we ___ for over an hour.",
+    "question_knowledge_ids": [
+      216,
+      270,
+      275,
+      276,
+      285
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had been waiting",
+        "knowledge_ids": [
+          270,
+          275,
+          276
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะสื่อว่าเหตุการณ์การรอเกิดขึ้นต่อเนื่อง **ก่อน** เหตุการณ์อีกอย่างในอดีต (รถไฟมาถึง) โครงสร้างที่ใช้คือ __had been + V-ing__ เช่น `We had been waiting for over an hour before the train arrived.` ใช้เมื่อต้องการเน้นระยะเวลาหรือความต่อเนื่องที่ดำเนินมาก่อนจุดเวลาในอดีต."
+      },
+      {
+        "index": 2,
+        "text": "were waiting",
+        "knowledge_ids": [
+          251,
+          256,
+          266,
+          278
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **past continuous (was/were + V-ing)** เน้นเหตุการณ์ที่กำลังเกิด ณ ช่วงเวลาหนึ่งในอดีต แต่ไม่ชี้ชัดว่ามันเริ่มมาตั้งแต่เมื่อไรและเกิด **ก่อน** เหตุการณ์อื่น เช่น `We were waiting when the train arrived` ไม่ได้เน้นว่ารอมานานแค่ไหน."
+      },
+      {
+        "index": 3,
+        "text": "had waited",
+        "knowledge_ids": [
+          276,
+          279
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่คือ **past perfect simple (had + V3)** ซึ่งเน้น “เสร็จสิ้น” มากกว่าความต่อเนื่อง ถ้าอยากเน้นระยะเวลาที่รอต่อเนื่องก่อนรถไฟมา ควรใช้ `had been waiting` มากกว่า เช่น `We had waited for an hour` ฟังดูไม่เน้นภาพความต่อเนื่องเท่า."
+      },
+      {
+        "index": 4,
+        "text": "have been waiting",
+        "knowledge_ids": [
+          274,
+          294,
+          363
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **present perfect continuous (have/has been + V-ing)** ซึ่งเชื่อมอดีตถึงปัจจุบัน แต่ประโยคนี้ทั้งหมดอยู่ในอดีตชัดเจน (`By the time the train arrived`) จึงต้องใช้รูปอดีตสมบูรณ์ต่อเนื่อง: `had been waiting`."
+      }
+    ]
+  },
+  {
+    "question": "She looked tired because she ___ all night for the exam.",
+    "question_knowledge_ids": [
+      269,
+      275,
+      276,
+      202
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had been studying",
+        "knowledge_ids": [
+          269,
+          275,
+          202
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะต้องการบอกสาเหตุในอดีตที่มีความต่อเนื่องมาก่อนอีกเหตุการณ์หนึ่ง (เธอดูเหนื่อย) ใช้รูป __had been + V-ing__ เพื่อเน้นว่าการอ่านหนังสือดำเนินมาตลอดทั้งคืน เช่น `She had been studying all night, so she looked tired.`"
+      },
+      {
+        "index": 2,
+        "text": "studied",
+        "knowledge_ids": [
+          266,
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **past simple** เพียงบอกว่าเกิดเหตุการณ์ในอดีต แต่ไม่เน้นความต่อเนื่องยาวนาน ถ้าจะชี้ว่าทำมาตลอดทั้งคืนและเป็นเหตุให้ดูเหนื่อย ควรใช้ `had been studying`."
+      },
+      {
+        "index": 3,
+        "text": "had studied",
+        "knowledge_ids": [
+          276,
+          280
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **past perfect simple** เน้นว่าทำเสร็จแล้วมากกว่าความยาวต่อเนื่อง ประโยคนี้ต้องการเน้นความยาวของการอ่านทั้งคืน จึงใช้ `had been studying` จะชัดเจนกว่า."
+      },
+      {
+        "index": 4,
+        "text": "was studying",
+        "knowledge_ids": [
+          251,
+          256
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **past continuous** ใช้บรรยายสิ่งที่กำลังเกิด ณ ช่วงเวลาหนึ่งในอดีต ไม่ได้สื่อว่ามันเริ่มมาก่อนและดำเนิน \"ตลอดทั้งคืน\" ก่อนอีกเหตุการณ์ ควรใช้ `had been studying` เพื่อเน้นความต่อเนื่องยาวนานก่อนหน้า."
+      }
+    ]
+  },
+  {
+    "question": "They ___ in that city since 2005 before they moved.",
+    "question_knowledge_ids": [
+      272,
+      276,
+      274
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had been living",
+        "knowledge_ids": [
+          272,
+          276
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีตัวบอกเวลา `since 2005` และอีกเหตุการณ์ตามมาคือ `before they moved` จึงใช้ __had been + V-ing__ เพื่อเน้นการอาศัยอยู่ต่อเนื่องตั้งแต่ปี 2005 จนถึงก่อนย้าย เช่น `They had been living in that city since 2005 before they moved.`"
+      },
+      {
+        "index": 2,
+        "text": "had lived",
+        "knowledge_ids": [
+          272,
+          276
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `had lived` เน้นผลว่าเคยอาศัย แต่ไม่เน้นความต่อเนื่องยาวตั้งแต่จุดเริ่ม (`since 2005`) รูปต่อเนื่อง `had been living` จึงสื่อความหมายตรงกว่าเมื่อมี `since/for`."
+      },
+      {
+        "index": 3,
+        "text": "were living",
+        "knowledge_ids": [
+          252,
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `were living` เป็น past continuous ใช้บอกเหตุการณ์กำลังเกิด ณ เวลาใดเวลาหนึ่ง ไม่ได้เชื่อมตั้งแต่ปี 2005 จนถึงก่อนย้าย เหมาะกว่าคือ `had been living`."
+      },
+      {
+        "index": 4,
+        "text": "have been living",
+        "knowledge_ids": [
+          274,
+          367
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น present perfect continuous เชื่อมสู่ปัจจุบัน แต่ประโยคนี้ปิดเรื่องไว้ในอดีต (`before they moved`) จึงต้องใช้ `had been living`."
+      }
+    ]
+  },
+  {
+    "question": "The ground was slippery because it ___ for hours.",
+    "question_knowledge_ids": [
+      269,
+      275,
+      202
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had been raining",
+        "knowledge_ids": [
+          269,
+          275,
+          202
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะอธิบาย **สาเหตุในอดีต** ที่เกิดขึ้นต่อเนื่องมาก่อนพื้นลื่น ใช้โครงสร้าง __had been + V-ing__ เพื่อเน้นความยาวของฝนที่ตก เช่น `It had been raining for hours, so the ground was slippery.`"
+      },
+      {
+        "index": 2,
+        "text": "had rained",
+        "knowledge_ids": [
+          279,
+          280
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `had rained` เน้นว่าฝนตกเสร็จสิ้น แต่ไม่ได้เน้นความต่อเนื่องยาวนาน `for hours` จึงเหมาะกับ `had been raining` มากกว่า."
+      },
+      {
+        "index": 3,
+        "text": "was raining",
+        "knowledge_ids": [
+          251,
+          254
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `was raining` ชี้ว่าขณะนั้นฝนกำลังตก แต่ประโยคต้องการบอกว่า \"ตกมาต่อเนื่องหลายชั่วโมงแล้วก่อนที่เราจะสังเกตว่าพื้นลื่น\" จึงควรใช้ `had been raining`."
+      },
+      {
+        "index": 4,
+        "text": "has been raining",
+        "knowledge_ids": [
+          366,
+          371
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `has been raining` เชื่อมถึงปัจจุบัน แต่เหตุการณ์นี้อยู่ในอดีตทั้งหมด (`was slippery`) จึงต้องใช้ past perfect continuous: `had been raining`."
+      }
+    ]
+  },
+  {
+    "question": "He ___ for 30 minutes when the bus finally came.",
+    "question_knowledge_ids": [
+      270,
+      275,
+      217
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had been standing",
+        "knowledge_ids": [
+          270,
+          275,
+          217
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเน้นการยืนรอที่ **ต่อเนื่อง** มาก่อนอีกเหตุการณ์ในอดีต (รถบัสมาถึง) ใช้รูป __had been + V-ing__ เช่น `He had been standing for 30 minutes when the bus finally came.` ช่วยบอกระยะเวลาได้ชัดเจนด้วย `for 30 minutes`."
+      },
+      {
+        "index": 2,
+        "text": "stood",
+        "knowledge_ids": [
+          266,
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `stood` (past simple) ไม่สื่อความต่อเนื่องก่อนเหตุการณ์อื่น ถ้าจะเน้นว่ารอมา 30 นาที ต้องใช้ `had been standing`."
+      },
+      {
+        "index": 3,
+        "text": "was standing",
+        "knowledge_ids": [
+          251,
+          256
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ past continuous (`was standing`) เป็นเพียงการบรรยายว่ากำลังยืนในเวลาหนึ่ง แต่ไม่บอกว่าเริ่มมาแล้วนานเท่าไร ก่อนอีกเหตุการณ์เกิดขึ้น ควรใช้ `had been standing` เพื่อเน้นระยะเวลา."
+      },
+      {
+        "index": 4,
+        "text": "had stood",
+        "knowledge_ids": [
+          276,
+          280
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ past perfect simple (`had stood`) เน้นความเสร็จ ไม่เน้นภาพต่อเนื่องยาว 30 นาที ถ้าจะสื่อความยาว ควรใช้ `had been standing`."
+      }
+    ]
+  },
+  {
+    "question": "We ___ about moving to Canada, but then we changed our minds.",
+    "question_knowledge_ids": [
+      268,
+      275
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had been thinking",
+        "knowledge_ids": [
+          268,
+          275
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะบอกว่าการคิดย้ายประเทศดำเนินมา **สักพัก** ก่อนถึงเหตุการณ์อีกอย่างในอดีต (เปลี่ยนใจ) ใช้ __had been + V-ing__ ได้เลย เช่น `We had been thinking about moving to Canada, but then we changed our minds.`"
+      },
+      {
+        "index": 2,
+        "text": "were thinking",
+        "knowledge_ids": [
+          251,
+          254
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ past continuous (`were thinking`) ไม่ชี้ว่าการคิดเริ่มมาก่อนและดำเนินต่อเนื่องถึงจุดที่เราเปลี่ยนใจ ถ้าต้องการความต่อเนื่องก่อนเหตุการณ์อื่น ใช้ `had been thinking`."
+      },
+      {
+        "index": 3,
+        "text": "had thought",
+        "knowledge_ids": [
+          276,
+          280
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ past perfect simple (`had thought`) ฟังเหมือน “เคยคิดแล้วจบ” ไม่เน้นความยืดเยื้อของกระบวนการคิด ถ้าจะสื่อว่าคิดมาระยะหนึ่ง ใช้ `had been thinking`."
+      },
+      {
+        "index": 4,
+        "text": "have been thinking",
+        "knowledge_ids": [
+          274,
+          294
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ present perfect continuous (`have been thinking`) เชื่อมถึงปัจจุบัน แต่ที่นี่จบในอดีต (`changed our minds`) จึงไม่เหมาะ."
+      }
+    ]
+  },
+  {
+    "question": "My eyes were sore because I ___ at the screen all day.",
+    "question_knowledge_ids": [
+      269,
+      275,
+      202
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had been staring",
+        "knowledge_ids": [
+          269,
+          275,
+          202
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะชี้สาเหตุในอดีตที่เกิดขึ้นต่อเนื่องยาวนาน ใช้ __had been + V-ing__ เพื่อเน้นว่ามองจอตลอดทั้งวัน เช่น `I had been staring at the screen all day, so my eyes were sore.`"
+      },
+      {
+        "index": 2,
+        "text": "was staring",
+        "knowledge_ids": [
+          251,
+          256
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ past continuous (`was staring`) แค่บอกว่ากำลังมองในช่วงเวลาหนึ่ง ไม่เน้นความยาวทั้งวันและความเป็นสาเหตุในอดีตที่เกิดก่อนอีกเหตุการณ์."
+      },
+      {
+        "index": 3,
+        "text": "had stared",
+        "knowledge_ids": [
+          276,
+          280
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ past perfect simple (`had stared`) ให้ความรู้สึกว่าการกระทำเสร็จสิ้น ไม่ได้เน้นความต่อเนื่องยาวทั้งวัน ซึ่งประโยคนี้ต้องการเน้นระยะเวลา."
+      },
+      {
+        "index": 4,
+        "text": "have been staring",
+        "knowledge_ids": [
+          274,
+          294
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ present perfect continuous เชื่อมถึงปัจจุบัน แต่ประโยคนี้อยู่ในอดีต (`were sore`) จึงควรใช้ `had been staring`."
+      }
+    ]
+  },
+  {
+    "question": "How long ___ before you got your first job?",
+    "question_knowledge_ids": [
+      218,
+      288,
+      275
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had you been unemployed",
+        "knowledge_ids": [
+          218,
+          288,
+          275
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นคำถามเกี่ยวกับ **ระยะเวลา** ของสถานะที่ดำเนินมาก่อนเหตุการณ์ในอดีต (ได้งานแรก) รูปคำถามใช้ __had + subject + been + V-ing__ หรือกับ adjective/noun ก็ใช้ `been` ได้ เช่น `How long had you been unemployed before you got your first job?`"
+      },
+      {
+        "index": 2,
+        "text": "were you unemployed",
+        "knowledge_ids": [
+          251,
+          292
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ past continuous ไม่เหมาะกับการถามระยะเวลาที่ยาวนานก่อนอีกเหตุการณ์ในอดีต ถ้าจะเน้นช่วงเวลาที่ดำเนินมาก่อน ควรใช้ past perfect continuous ในรูปคำถาม: `Had you been...`"
+      },
+      {
+        "index": 3,
+        "text": "have you been unemployed",
+        "knowledge_ids": [
+          360,
+          366
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ present perfect continuous (`have you been...`) เชื่อมถึงปัจจุบัน แต่บริบทนี้ปิดไว้ในอดีต (`before you got your first job`) จึงใช้ `had you been unemployed`."
+      },
+      {
+        "index": 4,
+        "text": "had you unemployed",
+        "knowledge_ids": [
+          292,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้างไวยากรณ์ไม่ถูก `had` ไม่ได้ตามด้วยคำนาม/คุณศัพท์โดยตรง ควรเป็น `had you been unemployed` โดยมี `been` คั่น เช่น: `Had you been unemployed...?`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ for months, so her performance improved a lot.",
+    "question_knowledge_ids": [
+      283,
+      275,
+      276
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had been practicing",
+        "knowledge_ids": [
+          283,
+          275
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะต้องการเน้นการฝึกที่ต่อเนื่องยาวหลายเดือนก่อนผลลัพธ์ในอดีต (ฟอร์มดีขึ้น) ใช้ __had been + V-ing__ เช่น `She had been practicing for months, so her performance improved a lot.`"
+      },
+      {
+        "index": 2,
+        "text": "practiced",
+        "knowledge_ids": [
+          266,
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ past simple ไม่เน้นภาพการกระทำที่ยาวต่อเนื่องหลายเดือน ถ้าจะสื่อความต่อเนื่องและเป็นเหตุให้ดีขึ้น ควรใช้ `had been practicing`."
+      },
+      {
+        "index": 3,
+        "text": "was practicing",
+        "knowledge_ids": [
+          251,
+          256
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ past continuous บอกว่ากำลังฝึกในช่วงเวลาหนึ่ง แต่ไม่ชี้ว่าดำเนินมาเป็นเดือน ๆ ก่อนผลเกิดขึ้น จึงไม่แม่นเท่า `had been practicing`."
+      },
+      {
+        "index": 4,
+        "text": "had practiced",
+        "knowledge_ids": [
+          276,
+          280
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ past perfect simple เน้นการเสร็จ ไม่ใช่ความต่อเนื่องหลายเดือน ถ้าต้องการชี้ความยาวและผลลัพธ์ ให้ใช้ `had been practicing`."
+      }
+    ]
+  },
+  {
+    "question": "By 8 p.m., the kids ___ for hours and were ready to sleep.",
+    "question_knowledge_ids": [
+      215,
+      216,
+      270,
+      275
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had been playing",
+        "knowledge_ids": [
+          215,
+          216,
+          270,
+          275
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีจุดเวลาในอดีต `By 8 p.m.` และมีการเน้นระยะเวลา `for hours` จึงใช้ __had been + V-ing__ เพื่อชี้ว่าการเล่นดำเนินมาก่อนถึงเวลานั้น เช่น `By 8 p.m., the kids had been playing for hours.`"
+      },
+      {
+        "index": 2,
+        "text": "were playing",
+        "knowledge_ids": [
+          251,
+          256
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ past continuous แค่บอกว่ากำลังเล่นตอน 8 โมงเย็น แต่ไม่สื่อว่าเล่นมาต่อเนื่องหลายชั่วโมงก่อนหน้านั้น จึงไม่ตรงกับ `for hours`."
+      },
+      {
+        "index": 3,
+        "text": "had played",
+        "knowledge_ids": [
+          215,
+          280,
+          279
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ past perfect simple เน้นผลว่าเคยเล่นแล้ว แต่ไม่เน้นความต่อเนื่องยาวก่อนเวลา 8 โมง ถ้าจะสื่อความยาวให้ชัด ต้องใช้ `had been playing`."
+      },
+      {
+        "index": 4,
+        "text": "have been playing",
+        "knowledge_ids": [
+          221,
+          294,
+          363
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ present perfect continuous เชื่อมถึงปัจจุบัน แต่บริบทนี้อ้างอิงเวลาในอดีต (`By 8 p.m.`) จึงต้องใช้ `had been playing`."
+      }
+    ]
+  },
+  {
+    "question": "He was out of breath because he ___ up the hill.",
+    "question_knowledge_ids": [
+      269,
+      276,
+      279,
+      283
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had been running",
+        "knowledge_ids": [
+          276,
+          283
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะบอกสาเหตุในอดีตที่เกิดขึ้นต่อเนื่องก่อนผลลัพธ์ (หายใจหอบ) ใช้ __had been + V-ing__ เช่น `He had been running up the hill, so he was out of breath.` เน้นว่าการวิ่งเกิดมาก่อนและส่งผลให้หอบ."
+      },
+      {
+        "index": 2,
+        "text": "was running",
+        "knowledge_ids": [
+          251,
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ past continuous แค่ชี้ว่ากำลังวิ่ง ณ ขณะหนึ่ง แต่ไม่เน้นว่าเป็นสาเหตุที่ดำเนินมาก่อนจนเกิดผล ถ้าจะชี้เหตุ-ผลชัด ๆ ควรใช้ `had been running`."
+      },
+      {
+        "index": 3,
+        "text": "had run",
+        "knowledge_ids": [
+          280,
+          281
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ past perfect simple (`had run`) เน้นการเสร็จ ไม่ได้ชี้ความยาวหรือความต่อเนื่องของการวิ่ง ซึ่งสำคัญต่อการอธิบายสาเหตุของการหอบ."
+      },
+      {
+        "index": 4,
+        "text": "has been running",
+        "knowledge_ids": [
+          362,
+          363
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ present perfect continuous เชื่อมถึงปัจจุบัน แต่ประโยคนี้อยู่ในอดีตทั้งหมด (`was out of breath`) จึงควรใช้ `had been running`."
+      }
+    ]
+  }
+]

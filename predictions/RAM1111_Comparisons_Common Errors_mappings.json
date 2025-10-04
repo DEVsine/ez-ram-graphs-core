@@ -1,0 +1,502 @@
+[
+  {
+    "question": "This plan is ___ than the last one.",
+    "question_knowledge_ids": [
+      462,
+      463,
+      464,
+      472
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "more better",
+        "knowledge_ids": [
+          476
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **double comparative** ใช้คำเทียบซ้ำกัน (`more + better`) ซึ่งเกินความจำเป็น คำว่า **better** เป็นรูปเปรียบเทียบของ **good** อยู่แล้ว เช่นที่ถูก: `This plan is better than the last one.`"
+      },
+      {
+        "index": 2,
+        "text": "better",
+        "knowledge_ids": [
+          463
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้รูปเปรียบเทียบขั้นกว่า **better** โดยไม่ต้องเติม `more` โครงสร้างที่ถูกคือ __adj(เปรียบเทียบขั้นกว่า) + than__ เช่น: `This plan is better than the last one.` และ `Her idea is better than mine.`"
+      },
+      {
+        "index": 3,
+        "text": "more good",
+        "knowledge_ids": [
+          472
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **good** มีรูปขั้นกว่าไม่ปกติเป็น **better** ไม่ใช้ `more good` ตัวอย่างที่ผิด: `This plan is more good than...` ที่ถูกควรเป็น: `This plan is better than...`"
+      },
+      {
+        "index": 4,
+        "text": "gooder",
+        "knowledge_ids": [
+          525
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำว่า **good** ไม่เติม -er เป็นรูป **gooder** รูปที่ถูกต้องคือ **better** เช่น: `This plan is better than the last one.`"
+      }
+    ]
+  },
+  {
+    "question": "There are ___ people than yesterday.",
+    "question_knowledge_ids": [
+      474,
+      532,
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "fewer",
+        "knowledge_ids": [
+          474,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **fewer** กับนามนับได้พหูพจน์ เช่น **people** โครงสร้างที่ถูกคือ __fewer + plural countable noun + than__ เช่น: `There are fewer people than yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "less",
+        "knowledge_ids": [
+          474,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะ **less** ใช้กับนามนับไม่ได้ เช่น `less water` แต่คำว่า **people** เป็นนามนับได้พหูพจน์ จึงควรใช้ `fewer people` แทน"
+      },
+      {
+        "index": 3,
+        "text": "more few",
+        "knowledge_ids": [
+          476
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นการวาง `more` นำหน้า adjective โดยปกติเราใช้ **fewer** สำหรับขั้นกว่าในนามนับได้พหูพจน์ ตัวอย่างที่ถูก: `fewer people` ไม่ใช่ `more few people`"
+      },
+      {
+        "index": 4,
+        "text": "lesser",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด การใช้ **lesser** พบได้น้อยและมักใช้เป็นคำคุณศัพท์หน้าคำนามเฉพาะบางกรณี ไม่ได้ใช้แทน `fewer` ในความหมายจำนวนน้อยกว่า เช่น ที่ถูกคือ `fewer people`"
+      }
+    ]
+  },
+  {
+    "question": "He is ___ student in the class.",
+    "question_knowledge_ids": [
+      466,
+      467,
+      477
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "the most diligent",
+        "knowledge_ids": [
+          466,
+          467
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปขั้นสุดยอดต้องมี **the** นำหน้า โครงสร้างคือ __the + most/-(e)st + noun/adj__ เช่น: `He is the most diligent student in the class.` หรือ `She is the tallest in her family.`"
+      },
+      {
+        "index": 2,
+        "text": "most diligent",
+        "knowledge_ids": [
+          477
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขั้นสุดยอดควรมี **the** นำหน้า เช่น `the most diligent` การขาด `the` ทำให้ประโยคดูไม่สมบูรณ์ในบริบทเปรียบเทียบที่สุดในกลุ่ม"
+      },
+      {
+        "index": 3,
+        "text": "the more diligent",
+        "knowledge_ids": [
+          464
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **the more + adj** ใช้ในโครงสร้างเปรียบเทียบพ่วง เช่น `The more you read, the more you know.` ไม่ใช่ขั้นสุดยอดในกลุ่มเดียวกัน"
+      },
+      {
+        "index": 4,
+        "text": "most more diligent",
+        "knowledge_ids": [
+          476
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นการซ้อนรูป (`most + more`) ซึ่งเป็น **double comparative/superlative** ที่ไม่ถูกต้อง ใช้แค่ `the most diligent` ก็พอ"
+      }
+    ]
+  },
+  {
+    "question": "Of the two routes, this one is ___.",
+    "question_knowledge_ids": [
+      462,
+      464,
+      472
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "shorter",
+        "knowledge_ids": [
+          472
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อเปรียบเทียบ **สองสิ่ง** ใช้ขั้นกว่า โครงสร้างคือ __comparative (-er/more) + than__ แต่ถ้าระบุ “of the two” มักละ `than` ได้ เช่น: `Of the two routes, this one is shorter.`"
+      },
+      {
+        "index": 2,
+        "text": "the shortest",
+        "knowledge_ids": [
+          467
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเมื่อเปรียบเทียบ **สองสิ่ง** ใช้ขั้นกว่า ไม่ใช้ขั้นสุดยอด ตัวอย่างที่ถูก: `This one is shorter (of the two).` ไม่ใช่ `the shortest`"
+      },
+      {
+        "index": 3,
+        "text": "more short",
+        "knowledge_ids": [
+          472
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำคุณศัพท์พยางค์เดียวอย่าง **short** ใช้เติม -er เป็น **shorter** ไม่ใช้ `more short` เช่น: `shorter` ไม่ใช่ `more short`"
+      },
+      {
+        "index": 4,
+        "text": "most short",
+        "knowledge_ids": [
+          472
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `most + adj` เป็นขั้นสุดยอดและไม่เหมาะเมื่อเปรียบเทียบสองสิ่ง อีกทั้งคำว่า **short** ควรใช้รูป `shorter` ในขั้นกว่า"
+      }
+    ]
+  },
+  {
+    "question": "The test was not ___ I expected.",
+    "question_knowledge_ids": [
+      468,
+      469
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "as difficult as",
+        "knowledge_ids": [
+          468
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างความเท่าเทียมคือ __as + adj + as__ และเมื่อนปฏิเสธมักใช้ `not as/so ... as` เช่น: `The test was not as difficult as I expected.`"
+      },
+      {
+        "index": 2,
+        "text": "as difficult than",
+        "knowledge_ids": [
+          468
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้าง **as...as** ต้องใช้ `as` ตัวที่สอง ไม่ใช่ `than` ตัวอย่างที่ถูก: `as difficult as`"
+      },
+      {
+        "index": 3,
+        "text": "so difficult than",
+        "knowledge_ids": [
+          469
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **so ... as** ไม่ตามด้วย `than` และรูปนี้ก็ไม่ใช้ในประโยคบอกเล่าทั่วไปด้วย ตัวอย่างที่ถูกในปฏิเสธคือ `not as/so ... as`"
+      },
+      {
+        "index": 4,
+        "text": "so as difficult as",
+        "knowledge_ids": [
+          468
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นการใส่คำเกินความจำเป็น โครงสร้างที่ถูกต้องเรียบง่ายคือ `as + adj + as` เช่น: `as difficult as`"
+      }
+    ]
+  },
+  {
+    "question": "This laptop is ___ cheaper than that one.",
+    "question_knowledge_ids": [
+      470
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "much",
+        "knowledge_ids": [
+          470
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เราใช้คำวิเศษณ์อย่าง **much/far/a lot** เพื่อเน้นขั้นกว่า โครงสร้างคือ __much/far + comparative__ เช่น: `This laptop is much cheaper than that one.`"
+      },
+      {
+        "index": 2,
+        "text": "very",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **very** ไม่ใช้ขยายขั้นกว่า ใช้กับคำคุณศัพท์ธรรมดา (`very cheap`) แต่กับขั้นกว่าให้ใช้ `much/far/a lot` เช่น `much cheaper`"
+      },
+      {
+        "index": 3,
+        "text": "too",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด ความหมายของ **too** คือ “เกินไป” ไม่ใช่การเน้นขั้นกว่า เช่น `too cheap` หมายถึงถูกเกินไป ควรใช้ `much cheaper` เพื่อเปรียบเทียบ"
+      },
+      {
+        "index": 4,
+        "text": "so",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **so** ใช้ในโครงสร้าง `so + adj + that...` ไม่ได้ใช้ขยายขั้นกว่า เช่น ควรเขียน `much cheaper` ไม่ใช่ `so cheaper`"
+      }
+    ]
+  },
+  {
+    "question": "This movie is ___ than the last one.",
+    "question_knowledge_ids": [
+      463,
+      472
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "worse",
+        "knowledge_ids": [
+          463
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำว่า **bad** มีรูปขั้นกว่าที่ไม่ปกติเป็น **worse** โครงสร้างคือ __worse + than__ เช่น: `This movie is worse than the last one.`"
+      },
+      {
+        "index": 2,
+        "text": "more bad",
+        "knowledge_ids": [
+          472
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **bad** ไม่ใช้ `more bad` ในขั้นกว่า ต้องใช้รูปผิดปกติว่า **worse** ตัวอย่างที่ถูก: `worse than`"
+      },
+      {
+        "index": 3,
+        "text": "bader",
+        "knowledge_ids": [
+          525
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่สามารถเติม -er กับ **bad** รูปขั้นกว่าที่ถูกคือ **worse** เช่น: `worse than`"
+      },
+      {
+        "index": 4,
+        "text": "the worst",
+        "knowledge_ids": [
+          466
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **the worst** เป็นขั้นสุดยอด ใช้เมื่อเทียบกับหลายสิ่ง ไม่ใช่เปรียบเทียบสองสิ่งแบบ `than` ที่ต้องใช้ `worse`"
+      }
+    ]
+  },
+  {
+    "question": "This model is ___ the old one.",
+    "question_knowledge_ids": [
+      464
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "superior to",
+        "knowledge_ids": [
+          464
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำว่า **superior** ใช้บุพบท **to** ไม่ใช้ `than` โครงสร้างคือ __superior/inferior + to__ เช่น: `This model is superior to the old one.`"
+      },
+      {
+        "index": 2,
+        "text": "superior than",
+        "knowledge_ids": [
+          464
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **superior** ต้องตามด้วย **to** ไม่ใช่ `than` ตัวอย่างที่ถูก: `superior to`"
+      },
+      {
+        "index": 3,
+        "text": "more superior than",
+        "knowledge_ids": [
+          476
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **double comparative** ใส่ `more` ซ้ำกับคำที่มีความหมายขั้นกว่าอยู่แล้ว และยังใช้บุพบทผิด ควรใช้ `superior to`"
+      },
+      {
+        "index": 4,
+        "text": "superior from",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด บุพบทไม่ถูกต้อง สำหรับ **superior** ใช้ **to** เช่น `superior to` ไม่ใช่ `superior from`"
+      }
+    ]
+  },
+  {
+    "question": "She looks ___ than yesterday.",
+    "question_knowledge_ids": [
+      472,
+      297,
+      466
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "happier",
+        "knowledge_ids": [
+          472,
+          297
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำคุณศัพท์ลงท้ายด้วย -y อย่าง **happy** เปลี่ยนเป็น **happier** ในขั้นกว่า โครงสร้างคือ __adj(-y) → -ier + than__ เช่น: `She looks happier than yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "more happy",
+        "knowledge_ids": [
+          472
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำสั้นอย่าง **happy** ใช้เติม -er เป็น **happier** ไม่ใช้ `more happy` ตัวอย่างที่ถูก: `happier than`"
+      },
+      {
+        "index": 3,
+        "text": "happyer",
+        "knowledge_ids": [
+          297
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด การสะกดไม่ถูก ต้องเปลี่ยน y เป็น i แล้วเติม -er เป็น **happier** เช่น: `happier than`"
+      },
+      {
+        "index": 4,
+        "text": "the happiest",
+        "knowledge_ids": [
+          466
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **the happiest** เป็นขั้นสุดยอด ใช้เมื่อเปรียบเทียบในกลุ่มใหญ่ ไม่ใช่เปรียบเทียบเวลาเมื่อวานกับวันนี้ซึ่งเป็นขั้นกว่า"
+      }
+    ]
+  },
+  {
+    "question": "We need ___ sugar than before.",
+    "question_knowledge_ids": [
+      474,
+      530,
+      532,
+      517
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "less",
+        "knowledge_ids": [
+          474,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **less** กับนามนับไม่ได้อย่าง **sugar** โครงสร้างคือ __less + uncountable noun + than__ เช่น: `We need less sugar than before.`"
+      },
+      {
+        "index": 2,
+        "text": "fewer",
+        "knowledge_ids": [
+          474,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **fewer** ใช้กับนามนับได้พหูพจน์ ไม่ใช่นามนับไม่ได้อย่าง `sugar` ตัวอย่างที่ถูกคือ `less sugar`"
+      },
+      {
+        "index": 3,
+        "text": "lesser",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด คำว่า **lesser** มักใช้เป็นคำคุณศัพท์เฉพาะกรณี เช่น `the lesser evil` ไม่ใช้บอกปริมาณวัตถุนับไม่ได้ ควรใช้ `less sugar`"
+      },
+      {
+        "index": 4,
+        "text": "little",
+        "knowledge_ids": [
+          517
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทเปรียบเทียบ เพราะ `little sugar` เป็นคำบรรยายปริมาณน้อยเฉยๆ ไม่ใช่ขั้นกว่า ต้องใช้ `less sugar ... than` เพื่อเปรียบเทียบ"
+      }
+    ]
+  },
+  {
+    "question": "She is one of the ___ students in the program.",
+    "question_knowledge_ids": [
+      462,
+      467,
+      513
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "best",
+        "knowledge_ids": [
+          466,
+          467
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง หลัง `one of the` ต้องตามด้วยรูปขั้นสุดยอดพหูพจน์ โครงสร้างคือ __one of the + superlative + plural noun__ เช่น: `one of the best students`"
+      },
+      {
+        "index": 2,
+        "text": "the best one of",
+        "knowledge_ids": [
+          467,
+          513
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะลำดับคำไม่ถูก โครงสร้างต้องเป็น `one of the + superlative + plural noun` เช่น: `one of the best students` ไม่ใช่ `the best one of students`"
+      },
+      {
+        "index": 3,
+        "text": "one of best",
+        "knowledge_ids": [
+          467,
+          529
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดคำว่า **the** และคำนามพหูพจน์ ต้องเป็น `one of the best students` ไม่ใช่ `one of best`"
+      },
+      {
+        "index": 4,
+        "text": "one of the better",
+        "knowledge_ids": [
+          464,
+          467
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ขั้นกว่า (**better**) แทนขั้นสุดยอด (**best**) หลัง `one of the` ต้องใช้รูปขั้นสุดยอด เช่น `one of the best students`"
+      }
+    ]
+  }
+]

@@ -1,0 +1,669 @@
+[
+  {
+    "question": "___ you like spicy food?",
+    "question_knowledge_ids": [
+      194,
+      288,
+      315,
+      381,
+      389,
+      384,
+      380,
+      413
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "knowledge_ids": [
+          389,
+          384,
+          381,
+          315
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้องจ้า โครงสร้างคำถามแบบ **Yes/No** สำหรับกริยาทั่วไปใช้รูป __Do/Does + subject + base verb?__ กับประธาน **I/you/we/they** ใช้ `Do`. ตัวอย่าง: `Do you like spicy food?` หรือ `Do they play football?`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "knowledge_ids": [
+          407,
+          389,
+          381,
+          315
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดนะ เพราะ **Does** ใช้กับประธานเอกพจน์บุคคลที่สาม (**he/she/it** หรือคำนามเอกพจน์) ไม่ใช้กับ **you**. ตัวอย่างถูก: `Does he like spicy food?` แต่กับ you ต้องเป็น `Do you like spicy food?`"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "knowledge_ids": [
+          305,
+          340,
+          346,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะ **Are** ใช้กับคำกริยา **be** (เช่น เป็น/อยู่/คือ) ไม่ใช่กริยาทั่วไปอย่าง **like**. ถ้าจะใช้ be ต้องเป็นโครงสร้างแบบ `Are you hungry?` แต่ประโยคนี้ต้องใช้ `Do you like ...?`"
+      },
+      {
+        "index": 4,
+        "text": "Is",
+        "knowledge_ids": [
+          305,
+          340,
+          346,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ถูกจ้า **Is** ใช้กับประธานเอกพจน์ (he/she/it) ในโครงสร้างที่มีกริยา **be** เท่านั้น เช่น `Is she a student?` แต่คำถามนี้เป็นกริยาทั่วไป **like** จึงควรเป็น `Do you like ...?`"
+      }
+    ]
+  },
+  {
+    "question": "___ she a teacher?",
+    "question_knowledge_ids": [
+      194,
+      288,
+      305,
+      318,
+      338,
+      390,
+      413
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Is",
+        "knowledge_ids": [
+          305,
+          318,
+          338
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **be** ในรูป __Is + subject + complement?__ เมื่อประธานเป็น **she/he/it** และตามด้วยคำนามหรือคุณศัพท์ เช่น `Is she a teacher?` หรือ `Is he tired?`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "knowledge_ids": [
+          315,
+          389,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะ **Does** ใช้กับกริยาทั่วไป เช่น `Does she work here?` แต่เมื่อมี **คำนาม/คุณศัพท์** ตามหลัง (a teacher) ต้องใช้กริยา **be** แทน จึงควรเป็น `Is she a teacher?`"
+      },
+      {
+        "index": 3,
+        "text": "Do",
+        "knowledge_ids": [
+          315,
+          389,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ใช่จ้า **Do** ใช้กับกริยาทั่วไป ไม่ใช้กับโครงสร้างที่บอกสถานะ/อาชีพที่ต้องใช้ **be**. ตัวอย่างที่ถูกต้อง: `Is she a doctor?` ไม่ใช่ `Do she a doctor?`"
+      },
+      {
+        "index": 4,
+        "text": "Are",
+        "knowledge_ids": [
+          318,
+          305,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก เพราะ **Are** ใช้กับประธานพหูพจน์ (**you/we/they**) หรือคำที่เป็นพหูพจน์ เช่น `Are they teachers?` แต่ประธานเป็น **she** ต้องใช้ `Is`"
+      }
+    ]
+  },
+  {
+    "question": "___ he play the guitar?",
+    "question_knowledge_ids": [
+      194,
+      288,
+      315,
+      381,
+      389,
+      407,
+      384,
+      380,
+      413
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Does",
+        "knowledge_ids": [
+          389,
+          407,
+          381,
+          315
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้องจ้า ประโยคคำถามกริยาทั่วไปกับประธาน **he/she/it** ใช้รูป __Does + subject + base verb?__ โดยกริยาหลักใช้รูป **base** ไม่เติม -s เช่น `Does he play the guitar?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          389,
+          384,
+          381,
+          315
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดนะ เพราะ **Do** ใช้กับ **I/you/we/they** ส่วนประธาน **he** ต้องใช้ **Does** เช่น `Does he play...?` ไม่ใช่ `Do he play...?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "knowledge_ids": [
+          305,
+          340,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ใช่ เพราะ **Is** เป็นกริยา **be** และใช้กับคุณศัพท์/คำนาม เช่น `Is he a guitarist?` แต่ถ้ามีกริยาทั่วไปอย่าง **play** ต้องใช้ `Does he play ...?`"
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "knowledge_ids": [
+          408,
+          291,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจ้า **Has** ไม่ได้ใช้ตั้งคำถามกับกริยาทั่วไปแบบนี้ โครงสร้างที่ถูกคือ `Does + subject + base verb` เช่น `Does he play ...?` ไม่ใช่ `Has he play ...?`"
+      }
+    ]
+  },
+  {
+    "question": "___ they at home now?",
+    "question_knowledge_ids": [
+      194,
+      288,
+      305,
+      318,
+      338,
+      390,
+      413
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Are",
+        "knowledge_ids": [
+          305,
+          318,
+          338
+        ],
+        "is_correct": true,
+        "answer_description": "เยี่ยมเลย ใช้ **be** กับประธานพหูพจน์ **they/we** เป็นรูป __Are + subject + complement?__ เช่น `Are they at home now?` หรือ `Are we ready?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          315,
+          389,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่จ้า เพราะประโยคนี้ใช้กริยา **be** (`at home` เป็นส่วนเสริมสถานที่) ต้องใช้ `Are` แทน เช่น `Are they at home?` ไม่ใช่ `Do they at home?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "knowledge_ids": [
+          305,
+          318,
+          338,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะ **Is** ใช้กับประธานเอกพจน์ (he/she/it) แต่ที่นี่เป็น **they** ซึ่งต้องใช้ `Are`. ตัวอย่างที่ถูก: `Are they at home now?`"
+      },
+      {
+        "index": 4,
+        "text": "Does",
+        "knowledge_ids": [
+          315,
+          389,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ถูก เพราะ **Does** ใช้กับกริยาทั่วไป ไม่ใช่กับกริยา **be**. โครงสร้างที่ถูกต้องคือ `Are they ...?`"
+      }
+    ]
+  },
+  {
+    "question": "___ your brother go to school by bus?",
+    "question_knowledge_ids": [
+      194,
+      288,
+      315,
+      381,
+      389,
+      407,
+      380,
+      413
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Does",
+        "knowledge_ids": [
+          389,
+          407,
+          381,
+          315
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน `your brother` เป็นเอกพจน์ จึงใช้รูป __Does + subject + base verb?__ และกริยาหลักต้องใช้รูป **base** คือ `go` เช่น `Does your brother go to school by bus?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          389,
+          381,
+          315,
+          384
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดนะ เพราะแม้ `brother` จะเป็นคน แต่เป็นเอกพจน์ ต้องใช้ **Does** ไม่ใช่ **Do**. ตัวอย่างที่ถูก: `Does your brother go ...?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "knowledge_ids": [
+          305,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ใช่ เพราะนี่เป็นกริยาทั่วไป **go** ไม่ใช่กริยา **be**. ถ้าใช้ be จะเป็นโครงสร้างแบบ `Is your brother at school?` ซึ่งต่างความหมาย"
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "knowledge_ids": [
+          408,
+          291,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจ้า **Has** ไม่ได้ใช้ตั้งคำถามสำหรับกริยาทั่วไปแบบนี้ โครงสร้างที่ถูกต้องคือ `Does your brother go ...?`"
+      }
+    ]
+  },
+  {
+    "question": "___ the students need more time?",
+    "question_knowledge_ids": [
+      194,
+      288,
+      315,
+      381,
+      389,
+      380,
+      384,
+      413
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "knowledge_ids": [
+          389,
+          384,
+          381,
+          315
+        ],
+        "is_correct": true,
+        "answer_description": "ใช่เลย ประธานพหูพจน์ `the students` ใช้รูป __Do + subject + base verb?__ เช่น `Do the students need more time?` หรือ `Do they need help?`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "knowledge_ids": [
+          389,
+          407,
+          381,
+          315
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก เพราะ **Does** ใช้กับประธานเอกพจน์บุคคลที่สาม เช่น `Does the student need ...?` แต่ `the students` เป็นพหูพจน์ ต้องใช้ `Do`"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "knowledge_ids": [
+          305,
+          340,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคนี้ใช้กริยาทั่วไป **need** ไม่ใช่กริยา **be**. โครงสร้างที่ถูกคือ `Do the students need ...?`"
+      },
+      {
+        "index": 4,
+        "text": "Is",
+        "knowledge_ids": [
+          305,
+          340,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ถูกจ้า **Is** ใช้กับประธานเอกพจน์ และใช้กับกริยา **be** เท่านั้น เช่น `Is the student ready?` ประโยคนี้ควรเป็น `Do the students need ...?`"
+      }
+    ]
+  },
+  {
+    "question": "___ it make sense to you?",
+    "question_knowledge_ids": [
+      194,
+      288,
+      315,
+      381,
+      389,
+      407,
+      413
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Does",
+        "knowledge_ids": [
+          389,
+          407,
+          381,
+          315
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้องกับประธาน **it** ต้องใช้ __Does + subject + base verb?__ และกริยาหลักใช้รูป **base** `make`. ตัวอย่าง: `Does it make sense?` หรือ `Does it work?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          389,
+          381,
+          315,
+          384
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do** ใช้กับ I/you/we/they ไม่ใช้กับ **it**. รูปที่ถูกคือ `Does it make sense?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "knowledge_ids": [
+          305,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ใช่ เพราะนี่เป็นกริยาทั่วไป **make** ไม่ใช่กริยา **be**. ถ้าจะใช้ be จะต้องตามด้วยคุณศัพท์/คำนาม เช่น `Is it useful?`"
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "knowledge_ids": [
+          408,
+          291,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดนะ **Has** ใช้กับโครงสร้าง perfect (`Has it finished?`) ไม่ใช่สำหรับคำถาม Present Simple ของกริยาทั่วไปแบบนี้ ซึ่งควรเป็น `Does it make ...?`"
+      }
+    ]
+  },
+  {
+    "question": "___ I look okay?",
+    "question_knowledge_ids": [
+      194,
+      288,
+      315,
+      381,
+      389,
+      350,
+      413
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "knowledge_ids": [
+          389,
+          350,
+          381,
+          315
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้องเลย สำหรับประธาน **I** กับกริยาทั่วไปใช้รูป __Do + subject + base verb?__ เช่น `Do I look okay?` หรือ `Do I need a jacket?`"
+      },
+      {
+        "index": 2,
+        "text": "Am",
+        "knowledge_ids": [
+          305,
+          318,
+          338
+        ],
+        "is_correct": false,
+        "answer_description": "เกือบดี แต่ **Am** ใช้กับกริยา **be** เช่น `Am I okay?` (ตามด้วยคุณศัพท์) ไม่ใช้กับกริยาทั่วไป **look** ที่ต้องใช้ `Do I look ...?`"
+      },
+      {
+        "index": 3,
+        "text": "Does",
+        "knowledge_ids": [
+          389,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ถูกนะ เพราะ **Does** ใช้กับ he/she/it เท่านั้น สำหรับ **I** ต้องใช้ `Do`. ตัวอย่าง: `Do I look okay?`"
+      },
+      {
+        "index": 4,
+        "text": "Are",
+        "knowledge_ids": [
+          305,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจ้า **Are** ใช้กับ you/we/they ในโครงสร้าง be-verb เท่านั้น เช่น `Are we late?` แต่ที่นี่เป็นกริยาทั่วไป ต้องใช้ `Do I look ...?`"
+      }
+    ]
+  },
+  {
+    "question": "___ your mom cook every day?",
+    "question_knowledge_ids": [
+      194,
+      288,
+      315,
+      381,
+      389,
+      407,
+      384,
+      380,
+      413,
+      291
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Does",
+        "knowledge_ids": [
+          389,
+          407,
+          381,
+          315
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน `your mom` เป็นเอกพจน์ จึงใช้รูป __Does + subject + base verb?__ สังเกตว่าหลัง `Does` กริยาหลักต้องเป็น **base form** คือ `cook` ไม่เติม -s เช่น `Does your mom cook every day?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          389,
+          384,
+          381,
+          315
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะ `your mom` เป็นเอกพจน์ ต้องใช้ **Does** ไม่ใช่ **Do**. รูปที่ถูก: `Does your mom cook every day?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "knowledge_ids": [
+          305,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ถูก เพราะนี่เป็นกริยาทั่วไป **cook** ไม่ใช่กริยา **be**. ถ้าใช้ be จะได้ `Is your mom a good cook?` ซึ่งความหมายเปลี่ยน"
+      },
+      {
+        "index": 4,
+        "text": "Does cooks",
+        "knowledge_ids": [
+          291,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจ้า ห้ามเติม -s ให้กริยาหลักหลัง **Does** ต้องใช้รูป **base** เท่านั้น โครงสร้างถูกคือ `Does + subject + cook ...?` เช่น `Does she cook every day?`"
+      }
+    ]
+  },
+  {
+    "question": "___ your parents live nearby?",
+    "question_knowledge_ids": [
+      194,
+      288,
+      315,
+      381,
+      389,
+      384,
+      380,
+      413
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "knowledge_ids": [
+          389,
+          384,
+          381,
+          315
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน `your parents` เป็นพหูพจน์ ใช้รูป __Do + subject + base verb?__ เช่น `Do your parents live nearby?` หรือ `Do they live in Bangkok?`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "knowledge_ids": [
+          389,
+          407,
+          381,
+          315
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดนะ เพราะ **Does** ใช้กับประธานเอกพจน์บุคคลที่สามเท่านั้น `parents` เป็นพหูพจน์ ต้องใช้ `Do`. ตัวอย่าง: `Do your parents live ...?`"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "knowledge_ids": [
+          305,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก เพราะนี่เป็นกริยาทั่วไป **live** ไม่ใช่กริยา **be**. โครงสร้างที่ถูกต้องคือ `Do your parents live ...?`"
+      },
+      {
+        "index": 4,
+        "text": "Is",
+        "knowledge_ids": [
+          305,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ใช่จ้า `Is` ใช้กับเอกพจน์ (he/she/it) และใช้กับกริยา **be** เท่านั้น ตัวอย่างที่ถูกต้องควรเป็น `Do your parents live nearby?`"
+      }
+    ]
+  },
+  {
+    "question": "___ there any milk in the fridge?",
+    "question_knowledge_ids": [
+      194,
+      288,
+      305,
+      318,
+      339,
+      340,
+      381,
+      569,
+      581
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Is",
+        "knowledge_ids": [
+          305,
+          318,
+          339,
+          340,
+          581
+        ],
+        "is_correct": true,
+        "answer_description": "ดีมาก ใช้โครงสร้าง **There is/are** ในคำถามแบบ __Is/Are + there + noun ...?__ เมื่อพูดถึงคำนามนับไม่ได้หรือเอกพจน์ ใช้ `Is there ...?` เช่น `Is there any milk in the fridge?`"
+      },
+      {
+        "index": 2,
+        "text": "Are",
+        "knowledge_ids": [
+          305,
+          318,
+          339,
+          340,
+          581
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก เพราะ `milk` เป็นคำนามนับไม่ได้ จึงถือเป็นเอกพจน์ทางไวยากรณ์ ต้องใช้ `Is there ...?` ไม่ใช่ `Are there ...?` เช่น `Is there any water?`"
+      },
+      {
+        "index": 3,
+        "text": "Do",
+        "knowledge_ids": [
+          315,
+          381,
+          389,
+          413,
+          569
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจ้า โครงสร้าง **There is/are** ใช้กับกริยา **be** เท่านั้น ไม่ใช้ **Do/Does**. ตัวอย่างที่ถูก: `Is there a problem?`"
+      },
+      {
+        "index": 4,
+        "text": "Does",
+        "knowledge_ids": [
+          315,
+          381,
+          389,
+          413,
+          569
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ถูก เพราะต้องใช้กริยา **be** ในโครงสร้าง `There is/are`. ประโยคที่ถูกคือ `Is there any milk in the fridge?`"
+      }
+    ]
+  }
+]

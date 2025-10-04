@@ -1,0 +1,529 @@
+[
+  {
+    "question": "She bought ___ at the market.",
+    "question_knowledge_ids": [
+      533,
+      531
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "a beautiful red dress",
+        "knowledge_ids": [
+          533,
+          531
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะลำดับในวลีคำนามควรเป็น __Determiner + Opinion + Color + Noun__ เช่น `a beautiful red dress`. ใช้คำบอกความเห็น (**beautiful**) ไว้ก่อนคำบอกสี (**red**) แล้วตามด้วยคำนาม (**dress**). ตัวอย่าง: `She bought a beautiful red dress at the market.`"
+      },
+      {
+        "index": 2,
+        "text": "a red beautiful dress",
+        "knowledge_ids": [
+          533
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสลับลำดับคำคุณศัพท์ โดยวาง **Color** ไว้ก่อน **Opinion** ซึ่งไม่เป็นธรรมชาติในภาษาอังกฤษทั่วไป. รูปแบบที่ถูกต้องคือ `Opinion + Color + Noun` เช่น `a beautiful red dress` ไม่ใช่ `a red beautiful dress`."
+      },
+      {
+        "index": 3,
+        "text": "the dress beautiful red",
+        "knowledge_ids": [
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอาคุณศัพท์ไปไว้หลังคำนาม (`dress beautiful red`) ซึ่งภาษาอังกฤษปกติวางคุณศัพท์ไว้หน้า **noun**. โครงสร้างที่ถูกต้องคือ `Determiner + Adjective(s) + Noun` เช่น `the beautiful red dress`."
+      },
+      {
+        "index": 4,
+        "text": "beautiful a red dress",
+        "knowledge_ids": [
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะวาง **determiner** (`a`) ไม่ถูกที่ ควรอยู่หน้าชุดคุณศัพท์ทั้งหมด. โครงสร้างที่ถูกคือ `a + beautiful + red + dress` ไม่ใช่ `beautiful a red dress`."
+      }
+    ]
+  },
+  {
+    "question": "Can you pass me ___ on the shelf?",
+    "question_knowledge_ids": [
+      533,
+      561,
+      562,
+      531
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "these small glass jars",
+        "knowledge_ids": [
+          533,
+          562
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ลำดับในวลีคำนามเป็น __Demonstrative + Size + Material + Noun (plural)__ เช่น `these small glass jars`. ใช้ `these` กับนามพหูพจน์ (**jars**) และวาง **size (small)** ก่อน **material (glass)**. ตัวอย่าง: `Please pass me these small glass jars.`"
+      },
+      {
+        "index": 2,
+        "text": "these glass small jars",
+        "knowledge_ids": [
+          533
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสลับลำดับคุณศัพท์ โดยวาง **material** (glass) ไว้ก่อน **size** (small). ลำดับที่เป็นธรรมชาติมากกว่าคือ `Size + Material` เช่น `small glass jars`."
+      },
+      {
+        "index": 3,
+        "text": "this small glass jar",
+        "knowledge_ids": [
+          533,
+          561
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ `this` (เอกพจน์) กับนามเอกพจน์ `jar` แต่บริบทถามของหลายชิ้น (บนชั้น) และต้องการสอดคล้องกับกริยา `pass me` ที่มักหมายถึงมากกว่าหนึ่ง. สำหรับพหูพจน์ควรใช้ `these ... jars`."
+      },
+      {
+        "index": 4,
+        "text": "those small glasses jar",
+        "knowledge_ids": [
+          533,
+          562
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดหลายจุด: `glasses` เป็นคำนาม ไม่ใช่คุณศัพท์บอกวัสดุ ควรใช้ **glass** เป็นคุณศัพท์ (เช่น `glass jars`). และนามหลัก `jar` เป็นเอกพจน์ แต่ใช้ `those` (พหูพจน์) ไม่สอดคล้อง."
+      }
+    ]
+  },
+  {
+    "question": "He adopted ___ from the shelter.",
+    "question_knowledge_ids": [
+      533,
+      531
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "an adorable orange cat",
+        "knowledge_ids": [
+          533,
+          531
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคือ __Determiner (an) + Opinion + Color + Noun__ เช่น `an adorable orange cat`. ใช้ `an` เพราะคำถัดไปขึ้นต้นด้วยเสียงสระ (**adorable**). ตัวอย่าง: `He adopted an adorable orange cat.`"
+      },
+      {
+        "index": 2,
+        "text": "a adorable orange cat",
+        "knowledge_ids": [
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ `a` แทนที่จะใช้ `an` ก่อนคำที่ขึ้นต้นด้วยเสียงสระ (**adorable**). ที่ถูกต้องคือต้องเป็น `an adorable orange cat`."
+      },
+      {
+        "index": 3,
+        "text": "an orange adorable cat",
+        "knowledge_ids": [
+          533
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่ลำดับคุณศัพท์ วาง **Color** (orange) ไว้ก่อน **Opinion** (adorable). ลำดับนิยมคือ `Opinion + Color` เช่น `an adorable orange cat`."
+      },
+      {
+        "index": 4,
+        "text": "an adorably orange cat",
+        "knowledge_ids": [
+          534
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดชนิดคำ ใช้ **adverb** (`adorably`) แทน **adjective** (adorable) ในวลีคำนาม. ในวลีคำนามต้องใช้คุณศัพท์: `an adorable orange cat` ไม่ใช่ `an adorably orange cat`."
+      }
+    ]
+  },
+  {
+    "question": "We don’t have ___ for the workshop.",
+    "question_knowledge_ids": [
+      517,
+      530,
+      532
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "many useful materials",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคือ __Quantifier (many) + Opinion + Noun (plural)__ โดยใช้ `many` กับคำนามนับได้พหูพจน์ (**materials**). ตัวอย่าง: `We don’t have many useful materials for the workshop.`"
+      },
+      {
+        "index": 2,
+        "text": "much useful materials",
+        "knowledge_ids": [
+          517,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `much` ใช้กับคำนามนับไม่ได้ แต่ `materials` เป็นพหูพจน์นับได้. ถ้าจะใช้ `much` ต้องเป็นนามนับไม่ได้ เช่น `much useful equipment`."
+      },
+      {
+        "index": 3,
+        "text": "many usefulness material",
+        "knowledge_ids": [
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดหลายจุด: `usefulness` เป็นคำนาม ไม่ใช่คุณศัพท์ และ `material` เป็นเอกพจน์ไม่เข้ากับ `many`. รูปที่ถูกคือ `many useful materials`."
+      },
+      {
+        "index": 4,
+        "text": "a many useful materials",
+        "knowledge_ids": [
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะห้ามวาง `a` หน้าคำบอกปริมาณอย่าง `many`. เลือกอย่างใดอย่างหนึ่ง เช่น `many useful materials` หรือถ้านับไม่ได้ใช้ `much useful material`."
+      }
+    ]
+  },
+  {
+    "question": "The museum displays ___ from Egypt.",
+    "question_knowledge_ids": [
+      533
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "three large ancient statues",
+        "knowledge_ids": [
+          533
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ลำดับคุณศัพท์ควรเป็น __Number + Size + Age + Noun__ เช่น `three large ancient statues`. วางจำนวนก่อน แล้วตามด้วยขนาด (**large**) และอายุ/ความเก่า (**ancient**) ก่อนคำนามหลัก (**statues**). ตัวอย่าง: `The museum displays three large ancient statues from Egypt.`"
+      },
+      {
+        "index": 2,
+        "text": "large three ancient statues",
+        "knowledge_ids": [
+          533
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะวาง **number** (three) ไม่ถูกตำแหน่ง ควรนำหน้าคุณศัพท์ทุกตัว. โครงสร้างที่ถูกคือ `three large ancient statues`."
+      },
+      {
+        "index": 3,
+        "text": "three ancient large statues",
+        "knowledge_ids": [
+          533
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่ลำดับคุณศัพท์ โดยทั่วไป **size** (large) มาก่อน **age** (ancient). รูปธรรมชาติกว่า: `three large ancient statues`."
+      },
+      {
+        "index": 4,
+        "text": "three statues large ancient",
+        "knowledge_ids": [
+          533
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอาคุณศัพท์ไปไว้หลังคำนาม ซึ่งผิดรูปแบบวลีคำนามภาษาอังกฤษ. ควรวางก่อนนาม: `three large ancient statues` ไม่ใช่ `three statues large ancient`."
+      }
+    ]
+  },
+  {
+    "question": "___ must sign in at the front desk.",
+    "question_knowledge_ids": [
+      519,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Every student",
+        "knowledge_ids": [
+          519,
+          380
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กฎคือ __Determiner (every) + Singular Noun__ เช่น `Every student`. `every` ต้องตามด้วยคำนามเอกพจน์เสมอ. ตัวอย่าง: `Every student must sign in at the front desk.`"
+      },
+      {
+        "index": 2,
+        "text": "Every students",
+        "knowledge_ids": [
+          519,
+          380
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `every` ต้องตามด้วยนามเอกพจน์ ไม่ใช่พหูพจน์. แก้เป็น `Every student`."
+      },
+      {
+        "index": 3,
+        "text": "Each students",
+        "knowledge_ids": [
+          519,
+          380
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `each` ก็ต้องตามด้วยนามเอกพจน์เช่นกัน. ที่ถูกต้องคือ `Each student`."
+      },
+      {
+        "index": 4,
+        "text": "The every student",
+        "knowledge_ids": [
+          519
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะห้ามใช้ `the` นำหน้า `every`. ใช้อย่างใดอย่างหนึ่ง เช่น `Every student` หรือ `The students` (ความหมายต่างกัน)."
+      }
+    ]
+  },
+  {
+    "question": "Please watch ___ before the meeting.",
+    "question_knowledge_ids": [
+      533
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "a three-minute training video",
+        "knowledge_ids": [
+          533
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคือ __Determiner + Compound Adjective + Purpose + Noun__ เช่น `a three-minute training video`. ใช้คำประกอบด้วยขีด `three-minute` เป็น **compound adjective** ขยายนาม **video** และวาง **purpose adjective** (training) ชิดคำนาม. ตัวอย่าง: `Please watch a three-minute training video before the meeting.`"
+      },
+      {
+        "index": 2,
+        "text": "a three-minutes training video",
+        "knowledge_ids": [
+          533
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใน **compound adjective** ต้องใช้รูปเอกพจน์: `three-minute` ไม่ใช่ `three-minutes`. ที่ถูกคือ `a three-minute training video`."
+      },
+      {
+        "index": 3,
+        "text": "a training three-minute video",
+        "knowledge_ids": [
+          533
+        ],
+        "is_correct": false,
+        "answer_description": "แม้พอเข้าใจได้ แต่ลำดับไม่เป็นธรรมชาติ เพราะ **compound adjective** ที่เป็นจำนวน-หน่วย ควรอยู่ใกล้คำนามที่สุดหรือวางนำหน้าอย่างชัดเจน: `a three-minute training video`. จัดลำดับใหม่ให้ชัดจะอ่านลื่นกว่า."
+      },
+      {
+        "index": 4,
+        "text": "the training video three-minute",
+        "knowledge_ids": [
+          533
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะวาง **compound adjective** (`three-minute`) ไว้หลังคำนาม ซึ่งไม่ใช่รูปแบบปกติของวลีคำนามภาษาอังกฤษ. ควรเป็น `a three-minute training video` โดยวางคุณศัพท์ไว้หน้านาม."
+      }
+    ]
+  },
+  {
+    "question": "I don’t like ___ you recommended.",
+    "question_knowledge_ids": [
+      533,
+      562,
+      561,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "those ugly green curtains",
+        "knowledge_ids": [
+          533,
+          562
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ลำดับคือ __Demonstrative + Opinion + Color + Noun (plural)__ เช่น `those ugly green curtains`. ใช้ `those` กับนามพหูพจน์ (**curtains**) และวาง **opinion (ugly)** ก่อน **color (green)**. ตัวอย่าง: `I don’t like those ugly green curtains you recommended.`"
+      },
+      {
+        "index": 2,
+        "text": "those green ugly curtains",
+        "knowledge_ids": [
+          533
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสลับลำดับคุณศัพท์ โดยวาง **color** ก่อน **opinion**. แบบที่เป็นธรรมชาติคือ `opinion + color`: `ugly green curtains`."
+      },
+      {
+        "index": 3,
+        "text": "these ugly green curtain",
+        "knowledge_ids": [
+          533,
+          561,
+          380
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `these` ต้องใช้กับนามพหูพจน์ แต่ `curtain` เป็นเอกพจน์. ควรเป็น `these ugly green curtains` หรือถ้าเอกพจน์ใช้ `this ugly green curtain`."
+      },
+      {
+        "index": 4,
+        "text": "that ugly green curtains",
+        "knowledge_ids": [
+          533,
+          562,
+          380
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `that` ใช้กับเอกพจน์ แต่ `curtains` เป็นพหูพจน์. ถ้าพหูพจน์ควรใช้ `those ugly green curtains`."
+      }
+    ]
+  },
+  {
+    "question": "___ could solve the problem.",
+    "question_knowledge_ids": [
+      516,
+      533,
+      535
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Her two innovative ideas",
+        "knowledge_ids": [
+          516,
+          533,
+          535
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ลำดับคือ __Possessive Determiner + Number + Opinion + Noun (plural)__ เช่น `Her two innovative ideas`. วางคำแทนความเป็นเจ้าของ (**Her**) นำหน้า ตามด้วยจำนวน (**two**) แล้วค่อยคุณศัพท์ (**innovative**) และนามพหูพจน์ (**ideas**). ตัวอย่าง: `Her two innovative ideas could solve the problem.`"
+      },
+      {
+        "index": 2,
+        "text": "Two her innovative ideas",
+        "knowledge_ids": [
+          516,
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะตำแหน่งของ possessive determiner (`her`) ต้องอยู่ก่อนตัวเลข. ที่ถูกคือ `Her two innovative ideas` ไม่ใช่ `Two her ...`."
+      },
+      {
+        "index": 3,
+        "text": "Her innovative two ideas",
+        "knowledge_ids": [
+          516,
+          533,
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะวาง **number** หลังคุณศัพท์ ซึ่งผิดลำดับที่นิยม. ควรเป็น `Her two innovative ideas` โดยให้ตัวเลขมาก่อนคุณศัพท์."
+      },
+      {
+        "index": 4,
+        "text": "Hers two innovative ideas",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `hers` เป็น **pronoun** ไม่ใช่ **determiner** จึงวางหน้า **noun** ตรงๆ แบบนี้ไม่ได้. ต้องใช้ `her two innovative ideas`."
+      }
+    ]
+  },
+  {
+    "question": "There is ___ in this report.",
+    "question_knowledge_ids": [
+      517,
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "little useful information",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคือ __Quantifier (little) + Opinion + Uncountable Noun__ เช่น `little useful information`. `information` เป็นนามนับไม่ได้ จึงใช้ `little` ได้พอดี. ตัวอย่าง: `There is little useful information in this report.`"
+      },
+      {
+        "index": 2,
+        "text": "few useful information",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `few` ใช้กับคำนามนับได้พหูพจน์ แต่ `information` เป็นนามนับไม่ได้. ต้องใช้ `little useful information`."
+      },
+      {
+        "index": 3,
+        "text": "a little useful informations",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดสองจุด: หนึ่ง `informations` ไม่ถูก เพราะ `information` นับไม่ได้จึงไม่ทำพหูพจน์; สอง `a little` ใช้ได้กับนามนับไม่ได้ แต่ต้องตามด้วยรูปนับไม่ได้เอกพจน์เสมอ เช่น `a little useful information`."
+      },
+      {
+        "index": 4,
+        "text": "the little useful information",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "โครงสร้างไวยากรณ์อาจถูก แต่ความหมายคือ “ข้อมูลเล็กน้อยนั้น” ที่เจาะจง ซึ่งไม่เข้ากับบริบทแจ้งข่าวทั่วๆ ไป. ประโยคทั่วไปควรใช้ `There is little useful information ...` เพื่อบอกว่ามีอยู่น้อย."
+      }
+    ]
+  },
+  {
+    "question": "We bought ___ for the new apartment.",
+    "question_knowledge_ids": [
+      533,
+      531
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "a small wooden dining table",
+        "knowledge_ids": [
+          533,
+          531
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ลำดับคือ __Determiner + Size + Material + Purpose/Type + Noun__ เช่น `a small wooden dining table`. วาง **size (small)** ก่อน **material (wooden)** แล้วตามด้วยคำบอกประเภท/วัตถุประสงค์ (**dining**) ชิดคำนาม (**table**). ตัวอย่าง: `We bought a small wooden dining table for the new apartment.`"
+      },
+      {
+        "index": 2,
+        "text": "a wooden small dining table",
+        "knowledge_ids": [
+          533,
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสลับลำดับ โดยวาง **material** ก่อน **size** ซึ่งขัดกับลำดับที่นิยม. รูปที่เป็นธรรมชาติกว่าคือ `small` ก่อน `wooden`: `a small wooden dining table`."
+      },
+      {
+        "index": 3,
+        "text": "a small dining wooden table",
+        "knowledge_ids": [
+          533,
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะวาง **purpose/type** (dining) ไว้ก่อน **material** (wooden) ทำให้ฟังแปลก. ลำดับที่ดีกว่าคือ `Size + Material + Purpose + Noun`: `a small wooden dining table`."
+      },
+      {
+        "index": 4,
+        "text": "small a wooden dining table",
+        "knowledge_ids": [
+          533,
+          531
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะวาง **determiner** (`a`) ผิดตำแหน่ง ควรอยู่หน้าชุดคุณศัพท์ทั้งหมด. รูปที่ถูกคือ `a small wooden dining table`."
+      }
+    ]
+  }
+]

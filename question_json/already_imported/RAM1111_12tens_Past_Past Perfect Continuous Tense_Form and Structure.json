@@ -1,0 +1,321 @@
+[
+  {
+    "question": "By 2010, they ___ in Bangkok for five years.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had been living",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างของ **Past Perfect Continuous** คือ __had been + V-ing__ เพื่อบอกการกระทำที่ดำเนินต่อเนื่องก่อนอดีตอีกช่วงหนึ่ง เช่น `By 2010, they had been living in Bangkok for five years.` ตัวอย่างใช้งาน: `By the time I met her, she had been working here for a year.`"
+      },
+      {
+        "index": 2,
+        "text": "have been living",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่คือ **Present Perfect Continuous** (`have/has been + V-ing`) ใช้กับปัจจุบัน ไม่ใช่เวลาอดีตที่เสร็จสิ้นแล้ว เช่น `They have been living here since 2018.` แต่โจทย์มีตัวชี้เวลาอดีต `By 2010` ต้องใช้ **Past Perfect Continuous**"
+      },
+      {
+        "index": 3,
+        "text": "had lived",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Perfect Simple** (`had + V3`) เน้นผลลัพธ์ ไม่เน้นความต่อเนื่อง หากต้องการเน้น “อยู่มาเป็นเวลา” ควรใช้รูปต่อเนื่อง `had been living` เช่น `They had been living there for five years.`"
+      },
+      {
+        "index": 4,
+        "text": "were living",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Continuous** (`was/were + V-ing`) ใช้บอกเหตุการณ์กำลังเกิดขึ้นในอดีตช่วงหนึ่ง แต่ไม่เน้น “ก่อนเวลาอดีตอีกจุดหนึ่ง” แบบ `By 2010`. รูปที่เหมาะคือ `had been living` เพื่อเชื่อมโยงความต่อเนื่องก่อนปี 2010"
+      }
+    ]
+  },
+  {
+    "question": "She ___ for long before the bus arrived.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "hadn't been waiting",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปปฏิเสธของ **Past Perfect Continuous** คือ __had not (hadn't) been + V-ing__ เช่น `She hadn't been waiting for long before the bus arrived.` ตัวอย่าง: `I hadn't been studying long when the power went out.`"
+      },
+      {
+        "index": 2,
+        "text": "wasn't waiting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Continuous** (`was/were + V-ing`) ไม่สื่อความต่อเนื่องยาวก่อนอีกเหตุการณ์อดีตอย่างชัดเจน เทียบ: `She wasn't waiting when the bus arrived.` (แค่บอกขณะนั้น) แต่โจทย์ต้องการรูปที่เน้นระยะเวลาก่อนรถบัสมา"
+      },
+      {
+        "index": 3,
+        "text": "didn't wait",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple** (กริยาแท้ช่อง 1 หลัง `didn't`) ไม่เน้นระยะเวลาต่อเนื่อง เช่น `She didn't wait long.` แต่โจทย์มีโครงสร้างที่สื่อว่าก่อนรถบัสมามีการรอเป็นช่วงเวลา จึงควรใช้ `hadn't been waiting`"
+      },
+      {
+        "index": 4,
+        "text": "hasn't been waiting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Perfect Continuous** (`has/have been + V-ing`) ใช้กับปัจจุบัน แต่เหตุการณ์นี้อยู่ในอดีตและมีจุดอ้างอิง `before the bus arrived` จึงต้องใช้ `hadn't been waiting`"
+      }
+    ]
+  },
+  {
+    "question": "___ you been studying English before you moved to London?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Had",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคคำถามของ **Past Perfect Continuous** ใช้รูป __Had + subject + been + V-ing?__ เช่น `Had you been studying English before you moved to London?` ตัวอย่าง: `Had she been working out before the match?`"
+      },
+      {
+        "index": 2,
+        "text": "Have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Have` ใช้กับ **Present Perfect**/**Present Perfect Continuous** ไม่ใช่ Past Perfect Continuous โครงสร้างที่ถูกต้องของคำถามต้องขึ้นต้นด้วย `Had` เช่น `Had you been studying...?`"
+      },
+      {
+        "index": 3,
+        "text": "Were",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Were` เป็นตัวช่วยของ **Past Continuous** (`Were you studying...`) แต่โจทย์ต้องการรูปที่เน้น “ก่อนย้ายไปลอนดอน” ซึ่งเป็นอดีตอีกจุด จึงต้องใช้ `Had`"
+      },
+      {
+        "index": 4,
+        "text": "Did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Did` ใช้กับ **Past Simple** (`Did you study...`) ซึ่งไม่สื่อความต่อเนื่องยาวก่อนอีกเหตุการณ์อดีต แบบที่ Past Perfect Continuous ทำ"
+      }
+    ]
+  },
+  {
+    "question": "How long ___ at the company before you quit?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had you been working",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำถามแสดงระยะเวลาใช้รูป __How long + had + subject + been + V-ing__ เช่น `How long had you been working at the company before you quit?` ตัวอย่าง: `How long had they been traveling before they reached Rome?`"
+      },
+      {
+        "index": 2,
+        "text": "were you working",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Continuous** (`were + V-ing`) ไม่ได้สื่อความว่าเกิดขึ้น “ก่อน” การลาออกอย่างชัดเจน ควรใช้ `had you been working` เพื่อเชื่อมสองเหตุการณ์อดีต"
+      },
+      {
+        "index": 3,
+        "text": "have you been working",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Perfect Continuous** ใช้เชื่อมกับปัจจุบัน (`have/has been + V-ing`) แต่โจทย์อ้างถึงเหตุการณ์อดีตที่จบแล้ว จึงไม่เหมาะ"
+      },
+      {
+        "index": 4,
+        "text": "had you worked",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Perfect Simple** (`had + V3`) เน้นผล ไม่เน้นความต่อเนื่อง หากต้องการเน้นระยะเวลาการทำงานต่อเนื่อง ควรใช้ `had been working`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ for hours when the lights finally came back.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had been studying",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง __had been + V-ing__ ใช้เน้นการกระทำที่ดำเนินต่อเนื่องก่อนอีกเหตุการณ์อดีต เช่น `He had been studying for hours when the lights finally came back.` ตัวอย่างเพิ่มเติม: `We had been driving all day before we stopped.`"
+      },
+      {
+        "index": 2,
+        "text": "had been study",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `been` ต้องเป็น **V-ing** ไม่ใช่รูปกริยาช่อง 1 รูปที่ถูกต้องคือ `had been studying` เช่น `He had been studying...`"
+      },
+      {
+        "index": 3,
+        "text": "has been studying",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Perfect Continuous** ไม่สอดคล้องกับบริบทอดีต (`came back`) จึงควรใช้ Past Perfect Continuous"
+      },
+      {
+        "index": 4,
+        "text": "was studying",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Continuous** ซึ่งไม่ชี้ชัดว่าการอ่านเกิดขึ้นต่อเนื่องยาว “ก่อน” ไฟมา ควรใช้ `had been studying` เพื่อเน้นความต่อเนื่องก่อนอีกเหตุการณ์อดีต"
+      }
+    ]
+  },
+  {
+    "question": "They ___ since morning when we finally ate.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had been fasting",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __had been + V-ing__ กับตัวบอกเวลาอย่าง **since** เพื่อเน้นระยะเวลาต่อเนื่องก่อนอีกเหตุการณ์อดีต เช่น `They had been fasting since morning when we finally ate.` ตัวอย่าง: `She had been working since dawn before she took a break.`"
+      },
+      {
+        "index": 2,
+        "text": "have been fasting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Perfect Continuous** ไม่เข้ากับบริบทอดีต (`when we finally ate`) ควรใช้ Past Perfect Continuous เพื่อชี้ว่าเกิดก่อนการกิน"
+      },
+      {
+        "index": 3,
+        "text": "were fasting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Past Continuous** ไม่ได้เน้นระยะเวลา “ตั้งแต่เช้า” ที่ต่อเนื่องยาวก่อนอีกเหตุการณ์อย่างชัดเจน โครงสร้างที่เหมาะคือ `had been fasting`"
+      },
+      {
+        "index": 4,
+        "text": "had fasted",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Perfect Simple** (`had + V3`) เน้นผลลัพธ์ ไม่ใช่กระบวนการต่อเนื่อง ถ้าต้องการเน้นความต่อเนื่องใช้ `had been fasting`"
+      }
+    ]
+  },
+  {
+    "question": "By the time the train arrived, I ___ for two hours.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had been waiting",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง __had been + V-ing__ ใช้กับวลีเวลาอย่าง `By the time...` เพื่อเน้นว่ามีการรอต่อเนื่องก่อนรถไฟมาถึง เช่น `I had been waiting for two hours.` ตัวอย่าง: `By the time he called, we had been talking for a while.`"
+      },
+      {
+        "index": 2,
+        "text": "was waiting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Continuous** ไม่สื่อว่าการรอเกิดขึ้น “ก่อนเวลา” ที่รถไฟมาถึงเป็นช่วงยาว ควรใช้ `had been waiting` เพื่อชัดเจนเรื่องลำดับและระยะเวลา"
+      },
+      {
+        "index": 3,
+        "text": "have been waiting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Perfect Continuous** ซึ่งโยงกับปัจจุบัน แต่บริบทเป็นอดีตที่เสร็จแล้ว (`the train arrived`) จึงใช้ Past Perfect Continuous"
+      },
+      {
+        "index": 4,
+        "text": "had waited",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Past Perfect Simple** ไม่ได้เน้นความต่อเนื่อง หากต้องการเน้นการรอเป็นระยะเวลานาน ให้ใช้ `had been waiting`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ always been arguing before the coach stepped in.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตำแหน่งของ adverb ความถี่อย่าง **always** มักวางหลัง `had` และก่อน `been` ใน **Past Perfect Continuous** โครงสร้างคือ __had + always + been + V-ing__ เช่น `They had always been arguing...` ตัวอย่าง: `She had often been working late before the deadline.`"
+      },
+      {
+        "index": 2,
+        "text": "has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `has` เป็นปัจจุบัน ไม่ใช่อดีตสมบูรณ์ต่อเนื่อง โครงสร้างที่ถูกต้องต้องใช้ `had` เช่น `They had always been arguing...`"
+      },
+      {
+        "index": 3,
+        "text": "was",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `was` ใช้กับ **Past Continuous** (`was/were + V-ing`) แต่ที่นี่ต้องการรูป **Past Perfect Continuous** ซึ่งต้องมี `had been + V-ing` และวาง `always` หลัง `had`"
+      },
+      {
+        "index": 4,
+        "text": "did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `did` ใช้กับ **Past Simple** ไม่เข้ากับโครงสร้างต่อเนื่อง `been + V-ing` โครงสร้างที่ถูกคือ `had always been arguing`"
+      }
+    ]
+  },
+  {
+    "question": "Had she been practicing before the recital? Yes, she ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำตอบสั้นของคำถามแบบ **Past Perfect (Continuous)** ใช้ __Yes, subject + had.__ เช่น `Yes, she had.` ตัวอย่าง: `Had they been waiting? — Yes, they had.`"
+      },
+      {
+        "index": 2,
+        "text": "has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `has` เป็นรูปปัจจุบัน ไม่สอดคล้องกับคำถามที่ขึ้นด้วย `Had` ในอดีต ควรตอบให้กาลตรงกันว่า `had`"
+      },
+      {
+        "index": 3,
+        "text": "did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `did` เป็นของ **Past Simple** ไม่ใช่ Past Perfect Continuous รูปตอบสั้นต้องใช้ `had` ให้ตรงกับกริยาช่วยในคำถาม"
+      },
+      {
+        "index": 4,
+        "text": "was",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `was` เป็นของ **Past Continuous** ไม่เข้ากับคำถามที่ใช้ **Had** ใน Past Perfect Continuous จึงไม่ควรใช้"
+      }
+    ]
+  },
+  {
+    "question": "Why ___ you been sleeping when I called at 8?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "hadn't",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคคำถามปฏิเสธใช้รูป __Why + hadn't + subject + been + V-ing?__ เช่น `Why hadn't you been sleeping when I called at 8?` ตัวอย่าง: `Why hadn't they been paying attention before the test?`"
+      },
+      {
+        "index": 2,
+        "text": "didn't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `didn't` ใช้กับ **Past Simple** (`didn't + V1`) ซึ่งไม่เข้ากับโครงสร้าง `been + V-ing` ควรใช้ `hadn't` ใน Past Perfect Continuous"
+      },
+      {
+        "index": 3,
+        "text": "weren't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `weren't` เป็น **Past Continuous** (`were not + V-ing`) แต่ในประโยคมี `been` อยู่แล้ว จึงต้องใช้ `hadn't` เพื่อสร้างรูป Past Perfect Continuous"
+      },
+      {
+        "index": 4,
+        "text": "hasn't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `hasn't` เป็นปัจจุบัน ไม่ใช่อดีตสมบูรณ์ต่อเนื่อง รูปที่ถูกต้องในอดีตคือ `hadn't`"
+      }
+    ]
+  },
+  {
+    "question": "Before the storm hit, the workers ___ the roof all morning.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had been fixing",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __had been + V-ing__ เพื่อเน้นการทำงานต่อเนื่องก่อนอีกเหตุการณ์อดีต (`the storm hit`) เช่น `the workers had been fixing the roof all morning.` ตัวอย่าง: `We had been cleaning the house before guests arrived.`"
+      },
+      {
+        "index": 2,
+        "text": "had fixed",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Perfect Simple** เน้นผลว่า “ซ่อมเสร็จแล้ว” ไม่เน้นระยะเวลาต่อเนื่อง ถ้าจะเน้นว่าทำมาตลอดทั้งเช้า ใช้ `had been fixing`"
+      },
+      {
+        "index": 3,
+        "text": "were fixing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Continuous** (`were + V-ing`) ไม่ชัดเจนเรื่อง “ก่อน” พายุมาและความต่อเนื่องยาวทั้งเช้า เทียบกับ `had been fixing` ที่เหมาะกว่า"
+      },
+      {
+        "index": 4,
+        "text": "have been fixing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Perfect Continuous** ซึ่งเชื่อมกับปัจจุบัน ไม่สอดคล้องกับบริบทอดีต (`Before the storm hit`) จึงไม่เหมาะ"
+      }
+    ]
+  }
+]

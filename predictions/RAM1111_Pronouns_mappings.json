@@ -1,0 +1,483 @@
+[
+  {
+    "question": "___ like chocolate.",
+    "question_knowledge_ids": [
+      380,
+      384,
+      401,
+      535
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "I",
+        "knowledge_ids": [
+          380,
+          384
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะตำแหน่งหน้ากริยาเป็น **ประธาน** ต้องใช้สรรพนามประธาน __subject pronoun__: `I/you/he/she/it/we/they`. โครงสร้างคือ __subject + verb__ เช่น `I like chocolate.` หรือ `They play football.` ตัวอย่างใช้จริง: `I like chocolate a lot.`"
+      },
+      {
+        "index": 2,
+        "text": "Me",
+        "knowledge_ids": [
+          380
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `me` เป็น **object pronoun** ใช้เป็นกรรมหลังคำกริยาหรือบุพบท ไม่ใช่ประธาน เช่น `Help me, please.` หรือ `She called me.` หากเอามาไว้หน้ากริยาแบบ `Me like chocolate` จะผิดไวยากรณ์"
+      },
+      {
+        "index": 3,
+        "text": "My",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`my` เป็น **possessive adjective** ต้องตามด้วยคำนาม เช่น `my book`, `my friend`. ถ้าเขียน `My like chocolate` จะขาดคำนามตามหลังและผิดรูปแบบ ควรใช้ `I like chocolate.`"
+      },
+      {
+        "index": 4,
+        "text": "Mine",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`mine` เป็น **possessive pronoun** ใช้แทนนามที่ถูกกล่าวถึงแล้ว เช่น `This chocolate is mine.` ไม่สามารถเป็นประธานหน้ากริยา `like` ได้ รูปที่ถูกต้องคือ `I like chocolate.`"
+      }
+    ]
+  },
+  {
+    "question": "Can you help ___?",
+    "question_knowledge_ids": [
+      381,
+      389,
+      559
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "me",
+        "knowledge_ids": [
+          559
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะตำแหน่งหลังคำกริยา `help` เป็น **กรรม** ต้องใช้ __object pronoun__: `me/you/him/her/it/us/them`. รูปแบบคือ __verb + object pronoun__ เช่น `help me`, `call them`. ตัวอย่าง: `Can you help me with my homework?`"
+      },
+      {
+        "index": 2,
+        "text": "I",
+        "knowledge_ids": [
+          381,
+          389
+        ],
+        "is_correct": false,
+        "answer_description": "`I` เป็น **subject pronoun** ใช้เป็นประธานหน้ากริยา ไม่ใช่หลังคำกริยา เช่นควรเป็น `I need help.` แต่หลัง `help` ต้องใช้ `me` เช่น `help me`, ไม่ใช่ `help I`"
+      },
+      {
+        "index": 3,
+        "text": "my",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "`my` คือ **possessive adjective** ต้องมีคำนามตามหลัง เช่น `my bag`. ในช่องว่างนี้ไม่มีนามตามมาและเป็นตำแหน่งกรรม จึงควรใช้ `me` เช่น `help me`"
+      },
+      {
+        "index": 4,
+        "text": "mine",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "`mine` เป็น **possessive pronoun** ใช้แทนนามที่เป็นของเรา เช่น `That pen is mine.` ไม่ใช้เป็นกรรมของกริยาแบบนี้ ดังนั้นต้องเป็น `help me` ไม่ใช่ `help mine`"
+      }
+    ]
+  },
+  {
+    "question": "This is ___ book.",
+    "question_knowledge_ids": [
+      535
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "my",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะต้องใช้ __possessive adjective + noun__ เช่น `my book`, `her phone`, `their house`. รูปแบบที่ถูกคือ __possessive adjective + noun__ → `This is my book.` ตัวอย่างเพิ่ม: `That's my bag.`"
+      },
+      {
+        "index": 2,
+        "text": "mine",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`mine` เป็น **possessive pronoun** ใช้เดี่ยวๆ แทนนามที่กล่าวแล้ว เช่น `This book is mine.` แต่ถ้าหน้าคำนามต้องใช้ `my` เช่น `my book` ไม่ใช่ `mine book`"
+      },
+      {
+        "index": 3,
+        "text": "me",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "`me` เป็น **object pronoun** ใช้เป็นกรรมของกริยาหรือบุพบท เช่น `Give me the book.` ไม่ใช่คำแสดงความเป็นเจ้าของหน้าคำนาม จึงใช้ `my book` แทน"
+      },
+      {
+        "index": 4,
+        "text": "I",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "`I` เป็น **subject pronoun** ใช้เป็นประธาน เช่น `I read a book.` แต่ในช่องนี้ต้องการคำขยายคำนาม (เจ้าของ) จึงใช้ `my` → `my book`"
+      }
+    ]
+  },
+  {
+    "question": "This book is ___.",
+    "question_knowledge_ids": [
+      535
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "mine",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะหลัง `be` ต้องการสรรพนามแสดงความเป็นเจ้าของแบบเดี่ยว ใช้ __possessive pronoun__: `mine/yours/his/hers/ours/theirs`. โครงสร้างคือ __be + possessive pronoun__ เช่น `This book is mine.` หรือ `The tickets are ours.`"
+      },
+      {
+        "index": 2,
+        "text": "my",
+        "knowledge_ids": [
+          535
+        ],
+        "is_correct": false,
+        "answer_description": "`my` เป็น **possessive adjective** ต้องตามด้วยคำนาม (`my book`). หลัง `be` แบบนี้หากไม่มีนามตาม ควรใช้ `mine` เช่น `The book is mine.` ไม่ใช่ `The book is my.`"
+      },
+      {
+        "index": 3,
+        "text": "me",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "`me` เป็น **object pronoun** ไม่ได้แสดงความเป็นเจ้าของของนามก่อนหน้า โครงสร้างที่ถูกคือ `This book is mine.` ตัวอย่างผิด: `This book is me.` (ความหมายเพี้ยน)"
+      },
+      {
+        "index": 4,
+        "text": "I",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "`I` เป็น **subject pronoun** ใช้เป็นประธานของประโยค เช่น `I am ready.` แต่หลัง `be` เพื่อบอกความเป็นเจ้าของควรใช้ `mine` → `This book is mine.`"
+      }
+    ]
+  },
+  {
+    "question": "She taught ___ to play the guitar.",
+    "question_knowledge_ids": [],
+    "choices": [
+      {
+        "index": 1,
+        "text": "herself",
+        "knowledge_ids": [],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **reflexive pronoun** เมื่อประธานและกรรมเป็นคนเดียวกัน โครงสร้างคือ __subject + verb + reflexive pronoun__ เช่น `She taught herself...` หรือ `I taught myself Spanish.` ประโยคที่ถูก: `She taught herself to play the guitar.`"
+      },
+      {
+        "index": 2,
+        "text": "her",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "`her` เป็น **object pronoun** แต่ประโยคนี้ต้องการสื่อว่าเธอสอนตัวเอง จึงต้องใช้ reflexive (`herself`). ถ้าใช้ `her` จะหมายถึงสอน “เธออีกคน” เช่น `She taught her to play...` (มีคนที่สอง)"
+      },
+      {
+        "index": 3,
+        "text": "she",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "`she` เป็น **subject pronoun** ไม่ใช้เป็นกรรมหลังคำกริยาในกรณีนี้ และไม่สื่อความหมาย “ตัวเอง” เช่น `She taught she...` ผิด ควรเป็น `She taught herself...`"
+      },
+      {
+        "index": 4,
+        "text": "hers",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "`hers` เป็น **possessive pronoun** ใช้บอกความเป็นเจ้าของ (`That guitar is hers.`) ไม่ใช่กรรมสะท้อนตัวเอง ดังนั้นรูปที่ถูกคือ `herself`"
+      }
+    ]
+  },
+  {
+    "question": "___ are my keys on the table.",
+    "question_knowledge_ids": [
+      561,
+      562
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "These",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ `keys` เป็นพหูพจน์และอยู่ใกล้ (บนโต๊ะตรงนี้) จึงใช้ __these + plural noun/are__ เช่น `These are my keys.` หรือ `These books are new.` รูปแบบ: __these + are + plural noun__"
+      },
+      {
+        "index": 2,
+        "text": "This",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": false,
+        "answer_description": "`This` ใช้กับคำนามเอกพจน์ เช่น `This is my key.` แต่ในประโยคมี `keys` (พหูพจน์) จึงต้องใช้ `These` ไม่ใช่ `This`"
+      },
+      {
+        "index": 3,
+        "text": "Those",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": false,
+        "answer_description": "`Those` ใช้กับของที่ **ไกล** หากของอยู่ใกล้ (บนโต๊ะตรงนี้) ควรใช้ `These`. ตัวอย่างเปรียบเทียบ: `These keys (ใกล้)`, `Those keys (ไกล)`"
+      },
+      {
+        "index": 4,
+        "text": "That",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": false,
+        "answer_description": "`That` เป็นเอกพจน์และใช้กับสิ่งที่ไกล เช่น `That is my key over there.` แต่ที่นี่เป็นพหูพจน์ใกล้ตัว จึงควรใช้ `These are my keys.`"
+      }
+    ]
+  },
+  {
+    "question": "I don't know ___ man over there.",
+    "question_knowledge_ids": [
+      561,
+      562
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "that",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __that + singular noun__ เพื่อชี้สิ่งที่อยู่ไกล เช่น `that man`, `that car`. โครงสร้าง: __that + singular noun__ → `that man over there` ตัวอย่าง: `I like that song.`"
+      },
+      {
+        "index": 2,
+        "text": "this",
+        "knowledge_ids": [
+          561
+        ],
+        "is_correct": false,
+        "answer_description": "`this` ใช้กับสิ่งที่อยู่ใกล้ผู้พูด เช่น `this man here`. แต่ประโยคมีวลี `over there` บอกว่าไกล จึงต้องใช้ `that`"
+      },
+      {
+        "index": 3,
+        "text": "these",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": false,
+        "answer_description": "`these` ใช้กับคำนาม **พหูพจน์** และสิ่งที่ใกล้ เช่น `these men`. ที่นี่คำนามเป็นเอกพจน์ (`man`) และอยู่ไกล ควรใช้ `that man`"
+      },
+      {
+        "index": 4,
+        "text": "those",
+        "knowledge_ids": [
+          562
+        ],
+        "is_correct": false,
+        "answer_description": "`those` ใช้กับพหูพจน์ที่ไกล (`those men`). แต่คำนามที่ตามมาคือ `man` เอกพจน์ จึงไม่เข้ากัน รูปที่ถูกคือ `that man`"
+      }
+    ]
+  },
+  {
+    "question": "The woman ___ lives next door is a doctor.",
+    "question_knowledge_ids": [
+      567
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "who",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __who__ เป็นสรรพนามสัมพันธ์แทน **คน** ในตำแหน่งประธานของอนุประโยค เช่น `The man who works here...` โครงสร้าง: __noun + who + verb__ ตัวอย่าง: `The teacher who teaches English is kind.`"
+      },
+      {
+        "index": 2,
+        "text": "which",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": false,
+        "answer_description": "`which` ใช้แทน **สิ่งของ/สัตว์** ไม่ใช่คน เช่น `The car which is red...` จึงไม่เหมาะกับ `The woman ...` ควรใช้ `who`"
+      },
+      {
+        "index": 3,
+        "text": "that",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": false,
+        "answer_description": "`that` บางครั้งใช้แทน `who/which` ได้ แต่ในภาษาเขียนแบบเป็นทางการ เมื่อพูดถึง **คน** ในตำแหน่งประธาน นิยมใช้ `who` มากกว่า เช่น `The woman who lives...`"
+      },
+      {
+        "index": 4,
+        "text": "whom",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": false,
+        "answer_description": "`whom` ใช้ในตำแหน่ง **กรรม** ไม่ใช่ประธาน เช่น `The woman whom I met...` ที่นี่ต้องการประธานของอนุประโยค (`lives`) จึงควรใช้ `who`"
+      }
+    ]
+  },
+  {
+    "question": "Is there ___ in the box?",
+    "question_knowledge_ids": [
+      518
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "anything",
+        "knowledge_ids": [
+          518
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะในประโยคคำถาม/ปฏิเสธ นิยมใช้ __anything__ ไม่ใช่ `something`. โครงสร้าง: __Is there + anything + ... ?__ ตัวอย่าง: `Do you have anything to eat?`"
+      },
+      {
+        "index": 2,
+        "text": "something",
+        "knowledge_ids": [
+          518
+        ],
+        "is_correct": false,
+        "answer_description": "`something` มักใช้ในประโยคบอกเล่าหรือคำถามที่คาดหวังคำตอบเชิงบวก เช่น `I need something.` ในคำถามทั่วไปควรใช้ `anything` → `Is there anything in the box?`"
+      },
+      {
+        "index": 3,
+        "text": "nothing",
+        "knowledge_ids": [
+          521
+        ],
+        "is_correct": false,
+        "answer_description": "`nothing` เป็นรูปปฏิเสธอยู่แล้ว ถ้าใช้ในคำถามจะฟังแปลก เช่น `Is there nothing...?` มักใช้ในบอกเล่าเชิงปฏิเสธ เช่น `There is nothing in the box.` สำหรับคำถามทั่วไปใช้ `anything`"
+      },
+      {
+        "index": 4,
+        "text": "everything",
+        "knowledge_ids": [
+          520
+        ],
+        "is_correct": false,
+        "answer_description": "`everything` แปลว่า “ทุกอย่าง” ซึ่งไม่ตรงกับการถามทั่วๆ ไปว่ามี “อะไรบ้างไหม” รูปที่เหมาะคือ `anything` เช่น `Is there anything in the box?`"
+      }
+    ]
+  },
+  {
+    "question": "Both of ___ are correct.",
+    "question_knowledge_ids": [
+      520,
+      516
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "us",
+        "knowledge_ids": [
+          520,
+          516
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะหลังบุพบท `of` ควรใช้สรรพนามรูปกรรม __object pronoun__ เช่น `of us/them/you`. โครงสร้าง: __both of + object pronoun__ → `Both of us are correct.` ตัวอย่างเพิ่ม: `All of them are here.`"
+      },
+      {
+        "index": 2,
+        "text": "we",
+        "knowledge_ids": [
+          516
+        ],
+        "is_correct": false,
+        "answer_description": "`we` เป็น **subject pronoun** ไม่ใช้หลัง `of` จึงควรเปลี่ยนเป็น `us` เช่น `Both of us...` ตัวอย่างผิด: `Both of we are...`"
+      },
+      {
+        "index": 3,
+        "text": "they",
+        "knowledge_ids": [
+          516
+        ],
+        "is_correct": false,
+        "answer_description": "`they` เป็น **subject pronoun** ถ้าจะใช้หลัง `of` ต้องเป็น `them` เช่น `Both of them are correct.` สำหรับพูดถึงตัวเราเองต้องใช้ `us`"
+      },
+      {
+        "index": 4,
+        "text": "them",
+        "knowledge_ids": [
+          516
+        ],
+        "is_correct": false,
+        "answer_description": "แม้รูป `them` เป็น **object pronoun** ถูกหลัง `of` แต่ความหมายจะเปลี่ยนเป็น “พวกเขา” ไม่ใช่ “พวกเรา” ประโยคนี้พูดถึงเราเอง จึงต้องใช้ `us`: `Both of us are correct.`"
+      }
+    ]
+  },
+  {
+    "question": "Each student must bring ___ own laptop.",
+    "question_knowledge_ids": [
+      519,
+      535,
+      558,
+      516
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "his or her",
+        "knowledge_ids": [
+          519,
+          535,
+          516
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ `each` เป็นเอกพจน์และอ้างถึงนักเรียนทีละคน จึงใช้สรรพนามเอกพจน์ __his or her__ เพื่อครอบคลุมเพศ โครงสร้าง: __each + singular noun + his or her + singular noun__ เช่น `Each employee must bring his or her ID.`"
+      },
+      {
+        "index": 2,
+        "text": "their",
+        "knowledge_ids": [
+          558,
+          516
+        ],
+        "is_correct": false,
+        "answer_description": "`their` มักใช้เป็น **เอกพจน์เชิงกลางเพศ** ได้ในภาษาพูดสมัยใหม่ แต่ในข้อสอบไวยากรณ์แบบเคร่งครัด นิยมใช้ `his or her` กับ `each`. ถ้าตามแนวเคร่ง ให้เขียน `Each student must bring his or her own laptop.`"
+      },
+      {
+        "index": 3,
+        "text": "hers",
+        "knowledge_ids": [
+          535,
+          516
+        ],
+        "is_correct": false,
+        "answer_description": "`hers` เป็น **possessive pronoun** ใช้เดี่ยวๆ ไม่ตามด้วยคำนาม เช่น `The laptop is hers.` แต่ที่นี่ต้องวางหน้าคำนาม (`own laptop`) จึงควรใช้ `his or her`"
+      },
+      {
+        "index": 4,
+        "text": "him or her",
+        "knowledge_ids": [
+          519,
+          516
+        ],
+        "is_correct": false,
+        "answer_description": "`him or her` เป็นรูป **object pronoun** ไม่ใช่คำขยายแสดงความเป็นเจ้าของ รูปที่ถูกต้องคือ `his or her own laptop` ไม่ใช่ `him or her own laptop`"
+      }
+    ]
+  }
+]

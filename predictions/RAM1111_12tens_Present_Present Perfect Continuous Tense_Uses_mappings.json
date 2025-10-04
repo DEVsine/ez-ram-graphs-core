@@ -1,0 +1,588 @@
+[
+  {
+    "question": "She ___ for three hours.",
+    "question_knowledge_ids": [
+      217,
+      358,
+      361,
+      366,
+      367
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "has been studying",
+        "knowledge_ids": [
+          217,
+          358,
+          361,
+          366,
+          367
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะพูดถึงการกระทำที่เริ่มในอดีตและยัง **ดำเนินต่อเนื่องถึงปัจจุบัน** พร้อมระยะเวลา `for three hours` ใช้ __have/has + been + V-ing__. ตัวอย่าง: `She has been studying for three hours.` แพตเทิร์นนี้เน้น “ความต่อเนื่อง/ความยาวนานของกิจกรรม”."
+      },
+      {
+        "index": 2,
+        "text": "studied",
+        "knowledge_ids": [
+          306,
+          289
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `studied` เป็น **Past Simple** บอกเหตุการณ์จบแล้วในอดีต ไม่เน้นความต่อเนื่อง. เมื่อมี `for three hours` ที่โยงถึงปัจจุบัน ควรใช้ **Present Perfect Continuous** เช่น `She has been studying for three hours.`"
+      },
+      {
+        "index": 3,
+        "text": "has studied",
+        "knowledge_ids": [
+          366,
+          371
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะ เพราะ **Present Perfect Simple** (`has studied`) เน้น “ผลลัพธ์/จำนวนครั้ง” มากกว่า “ความต่อเนื่อง”. ที่นี่มี `for three hours` จึงควรใช้รูปต่อเนื่อง: `She has been studying for three hours.`"
+      },
+      {
+        "index": 4,
+        "text": "is studying",
+        "knowledge_ids": [
+          328,
+          329,
+          356
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจุด เพราะ **Present Continuous** (`is studying`) ใช้บอกตอนนี้เฉยๆ แต่ไม่สื่อการเริ่มในอดีตและความยาวนาน. เมื่อมี `for three hours` ควรใช้ `has been studying` เพื่อแสดงความต่อเนื่องจากอดีตถึงปัจจุบัน."
+      }
+    ]
+  },
+  {
+    "question": "I ___ here since 2019.",
+    "question_knowledge_ids": [
+      272,
+      354,
+      374,
+      366,
+      367
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been working",
+        "knowledge_ids": [
+          272,
+          354,
+          374,
+          366,
+          367
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมี `since 2019` ที่ชี้จุดเริ่มในอดีตและต่อเนื่องถึงปัจจุบัน จึงใช้ __have/has + been + V-ing__. ตัวอย่าง: `I have been working here since 2019.` ใช้แพตเทิร์นนี้เมื่ออยากเน้นว่า “ทำเรื่อยๆ มาจนถึงตอนนี้”."
+      },
+      {
+        "index": 2,
+        "text": "work",
+        "knowledge_ids": [
+          397,
+          398
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Present Simple** (`I work here`) บอกข้อเท็จจริงทั่วไป แต่ไม่สื่อจุดเริ่มและความต่อเนื่องจากอดีต. เมื่อมี `since 2019` ควรใช้ `have been working` เพื่อเน้นความต่อเนื่อง."
+      },
+      {
+        "index": 3,
+        "text": "have worked",
+        "knowledge_ids": [
+          272,
+          354,
+          374,
+          366
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง เพราะ **Present Perfect Simple** เน้นผลหรือประสบการณ์ ไม่เน้น “ระยะเวลาที่กำลังดำเนินอยู่”. ที่นี่ต้องการเน้นความต่อเนื่อง จึงควรใช้ `have been working` เช่น `I have been working here since 2019.`"
+      },
+      {
+        "index": 4,
+        "text": "am working",
+        "knowledge_ids": [
+          328,
+          356
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ **Present Continuous** ใช้บอกตอนนี้ แต่ `since 2019` สื่อว่าทำมาตั้งแต่อดีตและต่อเนื่อง. รูปที่ถูกคือ `I have been working here since 2019.`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ all morning, so the floor is wet.",
+    "question_knowledge_ids": [
+      361,
+      366,
+      370,
+      378
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been cleaning",
+        "knowledge_ids": [
+          361,
+          366,
+          370,
+          378
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีผลลัพธ์ให้เห็นตอนนี้ (`the floor is wet`) และกิจกรรมกินเวลานาน (`all morning`) จึงใช้ __have/has + been + V-ing__. ตัวอย่าง: `They have been cleaning all morning.` รูปนี้เน้น “กำลังทำมาต่อเนื่องจนมีร่องรอย/ผลให้เห็น”."
+      },
+      {
+        "index": 2,
+        "text": "cleaned",
+        "knowledge_ids": [
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Past Simple** (`cleaned`) สื่อว่าจบไปแล้วในอดีต ไม่เน้นความต่อเนื่องหรือผลที่ยังเห็น. ที่นี่ควรใช้ `have been cleaning` เพื่อเชื่อมการกระทำกับผลปัจจุบัน."
+      },
+      {
+        "index": 3,
+        "text": "have cleaned",
+        "knowledge_ids": [
+          371
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ชัดเรื่อง “ความต่อเนื่องยาวนาน” แม้ **Present Perfect Simple** จะเชื่อมอดีตกับปัจจุบัน แต่ไม่เน้นว่า “ทำทั้งเช้า”. ใช้ `have been cleaning` จะสื่อระยะเวลาและร่องรอยได้ชัดกว่า."
+      },
+      {
+        "index": 4,
+        "text": "are cleaning",
+        "knowledge_ids": [
+          328,
+          329
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ตรง เพราะ **Present Continuous** บอกกำลังทำตอนนี้ แต่ไม่สื่อว่าเริ่มตั้งแต่เช้าและผลยังคงอยู่. `all morning` + ผลปัจจุบัน เหมาะกับ `have been cleaning` มากกว่า."
+      }
+    ]
+  },
+  {
+    "question": "How long ___ English?",
+    "question_knowledge_ids": [
+      218,
+      360,
+      366,
+      581,
+      572
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have you been learning",
+        "knowledge_ids": [
+          218,
+          360,
+          366
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็นคำถามระยะเวลา ใช้โครงสร้างคำถาม: __How long + have/has + S + been + V-ing?__. ตัวอย่าง: `How long have you been learning English?` ใช้เมื่ออยากรู้ว่ากิจกรรมเริ่มนานแค่ไหนและยังดำเนินอยู่."
+      },
+      {
+        "index": 2,
+        "text": "did you learn",
+        "knowledge_ids": [
+          289
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Past Simple** (`did you learn`) ถามเหตุการณ์ที่ “จบแล้ว” ในอดีต. แต่ `How long` ที่อยากรู้ความยาวนานถึงปัจจุบันควรใช้ Present Perfect Continuous: `How long have you been learning English?`"
+      },
+      {
+        "index": 3,
+        "text": "have you learned",
+        "knowledge_ids": [
+          218,
+          360,
+          366
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง เพราะ `have you learned` เน้นผล/จำนวนครั้ง มากกว่าความต่อเนื่อง. ถ้าต้องการถาม “ระยะเวลาที่ทำต่อเนื่อง” ใช้ `have you been learning` จะชัดกว่า."
+      },
+      {
+        "index": 4,
+        "text": "are you learning",
+        "knowledge_ids": [
+          292,
+          362
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ `are you learning` คือถามกิจกรรมตอนนี้ ไม่ใช่ระยะเวลาที่ต่อเนื่องจากอดีต. คำถามแบบเวลาให้ใช้ `How long have you been learning English?`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ him since 2010.",
+    "question_knowledge_ids": [
+      272,
+      354,
+      374,
+      401,
+      366
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "has known",
+        "knowledge_ids": [
+          401,
+          366
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกริยา **know** เป็นกริยาเชิงสภาวะ (stative verb) ปกติไม่ใช้รูปต่อเนื่อง จึงใช้ __have/has + past participle__ ไม่ใช่ `been + V-ing`. ตัวอย่าง: `She has known him since 2010.` แม้บทนี้เน้น Present Perfect Continuous แต่กรณีกริยาประเภทนี้ต้องใช้ Present Perfect Simple แทน."
+      },
+      {
+        "index": 2,
+        "text": "has been knowing",
+        "knowledge_ids": [
+          207,
+          265
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **know** เป็น stative verb ไม่ใช้ในรูป **Continuous** ดังนั้น `has been knowing` จึงไม่เป็นธรรมชาติ. ใช้ `has known` แทน เช่น `She has known him since 2010.`"
+      },
+      {
+        "index": 3,
+        "text": "knew",
+        "knowledge_ids": [
+          307,
+          312
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Past Simple** (`knew`) สื่อว่าเรื่องนั้นจบไปแล้วในอดีต แต่ `since 2010` บอกว่าต่อเนื่องถึงตอนนี้. โครงสร้างที่ถูกคือ `She has known him since 2010.`"
+      },
+      {
+        "index": 4,
+        "text": "knows since 2010",
+        "knowledge_ids": [
+          412,
+          372
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดโครงสร้าง เพราะ **Present Simple** + `since` ใช้ไม่ได้ในความหมายต่อเนื่องจากอดีตถึงปัจจุบัน. ต้องใช้ Present Perfect: `She has known him since 2010.`"
+      }
+    ]
+  },
+  {
+    "question": "It ___ lately; the streets are still wet.",
+    "question_knowledge_ids": [
+      361,
+      366,
+      370,
+      378
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "has been raining",
+        "knowledge_ids": [
+          361,
+          366,
+          370,
+          378
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีคำบอกเวลาอย่าง `lately` และมีผลปัจจุบันให้เห็น (`streets are still wet`) จึงใช้ __have/has + been + V-ing__. ตัวอย่าง: `It has been raining lately.` รูปนี้เน้นกิจกรรมที่เพิ่งทำต่อเนื่องและยังส่งผลอยู่."
+      },
+      {
+        "index": 2,
+        "text": "rained",
+        "knowledge_ids": [
+          306,
+          359
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Past Simple** (`rained`) ชี้ไปที่อดีตที่จบแล้ว ไม่เชื่อมผลปัจจุบัน. ถ้าจะชี้ผลที่ยังเห็น ควรใช้ `has been raining`."
+      },
+      {
+        "index": 3,
+        "text": "has rained",
+        "knowledge_ids": [
+          355,
+          371
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรงโฟกัส เพราะ **Present Perfect Simple** มักเน้นผลว่า “เคยเกิด/เกิดแล้ว” แต่ที่นี่อยากเน้น “ช่วงนี้ตกต่อเนื่อง” และมีผลอยู่ จึงใช้ `has been raining` ดีกว่า."
+      },
+      {
+        "index": 4,
+        "text": "is raining",
+        "knowledge_ids": [
+          328,
+          329,
+          335
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่พอ เพราะ `is raining` แปลว่าฝนกำลังตกตอนนี้ แต่ประโยคพูดถึงช่วง `lately` และผลที่ยังอยู่. จึงควรใช้ `has been raining` เพื่อเน้นความต่อเนื่องระยะหลัง."
+      }
+    ]
+  },
+  {
+    "question": "We ___ for a new apartment all week.",
+    "question_knowledge_ids": [
+      217,
+      358,
+      361,
+      366,
+      367
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been looking",
+        "knowledge_ids": [
+          217,
+          358,
+          361,
+          366,
+          367
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ `all week` บอกกิจกรรมที่กินเวลายาวนานจนถึงปัจจุบัน ใช้ __have/has + been + V-ing__. ตัวอย่าง: `We have been looking for a new apartment all week.` รูปนี้เน้นความยาวนานของการกระทำ."
+      },
+      {
+        "index": 2,
+        "text": "have looked",
+        "knowledge_ids": [
+          367,
+          371
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ชัดเรื่องความต่อเนื่อง เพราะ **Present Perfect Simple** เน้นผล/จำนวนครั้ง เช่น `We have looked three times.` ถ้าจะเน้นว่าหาเรื่อยๆ ตลอดสัปดาห์ ใช้ `have been looking` จะเหมาะกว่า."
+      },
+      {
+        "index": 3,
+        "text": "looked",
+        "knowledge_ids": [
+          306,
+          307
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Past Simple** (`looked`) ทำให้ความหมายจบในอดีต ไม่สื่อว่าต่อเนื่อง `all week`. ที่ถูกคือ `have been looking` เพื่อโยงอดีตถึงปัจจุบัน."
+      },
+      {
+        "index": 4,
+        "text": "are looking",
+        "knowledge_ids": [
+          328,
+          331
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่พอ เพราะ **Present Continuous** บอกกำลังทำตอนนี้ แต่ `all week` เน้นระยะเวลาอย่างต่อเนื่อง. รูปที่สื่อความหมายได้ครบคือ `have been looking`."
+      }
+    ]
+  },
+  {
+    "question": "Why are you tired? I ___ all night.",
+    "question_knowledge_ids": [
+      202,
+      361,
+      366,
+      367
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been studying",
+        "knowledge_ids": [
+          202,
+          361,
+          366,
+          367
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะต้องอธิบายสาเหตุที่เห็นตอนนี้ (เหนื่อย) ว่ามาจากกิจกรรมที่ทำต่อเนื่องตลอดคืน ใช้ __have/has + been + V-ing__. ตัวอย่าง: `I have been studying all night.` รูปนี้เชื่อม “การกระทำยาวนาน” กับ “ผลตอนนี้”."
+      },
+      {
+        "index": 2,
+        "text": "studied all night",
+        "knowledge_ids": [
+          306,
+          202
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple** ทำให้ฟังเหมือนจบไปแล้ว ไม่เชื่อมกับอาการเหนื่อยตอนนี้เท่าที่ควร. ควรใช้ `have been studying` เพื่อเน้นผลที่ส่งถึงปัจจุบัน."
+      },
+      {
+        "index": 3,
+        "text": "have studied all night",
+        "knowledge_ids": [
+          371,
+          202
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่เน้นความต่อเนื่องพอ เพราะ **Present Perfect Simple** เน้นผลว่า “ทำเสร็จแล้ว” มากกว่าความยาวนาน. ใช้ `have been studying` จะสื่อว่าทำยาวๆ ทั้งคืนและยังมีผลอยู่."
+      },
+      {
+        "index": 4,
+        "text": "am studying all night",
+        "knowledge_ids": [
+          328,
+          202
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดธรรมชาติ เพราะ **Present Continuous** กับ `all night` ฟังแปลก (ระยะเวลายาวต่อเนื่องควรใช้ Perfect Continuous). รูปที่ถูกคือ `I have been studying all night.`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ to fix the bug, but it's not solved yet.",
+    "question_knowledge_ids": [
+      361,
+      366,
+      371
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "has been trying",
+        "knowledge_ids": [
+          361,
+          366
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะการพยายามเริ่มในอดีตและยังต่อเนื่องถึงตอนนี้ (แม้ยังไม่เสร็จ) จึงใช้ __have/has + been + V-ing__. ตัวอย่าง: `He has been trying to fix the bug.` รูปนี้เน้นกระบวนการที่กำลังดำเนินอยู่ ไม่ใช่ผลลัพธ์."
+      },
+      {
+        "index": 2,
+        "text": "tried",
+        "knowledge_ids": [
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Past Simple** สื่อว่าลองไปครั้งหนึ่งในอดีตและจบแล้ว ไม่เน้นความต่อเนื่อง. ต้องการสื่อว่าพยายามเรื่อยๆ ควรใช้ `has been trying`."
+      },
+      {
+        "index": 3,
+        "text": "has tried",
+        "knowledge_ids": [
+          371
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง เพราะ **Present Perfect Simple** เน้นผลว่า “ได้ลองแล้ว” อาจเข้าใจเป็นจำนวนครั้ง. ถ้าจะเน้นการพยายามอย่างต่อเนื่อง ควรใช้ `has been trying`."
+      },
+      {
+        "index": 4,
+        "text": "is trying",
+        "knowledge_ids": [
+          328,
+          329
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่พอ เพราะ **Present Continuous** แค่บอกว่ากำลังทำตอนนี้ แต่บริบทบอกว่ายังไม่แก้ได้และทำต่อเนื่องมาแล้ว. ใช้ `has been trying` จะสื่ออดีตถึงปัจจุบันชัดเจนกว่า."
+      }
+    ]
+  },
+  {
+    "question": "Have you ___ any progress on your project?",
+    "question_knowledge_ids": [
+      194,
+      288,
+      371
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "been making",
+        "knowledge_ids": [
+          371,
+          222
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็นคำถามใน **Present Perfect Continuous** ใช้ __have/has + been + V-ing__ เพื่อถามถึงความคืบหน้าช่วงระยะหลังๆ ที่ยังต่อเนื่อง. ตัวอย่าง: `Have you been making any progress on your project?` รูปนี้เน้นกระบวนการและความต่อเนื่อง ไม่ใช่แค่ผลสำเร็จ."
+      },
+      {
+        "index": 2,
+        "text": "made",
+        "knowledge_ids": [
+          371
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `made` เป็น **Past Simple** ไม่เชื่อมกับช่วงเวลาล่าสุดที่ต่อเนื่อง. ถ้าต้องการถามความคืบหน้าที่ดำเนินอยู่ ควรใช้ `been making` ในโครงสร้าง Perfect Continuous."
+      },
+      {
+        "index": 3,
+        "text": "been made",
+        "knowledge_ids": [
+          267,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็นรูป **Passive** (`been made`) และยังขาดกริยาช่วยด้านหน้าให้ครบโครงสร้าง. ประโยคนี้ต้องการ Active แบบต่อเนื่อง: `Have you been making...`"
+      },
+      {
+        "index": 4,
+        "text": "been make",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปคำกริยา เพราะหลัง `been` ต้องเป็น **V-ing** ไม่ใช่รูป base verb. รูปที่ถูกคือ `been making` เช่น `Have you been making any progress?`"
+      }
+    ]
+  },
+  {
+    "question": "My eyes are sore because I ___ at the screen for hours.",
+    "question_knowledge_ids": [
+      366,
+      367,
+      217,
+      358,
+      361,
+      419
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been staring",
+        "knowledge_ids": [
+          366,
+          367,
+          217,
+          358,
+          361,
+          419
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีผลให้เห็นตอนนี้ (ตาแสบ) จากกิจกรรมที่ยาวนาน `for hours` จึงใช้ __have/has + been + V-ing__. ตัวอย่าง: `I have been staring at the screen for hours.` รูปนี้เน้นกิจกรรมต่อเนื่องที่ก่อผลในปัจจุบัน."
+      },
+      {
+        "index": 2,
+        "text": "stared",
+        "knowledge_ids": [
+          266,
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Past Simple** ทำให้ความหมายเหมือนจบไปแล้วในอดีต ไม่เชื่อมกับอาการตอนนี้. ใช้ `have been staring` เพื่อเน้นความต่อเนื่องและผลปัจจุบัน."
+      },
+      {
+        "index": 3,
+        "text": "have stared",
+        "knowledge_ids": [
+          366,
+          371,
+          382
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่สื่อความยาวนานพอ เพราะ **Present Perfect Simple** เน้นผลว่า “ได้ทำแล้ว”. ถ้าต้องการเน้นว่า “เพ่งจอนานหลายชั่วโมง” ให้ใช้ `have been staring`."
+      },
+      {
+        "index": 4,
+        "text": "am staring",
+        "knowledge_ids": [
+          328,
+          329,
+          335
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่พอ เพราะ **Present Continuous** บอกว่า “กำลังเพ่งตอนนี้” แต่ไม่สื่อว่าทำมา **หลายชั่วโมง**. เมื่อมี `for hours` ควรใช้ `have been staring` เพื่อเน้นระยะเวลา."
+      }
+    ]
+  }
+]

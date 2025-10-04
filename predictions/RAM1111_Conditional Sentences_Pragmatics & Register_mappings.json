@@ -1,0 +1,485 @@
+[
+  {
+    "question": "Formal email to a client: ___ have any questions, please do not hesitate to contact me.",
+    "question_knowledge_ids": [
+      481,
+      489,
+      495,
+      499,
+      504
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Should you",
+        "knowledge_ids": [
+          499,
+          504
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะในงานเขียนแบบทางการมักใช้รูปกลับคำสั่ง **inverted conditional**: __`Should + subject + base verb, ...`__ เพื่อให้สุภาพและกระชับ เช่น `Should you have any questions, please contact me.` ใช้ในอีเมลธุรกิจได้ดีมาก เพราะฟังเป็นทางการและมืออาชีพ"
+      },
+      {
+        "index": 2,
+        "text": "If you will",
+        "knowledge_ids": [
+          495,
+          507
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่ระดับภาษาและไวยากรณ์ เพราะโดยทั่วไป **if-clause** ไม่ใช้ `will` เพื่อพูดถึงเงื่อนไขปกติ ควรใช้ `If you have any questions, ...` หรือรูปทางการ `Should you have ...` ตัวอย่างที่ผิด: `If you will have any questions` ฟังแปลกและไม่เป็นธรรมชาติ"
+      },
+      {
+        "index": 3,
+        "text": "If you got",
+        "knowledge_ids": [
+          500
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดทั้งกาลและโทนภาษา `got` เป็นอดีตและดูไม่เป็นทางการ เหมาะกับพูดเล่นกับเพื่อนมากกว่า ตัวอย่างถูกควรเป็น `If you have any questions, ...` ในงานเขียนทางการ"
+      },
+      {
+        "index": 4,
+        "text": "In case you will have",
+        "knowledge_ids": [
+          489,
+          507,
+          510
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเรื่องการใช้ `in case` กับ `will` และไม่ตรง register ในงานเขียนทางการควรใช้ `Should you have ...` หรือ `If you have ...` เช่น `In case you have any questions, ...` ยังพอได้ แต่ก็เป็นโทนที่ต่างจากทางการมาตรฐาน"
+      }
+    ]
+  },
+  {
+    "question": "Casual chat with a friend: ___ free later, wanna grab coffee?",
+    "question_knowledge_ids": [
+      481,
+      500,
+      504
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "If you're",
+        "knowledge_ids": [
+          500
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โทนกันเองใช้ประโยคเรียบง่าย __`If + subject + be (present), ...`__ เช่น `If you're free later, wanna grab coffee?` ฟังธรรมชาติ แบบเพื่อนคุยกัน"
+      },
+      {
+        "index": 2,
+        "text": "Should you be",
+        "knowledge_ids": [
+          499,
+          504
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่โทนภาษา เพราะ `Should you be...` เป็นสำนวนทางการ เหมาะกับอีเมลหรือประกาศ ไม่เหมาะกับแชตกับเพื่อน เช่น `Should you be free, ...` จะฟังแข็งเกินไป"
+      },
+      {
+        "index": 3,
+        "text": "Were you",
+        "knowledge_ids": [
+          482,
+          498
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่โทนและรูปแบบ เพราะ `Were you to be free, ...` เป็น **inverted second conditional** ที่ทางการและค่อนข้างโบราณ ใช้ในบทความหรือการเขียนทางการมากกว่า แชตกับเพื่อนใช้ `If you're ...` ธรรมดาดีกว่า"
+      },
+      {
+        "index": 4,
+        "text": "If you will be",
+        "knowledge_ids": [
+          495,
+          507
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดไวยากรณ์ทั่วๆ ไป เพราะใน **if-clause** ปกติไม่ใช้ `will` เพื่อเงื่อนไขทั่วไป ควรใช้ `If you're free later, ...` ตัวอย่างที่ถูก: `If you are free, let's go.`"
+      }
+    ]
+  },
+  {
+    "question": "Company policy statement: ___ late deliveries occur, we will issue a formal notice.",
+    "question_knowledge_ids": [
+      481,
+      488,
+      489,
+      493,
+      505
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "If",
+        "knowledge_ids": [
+          481
+        ],
+        "is_correct": false,
+        "answer_description": "พอใช้ได้ แต่ยังกว้างไป สำหรับประกาศนโยบายเชิงป้องกัน มักใช้ `in case` หรือ `should` ที่ให้โทนเป็นทางการและสมมติ การใช้ `If late deliveries occur, ...` ไม่ผิดแต่ไม่เฉียบเท่าแบบทางการ"
+      },
+      {
+        "index": 2,
+        "text": "In case",
+        "knowledge_ids": [
+          489
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประกาศนโยบายแบบทางการนิยมใช้ __`In case + clause, ...`__ เพื่อพูดถึงกรณีที่ “อาจเกิดขึ้น” และการเตรียมรับมือ เช่น `In case late deliveries occur, we will issue a formal notice.` โทนเป็นทางการและชัดเจนว่าคือมาตรการ"
+      },
+      {
+        "index": 3,
+        "text": "Unless",
+        "knowledge_ids": [
+          486,
+          508
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย `unless` แปลว่า “เว้นแต่ว่า/ถ้าไม่” ทำให้ความหมายกลับด้าน เช่น `Unless late deliveries occur, ...` = ถ้าไม่เกิด ก็จะ... ซึ่งไม่ตรงกับประกาศที่จะบอกวิธีรับมือเมื่อเกิดเหตุ"
+      },
+      {
+        "index": 4,
+        "text": "Supposing",
+        "knowledge_ids": [
+          493
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เป็นทางการพอสำหรับประกาศบริษัท `Supposing late deliveries occur, ...` ฟังเป็นการคุยสมมติเล่นๆ มากกว่า งานทางการควรใช้ `In case ...` หรือ `Should ... occur, ...`"
+      }
+    ]
+  },
+  {
+    "question": "Polite request to a professor: ___ possible, could I submit the assignment tomorrow?",
+    "question_knowledge_ids": [
+      481,
+      500,
+      504
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "If it is",
+        "knowledge_ids": [
+          500
+        ],
+        "is_correct": false,
+        "answer_description": "พอใช้ได้ แต่ยังตรงๆ ไปนิดสำหรับคำขอสุภาพมากๆ ในภาษาเขียน `If it is possible, ...` ใช้ได้ แต่แบบที่สุภาพนุ่มนวลกว่าคือ `If it would be possible, ...` หรือ `If possible, ...`"
+      },
+      {
+        "index": 2,
+        "text": "If it would be",
+        "knowledge_ids": [
+          428,
+          504
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำขอสุภาพนิยมใช้ __`If it would be possible, ...`__ เพื่อทำให้คำขออ่อนลงและให้เกียรติ เช่น `If it would be possible, could I submit the assignment tomorrow?` โทนทางการ สุภาพ เหมาะกับอีเมลถึงอาจารย์"
+      },
+      {
+        "index": 3,
+        "text": "If possible it is",
+        "knowledge_ids": [
+          529
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดลำดับคำ โครงสร้าง `If possible, ...` ต้องเป็นวลีขึ้นต้น แล้วตามด้วยประโยคหลัก เช่น `If possible, could I ...?` ไม่ใช้ `If possible it is ...`"
+      },
+      {
+        "index": 4,
+        "text": "If you allow",
+        "knowledge_ids": [
+          441,
+          504
+        ],
+        "is_correct": false,
+        "answer_description": "โทนตรงเกินไปและเหมือนโยนภาระให้ผู้ฟัง เช่น `If you allow, ...` ฟังไม่ค่อยสุภาพเท่า `If it would be possible, ...` ตัวเลือกที่ถูกทำให้ประโยคเป็นกลางและสุภาพกว่า"
+      }
+    ]
+  },
+  {
+    "question": "Website notice (formal): ___ any technical issues arise, our team will respond promptly.",
+    "question_knowledge_ids": [
+      481,
+      489,
+      495,
+      505
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Should",
+        "knowledge_ids": [
+          499
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้รูปทางการ __`Should + subject + base verb, ...`__ เช่น `Should any technical issues arise, ...` เหมาะกับประกาศเว็บไซต์หรือเอกสารองค์กร เพราะกระชับและมืออาชีพ"
+      },
+      {
+        "index": 2,
+        "text": "If will",
+        "knowledge_ids": [
+          495,
+          507
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดไวยากรณ์ เพราะ **if-clause** ไม่ใช้ `will` สำหรับเงื่อนไขทั่วไป ตัวอย่างผิด: `If will any issues arise, ...` ควรเป็น `If any issues arise, ...` หรือทางการกว่า `Should any issues arise, ...`"
+      },
+      {
+        "index": 3,
+        "text": "If there will be",
+        "knowledge_ids": [
+          495,
+          507
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดธรรมชาติ ใน **if-clause** ปกติใช้ปัจจุบันธรรมดา `If there are/If any issues arise` ไม่ใช้ `will be` เช่น `If there are any issues, ...`"
+      },
+      {
+        "index": 4,
+        "text": "Supposing there are",
+        "knowledge_ids": [
+          493
+        ],
+        "is_correct": false,
+        "answer_description": "โทนไม่เป็นทางการพอ `Supposing ...` ใช้คุยเล่น/สมมติทั่วไปมากกว่า ประกาศทางการควรเป็น `Should any issues arise, ...`"
+      }
+    ]
+  },
+  {
+    "question": "Friendly offer: ___ you need a hand, just text me.",
+    "question_knowledge_ids": [
+      481,
+      500
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "If",
+        "knowledge_ids": [
+          481
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โทนกันเองใช้ __`If + present, ...`__ ได้ตรงๆ เช่น `If you need a hand, just text me.` ธรรมชาติและเป็นมิตร เหมาะกับเพื่อนหรือคนรู้จัก"
+      },
+      {
+        "index": 2,
+        "text": "Unless",
+        "knowledge_ids": [
+          486
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย `Unless you need a hand` = ถ้าคุณไม่ต้องการความช่วยเหลือ ซึ่งสวนทางกับข้อเสนอความช่วยเหลือทั่วไป สำหรับข้อเสนอต้องใช้ `If you need ...`"
+      },
+      {
+        "index": 3,
+        "text": "Should you will need",
+        "knowledge_ids": [
+          507,
+          584
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดไวยากรณ์ เอา `should` และ `will` มาซ้อนกัน และโทนทางการเกินไปสำหรับประโยคกันเอง ควรใช้ `If you need ...` แบบเรียบง่าย"
+      },
+      {
+        "index": 4,
+        "text": "If you would need",
+        "knowledge_ids": [
+          428,
+          500
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ธรรมชาติในเงื่อนไขทั่วไป `would` ทำให้ประโยคฟังอ้อมเกินไป ใช้ `If you need a hand, ...` จะชัดและธรรมชาติ"
+      }
+    ]
+  },
+  {
+    "question": "Job application letter: ___ you require further information, I would be happy to provide it.",
+    "question_knowledge_ids": [
+      481,
+      488,
+      499,
+      504
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "If",
+        "knowledge_ids": [
+          481
+        ],
+        "is_correct": false,
+        "answer_description": "ใช้ได้ แต่ยังไม่นุ่มนวลเท่าแบบทางการมาตรฐานในจดหมายสมัครงาน ตัวเลือกที่ดีกว่าคือ `Should you require ...` ซึ่งมืออาชีพกว่า เช่น `Should you require further information, ...`"
+      },
+      {
+        "index": 2,
+        "text": "Should",
+        "knowledge_ids": [
+          499,
+          504
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้องสำหรับงานเขียนทางการ ใช้ __`Should + subject + base verb`__ เช่น `Should you require further information, I would be happy to provide it.` ทั้งสุภาพและเป็นมาตรฐานในจดหมายสมัครงาน"
+      },
+      {
+        "index": 3,
+        "text": "Unless",
+        "knowledge_ids": [
+          486
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย `Unless you require ...` = ถ้าคุณไม่ต้องการ... ซึ่งตรงข้ามกับเจตนาที่เสนอข้อมูลเพิ่มเติมเมื่อ “ต้องการ” จึงไม่เหมาะกับบริบท"
+      },
+      {
+        "index": 4,
+        "text": "Provided that",
+        "knowledge_ids": [
+          488
+        ],
+        "is_correct": false,
+        "answer_description": "โทนนี้เหมือนตั้งเงื่อนไขเข้มงวด/ข้อแม้ `Provided that you require ...` ฟังแปลกในจดหมายสมัครงาน ใช้ `Should you require ...` จะสุภาพเป็นกลางกว่า"
+      }
+    ]
+  },
+  {
+    "question": "Academic writing: ___ there be any deviations, the results could be compromised.",
+    "question_knowledge_ids": [
+      481,
+      499,
+      505
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "If",
+        "knowledge_ids": [
+          481
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ผิด แต่ระดับภาษายังธรรมดา ในงานวิชาการที่เป็นทางการ นิยมใช้ `should` หรือโครงสร้างกลับคำสั่งเพื่อความเป็นทางการมากขึ้น เช่น `Should there be ...`"
+      },
+      {
+        "index": 2,
+        "text": "Should",
+        "knowledge_ids": [
+          499
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะงานเขียนเชิงวิชาการมักใช้ __`Should there be + noun, ...`__ เพื่อแสดงความเป็นทางการและความเป็นไปได้ เช่น `Should there be any deviations, the results could be compromised.` ฟังเป็นวิชาการและแม่นยำ"
+      },
+      {
+        "index": 3,
+        "text": "Supposing",
+        "knowledge_ids": [
+          493
+        ],
+        "is_correct": false,
+        "answer_description": "โทนกึ่งกันเอง `Supposing there are ...` ไม่ค่อยใช้ในบทความวิชาการ ควรใช้ `Should there be ...` หรือ `If there are ...` ในงานวิชาการ"
+      },
+      {
+        "index": 4,
+        "text": "If there will be",
+        "knowledge_ids": [
+          495,
+          507
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดธรรมชาติ `if-clause` ไม่ควรใช้ `will` ในเงื่อนไขทั่วไป ควรเป็น `If there are ...` หรืออย่างเป็นทางการ `Should there be ...`"
+      }
+    ]
+  },
+  {
+    "question": "Customer service chat (polite but friendly): ___ you're experiencing any issues, I can walk you through the steps.",
+    "question_knowledge_ids": [
+      481,
+      500,
+      504
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "If",
+        "knowledge_ids": [
+          481
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โทนสุภาพแต่เป็นกันเองใช้ __`If + present, ...`__ ได้ดี เช่น `If you're experiencing any issues, I can ...` ฟังช่วยเหลือและไม่แข็งเกินไปสำหรับแชตกับลูกค้า"
+      },
+      {
+        "index": 2,
+        "text": "Should",
+        "knowledge_ids": [
+          499,
+          504
+        ],
+        "is_correct": false,
+        "answer_description": "แม้ถูกหลักแต่โทนจะทางการขึ้นเล็กน้อย เหมาะกับอีเมล/ประกาศมากกว่า แชตบริการลูกค้าต้องการความอบอุ่น ใช้ `If you're ...` จะเป็นมิตรกว่า"
+      },
+      {
+        "index": 3,
+        "text": "If you will experience",
+        "knowledge_ids": [
+          495,
+          507
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดธรรมชาติ เพราะ `if-clause` ไม่ใช้ `will` เพื่อเงื่อนไขทั่วไป ใช้ `If you experience/If you're experiencing` จะถูกต้องกว่า เช่น `If you experience any issues, ...`"
+      },
+      {
+        "index": 4,
+        "text": "Unless you're",
+        "knowledge_ids": [
+          486
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย `Unless you're experiencing ...` = ถ้าคุณไม่เจอปัญหา... ซึ่งสวนทางกับการเสนอความช่วยเหลือเมื่อ “มีปัญหา” จึงไม่ตรงเจตนา"
+      }
+    ]
+  },
+  {
+    "question": "Formal report: ___ the data have been verified, conclusions should not be drawn.",
+    "question_knowledge_ids": [
+      481,
+      486,
+      505
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Unless",
+        "knowledge_ids": [
+          486
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __`Unless + clause, ...`__ เพื่อแสดงข้อยกเว้นหรือเงื่อนไขจำเป็น เช่น `Unless the data have been verified, conclusions should not be drawn.` โทนทางการและชัดเจนว่าต้องตรวจสอบก่อน"
+      },
+      {
+        "index": 2,
+        "text": "If",
+        "knowledge_ids": [
+          481
+        ],
+        "is_correct": false,
+        "answer_description": "ใช้ได้แต่ความหมายจะเปลี่ยน ถ้าเขียน `If the data have been verified, conclusions should not be drawn.` = ถ้าได้รับการยืนยันแล้ว ก็ไม่ควรสรุป ซึ่งขัดกับตรรกะปกติ ต้องการสื่อข้อยกเว้นควรใช้ `Unless`"
+      },
+      {
+        "index": 3,
+        "text": "Provided",
+        "knowledge_ids": [
+          488
+        ],
+        "is_correct": false,
+        "answer_description": "โทน `Provided (that)` มักสื่อเงื่อนไขเชิงอนุญาต เช่น “ตราบเท่าที่...” ถ้าใช้ที่นี่จะสื่อว่าต้องไม่สรุปเมื่อได้รับการยืนยัน ซึ่งความหมายเพี้ยนไป ควรใช้ `Unless ... verified` เพื่อบอก “ถ้ายังไม่ตรวจสอบ ห้ามสรุป”"
+      },
+      {
+        "index": 4,
+        "text": "Supposing",
+        "knowledge_ids": [
+          493
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เป็นทางการพอสำหรับรายงานทางการ และยังไม่ชัดเจนด้านตรรกะเมื่อเทียบกับ `Unless` ที่บอกข้อยกเว้นจำเป็น เช่น `Unless the data have been verified, ...`"
+      }
+    ]
+  }
+]
