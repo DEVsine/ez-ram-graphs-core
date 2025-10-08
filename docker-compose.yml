@@ -36,6 +36,7 @@ services:
       - neo4j_logs:/logs
       - neo4j_import:/var/lib/neo4j/import
       - neo4j_plugins:/plugins
+      - ./dumps:/dumps
     # Using different ports to avoid conflicts with local Neo4j
     # Docker Neo4j: 7500 (HTTP) and 7690 (Bolt)
     # Local Neo4j: 7474, 7687, 7688
