@@ -1,6 +1,7 @@
 import logging
 from pathlib import Path
 from typing import Any, Dict, List
+from datetime import datetime, timezone
 
 from core.api import APIError
 from core.services import BaseService, ServiceContext
@@ -90,6 +91,9 @@ class SubmitAnswersService(BaseService[Dict[str, Any], Dict[str, Any]]):
 
         # Build response
         graph_updates = self._build_graph_updates(all_adjustments, kg)
+
+        # Update Student-Knowledge relationships in Neo4j
+        self._update_student_knowledge_links(student_node, all_adjustments, profile, kg)
 
         resp_student = {
             "name": student_node.username,
@@ -261,3 +265,101 @@ class SubmitAnswersService(BaseService[Dict[str, Any], Dict[str, Any]]):
         graph_updates.sort(key=lambda x: abs(x["adjustment"]), reverse=True)
 
         return graph_updates
+
+    def _update_student_knowledge_links(
+        self,
+        student_node: NeoStudent,
+        adjustments: Dict[str, float],
+        profile: UserProfile,
+        kg: KnowledgeGraph,
+    ):
+        """
+        Update Student-Knowledge relationships in Neo4j based on quiz results.
+
+        This method creates or updates relationships between the student and
+        knowledge nodes, storing metadata about their learning progress.
+
+        Args:
+            student_node: Neo4j Student node
+            adjustments: Dict mapping knowledge element_id to score adjustment
+            profile: Student's UserProfile with current scores
+            kg: KnowledgeGraph with knowledge nodes
+        """
+        if not adjustments:
+            logger.info("No adjustments to update in graph")
+            return
+
+        updated_count = 0
+        created_count = 0
+
+        # Build knowledge nodes map for quick lookup
+        knowledge_nodes_map = {}
+        for k_node in NeoKnowledge.nodes.all():
+            element_id = getattr(k_node, "element_id", None)
+            if element_id:
+                knowledge_nodes_map[element_id] = k_node
+
+        logger.info(
+            f"Updating Student-Knowledge links for {len(adjustments)} knowledge nodes"
+        )
+
+        for node_element_id, adjustment in adjustments.items():
+            try:
+                # Get knowledge node
+                knowledge_node = knowledge_nodes_map.get(node_element_id)
+                if not knowledge_node:
+                    logger.warning(
+                        f"Knowledge node {node_element_id} not found in Neo4j"
+                    )
+                    continue
+
+                # Get current score from profile
+                current_score = profile.get_score(node_element_id)
+
+                # Check if relationship already exists
+                if student_node.related_to.is_connected(knowledge_node):
+                    # Update existing relationship
+                    rel = student_node.related_to.relationship(knowledge_node)
+                    rel.last_score = current_score + adjustment
+                    rel.last_updated = datetime.now(timezone.utc)
+                    rel.total_attempts = getattr(rel, "total_attempts", 0) + 1
+
+                    # Increment total_correct if adjustment is positive (correct answer)
+                    if adjustment > 0:
+                        rel.total_correct = getattr(rel, "total_correct", 0) + 1
+
+                    rel.save()
+                    updated_count += 1
+
+                    logger.debug(
+                        f"Updated relationship: Student -> {knowledge_node.name}, "
+                        f"score: {current_score}, attempts: {rel.total_attempts}"
+                    )
+                else:
+                    # Create new relationship
+                    rel_props = {
+                        "last_score": current_score,
+                        "last_updated": datetime.now(timezone.utc),
+                        "total_attempts": 1,
+                        "total_correct": adjustment,
+                    }
+
+                    student_node.related_to.connect(knowledge_node, rel_props)
+                    created_count += 1
+
+                    logger.debug(
+                        f"Created relationship: Student -> {knowledge_node.name}, "
+                        f"score: {current_score}"
+                    )
+
+            except Exception as e:
+                logger.error(
+                    f"Failed to update Student-Knowledge link for {node_element_id}: {e}",
+                    exc_info=True,
+                )
+                continue
+
+        logger.info(
+            f"Student-Knowledge links updated: {created_count} created, "
+            f"{updated_count} updated"
+        )

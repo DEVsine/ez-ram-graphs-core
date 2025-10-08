@@ -1,25 +1,24 @@
 import logging
-from pathlib import Path
 from typing import Any, Dict, List, Set
 
+from neomodel import db
+
 from core.api import APIError
-from core.services import BaseService, ServiceContext
+from core.services import BaseService
 from student.neo_models import Student as NeoStudent
 from knowledge.neo_models import Knowledge as NeoKnowledge, TopicKnowledge
-from student.quiz_suggestion import KnowledgeGraph, UserProfile
 
 logger = logging.getLogger(__name__)
 
 
 class GetStudentGraphService(BaseService[Dict[str, Any], Dict[str, Any]]):
     """
-    Class-based service for retrieving a student's knowledge graph with scores.
+    Class-based service for retrieving a student's knowledge graph with scores from Neo4j.
 
     This service:
-    - Finds the student by graph ID
-    - Loads the student's learning profile
-    - Loads the knowledge graph
-    - Builds a hierarchical tree structure with scores
+    - Finds the student by db_id
+    - Gets student's knowledge scores from Neo4j Student-Knowledge relationships
+    - Builds a hierarchical tree structure (Topic -> Knowledge) with scores
     - Returns student info and knowledge graph with scores
     """
 
@@ -34,7 +33,7 @@ class GetStudentGraphService(BaseService[Dict[str, Any], Dict[str, Any]]):
 
         logger.info(f"Fetching knowledge graph for student {student_id}")
 
-        # Find student by graph ID
+        # Find student by db_id
         student_node = self._get_student_by_db_id(student_id)
         if not student_node:
             raise APIError(
@@ -45,16 +44,16 @@ class GetStudentGraphService(BaseService[Dict[str, Any], Dict[str, Any]]):
 
         student_username = getattr(student_node, "username", "unknown")
 
-        # Load user profile
-        profile = self._load_user_profile(student_username)
-
         # Get ram_id from context
         ram_id = self.ctx.ram_id if self.ctx else None
         if not ram_id:
             raise APIError("ram_id is required", code="invalid_input", status_code=400)
 
+        # Load student's knowledge scores from Neo4j relationships
+        student_scores = self._get_student_knowledge_scores(student_node)
+
         # Build hierarchical knowledge graph with scores (Topic -> Knowledge tree)
-        knowledge_tree = self._build_topic_knowledge_tree(ram_id, profile)
+        knowledge_tree = self._build_topic_knowledge_tree(ram_id, student_scores)
 
         # Build response
         resp_student = {
@@ -81,27 +80,45 @@ class GetStudentGraphService(BaseService[Dict[str, Any], Dict[str, Any]]):
             logger.error(f"Failed to fetch student by db_id {db_id}: {e}")
             return None
 
-    def _load_user_profile(self, student_username: str) -> UserProfile:
-        """Load or create a UserProfile for the student."""
-        profile_path = Path("data/profiles") / f"{student_username}.json"
+    def _get_student_knowledge_scores(
+        self, student_node: NeoStudent
+    ) -> Dict[str, float]:
+        """
+        Get student's knowledge scores from Neo4j Student-Knowledge relationships.
 
-        if profile_path.exists():
-            try:
-                profile = UserProfile.load_from_file(profile_path)
-                logger.info(f"Loaded existing profile for {student_username}")
-                return profile
-            except Exception as e:
-                logger.warning(
-                    f"Failed to load profile for {student_username}: {e}. Creating new."
-                )
+        Args:
+            student_node: Student node from Neo4j
 
-        # Create new profile
-        profile = UserProfile(user_id=student_username)
-        logger.info(f"Created new profile for {student_username}")
-        return profile
+        Returns:
+            Dictionary mapping knowledge element_id to last_score
+        """
+        try:
+            # Query all Student-[RELATED_TO]->Knowledge relationships with scores
+            query = """
+            MATCH (s:Student)-[r:RELATED_TO]->(k:Knowledge)
+            WHERE elementId(s) = $student_id
+            RETURN elementId(k) as knowledge_id, r.last_score as score
+            """
+            params = {"student_id": student_node.element_id}
+
+            results, _ = db.cypher_query(query, params)
+
+            scores = {}
+            for row in results:
+                knowledge_id = row[0]
+                score = row[1] if row[1] is not None else 0.0
+                scores[knowledge_id] = float(score)
+
+            logger.info(
+                f"Loaded {len(scores)} knowledge scores for student {student_node.username}"
+            )
+            return scores
+        except Exception as e:
+            logger.error(f"Failed to get student knowledge scores: {e}", exc_info=True)
+            return {}
 
     def _build_topic_knowledge_tree(
-        self, ram_id: str, profile: UserProfile
+        self, ram_id: str, student_scores: Dict[str, float]
     ) -> List[Dict[str, Any]]:
         """
         Build a hierarchical tree starting from Subject (ram_id) -> Topics -> Knowledge nodes.
@@ -115,7 +132,7 @@ class GetStudentGraphService(BaseService[Dict[str, Any], Dict[str, Any]]):
 
         Args:
             ram_id: The root TopicKnowledge node name (e.g., "RAM1111")
-            profile: User profile with scores
+            student_scores: Dictionary mapping knowledge element_id to last_score
 
         Returns:
             List of Topic nodes with nested Knowledge children
@@ -141,7 +158,7 @@ class GetStudentGraphService(BaseService[Dict[str, Any], Dict[str, Any]]):
         # Build tree for each Topic
         topic_tree = []
         for topic in child_topics:
-            topic_data = self._build_topic_node(topic, profile)
+            topic_data = self._build_topic_node(topic, student_scores)
             if topic_data:
                 topic_tree.append(topic_data)
 
@@ -150,7 +167,7 @@ class GetStudentGraphService(BaseService[Dict[str, Any], Dict[str, Any]]):
     def _build_topic_node(
         self,
         topic: TopicKnowledge,
-        profile: UserProfile,
+        student_scores: Dict[str, float],
         visited_topics: Set[str] = None,
     ) -> Dict[str, Any] | None:
         """
@@ -158,7 +175,7 @@ class GetStudentGraphService(BaseService[Dict[str, Any], Dict[str, Any]]):
 
         Args:
             topic: TopicKnowledge node
-            profile: User profile with scores
+            student_scores: Dictionary mapping knowledge element_id to last_score
             visited_topics: Set of visited topic IDs to prevent cycles
 
         Returns:
@@ -192,7 +209,7 @@ class GetStudentGraphService(BaseService[Dict[str, Any], Dict[str, Any]]):
 
                 for subtopic in subtopics:
                     subtopic_data = self._build_topic_node(
-                        subtopic, profile, visited_topics
+                        subtopic, student_scores, visited_topics
                     )
                     if subtopic_data:
                         children.append(subtopic_data)
@@ -213,7 +230,7 @@ class GetStudentGraphService(BaseService[Dict[str, Any], Dict[str, Any]]):
 
                 for knowledge in knowledge_nodes:
                     knowledge_data = self._build_knowledge_node_tree(
-                        knowledge, profile, visited_knowledge, all_scores
+                        knowledge, student_scores, visited_knowledge, all_scores
                     )
                     if knowledge_data:
                         children.append(knowledge_data)
@@ -263,7 +280,7 @@ class GetStudentGraphService(BaseService[Dict[str, Any], Dict[str, Any]]):
     def _build_knowledge_node_tree(
         self,
         knowledge: NeoKnowledge,
-        profile: UserProfile,
+        student_scores: Dict[str, float],
         visited: Set[str],
         all_scores: List[float],
     ) -> Dict[str, Any] | None:
@@ -272,7 +289,7 @@ class GetStudentGraphService(BaseService[Dict[str, Any], Dict[str, Any]]):
 
         Args:
             knowledge: Knowledge node
-            profile: User profile with scores
+            student_scores: Dictionary mapping knowledge element_id to last_score
             visited: Set of visited node IDs to prevent cycles
             all_scores: List to collect all scores for average calculation
 
@@ -290,8 +307,8 @@ class GetStudentGraphService(BaseService[Dict[str, Any], Dict[str, Any]]):
 
             visited.add(node_id)
 
-            # Get score from profile
-            score = profile.get_score(node_id)
+            # Get score from student_scores dictionary (default to 0.0 if not found)
+            score = student_scores.get(node_id, 0.0)
             all_scores.append(score)  # Add to scores list for average calculation
 
             # Build node data
@@ -302,14 +319,9 @@ class GetStudentGraphService(BaseService[Dict[str, Any], Dict[str, Any]]):
             }
 
             # Get children (nodes that depend on this node via DEPENDS_ON)
-            # Note: This is a simplified approach. For better performance,
-            # consider adding a reverse relationship in the Knowledge model
             children = []
             try:
                 # Use Cypher query to find nodes that depend on this one
-                # This is more efficient than iterating through all nodes
-                from neomodel import db
-
                 query = """
                 MATCH (dependent:Knowledge)-[:DEPENDS_ON]->(current:Knowledge)
                 WHERE elementId(current) = $node_id OR current.name = $node_name
@@ -331,7 +343,7 @@ class GetStudentGraphService(BaseService[Dict[str, Any], Dict[str, Any]]):
 
                         if dependent_id:
                             child_data = self._build_knowledge_node_tree(
-                                dependent_node, profile, visited, all_scores
+                                dependent_node, student_scores, visited, all_scores
                             )
                             if child_data:
                                 children.append(child_data)
@@ -347,103 +359,3 @@ class GetStudentGraphService(BaseService[Dict[str, Any], Dict[str, Any]]):
         except Exception as e:
             logger.error(f"Failed to build knowledge node tree for {knowledge}: {e}")
             return None
-
-    def _build_knowledge_tree(
-        self, kg: KnowledgeGraph, profile: UserProfile
-    ) -> List[Dict[str, Any]]:
-        """
-        Build a hierarchical tree of knowledge nodes with scores.
-
-        The tree structure shows:
-        - Root nodes (nodes with no prerequisites) at the top level
-        - Each node's children are nodes that depend on it
-        - Each node includes its score from the user profile
-
-        Args:
-            kg: Knowledge graph
-            profile: User profile with scores
-
-        Returns:
-            List of root knowledge nodes with nested children
-        """
-        # Find root nodes (nodes with no prerequisites)
-        root_nodes = []
-        for node_id in kg.nodes():
-            prereqs = kg.get_prerequisites(node_id)
-            if not prereqs:
-                root_nodes.append(node_id)
-
-        logger.info(f"Found {len(root_nodes)} root knowledge nodes")
-
-        # Build tree recursively
-        tree = []
-        visited: Set[str] = set()
-
-        for root_id in root_nodes:
-            node_data = self._build_node_tree(root_id, kg, profile, visited)
-            if node_data:
-                tree.append(node_data)
-
-        return tree
-
-    def _build_node_tree(
-        self,
-        node_id: str,
-        kg: KnowledgeGraph,
-        profile: UserProfile,
-        visited: Set[str],
-    ) -> Dict[str, Any] | None:
-        """
-        Recursively build a tree node with its children.
-
-        Args:
-            node_id: Current node ID
-            kg: Knowledge graph
-            profile: User profile
-            visited: Set of already visited nodes (to prevent cycles)
-
-        Returns:
-            Node data with children, or None if already visited
-        """
-        # Prevent infinite loops
-        if node_id in visited:
-            return None
-
-        visited.add(node_id)
-
-        # Get node attributes
-        try:
-            attrs = kg.get_node_attrs(node_id)
-        except Exception as e:
-            logger.warning(f"Failed to get attributes for node {node_id}: {e}")
-            return None
-
-        # Get score from profile
-        score = profile.get_score(node_id)
-
-        # Build node data
-        node_data = {
-            "graph_id": node_id,
-            "knowledge": attrs.get("name", "Unknown"),
-            "score": round(score, 2),
-        }
-
-        # Get children (nodes that depend on this node)
-        try:
-            children_ids = kg.get_dependents(node_id)
-        except Exception as e:
-            logger.warning(f"Failed to get dependents for node {node_id}: {e}")
-            children_ids = set()
-
-        # Build children recursively
-        if children_ids:
-            children = []
-            for child_id in sorted(children_ids):  # Sort for consistent output
-                child_data = self._build_node_tree(child_id, kg, profile, visited)
-                if child_data:
-                    children.append(child_data)
-
-            if children:
-                node_data["child"] = children
-
-        return node_data

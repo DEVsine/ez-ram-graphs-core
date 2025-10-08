@@ -11,9 +11,6 @@ Usage:
 
 from django.core.management.base import BaseCommand, CommandError
 from student.quiz_suggestion import (
-    suggest_next_quiz,
-    update_scores,
-    get_learning_progress,
     reset_user_progress,
     KnowledgeGraph,
     UserProfile,

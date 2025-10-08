@@ -5,7 +5,11 @@ All URLs in this file are prefixed with 'student/' when included in core/urls.py
 """
 
 from django.urls import path
-from student.api_views import SuggestQuizAPI, SubmitAnswersAPI, GetStudentGraphAPI
+from student.api_views import (
+    SuggestQuizAPI,
+    SubmitAnswersAPI,
+    GetStudentGraphAPI,
+)
 
 app_name = "student"
 
