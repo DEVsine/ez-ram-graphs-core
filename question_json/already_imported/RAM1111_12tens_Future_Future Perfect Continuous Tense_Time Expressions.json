@@ -1,0 +1,292 @@
+[
+  {
+    "question": "By next June, she ___ in this company for five years.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been working",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะรูปนี้ตรงกับโครงสร้าง **Future Perfect Continuous** เพื่อบอกระยะเวลาต่อเนื่องถึงจุดหนึ่งในอนาคต โดยมี `By next June` บอกกำหนดเวลาอนาคต และ `for five years` บอกระยะเวลา โครงสร้างที่ควรจำคือ __will have been + V-ing + for + ระยะเวลา__. ตัวอย่าง: `By next June, she will have been working in this company for five years.`"
+      },
+      {
+        "index": 2,
+        "text": "will work",
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะ **will work** เป็น Future Simple เน้นการกระทำในอนาคต ไม่ได้เน้นความยาวของเวลา ไม่เข้ากับ `for five years` ที่บอกความต่อเนื่อง ตัวอย่างที่ถูกควรเป็น `will have been working` เช่น `She will have been working for five years.`"
+      },
+      {
+        "index": 3,
+        "text": "has worked",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะ **has worked** คือ Present Perfect ใช้กับปัจจุบัน แต่ที่นี่มี `By next June` ชี้อนาคต ต้องใช้อนาคตแบบสมบูรณ์ต่อเนื่อง แก้เป็น `will have been working` เช่น `By next June, she will have been working...`"
+      },
+      {
+        "index": 4,
+        "text": "will have worked",
+        "is_correct": false,
+        "answer_description": "เกือบถูกแต่ยังไม่ใช่ เพราะ **will have worked** คือ Future Perfect (ไม่เน้นความต่อเนื่อง) แต่ประโยคนี้มี `for five years` ซึ่งเน้นระยะเวลาต่อเนื่อง ควรใช้แบบต่อเนื่อง: `will have been working` เช่น `...will have been working for five years.`"
+      }
+    ]
+  },
+  {
+    "question": "By the time you arrive, we ___ for two hours.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been waiting",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมี `By the time + Present Simple (you arrive)` แล้วประโยคหลักต้องใช้อนาคตขั้นสมบูรณ์แบบต่อเนื่อง โครงสร้างที่ควรจำคือ __By the time + S + V(s), S + will have been + V-ing + for + ระยะเวลา__. ตัวอย่าง: `By the time you arrive, we will have been waiting for two hours.`"
+      },
+      {
+        "index": 2,
+        "text": "will be waiting",
+        "is_correct": false,
+        "answer_description": "ยังไม่ครบความหมาย เพราะ **will be waiting** เป็น Future Continuous เน้นจังหวะกำลังทำในอนาคต แต่ไม่ได้สรุประยะเวลาที่สะสมไว้ `for two hours` จึงควรใช้ `will have been waiting` แทน เช่น `...will have been waiting for two hours.`"
+      },
+      {
+        "index": 3,
+        "text": "have been waiting",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะ **have been waiting** คือ Present Perfect Continuous ใช้กับปัจจุบัน แต่ประโยคมี `By the time` ชี้ถึงจุดในอนาคต ควรใช้อนาคต: `will have been waiting` เช่น `By the time you arrive, we will have been waiting...`"
+      },
+      {
+        "index": 4,
+        "text": "wait",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะ **wait** เป็นรูปปัจจุบันธรรมดา ไม่สื่อระยะเวลาต่อเนื่องและไม่สอดคล้องกับ `for two hours` และโครง `By the time ...` ตัวอย่างที่ถูก: `By the time you arrive, we will have been waiting for two hours.`"
+      }
+    ]
+  },
+  {
+    "question": "This time next year, I ___ in Bangkok for a decade.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been living",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ `This time next year` เป็นตัวบอกเวลาอนาคตที่ชัด และ `for a decade` เน้นระยะเวลาต่อเนื่อง จึงใช้โครงสร้าง __will have been + V-ing + for + ระยะเวลา__. ตัวอย่าง: `This time next year, I will have been living in Bangkok for a decade.`"
+      },
+      {
+        "index": 2,
+        "text": "will live",
+        "is_correct": false,
+        "answer_description": "ยังไม่พอ เพราะ **will live** ไม่สื่อถึงช่วงเวลาที่ยืดต่อเนื่อง ขัดกับ `for a decade` ที่เน้นความยาว ควรใช้แบบต่อเนื่องสะสม: `will have been living` เช่น `...will have been living for a decade.`"
+      },
+      {
+        "index": 3,
+        "text": "am living",
+        "is_correct": false,
+        "answer_description": "ผิดเวลาเพราะ **am living** คือ Present Continuous ใช้กับตอนนี้ ไม่ใช่อนาคต และไม่สื่อระยะเวลาที่สะสมไว้ หลักที่ใช่คือ `will have been living` เมื่อมี `This time next year` + `for ...`"
+      },
+      {
+        "index": 4,
+        "text": "will have lived",
+        "is_correct": false,
+        "answer_description": "ใกล้เคียงแต่ไม่ตรงจุด เพราะ **will have lived** เน้นผลสำเร็จ ไม่เน้นความต่อเนื่อง ในขณะที่ `for a decade` เน้นความยาวต่อเนื่อง จึงควรใช้ `will have been living` แทน"
+      }
+    ]
+  },
+  {
+    "question": "By 8 p.m., they ___ since noon.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been working",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมี `By 8 p.m.` (เส้นตายอนาคต) และ `since noon` (จุดเริ่มต้นเวลา) จึงใช้ __will have been + V-ing + since + จุดเริ่มต้น__. ตัวอย่าง: `By 8 p.m., they will have been working since noon.`"
+      },
+      {
+        "index": 2,
+        "text": "will be worked",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น passive และยังผิดรูปกาลด้วย โครงนี้ต้องการรูป active ต่อเนื่อง ไม่ใช่ `will be worked` ควรเป็น `will have been working` เช่น `...will have been working since noon.`"
+      },
+      {
+        "index": 3,
+        "text": "have worked",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เนื่องจาก **have worked** เป็น Present Perfect ไม่ใช่อนาคต ทั้งที่มี `By 8 p.m.` ชี้อนาคต ควรใช้อนาคตสมบูรณ์ต่อเนื่อง: `will have been working`"
+      },
+      {
+        "index": 4,
+        "text": "will have worked",
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง เพราะ **will have worked** ไม่สื่อความต่อเนื่องที่ `since noon` ต้องการ ถ้าต้องการเน้นทำเรื่อยๆ ตั้งแต่เที่ยง ควรใช้ `will have been working`"
+      }
+    ]
+  },
+  {
+    "question": "By the end of the semester, the students ___ on their projects for three months.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been working",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ `By the end of the semester` ระบุเส้นตายในอนาคต และ `for three months` บอกระยะเวลาต่อเนื่อง โครงสร้างคือ __will have been + V-ing + for + ระยะเวลา__. ตัวอย่าง: `By the end of the semester, the students will have been working on their projects for three months.`"
+      },
+      {
+        "index": 2,
+        "text": "will work",
+        "is_correct": false,
+        "answer_description": "ไม่พอ เพราะ **will work** ไม่ได้เน้นระยะเวลาที่สะสมไว้ ซึ่งขัดกับ `for three months` ประโยคนี้ควรใช้ `will have been working` เพื่อสื่อความต่อเนื่อง"
+      },
+      {
+        "index": 3,
+        "text": "are working",
+        "is_correct": false,
+        "answer_description": "ผิดเวลา เพราะ **are working** (ปัจจุบันต่อเนื่อง) ไม่เข้ากับ `By the end of the semester` ที่บอกอนาคต และไม่สรุประยะเวลา ควรใช้ `will have been working`"
+      },
+      {
+        "index": 4,
+        "text": "will have worked",
+        "is_correct": false,
+        "answer_description": "เกือบใช่แต่ยังขาดความต่อเนื่อง เพราะ **will have worked** เน้นผลสำเร็จ ไม่เน้นการทำต่อเนื่องยาวนานที่ `for three months` ต้องการ คำตอบที่เหมาะคือ `will have been working`"
+      }
+    ]
+  },
+  {
+    "question": "When you call me at 7, I ___ for an hour.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been studying",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคเวลา `When you call (Present Simple)` เชื่อมกับหลักที่ว่าอนาคตในประโยคหลักใช้ __will have been + V-ing + for + ระยะเวลา__ เพื่อบอกว่าทำต่อเนื่องมาจนครบเวลา ตัวอย่าง: `When you call me at 7, I will have been studying for an hour.`"
+      },
+      {
+        "index": 2,
+        "text": "will be studying",
+        "is_correct": false,
+        "answer_description": "ยังไม่ครบความหมาย เพราะ **will be studying** แค่บอกว่า “กำลังอ่าน” ตอน 7 โมง แต่ไม่ชี้ว่าครบ `for an hour` แล้ว ถ้าต้องการเน้นสะสมเวลา ต้องใช้ `will have been studying`"
+      },
+      {
+        "index": 3,
+        "text": "study",
+        "is_correct": false,
+        "answer_description": "ผิดแนว เพราะ **study** (Present Simple) ไม่เข้ากับการอ้างเวลาอนาคตและไม่สื่อระยะเวลา `for an hour` ตัวอย่างที่ถูก: `I will have been studying for an hour.`"
+      },
+      {
+        "index": 4,
+        "text": "have been studying",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะเป็น Present Perfect Continuous ใช้กับปัจจุบัน แต่ในประโยคนี้อ้างถึงเวลาในอนาคตตอน 7 โมง ควรใช้ `will have been studying`"
+      }
+    ]
+  },
+  {
+    "question": "By then, he ___ long enough to take a break.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been working",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ `By then` ชี้ถึงเส้นตายในอนาคต และวลี `long enough` บอกความยาวของเวลา จึงใช้โครง __will have been + V-ing__ เพื่อเน้นความต่อเนื่อง ตัวอย่าง: `By then, he will have been working long enough to take a break.`"
+      },
+      {
+        "index": 2,
+        "text": "will have worked",
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะ **will have worked** เน้นผลว่า “ทำเสร็จ” แต่ไม่เน้นความต่อเนื่องซึ่งสอดคล้องกับ `long enough` ควรใช้แบบต่อเนื่อง: `will have been working`"
+      },
+      {
+        "index": 3,
+        "text": "will work",
+        "is_correct": false,
+        "answer_description": "ไม่พอ เพราะ **will work** เป็นอนาคตธรรมดา ไม่สะท้อนเวลาที่สะสมไว้ ซึ่งขัดกับ `long enough` ที่เน้นความยาวของการทำงาน"
+      },
+      {
+        "index": 4,
+        "text": "has been working",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะ **has been working** เป็นปัจจุบันสมบูรณ์ต่อเนื่อง แต่ `By then` ชี้อนาคต ต้องใช้ `will have been working` เพื่อให้ตรงเวลา"
+      }
+    ]
+  },
+  {
+    "question": "By the time the train gets to Paris, we ___ for four hours.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been traveling",
+        "is_correct": true,
+        "answer_description": "ถูกต้องตามสูตรเวลา `By the time + Present Simple (the train gets...)` แล้วประโยคหลักใช้ __will have been + V-ing + for + ระยะเวลา__ เพื่อเน้นเดินทางต่อเนื่อง ตัวอย่าง: `By the time the train gets to Paris, we will have been traveling for four hours.`"
+      },
+      {
+        "index": 2,
+        "text": "will be traveling",
+        "is_correct": false,
+        "answer_description": "ยังไม่ครบความหมาย เพราะ **will be traveling** บอกแค่ว่ากำลังเดินทาง แต่ไม่ชี้ว่าครบ `for four hours` ณ จุดนั้น ถ้าต้องการสื่อระยะเวลาสะสม ต้องใช้ `will have been traveling`"
+      },
+      {
+        "index": 3,
+        "text": "travel",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เนื่องจาก **travel** (Present Simple) ไม่เข้ากับโครง `By the time ...` ที่ต้องใช้อีกประโยคเป็นอนาคตสมบูรณ์ (ต่อเนื่อง) ในประโยคหลัก ตัวอย่างที่ถูก: `we will have been traveling...`"
+      },
+      {
+        "index": 4,
+        "text": "have been traveling",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะเป็น Present Perfect Continuous ซึ่งสื่อถึงปัจจุบัน ไม่ใช่อนาคตที่ระบุด้วย `By the time ... gets to Paris` จึงควรใช้ `will have been traveling`"
+      }
+    ]
+  },
+  {
+    "question": "By next Friday, the team ___ under the new manager for two weeks.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been working",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ `By next Friday` เป็นกำหนดอนาคต และ `for two weeks` บอกระยะเวลาต่อเนื่อง จึงใช้โครง __will have been + V-ing + for + ระยะเวลา__. ตัวอย่าง: `By next Friday, the team will have been working under the new manager for two weeks.`"
+      },
+      {
+        "index": 2,
+        "text": "will work",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ **will work** ไม่สื่อความต่อเนื่องยาวตาม `for two weeks` ถ้าต้องการเน้นสะสมเวลา ให้ใช้ `will have been working`"
+      },
+      {
+        "index": 3,
+        "text": "will have worked",
+        "is_correct": false,
+        "answer_description": "ใกล้เคียงแต่ยังไม่เน้นความต่อเนื่อง เพราะ **will have worked** เป็น Future Perfect แบบไม่ต่อเนื่อง ในขณะที่ `for two weeks` ต้องการน้ำหนักความต่อเนื่อง จึงควรเป็น `will have been working`"
+      },
+      {
+        "index": 4,
+        "text": "has worked",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะ **has worked** เป็น Present Perfect ซึ่งไม่ตรงกับ `By next Friday` ที่ชี้อนาคต ต้องใช้ `will have been working`"
+      }
+    ]
+  },
+  {
+    "question": "At this time tomorrow, she ___ for twelve hours.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have been traveling",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ `At this time tomorrow` ระบุตอนเวลาในอนาคต และ `for twelve hours` บอกระยะเวลาต่อเนื่อง จึงใช้ __will have been + V-ing + for + ระยะเวลา__. ตัวอย่าง: `At this time tomorrow, she will have been traveling for twelve hours.`"
+      },
+      {
+        "index": 2,
+        "text": "will be traveling",
+        "is_correct": false,
+        "answer_description": "ยังไม่สื่อการสะสมเวลา เพราะ **will be traveling** เน้นสภาพกำลังกระทำ ไม่ได้บอกว่าครบ `for twelve hours` แล้ว ถ้าต้องการเน้นเวลา ให้ใช้ `will have been traveling`"
+      },
+      {
+        "index": 3,
+        "text": "travels",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะ **travels** (Present Simple) ไม่ตรงกับอนาคตที่ระบุด้วย `tomorrow` และไม่สื่อระยะเวลา `for twelve hours` ทางที่ถูกคือ `will have been traveling`"
+      },
+      {
+        "index": 4,
+        "text": "has been traveling",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เนื่องจาก **has been traveling** ใช้กับช่วงเวลาถึงปัจจุบัน (present) แต่คำบอกเวลาเป็นอนาคต ต้องแก้เป็น `will have been traveling`"
+      }
+    ]
+  }
+]

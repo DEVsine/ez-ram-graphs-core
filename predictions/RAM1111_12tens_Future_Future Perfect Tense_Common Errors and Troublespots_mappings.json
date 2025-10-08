@@ -1,0 +1,538 @@
+[
+  {
+    "question": "By next year, she ___ finished her thesis.",
+    "question_knowledge_ids": [
+      215,
+      225,
+      232,
+      419
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have",
+        "knowledge_ids": [
+          225,
+          419
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **Future Perfect** คือ __`will have + V3`__ เช่น `will have finished`. ใช้เมื่อต้องการบอกว่าเหตุการณ์จะ “เสร็จสิ้น” ก่อนเวลาหนึ่งในอนาคต เช่น `By next year, she will have finished her thesis.` เห็นคำใบ้เวลาอย่าง **by next year** ให้คิดถึง Future Perfect ทันที"
+      },
+      {
+        "index": 2,
+        "text": "will has",
+        "knowledge_ids": [
+          380,
+          408
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **will** ต้องใช้กริยาช่องฐาน (base form) เสมอ จึงต้องเป็น **have** ไม่ใช่ **has**. โครงสร้างที่ถูกคือ `will have finished` ไม่ใช่ `will has finished`."
+      },
+      {
+        "index": 3,
+        "text": "is having",
+        "knowledge_ids": [
+          224
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **Present Continuous** (`be + V-ing`) ซึ่งไม่ได้สื่อว่า “เสร็จก่อนเวลาในอนาคต”. ตัวอย่างที่ถูกต้องควรใช้ **Future Perfect**: `She will have finished her thesis by next year.`"
+      },
+      {
+        "index": 4,
+        "text": "will finish",
+        "knowledge_ids": [
+          232,
+          208
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะกับความหมาย “เสร็จก่อนเวลาอีกเหตุการณ์/จุดเวลา” เพราะ `will finish` เป็น **Future Simple** เฉยๆ. เมื่อมีคำว่า **by next year** ที่เน้นเสร็จก่อน จุดเวลา ให้ใช้ `will have finished` จะชัดกว่า."
+      }
+    ]
+  },
+  {
+    "question": "They ___ the project by Friday.",
+    "question_knowledge_ids": [
+      215,
+      225,
+      232,
+      419
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have completed",
+        "knowledge_ids": [
+          225,
+          419
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้รูป __`will have + V3`__ โดย `completed` คือ V3 ของ `complete`. ตัวอย่าง: `They will have completed the project by Friday.` ใช้เมื่อเราคาดว่าโครงการจะ “เสร็จสิ้น” ก่อนถึงวันศุกร์."
+      },
+      {
+        "index": 2,
+        "text": "will have complete",
+        "knowledge_ids": [
+          234
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `have` ใน Future Perfect ต้องใช้ **V3** ไม่ใช่ base form. ควรเป็น `will have completed` ไม่ใช่ `will have complete`."
+      },
+      {
+        "index": 3,
+        "text": "will completed",
+        "knowledge_ids": [
+          430,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ `will` แล้วต้องตามด้วย **base form** ไม่ใช่ V3 ทันที. โครงสร้างที่ถูกคือ `will have + V3` เช่น `will have completed`."
+      },
+      {
+        "index": 4,
+        "text": "will have completing",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `have` ต้องเป็น **V3** ไม่ใช่ V-ing. รูปถูกต้องคือ `will have completed`."
+      }
+    ]
+  },
+  {
+    "question": "By the time you ___, we will have left.",
+    "question_knowledge_ids": [
+      216,
+      236,
+      495,
+      225
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "arrive",
+        "knowledge_ids": [
+          495,
+          236
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะในอนุประโยคเวลา (time clause) หลังคำอย่าง **by the time, when, after** เราใช้ **Present Simple** แทนอนาคต เช่น `By the time you arrive, ...`. โครงสร้างหลักยังคงเป็น __`will have + V3`__ ในประโยคใหญ่: `we will have left`."
+      },
+      {
+        "index": 2,
+        "text": "will arrive",
+        "knowledge_ids": [
+          495
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใน **time clause** ไม่ใช้ `will` แม้พูดถึงอนาคต ต้องใช้ **Present Simple**: `you arrive`. ตัวอย่างถูก: `By the time you arrive, we will have left.`"
+      },
+      {
+        "index": 3,
+        "text": "are arriving",
+        "knowledge_ids": [
+          224
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่ได้ใช้รูปเวลาใน **time clause** ที่เป็นมาตรฐานสำหรับอนาคต ซึ่งควรเป็น **Present Simple** (`arrive`). ใช้ `are arriving` จะทำให้ความหมายเน้นกำลังดำเนิน ไม่ตรงจุด."
+      },
+      {
+        "index": 4,
+        "text": "arrived",
+        "knowledge_ids": [
+          314,
+          289
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple** ซึ่งไม่ใช่รูปที่ใช้ใน time clause สำหรับอนาคต. ควรเป็น `arrive`: `By the time you arrive, ...`"
+      }
+    ]
+  },
+  {
+    "question": "By noon, she ___ finished the report.",
+    "question_knowledge_ids": [
+      215,
+      225,
+      249,
+      419
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "won't have",
+        "knowledge_ids": [
+          234,
+          249
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ครบรูปแบบ เพราะต้องตามด้วย **V3** เพื่อให้เป็น Future Perfect เชิงปฏิเสธ. รูปที่ถูกควรเป็น `won't have finished` ไม่ใช่หยุดที่ `won't have`."
+      },
+      {
+        "index": 2,
+        "text": "won't have finished",
+        "knowledge_ids": [
+          249,
+          225
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปปฏิเสธของ **Future Perfect** คือ __`will not (won't) have + V3`__. ตัวอย่าง: `By noon, she won't have finished the report.` ใช้เมื่อคาดว่า “ยังทำไม่เสร็จ” ก่อนถึงเที่ยง."
+      },
+      {
+        "index": 3,
+        "text": "won't has finished",
+        "knowledge_ids": [
+          380,
+          408,
+          249
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `will/won't` ต้องใช้ **have** ไม่ใช่ **has**. โครงสร้างถูกคือ `won't have finished`."
+      },
+      {
+        "index": 4,
+        "text": "won't have finishing",
+        "knowledge_ids": [
+          291,
+          249
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `have` ต้องเป็น **V3** ไม่ใช่ V-ing. ควรเป็น `finished` ไม่ใช่ `finishing`."
+      }
+    ]
+  },
+  {
+    "question": "They will have finished the bridge ___ 2027.",
+    "question_knowledge_ids": [
+      215,
+      232,
+      243
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "by",
+        "knowledge_ids": [
+          215
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เราใช้ **by + เวลา/วัน/ปี** เพื่อบอกว่าเสร็จก่อนถึงเวลานั้น เช่น `by 2027`. ตัวอย่าง: `They will have finished the bridge by 2027.` ซึ่งเข้ากับ __`will have + V3`__ พอดี"
+      },
+      {
+        "index": 2,
+        "text": "until",
+        "knowledge_ids": [
+          273
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด ในความหมาย “เสร็จภายใน/ก่อนถึง” ต้องใช้ **by** ไม่ใช่ **until**. `until` มักใช้กับการ “ต่อเนื่องจนถึง” เช่น `They will work until 2027` (จะทำงานต่อเนื่องจนถึงปี 2027)."
+      },
+      {
+        "index": 3,
+        "text": "at",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `at` ใช้กับจุดเวลาเฉพาะ เช่น `at 5 p.m.` ไม่ได้สื่อความหมาย “ก่อนถึง”. ที่ต้องการคือ **by** เพื่อบอกว่าเสร็จก่อนปี 2027."
+      },
+      {
+        "index": 4,
+        "text": "on",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `on` ใช้กับวัน/วันที่ (เช่น `on Monday`, `on June 1st`) ไม่ได้สื่อ “ภายใน/ก่อนถึง”. ต้องใช้ **by**."
+      }
+    ]
+  },
+  {
+    "question": "By noon, he ___ all the emails.",
+    "question_knowledge_ids": [
+      215,
+      225,
+      232,
+      419,
+      299
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have written",
+        "knowledge_ids": [
+          225,
+          299,
+          419
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __`will have + V3`__ โดย `written` เป็น V3 ของ `write`. ตัวอย่าง: `By noon, he will have written all the emails.` สื่อว่าอีเมลจะถูกเขียนเสร็จ “ก่อนถึงเที่ยง”."
+      },
+      {
+        "index": 2,
+        "text": "will have wrote",
+        "knowledge_ids": [
+          235,
+          299
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `wrote` เป็นช่อง 2 (V2) ต้องใช้ **V3** คือ `written` ใน Future Perfect: `will have written`."
+      },
+      {
+        "index": 3,
+        "text": "will wrote",
+        "knowledge_ids": [
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `will` ต้องตามด้วย **base form** (`write`) หรือรูป Future Perfect `will have written`. `will wrote` จึงผิดหลักไวยากรณ์."
+      },
+      {
+        "index": 4,
+        "text": "will have writing",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `have` ต้องใช้ **V3** ไม่ใช่ V-ing. รูปที่ถูกคือ `will have written`."
+      }
+    ]
+  },
+  {
+    "question": "By next week, they ___ finished the testing.",
+    "question_knowledge_ids": [
+      225,
+      243,
+      232,
+      419
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will have",
+        "knowledge_ids": [
+          225,
+          419
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ต้องใช้ __`will have + V3`__ เพื่อเติมกับ `finished` ให้ครบรูป Future Perfect. ตัวอย่าง: `By next week, they will have finished the testing.` ใช้เมื่อคาดว่าจะเสร็จก่อนถึงสัปดาห์หน้า."
+      },
+      {
+        "index": 2,
+        "text": "will has",
+        "knowledge_ids": [
+          380,
+          408
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `will` ต้องเป็น **have** เสมอ ไม่ว่า subject จะเป็นเอกพจน์หรือพหูพจน์ (`I/you/he/she/it/we/they + will have`)."
+      },
+      {
+        "index": 3,
+        "text": "have",
+        "knowledge_ids": [
+          232
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่มีตัวช่วยบอกอนาคต `will` และโครงสร้างไม่ครบ Future Perfect. ต้องเป็น `will have finished`."
+      },
+      {
+        "index": 4,
+        "text": "will be",
+        "knowledge_ids": [
+          224
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `will be` ยังไม่เชื่อมกับ V3 ให้เกิดความหมาย “เสร็จก่อนเวลา”. ต้องใช้ `will have + V3` เช่น `will have finished`."
+      }
+    ]
+  },
+  {
+    "question": "___ you have finished the assignment by tomorrow?",
+    "question_knowledge_ids": [
+      194,
+      288,
+      225,
+      419
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Will",
+        "knowledge_ids": [
+          194,
+          288,
+          419
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง การถามใน **Future Perfect** ใช้การสลับเอา __`Will`__ ขึ้นต้น + ประธาน + `have + V3`. ตัวอย่าง: `Will you have finished the assignment by tomorrow?` ใช้เมื่อถามว่า “จะเสร็จก่อนถึงพรุ่งนี้ไหม”."
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          292
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Do` ใช้กับ Present Simple ไม่ใช่ Future Perfect. คำถามที่ถูกต้องควรขึ้นต้นด้วย `Will`."
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "knowledge_ids": [
+          305
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Are` นำหน้า Present Continuous ไม่ใช่ Future Perfect. ต้องใช้ `Will` เพื่อบอกอนาคตและรูปเสร็จก่อนเวลา."
+      },
+      {
+        "index": 4,
+        "text": "Did",
+        "knowledge_ids": [
+          292
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Did` เป็น Past Simple ซึ่งไม่ได้สื่อถึงเหตุการณ์ที่ “จะเสร็จก่อนเวลาในอนาคต”. ควรใช้ `Will`."
+      }
+    ]
+  },
+  {
+    "question": "He won't have left ___ you get there.",
+    "question_knowledge_ids": [
+      216,
+      236,
+      249
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "before",
+        "knowledge_ids": [
+          229
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **before** เพื่อบอกว่าเหตุการณ์หนึ่งจะ “ไม่เกิดก่อน” อีกเหตุการณ์ เช่น `He won't have left before you get there.` โครงสร้างหลักยังเป็น __`won't have + V3`__ เพื่อเน้นว่า ณ เวลาก่อนที่คุณไปถึง เขายังไม่ออกไป."
+      },
+      {
+        "index": 2,
+        "text": "until",
+        "knowledge_ids": [
+          273
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะในที่นี้ เพราะ `until` มักใช้กับการกระทำที่ “ต่อเนื่องจนถึง” จุดเวลา เช่น `He won't leave until you get there` (จะไม่ออกจนกว่าคุณจะไปถึง). แต่ประโยคนี้ใช้ Future Perfect ที่เน้น “เสร็จก่อน/ไม่เสร็จก่อน” จึงใช้ `before` ชัดกว่า."
+      },
+      {
+        "index": 3,
+        "text": "by",
+        "knowledge_ids": [
+          215
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในโครงสร้างนี้ เพราะหลัง `by` ต้องตามด้วยเวลา/จุดเวลา (`by 5 p.m.`, `by tomorrow`). ที่นี่ตามด้วยประโยค (`you get there`) จึงไม่เข้าพันธุ์."
+      },
+      {
+        "index": 4,
+        "text": "since",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด `since` ใช้บอกจุดเริ่มต้นของช่วงเวลา (เช่น `since 2020`) ไม่ได้ใช้เทียบเหตุการณ์ก่อน-หลังแบบนี้. ที่ถูกคือ `before`."
+      }
+    ]
+  },
+  {
+    "question": "By then, she ___ finished the task yet.",
+    "question_knowledge_ids": [
+      225,
+      249,
+      286,
+      419
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will not have",
+        "knowledge_ids": [
+          249,
+          225
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ในประโยคลบที่มี **yet** ให้ใช้ __`will not have + V3`__ เช่น `By then, she will not have finished the task yet.` รูปนี้สื่อว่า “ยังทำไม่เสร็จจนถึงตอนนั้น”."
+      },
+      {
+        "index": 2,
+        "text": "will have not",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด ตำแหน่ง `not` ไม่ถูก ในรูปปฏิเสธให้วาง **not** หลัง `will`: `will not have + V3`, ไม่ใช่ `will have not + V3`. ตัวอย่างผิด: `She will have not finished...`"
+      },
+      {
+        "index": 3,
+        "text": "won't has",
+        "knowledge_ids": [
+          380,
+          408,
+          249
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด สองจุดเลย คือใช้ `has` แทน `have` และยังไม่ครบโครงสร้าง Future Perfect. ต้องเป็น `won't have finished`."
+      },
+      {
+        "index": 4,
+        "text": "will still have",
+        "knowledge_ids": [
+          316,
+          225
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะต้องการรูปปฏิเสธกับ **yet** ควรเป็น `will not have + V3`. `will still have` ไม่ได้ทำให้ประโยคเป็นลบ และยังขาด V3 ต่อท้าย."
+      }
+    ]
+  },
+  {
+    "question": "By next year, she will have ___ a book.",
+    "question_knowledge_ids": [
+      215,
+      225,
+      419,
+      235,
+      293
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "write",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `have` ใน Future Perfect ต้องใช้ **V3** ไม่ใช่ base form. `write` จึงผิด ต้องเป็น `written`."
+      },
+      {
+        "index": 2,
+        "text": "wrote",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด `wrote` เป็น V2 ไม่ใช่ V3. Future Perfect ต้องใช้ **V3**: `written`."
+      },
+      {
+        "index": 3,
+        "text": "written",
+        "knowledge_ids": [
+          225,
+          215,
+          293
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปที่ใช่คือ __`will have + V3`__ และ V3 ของ `write` คือ `written`. ตัวอย่าง: `By next year, she will have written a book.` แปลว่า “ภายในปีหน้า เธอจะเขียนหนังสือเสร็จแล้ว.”"
+      },
+      {
+        "index": 4,
+        "text": "writing",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น V-ing ซึ่งไม่ใช่รูปที่ตามหลัง `have` ใน Future Perfect. ต้องเป็น V3: `written`."
+      }
+    ]
+  }
+]

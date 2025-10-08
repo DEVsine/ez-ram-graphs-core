@@ -1,0 +1,452 @@
+[
+  {
+    "question": "They have been studying ___ three hours.",
+    "question_knowledge_ids": [
+      354,
+      374,
+      367,
+      358
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "for",
+        "knowledge_ids": [
+          217,
+          358
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **for** กับระยะเวลา เช่น `for three hours` เข้ากับโครงสร้าง __have/has been + V-ing + for + ระยะเวลา__. ตัวอย่าง: `They have been studying for three hours.` แปลว่าเขาเริ่มอ่านมาแล้วและยังอ่านอยู่จนถึงตอนนี้"
+      },
+      {
+        "index": 2,
+        "text": "since",
+        "knowledge_ids": [
+          272,
+          354
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **since** ใช้กับ “จุดเวลา” ไม่ใช่ “ระยะเวลา” เช่น `since 6 p.m.` หรือ `since Monday`. ประโยคนี้มีระยะเวลา `three hours` จึงต้องใช้ **for**: `have been studying for three hours`."
+      },
+      {
+        "index": 3,
+        "text": "during",
+        "knowledge_ids": [
+          202
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **during** ใช้บอกว่า “ระหว่างช่วงเหตุการณ์/ช่วงเวลา” เช่น `during the meeting`, ไม่ได้ใช้บอกระยะเวลาต่อเนื่องแบบ 3 ชั่วโมงตรงๆ. รูปที่ถูกคือ `for three hours` กับ Present Perfect Continuous: `have been studying for three hours`."
+      },
+      {
+        "index": 4,
+        "text": "from",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **from** ต้องจับคู่กับ **to/till/until** เช่น `from 3 to 6`. แต่ประโยคนี้ต้องการคำเดียวบอกระยะเวลา จึงใช้ **for**: `for three hours`."
+      }
+    ]
+  },
+  {
+    "question": "I have been waiting ___ 7 a.m.",
+    "question_knowledge_ids": [
+      354,
+      374,
+      367,
+      566
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "since",
+        "knowledge_ids": [
+          272
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **since** ใช้กับ “จุดเวลา” เช่น `7 a.m.` เข้ากับโครงสร้าง __have/has been + V-ing + since + จุดเวลา__. ตัวอย่าง: `I have been waiting since 7 a.m.` คือเริ่มรอตั้งแต่ 7 โมงและยังรออยู่"
+      },
+      {
+        "index": 2,
+        "text": "for",
+        "knowledge_ids": [
+          217
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **for** ใช้กับ “ระยะเวลา” เช่น `for two hours`, ไม่ใช่จุดเวลาอย่าง `7 a.m.`. ถ้าจะใช้ **for** ต้องเปลี่ยนเป็น `for two hours` ไม่ใช่ `for 7 a.m.`."
+      },
+      {
+        "index": 3,
+        "text": "by",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **by** ใช้หมายถึง “ภายใน/ก่อนถึงเวลา” เช่น `by 7 a.m.` (ก่อน 7 โมง) ไม่ใช่บอกจุดเริ่มต้นของช่วงเวลาต่อเนื่อง. โครงสร้างที่ถูกคือ `since 7 a.m.` ใน Present Perfect Continuous."
+      },
+      {
+        "index": 4,
+        "text": "at",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **at** ใช้บอกเวลาเฉยๆ เช่น `at 7 a.m.`, แต่ที่นี่ต้องการบอกว่า “เริ่มตั้งแต่เวลาไหนและยังต่อเนื่อง” จึงต้องใช้ **since**: `have been waiting since 7 a.m.`."
+      }
+    ]
+  },
+  {
+    "question": "How long ___ you been learning Spanish?",
+    "question_knowledge_ids": [
+      360,
+      218,
+      288,
+      381,
+      416
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have",
+        "knowledge_ids": [
+          416
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคำถามของ Present Perfect Continuous คือ __How long + have/has + subject + been + V-ing?__. ตัวอย่าง: `How long have you been learning Spanish?` ใช้ถาม “ทำมานานแค่ไหนแล้ว”"
+      },
+      {
+        "index": 2,
+        "text": "has",
+        "knowledge_ids": [
+          408,
+          416
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ `you` ต้องใช้ **have** ไม่ใช่ **has**. `has` ใช้กับ he/she/it เช่น: `How long has she been learning Spanish?`"
+      },
+      {
+        "index": 3,
+        "text": "are",
+        "knowledge_ids": [
+          292
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด นี่ไม่ใช่ Present Continuous (`are you learning`) แต่เป็น Present Perfect Continuous ที่ถามถึง “ระยะเวลาต่อเนื่องถึงปัจจุบัน”. โครงสร้างที่ถูกคือ `have you been + V-ing`."
+      },
+      {
+        "index": 4,
+        "text": "did",
+        "knowledge_ids": [
+          292
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **did** เป็นอดีตกาลธรรมดา ไม่ได้ถามถึงการต่อเนื่องถึงปัจจุบัน. ถ้าถามระยะเวลาควรใช้ `How long have you been learning ...?` ไม่ใช่ `How long did you learn ...?`"
+      }
+    ]
+  },
+  {
+    "question": "She has been feeling tired ___ lately.",
+    "question_knowledge_ids": [
+      378,
+      359,
+      366
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "a lot",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิดตำแหน่งและความหมายกำกวม `a lot` เป็น adverb ทั่วไป ไม่ใช่ time expression ชี้ช่วงเวลาล่าสุด. ใน Present Perfect Continuous มักใช้คำบอกเวลาอย่าง **lately/recently** เพื่อชี้ว่าช่วงนี้เกิดบ่อย เช่น `has been feeling tired lately`."
+      },
+      {
+        "index": 2,
+        "text": "recently",
+        "knowledge_ids": [
+          378
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **recently**/ **lately** เป็นคำบอกเวลาใช้กับ Present Perfect/Present Perfect Continuous ได้ดี โครงสร้าง __have/has been + V-ing + recently/lately__. ตัวอย่าง: `She has been feeling tired recently.` แปลว่าช่วงนี้เธอรู้สึกเหนื่อยบ่อย"
+      },
+      {
+        "index": 3,
+        "text": "yesterday",
+        "knowledge_ids": [
+          311
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **yesterday** เป็น “เวลาที่จบแล้ว” มักใช้กับ Past Simple (`She felt tired yesterday.`) ไม่ใช่ Perfect ที่เน้นความต่อเนื่องถึงปัจจุบัน. ถ้าจะเน้นช่วงนี้ให้ใช้ `lately/recently`."
+      },
+      {
+        "index": 4,
+        "text": "at the moment",
+        "knowledge_ids": [
+          328,
+          335
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **at the moment** เข้ากับ Present Continuous (ตอนนี้เดี๋ยวนี้) มากกว่า ไม่ได้สื่อความต่อเนื่องครอบคลุมช่วงที่ผ่านมา. สำหรับช่วงนี้ที่ยังมีผลปัจจุบัน ใช้ `recently/lately` กับ Present Perfect Continuous จะเหมาะกว่า"
+      }
+    ]
+  },
+  {
+    "question": "We have been working ___ all morning.",
+    "question_knowledge_ids": [
+      366,
+      358,
+      367
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "hard",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะช่องว่างนี้ต้องการคำเชื่อมบอกเวลา ไม่ใช่ adverb ของวิธีการอย่าง `hard`. ประโยคควรเป็น `have been working all morning` หรือถ้าต้องเติมคำบอกระยะก็ควรใช้ `for`/`since` ให้ถูกที่"
+      },
+      {
+        "index": 2,
+        "text": "since",
+        "knowledge_ids": [
+          272,
+          354
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด `all morning` เป็นช่วงเวลาที่ยาวต่อเนื่องอยู่แล้ว ไม่จำเป็นต้องใช้ **since** (ซึ่งใช้กับจุดเวลา เช่น `since 8 a.m.`). รูปธรรมชาติคือ `have been working all morning` โดยไม่ใส่ตัวเชื่อม"
+      },
+      {
+        "index": 3,
+        "text": "for",
+        "knowledge_ids": [
+          217,
+          358
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `all morning` ทำหน้าที่เป็นระยะเวลาสำเร็จรูปอยู่แล้ว ไม่ต้องเติม **for** ซ้ำ. ตัวอย่างถูกต้อง: `We have been working all morning.`"
+      },
+      {
+        "index": 4,
+        "text": "(no word)",
+        "knowledge_ids": [],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง วลีเวลาอย่าง `all morning/all day/all week` วางต่อท้ายได้เลย โครงสร้างคือ __have/has been + V-ing + all + period__. ตัวอย่าง: `We have been working all morning.` ชี้ว่าทำงานมาตลอดทั้งเช้า"
+      }
+    ]
+  },
+  {
+    "question": "He has been playing the piano ___ he was a child.",
+    "question_knowledge_ids": [
+      354,
+      374,
+      566
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "since",
+        "knowledge_ids": [
+          272
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **since** กับ “อนุประโยคบอกจุดเริ่ม” ที่เป็นอดีต: `since he was a child`. โครงสร้าง __have/has been + V-ing + since + past clause__ เช่น `He has been playing the piano since he was a child.`"
+      },
+      {
+        "index": 2,
+        "text": "for",
+        "knowledge_ids": [
+          217
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะตามด้วยอนุประโยค (`he was a child`) ไม่ใช่ระยะเวลาอย่าง `for 10 years`. หากจะใช้ **for** ต้องเปลี่ยนหลังช่องว่างเป็นคำนามระยะเวลา เช่น `for many years`."
+      },
+      {
+        "index": 3,
+        "text": "from",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **from** ต้องคู่กับ **to/until** เช่น `from childhood to now` ซึ่งไม่ใช่รูปแบบมาตรฐานใน Present Perfect Continuous ตำแหน่งนี้ควรใช้ `since`."
+      },
+      {
+        "index": 4,
+        "text": "by",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **by** ใช้หมายถึง ‘ภายใน/ก่อนถึง’ ไม่ได้ใช้ระบุจุดเริ่มต้นของระยะเวลาต่อเนื่อง. ประโยคนี้ต้องการ `since he was a child` เพื่อชี้จุดเริ่ม"
+      }
+    ]
+  },
+  {
+    "question": "It has been raining ___ the last few hours.",
+    "question_knowledge_ids": [
+      354,
+      374,
+      358
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "for",
+        "knowledge_ids": [
+          217,
+          358
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง `the last few hours` เป็น “ระยะเวลา” จึงใช้ **for** ได้ โครงสร้าง __has been + V-ing + for + duration__. ตัวอย่าง: `It has been raining for the last few hours.`"
+      },
+      {
+        "index": 2,
+        "text": "since",
+        "knowledge_ids": [
+          272
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **since** ใช้กับ “จุดเวลา” เช่น `since noon`, ไม่ใช้กับวลีระยะเวลาอย่าง `the last few hours`. ที่ถูกคือ `for the last few hours`."
+      },
+      {
+        "index": 3,
+        "text": "by",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **by** ไม่ได้ใช้บอกระยะเวลาต่อเนื่อง แต่ใช้ว่า “ภายใน/ก่อนถึงช่วงนั้น”. ตัวอย่างที่ถูกของประโยคนี้คือ `has been raining for the last few hours`."
+      },
+      {
+        "index": 4,
+        "text": "until",
+        "knowledge_ids": [
+          273
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **until** ใช้บอกจุดสิ้นสุด เช่น `until 5 p.m.` ไม่ใช่บอกระยะเวลาที่ดำเนินเรื่อยๆ. สำหรับระยะเวลา ใช้ `for` จะถูกต้องกว่า"
+      }
+    ]
+  },
+  {
+    "question": "My eyes are sore because I have been staring at the screen ___.",
+    "question_knowledge_ids": [
+      202,
+      358,
+      367
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "all day",
+        "knowledge_ids": [
+          202
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง วางวลีเวลา `all day` ท้ายประโยคได้โดยตรงกับ Present Perfect Continuous โครงสร้าง __have/has been + V-ing + all day__. ตัวอย่าง: `I have been staring at the screen all day.`"
+      },
+      {
+        "index": 2,
+        "text": "since all day",
+        "knowledge_ids": [
+          354
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **since** ต้องตามด้วย “จุดเวลา” ไม่ใช่วลีระยะอย่าง `all day`. รูปที่ถูกคือ `all day` โดยไม่ต้องมีตัวเชื่อม หรือใช้ `since 9 a.m.` ถ้าต้องการจุดเวลา"
+      },
+      {
+        "index": 3,
+        "text": "for all day",
+        "knowledge_ids": [
+          217
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด ไม่ใช้ **for** ร่วมกับ `all day` เพราะ `all day` เป็นระยะเวลาที่สมบูรณ์อยู่แล้ว. ใช้ว่า `have been staring ... all day` จะเป็นธรรมชาติกว่า"
+      },
+      {
+        "index": 4,
+        "text": "yet",
+        "knowledge_ids": [
+          376
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **yet** มักใช้ในปฏิเสธ/คำถามของ Present Perfect Simple (`haven't finished yet`) ไม่เข้ากับประโยคบอกเล่าที่เป็น PPC ตรงนี้. ควรใช้ `all day` เพื่อสื่อว่าทำมาตลอดทั้งวัน"
+      }
+    ]
+  },
+  {
+    "question": "They have been arguing ___ the past week.",
+    "question_knowledge_ids": [
+      202,
+      354,
+      374,
+      358
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "over",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย ตำแหน่งนี้เราต้องการบุพบทบอกระยะเวลา ไม่ใช่ความหมาย ‘เถียงเรื่อง…’ (**argue over something**). สำหรับช่วงเวลา `the past week` ใช้ **for** จะถูกต้องกว่า"
+      },
+      {
+        "index": 2,
+        "text": "during",
+        "knowledge_ids": [
+          202
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด `during the past week` เน้นเหตุการณ์เกิดภายในช่วงสัปดาห์ที่ผ่านมา แต่กับโครงสร้าง PPC ที่ชี้ “ความต่อเนื่อง” นิยมใช้ **for** แทน: `have been arguing for the past week`."
+      },
+      {
+        "index": 3,
+        "text": "for",
+        "knowledge_ids": [
+          217
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง `the past week` เป็นระยะเวลา จึงใช้ **for** ตามโครงสร้าง __have/has been + V-ing + for + duration__. ตัวอย่าง: `They have been arguing for the past week.` แปลว่าเถียงกันมาตลอดสัปดาห์ที่ผ่านมา"
+      },
+      {
+        "index": 4,
+        "text": "since",
+        "knowledge_ids": [
+          272
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **since** ต้องตามด้วยจุดเวลา เช่น `since last Monday` ไม่ใช่ระยะเวลาอย่าง `the past week`. ที่ถูกคือ `for the past week`"
+      }
+    ]
+  },
+  {
+    "question": "I’m exhausted. I have been jogging ___ this morning.",
+    "question_knowledge_ids": [
+      354,
+      374,
+      358
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "since",
+        "knowledge_ids": [
+          272
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ถ้าหมายถึง “ตั้งแต่เช้านี้ (เป็นจุดเริ่มของวันนี้)” ใช้ **since** ได้ เช่น `since this morning`. โครงสร้างคือ __have/has been + V-ing + since + point of time__: `have been jogging since this morning`"
+      },
+      {
+        "index": 2,
+        "text": "for",
+        "knowledge_ids": [
+          217
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `this morning` ไม่ใช่ระยะเวลา แต่เป็นช่วงเวลาที่มีขอบเขตเป็น “จุดเริ่มในวันนี้”. ถ้าจะใช้ **for** ต้องบอกเป็นชั่วโมง เช่น `for two hours`."
+      },
+      {
+        "index": 3,
+        "text": "by",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **by** ใช้ความหมาย ‘ก่อน/ภายใน’ เช่น `by this morning` ซึ่งไม่เข้ากับความหมายต่อเนื่อง. ประโยคนี้ต้องการ `since this morning` เพื่อชี้จุดเริ่ม"
+      },
+      {
+        "index": 4,
+        "text": "until",
+        "knowledge_ids": [
+          273
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **until** บอกจุดสิ้นสุด (`until noon`) ไม่ได้บอกว่ากิจกรรมเริ่มตั้งแต่เมื่อไรและยังต่อเนื่อง. ใช้ `since this morning` จึงตรงกว่า"
+      }
+    ]
+  }
+]

@@ -1,0 +1,292 @@
+[
+  {
+    "question": "He can ___ the answer.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "know",
+        "is_correct": true,
+        "answer_description": "ถูกต้องจ้า เพราะโครงสร้างของ **modal verb** ใช้รูป `modal + base verb` ไม่ต้องเติม `to` หรือ `-s/-ed` รูปแบบคือ __`can + base verb`__. ตัวอย่าง: `He can know the answer.` หรือ `I can swim.`"
+      },
+      {
+        "index": 2,
+        "text": "knows",
+        "is_correct": false,
+        "answer_description": "ผิดนะ เพราะหลัง **can** ต้องใช้กริยารูปฐาน (`base verb`) ไม่เติม `-s` ดังนั้น `can knows` จึงผิด ตัวอย่างที่ถูกต้องคือ `He can know` ไม่ใช่ `He can knows`."
+      },
+      {
+        "index": 3,
+        "text": "to know",
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะหลัง **can/may/must/should** ไม่ใช้ `to` ต้องเป็นกริยารูปฐาน เช่น `can know` ไม่ใช่ `can to know`. ดูตัวอย่างที่ถูก: `She can play the piano.`"
+      },
+      {
+        "index": 4,
+        "text": "knowing",
+        "is_correct": false,
+        "answer_description": "ไม่ถูก เพราะรูป **-ing** ไม่ใช้หลัง **modal** โดยตรง ต้องใช้รูปฐาน เช่น `can know`. ตัวอย่างผิด: `He can knowing the answer.` ตัวอย่างถูก: `He can know the answer.`"
+      }
+    ]
+  },
+  {
+    "question": "You should have ___ your homework by now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "done",
+        "is_correct": true,
+        "answer_description": "ถูกต้องเลย ใช้โครงสร้าง **modal perfect** เพื่อพูดถึงสิ่งที่ควรเกิดขึ้นในอดีต: __`should + have + V3`__. ดังนั้นต้องใช้ `done` (V3 ของ `do`): `You should have done your homework by now.`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะหลัง `have` ในโครงสร้าง **modal perfect** ต้องเป็น **V3** ไม่ใช่รูปฐาน ตัวอย่างผิด: `should have do`. ตัวอย่างถูก: `should have done`."
+      },
+      {
+        "index": 3,
+        "text": "did",
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะ `did` เป็น **V2** แต่หลัง `have` ต้องใช้ **V3** ในรูปแบบ `should have + V3`. ตัวอย่างที่ถูก: `You should have done it.`"
+      },
+      {
+        "index": 4,
+        "text": "doing",
+        "is_correct": false,
+        "answer_description": "ไม่ถูกนะ หลัง `have` ใน **modal perfect** ต้องตามด้วย **V3** ไม่ใช่ `-ing`. ตัวอย่างผิด: `should have doing` ตัวอย่างถูก: `should have done`."
+      }
+    ]
+  },
+  {
+    "question": "She will be able ___ the problem.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "to solve",
+        "is_correct": true,
+        "answer_description": "ใช่เลย โครงสร้างของกึ่งโมดอล **be able to** คือ __`be + able to + base verb`__. ตัวอย่าง: `She will be able to solve the problem.` หรือ `I am able to help.`"
+      },
+      {
+        "index": 2,
+        "text": "solve",
+        "is_correct": false,
+        "answer_description": "ยังขาด `to` เพราะรูปถูกต้องคือ **be able to + V1** ไม่ใช่ `be able + V1`. ตัวอย่างที่ถูก: `will be able to solve` ไม่ใช่ `will be able solve`."
+      },
+      {
+        "index": 3,
+        "text": "solving",
+        "is_correct": false,
+        "answer_description": "ผิดรูปนะ เพราะหลัง `able to` ต้องเป็นกริยารูปฐาน ไม่ใช่ `-ing`. ตัวอย่างถูก: `She is able to speak English.` ไม่ใช่ `able speaking`."
+      },
+      {
+        "index": 4,
+        "text": "solved",
+        "is_correct": false,
+        "answer_description": "ไม่ถูก เพราะ `solved` เป็นรูป V2/V3 แต่หลัง `to` ต้องใช้รูปฐาน `solve`. โครงสร้างที่ถูกคือ `be able to + V1` เช่น `be able to solve`."
+      }
+    ]
+  },
+  {
+    "question": "Students are not allowed ___ phones in class.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "to use",
+        "is_correct": true,
+        "answer_description": "ถูกต้องจ้า โครงสร้างอนุญาต/ไม่อนุญาตใช้ __`be allowed to + base verb`__. ตัวอย่าง: `Students are not allowed to use phones in class.` หรือ `I am allowed to enter.`"
+      },
+      {
+        "index": 2,
+        "text": "use",
+        "is_correct": false,
+        "answer_description": "ยังไม่ครบ เพราะหลัง `allowed` ต้องมี `to` เสมอ: **allowed to + V1**. ตัวอย่างที่ถูก: `are allowed to use` ไม่ใช่ `are allowed use`."
+      },
+      {
+        "index": 3,
+        "text": "using",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะหลัง `allowed` ใช้ `to + V1` ไม่ใช่ `V-ing`. ตัวอย่างถูก: `They are allowed to park here.`"
+      },
+      {
+        "index": 4,
+        "text": "used",
+        "is_correct": false,
+        "answer_description": "ผิดความหมายและผิดรูป เพราะ `used` เป็น V2/V3 ของ `use` แต่ที่ต้องการคือโครงสร้าง **allowed to + V1**. ตัวอย่างถูก: `are allowed to use`."
+      }
+    ]
+  },
+  {
+    "question": "You had better ___ quietly.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "study",
+        "is_correct": true,
+        "answer_description": "ใช่เลย โครงสร้างคำแนะนำแบบจริงจังคือ __`had better + base verb`__. ตัวอย่าง: `You had better study quietly.` และรูปปฏิเสธคือ `had better not + base verb` เช่น `You had better not shout.`"
+      },
+      {
+        "index": 2,
+        "text": "to study",
+        "is_correct": false,
+        "answer_description": "ไม่ถูก เพราะหลัง `had better` ไม่ใช้ `to` ต้องเป็นกริยารูปฐานเท่านั้น เช่น `had better study` ไม่ใช่ `had better to study`."
+      },
+      {
+        "index": 3,
+        "text": "studying",
+        "is_correct": false,
+        "answer_description": "ผิดนะ เพราะรูป `-ing` ใช้ไม่ได้หลัง `had better`. โครงสร้างที่ถูกคือ `had better + V1` เช่น `You had better leave now.`"
+      },
+      {
+        "index": 4,
+        "text": "studies",
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะห้ามเติม `-s` หลัง `had better`. ต้องใช้กริยารูปฐาน เช่น `had better study` ไม่ใช่ `had better studies`."
+      }
+    ]
+  },
+  {
+    "question": "He ___ play outside when he was a child.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "used to",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __`used to + base verb`__ เพื่อพูดถึงนิสัยหรือสภาพที่เคยเกิดซ้ำในอดีตแต่ไม่เกิดแล้ว เช่น `He used to play outside every day.` แตกต่างจาก `be used to + noun/gerund` เช่น `He is used to playing early.`"
+      },
+      {
+        "index": 2,
+        "text": "use to",
+        "is_correct": false,
+        "answer_description": "ผิดรูปในประโยคบอกเล่าอดีต เพราะต้องเป็น `used to` ไม่ใช่ `use to`. `use to` จะเจอในประโยคปฏิเสธ/คำถามกับ `did` เช่น `Did he use to...?`"
+      },
+      {
+        "index": 3,
+        "text": "is used to",
+        "is_correct": false,
+        "answer_description": "คนละโครงสร้างจ้า `be used to` ตามด้วยคำนามหรือ `V-ing` ไม่ใช่กริยารูปฐาน และความหมายคือ \"ชินกับ\" ตัวอย่าง: `He is used to playing outside.` ไม่ใช่ `is used to play`."
+      },
+      {
+        "index": 4,
+        "text": "was used to",
+        "is_correct": false,
+        "answer_description": "โครงสร้างนี้หมายถึง \"เคยชินกับ\" และต้องตามด้วยคำนามหรือ `V-ing` ไม่ใช่กริยารูปฐาน เช่น `He was used to playing late.` ประโยคนี้ต้องการนิสัยในอดีตแบบ `used to + V1`."
+      }
+    ]
+  },
+  {
+    "question": "You mustn't ___ here.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "park",
+        "is_correct": true,
+        "answer_description": "ใช่เลย รูปปฏิเสธของ **must** ก็ยังตามด้วยกริยารูปฐาน: __`mustn't + base verb`__. ตัวอย่าง: `You mustn't park here.` หรือ `You mustn't talk during the exam.`"
+      },
+      {
+        "index": 2,
+        "text": "to park",
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะหลัง **must/mustn't** ห้ามใช้ `to` ต้องเป็นกริยารูปฐาน เช่น `mustn't park` ไม่ใช่ `mustn't to park`."
+      },
+      {
+        "index": 3,
+        "text": "parking",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะ **modal verb** ต้องตามด้วยกริยารูปฐาน ไม่ใช่ `-ing`. ตัวอย่างถูก: `You mustn't park here.`"
+      },
+      {
+        "index": 4,
+        "text": "parks",
+        "is_correct": false,
+        "answer_description": "ไม่ถูก เพราะห้ามเติม `-s` หลัง **modal**. ต้องใช้รูปฐานเสมอ เช่น `mustn't park`, ไม่ใช่ `mustn't parks`."
+      }
+    ]
+  },
+  {
+    "question": "___ she have to leave early tomorrow?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Does",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำกึ่งโมดอล **have to** ในปัจจุบันใช้โครงสร้างคำถามแบบ __`Do/Does + subject + have to + base verb`__. ตัวอย่าง: `Does she have to leave early tomorrow?` และ `Do they have to work late?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ใกล้เคียงแต่ไม่ใช่ เพราะประธานเป็น `she` (เอกพจน์บุรุษที่ 3) จึงต้องใช้ `Does` ไม่ใช่ `Do`. โครงสร้างที่ถูกคือ `Does she have to ...?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิดโครงสร้าง เพราะ `have to` ไม่ได้ใช้กับ `be` ในการสร้างคำถาม ต้องใช้ `do-support` คือ `Do/Does`. ตัวอย่างถูก: `Does she have to leave?`"
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "is_correct": false,
+        "answer_description": "ไม่ใช่จ้า เพราะในรูป Present Simple แบบคำถามของ `have to` เราใช้ `Do/Does` ไม่ใช้ `Has`. ตัวอย่างถูก: `Does he have to go?`"
+      }
+    ]
+  },
+  {
+    "question": "You should be ___ for the test now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "studying",
+        "is_correct": true,
+        "answer_description": "ใช่เลย ใช้รูป **modal + be + V-ing** เพื่อบอกความคาดหวัง/คำแนะนำที่กำลังดำเนินอยู่ตอนนี้: __`should + be + V-ing`__. ตัวอย่าง: `You should be studying for the test now.` และ `They should be working.`"
+      },
+      {
+        "index": 2,
+        "text": "study",
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะมี `be` อยู่แล้ว จึงต้องใช้รูป `V-ing` เพื่อทำเป็น **continuous** ตามหลัง `be`. ตัวอย่างถูก: `should be studying` ไม่ใช่ `should be study`."
+      },
+      {
+        "index": 3,
+        "text": "to study",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะหลัง `be` ในโครงสร้าง **progressive** ต้องเป็น `V-ing` ไม่ใช่ `to + V1`. รูปที่ถูกคือ `should be studying`."
+      },
+      {
+        "index": 4,
+        "text": "studied",
+        "is_correct": false,
+        "answer_description": "ไม่ถูก เพราะ `studied` เป็น V2/V3 ไม่ใช่รูปต่อเนื่อง หลัง `be` ต้องใช้ `V-ing` ในความหมายกำลังกระทำ เช่น `be studying`."
+      }
+    ]
+  },
+  {
+    "question": "The report must be ___ by Friday.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "submitted",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **modal passive** ใช้ __`modal + be + V3`__. ตัวอย่าง: `The report must be submitted by Friday.` หรือ `The work should be finished soon.`"
+      },
+      {
+        "index": 2,
+        "text": "submit",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะใน **passive** ต้องใช้ V3 ไม่ใช่รูปฐาน ดังนั้น `must be submit` จึงผิด รูปที่ถูกคือ `must be submitted`."
+      },
+      {
+        "index": 3,
+        "text": "submitting",
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะ **passive** ต้องใช้ `be + V3` ไม่ใช่ `V-ing`. ตัวอย่างถูก: `must be completed/submitted`."
+      },
+      {
+        "index": 4,
+        "text": "to submit",
+        "is_correct": false,
+        "answer_description": "ไม่ถูก เพราะหลัง `be` ใน **passive** ต้องใช้ **V3** ไม่ใช่ `to + V1`. ที่ถูกคือ `must be submitted` ไม่ใช่ `must be to submit`."
+      }
+    ]
+  }
+]

@@ -1,0 +1,566 @@
+[
+  {
+    "question": "She ___ to the gym on Mondays.",
+    "question_knowledge_ids": [
+      380,
+      384,
+      385,
+      398,
+      407,
+      412
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "go",
+        "knowledge_ids": [
+          380,
+          384,
+          412
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเป็นบุคคลที่สามเอกพจน์ (**She**) ต้องเติม **-s** ที่กริยาใน Present Simple เช่น `She goes to the gym.` โครงสร้างที่ถูกคือ **S + V1(s/es)** ไม่ใช่ `go` เฉย ๆ สำหรับ he/she/it."
+      },
+      {
+        "index": 2,
+        "text": "goes",
+        "knowledge_ids": [
+          380,
+          385,
+          407
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธานเป็น **She** จึงต้องใช้กริยารูปเติม **-es**: __S + V1(s/es)__ → `She goes to the gym on Mondays.` ใช้ Present Simple เพื่อบอกนิสัยหรือกิจวัตรประจำวัน เช่น `She goes to work by bus.`"
+      },
+      {
+        "index": 3,
+        "text": "is go",
+        "knowledge_ids": [
+          291,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนำ **be (is)** มาวางหน้ากริยารูปพื้นฐาน ซึ่งไม่ใช่โครงสร้างของ Present Simple สำหรับกิจวัตร ควรใช้ `goes` แทน เช่น `She goes to the gym.` ไม่ใช่ `She is go to the gym.`"
+      },
+      {
+        "index": 4,
+        "text": "going",
+        "knowledge_ids": [
+          291,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `going` เป็นรูป V-ing ซึ่งต้องใช้กับ `be` เป็น Continuous (`is going`) และยังไม่ใช่ Present Simple สำหรับกิจวัตร เช่น `She goes to the gym every Monday.` จึงควรใช้รูปกริยาธรรมดาพร้อมเติม -es"
+      }
+    ]
+  },
+  {
+    "question": "They ___ have breakfast at 7 a.m.",
+    "question_knowledge_ids": [
+      398,
+      404,
+      316,
+      384,
+      381
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "usually",
+        "knowledge_ids": [
+          404,
+          316,
+          381
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตำแหน่งของ **adverb of frequency** (เช่น always, usually, often) กับกริยาทั่วไปคือ __S + adverb + V1__ → `They usually have breakfast at 7 a.m.` ใช้บอกความถี่ของกิจวัตร เช่น `I often read before bed.`"
+      },
+      {
+        "index": 2,
+        "text": "are usually",
+        "knowledge_ids": [
+          414,
+          303
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `are` ใช้กับกริยา **be** แต่ประโยคนี้มีกริยาหลักคือ `have` จึงต้องวาง adverb ก่อนกริยาหลัก ไม่ใช่ `are usually have`. โครงสร้างที่ถูกคือ `They usually have ...`"
+      },
+      {
+        "index": 3,
+        "text": "usually are",
+        "knowledge_ids": [
+          316,
+          381
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะถ้าจะใช้ `are` ต้องตามด้วยคำคุณศัพท์หรือส่วนขยายของ be เช่น `They are usually busy in the morning.` แต่ที่นี่มีกริยา `have` อยู่แล้ว จึงใช้ `usually` หน้ากริยาหลัก: `They usually have ...`"
+      },
+      {
+        "index": 4,
+        "text": "is usually",
+        "knowledge_ids": [
+          318,
+          414,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด สองจุดเลย: ใช้ `is` กับประธานพหูพจน์ (**They**) ไม่ได้ และยังนำ be ไปผสมกับกริยา `have` ซึ่งผิดโครงสร้างด้วย รูปที่ถูกคือ `They usually have ...`"
+      }
+    ]
+  },
+  {
+    "question": "Tom and Jerry ___ like spicy food.",
+    "question_knowledge_ids": [
+      398,
+      387,
+      384,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "don't",
+        "knowledge_ids": [
+          387,
+          384
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธานเป็นพหูพจน์ (`Tom and Jerry`) ใช้ปฏิเสธด้วย __do not (don't) + V1__ → `Tom and Jerry don't like spicy food.` ใช้ Present Simple ปฏิเสธความชอบทั่วไป เช่น `We don't eat meat.`"
+      },
+      {
+        "index": 2,
+        "text": "doesn't",
+        "knowledge_ids": [
+          383,
+          407
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `doesn't` ใช้กับประธานเอกพจน์บุคคลที่สาม (he/she/it) แต่ที่นี่เป็นพหูพจน์สองคนรวมกัน จึงต้องใช้ `don't` เช่น `They don't like spicy food.`"
+      },
+      {
+        "index": 3,
+        "text": "not",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะการทำปฏิเสธใน Present Simple กับกริยาทั่วไปต้องใช้ **do/does + not** ไม่ใช่ `not` เดี่ยว ๆ เช่น `They do not like...` ไม่ใช่ `They not like...`"
+      },
+      {
+        "index": 4,
+        "text": "aren't",
+        "knowledge_ids": [
+          304,
+          346
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `aren't` เป็นรูปปฏิเสธของ **be** แต่กริยาหลักในประโยคคือ `like` ซึ่งเป็นกริยาทั่วไป ต้องใช้ `don't` แทน เช่น `They aren't like spicy food` ก็ผิดความหมายด้วย"
+      }
+    ]
+  },
+  {
+    "question": "___ your sister live near here?",
+    "question_knowledge_ids": [
+      194,
+      389,
+      407,
+      288
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Does",
+        "knowledge_ids": [
+          389,
+          407
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำถาม Present Simple ใช้ __Do/Does + S + V1?__ และเพราะประธานเป็นบุคคลที่สามเอกพจน์ (**your sister**) จึงใช้ `Does` → `Does your sister live near here?` ตัวอย่างอื่น: `Does he work here?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          413,
+          389
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Do` ใช้กับประธานพหูพจน์หรือ I/you/we/they แต่ `your sister` เป็นเอกพจน์ จึงต้องใช้ `Does` ไม่ใช่ `Do` เช่น `Does she live...`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "knowledge_ids": [
+          305,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจากกริยาหลักคือ `live` (กริยาทั่วไป) ไม่ใช่กริยา **be** โครงสร้างคำถามจึงต้องใช้ `Do/Does` ไม่ใช่ `Is` เช่น `Does she live...`"
+      },
+      {
+        "index": 4,
+        "text": "Are",
+        "knowledge_ids": [
+          305,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Are` ใช้ถามกับกริยา **be** หรือ plural ไม่ตรงกับกริยาทั่วไป `live` ควรเป็น `Does your sister live near here?`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ this song.",
+    "question_knowledge_ids": [
+      384,
+      401,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "like",
+        "knowledge_ids": [
+          384
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยาสภาพ (**stative verbs**) อย่าง `like, love, know, want` มักใช้ Present Simple: __S + V1__ → `I like this song.` ตัวอย่างอีก: `She wants a new phone.`"
+      },
+      {
+        "index": 2,
+        "text": "am liking",
+        "knowledge_ids": [
+          207,
+          348
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `like` เป็นกริยาสภาพ ไม่ค่อยใช้รูป Continuous จึงไม่ควรเป็น `am liking` ควรใช้ `I like this song.` เช่นเดียวกับ `I know the answer.`"
+      },
+      {
+        "index": 3,
+        "text": "likes",
+        "knowledge_ids": [
+          383,
+          412
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจากประธานคือ `I` ต้องใช้กริยารูปพื้นฐาน `like` ไม่เติม -s รูปเติม -s ใช้กับ he/she/it เช่น `He likes this song.`"
+      },
+      {
+        "index": 4,
+        "text": "am like",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนำ `be + like` มาใช้ผิดบริบท `be like` แปลว่า “คล้ายกับ” ไม่ใช่ “ชอบ” ตัวอย่างผิด: `I am like this song.` ควรใช้ `I like this song.`"
+      }
+    ]
+  },
+  {
+    "question": "My parents ___ teachers.",
+    "question_knowledge_ids": [
+      386,
+      318,
+      399
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are",
+        "knowledge_ids": [
+          386,
+          318
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธานเป็นพหูพจน์ (`My parents`) จึงใช้ **be = are**: __S + be + Noun/Adj__ → `My parents are teachers.` ใช้ Present Simple เพื่อบอกอาชีพ/สภาพทั่วไป เช่น `They are doctors.`"
+      },
+      {
+        "index": 2,
+        "text": "is",
+        "knowledge_ids": [
+          386,
+          318,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `is` ใช้กับประธานเอกพจน์ แต่ `parents` เป็นพหูพจน์ ต้องใช้ `are` เช่น `My parents are ...`"
+      },
+      {
+        "index": 3,
+        "text": "be",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `be` เป็นรูปฐาน ไม่ใช้ในประโยคบอกเล่า ต้องผันเป็น `are/is/am` ตามประธาน ที่นี่ควรเป็น `are` → `My parents are teachers.`"
+      },
+      {
+        "index": 4,
+        "text": "do",
+        "knowledge_ids": [
+          346
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `do` ไม่ใช่กริยา be และไม่เข้ากับคำนามที่ตามมา `teachers` โครงสร้างที่ถูกต้องคือ `S + be + noun` เช่น `They are teachers.`"
+      }
+    ]
+  },
+  {
+    "question": "The train ___ at 6:30 tomorrow morning.",
+    "question_knowledge_ids": [
+      400,
+      345,
+      201
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "leaves",
+        "knowledge_ids": [
+          400,
+          201
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ Present Simple เพื่อพูดถึงตารางเวลา/กำหนดการตายตัว: __S + V1(s/es)__ → `The train leaves at 6:30 tomorrow morning.` ตัวอย่าง: `The museum opens at 9 a.m.`"
+      },
+      {
+        "index": 2,
+        "text": "is leaving",
+        "knowledge_ids": [
+          332,
+          345
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะแม้จะใช้พูดถึงอนาคตได้ แต่เมื่อเป็น **ตารางเวลา** ควรใช้ Present Simple มากกว่า จึงใช้ `leaves` ไม่ใช่ `is leaving` เช่น `The bus leaves at noon.`"
+      },
+      {
+        "index": 3,
+        "text": "leave",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเป็นเอกพจน์ (`The train`) ต้องเติม -s → `leaves` ไม่ใช่ `leave` เช่น `The train leaves...`"
+      },
+      {
+        "index": 4,
+        "text": "will leaving",
+        "knowledge_ids": [
+          210,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด รูปผสม `will + V-ing` ไม่มีในไวยากรณ์ที่ถูกต้อง ถ้าจะใช้ will ต้องเป็น `will leave` แต่สำหรับตารางเวลา เลือก Present Simple: `leaves`"
+      }
+    ]
+  },
+  {
+    "question": "Water ___ at 100°C.",
+    "question_knowledge_ids": [
+      397,
+      398,
+      401
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "boils",
+        "knowledge_ids": [
+          397
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ Present Simple กับความจริงสากล/ข้อเท็จจริงทางวิทยาศาสตร์: __S + V1(s/es)__ → `Water boils at 100°C.` ตัวอย่างอื่น: `The Earth orbits the Sun.`"
+      },
+      {
+        "index": 2,
+        "text": "is boiling",
+        "knowledge_ids": [
+          411,
+          265
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูป Continuous ใช้กับเหตุการณ์กำลังเกิดขึ้น ไม่ใช่ความจริงทั่วไป ควรใช้ `boils` เช่น `Ice melts at 0°C.`"
+      },
+      {
+        "index": 3,
+        "text": "boil",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเอกพจน์นับไม่ได้ (`Water`) ใน Present Simple ต้องเติม -s → `boils` ไม่ใช่ `boil`"
+      },
+      {
+        "index": 4,
+        "text": "boiling",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `boiling` เป็นรูป V-ing ไม่ใช่กริยาที่ผันตามประธานในประโยคบอกเล่า โครงสร้างที่ถูกคือ `Water boils ...`"
+      }
+    ]
+  },
+  {
+    "question": "He is ___ late for meetings.",
+    "question_knowledge_ids": [
+      404,
+      316,
+      384,
+      386
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "always",
+        "knowledge_ids": [
+          404,
+          316
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตำแหน่ง adverb of frequency กับกริยา **be** คือ __be + adverb__ → `He is always late for meetings.` ตัวอย่าง: `She is often tired after work.`"
+      },
+      {
+        "index": 2,
+        "text": "always is",
+        "knowledge_ids": [
+          414,
+          303
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะวาง adverb ไว้หน้ากริยา be ซึ่งไม่ถูก ควรเป็น `is always` ไม่ใช่ `always is` เช่น `He is always busy.`"
+      },
+      {
+        "index": 3,
+        "text": "oftenly",
+        "knowledge_ids": [
+          473,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำว่า `oftenly` ไม่มีในภาษาอังกฤษ รูปที่ถูกคือ `often` หรือ `always` เช่น `He is often late.`"
+      },
+      {
+        "index": 4,
+        "text": "usually are",
+        "knowledge_ids": [
+          383,
+          386
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปกริยาไม่ตรงกับประธาน (`He` ต้องใช้ `is`) และตำแหน่งก็ผิดด้วย โครงสร้างที่ถูกคือ `He is usually/always late.`"
+      }
+    ]
+  },
+  {
+    "question": "There ___ a park near my house.",
+    "question_knowledge_ids": [
+      339,
+      318,
+      386
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "knowledge_ids": [
+          339,
+          318,
+          386
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **There is/are** ใช้บอกการมีอยู่: __There is + singular/uncountable__ → `There is a park near my house.` ตัวอย่าง: `There is a book on the table.`"
+      },
+      {
+        "index": 2,
+        "text": "are",
+        "knowledge_ids": [
+          339,
+          318,
+          386
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `a park` เป็นเอกพจน์ ต้องใช้ `is` ไม่ใช่ `are` ถ้าเป็นพหูพจน์ เช่น `two parks` ถึงจะใช้ `There are two parks...`"
+      },
+      {
+        "index": 3,
+        "text": "be",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `be` เป็นรูปฐาน ต้องผันตามประธานและจำนวน ที่นี่ควรเป็น `is` → `There is a park...`"
+      },
+      {
+        "index": 4,
+        "text": "do",
+        "knowledge_ids": [
+          346
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้างการบอกการมีอยู่ใช้ `There is/are` ไม่ใช้ `do` เช่น `There is a cat in the room.`"
+      }
+    ]
+  },
+  {
+    "question": "How often ___ you exercise?",
+    "question_knowledge_ids": [
+      406,
+      391,
+      389,
+      381,
+      288,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "do",
+        "knowledge_ids": [
+          406,
+          389,
+          381,
+          384
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำถามความถี่ใน Present Simple ใช้ __Do/Does + S + V1?__ กับ `you` จึงใช้ `do` → `How often do you exercise?` ตัวอย่าง: `How often do they travel?`"
+      },
+      {
+        "index": 2,
+        "text": "are",
+        "knowledge_ids": [
+          305,
+          318,
+          413,
+          346
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `are` ใช้กับกริยา **be** ไม่ใช่คำถามกริยาทั่วไป `exercise` ต้องใช้ `do` เป็นตัวช่วย เช่น `Do you exercise?`"
+      },
+      {
+        "index": 3,
+        "text": "does",
+        "knowledge_ids": [
+          407,
+          351,
+          389,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `does` ใช้กับประธาน he/she/it แต่ที่นี่เป็น `you` จึงต้องใช้ `do` เช่น `Do you...`"
+      },
+      {
+        "index": 4,
+        "text": "did",
+        "knowledge_ids": [
+          300,
+          292,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `did` เป็นอดีตกาล คำถามนี้พูดถึงนิสัย/ความถี่ปัจจุบัน จึงใช้ Present Simple: `How often do you exercise?`"
+      }
+    ]
+  }
+]

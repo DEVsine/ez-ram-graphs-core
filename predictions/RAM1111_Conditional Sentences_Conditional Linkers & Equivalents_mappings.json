@@ -1,0 +1,486 @@
+[
+  {
+    "question": "You won't get in ___ you have a ticket.",
+    "question_knowledge_ids": [
+      486,
+      489,
+      508
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "unless",
+        "knowledge_ids": [
+          486,
+          508
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **unless = if...not** ใช้แทนเงื่อนไขเชิงลบได้ โครงสร้างที่ควรรู้คือ __unless + ประโยคบอกเล่า__ แต่แปลเป็นเงื่อนไขปฏิเสธ เช่น `You won't get in unless you have a ticket.` = ถ้าไม่มีบัตร ก็จะเข้าไม่ได้ ตัวอย่างใช้จริง: `I can't help you unless you tell me the truth.`"
+      },
+      {
+        "index": 2,
+        "text": "if",
+        "knowledge_ids": [
+          489,
+          508
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในเชิงความหมายที่ผู้พูดต้องการ เนื่องจากประโยคนี้ต้องการสื่อ “จะเข้าไม่ได้ เว้นแต่มีบัตร” ซึ่งตรงกับ **unless** มากกว่า ถ้าใช้ `if` จะได้ความหมายเป็นเงื่อนไขธรรมดา: `You won't get in if you have a ticket` ซึ่งฟังแปลก เพราะปกติ “มีบัตร” ควรทำให้เข้าได้ ไม่ใช่ “เข้าไม่ได้”"
+      },
+      {
+        "index": 3,
+        "text": "in case",
+        "knowledge_ids": [
+          489
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **in case** ใช้สื่อ “เพื่อเตรียมรับมือกรณีที่…” เช่น `Take an umbrella in case it rains.` ไม่ได้ใช้แทนเงื่อนไขจริง/เท็จแบบ `if/unless` ดังนั้น `You won't get in in case you have a ticket` จึงความหมายเพี้ยน"
+      },
+      {
+        "index": 4,
+        "text": "although",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **although** เป็นตัวเชื่อมแบบ “แม้ว่า” แสดงความขัดแย้ง ไม่ใช่เงื่อนไข เช่น `Although it was raining, we went out.` ใช้กับประโยคนี้ไม่ได้ เช่น `You won't get in although you have a ticket` ฟังไม่สอดคล้องกับตรรกะ"
+      }
+    ]
+  },
+  {
+    "question": "Only if you finish the report today ___ a day off tomorrow.",
+    "question_knowledge_ids": [
+      481,
+      487,
+      581,
+      499
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will you get",
+        "knowledge_ids": [
+          481,
+          581,
+          487
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเมื่อ **Only if** อยู่หน้าประโยคหลัก ต้องเกิด **inversion** ในประโยคหลัก โครงสร้างคือ __Only if + clause, + auxiliary + subject + base verb__ เช่น `Only if you finish the report today will you get a day off tomorrow.` ตัวอย่างเพิ่ม: `Only if you study hard will you pass.`"
+      },
+      {
+        "index": 2,
+        "text": "you will get",
+        "knowledge_ids": [
+          487
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **Only if** นำหน้า ต้องกลับรูปเป็น **inversion** ห้ามใช้ `subject + will` ปกติ ตัวอย่างที่ผิด: `Only if you practice a lot you will improve.` ที่ถูกควรเป็น: `Only if you practice a lot will you improve.`"
+      },
+      {
+        "index": 3,
+        "text": "you get",
+        "knowledge_ids": [
+          487
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาด **inversion** และกาล/มอดัลไม่สอดคล้องกับเงื่อนไขอนาคต ควรใช้ `will` และสลับตำแหน่งกับประธาน เช่น `... will you get` ตามกฎ inversion หลัง **Only if**"
+      },
+      {
+        "index": 4,
+        "text": "would you get",
+        "knowledge_ids": [
+          487
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `would` ใช้กับเงื่อนไขสมมติ (Type 2/3) แต่ประโยคนี้เป็นเงื่อนไขจริงที่อ้างถึง **วันนี้/พรุ่งนี้** จึงควรใช้ `will` และทำ inversion: `... will you get` ไม่ใช่ `would`"
+      }
+    ]
+  },
+  {
+    "question": "Hurry up, ___ you'll miss the bus.",
+    "question_knowledge_ids": [
+      494
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "or else",
+        "knowledge_ids": [
+          494
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **or else** ใช้เชื่อมเพื่อบอกผลลัพธ์เชิงคำเตือนว่า “ไม่งั้น…” โครงสร้างที่พบบ่อยคือ __imperative, or else + clause__ เช่น `Hurry up, or else you'll miss the bus.` ตัวอย่างอีก: `Study now, or else you'll regret it.`"
+      },
+      {
+        "index": 2,
+        "text": "unless",
+        "knowledge_ids": [
+          486
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **unless** ใช้ในอนุประโยคเงื่อนไข ไม่ได้ใช้เชื่อมด้วยเครื่องหมายจุลภาคหน้าประโยคหลักแบบนี้ และความหมายจะกลายเป็น `Hurry up, unless you'll miss the bus` ซึ่งผิดรูปแบบ แนะนำใช้ `or else` หรือ `otherwise`"
+      },
+      {
+        "index": 3,
+        "text": "in case",
+        "knowledge_ids": [
+          489
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **in case** สื่อการทำบางอย่างไว้ล่วงหน้าเพื่อป้องกัน เช่น `Take a coat in case it gets cold.` ไม่ได้ใช้เชื่อมผลลัพธ์เชิงคำเตือนแบบ `..., or else ...`"
+      },
+      {
+        "index": 4,
+        "text": "provided that",
+        "knowledge_ids": [
+          488
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **provided (that)** หมายถึง “ตราบเท่าที่/ถ้าเงื่อนไขคือ…” ใช้ตั้งเงื่อนไขเชิงอนุญาต เช่น `You can go provided that you finish.` ไม่ได้ใช้ในรูป `..., provided that ...` เพื่อขู่ผลลัพธ์ “ไม่งั้น...”"
+      }
+    ]
+  },
+  {
+    "question": "Bring some cash ___ emergencies.",
+    "question_knowledge_ids": [
+      489
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "in case of",
+        "knowledge_ids": [
+          489
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **in case of + นาม** ใช้สื่อ “ในกรณีที่เกิด…” โครงสร้างคือ __in case of + noun__ เช่น `Bring some cash in case of emergencies.` ตัวอย่างเพิ่ม: `Use the stairs in case of fire.`"
+      },
+      {
+        "index": 2,
+        "text": "in case",
+        "knowledge_ids": [
+          489
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในด้านรูปแบบ เพราะ **in case** ต้องตามด้วยประโยค (`subject + verb`) เช่น `Bring an umbrella in case it rains.` ถ้าเป็นคำนามต้องใช้ `in case of + noun` ไม่ใช่ `in case + noun`"
+      },
+      {
+        "index": 3,
+        "text": "unless",
+        "knowledge_ids": [
+          486
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **unless** = `if...not` ไม่ใช้กับวลีคำนามล้วน ต้องตามด้วยประโยคเต็ม เช่น `Unless it rains, we will go.` จึงใช้กับช่องว่าง `... emergencies` ไม่ได้"
+      },
+      {
+        "index": 4,
+        "text": "provided",
+        "knowledge_ids": [
+          488
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะถ้าจะใช้ **provided (that)** ต้องมีประโยคตามหลัง เช่น `You can borrow it provided (that) you return it.` ที่นี่เป็นวลีคำนาม `emergencies` จึงไม่เข้ารูป"
+      }
+    ]
+  },
+  {
+    "question": "Supposing you ___ the manager, what would you say?",
+    "question_knowledge_ids": [
+      493,
+      482,
+      498
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "were",
+        "knowledge_ids": [
+          482,
+          498
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นเงื่อนไขสมมติ (Type 2) ใช้ **subjunctive** กับ verb to be คือ __were__ ทุกประธานเมื่อพูดถึงสถานการณ์สมมติ เช่น `Supposing you were the manager, ...` ตัวอย่าง: `If I were you, I would wait.`"
+      },
+      {
+        "index": 2,
+        "text": "are",
+        "knowledge_ids": [
+          498
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `are` ใช้กับข้อเท็จจริงปัจจุบัน แต่ประโยคนี้เป็นการสมมติ ถ้าใช้ปัจจุบันจะขัดกับ `would you say` ซึ่งชี้ว่าเป็นเงื่อนไขสมมติ ควรใช้ `were` แบบ subjunctive"
+      },
+      {
+        "index": 3,
+        "text": "will be",
+        "knowledge_ids": [
+          498
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะในอนุประโยคเงื่อนไข (รวมถึงที่ขึ้นต้นด้วย `Supposing`) ไม่ใช้ `will` แทนอนาคต ใช้ปัจจุบันธรรมดาหรือรูปสมมติ เช่น `If it rains, ...` หรือ `If I were...`"
+      },
+      {
+        "index": 4,
+        "text": "would be",
+        "knowledge_ids": [
+          498
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `would` ไม่ควรอยู่ในอนุประโยคเงื่อนไข (ถ้าเป็น Type 2 จะใช้ `were`/`V2` ใน if-clause และ `would + V1` ใน main clause) ตัวอย่างผิด: `If I would be you, ...` ที่ถูก: `If I were you, ...`"
+      }
+    ]
+  },
+  {
+    "question": "___ your help, I would have failed.",
+    "question_knowledge_ids": [
+      481
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "But for",
+        "knowledge_ids": [
+          481
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **but for + noun** เป็นตัวเชื่อมเทียบเท่า “ถ้าไม่มี…” สำหรับเงื่อนไขสมมติในอดีต โครงสร้างคือ __but for + noun, would/could/might have + V3__ เช่น `But for your help, I would have failed.` ตัวอย่างเพิ่ม: `But for the rain, we would have won.`"
+      },
+      {
+        "index": 2,
+        "text": "Except for",
+        "knowledge_ids": [
+          481
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในความหมาย เฉียดคล้ายแต่ **except for** มักใช้ตัดข้อยกเว้น ไม่ได้สื่อเงื่อนไขสมมติที่ส่งผล เช่น `Except for a few mistakes, your essay is good.` กับประโยคนี้ต้องใช้ `But for` เพื่อสื่อ “ถ้าไม่มีความช่วยเหลือ”"
+      },
+      {
+        "index": 3,
+        "text": "Despite",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **despite** = “แม้ว่า/ทั้งๆ ที่” ไม่ใช่เงื่อนไขสมมติ ตัวอย่าง: `Despite the rain, we played.` แต่ในที่นี้ต้องการความหมาย “ถ้าไม่มี...” ซึ่งตรงกับ `But for`"
+      },
+      {
+        "index": 4,
+        "text": "Unless",
+        "knowledge_ids": [
+          486
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **unless** ต้องตามด้วยประโยคเต็ม (`subject + verb`) และความหมายเป็น `if...not` เช่น `Unless you help me, I will fail.` ที่นี่เป็นโครงสร้างเทียบเท่าเงื่อนไขอดีต ควรใช้ `But for + noun`"
+      }
+    ]
+  },
+  {
+    "question": "Let me know ___ you can attend.",
+    "question_knowledge_ids": [
+      492
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "whether or not",
+        "knowledge_ids": [
+          492
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **whether or not** ใช้ถาม/รายงานว่า “ว่าจะ...หรือไม่” โดยไม่โฟกัสที่เงื่อนไข แต่เป็นสองทางเลือก โครงสร้างคือ __whether or not + clause__ เช่น `Let me know whether or not you can attend.` ตัวอย่าง: `I don't know whether or not he will come.`"
+      },
+      {
+        "index": 2,
+        "text": "unless",
+        "knowledge_ids": [
+          486
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **unless** ให้ความหมาย `ถ้า...ไม่` ซึ่งไม่เหมาะกับการขอแจ้งข่าวสองทางเลือก ที่เหมาะคือ `whether (or not)` หรือ `if` เช่น `Let me know if you can attend.`"
+      },
+      {
+        "index": 3,
+        "text": "in case",
+        "knowledge_ids": [
+          489
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **in case** สื่อการเตรียมรับเหตุการณ์ล่วงหน้า ไม่ได้ใช้เพื่อถามสองทางเลือก ตัวอย่างการใช้ที่ถูก: `Take a jacket in case it gets cold.` ไม่ใช่ `Let me know in case you can attend.`"
+      },
+      {
+        "index": 4,
+        "text": "provided that",
+        "knowledge_ids": [
+          488
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **provided (that)** เป็นตัวเชื่อมเงื่อนไขอนุญาต เช่น `You can go provided that you finish.` แต่ประโยคนี้ต้องการให้ “บอกด้วยว่าได้หรือไม่ได้” จึงควรใช้ `whether or not`"
+      }
+    ]
+  },
+  {
+    "question": "I'll go for a run ___ it rains.",
+    "question_knowledge_ids": [
+      492,
+      489
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "even if",
+        "knowledge_ids": [
+          492
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **even if** = “แม้ว่าในกรณีที่…” ใช้กับเหตุการณ์ที่อาจเกิดในอนาคต โครงสร้างคือ __even if + present simple, ... will + V1__ เช่น `I'll go for a run even if it rains.` ตัวอย่าง: `She will try even if she fails.`"
+      },
+      {
+        "index": 2,
+        "text": "even though",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **even though** ใช้กับข้อเท็จจริง/สิ่งที่เป็นจริงแล้ว เช่น `Even though it is raining, I'll go.` แต่ในประโยคนี้พูดถึงความเป็นไปได้ในอนาคต ควรใช้ `even if`"
+      },
+      {
+        "index": 3,
+        "text": "unless",
+        "knowledge_ids": [
+          486
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะความหมายจะกลายเป็น `ฉันจะไปวิ่ง เว้นแต่ฝนจะตก` ซึ่งตรงข้ามกับใจความ “แม้ฝนตกก็จะไป” จึงไม่ตรงเจตนา ตัวอย่าง `I'll go unless it rains.` = จะไม่ไปถ้าฝนตก"
+      },
+      {
+        "index": 4,
+        "text": "in case",
+        "knowledge_ids": [
+          489
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **in case** ใช้สื่อการเตรียมตัว เช่น `Take a raincoat in case it rains.` แต่ประโยคนี้คือการยืนยันว่าจะทำแม้ฝนตก ต้องใช้ `even if`"
+      }
+    ]
+  },
+  {
+    "question": "If you ___ see Mia, please tell her.",
+    "question_knowledge_ids": [
+      500,
+      495
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "should",
+        "knowledge_ids": [
+          500,
+          495
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะใช้ **should** ใน if-clause เพื่อทำให้เงื่อนไขดูสุภาพ/เป็นไปได้เล็กน้อย โครงสร้างคือ __If + subject + should + V1, ...__ เช่น `If you should see Mia, please tell her.` ตัวอย่างเพิ่มเติม: `If you should need help, call me.`"
+      },
+      {
+        "index": 2,
+        "text": "would",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใน if-clause ปกติไม่ใช้ `would` (ยกเว้นความหมายสุภาพบางแบบกับขอร้อง) ที่ถูกคือใช้ `present simple` หรือ `should` เช่น `If you see...` หรือ `If you should see...` ไม่ใช่ `If you would see...`"
+      },
+      {
+        "index": 3,
+        "text": "will",
+        "knowledge_ids": [
+          495
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะในอนุประโยคเงื่อนไข (if-clause) ไม่ใช้ `will` เพื่อบอกอนาคต ใช้ `present simple` หรือ `should` เช่น `If it rains, we will stay in.` ไม่ใช่ `If it will rain, ...`"
+      },
+      {
+        "index": 4,
+        "text": "shall",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `shall` ไม่ใช้ใน if-clause แบบนี้ และมักใช้กับข้อเสนอ/คำสัญญาในประโยคหลัก เช่น `Shall we start?` ดังนั้น `If you shall see Mia` จึงไม่เป็นธรรมชาติ"
+      }
+    ]
+  },
+  {
+    "question": "Had I known earlier, I ___ you.",
+    "question_knowledge_ids": [
+      499,
+      433
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "would have called",
+        "knowledge_ids": [
+          499,
+          433
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็นการ **inversion** ของเงื่อนไขที่เทียบเท่า `If I had known earlier, ...` โครงสร้างคือ __Had + subject + V3, subject + would/could/might have + V3__ เช่น `Had I known earlier, I would have called you.` ตัวอย่างเพิ่ม: `Had she asked, I would have helped.`"
+      },
+      {
+        "index": 2,
+        "text": "will call",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นเหตุการณ์สมมติในอดีต ต้องใช้ `would have + V3` ไม่ใช่อนาคตธรรมดา เช่นที่ถูก: `If I had known, I would have called.`"
+      },
+      {
+        "index": 3,
+        "text": "would call",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `would call` ใช้กับ Type 2 (เงื่อนไขปัจจุบัน/ทั่วไป) แต่ที่นี่เป็นอดีตสมมติ (Type 3) จึงต้อง `would have called` เพื่อสื่อผลในอดีตที่ไม่ได้เกิดขึ้น"
+      },
+      {
+        "index": 4,
+        "text": "called",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดตัวช่วย `would have` ทำให้ความหมายไม่ใช่เงื่อนไขสมมติอดีต ตัวอย่างที่ถูก: `Had I seen you, I would have waved.`"
+      }
+    ]
+  },
+  {
+    "question": "You can sit here ___ you don't make any noise.",
+    "question_knowledge_ids": [
+      486,
+      488,
+      508
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "as long as",
+        "knowledge_ids": [
+          488
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **as long as** แปลว่า “ตราบเท่าที่/ถ้าเงื่อนไขคือ…” ใช้ตั้งเงื่อนไขอนุญาต โครงสร้างคือ __as long as + clause__ เช่น `You can sit here as long as you don't make any noise.` ตัวอย่าง: `You can borrow it as long as you return it.`"
+      },
+      {
+        "index": 2,
+        "text": "unless",
+        "knowledge_ids": [
+          486,
+          508
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้แล้วจะกลายเป็น `You can sit here unless you don't make any noise.` ซึ่งมีการปฏิเสธซ้อน ทำให้ความหมายเพี้ยน หากอยากใช้ `unless` ต้องเปลี่ยนเป็น `unless you make noise` (แต่ก็ยังไม่เป็นธรรมชาติเท่า `as long as` ในบริบทอนุญาต)"
+      },
+      {
+        "index": 3,
+        "text": "even though",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **even though** = “แม้ว่า (ความจริงที่เกิดขึ้นแล้ว)” ไม่ได้ใช้ตั้งเงื่อนไขอนุญาต เช่น `Even though it's noisy, you can sit here` จะเป็นประโยคขัดแย้ง ไม่ใช่การกำหนดเงื่อนไข"
+      },
+      {
+        "index": 4,
+        "text": "despite",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **despite + noun/gerund** ไม่ได้ตั้งเงื่อนไข เช่น `Despite the noise, ...` แต่ที่นี่ต้องการตัวเชื่อมเงื่อนไข จึงควรใช้ `as long as` หรือ `provided (that)`"
+      }
+    ]
+  }
+]

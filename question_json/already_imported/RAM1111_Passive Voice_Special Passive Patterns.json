@@ -1,0 +1,292 @@
+[
+  {
+    "question": "You’re ___ be here by 9 a.m.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "supposed to",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง นี่คือรูปแบบ **be supposed to + V1** แปลว่า “ควร/มีกำหนดให้ทำอะไร” โครงสร้างที่ควรจำคือ __be + supposed to + base verb__ เช่น `You’re supposed to be here by 9.` หรือ `She is supposed to finish the report today.` ใช้เมื่อต้องการพูดถึงกฎ/ความคาดหวังที่ถูกกำหนดไว้"
+      },
+      {
+        "index": 2,
+        "text": "suppose to",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดรูป **-ed** ทำให้กลายเป็นกริยาช่องฐาน ไม่ใช่คุณศัพท์ที่ใช้ในโครงสร้างนี้ ต้องใช้ **supposed to** เท่านั้น เช่น `You are supposed to call him.` ไม่ใช่ `You are suppose to call him.`"
+      },
+      {
+        "index": 3,
+        "text": "be suppose to",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะยังคงสะกด **suppose** โดยไม่มี -ed และยังซ้ำคำว่า **be** กับ **You’re** อีกด้วย โครงสร้างที่ถูกคือ `You’re supposed to...` หรือ `You are supposed to...`"
+      },
+      {
+        "index": 4,
+        "text": "supposed",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาด **to + V1** ตามหลัง ทำให้ความหมายไม่ครบ โครงสร้างถูกต้องคือ **supposed to + base verb** เช่น `You’re supposed to be here.`"
+      }
+    ]
+  },
+  {
+    "question": "She is ___ to have left the city.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "said",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็นรูป **reporting passive**: __be + said + to + have + V3__ ใช้รายงานข่าว/ความเชื่อ เช่น `She is said to have left.` หรือ `He is believed to be the best candidate.` ช่วยให้ประโยคดูเป็นกลางและเป็นทางการ"
+      },
+      {
+        "index": 2,
+        "text": "told",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **told** มักต้องมี **object** คน เช่น `She was told to leave.` (มีคนบอกเธอ) แต่ในประโยคนี้ต้องการโครงสร้างรายงานข่าวทั่วไป ไม่มีกรรมคน จึงใช้ **said** ได้เหมาะกว่า"
+      },
+      {
+        "index": 3,
+        "text": "saying",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **saying** เป็นรูป **-ing** ไม่เข้ากับโครงสร้าง **be + past participle** ของ passive รายงานข่าว โครงสร้างที่ถูกคือ `is said to...` ไม่ใช่ `is saying to...`"
+      },
+      {
+        "index": 4,
+        "text": "say",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะต้องใช้รูป **V3 (past participle)** หลัง **be** เพื่อทำ passive จึงควรใช้ `is said` ไม่ใช่ `is say`"
+      }
+    ]
+  },
+  {
+    "question": "The students ___ extra time for the exam.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "were given",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **double-object passive**: __be + given + object__ ใช้เมื่อเอา **indirect object** (ผู้รับ) มาเป็นประธาน เช่น `The students were given extra time.` หรือ `I was offered a job.`"
+      },
+      {
+        "index": 2,
+        "text": "gave",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นประโยค **active** และยังขาดประธานผู้กระทำ เช่น `The teacher gave the students extra time.` ถ้าจะทำเป็น passive ต้องใช้ `were given`"
+      },
+      {
+        "index": 3,
+        "text": "are giving",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **present continuous active** ไม่สอดคล้องกับประธานที่เป็นผู้รับการกระทำ ถ้าจะเล่าเหตุการณ์แบบถูกกระทำควรใช้ `are given` หรือ `were given` ตามเวลา"
+      },
+      {
+        "index": 4,
+        "text": "were giving",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **past continuous active** และยังขาดผู้กระทำ เช่น `The teachers were giving extra time.` ถ้าจะเป็น passive ต้องเป็น `were given`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ my car washed every Sunday.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "have",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง นี่คือ **causative**: __have + object + past participle__ หมายถึง “ให้คนอื่นทำให้” เช่น `I have my car washed every Sunday.` หรือ `She has her hair cut once a month.`"
+      },
+      {
+        "index": 2,
+        "text": "am",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `am my car washed` ไม่ใช่โครงสร้างที่ถูกของ passive หรือ causative ถ้าจะใช้ passive ธรรมดาต้องเป็น `My car is washed...` แต่โจทย์ต้องการ **causative**"
+      },
+      {
+        "index": 3,
+        "text": "wash",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะกลายเป็น `I wash my car...` ซึ่งแปลว่าเราลงมือทำเอง ไม่ใช่รูป **have + object + V3** ที่สื่อว่าให้คนอื่นทำให้"
+      },
+      {
+        "index": 4,
+        "text": "was",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `I was my car washed` ผิดหลัก ไวยากรณ์ ถ้าจะใช้ passive กับประธานเป็นรถ ต้องสลับเป็น `My car is washed every Sunday.`"
+      }
+    ]
+  },
+  {
+    "question": "She was ___ in 1998.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "born",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปคงที่ของ **be born** ใช้กับปีหรือสถานที่เกิด โครงสร้างคือ __be + born__ เช่น `She was born in 1998.` หรือ `He was born in Bangkok.` ไม่ใช้ V2/V3 อื่นแทนคำว่า born"
+      },
+      {
+        "index": 2,
+        "text": "borne",
+        "is_correct": false,
+        "answer_description": "ผิด คำว่า **borne** เป็น V3 ของ **bear** ในความหมายอื่น เช่น `He has borne many hardships.` แต่การพูดถึงการเกิดต้องใช้ **born** เท่านั้น"
+      },
+      {
+        "index": 3,
+        "text": "gave birth",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `gave birth` หมายถึง “ให้กำเนิด” ผู้เป็นแม่ทำกับลูก ไม่ใช่รูปที่ใช้กับตัวเด็ก เช่น ไม่พูด `She was gave birth in 1998.` ควรใช้ `She was born in 1998.`"
+      },
+      {
+        "index": 4,
+        "text": "bearing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **-ing** และไม่ใช่คำที่ใช้คู่กับ **be** เพื่อบอกปีเกิด รูปถูกต้องคือ `was born` เท่านั้น"
+      }
+    ]
+  },
+  {
+    "question": "We were ___ clean the room after the event.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "made to",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปแบบบังคับใน passive คือ __be + made + to + V1__ เช่น `We were made to clean the room.` หรือ `He was made to apologize.` จำให้ดีว่า passive ของ **make + object + V1** จะต้องเติม **to**"
+      },
+      {
+        "index": 2,
+        "text": "made",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใน **passive** ต้องมี **to** หน้ากริยาแท้ เช่น `were made to clean` ไม่ใช่ `were made clean` (ซึ่งจะสื่อความหมายเป็น adj อีกแบบ)"
+      },
+      {
+        "index": 3,
+        "text": "make to",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **be** ต้องใช้รูป **V3** ไม่ใช่รูปฐาน `make` โครงสร้างที่ถูกคือ `were made to + V1`"
+      },
+      {
+        "index": 4,
+        "text": "forced",
+        "is_correct": false,
+        "answer_description": "แม้ความหมายคล้ายกัน แต่รูปแบบไม่ตรงกับช่องว่าง เพราะถ้าจะใช้ **forced** ต้องเป็น `were forced to clean` ซึ่งไม่ตรงกับตัวเลือกนี้"
+      }
+    ]
+  },
+  {
+    "question": "Children are not ___ to watch this movie.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "allowed",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้รูป **be allowed to + V1** เพื่อบอกว่า “ได้รับอนุญาตให้ทำ” โครงสร้างคือ __be + allowed + to + base verb__ เช่น `Children are not allowed to watch this movie.` หรือ `You are allowed to enter.`"
+      },
+      {
+        "index": 2,
+        "text": "allow",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **be** ต้องใช้รูป **V3/adj** ไม่ใช่รูปฐาน `allow` ดังนั้นควรเป็น `are allowed to...`"
+      },
+      {
+        "index": 3,
+        "text": "allowing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `allowing` เป็นรูป -ing ไม่ใช่รูป passive ที่ต้องการ ถ้าจะบอกการอนุญาตแบบถูกกระทำ ต้องใช้ `be allowed to`"
+      },
+      {
+        "index": 4,
+        "text": "to allow",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดรูป **V3** หลัง **be** ทำให้โครงสร้างไม่เป็น passive ที่สมบูรณ์ รูปถูกต้องคือ `are allowed to + V1`"
+      }
+    ]
+  },
+  {
+    "question": "Everything will be ___ care of by the team.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "taken",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **passive ของ phrasal verb**: __be + taken care of__ เช่น `Everything will be taken care of.` หรือ `The issue has been taken care of.` สังเกตว่า **of** ยังอยู่ท้ายเหมือนเดิม"
+      },
+      {
+        "index": 2,
+        "text": "took",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **V2** ไม่ใช่ **V3** ที่ใช้ใน passive หลัง **be** ต้องเป็น `taken` เท่านั้น เช่น `was taken` ไม่ใช่ `was took`"
+      },
+      {
+        "index": 3,
+        "text": "taking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `will be taking care of` จะกลายเป็นอนาคตกำลังกระทำ และยังขาด **by someone** ที่ชัดเจน แต่ในแพตเทิร์นที่ต้องการคือรูป passive สมบูรณ์ `will be taken care of`"
+      },
+      {
+        "index": 4,
+        "text": "take",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปฐาน ไม่ใช้หลัง **be** ใน passive ต้องใช้ V3 `taken` เช่น `is taken care of`"
+      }
+    ]
+  },
+  {
+    "question": "The windows need to ___ before the guests arrive.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "be cleaned",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคือ **need to + be + V3** เพื่อสื่อความหมายเชิง passive ว่า “จำเป็นต้องถูกทำ” รูปแบบคือ __need to + be + past participle__ เช่น `The rooms need to be cleaned.` หรือ `The report needs to be finished.`"
+      },
+      {
+        "index": 2,
+        "text": "clean",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `need to clean` จะสื่อว่า “หน้าต่างต้องไปทำความสะอาดคนอื่น” ซึ่งไม่สมเหตุผล ประธานเป็นสิ่งของ ต้องใช้ passive: `need to be cleaned`"
+      },
+      {
+        "index": 3,
+        "text": "cleaning",
+        "is_correct": false,
+        "answer_description": "ผิดในโครงนี้ เพราะมี `to` แล้ว ควรตามด้วย **base form** หรือ **be + V3** ถ้าจะใช้รูป **need + V-ing** (BrE) ต้องตัด `to` ออก เช่น `The windows need cleaning.`"
+      },
+      {
+        "index": 4,
+        "text": "to be cleaned",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะซ้ำ `to` กลายเป็น `need to to be cleaned` โครงสร้างที่ถูกคือ `need to be cleaned` โดยช่องว่างต้องเป็น `be cleaned`"
+      }
+    ]
+  },
+  {
+    "question": "We are ___ in learning robotics.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "interested",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง นี่คือ **stative passive + preposition**: __be + interested + in__ ใช้บอกความรู้สึกสภาพ เช่น `We are interested in robotics.` หรือ `She is interested in AI.` คำว่า interested ทำหน้าที่เหมือนคุณศัพท์ที่มาจาก V3"
+      },
+      {
+        "index": 2,
+        "text": "interesting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **interesting** ใช้บรรยายสิ่งที่น่าสนใจ (สาเหตุ) ไม่ใช่ความรู้สึกของคน เช่น `Robotics is interesting.` แต่คนเราควรใช้ `interested`"
+      },
+      {
+        "index": 3,
+        "text": "interest",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นคำนาม/กริยาฐาน ไม่เข้ากับโครงสร้าง **be + adj/V3** ของ passive สภาพ ควรใช้ `are interested in...`"
+      },
+      {
+        "index": 4,
+        "text": "of interest",
+        "is_correct": false,
+        "answer_description": "ผิดสำหรับโครงสร้างนี้ แม้จะมีวลี `of interest` ได้ในบางบริบททางการ เช่น `topics of interest` แต่หลัง **be** เพื่อบอกความรู้สึกควรใช้ `interested in`"
+      }
+    ]
+  }
+]

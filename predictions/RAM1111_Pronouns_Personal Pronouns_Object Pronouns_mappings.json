@@ -1,0 +1,486 @@
+[
+  {
+    "question": "Could you help ___ with this box?",
+    "question_knowledge_ids": [
+      559,
+      564,
+      516,
+      535
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "me",
+        "knowledge_ids": [
+          559,
+          564
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะหลังคำกริยาใช้กรรมต้องเป็น **object pronoun** โครงสร้างคือ **verb + object pronoun** เช่น `help me`, `call me`. ประโยคที่ถูกคือ `Could you help me with this box?` ตัวอย่างใช้งาน: `Please help me carry this.`"
+      },
+      {
+        "index": 2,
+        "text": "I",
+        "knowledge_ids": [
+          564,
+          516
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **I** เป็น **subject pronoun** ใช้เป็นประธาน ไม่ใช่กรรมหลังคำกริยา ตัวอย่างที่ถูกต้อง: `I need help.` แต่หลัง verb ต้องใช้ `me` เช่น `help me`."
+      },
+      {
+        "index": 3,
+        "text": "my",
+        "knowledge_ids": [
+          535,
+          564
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **my** เป็น **possessive adjective** ใช้ขยายนาม เช่น `my bag` ไม่สามารถเป็นกรรมเดี่ยวๆ หลังคำกริยาได้ รูปที่ถูกคือ `help me`."
+      },
+      {
+        "index": 4,
+        "text": "mine",
+        "knowledge_ids": [
+          535,
+          564
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **mine** เป็น **possessive pronoun** ใช้แทนนามที่เป็นของเรา เช่น `This book is mine.` ไม่ใช่รูปกรรมหลังคำกริยา ควรใช้ `me`."
+      }
+    ]
+  },
+  {
+    "question": "I saw Anna yesterday. Did you talk to ___?",
+    "question_knowledge_ids": [
+      559,
+      564,
+      516
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "her",
+        "knowledge_ids": [
+          559,
+          564
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง หลังบุพบทต้องใช้ **object pronoun** โครงสร้างคือ **preposition + object pronoun** เช่น `to her`, `with him`. ประโยคที่ถูกคือ `Did you talk to her?` ตัวอย่าง: `I spoke to her about the plan.`"
+      },
+      {
+        "index": 2,
+        "text": "she",
+        "knowledge_ids": [
+          564,
+          516
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **she** เป็น **subject pronoun** ใช้เป็นประธาน ไม่ใช่กรรมหลังบุพบท ควรเป็น `to her` ไม่ใช่ `to she`."
+      },
+      {
+        "index": 3,
+        "text": "hers",
+        "knowledge_ids": [
+          535,
+          564
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **hers** เป็น **possessive pronoun** ใช้แสดงความเป็นเจ้าของ เช่น `The bag is hers.` หลัง `to` ต้องใช้ `her` ไม่ใช่ `hers`."
+      },
+      {
+        "index": 4,
+        "text": "him",
+        "knowledge_ids": [
+          564,
+          516
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสรรพนามไม่ตรงกับเพศของ Anna (ผู้หญิง) ต้องใช้รูปผู้หญิงคือ `her` ไม่ใช่ `him`. ตัวอย่างที่ถูก: `I called her yesterday.`"
+      }
+    ]
+  },
+  {
+    "question": "This gift is for Tom and Lisa. Please give it to ___.",
+    "question_knowledge_ids": [
+      564,
+      516
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "them",
+        "knowledge_ids": [
+          564
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **them** เป็น **object pronoun** สำหรับบุคคลพหูพจน์ และอยู่หลังบุพบท `to` ตามรูปแบบ **preposition + object pronoun**. ประโยคที่ถูกคือ `Please give it to them.` ตัวอย่าง: `I sent a message to them.`"
+      },
+      {
+        "index": 2,
+        "text": "they",
+        "knowledge_ids": [
+          564,
+          516
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **they** เป็น **subject pronoun** ใช้เป็นประธาน ไม่ใช่กรรมหลัง `to`. ต้องใช้ `them` เช่น `to them`."
+      },
+      {
+        "index": 3,
+        "text": "their",
+        "knowledge_ids": [
+          535,
+          564
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **their** เป็น **possessive adjective** ใช้ขยายนาม เช่น `their house`. หลัง `to` ต้องเป็น `them` ไม่ใช่ `their`."
+      },
+      {
+        "index": 4,
+        "text": "theirs",
+        "knowledge_ids": [
+          535,
+          564
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **theirs** เป็น **possessive pronoun** ใช้แทนนามแสดงความเป็นเจ้าของ เช่น `The car is theirs.` ไม่ใช้เป็นกรรมของบุพบท `to` ในที่นี้."
+      }
+    ]
+  },
+  {
+    "question": "The teacher looked at ___ and smiled.",
+    "question_knowledge_ids": [
+      564,
+      516
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "us",
+        "knowledge_ids": [
+          564
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง หลังบุพบท **at** ต้องตามด้วย **object pronoun** โครงสร้างคือ **preposition + object pronoun** เช่น `at us`, `at me`. ประโยคที่ถูก: `The teacher looked at us and smiled.` ตัวอย่างเพิ่มเติม: `He waved at us.`"
+      },
+      {
+        "index": 2,
+        "text": "we",
+        "knowledge_ids": [
+          564,
+          516
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **we** เป็น **subject pronoun** ใช้เป็นประธาน ไม่ใช่กรรมหลังก่อนบุพบท ควรเป็น `at us` ไม่ใช่ `at we`."
+      },
+      {
+        "index": 3,
+        "text": "our",
+        "knowledge_ids": [
+          535,
+          564
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **our** เป็น **possessive adjective** ใช้ขยายนาม เช่น `our class`. หลัง `at` ต้องใช้ `us`."
+      },
+      {
+        "index": 4,
+        "text": "ours",
+        "knowledge_ids": [
+          535,
+          564
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **ours** เป็น **possessive pronoun** ใช้แทนคำนาม เช่น `The victory is ours.` ไม่ใช้เป็นกรรมหลังบุพบทในประโยคนี้."
+      }
+    ]
+  },
+  {
+    "question": "It's a secret between you and ___.",
+    "question_knowledge_ids": [
+      559,
+      564,
+      516
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "me",
+        "knowledge_ids": [
+          559,
+          564
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง สำนวนมาตรฐานคือ **between you and me** เพราะหลังบุพบทต้องใช้ **object pronoun** ตามรูปแบบ **preposition + object pronoun**. ประโยคที่ถูก: `It's a secret between you and me.` ตัวอย่างเพิ่ม: `This stays between us.`"
+      },
+      {
+        "index": 2,
+        "text": "I",
+        "knowledge_ids": [
+          564,
+          516
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **I** เป็น **subject pronoun** และไม่ใช้หลังบุพบท ควรใช้ `me` ในสำนวนนี้ เช่น `between you and me`."
+      },
+      {
+        "index": 3,
+        "text": "mine",
+        "knowledge_ids": [
+          535,
+          564
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **mine** เป็น **possessive pronoun** ใช้แทนนาม เช่น `That book is mine.` ไม่ใช่รูปกรรมหลัง `between` ควรเป็น `me`."
+      },
+      {
+        "index": 4,
+        "text": "myself",
+        "knowledge_ids": [
+          564
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **myself** เป็น **reflexive pronoun** ใช้เมื่อประธานกับกรรมเป็นคนเดียวกัน เช่น `I hurt myself.` แต่ในสำนวนนี้ใช้ `me` ตามหลักทั่วไป."
+      }
+    ]
+  },
+  {
+    "question": "Don't tell John; I don't trust ___.",
+    "question_knowledge_ids": [
+      564,
+      516
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "him",
+        "knowledge_ids": [
+          564
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง หลังคำกริยา `trust` ต้องตามด้วย **object pronoun** ตามแบบ **verb + object pronoun**. ประโยคที่ถูก: `I don't trust him.` ตัวอย่างเพิ่ม: `She trusts him completely.`"
+      },
+      {
+        "index": 2,
+        "text": "he",
+        "knowledge_ids": [
+          564,
+          516
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **he** เป็น **subject pronoun** ไม่ใช้เป็นกรรมหลังคำกริยา ต้องใช้ `him` เช่น `trust him`."
+      },
+      {
+        "index": 3,
+        "text": "his",
+        "knowledge_ids": [
+          535,
+          564
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **his** เป็นทั้ง **possessive adjective/pronoun** ใช้แสดงความเป็นเจ้าของ เช่น `his idea`, `The book is his.` ไม่ใช่รูปกรรมของกริยา `trust`."
+      },
+      {
+        "index": 4,
+        "text": "them",
+        "knowledge_ids": [
+          564,
+          516
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `them` เป็นพหูพจน์ แต่ `John` เป็นเอกพจน์ผู้ชาย ต้องใช้ `him` ให้สอดคล้องกับนามอ้างอิง."
+      }
+    ]
+  },
+  {
+    "question": "The dog is cute. I love ___!",
+    "question_knowledge_ids": [
+      564,
+      516
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "it",
+        "knowledge_ids": [
+          564
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง สำหรับสิ่งของ/สัตว์ที่ไม่ระบุเพศ ใช้ **it** เป็น **object pronoun** ตามรูปแบบ **verb + object pronoun** เช่น `love it`. ประโยคที่ถูกคือ `I love it!` ตัวอย่าง: `I found a song and I love it.`"
+      },
+      {
+        "index": 2,
+        "text": "its",
+        "knowledge_ids": [
+          535,
+          564
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **its** เป็น **possessive adjective** ใช้ขยายนาม เช่น `its tail`. ไม่สามารถใช้เป็นกรรมเดี่ยวๆ หลังคำกริยาได้ ต้องใช้ `it`."
+      },
+      {
+        "index": 3,
+        "text": "it's",
+        "knowledge_ids": [
+          564
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **it's** = `it is/it has` เป็นรูปย่อของประโยค ไม่ใช่สรรพนามรูปกรรม ตัวอย่างที่ถูกต้องคือ `I love it.`"
+      },
+      {
+        "index": 4,
+        "text": "them",
+        "knowledge_ids": [
+          564,
+          516
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `them` ใช้กับพหูพจน์ แต่ `The dog` เป็นเอกพจน์ ต้องใช้ `it` ให้สอดคล้องกัน."
+      }
+    ]
+  },
+  {
+    "question": "She invited Mark and ___ to the party.",
+    "question_knowledge_ids": [
+      564,
+      516
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "me",
+        "knowledge_ids": [
+          564
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง หลังคำกริยา `invited` ต้องเป็น **object pronoun** ตามรูปแบบ **verb + object pronoun** และเมื่อมีกรรมร่วมใช้ `Mark and me` ได้ ประโยคที่ถูกคือ `She invited Mark and me to the party.` ตัวอย่าง: `They invited Sarah and me.`"
+      },
+      {
+        "index": 2,
+        "text": "I",
+        "knowledge_ids": [
+          564,
+          516
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **I** เป็นประธาน ใช้ไม่ได้ในตำแหน่งกรรมหลัง `invited` ต้องใช้ `me`. ตัวอย่างที่ผิด: `invited Mark and I`."
+      },
+      {
+        "index": 3,
+        "text": "my",
+        "knowledge_ids": [
+          535,
+          564
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **my** เป็นคำขยายนาม (possessive adjective) เช่น `my friend`. ไม่สามารถเป็นกรรมเดี่ยวๆ หลังคำกริยาได้."
+      },
+      {
+        "index": 4,
+        "text": "mine",
+        "knowledge_ids": [
+          535,
+          564
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **mine** เป็น **possessive pronoun** ใช้แทนนาม เช่น `The ticket is mine.` แต่ที่นี่ต้องเป็นสรรพนามรูปกรรม `me`."
+      }
+    ]
+  },
+  {
+    "question": "Our coach will email ___ about the game schedule.",
+    "question_knowledge_ids": [
+      564,
+      516
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "us",
+        "knowledge_ids": [
+          564
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง หลังคำกริยา `email` เมื่อมีผู้รับเป็นกรรมตรง ใช้ **object pronoun** ตามรูปแบบ **verb + object pronoun** เช่น `email us`. ประโยคที่ถูก: `Our coach will email us about the game schedule.` ตัวอย่าง: `Please email me the details.`"
+      },
+      {
+        "index": 2,
+        "text": "we",
+        "knowledge_ids": [
+          564,
+          516
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **we** เป็นประธาน ใช้ไม่ได้ในตำแหน่งกรรมของกริยา `email`. ต้องใช้ `us` เช่น `email us`."
+      },
+      {
+        "index": 3,
+        "text": "ours",
+        "knowledge_ids": [
+          535,
+          564
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **ours** เป็น **possessive pronoun** ใช้แสดงความเป็นเจ้าของ เช่น `The victory is ours.` ไม่ใช่รูปกรรมหลังคำกริยา."
+      },
+      {
+        "index": 4,
+        "text": "our",
+        "knowledge_ids": [
+          535,
+          564
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **our** เป็น **possessive adjective** ต้องตามด้วยนาม เช่น `our team`. ที่ตำแหน่งกรรมต้องใช้ `us`."
+      }
+    ]
+  },
+  {
+    "question": "If you see the keys, put ___ on the table.",
+    "question_knowledge_ids": [
+      564,
+      516
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "them",
+        "knowledge_ids": [
+          564
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง `the keys` เป็นพหูพจน์ จึงต้องใช้ **them** เป็น **object pronoun** ตามแบบ **verb + object pronoun** เช่น `put them`. ประโยคที่ถูก: `Put them on the table.` ตัวอย่าง: `Take the books and place them here.`"
+      },
+      {
+        "index": 2,
+        "text": "it",
+        "knowledge_ids": [
+          564
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `it` ใช้กับเอกพจน์ แต่ `keys` เป็นพหูพจน์ ต้องใช้ `them` ให้สอดคล้องกับจำนวน."
+      },
+      {
+        "index": 3,
+        "text": "they",
+        "knowledge_ids": [
+          564,
+          516
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **they** เป็นประธาน ไม่ใช่กรรมหลังคำกริยา `put`. โครงสร้างที่ถูกต้องคือ `put them`."
+      },
+      {
+        "index": 4,
+        "text": "their",
+        "knowledge_ids": [
+          535,
+          564
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **their** เป็นคำขยายนาม (possessive adjective) เช่น `their keys`. ที่ตำแหน่งกรรมต้องใช้ `them`."
+      }
+    ]
+  }
+]

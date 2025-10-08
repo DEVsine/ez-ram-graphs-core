@@ -1,0 +1,342 @@
+[
+  {
+    "question": "___ she like coffee?",
+    "question_knowledge_ids": [],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Does",
+        "knowledge_ids": [],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคคำถามแบบ **Yes/No** ใน **Present Simple** กับประธานเอกพจน์บุรุษที่ 3 (she/he/it) ใช้โครงสร้าง **Does + subject + base verb** โดยกริยาหลักต้องอยู่รูป **base** (ไม่มี s). ตัวอย่าง: `Does she like coffee?` หรือ `Does he play football?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do** ใช้กับประธาน **I/you/we/they** ไม่ใช่ **she**. ถ้าจะถามถึง she ต้องใช้ `Does she like coffee?` ไม่ใช่ `Do she like coffee?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** ใช้กับกริยา **be** (เช่น `Is she happy?`) ไม่ใช่กริยาทั่วไปอย่าง **like**. เมื่อเป็นกริยาทั่วไปต้องใช้ **do/does**: `Does she like coffee?`"
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Has** ใช้ในโครงสร้าง **has/have got** หรือเป็นกริยา **have** เท่านั้น เช่น `Has she got a car?` ไม่สามารถใช้กับกริยา **like** ได้"
+      }
+    ]
+  },
+  {
+    "question": "___ they at home?",
+    "question_knowledge_ids": [],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Are",
+        "knowledge_ids": [],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคคำถามที่มีกริยา **be** ใช้รูป **be** นำหน้าได้เลย: **Are + subject + complement**. ตัวอย่าง: `Are they at home?`, `Are you ready?` โครงสร้างนี้ใช้กับสถานะ/ลักษณะ ไม่ใช่การกระทำ"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเมื่อกริยาหลักเป็น **be** เราไม่ใช้ **do/does** มาช่วย เช่น `Do they at home?` ผิด ต้องใช้ `Are they at home?`"
+      },
+      {
+        "index": 3,
+        "text": "Have",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Have** ไม่ได้ใช้ถามกับกริยา **be** ในความหมายนี้ ถ้าจะใช้ have ต้องเป็นรูป `Have they got ...?` ซึ่งเป็นอีกโครงสร้างหนึ่ง"
+      },
+      {
+        "index": 4,
+        "text": "Does",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Does** ใช้กับกริยาทั่วไป (เช่น work, like) และกับประธานเอกพจน์ he/she/it ไม่ใช่กับ **be** และไม่ใช่กับประธาน **they**"
+      }
+    ]
+  },
+  {
+    "question": "___ he have a car?",
+    "question_knowledge_ids": [],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Does",
+        "knowledge_ids": [],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคำถาม **Present Simple** กับ he/she/it คือ **Does + subject + base verb** และกริยา **have** ต้องอยู่รูป **base** ไม่เติม s. ตัวอย่าง: `Does he have a car?`, `Does she have time?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do** ใช้กับ **I/you/we/they** เท่านั้น ไม่ใช้กับ **he**. ประโยคที่ถูกควรเป็น `Does he have a car?`"
+      },
+      {
+        "index": 3,
+        "text": "Has",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะตอนเป็นคำถามแบบ **do-support** กริยาหลักต้องเป็น **base form** จึงไม่ใช้ **has** หลัง does เช่น `Does he have...` ไม่ใช่ `Does he has...`"
+      },
+      {
+        "index": 4,
+        "text": "Is",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** ใช้กับกริยา **be** เช่น `Is he a student?` แต่ที่นี่กริยาหลักคือ **have** จึงต้องใช้ **Does** ช่วย"
+      }
+    ]
+  },
+  {
+    "question": "___ you usually go to the gym?",
+    "question_knowledge_ids": [],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "knowledge_ids": [],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้โครงสร้าง **Do + subject + base verb** กับประธาน **you/we/they/I** และสามารถวาง **adverb of frequency** อย่าง `usually` หลังประธานได้ เช่น `Do you usually go to the gym?` หรือ `Do they often study together?`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Does** ใช้กับ **he/she/it** ไม่ใช่ **you**. โครงสร้างที่ถูกต้องคือ `Do you ...?` เช่น `Do you usually read at night?`"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Are** ใช้กับกริยา **be** เท่านั้น เช่น `Are you tired?` แต่ที่นี่เป็นกริยาการกระทำ **go** ต้องใช้ **Do** ช่วย"
+      },
+      {
+        "index": 4,
+        "text": "Have",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Have** ไม่ได้ใช้ทำคำถามกับกริยาทั่วไปอย่าง **go** โครงสร้างถูกคือ `Do you usually go ...?` ไม่ใช่ `Have you usually go ...?`"
+      }
+    ]
+  },
+  {
+    "question": "___ your brother a teacher?",
+    "question_knowledge_ids": [],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Is",
+        "knowledge_ids": [],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นประโยคคำถามที่มีกริยา **be** ใช้โครงสร้าง **Is/Are/Am + subject + complement** ดังนั้นรูปที่ถูกคือ `Is your brother a teacher?` ตัวอย่างเพิ่มเติม: `Is she your friend?`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Does** ใช้กับกริยาทั่วไป ไม่ใช่ **be**. ถ้าใช้ does จะกลายเป็น `Does your brother a teacher?` ซึ่งผิดโครงสร้าง"
+      },
+      {
+        "index": 3,
+        "text": "Do",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do** ก็เป็นตัวช่วยของกริยาทั่วไปเหมือนกัน ไม่ใช้กับ **be**. ต้องใช้ `Is your brother ...?` เท่านั้น"
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Has** ใช้กับโครงสร้าง **has got** หรือกริยา **have** เท่านั้น เช่น `Has he got a bike?` ไม่ใช่ถามอาชีพด้วย has"
+      }
+    ]
+  },
+  {
+    "question": "___ the shops open on Sundays?",
+    "question_knowledge_ids": [],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "knowledge_ids": [],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกริยาหลักคือ **open** (กริยาทั่วไป) กับประธานพหูพจน์ **the shops** ใช้โครงสร้าง **Do + subject + base verb**. ตัวอย่าง: `Do the shops open on Sundays?`, `Do buses run at night?`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Does** ใช้กับเอกพจน์ **he/she/it** แต่ **shops** เป็นพหูพจน์ ควรใช้ `Do the shops open ...?`"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Are** ใช้กับกริยา **be** หรือคำนาม/คุณศัพท์ เช่น `Are the shops open?` (เป็นคำคุณศัพท์) แต่ที่นี่เราถามถึงการกระทำ **open (เปิดทำการ)** จึงต้องใช้ **Do**"
+      },
+      {
+        "index": 4,
+        "text": "Is",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** ใช้กับเอกพจน์ ไม่เหมาะกับ **the shops** และยังไม่ตรงกับกริยาทั่วไป **open** ในความหมายการกระทำ"
+      }
+    ]
+  },
+  {
+    "question": "___ you got any questions?",
+    "question_knowledge_ids": [],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Have",
+        "knowledge_ids": [],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคนี้ใช้โครงสร้างแบบอังกฤษ **Have (you) got ...?** โครงสร้างคำถามคือ **Have/Has + subject + got + object** เช่น `Have you got any questions?` หรือ `Has she got a pen?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "เกือบถูกแต่ไม่ใช่สำหรับประโยคนี้ เพราะเรามีคำว่า **got** อยู่แล้ว จึงต้องใช้รูป `Have you got ...?` ถ้าจะใช้ **do** ต้องเปลี่ยนเป็น `Do you have any questions?` (ไม่มี got)"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Are** เป็นกริยา **be** ไม่ได้ใช้กับโครงสร้าง **have got**. การถามที่ถูกคือ `Have you got any questions?`"
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Has** ใช้กับประธานเอกพจน์บุรุษที่ 3 เช่น `Has he got ...?` แต่ที่นี่ประธานคือ **you** จึงต้องใช้ **Have**"
+      }
+    ]
+  },
+  {
+    "question": "___ I late?",
+    "question_knowledge_ids": [],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Am",
+        "knowledge_ids": [],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำถามที่ใช้กริยา **be** กับประธาน **I** ต้องใช้ **Am**: โครงสร้าง **Am + I + complement**. ตัวอย่าง: `Am I late?`, `Am I wrong?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do** ใช้กับกริยาทั่วไป ไม่ใช่กับ **be**. ประโยค `Do I late?` จึงผิด ต้องเป็น `Am I late?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** ใช้กับ he/she/it ไม่ใช่ **I**. สำหรับ I ต้องใช้ `Am I ...?`"
+      },
+      {
+        "index": 4,
+        "text": "Are",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Are** ใช้กับ you/we/they ไม่ใช่ **I**. รูปที่ถูกคือ `Am I ...?` เท่านั้น"
+      }
+    ]
+  },
+  {
+    "question": "___ your parents work on Saturdays?",
+    "question_knowledge_ids": [],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "knowledge_ids": [],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **your parents** เป็นพหูพจน์ และกริยาหลักคือ **work** (กริยาทั่วไป) จึงใช้โครงสร้าง **Do + subject + base verb**. ตัวอย่าง: `Do your parents work on Saturdays?`, `Do your friends live nearby?`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Does** ใช้กับเอกพจน์ he/she/it แต่ **parents** เป็นพหูพจน์ ต้องใช้ `Do your parents ...?`"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Are** ใช้กับกริยา **be** หรือคุณศัพท์/คำนาม เช่น `Are your parents at home?` แต่ถ้าถามการกระทำ **work** ต้องใช้ **Do**"
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Has** ไม่ได้เป็นตัวช่วยของกริยาทั่วไป **work** ใน Present Simple และยังไม่เข้ากับประธานพหูพจน์"
+      }
+    ]
+  },
+  {
+    "question": "___ she always finish her homework before dinner?",
+    "question_knowledge_ids": [],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Does",
+        "knowledge_ids": [],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นคำถาม Present Simple กับประธาน **she** และกริยาทั่วไป **finish** จึงใช้โครงสร้าง **Does + subject + base verb + ...** โดยวาง **adverb of frequency** อย่าง `always` หลังประธานได้ เช่น `Does she always finish her homework before dinner?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do** ไม่ใช้กับ **she** (เอกพจน์บุรุษที่ 3) ต้องใช้ **Does**. ตัวอย่างที่ถูก: `Does she always finish ...?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** ใช้กับกริยา **be** เท่านั้น เช่น `Is she always late?` แต่ที่นี่เป็นกริยาการกระทำ **finish** ต้องใช้ **Does**"
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Has** ไม่ใช่ตัวช่วยของกริยา **finish** ใน Present Simple ถ้าจะใช้ has ต้องเป็นโครงสร้าง **has got** หรือกริยา have เท่านั้น"
+      }
+    ]
+  }
+]

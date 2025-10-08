@@ -1,0 +1,537 @@
+[
+  {
+    "question": "You ___ park here; it's for emergency vehicles only.",
+    "question_knowledge_ids": [
+      423,
+      429,
+      426,
+      430,
+      249
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "mustn't",
+        "knowledge_ids": [
+          423,
+          249,
+          430
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **mustn't** เพื่อสื่อว่า “ห้าม” อย่างเด็ดขาด โครงสร้างคือ __mustn't + base verb__ เช่น `You mustn't park here.` หมายถึงห้ามจอดโดยสิ้นเชิง ไม่ใช่แค่ไม่จำเป็นนะ ตัวอย่างอีก: `You mustn't smoke in the lab.`"
+      },
+      {
+        "index": 2,
+        "text": "don't have to",
+        "knowledge_ids": [
+          429,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **don't have to** แปลว่า “ไม่จำเป็นต้อง” ไม่ได้หมายถึง “ห้าม” เช่น `You don't have to park here.` = ไม่จำเป็นต้องจอดที่นี่ แต่ยังทำได้ ไม่ใช่ข้อห้าม ลองเทียบกับ `You mustn't park here.` = ห้ามจอด"
+      },
+      {
+        "index": 3,
+        "text": "shouldn't",
+        "knowledge_ids": [
+          425,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **shouldn't** เป็นคำแนะนำว่า “ไม่ควร” แต่ยังไม่ถึงขั้นห้าม เช่น `You shouldn't park here.` = ไม่ควรจอด (อาจมีความเสี่ยง) แต่ป้าย “เฉพาะรถฉุกเฉิน” ต้องใช้ความหมายห้ามชัดๆ ซึ่งคือ `mustn't`"
+      },
+      {
+        "index": 4,
+        "text": "can't",
+        "knowledge_ids": [
+          426,
+          249,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ใกล้เคียงแต่ยังไม่แม่นที่สุดสำหรับกฎเข้มงวด ในบริบทป้ายข้อบังคับ เรามักใช้ **mustn't** เพื่อสื่อข้อห้ามชัดเจน ส่วน **can't** มักใช้ได้กับความเป็นไปไม่ได้/กฎทั่วไป เช่น `You can't enter.` ก็ได้ แต่โจทย์นี้ต้องการห้ามจอดแบบป้ายกฎหมาย ใช้ `mustn't` ตรงกว่า"
+      }
+    ]
+  },
+  {
+    "question": "She ___ speak three languages fluently.",
+    "question_knowledge_ids": [
+      426,
+      424,
+      430
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "can",
+        "knowledge_ids": [
+          426,
+          430
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **can** ใช้บอกความสามารถในปัจจุบัน โครงสร้างคือ __can + base verb__ เช่น `She can speak three languages.` ตัวอย่างเพิ่ม: `I can swim.` = ว่ายน้ำเป็น"
+      },
+      {
+        "index": 2,
+        "text": "could",
+        "knowledge_ids": [
+          426,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทปัจจุบัน เพราะ **could** มักใช้ความสามารถในอดีต เช่น `When I was a child, I could run fast.` ถ้าอยากสุภาพในคำขอถึงจะใช้ could ได้ แต่ที่นี่พูดถึงความสามารถตอนนี้ ใช้ `can`"
+      },
+      {
+        "index": 3,
+        "text": "may",
+        "knowledge_ids": [
+          424,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **may** ใช้แสดงความเป็นไปได้/ขออนุญาต มากกว่าความสามารถ เช่น `She may arrive late.` = อาจมาช้า ไม่ได้หมายถึงทำได้เป็นความสามารถ จึงไม่ตรงจุด"
+      },
+      {
+        "index": 4,
+        "text": "should",
+        "knowledge_ids": [
+          425,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **should** คือคำแนะนำ/ความเหมาะสม เช่น `She should study more.` = ควรเรียนเพิ่ม ไม่ได้ใช้บอกความสามารถ ดังนั้นไม่เข้าโจทย์"
+      }
+    ]
+  },
+  {
+    "question": "It’s getting dark. You ___ take a flashlight.",
+    "question_knowledge_ids": [
+      425,
+      423,
+      424,
+      426,
+      430
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "should",
+        "knowledge_ids": [
+          425,
+          430
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **should** ใช้ให้คำแนะนำอย่างสุภาพ โครงสร้าง __should + base verb__ เช่น `You should take a flashlight.` แปลว่าแนะนำให้พกไฟฉาย จะปลอดภัยขึ้น"
+      },
+      {
+        "index": 2,
+        "text": "must",
+        "knowledge_ids": [
+          423,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดน้ำหนัก เพราะ **must** สื่อ “จำเป็น/ต้อง” แบบเข้มงวด เช่น `You must wear a helmet.` ที่นี่เป็นคำแนะนำ ไม่ใช่ข้อบังคับ เลยใช้ `should` ดีกว่า"
+      },
+      {
+        "index": 3,
+        "text": "may",
+        "knowledge_ids": [
+          424,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **may** ใช้กับความเป็นไปได้หรือขออนุญาต เช่น `You may leave now.` ไม่ได้ให้คำแนะนำ ดังนั้นไม่ตรงกับเจตนาประโยค"
+      },
+      {
+        "index": 4,
+        "text": "can",
+        "knowledge_ids": [
+          426,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **can** เน้นความสามารถ/ความเป็นไปได้ เช่น `You can take a flashlight.` = คุณสามารถหยิบได้ แต่ไม่ได้มีน้ำเสียงแนะนำ ซึ่งโจทย์ต้องการคำแนะนำ ใช้ `should`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ be at home; I saw him at the office five minutes ago.",
+    "question_knowledge_ids": [
+      424,
+      426,
+      430
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "can't",
+        "knowledge_ids": [
+          424,
+          430
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **can't** แสดงการ suy ครอบคลุมว่า “เป็นไปไม่ได้” จากหลักฐานชัดเจน โครงสร้าง __can't + base verb__ เช่น `He can't be at home.` ตัวอย่างคล้ายกัน: `She can't be serious.` = ไม่น่าใช่จริง"
+      },
+      {
+        "index": 2,
+        "text": "must",
+        "knowledge_ids": [
+          423,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **must** ใช้ suy ว่าน่าจะเป็นจริงมาก เช่น `He must be at home.` แต่หลักฐานตรงข้ามชัดเจน (เพิ่งเห็นที่ออฟฟิศ) จึงควรใช้ `can't`"
+      },
+      {
+        "index": 3,
+        "text": "might",
+        "knowledge_ids": [
+          424,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดน้ำหนัก **might** หมายถึงความเป็นไปได้ระดับต่ำ `He might be at home.` ยังเป็นไปได้ แต่ที่นี่มีหลักฐานหักล้างชัด จึงควรใช้ `can't` เพื่อบอกว่า “ไม่น่าเป็นไปได้”"
+      },
+      {
+        "index": 4,
+        "text": "could",
+        "knowledge_ids": [
+          424,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **could** เดี่ยวๆ ในความหมายความเป็นไปได้ทั่วไปยังเปิดกว้างเกินไป `He could be at home.` แต่เรามีหลักฐานว่าพึ่งเห็นเขาเมื่อ 5 นาทีที่แล้ว เลยควรใช้ `can't`"
+      }
+    ]
+  },
+  {
+    "question": "___ you possibly lend me your notes? I missed the class.",
+    "question_knowledge_ids": [
+      441,
+      197,
+      426,
+      427,
+      430
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Could",
+        "knowledge_ids": [
+          441,
+          197,
+          426,
+          430
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **Could** ใช้ขอความช่วยเหลืออย่างสุภาพมาก โครงสร้างคำขอคือ __Could + subject + base verb?__ เช่น `Could you lend me your notes?` ตัวอย่างเพิ่ม: `Could you help me with this?`"
+      },
+      {
+        "index": 2,
+        "text": "Can",
+        "knowledge_ids": [
+          441,
+          426,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "พอใช้ได้แต่สุภาพน้อยกว่า **could** โดยเฉพาะเมื่อเติมคำว่า `possibly` น้ำเสียงสุภาพควรใช้ `Could you possibly...` มากกว่า เช่น `Can you help me?` = ธรรมดา ไม่เป็นทางการ"
+      },
+      {
+        "index": 3,
+        "text": "May",
+        "knowledge_ids": [
+          197,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดโทนการขอความช่วยเหลือทั่วไป **May** มักใช้ขออนุญาต เช่น `May I come in?` สำหรับการขอให้คนอื่นทำอะไรให้เรา แบบสุภาพนิยมใช้ `Could you...?`"
+      },
+      {
+        "index": 4,
+        "text": "Must",
+        "knowledge_ids": [
+          423,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **must** ให้ความรู้สึกบังคับ/จำเป็น ไม่เหมาะกับคำขอ เช่น `Must you lend me your notes?` ฟังดูแข็งและแปลก ใช้ `Could you...` สุภาพกว่าเยอะ"
+      }
+    ]
+  },
+  {
+    "question": "You ___ bring your own laptop; the lab has computers for everyone.",
+    "question_knowledge_ids": [
+      429,
+      436,
+      423,
+      426,
+      430,
+      249
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "don't have to",
+        "knowledge_ids": [
+          429,
+          436,
+          430
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **don't have to** หมายถึง “ไม่จำเป็นต้อง” โครงสร้างคือ __don't/doesn't have to + base verb__ เช่น `You don't have to bring your laptop.` ยังทำได้ถ้าอยาก แต่ไม่จำเป็น"
+      },
+      {
+        "index": 2,
+        "text": "mustn't",
+        "knowledge_ids": [
+          423,
+          249,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **mustn't** คือ “ห้าม” ซึ่งแรงเกินและความหมายคนละเรื่อง ประโยคไม่ได้ห้ามเอาแล็ปท็อปมา เพียงบอกว่าไม่จำเป็น ควรใช้ `don't have to`"
+      },
+      {
+        "index": 3,
+        "text": "shouldn't",
+        "knowledge_ids": [
+          425,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดน้ำเสียง **shouldn't** คือ “ไม่ควร” เป็นคำแนะนำเชิงลบ แต่ที่นี่ต้องการบอกว่าไม่จำเป็น มีคอมเพียงพอ ใช้ `don't have to` ชัดกว่า"
+      },
+      {
+        "index": 4,
+        "text": "can't",
+        "knowledge_ids": [
+          426,
+          249,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **can't** คือ “ทำไม่ได้/ห้าม” ซึ่งแรงไป ประโยคไม่ได้ห้าม เพียงบอกว่าไม่จำเป็น ใช้ `don't have to` ถูกต้องที่สุด"
+      }
+    ]
+  },
+  {
+    "question": "They ___ finish the report by Friday; the deadline is strict.",
+    "question_knowledge_ids": [
+      434,
+      425,
+      424,
+      430,
+      226
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have to",
+        "knowledge_ids": [
+          434,
+          430,
+          226
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **have to** ใช้บอก “จำเป็น/ต้อง” เพราะข้อกำหนดภายนอก โครงสร้าง __have to/has to + base verb__ เช่น `They have to finish by Friday.` ตัวอย่าง: `She has to wear a uniform.`"
+      },
+      {
+        "index": 2,
+        "text": "should",
+        "knowledge_ids": [
+          425,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดน้ำหนัก **should** เป็นคำแนะนำ ไม่ใช่ข้อบังคับ เช่น `They should finish by Friday.` ฟังดูแนะนำ แต่โจทย์มีคำว่า deadline เข้มงวด ควรใช้ `have to`"
+      },
+      {
+        "index": 3,
+        "text": "might",
+        "knowledge_ids": [
+          424,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **might** คือความเป็นไปได้ ไม่ใช่ความจำเป็น เช่น `They might finish by Friday.` = อาจเสร็จ ซึ่งไม่สื่อถึงข้อบังคับตามกำหนด"
+      },
+      {
+        "index": 4,
+        "text": "could",
+        "knowledge_ids": [
+          424,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **could** ให้ความหมายความสามารถ/ความเป็นไปได้ เช่น `They could finish by Friday.` = อาจทำได้ แต่ไม่ได้บอกว่าต้อง ควรใช้ `have to`"
+      }
+    ]
+  },
+  {
+    "question": "You ___ have told me earlier! Now it's too late.",
+    "question_knowledge_ids": [
+      425,
+      433,
+      442,
+      430
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "should",
+        "knowledge_ids": [
+          425,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูป จำเป็นต้องใช้รูปอดีตของ modal perfect เพื่อพูดถึงสิ่งที่ “ควรทำแต่ไม่ได้ทำ” ในอดีต ต้องใช้ `should have + V3` ไม่ใช่ `should` เดี่ยวๆ เช่น `You should have told me.`"
+      },
+      {
+        "index": 2,
+        "text": "should have",
+        "knowledge_ids": [
+          425,
+          433,
+          442,
+          430
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **should have + V3** เพื่อพูดว่า “ควรจะทำในอดีตแต่ไม่ได้ทำ” โครงสร้างคือ __should have + past participle__ เช่น `You should have told me earlier.` ตัวอย่างเพิ่ม: `I should have studied harder.`"
+      },
+      {
+        "index": 3,
+        "text": "must have",
+        "knowledge_ids": [
+          423,
+          433,
+          442,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย **must have + V3** ใช้ suy อดีตแบบมั่นใจว่า “คงจะ...” เช่น `You must have told me.` = คุณคงบอกฉันแล้ว ซึ่งไม่เข้ากับอารมณ์ตำหนิว่า “ควรจะบอกแต่ไม่ได้บอก”"
+      },
+      {
+        "index": 4,
+        "text": "could have",
+        "knowledge_ids": [
+          424,
+          433,
+          442,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ใกล้เคียงแต่ไม่ใช่ใจความ **could have + V3** แปลว่า “สามารถ/มีโอกาสจะทำได้ในอดีต (แต่ไม่ได้ทำ)” เน้นความเป็นไปได้ ไม่ใช่คำตำหนิแนะนำแบบ `should have` เช่น `You could have called me.`"
+      }
+    ]
+  },
+  {
+    "question": "___ I carry that for you? It looks heavy.",
+    "question_knowledge_ids": [
+      441,
+      426,
+      427,
+      430
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Shall",
+        "knowledge_ids": [
+          427,
+          441,
+          430
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **Shall** ใช้เสนอความช่วยเหลืออย่างสุภาพ โดยเฉพาะใน British English โครงสร้าง __Shall I + base verb?__ เช่น `Shall I carry that for you?` ตัวอย่างเพิ่ม: `Shall we start?` (ชวนทำสิ่งใดสิ่งหนึ่ง)"
+      },
+      {
+        "index": 2,
+        "text": "Will",
+        "knowledge_ids": [
+          441,
+          421,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "พอใช้ได้ในบางบริบท (`Will I carry...?` ไม่ธรรมชาติ) ปกติใช้ `Shall I...?` เพื่อเสนอ หรือใช้ `Can I help you carry that?` ดังนั้นตัวเลือกที่เหมาะสุดคือ `Shall`"
+      },
+      {
+        "index": 3,
+        "text": "May",
+        "knowledge_ids": [
+          197,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ค่อยธรรมชาติ **May I carry that for you?** จะฟังเหมือนขออนุญาตมากกว่าเสนอความช่วยเหลือแบบเจ้าของประโยคอาสา ซึ่ง `Shall I...?` ชัดและเป็นธรรมชาติกว่า"
+      },
+      {
+        "index": 4,
+        "text": "Must",
+        "knowledge_ids": [
+          423,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **must** ฟังดูบังคับ ไม่ใช้ในการเสนอความช่วยเหลือ เช่น `Must I carry that for you?` แปลกและแข็ง ใช้ `Shall I...?` ดีกว่า"
+      }
+    ]
+  },
+  {
+    "question": "He studied hard, so he ___ pass the exam this time.",
+    "question_knowledge_ids": [
+      238,
+      425,
+      421,
+      430
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "might",
+        "knowledge_ids": [
+          424,
+          238,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดน้ำหนัก **might** หมายถึงความเป็นไปได้ต่ำกว่ากลาง เช่น `He might pass.` แต่บริบทบอกว่าอ่านหนัก น่าจะมั่นใจมากขึ้น จึงควรใช้ `should`"
+      },
+      {
+        "index": 2,
+        "text": "should",
+        "knowledge_ids": [
+          425,
+          238,
+          430
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **should** ใช้คาดการณ์เชิงคาดหวังเชิงบวก “น่าจะ” ตามเหตุผล โครงสร้าง __should + base verb__ เช่น `He should pass the exam.` ตัวอย่างเพิ่ม: `Traffic should be lighter on Sunday.`"
+      },
+      {
+        "index": 3,
+        "text": "must",
+        "knowledge_ids": [
+          423,
+          241,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "แรงเกิน **must** ใช้ suy แบบมั่นใจมากจากหลักฐานแน่น เช่น `He must be the winner.` ที่นี่เป็นการคาดการณ์ แม้มีเหตุผลดี แต่ยังไม่ชัวร์ 100% ใช้ `should` เหมาะกว่า"
+      },
+      {
+        "index": 4,
+        "text": "can",
+        "knowledge_ids": [
+          426,
+          238,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเป้า **can** เน้นความสามารถทั่วไป เช่น `He can pass.` ฟังแปลกในการคาดการณ์ผลสอบ เราใช้ `should` เพื่อบอกว่า “น่าจะผ่าน” ตามเหตุผล"
+      }
+    ]
+  }
+]

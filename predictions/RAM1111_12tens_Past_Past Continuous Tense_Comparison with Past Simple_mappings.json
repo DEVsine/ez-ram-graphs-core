@@ -1,0 +1,566 @@
+[
+  {
+    "question": "I ___ dinner when the phone rang.",
+    "question_knowledge_ids": [
+      251,
+      253,
+      256,
+      260,
+      264
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was cooking",
+        "knowledge_ids": [
+          251,
+          253,
+          256
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นเหตุการณ์ยาวที่เกิดขึ้นอยู่ แล้วมีเหตุการณ์สั้น (**Past Simple**) มาขัดจังหวะด้วย `rang` โครงสร้างที่ใช้คือ __was/were + V-ing__ ซึ่งเป็น **Past Continuous** เช่น `I was cooking dinner when the phone rang.` ตัวอย่างใช้จริง: `I was studying when my friend called.`"
+      },
+      {
+        "index": 2,
+        "text": "cooked",
+        "knowledge_ids": [
+          266,
+          289
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ **Past Simple** ทั้งสองฝั่ง จะทำให้ไม่เห็นภาพ “กำลังกระทำอยู่” ก่อนโดนขัดจังหวะ รูปที่ถูกต้องคือ **Past Continuous** + **Past Simple** เช่น `I was cooking when the phone rang.` ไม่ใช่ `I cooked when the phone rang.`"
+      },
+      {
+        "index": 3,
+        "text": "was cook",
+        "knowledge_ids": [
+          291,
+          264
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะตามหลัง `was` ต้องเป็น **V-ing** ไม่ใช่รูปฐาน `cook` รูปที่ถูกต้องคือ `was cooking` เช่น `She was reading when I arrived.` ไม่ใช่ `She was read when I arrived.`"
+      },
+      {
+        "index": 4,
+        "text": "am cooking",
+        "knowledge_ids": [
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous** แต่ประโยคนี้เล่าอดีต (มี `rang`) จึงต้องใช้ **Past Continuous** เช่น `was cooking` ตัวอย่างเทียบ: `I am cooking now` (ปัจจุบัน) vs `I was cooking when the phone rang` (อดีต)"
+      }
+    ]
+  },
+  {
+    "question": "While they ___ soccer, it started to snow.",
+    "question_knowledge_ids": [
+      251,
+      253,
+      256,
+      260,
+      263,
+      264
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "were playing",
+        "knowledge_ids": [
+          251,
+          253,
+          263
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะหลัง **while** มักใช้ **เหตุการณ์ที่กำลังดำเนินอยู่** เป็น **Past Continuous** โครงสร้างคือ __was/were + V-ing__ เช่น `While they were playing soccer, it started to snow.` ตัวอย่างเพิ่ม: `While I was walking home, it began to rain.`"
+      },
+      {
+        "index": 2,
+        "text": "played",
+        "knowledge_ids": [
+          266,
+          289
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **played** เป็น **Past Simple** ซึ่งใช้กับเหตุการณ์สั้นจบแล้ว ไม่ได้สื่อว่ากำลังดำเนินอยู่ หลัง `while` ควรใช้ **Past Continuous** เช่น `while they were playing` ไม่ใช่ `while they played`"
+      },
+      {
+        "index": 3,
+        "text": "was playing",
+        "knowledge_ids": [
+          380,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน `they` เป็นพหูพจน์ ควรใช้ `were` ไม่ใช่ `was` โครงสร้างที่ถูกคือ `they were playing` เช่น `They were playing when I arrived.`"
+      },
+      {
+        "index": 4,
+        "text": "are playing",
+        "knowledge_ids": [
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous** แต่ประโยคหลักเป็นอดีต (`started`) จึงต้องสอดคล้องเป็นอดีตด้วย ใช้ `were playing` จะถูกต้องกว่า"
+      }
+    ]
+  },
+  {
+    "question": "She dropped her keys while she ___ to open the door.",
+    "question_knowledge_ids": [
+      251,
+      253,
+      260,
+      264
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was trying",
+        "knowledge_ids": [
+          251,
+          253
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะหลัง `while` ใช้บอกการกระทำที่กำลังดำเนินอยู่ในอดีต จึงใช้ **Past Continuous** โครงสร้าง __was/were + V-ing__ เช่น `She dropped her keys while she was trying to open the door.` ตัวอย่างเพิ่ม: `I cut my finger while I was cooking.`"
+      },
+      {
+        "index": 2,
+        "text": "tried",
+        "knowledge_ids": [
+          266,
+          289
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `tried` เป็น **Past Simple** ทำให้ทั้งสองเหตุการณ์ดูสั้นและจบพร้อมกัน ไม่สื่อภาพ “ระหว่างที่กำลังพยายาม” ควรใช้ `was trying` เช่น `She dropped her keys while she was trying...`"
+      },
+      {
+        "index": 3,
+        "text": "is trying",
+        "knowledge_ids": [
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นปัจจุบัน แต่ประโยคเล่าอดีต (`dropped`) รูปที่ถูกต้องคือ **Past Continuous**: `was trying` เช่น `She was trying to open the door when it happened.`"
+      },
+      {
+        "index": 4,
+        "text": "was tried",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปถูกกระทำ (**Passive**) ซึ่งไม่ตรงความหมายที่เธอเป็นผู้กระทำการ `try` เอง ควรใช้รูปกริยากำลังกระทำ `was trying` เช่น `She was trying to open the door.`"
+      }
+    ]
+  },
+  {
+    "question": "When I ___ the message, I was walking to work.",
+    "question_knowledge_ids": [
+      306,
+      314,
+      260,
+      256
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "saw",
+        "knowledge_ids": [
+          306,
+          314
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเหตุการณ์สั้นที่ขัดจังหวะใช้ **Past Simple** ส่วนฉากหลังใช้ **Past Continuous** โครงสร้างคือ __Past Simple (V2) + when + Past Continuous__ หรือสลับตำแหน่งได้ เช่น `When I saw the message, I was walking to work.` ตัวอย่างเพิ่ม: `When he called, I was driving.`"
+      },
+      {
+        "index": 2,
+        "text": "was seeing",
+        "knowledge_ids": [
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `see` มักใช้เป็นเหตุการณ์สั้น/รับรู้ทันที และในที่นี้ควรเป็น **Past Simple** (`saw`) ไม่ใช่ **Past Continuous** เช่น `When I saw the message, ...` ไม่ใช่ `When I was seeing the message, ...`"
+      },
+      {
+        "index": 3,
+        "text": "see",
+        "knowledge_ids": [
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปปัจจุบัน (`see`) แต่ประโยคเล่าอดีตทั้งประโยค ต้องใช้ **Past Simple**: `saw` ตัวอย่างที่ถูก: `When I saw the message, I was walking to work.`"
+      },
+      {
+        "index": 4,
+        "text": "had seen",
+        "knowledge_ids": [
+          280,
+          281
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Perfect** ซึ่งใช้เมื่อต้องเน้นว่าเหตุการณ์หนึ่งเกิดก่อนอีกเหตุการณ์หนึ่งในอดีตแบบชัดเจน ที่นี่เราเพียงเทียบเหตุการณ์สั้นกับฉากหลัง จึงใช้ `saw` พอ เช่น `When I saw the message, I was walking to work.`"
+      }
+    ]
+  },
+  {
+    "question": "We ___ TV when the lights went out.",
+    "question_knowledge_ids": [
+      251,
+      253,
+      256,
+      260,
+      263,
+      264
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "were watching",
+        "knowledge_ids": [
+          251,
+          253,
+          263
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปนี้คือ **Past Continuous** ใช้บอกกิจกรรมที่กำลังดำเนินอยู่ในอดีต แล้วถูกเหตุการณ์สั้น (**Past Simple**) มาขัดจังหวะ โครงสร้าง __was/were + V-ing__ เช่น `We were watching TV when the lights went out.` ตัวอย่างเพิ่ม: `They were eating when the doorbell rang.`"
+      },
+      {
+        "index": 2,
+        "text": "watched",
+        "knowledge_ids": [
+          266,
+          289
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ **Past Simple** ทำให้ไม่แสดงว่าเหตุการณ์กำลังดำเนินอยู่ก่อนดับไฟ รูปที่ถูกต้องคือ `were watching` เช่น `We were watching TV when...`"
+      },
+      {
+        "index": 3,
+        "text": "was watching",
+        "knowledge_ids": [
+          262,
+          380
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน `We` เป็นพหูพจน์ ต้องใช้ `were` ไม่ใช่ `was` รูปที่ถูกคือ `We were watching ...`"
+      },
+      {
+        "index": 4,
+        "text": "have been watching",
+        "knowledge_ids": [
+          274,
+          278
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Perfect Continuous** ซึ่งใช้กับช่วงเวลาตั้งแต่อดีตถึงปัจจุบัน แต่ประโยคนี้เป็นเหตุการณ์อดีตจบแล้ว จึงใช้ **Past Continuous**: `were watching`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ home when he met an old friend.",
+    "question_knowledge_ids": [
+      251,
+      253,
+      256,
+      264
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was walking",
+        "knowledge_ids": [
+          251,
+          253
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Past Continuous** เพื่อบอกกิจกรรมที่กำลังดำเนินอยู่ในอดีต และมีเหตุการณ์สั้น (**Past Simple: met**) เกิดขึ้น โครงสร้างคือ __was/were + V-ing__ เช่น `He was walking home when he met an old friend.` ตัวอย่างเพิ่ม: `I was heading to class when it started to rain.`"
+      },
+      {
+        "index": 2,
+        "text": "walked",
+        "knowledge_ids": [
+          266,
+          289
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `walked` ทำให้ทั้งสองเหตุการณ์ดูเป็น **Past Simple** ทั้งคู่ ไม่สื่อว่ากำลังเกิดอยู่ก่อนถูกขัดจังหวะ ควรใช้ `was walking` เพื่อเป็นฉากหลัง"
+      },
+      {
+        "index": 3,
+        "text": "is walking",
+        "knowledge_ids": [
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นปัจจุบัน แต่เหตุการณ์ทั้งหมดอยู่ในอดีต (`met`) ควรใช้ **Past Continuous**: `was walking`"
+      },
+      {
+        "index": 4,
+        "text": "was walked",
+        "knowledge_ids": [
+          267
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Passive Voice** (ถูกเดิน) ซึ่งไม่เข้ากับความหมายว่าผู้กระทำกำลังเดินเอง ต้องใช้กริยากระทำ `was walking`"
+      }
+    ]
+  },
+  {
+    "question": "The children were sleeping when the neighbors ___ home.",
+    "question_knowledge_ids": [
+      306,
+      256,
+      260,
+      314
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "arrived",
+        "knowledge_ids": [
+          306,
+          314
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เหตุการณ์สั้นที่เกิดขึ้นคือการมาถึง จึงใช้ **Past Simple** โครงสร้างคือ __Past Continuous (ฉากหลัง) + when + Past Simple (ขัดจังหวะ)__ เช่น `The children were sleeping when the neighbors arrived.` ตัวอย่างเพิ่ม: `I was reading when my mom came in.`"
+      },
+      {
+        "index": 2,
+        "text": "were arriving",
+        "knowledge_ids": [
+          254,
+          289
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะการมาถึงปกติเป็นเหตุการณ์สั้น ไม่ควรยืดให้เป็น **Past Continuous** ที่นี่เราต้องการเน้นการมาถึงในจังหวะหนึ่ง ใช้ `arrived` จะชัดกว่า"
+      },
+      {
+        "index": 3,
+        "text": "arrive",
+        "knowledge_ids": [
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปปัจจุบัน แต่ประโยคอยู่ในอดีตทั้งหมด ต้องใช้ **Past Simple**: `arrived` เช่น `... when the neighbors arrived.`"
+      },
+      {
+        "index": 4,
+        "text": "had arrived",
+        "knowledge_ids": [
+          280,
+          285
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Perfect** ซึ่งใช้เมื่อต้องเน้นลำดับก่อน-หลังอย่างชัดเจน ที่นี่แค่เหตุการณ์สั้นมาตัดฉากหลัง ใช้ `arrived` พอ เช่น `were sleeping when ... arrived.`"
+      }
+    ]
+  },
+  {
+    "question": "I hurt my ankle while I ___.",
+    "question_knowledge_ids": [
+      251,
+      253,
+      260,
+      264
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was running",
+        "knowledge_ids": [
+          251,
+          253
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง หลัง `while` ใช้ **Past Continuous** เพื่อบอกว่ากำลังทำบางอย่างอยู่ โครงสร้างคือ __was/were + V-ing__ เช่น `I hurt my ankle while I was running.` ตัวอย่างเพิ่ม: `He lost his keys while he was jogging.`"
+      },
+      {
+        "index": 2,
+        "text": "ran",
+        "knowledge_ids": [
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `ran` เป็น **Past Simple** ไม่สื่อความหมาย “ระหว่างที่กำลังวิ่ง” ควรใช้ `was running` หลัง `while` เพื่อบอกกิจกรรมต่อเนื่อง"
+      },
+      {
+        "index": 3,
+        "text": "am running",
+        "knowledge_ids": [
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปปัจจุบัน แต่เหตุการณ์เป็นอดีต (`hurt`) ต้องใช้ **Past Continuous**: `was running` เช่น `I hurt my ankle while I was running.`"
+      },
+      {
+        "index": 4,
+        "text": "was run",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **Passive** (ถูกวิ่ง) และรูปกริยาก็ไม่ถูก หลัง `was` ควรเป็น V-ing: `was running` ตัวอย่างที่ถูก: `She was running when it started to rain.`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ breakfast when the fire alarm went off.",
+    "question_knowledge_ids": [
+      251,
+      253,
+      256,
+      260,
+      264
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was making",
+        "knowledge_ids": [
+          251,
+          253
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Past Continuous** เพื่อบอกฉากหลัง แล้วมีเหตุการณ์สั้น (**went off**) มาขัดจังหวะ โครงสร้าง __was/were + V-ing__ เช่น `She was making breakfast when the fire alarm went off.` ตัวอย่างเพิ่ม: `I was cooking when the lights went out.`"
+      },
+      {
+        "index": 2,
+        "text": "made",
+        "knowledge_ids": [
+          266,
+          289
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ **Past Simple** ทำให้ไม่เห็นภาพว่ากำลังทำอยู่ก่อนสัญญาณดัง ควรใช้ `was making` เพื่อสื่อว่ากำลังดำเนินอยู่"
+      },
+      {
+        "index": 3,
+        "text": "is making",
+        "knowledge_ids": [
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นปัจจุบัน แต่ประโยคนี้เป็นอดีต (`went off`) ต้องใช้ **Past Continuous**: `was making`"
+      },
+      {
+        "index": 4,
+        "text": "was made",
+        "knowledge_ids": [
+          267
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Passive** แปลว่า “ถูกทำ” ซึ่งไม่ตรงกับความหมายว่าผู้หญิงคนนั้นเป็นคนทำอาหารเอง รูปที่ถูกคือ `was making`"
+      }
+    ]
+  },
+  {
+    "question": "When the teacher entered, we ___ about the homework.",
+    "question_knowledge_ids": [
+      251,
+      253,
+      256,
+      260,
+      263,
+      264
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "were talking",
+        "knowledge_ids": [
+          251,
+          253,
+          263
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เหตุการณ์สั้นคือ `entered` (Past Simple) ส่วนฉากหลังคือการคุยที่กำลังดำเนินอยู่ จึงใช้ **Past Continuous** โครงสร้าง __was/were + V-ing__ เช่น `When the teacher entered, we were talking about the homework.` ตัวอย่างเพิ่ม: `When she arrived, they were discussing the plan.`"
+      },
+      {
+        "index": 2,
+        "text": "talked",
+        "knowledge_ids": [
+          266,
+          289
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple** ทำให้ไม่สื่อว่ากำลังคุยอยู่ตอนคุณครูเข้ามา ใช้ `were talking` จะชัดว่าเป็นฉากหลัง"
+      },
+      {
+        "index": 3,
+        "text": "are talking",
+        "knowledge_ids": [
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นปัจจุบัน ไม่สอดคล้องกับ `entered` ที่เป็นอดีต ต้องใช้ **Past Continuous**: `were talking`"
+      },
+      {
+        "index": 4,
+        "text": "was talking",
+        "knowledge_ids": [
+          262,
+          380
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน `we` เป็นพหูพจน์ ต้องใช้ `were` ไม่ใช่ `was` รูปที่ถูกคือ `we were talking`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ to music when my laptop suddenly crashed.",
+    "question_knowledge_ids": [
+      251,
+      253,
+      256,
+      260,
+      264,
+      289
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was listening",
+        "knowledge_ids": [
+          251,
+          253,
+          256,
+          260
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Past Continuous** เพื่อบอกว่ากำลังฟังเพลงอยู่ แล้วมีเหตุการณ์สั้น (**crashed**) เกิดขึ้น โครงสร้างคือ __was/were + V-ing__ เช่น `I was listening to music when my laptop suddenly crashed.` ตัวอย่างเพิ่ม: `I was browsing the web when the Wi‑Fi went down.`"
+      },
+      {
+        "index": 2,
+        "text": "listened",
+        "knowledge_ids": [
+          266,
+          289,
+          310
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะทำให้ทั้งสองเหตุการณ์เป็น **Past Simple** ไม่เห็นภาพฉากหลัง ต้องใช้ `was listening` เพื่อบอกว่ากำลังเกิดอยู่ตอนที่คอมพัง"
+      },
+      {
+        "index": 3,
+        "text": "am listening",
+        "knowledge_ids": [
+          328,
+          318,
+          338
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นปัจจุบัน แต่เหตุการณ์อยู่ในอดีต (`crashed`) จึงต้องใช้ **Past Continuous**: `was listening`"
+      },
+      {
+        "index": 4,
+        "text": "was listened",
+        "knowledge_ids": [
+          267,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **Passive** ซึ่งไม่เข้ากับความหมายที่ผู้พูดเป็นคนฟังเอง รูปที่ถูกคือ `was listening` เช่น `I was listening to music when...`"
+      }
+    ]
+  }
+]

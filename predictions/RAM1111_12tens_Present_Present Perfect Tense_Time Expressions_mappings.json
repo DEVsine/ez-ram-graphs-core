@@ -1,0 +1,523 @@
+[
+  {
+    "question": "We have lived in this city ___ 2010.",
+    "question_knowledge_ids": [
+      354,
+      374,
+      366
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "since",
+        "knowledge_ids": [
+          354,
+          374
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะใช้ **since** กับจุดเริ่มต้นของเวลา เช่น ปี/เดือน/วัน/เวลา โครงสร้างคือ __have/has + V3 + since + จุดเริ่มต้นเวลา__. ตัวอย่าง: `We have lived in this city since 2010.` แปลว่าเราเริ่มอยู่ตั้งแต่ปี 2010 และยังอยู่จนถึงปัจจุบัน"
+      },
+      {
+        "index": 2,
+        "text": "for",
+        "knowledge_ids": [
+          354,
+          374,
+          217
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **for** ใช้กับ “ระยะเวลา” ไม่ใช่ “จุดเริ่มต้น” เช่น `for five years`, `for two months`. ถ้าจะใช้ **for** ต้องเปลี่ยนข้อมูลเป็นระยะเวลา: `We have lived in this city for 14 years.`"
+      },
+      {
+        "index": 3,
+        "text": "from",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใน Present Perfect เราไม่ใช้ **from** บอกจุดเริ่มต้นแบบเดี่ยวๆ ต้องใช้ **since** แทน เช่น `since 2010`. ตัวอย่างที่ถูก: `They have worked here since March.`"
+      },
+      {
+        "index": 4,
+        "text": "in",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **in 2010** บอกช่วงเวลาเฉพาะอดีต มักใช้กับ **Past Simple** เช่น `We lived in this city in 2010.` แต่ถ้าจะบอก “ตั้งแต่ 2010 จนถึงตอนนี้” ต้องใช้ `since 2010` กับ Present Perfect"
+      }
+    ]
+  },
+  {
+    "question": "She has worked here ___ five years.",
+    "question_knowledge_ids": [
+      354,
+      374,
+      366
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "for",
+        "knowledge_ids": [
+          354,
+          374,
+          217
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **for** ใช้กับ “ระยะเวลา” เช่น `for five years`, `for a long time`. โครงสร้างคือ __have/has + V3 + for + ระยะเวลา__ เช่น: `She has worked here for five years.`"
+      },
+      {
+        "index": 2,
+        "text": "since",
+        "knowledge_ids": [
+          354,
+          374
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **since** ต้องตามด้วย “จุดเริ่มต้นเวลา” เช่น `since 2019`, `since last Monday`. ถ้าจะใช้ since ต้องเปลี่ยนเป็น: `She has worked here since 2019.`"
+      },
+      {
+        "index": 3,
+        "text": "during",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **during** ใช้กับช่วงเหตุการณ์/ช่วงเวลาแบบคำนาม เช่น `during the meeting`, ไม่ใช้กับระยะเวลาแบบตัวเลขโดยตรงใน Present Perfect. ประโยคที่ถูกต้องคือ `for five years`"
+      },
+      {
+        "index": 4,
+        "text": "by",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **by** ใช้บอกเส้นตายหรือก่อนเวลา เช่น `by 5 p.m.` หรือใช้ใน Passive ว่า “โดยใคร” ไม่ได้ใช้แทน **for** หรือ **since** ใน Present Perfect"
+      }
+    ]
+  },
+  {
+    "question": "Have you ___ been to Japan?",
+    "question_knowledge_ids": [
+      375,
+      366,
+      368,
+      194
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "ever",
+        "knowledge_ids": [
+          375
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **ever** ในประโยคคำถามของ Present Perfect เพื่อถามว่า “เคยไหม” โครงสร้างคือ __Have/Has + S + ever + V3 ?__ เช่น: `Have you ever been to Japan?` หรือ `Has she ever tried sushi?`"
+      },
+      {
+        "index": 2,
+        "text": "never",
+        "knowledge_ids": [
+          375
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **never** ใช้ในประโยคบอกเล่าเพื่อให้ความหมายปฏิเสธ เช่น `I have never been to Japan.` แต่ในประโยคคำถามควรใช้ **ever** ไม่ใช้ `Have you never ...?` เว้นแต่เน้นน้ำเสียงพิเศษ"
+      },
+      {
+        "index": 3,
+        "text": "yet",
+        "knowledge_ids": [
+          376
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **yet** ใช้กับประโยคคำถาม/ปฏิเสธ แต่ความหมายคือ “แล้วหรือยัง/ยังไม่” และมักวางท้ายประโยค เช่น `Have you finished yet?` ไม่เหมาะกับคำถาม “เคยไหม” ซึ่งต้องใช้ **ever**"
+      },
+      {
+        "index": 4,
+        "text": "just",
+        "knowledge_ids": [
+          370,
+          355
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **just** แปลว่า “พึ่งจะ” ใช้กับเหตุการณ์สดๆ ร้อนๆ เช่น `I have just arrived.` ไม่ใช้ในคำถามความหมาย “เคยไหม” ดังนั้นต้องใช้ **ever** แทน"
+      }
+    ]
+  },
+  {
+    "question": "I haven't finished my homework ___.",
+    "question_knowledge_ids": [
+      376,
+      366,
+      193
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "yet",
+        "knowledge_ids": [
+          376,
+          286
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **yet** ใช้กับประโยคปฏิเสธและคำถาม และวางท้ายประโยค โครงสร้างคือ __haven't/hasn't + V3 + yet__ เช่น: `I haven't finished my homework yet.` หมายถึง “ยังไม่เสร็จจนถึงตอนนี้”"
+      },
+      {
+        "index": 2,
+        "text": "already",
+        "knowledge_ids": [
+          376,
+          286
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **already** ใช้กับประโยคบอกเล่าเพื่อสื่อว่า “เรียบร้อยแล้ว” เช่น `I have already finished.` ไม่ใช้กับปฏิเสธแบบนี้ ถ้าจะสื่อว่ายังไม่เสร็จต้องใช้ **yet**"
+      },
+      {
+        "index": 3,
+        "text": "just",
+        "knowledge_ids": [
+          376
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **just** แปลว่า “พึ่งจะ” และใช้กับประโยคบอกเล่า เช่น `I have just finished.` ไม่ได้ใช้เพื่อสื่อ “ยังไม่” เหมือน **yet**"
+      },
+      {
+        "index": 4,
+        "text": "ever",
+        "knowledge_ids": [
+          375
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **ever** ใช้ในประโยคคำถามเพื่อถามว่า “เคยไหม” เช่น `Have you ever seen it?` ไม่ใช้ในประโยคปฏิเสธแบบนี้ ต้องใช้ **yet**"
+      }
+    ]
+  },
+  {
+    "question": "He has ___ left the office.",
+    "question_knowledge_ids": [
+      376,
+      192
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "already",
+        "knowledge_ids": [
+          376,
+          286,
+          355
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **already** ใช้กับประโยคบอกเล่าเพื่อบอกว่า “เรียบร้อยแล้ว/เกิดขึ้นแล้ว” ตำแหน่งคือ __have/has + already + V3__ เช่น: `He has already left the office.` หรือ `I have already eaten.`"
+      },
+      {
+        "index": 2,
+        "text": "yet",
+        "knowledge_ids": [
+          376,
+          286
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **yet** ไว้ท้ายประโยคในคำถาม/ปฏิเสธ ไม่ใช้ในประโยคบอกเล่าแบบนี้ เช่นควรเป็น `He hasn’t left the office yet.` ถ้าจะใช้ **yet**"
+      },
+      {
+        "index": 3,
+        "text": "ever",
+        "knowledge_ids": [
+          375
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **ever** ใช้ในประโยคคำถาม เช่น `Has he ever left early?` ไม่ใช้ในประโยคบอกเล่าที่สื่อ “เรียบร้อยแล้ว” ต้องใช้ **already**"
+      },
+      {
+        "index": 4,
+        "text": "since",
+        "knowledge_ids": [
+          354,
+          374
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **since** เป็นตัวบอกจุดเริ่มต้นของเวลา และตามด้วยคำนามเวลา/ประโยคย่อย เช่น `since 9 a.m.` หรือ `since he arrived` ซึ่งไม่เข้ากับช่องว่างนี้"
+      }
+    ]
+  },
+  {
+    "question": "They have ___ arrived.",
+    "question_knowledge_ids": [
+      370,
+      355
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "just",
+        "knowledge_ids": [
+          370,
+          355
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **just** แปลว่า “พึ่งจะ” ใช้ใน Present Perfect เพื่อบอกเหตุการณ์ที่เกิดเมื่อไม่นานมานี้ โครงสร้างคือ __have/has + just + V3__ เช่น: `They have just arrived.` หรือ `She has just called.`"
+      },
+      {
+        "index": 2,
+        "text": "yet",
+        "knowledge_ids": [
+          376,
+          286
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **yet** ใช้กับคำถาม/ปฏิเสธและวางท้ายประโยค เช่น `Have they arrived yet?` หรือ `They haven't arrived yet.` ไม่วางหน้ากริยาแบบนี้"
+      },
+      {
+        "index": 3,
+        "text": "since",
+        "knowledge_ids": [
+          354,
+          374
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **since** ใช้บอกจุดเริ่มต้นเวลา เช่น `since morning` ไม่ใช่ adverb บอก “พึ่งจะ” ดังนั้นใช้ **just** จะถูกต้องกว่า"
+      },
+      {
+        "index": 4,
+        "text": "for",
+        "knowledge_ids": [
+          358,
+          217
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **for** ใช้กับระยะเวลา เช่น `for two hours` ไม่ได้ใช้หน้ากริยาในรูปนี้ ประโยคนี้ต้องการ adverb ที่บอกว่า “พึ่งมาถึง” คือ **just**"
+      }
+    ]
+  },
+  {
+    "question": "I have seen three movies ___.",
+    "question_knowledge_ids": [
+      377,
+      367
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "so far",
+        "knowledge_ids": [
+          377
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **so far** แปลว่า “จนถึงตอนนี้” ใช้คู่กับ Present Perfect เพื่อสรุปผลสะสม โครงสร้างคือ __have/has + V3 + so far__ เช่น: `I have seen three movies so far.` หรือ `We have raised $500 so far.`"
+      },
+      {
+        "index": 2,
+        "text": "lately",
+        "knowledge_ids": [
+          378
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะ เพราะ **lately** เน้นช่วงหลังๆ มานี้ แต่มักใช้กับรูปปฏิเสธ/คำถาม เช่น `I haven't gone out lately.` ประโยคนี้ต้องการสรุปจำนวน “จนถึงตอนนี้” จึงใช้ **so far** ชัดกว่า"
+      },
+      {
+        "index": 3,
+        "text": "since",
+        "knowledge_ids": [
+          354,
+          374
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **since** ต้องตามด้วยจุดเริ่มต้นเวลา เช่น `since Monday` และต้องมีข้อมูลต่อท้าย ไม่ใช้เดี่ยวๆ วางท้ายประโยคแบบนี้"
+      },
+      {
+        "index": 4,
+        "text": "for",
+        "knowledge_ids": [
+          358,
+          217
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **for** ต้องตามด้วยระยะเวลา เช่น `for three days` และต้องวางหลัง V3 แล้วต่อด้วยระยะเวลา ไม่สามารถวางเดี่ยวๆ ท้ายประโยคโดยไม่บอกระยะได้"
+      }
+    ]
+  },
+  {
+    "question": "We haven't heard from him ___.",
+    "question_knowledge_ids": [
+      378,
+      193
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "lately",
+        "knowledge_ids": [
+          378
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **lately** ใช้กับ Present Perfect ในประโยคปฏิเสธ/คำถาม เพื่อบอกว่า “ช่วงนี้/พักหลังๆ” โครงสร้างโดยรวมคือ __haven't/hasn't + V3 + lately__ เช่น: `We haven't heard from him lately.`"
+      },
+      {
+        "index": 2,
+        "text": "since",
+        "knowledge_ids": [
+          354,
+          374
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ครบ เพราะถ้าใช้ **since** ต้องมีจุดเริ่มต้นตามหลัง เช่น `since last week` ไม่สามารถวาง **since** เดี่ยวๆ ท้ายประโยคได้ ตัวอย่างที่ถูก: `We haven't heard from him since Monday.`"
+      },
+      {
+        "index": 3,
+        "text": "for",
+        "knowledge_ids": [
+          358,
+          217
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ครบ เพราะ **for** ต้องตามด้วย “ระยะเวลา” เช่น `for two weeks` ถ้าใช้เดี่ยวๆ จะขาดข้อมูล เช่นควรเป็น `We haven't heard from him for two weeks.`"
+      },
+      {
+        "index": 4,
+        "text": "already",
+        "knowledge_ids": [
+          376,
+          286
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **already** ใช้กับประโยคบอกเล่าเพื่อบอกว่า “เรียบร้อยแล้ว” เช่น `We have already called him.` ไม่เข้ากับประโยคปฏิเสธที่สื่อว่า “ยังไม่ได้ติดต่อช่วงนี้”"
+      }
+    ]
+  },
+  {
+    "question": "Sales have increased ___ this year.",
+    "question_knowledge_ids": [
+      377,
+      331
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "so far",
+        "knowledge_ids": [
+          377
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **so far** แปลว่า “จนถึงตอนนี้” เหมาะกับการสรุปผลที่เกิดขึ้นตั้งแต่ต้นปีถึงปัจจุบัน โครงสร้างคือ __have/has + V3 + time expression (so far)__ เช่น: `Sales have increased so far this year.`"
+      },
+      {
+        "index": 2,
+        "text": "since",
+        "knowledge_ids": [
+          354,
+          374
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ครบ เพราะถ้าใช้ **since** ต้องตามด้วยจุดเริ่มต้น เช่น `since January` และต้องไม่ตามด้วย `this year` แบบนี้ ถ้าจะใช้ต้องเขียนว่า `since the beginning of the year`"
+      },
+      {
+        "index": 3,
+        "text": "for",
+        "knowledge_ids": [
+          358,
+          217
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง เพราะ **for** ใช้กับระยะเวลา เช่น `for six months` ไม่ใช่กับ `this year` ที่เป็นช่วงปีเฉพาะ ควรเปลี่ยนเป็น `for the past six months` ถ้าจะใช้ **for**"
+      },
+      {
+        "index": 4,
+        "text": "recently",
+        "knowledge_ids": [
+          378
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ชัดเท่า **so far** เพราะ `recently` เน้น “เมื่อไม่นานมานี้” แต่ประโยคนี้ต้องการสรุปผลสะสม “จนถึงตอนนี้ของปีนี้” ซึ่งใช้ **so far** จะแม่นกว่า เช่น `Sales have increased so far this year.`"
+      }
+    ]
+  },
+  {
+    "question": "Has he finished the report ___?",
+    "question_knowledge_ids": [
+      376,
+      194
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "yet",
+        "knowledge_ids": [
+          376,
+          286
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **yet** ใช้ในประโยคคำถามเพื่อถามว่า “เรียบร้อยหรือยัง” และวางท้ายประโยค โครงสร้างคือ __Has/Have + S + V3 + yet?__ เช่น: `Has he finished the report yet?`"
+      },
+      {
+        "index": 2,
+        "text": "already",
+        "knowledge_ids": [
+          376
+        ],
+        "is_correct": false,
+        "answer_description": "มักไม่ใช้ในคำถามธรรมดาแบบนี้ เพราะ **already** ให้ความรู้สึกแปลกใจ/คาดไม่ถึง เช่น `Has he already finished?` ถ้าถามทั่วไปว่า “เสร็จยัง” ใช้ **yet** จะเป็นธรรมชาติกว่า"
+      },
+      {
+        "index": 3,
+        "text": "ever",
+        "knowledge_ids": [
+          375
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจุด เพราะ **ever** ใช้ถามว่า “เคยไหม” เกี่ยวกับประสบการณ์ เช่น `Has he ever finished a report alone?` ประโยคนี้ถามความคืบหน้า “เสร็จหรือยัง” ต้องใช้ **yet**"
+      },
+      {
+        "index": 4,
+        "text": "just",
+        "knowledge_ids": [
+          370,
+          355
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **just** ใช้บอกว่า “พึ่งจะ” ในประโยคบอกเล่า เช่น `He has just finished.` ไม่ได้ใช้ท้ายประโยคคำถามแบบนี้"
+      }
+    ]
+  },
+  {
+    "question": "I've known her ___ we were in high school.",
+    "question_knowledge_ids": [
+      272,
+      354,
+      374
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "since",
+        "knowledge_ids": [
+          272,
+          354,
+          374
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **since** ใช้กับ “จุดเริ่มต้น” ซึ่งอาจเป็นประโยคย่อยที่มี Past Simple ก็ได้ โครงสร้างคือ __have/has + V3 + since + S + Past Simple__ เช่น: `I've known her since we were in high school.`"
+      },
+      {
+        "index": 2,
+        "text": "for",
+        "knowledge_ids": [
+          217,
+          354,
+          374
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **for** ต้องตามด้วย “ระยะเวลา” เช่น `for ten years` ไม่ตามด้วยประโยคย่อย ถ้าจะใช้ **for** ต้องเขียนว่า `I've known her for ten years.`"
+      },
+      {
+        "index": 3,
+        "text": "from",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเราไม่ใช้ **from** แทน **since** ใน Present Perfect เพื่อบอกจุดเริ่มต้นเวลา ประโยคที่ถูกต้องคือ `since we were in high school.`"
+      },
+      {
+        "index": 4,
+        "text": "during",
+        "knowledge_ids": [
+          202
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **during** ใช้กับคำนามช่วงเหตุการณ์ เช่น `during high school` แต่จะไม่ได้สื่อความต่อเนื่องถึงปัจจุบันแบบ Present Perfect เท่ากับ `since ...`"
+      }
+    ]
+  }
+]

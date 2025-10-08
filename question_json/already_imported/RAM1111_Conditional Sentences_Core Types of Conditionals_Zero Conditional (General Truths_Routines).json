@@ -1,0 +1,292 @@
+[
+  {
+    "question": "If you ___ water to 100°C, it boils.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "heat",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **Zero Conditional** ใช้รูปปัจจุบันง่ายทั้งสองข้าง: __if + present simple, present simple__. ตัวอย่างเช่น `If you heat water to 100°C, it boils.` ใช้พูดถึงความจริงทั่วไป/กฎธรรมชาติ เช่น `If you cool water below 0°C, it freezes.`"
+      },
+      {
+        "index": 2,
+        "text": "will heat",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Zero Conditional** ไม่ใช้ **will** ในอนุประโยคเงื่อนไข เราใช้ **present simple** แทน เช่นควรเป็น `If you heat water..., it boils.` การใช้ `will heat` เหมาะกับเงื่อนไขชนิดอื่น ไม่ใช่ความจริงทั่วไป."
+      },
+      {
+        "index": 3,
+        "text": "heated",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **past simple** ซึ่งไม่เข้ากับ **Zero Conditional** ที่ต้องใช้ **present simple** ทั้งสองด้าน ตัวอย่างที่ถูกคือ `If you heat water..., it boils.` ไม่ใช่ `If you heated water..., it boils.`"
+      },
+      {
+        "index": 4,
+        "text": "are heating",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **present continuous** ซึ่งเน้นเหตุการณ์กำลังเกิดตอนนี้ แต่ **Zero Conditional** ใช้พูดความจริงทั่วไป จึงต้องใช้ **present simple** เช่น `If you heat water..., it boils.`"
+      }
+    ]
+  },
+  {
+    "question": "When the sun ___, ice melts.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "shines",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **present simple** เพื่อบอกความจริงทั่วไปใน **Zero Conditional**: __when + present simple, present simple__. ตัวอย่าง `When the sun shines, ice melts.` และ `When it rains, the temperature drops.`"
+      },
+      {
+        "index": 2,
+        "text": "will shine",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใน **Zero Conditional** เราไม่ใช้ **will** ในอนุประโยคที่ขึ้นต้นด้วย **if/when** ต้องใช้ **present simple** เช่น `When the sun shines, ice melts.` ไม่ใช่ `will shine`."
+      },
+      {
+        "index": 3,
+        "text": "shone",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **past simple** ซึ่งไม่ใช่รูปที่ใช้ใน **Zero Conditional** สำหรับความจริงทั่วไป ควรเป็น `shines` เช่น `When the sun shines, ice melts.`"
+      },
+      {
+        "index": 4,
+        "text": "is shining",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **present continuous** ใช้กับเหตุการณ์กำลังเกิด ณ ตอนนี้ แต่ประโยคนี้พูดกฎทั่วไป จึงต้องใช้ **present simple**: `shines`."
+      }
+    ]
+  },
+  {
+    "question": "If plants don't get water, they ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "die",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **Zero Conditional** คือ __if + present simple, present simple__ และใช้ได้ทั้งรูปปฏิเสธใน if-clause (`don't get`) และกริยาธรรมดาในผลลัพธ์ `die`. ตัวอย่าง `If plants don't get sunlight, they die.`"
+      },
+      {
+        "index": 2,
+        "text": "will die",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะผลลัพธ์ใน **Zero Conditional** ต้องใช้ **present simple** ไม่ใช่ **will** เช่น `they die` ไม่ใช่ `they will die`. รูปที่ถูกคือ `If plants don't get water, they die.`"
+      },
+      {
+        "index": 3,
+        "text": "dies",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **they** (พหูพจน์) จึงต้องใช้กริยา **ไม่เติม s** คือ `die`. ถ้าเป็นเอกพจน์ เช่น `a plant`, ถึงจะใช้ `dies` ได้: `If a plant doesn't get water, it dies.`"
+      },
+      {
+        "index": 4,
+        "text": "are dying",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **present continuous** ซึ่งบอกเหตุการณ์กำลังเกิด ไม่ใช่ความจริงทั่วไปของ **Zero Conditional** ควรเป็น `die` ใน **present simple**."
+      }
+    ]
+  },
+  {
+    "question": "If you mix red and blue, you ___ purple.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "get",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นกฎทั่วไป ใช้ **Zero Conditional**: __if + present simple, present simple__. ตัวอย่าง `If you mix yellow and blue, you get green.` รูปแบบนี้สื่อผลลัพธ์ที่เกิดขึ้นเสมอ."
+      },
+      {
+        "index": 2,
+        "text": "will get",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่ใช้ **will** ใน **Zero Conditional** เมื่อพูดถึงข้อเท็จจริง/ผลลัพธ์แน่นอน ควรเป็น `you get` ไม่ใช่ `you will get`. ตัวอย่างที่ถูก `If you mix red and blue, you get purple.`"
+      },
+      {
+        "index": 3,
+        "text": "gets",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **you** ซึ่งต้องใช้กริยาไม่เติม s คือ `get`. ถ้าเป็น `it` จึงจะใช้ `gets` เช่น `If it mixes red and blue, it gets purple.` (แต่ฟังแปลกในความหมายนี้)"
+      },
+      {
+        "index": 4,
+        "text": "are getting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **present continuous** ซึ่งไม่ใช่รูปมาตรฐานของ **Zero Conditional** ที่เน้นความจริงทั่วไป ควรใช้ **present simple**: `get`."
+      }
+    ]
+  },
+  {
+    "question": "When people ___ regularly, their health improves.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "exercise",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **present simple** ทั้งสองข้างใน **Zero Conditional**: __when + present simple, present simple__. ตัวอย่าง `When people exercise regularly, their health improves.` และ `When you sleep well, you feel better.`"
+      },
+      {
+        "index": 2,
+        "text": "exercises",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **people** (พหูพจน์) ต้องใช้กริยา **ไม่เติม s** คือ `exercise`. รูป `exercises` ใช้กับเอกพจน์บุรุษที่สาม เช่น `He exercises every day.`"
+      },
+      {
+        "index": 3,
+        "text": "will exercise",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Zero Conditional** ไม่ใช้ **will** ในอนุประโยคที่ขึ้นต้นด้วย **when** ต้องเป็น **present simple** เช่น `When people exercise..., their health improves.`"
+      },
+      {
+        "index": 4,
+        "text": "are exercising",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **present continuous** ซึ่งเน้นเหตุการณ์ชั่วขณะ แต่ประโยคนี้พูดถึงนิสัย/ความจริงทั่วไป จึงควรใช้ **present simple**: `exercise`."
+      }
+    ]
+  },
+  {
+    "question": "If it ___, the ground gets wet.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "rains",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตามรูปแบบ **Zero Conditional**: __if + present simple, present simple__. ตัวอย่าง `If it rains, the ground gets wet.` และ `If it snows, the roads become slippery.`"
+      },
+      {
+        "index": 2,
+        "text": "rain",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **it** (เอกพจน์บุรุษที่สาม) ต้องใช้กริยาที่เติม s คือ `rains`. รูปที่ถูกคือ `If it rains, the ground gets wet.`"
+      },
+      {
+        "index": 3,
+        "text": "will rain",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใน **Zero Conditional** เราไม่ใช้ **will** ใน if-clause เราใช้ **present simple** เช่น `If it rains, ...` ไม่ใช่ `If it will rain, ...`"
+      },
+      {
+        "index": 4,
+        "text": "is raining",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **present continuous** ใช้กับเหตุการณ์กำลังเกิดตอนนี้ แต่ที่นี่เป็นกฎทั่วไป จึงใช้ **present simple**: `rains`."
+      }
+    ]
+  },
+  {
+    "question": "If students study a little every day, they ___ better.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "learn",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นนิสัย/ความจริงทั่วไป ใช้ **Zero Conditional**: __if + present simple, present simple__. ตัวอย่าง `If students study regularly, they learn better.` หรือ `If you practice daily, you improve faster.`"
+      },
+      {
+        "index": 2,
+        "text": "will learn",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะผลลัพธ์ใน **Zero Conditional** ต้องใช้ **present simple** ไม่ใช่ **will**. จึงควรเป็น `they learn better` ไม่ใช่ `they will learn better`."
+      },
+      {
+        "index": 3,
+        "text": "learns",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **they** (พหูพจน์) ต้องใช้กริยาไม่เติม s คือ `learn`. ถ้าประธานเป็นเอกพจน์ เช่น `a student`, จะใช้ `learns`: `If a student studies..., he learns better.`"
+      },
+      {
+        "index": 4,
+        "text": "are learning",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **present continuous** ซึ่งไม่ตรงกับการบอกความจริงทั่วไปใน **Zero Conditional** ควรใช้ `learn` ใน **present simple**."
+      }
+    ]
+  },
+  {
+    "question": "When you ___ the switch, the light turns on.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "press",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคนี้เป็นเหตุ-ผลที่เกิดขึ้นเสมอ ใช้ **Zero Conditional**: __when + present simple, present simple__. ตัวอย่าง `When you press the button, the machine starts.`"
+      },
+      {
+        "index": 2,
+        "text": "pressed",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **past simple** แต่ **Zero Conditional** ต้องใช้ **present simple** เพื่อบอกความจริงทั่วไป ควรเป็น `press` เช่น `When you press the switch, the light turns on.`"
+      },
+      {
+        "index": 3,
+        "text": "will press",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะในอนุประโยคที่ขึ้นด้วย **when** ของ **Zero Conditional** ห้ามใช้ **will** ต้องใช้ **present simple** เท่านั้น เช่น `When you press..., the light turns on.`"
+      },
+      {
+        "index": 4,
+        "text": "are pressing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **present continuous** ซึ่งเน้นเหตุการณ์กำลังเกิด แต่ที่นี่พูดถึงการทำงานทั่วไปของสวิตช์ จึงใช้ **present simple**: `press`."
+      }
+    ]
+  },
+  {
+    "question": "If I ___ coffee at night, I can't sleep.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "drink",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **present simple** ในทั้งสองส่วนของ **Zero Conditional**: __if + present simple, present simple__. ตัวอย่าง `If I drink coffee at night, I can't sleep.` หรือ `If I eat too much sugar, I feel tired later.`"
+      },
+      {
+        "index": 2,
+        "text": "drinks",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **I** ต้องใช้กริยาไม่เติม s คือ `drink`. รูป `drinks` ใช้กับเอกพจน์บุรุษที่สาม เช่น `He drinks coffee at night.`"
+      },
+      {
+        "index": 3,
+        "text": "will drink",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Zero Conditional** ไม่ใช้ **will** ใน if-clause ต้องใช้ **present simple** เช่น `If I drink coffee..., I can't sleep.`"
+      },
+      {
+        "index": 4,
+        "text": "am drinking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **present continuous** ซึ่งเน้นเหตุการณ์ตอนนี้ ไม่ใช่ความจริงตามนิสัย/รูปแบบทั่วไป ควรใช้ `drink` ใน **present simple**."
+      }
+    ]
+  },
+  {
+    "question": "When metal ___, it expands.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "gets hot",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็นกฎวิทยาศาสตร์ ใช้ **Zero Conditional**: __when + present simple, present simple__. ตัวอย่าง `When metal gets hot, it expands.` และ `When water freezes, it expands slightly.`"
+      },
+      {
+        "index": 2,
+        "text": "get hot",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **metal** ถือเป็นเอกพจน์ ต้องใช้กริยาเอกพจน์ `gets` ไม่ใช่ `get`. รูปที่ถูกคือ `When metal gets hot, it expands.`"
+      },
+      {
+        "index": 3,
+        "text": "will get hot",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Zero Conditional** ไม่ใช้ **will** ในอนุประโยคที่ขึ้นด้วย **when** ต้องใช้ **present simple** เช่น `When metal gets hot, it expands.`"
+      },
+      {
+        "index": 4,
+        "text": "is getting hot",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **present continuous** ซึ่งไม่ใช่รูปที่ใช้บอกความจริงทั่วไป ควรใช้ **present simple**: `gets hot`."
+      }
+    ]
+  }
+]

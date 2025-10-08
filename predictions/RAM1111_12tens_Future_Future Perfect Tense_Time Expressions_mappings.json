@@ -1,0 +1,476 @@
+[
+  {
+    "question": "Mia will have finished her PhD ___ 2027.",
+    "question_knowledge_ids": [
+      215,
+      225,
+      232
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "by",
+        "knowledge_ids": [
+          215,
+          225
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **by + จุดเวลา** เพื่อบอกเส้นตายของ Future Perfect เช่น __will have + V3 + by + time__. ประโยคที่ถูกคือ `Mia will have finished her PhD by 2027.` แปลว่า “ภายในปี 2027 งานจะเสร็จแล้ว” ไม่ได้เน้นวันเป๊ะ แต่เน้นว่าเสร็จก่อนถึงจุดเวลานั้นแน่ๆ"
+      },
+      {
+        "index": 2,
+        "text": "until",
+        "knowledge_ids": [
+          273
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **until** เน้น “ต่อเนื่องไปจนถึง” และมักใช้กับสถานะ/การกระทำที่ยังดำเนินอยู่ เช่น `She will study until 2027.` แต่ Future Perfect เน้นผลลัพธ์เสร็จก่อนถึงจุดเวลา จึงควรใช้ **by**"
+      },
+      {
+        "index": 3,
+        "text": "in",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **in + ปี** มักใช้บอกเวลาเกิดเหตุการณ์ธรรมดา เช่น `She graduated in 2027.` แต่ถ้าจะบอกว่า “เสร็จภายในจุดเวลา” ต้องใช้ **by 2027** กับ Future Perfect"
+      },
+      {
+        "index": 4,
+        "text": "on",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **on** ใช้กับวัน/วันที่ เช่น `on Monday`, `on May 5th` ไม่เหมาะกับปีเดี่ยวๆ และไม่สื่อความหมาย “ภายใน/ก่อนถึง” แบบที่ Future Perfect ต้องการ"
+      }
+    ]
+  },
+  {
+    "question": "We will have moved to the new office ___ the end of this month.",
+    "question_knowledge_ids": [
+      215,
+      216,
+      225,
+      232
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "by",
+        "knowledge_ids": [
+          215
+        ],
+        "is_correct": false,
+        "answer_description": "เกือบถูก แต่ประโยคนี้ต้องการวลีเต็มว่า **by the end of + ช่วงเวลา** เช่น `by the end of this month` ถ้าใส่แค่ **by** เดี่ยวๆ จะทำให้ประโยคขาดส่วนขยายหลังช่องว่าง"
+      },
+      {
+        "index": 2,
+        "text": "by the end of",
+        "knowledge_ids": [
+          215
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างที่ใช่คือ __by the end of + ช่วงเวลา__ เพื่อแปลว่า “ภายในสิ้นสุดของช่วงนั้น” ตัวอย่างที่สมบูรณ์: `We will have moved to the new office by the end of this month.` ตรงกับ Future Perfect: __will have + V3 + by the end of + period__"
+      },
+      {
+        "index": 3,
+        "text": "at the end of",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **at the end of** เน้น “จุดจบพอดี” ไม่ใช่ “ภายในก่อนถึงจุดนั้น” Future Perfect ต้องการความหมายแบบเส้นตาย ควรใช้ **by the end of** มากกว่า เช่น `by the end of this month`"
+      },
+      {
+        "index": 4,
+        "text": "in the end of",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด วลีนี้ใช้ไม่ได้ในอังกฤษ มักสับสนกับ `in the end` (ท้ายที่สุด/สุดท้ายแล้ว) และ `at the end of` (ตอนจบของ...) แต่ใน Future Perfect ที่ต้องการเส้นตาย ต้องใช้ `by the end of`"
+      }
+    ]
+  },
+  {
+    "question": "They will have completed the bridge ___ the time the rainy season starts.",
+    "question_knowledge_ids": [
+      216,
+      225,
+      232
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "by the time",
+        "knowledge_ids": [
+          216
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __by the time + ประโยค Present Simple__ ในอนุประโยคเวลา และประโยคหลักเป็น Future Perfect: __will have + V3__. ตัวอย่าง: `They will have completed the bridge by the time the rainy season starts.` แปลว่า “ภายในตอนที่หน้าฝนเริ่ม สะพานก็สร้างเสร็จแล้ว”"
+      },
+      {
+        "index": 2,
+        "text": "when",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **when** ไม่ได้สื่อ “เส้นตายก่อนถึงจุดเวลา” แบบ **by the time** และทำให้ความหมายคลุมเครือ เช่น `They will have completed the bridge when the rainy season starts` ฟังดูเหมือนเสร็จ “ตอนที่” เริ่ม ไม่ใช่ “ก่อนถึงตอนที่”"
+      },
+      {
+        "index": 3,
+        "text": "until",
+        "knowledge_ids": [
+          273
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **until** ใช้บอกทำต่อเนื่อง “จนถึง” จุดเวลา ไม่ใช่ผลลัพธ์เสร็จก่อนถึง เช่น `They will work until the rainy season starts.` แต่ถ้าจะบอกว่าเสร็จก่อนถึงจุดนั้น ต้องใช้ **by the time**"
+      },
+      {
+        "index": 4,
+        "text": "before the time",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด วลี **before the time** ฟังไม่เป็นธรรมชาติ ควรใช้ **before + ประโยค/นาม** เช่น `before the rainy season starts` หรือใช้ที่เป็นธรรมชาติกว่าใน Future Perfect คือ **by the time + Present Simple**"
+      }
+    ]
+  },
+  {
+    "question": "I will have finished all the reports ___ then.",
+    "question_knowledge_ids": [
+      215,
+      225,
+      232
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "by",
+        "knowledge_ids": [
+          215
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ต้องใช้คู่กันเป็นวลี __by then__ เพื่อสื่อว่า “ภายในตอนนั้น” ซึ่งเข้ากับ Future Perfect มาก เช่น `I will have finished all the reports by then.` โครงสร้างภาพรวม: __will have + V3 + by then__"
+      },
+      {
+        "index": 2,
+        "text": "until",
+        "knowledge_ids": [
+          273
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **until then** เน้นทำต่อเนื่องไปจนถึงตอนนั้น ไม่ใช่ผลเสร็จภายในก่อนถึง เช่น `I will work until then.` แต่ถ้าจะบอกว่าเสร็จเรียบร้อยก่อนถึงตอนนั้น ต้องใช้ **by then**"
+      },
+      {
+        "index": 3,
+        "text": "at",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **at then** ไม่ใช่วลีที่ถูกต้องในอังกฤษ ปกติจะใช้ `at that time` ถ้าต้องการชี้จุดเวลา แต่ Future Perfect ต้องการความหมายแบบเส้นตาย จึงใช้ **by then**"
+      },
+      {
+        "index": 4,
+        "text": "on",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **on** ใช้กับวัน/วันที่ เช่น `on Friday` แต่คำว่า **then** เป็นการอ้างถึงเวลาแบบกว้างๆ จึงต้องใช้วลี **by then** เพื่อเน้น “ภายในตอนนั้น”"
+      }
+    ]
+  },
+  {
+    "question": "She will have saved enough money ___ next summer.",
+    "question_knowledge_ids": [
+      215,
+      225,
+      232,
+      243
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "by",
+        "knowledge_ids": [
+          215
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **by + จุดเวลาในอนาคต** เพื่อบอกว่าก่อนถึงเวลานั้นสิ่งนั้นจะสำเร็จแล้ว เช่น `She will have saved enough money by next summer.` แพตเทิร์น: __will have + V3 + by + future time__"
+      },
+      {
+        "index": 2,
+        "text": "in",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **in next summer** ไม่เป็นธรรมชาติ (ควรใช้ `in the summer` หรือ `next summer` เฉยๆ) และไม่สื่อความหมาย “ภายในก่อนถึง” แบบที่ Future Perfect ต้องการ ซึ่งควรใช้ **by**"
+      },
+      {
+        "index": 3,
+        "text": "at",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **at next summer** ใช้ไม่ได้ ปกติ **at** ใช้กับเวลาเฉพาะเจาะจง เช่น `at 5 p.m.` แต่ถ้าจะสื่อเส้นตายก่อนถึงช่วงเวลา ให้ใช้ **by next summer**"
+      },
+      {
+        "index": 4,
+        "text": "on",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **on** ใช้กับวัน/วันที่ เช่น `on Monday` หรือ `on July 1st` แต่ `next summer` เป็นช่วงเวลา จึงต้องใช้ **by** เพื่อสื่อว่าเสร็จภายในช่วงนั้น"
+      }
+    ]
+  },
+  {
+    "question": "___ you get home, I will have cooked dinner.",
+    "question_knowledge_ids": [
+      216,
+      236,
+      225,
+      232
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "By the time",
+        "knowledge_ids": [
+          216
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างเวลาแบบนี้ใช้ __By the time + Present Simple__, ประโยคหลักเป็น Future Perfect: __will have + V3__. ตัวอย่าง: `By the time you get home, I will have cooked dinner.` แปลว่า “ภายในตอนที่เธอกลับถึงบ้าน อาหารก็ทำเสร็จแล้ว”"
+      },
+      {
+        "index": 2,
+        "text": "When",
+        "knowledge_ids": [
+          236
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **when** เน้นเหตุการณ์ “ตอนที่เกิด” ไม่ได้สื่อเส้นตายว่าต้องเสร็จก่อนถึงจุดนั้น Future Perfect ชอบใช้คู่กับ **by the time** เพื่อเน้นว่าเสร็จ “ล่วงหน้า” แล้ว"
+      },
+      {
+        "index": 3,
+        "text": "Until",
+        "knowledge_ids": [
+          273
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **until** แปลว่า “จนกว่า/จนถึง” และมักใช้กับการกระทำที่ดำเนินต่อเนื่อง เช่น `I will wait until you get home.` แต่ประโยคนี้ต้องการสื่อว่า “เสร็จก่อนถึง” จึงควรใช้ **By the time**"
+      },
+      {
+        "index": 4,
+        "text": "Before",
+        "knowledge_ids": [
+          229
+        ],
+        "is_correct": false,
+        "answer_description": "แม้ **before you get home** ฟังดูได้ แต่ในหัวข้อ **Time Expressions ของ Future Perfect** รูปแบบมาตรฐานและชัดที่สุดคือ **by the time** เพื่อเน้น “ภายในตอนที่...” จึงเลือกตัวนี้จะตรงจุดเรียนกว่า"
+      }
+    ]
+  },
+  {
+    "question": "The team will have met the target ___ Friday noon.",
+    "question_knowledge_ids": [
+      215,
+      201,
+      225,
+      232
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "by",
+        "knowledge_ids": [
+          215
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **by + วัน/เวลาเฉพาะ** เพื่อบอกเส้นตาย เช่น `by Friday noon` โครงสร้าง: __will have + V3 + by + specific time__ ตัวอย่าง: `The team will have met the target by Friday noon.`"
+      },
+      {
+        "index": 2,
+        "text": "until",
+        "knowledge_ids": [
+          273
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **until Friday noon** หมายถึงทำต่อเนื่อง “จนถึงเที่ยงวันศุกร์” ไม่ใช่ผลลัพธ์ที่เสร็จภายในก่อนถึง จึงไม่ตรงกับแนว Future Perfect"
+      },
+      {
+        "index": 3,
+        "text": "on",
+        "knowledge_ids": [
+          201
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด **on Friday noon** ไม่เป็นธรรมชาติ ปกติใช้ `on Friday` หรือ `at noon` ถ้าจะบอกเส้นตายควรใช้ **by Friday noon**"
+      },
+      {
+        "index": 4,
+        "text": "at",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **at Friday noon** ไม่เป็นธรรมชาติ และไม่สื่อ “ภายใน/ก่อนถึง” แบบที่ Future Perfect ต้องการ เลยควรใช้ **by**"
+      }
+    ]
+  },
+  {
+    "question": "He won’t have submitted the form ___ 5 p.m.",
+    "question_knowledge_ids": [
+      249,
+      215,
+      232
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "by",
+        "knowledge_ids": [
+          215
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **by + เวลา** แม้ในรูปปฏิเสธก็ได้: `won’t have + V3 + by + time` เช่น `He won’t have submitted the form by 5 p.m.` แปลว่า “ภายในห้าโมง เขาจะยังไม่ส่งแบบฟอร์มเสร็จ”"
+      },
+      {
+        "index": 2,
+        "text": "until",
+        "knowledge_ids": [
+          273
+        ],
+        "is_correct": false,
+        "answer_description": "ระวังกับปฏิเสธ! `won’t ... until` จะสื่ออีกความหมาย คือ “จะไม่...จนกว่าจะ...” เช่น `He won’t submit the form until 5 p.m.` ซึ่งต่างจากการบอกเส้นตายด้วย Future Perfect ควรใช้ **by**"
+      },
+      {
+        "index": 3,
+        "text": "at",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **at 5 p.m.** คือ “ตอนห้าโมง” เฉยๆ ไม่ใช่ “ภายในก่อนถึง” แบบ Future Perfect จึงไม่สอดคล้องกับความหมายของประโยค"
+      },
+      {
+        "index": 4,
+        "text": "on",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **on** ใช้กับวัน/วันที่ (`on Monday`) ไม่ใช้กับเวลาเป็นชั่วโมง นาที ต้องการสื่อเส้นตายให้ใช้ **by 5 p.m.**"
+      }
+    ]
+  },
+  {
+    "question": "We will have been married for 10 years ___ 2026.",
+    "question_knowledge_ids": [
+      211,
+      215,
+      225,
+      232
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "by",
+        "knowledge_ids": [
+          215
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __by + ปี/จุดเวลา__ เพื่อชี้ว่าถึงตอนนั้นจะครบ 10 ปีแล้ว เช่น `We will have been married for 10 years by 2026.` โครงสร้าง Future Perfect: __will have + V3 (been) + by + time__"
+      },
+      {
+        "index": 2,
+        "text": "in",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **in 2026** แค่บอกว่า “ในปี 2026” ไม่ได้สื่อว่าครบ 10 ปีภายในก่อนถึงจุดนั้น การเน้นเส้นตายควรใช้ **by 2026**"
+      },
+      {
+        "index": 3,
+        "text": "until",
+        "knowledge_ids": [
+          273
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **until** เน้นการดำเนินต่อเนื่อง เช่น `be married until 2026` (แต่งงานจนถึงปี 2026) ซึ่งไม่ใช่ความหมาย Future Perfect ที่เน้นผลลัพธ์ว่าครบแล้วภายในจุดเวลา"
+      },
+      {
+        "index": 4,
+        "text": "on",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **on 2026** ใช้ไม่ได้ ปกติ **on** ใช้กับวัน/วันที่ เช่น `on June 1st` สำหรับปีต้องใช้ **in** หรือใน Future Perfect ที่ต้องการเส้นตาย ใช้ **by**"
+      }
+    ]
+  },
+  {
+    "question": "___ the end of the lesson, you will have learned five new words.",
+    "question_knowledge_ids": [
+      215,
+      216,
+      225,
+      232
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "By the end of",
+        "knowledge_ids": [
+          215
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง วลีมาตรฐานคือ __By the end of + ช่วงเวลา__ และประโยคหลักใช้ Future Perfect เช่น `By the end of the lesson, you will have learned five new words.` เน้นว่า “ภายในตอนจบบทเรียน” คุณจะเรียนรู้ครบแล้ว"
+      },
+      {
+        "index": 2,
+        "text": "At the end of",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **at the end of** คือ “ตรงตอนจบพอดี” ไม่ได้สื่อว่าเสร็จภายในก่อนถึงจุดนั้น ซึ่งเป็นความหมายสำคัญของ Future Perfect ควรใช้ **by the end of**"
+      },
+      {
+        "index": 3,
+        "text": "In the end of",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด วลีนี้ไม่ถูกต้อง รูปที่ใช้ได้คือ `in the end` (ท้ายที่สุด/สุดท้ายแล้ว) หรือ `at the end of + นาม` แต่กับ Future Perfect เราต้องการ **by the end of** เพื่อสื่อเส้นตาย"
+      },
+      {
+        "index": 4,
+        "text": "Before the end of",
+        "knowledge_ids": [
+          229
+        ],
+        "is_correct": false,
+        "answer_description": "แม้ความหมายใกล้เคียง แต่รูปที่เป็นธรรมชาติและเป็น **Time Expression** คู่แท้ของ Future Perfect คือ **by the end of** ซึ่งชัดเจนว่าเสร็จภายในก่อนถึงตอนจบ"
+      }
+    ]
+  },
+  {
+    "question": "The company will have launched the new app ___ then.",
+    "question_knowledge_ids": [
+      205,
+      215,
+      225
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "by",
+        "knowledge_ids": [
+          215,
+          225
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ต้องใช้วลี __by then__ กับ Future Perfect เพื่อบอกว่า “ภายในตอนนั้น” แอปจะเปิดตัวแล้ว เช่น `The company will have launched the new app by then.` แพตเทิร์นหลัก: __will have + V3 + by then__"
+      },
+      {
+        "index": 2,
+        "text": "until",
+        "knowledge_ids": [
+          287
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **until then** สื่อความต่อเนื่อง “จนถึงตอนนั้น” ไม่ใช่ผลลัพธ์ที่เสร็จภายในก่อนถึง เราจึงเลือก **by then** กับ Future Perfect"
+      },
+      {
+        "index": 3,
+        "text": "at",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด `at then` ไม่เป็นธรรมชาติ และไม่สื่อเส้นตาย ถ้าจะชี้จุดเวลาใช้ `at that time` แต่ถ้าจะสื่อ “ภายในตอนนั้น” ให้ใช้ **by then**"
+      },
+      {
+        "index": 4,
+        "text": "on",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด **on then** ใช้ไม่ได้ และ **on** มักใช้กับวัน/วันที่ (`on Friday`) ไม่ตรงกับการบอกเส้นตายใน Future Perfect แบบ **by then**"
+      }
+    ]
+  }
+]

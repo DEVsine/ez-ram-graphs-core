@@ -51,18 +51,18 @@ MAX_DIFFICULTY = 5
 # Score ranges for difficulty mapping
 # These determine which difficulty level to suggest based on current score
 DIFFICULTY_SCORE_RANGES = {
-    1: (-5.0, -2.0),   # Very weak: easiest quizzes
-    2: (-2.0, 0.0),    # Weak: easy quizzes
-    3: (0.0, 2.0),     # Learning: medium quizzes
-    4: (2.0, 4.0),     # Strong: hard quizzes
-    5: (4.0, 10.0),    # Mastered: hardest quizzes
+    1: (-5.0, -2.0),  # Very weak: easiest quizzes
+    2: (-2.0, 0.0),  # Weak: easy quizzes
+    3: (0.0, 2.0),  # Learning: medium quizzes
+    4: (2.0, 4.0),  # Strong: hard quizzes
+    5: (4.0, 10.0),  # Mastered: hardest quizzes
 }
 
 # Accuracy ranges for difficulty adjustment
 # If recent accuracy is in these ranges, adjust difficulty
 DIFFICULTY_ACCURACY_RANGES = {
-    "too_easy": 0.9,      # If accuracy > 90%, increase difficulty
-    "too_hard": 0.4,      # If accuracy < 40%, decrease difficulty
+    "too_easy": 0.9,  # If accuracy > 90%, increase difficulty
+    "too_hard": 0.4,  # If accuracy < 40%, decrease difficulty
 }
 
 # ============================================================================
@@ -102,7 +102,8 @@ ALLOW_SOFT_PREREQUISITES = False
 
 # Maximum number of attempts to store per user
 # Older attempts are discarded to save memory
-ATTEMPT_HISTORY_LEN = 200
+# Updated to 15 to match quiz history requirement for suggest-quiz deduplication
+ATTEMPT_HISTORY_LEN = 15
 
 # Whether to track detailed attempt metadata (timestamps, quiz IDs, etc.)
 TRACK_DETAILED_HISTORY = True
@@ -144,4 +145,3 @@ LOG_SCORE_DETAILS = False
 
 # Whether to log prerequisite validation details
 LOG_PREREQUISITE_DETAILS = False
-

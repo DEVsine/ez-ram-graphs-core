@@ -1,0 +1,604 @@
+[
+  {
+    "question": "The bridge ___ when the storm hit.",
+    "question_knowledge_ids": [
+      251,
+      253,
+      290,
+      553,
+      262
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was being repaired",
+        "knowledge_ids": [
+          251,
+          253,
+          290,
+          553,
+          262
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็น **Past Continuous Passive** รูป __was/were being + V3__ เพื่อบอกเหตุการณ์ที่กำลังถูกกระทำในอดีต เช่น `The bridge was being repaired at 6 p.m.` ใช้ได้ดีเมื่อมีเหตุแทรกอย่าง `when the storm hit` แปลว่า “สะพานกำลังถูกซ่อมแซมอยู่ตอนพายุเข้า.”"
+      },
+      {
+        "index": 2,
+        "text": "was repaired",
+        "knowledge_ids": [
+          290,
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple Passive** (`was + V3`) บอกเหตุการณ์เสร็จสิ้นในอดีต ไม่เน้นกำลังกระทำ เช่น `The bridge was repaired last year.` แต่ประโยคนี้ต้องการภาพ “กำลังถูกซ่อม” ตอนที่พายุเข้า จึงควรใช้ `was being repaired`."
+      },
+      {
+        "index": 3,
+        "text": "were being repaired",
+        "knowledge_ids": [
+          380,
+          263
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **The bridge** เป็นเอกพจน์ ต้องใช้ `was` ไม่ใช่ `were` โครงสร้างที่ถูกควรเป็น `was being repaired`. ถ้าเป็นพหูพจน์ เช่น `The bridges were being repaired` ถึงจะใช้ `were` ได้."
+      },
+      {
+        "index": 4,
+        "text": "was been repaired",
+        "knowledge_ids": [
+          267,
+          553
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปแบบไวยากรณ์ เพราะ **Past Continuous Passive** ต้องใช้ `being` ไม่ใช่ `been` โครงสร้างที่ถูกคือ `was being + V3` เช่น `was being repaired`, ไม่ใช่ `was been repaired`."
+      }
+    ]
+  },
+  {
+    "question": "At 8 p.m. yesterday, the documents ___ by the assistants.",
+    "question_knowledge_ids": [
+      251,
+      259,
+      290,
+      553,
+      263
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "were being copied",
+        "knowledge_ids": [
+          251,
+          259,
+          290,
+          553,
+          263
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้องตามรูป **Past Continuous Passive**: __was/were being + V3__ ใช้บอกงานที่กำลังถูกกระทำในเวลาเฉพาะในอดีต เช่น `At 8 p.m. yesterday, the documents were being copied.` แปลว่า “เมื่อสองทุ่มเมื่อวาน เอกสารกำลังถูกถ่ายสำเนาโดยผู้ช่วย.”"
+      },
+      {
+        "index": 2,
+        "text": "were copied",
+        "knowledge_ids": [
+          290,
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น **Past Simple Passive** (`were + V3`) ซึ่งเน้นเหตุการณ์เสร็จแล้ว เช่น `The documents were copied in the morning.` แต่ประโยคมีตัวบอกเวลาเฉพาะเจาะจงที่เน้นช่วงกำลังทำ (`At 8 p.m.`) จึงควรใช้ `were being copied`."
+      },
+      {
+        "index": 3,
+        "text": "was being copied",
+        "knowledge_ids": [
+          380,
+          364
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่ไม่ตรงกับจำนวน เพราะ `documents` เป็นพหูพจน์ ต้องใช้ `were` ไม่ใช่ `was`. รูปที่ถูกคือ `The documents were being copied`."
+      },
+      {
+        "index": 4,
+        "text": "were being copy",
+        "knowledge_ids": [
+          291,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่ใช้รูปคำกริยา 3 (`V3`) ไม่ถูก ต้องใช้ **past participle** ของ `copy` คือ `copied`. โครงสร้างที่ถูกคือ `were being copied`, ไม่ใช่ `were being copy`."
+      }
+    ]
+  },
+  {
+    "question": "The movie ___ when the projector failed.",
+    "question_knowledge_ids": [
+      251,
+      253,
+      290,
+      553,
+      262
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was being shown",
+        "knowledge_ids": [
+          251,
+          253,
+          290,
+          553,
+          262
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **Past Continuous Passive** รูป __was/were being + V3__ เพื่อบอกว่าหนัง “กำลังถูกฉาย” ในตอนที่เหตุขัดข้องเกิดขึ้น เช่น `The movie was being shown when the projector failed.`"
+      },
+      {
+        "index": 2,
+        "text": "was shown",
+        "knowledge_ids": [
+          290,
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น **Past Simple Passive** (`was shown`) เน้นเสร็จสิ้นแล้ว แต่บริบท `when the projector failed` ต้องการภาพขณะกำลังดำเนินอยู่ จึงควรใช้ `was being shown`."
+      },
+      {
+        "index": 3,
+        "text": "were being shown",
+        "knowledge_ids": [
+          380,
+          263
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะประธาน `The movie` เป็นเอกพจน์ ต้องใช้ `was` ไม่ใช่ `were`. ถ้าประธานเป็นพหูพจน์ เช่น `The movies were being shown` จึงค่อยใช้ `were`."
+      },
+      {
+        "index": 4,
+        "text": "was being show",
+        "knowledge_ids": [
+          291,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่ใช้รูปกริยาไม่เป็น **V3** คำว่า `show` ต้องเป็น `shown` ใน passive. โครงสร้างที่ถูกต้องคือ `was being shown`."
+      }
+    ]
+  },
+  {
+    "question": "While we were waiting, the room ___ for the meeting.",
+    "question_knowledge_ids": [
+      251,
+      260,
+      290,
+      553,
+      262
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was being prepared",
+        "knowledge_ids": [
+          251,
+          260,
+          290,
+          553,
+          262
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Past Continuous Passive**: __was/were being + V3__ เพื่อบอกว่าในขณะหนึ่งในอดีต งานกำลังถูกกระทำอยู่ เช่น `the room was being prepared` แปลว่า “ห้องกำลังถูกเตรียม.” ตัวบอกเวลา `While we were waiting` ช่วยยืนยันว่ากำลังดำเนินอยู่."
+      },
+      {
+        "index": 2,
+        "text": "was prepared",
+        "knowledge_ids": [
+          290,
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **Past Simple Passive** ที่บอกเสร็จแล้ว (`was + V3`). แต่บริบทมี `While...` ซึ่งสื่อ “ระหว่างที่กำลังทำ” ต้องใช้ `was being prepared` เพื่อแสดงความต่อเนื่อง."
+      },
+      {
+        "index": 3,
+        "text": "were being prepared",
+        "knowledge_ids": [
+          380,
+          263
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่ไม่สอดคล้องกับประธาน `the room` ซึ่งเป็นเอกพจน์ จึงต้องใช้ `was` ไม่ใช่ `were`. รูปที่ถูกคือ `was being prepared`."
+      },
+      {
+        "index": 4,
+        "text": "was being prepare",
+        "knowledge_ids": [
+          291,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะใช้กริยารูปผิด รูป **V3** ของ `prepare` คือ `prepared`. ควรเป็น `was being prepared` ไม่ใช่ `was being prepare`."
+      }
+    ]
+  },
+  {
+    "question": "At that moment, a new policy ___ by the committee.",
+    "question_knowledge_ids": [
+      251,
+      290,
+      553,
+      262
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was being discussed",
+        "knowledge_ids": [
+          251,
+          290,
+          553,
+          262
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้องตามโครงสร้าง **Past Continuous Passive**: __was/were being + V3__ เพื่อบอกว่า “ในขณะนั้น” นโยบายกำลังถูกอภิปรายอยู่ เช่น `A new policy was being discussed by the committee.`"
+      },
+      {
+        "index": 2,
+        "text": "was discussed",
+        "knowledge_ids": [
+          290,
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple Passive** ซึ่งเน้นว่าเหตุการณ์เสร็จแล้ว ไม่ใช่กำลังดำเนินอยู่ หากต้องการสื่อระหว่างเกิดเหตุ ให้ใช้ `was being discussed`."
+      },
+      {
+        "index": 3,
+        "text": "were being discussed",
+        "knowledge_ids": [
+          380,
+          263
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่สอดคล้องกับจำนวนไม่ตรง `a new policy` เป็นเอกพจน์ จึงต้องใช้ `was` ไม่ใช่ `were`. ถ้าเป็น `new policies` ถึงจะใช้ `were being discussed` ได้."
+      },
+      {
+        "index": 4,
+        "text": "was been discussed",
+        "knowledge_ids": [
+          267,
+          222
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปแบบ เพราะคนมักสับสนระหว่าง `being` กับ `been`. ใน **Past Continuous Passive** ต้องใช้ `being` ไม่ใช่ `been`: `was being discussed` จึงถูกต้อง."
+      }
+    ]
+  },
+  {
+    "question": "The package ___ to the wrong address when I called.",
+    "question_knowledge_ids": [
+      251,
+      253,
+      290,
+      553,
+      262
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was being delivered",
+        "knowledge_ids": [
+          251,
+          253,
+          290,
+          553,
+          262
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Past Continuous Passive** รูป __was/were being + V3__ เพื่อสื่อว่าพัสดุกำลัง “ถูกส่ง” ไปยังที่อยู่ผิดในตอนที่ฉันโทร เช่น `The package was being delivered to the wrong address when I called.`"
+      },
+      {
+        "index": 2,
+        "text": "was delivered",
+        "knowledge_ids": [
+          290,
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple Passive** ซึ่งหมายถึงการส่งเสร็จเรียบร้อยแล้ว แต่ประโยคนี้ต้องการภาพขณะกำลังส่ง (มีเหตุแทรก `when I called`) จึงควรใช้ `was being delivered`."
+      },
+      {
+        "index": 3,
+        "text": "were being delivered",
+        "knowledge_ids": [
+          380,
+          263
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `The package` เป็นเอกพจน์ ต้องใช้ `was` ไม่ใช่ `were`. ถ้าเป็น `The packages were being delivered` จึงใช้ `were` ได้."
+      },
+      {
+        "index": 4,
+        "text": "was being deliver",
+        "knowledge_ids": [
+          291,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่ไม่ใช้รูป **V3** ของ `deliver`. ต้องเป็น `delivered` ใน passive: `was being delivered` ไม่ใช่ `was being deliver`."
+      }
+    ]
+  },
+  {
+    "question": "When the phone rang, dinner ___ in the kitchen.",
+    "question_knowledge_ids": [
+      251,
+      253,
+      290,
+      553,
+      262
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was being cooked",
+        "knowledge_ids": [
+          251,
+          253,
+          290,
+          553,
+          262
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **Past Continuous Passive**: __was/were being + V3__ ใช้เมื่อมีเหตุแทรก (`When the phone rang`) ขณะงานกำลังถูกทำ เช่น `Dinner was being cooked in the kitchen.`"
+      },
+      {
+        "index": 2,
+        "text": "was cooked",
+        "knowledge_ids": [
+          290,
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `was cooked` คือ **Past Simple Passive** แปลว่า “ถูกทำเสร็จแล้ว” ไม่ใช่ “กำลังถูกทำ”. ที่ถูกคือ `was being cooked` เพื่อเน้นความต่อเนื่องในอดีต."
+      },
+      {
+        "index": 3,
+        "text": "were being cooked",
+        "knowledge_ids": [
+          380,
+          263
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่ไม่ตรงจำนวน เพราะ `dinner` ถือเป็นเอกพจน์นับไม่ได้ในที่นี้ จึงต้องใช้ `was`. ถ้าเป็น `the dishes were being cooked` จึงจะใช้ `were` ได้."
+      },
+      {
+        "index": 4,
+        "text": "was being cook",
+        "knowledge_ids": [
+          291,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปกริยา เพราะใน passive ต้องใช้ **V3** คือ `cooked` ไม่ใช่ `cook`. รูปที่ถูกคือ `was being cooked`."
+      }
+    ]
+  },
+  {
+    "question": "At noon, the reports ___ for the manager’s review.",
+    "question_knowledge_ids": [
+      251,
+      259,
+      290,
+      553,
+      263
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "were being printed",
+        "knowledge_ids": [
+          251,
+          259,
+          290,
+          553,
+          263
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้องตาม **Past Continuous Passive**: __was/were being + V3__ แสดงว่า “ตอนเที่ยง” รายงานกำลังถูกพิมพ์ เช่น `The reports were being printed at noon.` ใช้ดีเพื่อเน้นสถานะกำลังดำเนินอยู่."
+      },
+      {
+        "index": 2,
+        "text": "were printed",
+        "knowledge_ids": [
+          290,
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple Passive** (`were + V3`) เน้นผลที่เสร็จแล้ว เช่น `The reports were printed in the morning.` แต่ที่นี่ต้องการภาพระหว่างกำลังพิมพ์อยู่ จึงควรใช้ `were being printed`."
+      },
+      {
+        "index": 3,
+        "text": "was being printed",
+        "knowledge_ids": [
+          380,
+          364
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเนื่องจากไม่ตรงจำนวน ประธาน `reports` เป็นพหูพจน์ ต้องใช้ `were`, ไม่ใช่ `was`. รูปที่ถูกคือ `were being printed`."
+      },
+      {
+        "index": 4,
+        "text": "were being print",
+        "knowledge_ids": [
+          291,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะใช้รูปกริยาไม่เป็น **V3** ต้องเป็น `printed` ไม่ใช่ `print`. โครงสร้างที่ถูกคือ `were being printed`."
+      }
+    ]
+  },
+  {
+    "question": "The stadium lights ___ by technicians when the game was delayed.",
+    "question_knowledge_ids": [
+      251,
+      253,
+      290,
+      553,
+      263
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "were being fixed",
+        "knowledge_ids": [
+          251,
+          253,
+          290,
+          553,
+          263
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **Past Continuous Passive** รูป __was/were being + V3__ เพื่อบอกว่าไฟสนาม “กำลังถูกซ่อม” โดยช่างตอนที่เกมถูกเลื่อน เช่น `The stadium lights were being fixed by technicians.`"
+      },
+      {
+        "index": 2,
+        "text": "were fixed",
+        "knowledge_ids": [
+          290,
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple Passive** (`were fixed`) สื่อว่า “ถูกซ่อมเสร็จแล้ว”. แต่บริบทมีเหตุแทรก `when the game was delayed` จึงต้องใช้รูปกำลังกระทำ `were being fixed`."
+      },
+      {
+        "index": 3,
+        "text": "was being fixed",
+        "knowledge_ids": [
+          380,
+          364
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่สอดคล้องกับจำนวนไม่ตรง `lights` เป็นพหูพจน์ จึงต้องใช้ `were` ไม่ใช่ `was`. รูปที่ถูกคือ `were being fixed`."
+      },
+      {
+        "index": 4,
+        "text": "were being fix",
+        "knowledge_ids": [
+          291,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปคำกริยา เพราะใน passive ต้องใช้ **V3** (`fixed`) ไม่ใช่รูป base (`fix`). ควรเป็น `were being fixed`."
+      }
+    ]
+  },
+  {
+    "question": "By the time I arrived, the invitations ___ to all the guests.",
+    "question_knowledge_ids": [
+      285,
+      280,
+      290
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "were being sent",
+        "knowledge_ids": [
+          251,
+          290,
+          553,
+          263
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Past Continuous Passive**: __was/were being + V3__ เพื่อสื่อว่าตอนฉันมาถึง การ์ดเชิญ “กำลังถูกส่งอยู่” เช่น `The invitations were being sent when I arrived.` แสดงภาพเหตุการณ์ระหว่างดำเนินการ."
+      },
+      {
+        "index": 2,
+        "text": "had been sent",
+        "knowledge_ids": [
+          280,
+          285,
+          290
+        ],
+        "is_correct": false,
+        "answer_description": "แม้เป็น passive แต่เป็น **Past Perfect Passive** (`had been + V3`) หมายถึง “ถูกส่งเสร็จก่อนอีกเหตุการณ์หนึ่งแล้ว” เช่น `The invitations had been sent by 5 p.m.` ซึ่งไม่สื่อความกำลังกระทำ จึงไม่ตรงโจทย์."
+      },
+      {
+        "index": 3,
+        "text": "were sent",
+        "knowledge_ids": [
+          290,
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น **Past Simple Passive** (`were + V3`) เน้นผลเสร็จแล้ว ไม่ใช่กำลังทำอยู่ตอนที่ฉันมาถึง. ต้องใช้ `were being sent` เพื่อเน้นความต่อเนื่อง."
+      },
+      {
+        "index": 4,
+        "text": "were been sent",
+        "knowledge_ids": [
+          267,
+          222
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปแบบไวยากรณ์ การใช้ **Past Continuous Passive** ต้องเป็น `were being + V3` ไม่ใช่ `were been + V3`. รูปที่ถูกคือ `were being sent`."
+      }
+    ]
+  },
+  {
+    "question": "During the inspection, the machines ___ for safety issues.",
+    "question_knowledge_ids": [
+      251,
+      290,
+      263,
+      267,
+      291
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "were being checked",
+        "knowledge_ids": [
+          251,
+          290,
+          263,
+          267
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้องตาม **Past Continuous Passive**: __was/were being + V3__ ใช้เมื่อมีช่วงเวลาเฉพาะ (`During the inspection`) เพื่อสื่อว่ากำลังถูกตรวจ เช่น `The machines were being checked for safety issues.`"
+      },
+      {
+        "index": 2,
+        "text": "were checked",
+        "knowledge_ids": [
+          290,
+          263,
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple Passive** เน้นเสร็จสิ้น เช่น `The machines were checked yesterday.` แต่ที่นี่ต้องการภาพระหว่างตรวจอยู่ จึงควรใช้ `were being checked`."
+      },
+      {
+        "index": 3,
+        "text": "was being checked",
+        "knowledge_ids": [
+          380,
+          262,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่สอดคล้องกับจำนวนไม่ตรง `machines` เป็นพหูพจน์ ต้องใช้ `were` ไม่ใช่ `was`. รูปที่ถูกคือ `were being checked`."
+      },
+      {
+        "index": 4,
+        "text": "were being check",
+        "knowledge_ids": [
+          324,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะกริยาไม่ใช่ **V3** ต้องใช้ `checked` ใน passive. โครงสร้างที่ถูกต้องคือ `were being checked`."
+      }
+    ]
+  }
+]

@@ -1,0 +1,321 @@
+[
+  {
+    "question": "She ___ speak French.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "can",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะหลัง **modal verb (can)** ต้องใช้กริยารูป **base form** เสมอ รูปแบบคือ __modal + base verb__ เช่น `She can speak French.` หรือ `They can help.` ตัวอย่างการใช้: `I can swim.`"
+      },
+      {
+        "index": 2,
+        "text": "can to",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **modal verb** ห้ามใส่ `to` ใช้แค่กริยารูป **base form** เช่นควรเป็น `can speak` ไม่ใช่ `can to speak`. ดูตัวอย่างที่ถูกต้อง: `He can drive.` ไม่ใช่ `He can to drive.`"
+      },
+      {
+        "index": 3,
+        "text": "cans",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **modal verbs** ไม่ผันเติม `-s` ตามประธานเอกพจน์ เช่น `She can ...` ไม่ใช่ `She cans ...`. ตัวอย่างที่ถูก: `She can play the piano.`"
+      },
+      {
+        "index": 4,
+        "text": "is can",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะห้ามใช้ **be + modal** ร่วมกันแบบนี้ เลือกอย่างใดอย่างหนึ่งเท่านั้น เช่น `She can speak.` หรือถ้าใช้ be จะเป็นโครงสร้างอื่น เช่น `She is able to speak.`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ like coffee.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "does not",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคปฏิเสธใน **Present Simple** กับกริยาหลัก ใช้ __do/does + not + base verb__ เช่น `He does not like coffee.` หรือ `She doesn’t play tennis.` ตัวอย่าง: `He doesn't like tea.`"
+      },
+      {
+        "index": 2,
+        "text": "is not",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `is not` ใช้กับกริยา **be** หรือ **adj/noun** ไม่ใช่กริยาหลักอย่าง `like` เช่น `He is not happy.` ไม่ใช่ `He is not like coffee.` ควรใช้ `does not like`."
+      },
+      {
+        "index": 3,
+        "text": "do not",
+        "is_correct": false,
+        "answer_description": "เกือบถูกแต่ไม่ตรงกับประธานเอกพจน์ **He** ต้องใช้ `does` ไม่ใช่ `do` จึงควรเป็น `He **does not** like coffee.` ตัวอย่างเทียบ: `They do not like coffee.` แต่ `He does not like coffee.`"
+      },
+      {
+        "index": 4,
+        "text": "not",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะต้องมี **auxiliary** ช่วยในการทำให้เป็นปฏิเสธใน Present Simple เช่น `do/does + not` ไม่สามารถวาง `not` โดดๆ ได้ ตัวอย่างที่ถูก: `He does not like coffee.`"
+      }
+    ]
+  },
+  {
+    "question": "___ you like pizza?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง การถามคำถามใน **Present Simple** กับกริยาหลัก ใช้ __Do/Does + subject + base verb__ เช่น `Do you like pizza?` หรือ `Does she work here?` ตัวอย่าง: `Do they play football?`"
+      },
+      {
+        "index": 2,
+        "text": "Are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Are` ใช้กับกริยา **be** หรือ **V-ing** ไม่ได้ใช้ถามกับกริยาหลักอย่าง `like` โครงสร้างที่ถูกต้องคือ `Do you like ...?` เช่น `Do you like music?`"
+      },
+      {
+        "index": 3,
+        "text": "Have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Have` ใช้กับ **Present Perfect** เช่น `Have you eaten?` ไม่ใช่ถามความชอบแบบ Present Simple ที่ต้องใช้ `Do/Does`. ตัวอย่างที่ถูก: `Do you like pizza?`"
+      },
+      {
+        "index": 4,
+        "text": "Will",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Will` ใช้ถามเกี่ยวกับอนาคต (`Will you go?`) แต่ประโยคนี้ถามนิสัย/ความชอบปัจจุบัน ควรใช้ `Do` เช่น `Do you like pizza?`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ already left.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "have",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **Present Perfect** ใช้รูป __have/has + past participle__ เช่น `They have left.` คำว่า `already` เข้ากับโครงสร้างนี้ได้ดี: `They have already left.`"
+      },
+      {
+        "index": 2,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `are` ใช้กับ **be + V-ing** หรือ **be + adj/noun** ไม่ใช่รูป Perfect เช่น `They are leaving.` ไม่ใช่ `They are left.` จึงต้องใช้ `have left`."
+      },
+      {
+        "index": 3,
+        "text": "did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `did` เป็นอดีตของ do-support และจะตามด้วย **base verb** เช่น `did leave` แต่ที่นี่เราต้องการ **Present Perfect** กับ `already` ที่สื่อผลลัพธ์ปัจจุบัน: `have left`."
+      },
+      {
+        "index": 4,
+        "text": "has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `has` ใช้กับประธานเอกพจน์ (he/she/it) ส่วน `They` เป็นพหูพจน์ ต้องใช้ `have` เช่น `They have left.` ไม่ใช่ `They has left.`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ studying now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **Present Continuous** คือ __be (am/is/are) + V-ing__ ดังนั้น `She is studying now.` ใช้บอกว่ากำลังกระทำตอนนี้ ตัวอย่าง: `She is reading.`"
+      },
+      {
+        "index": 2,
+        "text": "does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `does` ใช้กับ do-support ใน Present Simple ไม่เข้ากับรูป **V-ing** เช่นจะต้องเป็น `She does not study on Sundays.` ไม่ใช่ `She does studying now.`"
+      },
+      {
+        "index": 3,
+        "text": "has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `has` ใช้กับ **Present Perfect** (has + V3) ไม่ใช่กับ V-ing อย่าง `studying` ตัวอย่างที่ถูกของ Perfect คือ `She has studied.`"
+      },
+      {
+        "index": 4,
+        "text": "can",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะถ้าใช้ `can` ต้องตามด้วย **base form** (`can study`) ไม่ใช่ `studying`. รูปที่ถูกต้องสำหรับกำลังกระทำคือ `She is studying now.`"
+      }
+    ]
+  },
+  {
+    "question": "You ___ wear a uniform here; it's a rule.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "must",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง `must` ใช้บอกกฎ/ข้อบังคับชัดเจน รูปแบบคือ __must + base verb__ เช่น `You must wear a uniform.` ตัวอย่างเพิ่มเติม: `Students must arrive on time.`"
+      },
+      {
+        "index": 2,
+        "text": "should",
+        "is_correct": false,
+        "answer_description": "ยังไม่แรงพอ เพราะ `should` เป็นคำแนะนำ ไม่ใช่กฎบังคับ เช่น `You should wear a jacket.` (แนะนำ) แต่ถ้าเป็นกฎ ต้องใช้ `must` หรือ `have to` เช่น `You must wear a uniform.`"
+      },
+      {
+        "index": 3,
+        "text": "can",
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย `can` สื่อถึงความสามารถหรือการอนุญาต เช่น `You can enter.` ไม่ใช่กฎบังคับ ประโยคนี้กล่าวว่าเป็นกฎ ต้องใช้ `must` หรือ `have to`."
+      },
+      {
+        "index": 4,
+        "text": "might",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `might` สื่อความเป็นไปได้ (ความน่าจะ) ไม่ได้บอกข้อบังคับ เช่น `It might rain.` แต่ประโยคนี้เป็นกฎชัดเจน ควรใช้ `must`."
+      }
+    ]
+  },
+  {
+    "question": "I ___ finish the test yesterday.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "was able to",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ `was/were able to` เพื่อบอกความสามารถที่สำเร็จในเหตุการณ์ครั้งเดียวในอดีต รูปแบบ __be (was/were) + able to + base verb__ เช่น `I was able to finish the test yesterday.` ตัวอย่าง: `She was able to solve the problem.`"
+      },
+      {
+        "index": 2,
+        "text": "could",
+        "is_correct": false,
+        "answer_description": "มักไม่ใช้กับเหตุการณ์ครั้งเดียวที่สำเร็จในอดีต เพราะ `could` ใช้บอกความสามารถทั่วไปในอดีตมากกว่า เช่น `When I was a child, I could swim.` ถ้าจะบอกว่าสำเร็จครั้งเดียว ควรใช้ `was able to`."
+      },
+      {
+        "index": 3,
+        "text": "can",
+        "is_correct": false,
+        "answer_description": "ผิดเวลา เพราะ `can` เป็นปัจจุบัน แต่ประโยคมีคำว่า `yesterday` ซึ่งเป็นอดีต ต้องใช้รูปอดีต เช่น `was able to` หรือ `could` (ตามบริบท)."
+      },
+      {
+        "index": 4,
+        "text": "am able to",
+        "is_correct": false,
+        "answer_description": "ผิดเวลา เพราะ `am able to` เป็นปัจจุบัน แต่ประโยคอยู่ในอดีต (`yesterday`). ควรเป็น `was able to` เช่น `I was able to finish...`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ left; the lights are off.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "must have",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **modal perfect** เพื่อคาดเดาอย่างมั่นใจในอดีต รูปแบบ __must + have + V3__ เช่น `He must have left.` ตัวอย่าง: `She must have forgotten her keys.`"
+      },
+      {
+        "index": 2,
+        "text": "must has",
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะหลัง **must** ต้องตามด้วย **base form** ของ `have` เสมอ จึงต้องเป็น `must have` ไม่ใช่ `must has`. ตัวอย่างที่ถูก: `They must have arrived.`"
+      },
+      {
+        "index": 3,
+        "text": "has must",
+        "is_correct": false,
+        "answer_description": "ผิดลำดับคำและผิดหลัก modal ห้ามวาง `has` นำหน้า **must** โครงสร้างที่ถูกคือ `must + have + V3` เช่น `He must have left.`"
+      },
+      {
+        "index": 4,
+        "text": "must to",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **must** ห้ามใช้ `to` ต้องตามด้วย **base verb** เช่น `must leave` หรือในรูปอดีตคาดเดา `must have left` ไม่ใช่ `must to left`."
+      }
+    ]
+  },
+  {
+    "question": "She can swim, ___?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "can't she?",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ปลายหางคำถาม (question tag) ใช้รูปตรงข้ามกับประโยคหลักและคง **auxiliary** เดิม รูปแบบคือ __auxiliary (neg/pos) + subject?__ ดังนั้น `She can swim, can't she?` ตัวอย่าง: `He won't come, will he?`"
+      },
+      {
+        "index": 2,
+        "text": "does she?",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะต้องใช้ **auxiliary** เดียวกับประโยคหลัก ซึ่งคือ `can` ไม่ใช่ `do/does`. ถ้าประโยคหลักไม่มี auxiliary ค่อยใช้ `do-support` เช่น `She likes tea, doesn't she?`"
+      },
+      {
+        "index": 3,
+        "text": "isn't she?",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `is` ไม่ตรงกับ auxiliary ในประโยคหลักที่ใช้ `can`. รูปที่ถูกต้องคือ `can't she?` ไม่ใช่ `isn't she?`"
+      },
+      {
+        "index": 4,
+        "text": "won't she?",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `won't` เป็นของ `will` ซึ่งไม่ตรงกับ `can` ในประโยคหลัก ต้องแมตช์ auxiliary เดิมเสมอ เช่น `can` → `can't she?`"
+      }
+    ]
+  },
+  {
+    "question": "Can they join us? — Yes, ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "they can",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำตอบสั้นใช้ **auxiliary** ตัวเดิมจากคำถาม รูปแบบ __Yes/No, + subject + auxiliary__ เช่น `Yes, they can.` ตัวอย่าง: `Can you help? — Yes, I can.`"
+      },
+      {
+        "index": 2,
+        "text": "they do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำถามใช้ `Can` ต้องตอบด้วย `can` ไม่ใช่ `do`. ตัวอย่างที่ถูก: `Can she come? — Yes, she can.`"
+      },
+      {
+        "index": 3,
+        "text": "they are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะต้องใช้ auxiliary เดียวกับคำถาม (`can`) ไม่ใช่ `be`. จึงควรตอบ `Yes, they can.`"
+      },
+      {
+        "index": 4,
+        "text": "they will",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำถามไม่ได้ถามด้วย `will` แต่ใช้ `can` ดังนั้นคำตอบสั้นต้องแมตช์: `Yes, they can.` ไม่ใช่ `they will`."
+      }
+    ]
+  },
+  {
+    "question": "He ___ not know the answer.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "does",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใน Present Simple แบบปฏิเสธเมื่อมี `not` ต้องใช้ do-support: __does + not + base verb__ (หรือรูปย่อ `doesn't`). ตัวอย่าง: `He does not know the answer.` และ `She doesn't like spicy food.`"
+      },
+      {
+        "index": 2,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `is not` ใช้กับกริยา **be** หรือคุณศัพท์/คำนาม ไม่ใช้กับกริยาหลักอย่าง `know`. ตัวอย่างที่ถูกควรเป็น `He does not know...` ไม่ใช่ `He is not know...`"
+      },
+      {
+        "index": 3,
+        "text": "has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `has` เป็น auxiliary ของ **Perfect** (`has + V3`) ไม่ได้ใช้สร้างปฏิเสธกับกริยาหลักใน Present Simple. ต้องใช้ `does not + base verb` เช่น `does not know`."
+      },
+      {
+        "index": 4,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิดกับประธาน เพราะ `He` เป็นเอกพจน์บุรุษที่ 3 ต้องใช้ `does` ไม่ใช่ `do`. รูปที่ถูกคือ `He does not know...`"
+      }
+    ]
+  }
+]

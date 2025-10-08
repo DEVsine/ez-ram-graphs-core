@@ -1,0 +1,553 @@
+[
+  {
+    "question": "I ___ for two hours, and I need a break.",
+    "question_knowledge_ids": [
+      217,
+      361,
+      366,
+      367
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been studying",
+        "knowledge_ids": [
+          361,
+          366,
+          367
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะพูดถึงกิจกรรมที่เริ่มในอดีตและยังต่อเนื่องมาถึงตอนนี้ (เน้นระยะเวลา) ใช้รูป **`have/has been + V-ing`** เช่น `I have been studying for two hours.` ใส่คำบอกเวลาอย่าง **for two hours** ยิ่งชัดว่ากำลังทำต่อเนื่องอยู่"
+      },
+      {
+        "index": 2,
+        "text": "have studied",
+        "knowledge_ids": [
+          366,
+          371
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะ เพราะ **Present Perfect Simple** เน้น “ผลลัพธ์/จำนวนครั้ง” มากกว่าเน้นความต่อเนื่อง เช่น `I have studied two chapters.` แต่ในประโยคนี้เราต้องการเน้นว่า “กำลังทำมาระยะหนึ่งและยังไม่จบ” จึงควรใช้ **`have been + V-ing`**"
+      },
+      {
+        "index": 3,
+        "text": "studied",
+        "knowledge_ids": [
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่กาล เพราะ **Past Simple** (`studied`) ใช้กับเหตุการณ์ที่จบแล้วและมีเวลาเฉพาะเจาะจงในอดีต เช่น `I studied for two hours yesterday.` แต่ที่นี่เน้นความต่อเนื่องถึงตอนนี้ ควรใช้ **Present Perfect Continuous**"
+      },
+      {
+        "index": 4,
+        "text": "have been studied",
+        "knowledge_ids": [
+          290,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะนี่เป็น **Passive voice** แต่เราอยากสื่อว่าผู้พูดเป็นคนกระทำการเรียนเอง ควรใช้ **Active**: `have been studying` เช่น `I have been studying for two hours.`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ three reports this morning; the manager has already approved them.",
+    "question_knowledge_ids": [
+      366,
+      377,
+      379
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "has written",
+        "knowledge_ids": [
+          371,
+          377
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเน้น “ผลลัพธ์/จำนวนชิ้นงานที่เสร็จแล้ว” ใช้ **`have/has + V3`** เช่น `She has written three reports this morning.` โยงกับผลต่อปัจจุบัน (ผู้จัดการอนุมัติแล้ว) จึงเหมาะกับ **Present Perfect Simple**"
+      },
+      {
+        "index": 2,
+        "text": "has been writing",
+        "knowledge_ids": [
+          361
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรงจุด เพราะ **Present Perfect Continuous** เน้น “กระบวนการ/ความต่อเนื่อง” ไม่ใช่จำนวน เช่น `She has been writing this morning.` แต่พอระบุจำนวน **three reports** จึงควรใช้ **Present Perfect Simple**"
+      },
+      {
+        "index": 3,
+        "text": "wrote",
+        "knowledge_ids": [
+          307,
+          382
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ **Past Simple** ใช้กับเวลาในอดีตที่จบชัดเจน เช่น `She wrote three reports yesterday.` ในที่นี้เชื่อมโยงกับปัจจุบัน (อนุมัติแล้วเช้านี้) จึงใช้ **Present Perfect Simple** จะชัดกว่า"
+      },
+      {
+        "index": 4,
+        "text": "has been written",
+        "knowledge_ids": [
+          290,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย เพราะเป็น **Passive** (รายงานถูกเขียนโดยใครสักคน) แต่เราต้องการบอกว่า “เธอเป็นคนเขียน” ควรใช้ **Active**: `has written`"
+      }
+    ]
+  },
+  {
+    "question": "How long ___ for the bus?",
+    "question_knowledge_ids": [
+      195,
+      218,
+      360,
+      367
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have you been waiting",
+        "knowledge_ids": [
+          360,
+          361,
+          218
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะใช้ถามระยะเวลาของการกระทำที่เริ่มในอดีตและยังดำเนินอยู่ ใช้รูป **`have/has been + V-ing`** กับคำถาม **How long** ได้พอดี เช่น `How long have you been waiting?`"
+      },
+      {
+        "index": 2,
+        "text": "have you waited",
+        "knowledge_ids": [
+          360,
+          218
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ใช่รูปที่เป็นธรรมชาติที่สุดเมื่อเน้น “ความต่อเนื่อง” ของการรอ คำถาม **How long** ปกติจะจับคู่กับ **`have/has been + V-ing`** เช่น `How long have you been waiting?` เพื่อเน้นว่ากำลังรออยู่"
+      },
+      {
+        "index": 3,
+        "text": "are you waiting",
+        "knowledge_ids": [
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "รูปนี้คือ **Present Continuous** ใช้กับตอนนี้ชั่วคราว แต่เมื่อถามถึง “ระยะเวลา ตั้งแต่อดีตถึงปัจจุบัน” ควรใช้ **Present Perfect Continuous**: `have you been waiting`"
+      },
+      {
+        "index": 4,
+        "text": "did you wait",
+        "knowledge_ids": [
+          382
+        ],
+        "is_correct": false,
+        "answer_description": "เป็น **Past Simple** เหมาะกับเวลาที่จบแล้วในอดีต เช่น `How long did you wait yesterday?` แต่ที่นี่ถามถึงความยาวเวลาจนถึงตอนนี้ จึงไม่ตรง"
+      }
+    ]
+  },
+  {
+    "question": "I ___ this book; I'm on page 20.",
+    "question_knowledge_ids": [
+      366,
+      329
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been reading",
+        "knowledge_ids": [
+          329,
+          331
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเน้น “กระบวนการที่กำลังดำเนินอยู่” และยังไม่จบ ใช้ **`have/has been + V-ing`** เช่น `I have been reading this book.` หลักฐานคือ `I'm on page 20` แสดงว่ายังอ่านค้างอยู่"
+      },
+      {
+        "index": 2,
+        "text": "have read",
+        "knowledge_ids": [
+          371
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ตรงความหมาย เพราะ **Present Perfect Simple** จะเน้นผลลัพธ์ เช่น `I have read the book` (อ่านจบแล้ว) แต่ที่นี่บอกว่าอยู่หน้า 20 แปลว่า “ยังอ่านไม่จบ” ควรใช้ **Continuous**"
+      },
+      {
+        "index": 3,
+        "text": "am reading",
+        "knowledge_ids": [
+          328
+        ],
+        "is_correct": false,
+        "answer_description": "แม้จะสื่อว่ากำลังอ่านตอนนี้ แต่ประโยคต้องการเชื่อมอดีตถึงปัจจุบัน (อ่านมาสักพักจนถึงตอนนี้) จึงควรใช้ **Present Perfect Continuous** ไม่ใช่แค่ **Present Continuous**"
+      },
+      {
+        "index": 4,
+        "text": "have been read",
+        "knowledge_ids": [
+          290,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดโครงสร้าง เพราะเป็น **Passive** แปลว่า “ถูกอ่าน” ซึ่งไม่เข้ากับผู้พูดเป็นคนอ่านเอง รูปที่ถูกคือ **Active**: `have been reading`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ five emails so far today.",
+    "question_knowledge_ids": [
+      366,
+      377
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "has sent",
+        "knowledge_ids": [
+          371,
+          377
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีการระบุ “จำนวนครั้ง/จำนวนชิ้นงาน” ใช้ **`have/has + V3`** เพื่อเน้นผลลัพธ์ที่นับได้ เช่น `He has sent five emails so far today.` คำว่า **so far** ช่วยชี้ว่าเชื่อมถึงปัจจุบัน"
+      },
+      {
+        "index": 2,
+        "text": "has been sending",
+        "knowledge_ids": [
+          361
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่แม่น เพราะ **Present Perfect Continuous** เน้นกระบวนการ ไม่เน้นจำนวน ถ้าต้องการเน้นว่า “กำลังยุ่งกับการส่งอยู่” อาจใช้ได้ แต่เมื่อมี **five emails** ควรใช้ **Present Perfect Simple**"
+      },
+      {
+        "index": 3,
+        "text": "sent",
+        "knowledge_ids": [
+          307
+        ],
+        "is_correct": false,
+        "answer_description": "เป็น **Past Simple** ซึ่งเหมาะกับเวลาอดีตที่จบชัดเจน เช่น `He sent five emails yesterday.` แต่ที่นี่มี **so far today** เชื่อมถึงปัจจุบัน จึงไม่ใช่รูปนี้"
+      },
+      {
+        "index": 4,
+        "text": "has been sent",
+        "knowledge_ids": [
+          290,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "เป็น **Passive** หมายถึง “อีเมลถูกส่ง” ไม่ได้เน้นผู้กระทำว่าเขาเป็นคนส่ง เราต้องการ **Active**: `has sent`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ on this project since 2019, and it isn't finished yet.",
+    "question_knowledge_ids": [
+      217,
+      272,
+      361,
+      367
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been working",
+        "knowledge_ids": [
+          217,
+          272,
+          361
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเน้นการทำงานต่อเนื่องตั้งแต่อดีตถึงปัจจุบันและยังไม่เสร็จ ใช้ **`have/has been + V-ing`** เช่น `They have been working on this project since 2019.` คำว่า **since** ชี้จุดเริ่มต้นที่ต่อเนื่องมาถึงตอนนี้"
+      },
+      {
+        "index": 2,
+        "text": "have worked",
+        "knowledge_ids": [
+          217,
+          272
+        ],
+        "is_correct": false,
+        "answer_description": "รูปนี้อาจสื่อว่าเคยทำช่วงหนึ่งหรือเน้นผล แต่ประโยคบอกชัดว่า “ยังไม่เสร็จ” และต้องการเน้นความต่อเนื่อง จึงเหมาะกับ **Present Perfect Continuous** มากกว่า เช่น `have been working`"
+      },
+      {
+        "index": 3,
+        "text": "worked",
+        "knowledge_ids": [
+          307
+        ],
+        "is_correct": false,
+        "answer_description": "เป็น **Past Simple** ซึ่งไม่เชื่อมถึงปัจจุบัน ใช้กับอดีตที่จบแล้ว เช่น `They worked on this project in 2019.` แต่ที่นี่บอกว่ายังไม่เสร็จ จึงไม่ใช่"
+      },
+      {
+        "index": 4,
+        "text": "are working",
+        "knowledge_ids": [
+          328
+        ],
+        "is_correct": false,
+        "answer_description": "แม้จะสื่อว่ากำลังทำตอนนี้ แต่ไม่ได้รวมระยะเวลาตั้งแต่ 2019 ถึงตอนนี้ โครงสร้างที่ครอบคลุมระยะเวลาคือ **Present Perfect Continuous**: `have been working`"
+      }
+    ]
+  },
+  {
+    "question": "Look at the paint on your hands! You ___ the fence, haven't you?",
+    "question_knowledge_ids": [
+      370,
+      371
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been painting",
+        "knowledge_ids": [
+          361,
+          370
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมี “หลักฐานในปัจจุบัน” บอกว่ากิจกรรมเพิ่งเกิดและต่อเนื่อง ใช้ **`have/has been + V-ing`** เช่น `You have been painting the fence.` เน้นกิจกรรมที่ทำมาสักพักและเพิ่งหยุด/ยังไม่เสร็จ"
+      },
+      {
+        "index": 2,
+        "text": "have painted",
+        "knowledge_ids": [
+          371
+        ],
+        "is_correct": false,
+        "answer_description": "รูปนี้เน้นผลลัพธ์ว่า “ทำเสร็จแล้ว” เช่น `You have painted the fence` (รั้วเสร็จแล้ว) แต่บริบทเน้นคราบสีที่มือ ซึ่งเหมาะกับ **Continuous** ที่ชี้ให้เห็นกิจกรรมต่อเนื่อง"
+      },
+      {
+        "index": 3,
+        "text": "painted",
+        "knowledge_ids": [
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "เป็น **Past Simple** ที่ไม่ได้โยงกับปัจจุบัน ถ้าพูดถึงผล/หลักฐานตอนนี้ ควรใช้ **Present Perfect (Continuous)** เพื่อเชื่อมถึงปัจจุบัน"
+      },
+      {
+        "index": 4,
+        "text": "have been painted",
+        "knowledge_ids": [
+          290,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "เป็น **Passive** (รั้วถูกทาสี) ซึ่งไม่สอดคล้องกับประธาน `you` ที่เป็นผู้กระทำ ควรใช้ **Active**: `have been painting`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ this movie twice this week.",
+    "question_knowledge_ids": [
+      368,
+      369,
+      379
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have seen",
+        "knowledge_ids": [
+          368,
+          369
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีการระบุ “จำนวนครั้ง” ใช้ **`have/has + V3`** เพื่อเน้นผลลัพธ์/จำนวน เช่น `I have seen this movie twice this week.` คำว่า **twice** ทำให้เลือก **Present Perfect Simple** ชัดเจน"
+      },
+      {
+        "index": 2,
+        "text": "have been seeing",
+        "knowledge_ids": [
+          361
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ **Present Perfect Continuous** ไม่เข้ากับบริบทที่เน้นจำนวนครั้ง เช่น `twice` เมื่อเน้นจำนวน ให้ใช้ **Present Perfect Simple** ดีกว่า: `have seen`"
+      },
+      {
+        "index": 3,
+        "text": "saw",
+        "knowledge_ids": [
+          307,
+          382
+        ],
+        "is_correct": false,
+        "answer_description": "เป็น **Past Simple** ซึ่งมักต้องมีเวลาอดีตชัดเจน เช่น `I saw this movie last night.` แต่ที่นี่ใช้ `this week` เชื่อมถึงปัจจุบัน จึงควรใช้ **Present Perfect**"
+      },
+      {
+        "index": 4,
+        "text": "have been seen",
+        "knowledge_ids": [
+          290,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "เป็น **Passive** แปลว่า “ฉันถูกเห็น” ซึ่งไม่ตรงความหมาย ประโยคต้องการสื่อว่าฉันเป็นคนดูหนังเอง ใช้ `have seen`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ her for years.",
+    "question_knowledge_ids": [
+      207,
+      366,
+      367
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have known",
+        "knowledge_ids": [
+          207,
+          371
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกริยา **stative verb** อย่าง **know** ไม่ใช้ในรูป **Continuous** ใช้ **`have/has + V3`**: `I have known her for years.` เน้นสถานะที่จริงมาต่อเนื่องถึงปัจจุบัน"
+      },
+      {
+        "index": 2,
+        "text": "have been knowing",
+        "knowledge_ids": [
+          207,
+          348
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดหลัก เพราะ **know** เป็นกริยาแสดงสภาพ (stative) จึงไม่ใช้รูป **Continuous** ตัวอย่างที่ถูกคือ `I have known her for years.` ไม่ใช่ `have been knowing`"
+      },
+      {
+        "index": 3,
+        "text": "knew",
+        "knowledge_ids": [
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "เป็น **Past Simple** สื่อว่าสิ่งนั้นเกิดและจบในอดีต เช่น `I knew her in 2010.` แต่ที่นี่ต้องการเชื่อมถึงปัจจุบัน (for years) จึงใช้ **Present Perfect Simple**"
+      },
+      {
+        "index": 4,
+        "text": "am knowing",
+        "knowledge_ids": [
+          207,
+          348
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะ **stative verbs** อย่าง `know, believe, understand` ไม่ใช้ **Continuous** ควรใช้ `have known` เพื่อสื่อความต่อเนื่องถึงปัจจุบัน"
+      }
+    ]
+  },
+  {
+    "question": "We ___ for your reply all morning, but nothing has come.",
+    "question_knowledge_ids": [
+      217,
+      360,
+      367
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been waiting",
+        "knowledge_ids": [
+          217,
+          361
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเน้นกิจกรรมที่ “ดำเนินมาตลอดเช้าและยังไม่เสร็จ” ใช้ **`have/has been + V-ing`** เช่น `We have been waiting all morning.` คำว่า **all morning** เน้นความต่อเนื่องชัดเจน"
+      },
+      {
+        "index": 2,
+        "text": "have waited",
+        "knowledge_ids": [
+          217
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ใช่ตัวเลือกที่สื่อความต่อเนื่องได้ชัดที่สุด แม้จะไม่ผิดเสมอไป แต่เมื่อเน้น “ความยาวเวลา” เช่น **all morning** จะใช้ **Present Perfect Continuous** ธรรมชาติกว่า: `have been waiting`"
+      },
+      {
+        "index": 3,
+        "text": "waited",
+        "knowledge_ids": [
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "เป็น **Past Simple** และมักต้องมีเวลาอดีตชัดเจน เช่น `We waited all morning yesterday.` แต่ประโยคนี้เชื่อมถึงตอนนี้และเน้นความต่อเนื่อง"
+      },
+      {
+        "index": 4,
+        "text": "have been waited",
+        "knowledge_ids": [
+          290,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น **Passive** (ถูกคอย) ซึ่งไม่เข้ากับความหมายที่เราคือผู้กระทำการรอ รูปที่ถูกคือ **Active**: `have been waiting`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ a lot lately, so she's tired.",
+    "question_knowledge_ids": [
+      192,
+      356,
+      361,
+      366,
+      367,
+      378
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "has been working",
+        "knowledge_ids": [
+          192,
+          356,
+          361,
+          366,
+          367,
+          378
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **lately** บอกช่วงหลังๆ และเราเน้น “กิจกรรมต่อเนื่องที่ส่งผลตอนนี้ (เหนื่อย)” ใช้ **`have/has been + V-ing`** เช่น `She has been working a lot lately.` โฟกัสที่กระบวนการทำงาน ยังคงส่งผล"
+      },
+      {
+        "index": 2,
+        "text": "has worked",
+        "knowledge_ids": [
+          361,
+          366,
+          368,
+          370,
+          371,
+          379
+        ],
+        "is_correct": false,
+        "answer_description": "อาจใช้ได้บางบริบท แต่ถ้าต้องการเน้น “สาเหตุที่ทำให้เหนื่อยตอนนี้” รูป **Continuous** จะสื่อความต่อเนื่องและผลกระทบปัจจุบันชัดกว่า เช่น `has been working`"
+      },
+      {
+        "index": 3,
+        "text": "worked",
+        "knowledge_ids": [
+          306,
+          307,
+          382,
+          311
+        ],
+        "is_correct": false,
+        "answer_description": "เป็น **Past Simple** ไม่เชื่อมโยงผลสู่ปัจจุบันเท่าที่ควร เช่น `She worked a lot last week.` แต่ที่นี่มี **lately** และผลคือ `she's tired` จึงควรใช้ **Present Perfect Continuous**"
+      },
+      {
+        "index": 4,
+        "text": "has been worked",
+        "knowledge_ids": [
+          222,
+          291,
+          290
+        ],
+        "is_correct": false,
+        "answer_description": "เป็น **Passive** หมายถึง “ถูกทำงาน” ซึ่งไม่สมเหตุสมผลกับประธาน `she` ต้องใช้ **Active**: `has been working`"
+      }
+    ]
+  }
+]

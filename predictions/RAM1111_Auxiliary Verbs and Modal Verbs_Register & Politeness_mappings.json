@@ -1,0 +1,626 @@
+[
+  {
+    "question": "___ you open the window, please?",
+    "question_knowledge_ids": [
+      194,
+      197,
+      416,
+      426,
+      428,
+      430,
+      441
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Can",
+        "knowledge_ids": [
+          426,
+          441,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในแง่ความสุภาพ แม้ `Can you...` ใช้ได้ในบทสนทนาทั่วไป แต่ระดับความสุภาพจะน้อยกว่า `Could you...`. ถ้าต้องการสุภาพขึ้น โดยเฉพาะกับคนไม่สนิทหรือบริบทกึ่งทางการ ควรใช้ `Could you open the window, please?`"
+      },
+      {
+        "index": 2,
+        "text": "Could",
+        "knowledge_ids": [
+          426,
+          428,
+          441,
+          430
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะการขอร้องอย่างสุภาพนิยมใช้รูป __Could you + base verb + please__ เช่น `Could you open the window, please?` ฟังนุ่มนวลและให้เกียรติมากกว่า `Can you...`. ตัวอย่างใช้งาน: `Could you send me the file by noon, please?`"
+      },
+      {
+        "index": 3,
+        "text": "Would",
+        "knowledge_ids": [
+          428,
+          441,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "เกือบได้ แต่รูปที่ธรรมชาติกว่าในบริบทนี้คือ `Could you...` ถ้าจะใช้ `Would`, มักจะเป็นโครงสร้าง **Would you mind + V-ing** เช่น `Would you mind opening the window?` ไม่ใช่ `Would you open the window, please?` ซึ่งฟังได้แต่แข็งกว่า."
+      },
+      {
+        "index": 4,
+        "text": "May",
+        "knowledge_ids": [
+          424,
+          441,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`May` มักใช้ถาม **ขออนุญาต** เช่น `May I open the window?` คือผู้พูดจะเปิดเอง ไม่ใช่ขอให้คนอื่นทำให้ ดังนั้นกับประโยคที่ขอให้คู่สนทนาทำ ควรใช้ `Could you...` จะตรงกว่า."
+      }
+    ]
+  },
+  {
+    "question": "___ I leave a bit early today, professor?",
+    "question_knowledge_ids": [
+      194,
+      197,
+      416,
+      426,
+      424,
+      428,
+      430,
+      441
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Can",
+        "knowledge_ids": [
+          426,
+          441,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`Can I...` เน้นความสามารถทางกายภาพมากกว่าและไม่ค่อยเป็นทางการ เช่น `Can I leave now?` ใช้ได้กับเพื่อน แต่กับอาจารย์หรือสถานการณ์ทางการ ควรใช้ `May I...` เพื่อขออนุญาตอย่างสุภาพ."
+      },
+      {
+        "index": 2,
+        "text": "May",
+        "knowledge_ids": [
+          424,
+          441,
+          430
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง `__May I + base verb__` ใช้ถาม **ขออนุญาต** อย่างสุภาพ เช่น `May I leave a bit early today?` รูปนี้เหมาะกับบริบททางการหรือกับผู้ที่ควรให้เกียรติ เช่น อาจารย์หรือหัวหน้างาน."
+      },
+      {
+        "index": 3,
+        "text": "Could",
+        "knowledge_ids": [
+          426,
+          428,
+          441,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`Could I...` ฟังสุภาพได้ แต่โดยมาตรฐานการขออนุญาตแบบเป็นทางการจะนิยม `May I...` มากกว่า เช่น บนป้ายหรือในพิธีการมักใช้ `May`. ตัวอย่างเปรียบเทียบ: `May I come in?` (ทางการ) vs `Could I come in?` (สุภาพกึ่งกันเอง)."
+      },
+      {
+        "index": 4,
+        "text": "Will",
+        "knowledge_ids": [
+          421,
+          441,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`Will I...` ไม่ใช่รูปการขออนุญาตที่ถูกต้อง มักสื่อถามเกี่ยวกับอนาคต/ความตั้งใจ เช่น `Will I pass the test?` ถ้าต้องการขออนุญาตควรใช้ `May I...`"
+      }
+    ]
+  },
+  {
+    "question": "___ you like some tea?",
+    "question_knowledge_ids": [
+      194,
+      197,
+      416,
+      428,
+      430,
+      441
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Would",
+        "knowledge_ids": [
+          428,
+          441,
+          430
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปสุภาพในการเชิญหรือเสนอคือ __Would you like + noun/infinitive__ เช่น `Would you like some tea?` หรือ `Would you like to sit here?` ฟังสุภาพกว่าการใช้ `Do you want...`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          381
+        ],
+        "is_correct": false,
+        "answer_description": "`Do you like some tea?` ผิดธรรมชาติ เพราะ `Do you like...` ถามความชอบทั่วไป ไม่ใช่ข้อเสนอ ณ ตอนนั้น ควรใช้ `Would you like some tea?` เมื่อต้องการเสนอให้ตอนนี้."
+      },
+      {
+        "index": 3,
+        "text": "Will",
+        "knowledge_ids": [
+          421,
+          441,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`Will you like...` ไม่ใช้ในการเสนอ; รูปนี้ฟังแปลกในภาษาอังกฤษมาตรฐาน เมื่อเสนอให้สุภาพควรใช้ `Would you like...` เช่น `Would you like some coffee?`"
+      },
+      {
+        "index": 4,
+        "text": "Are",
+        "knowledge_ids": [
+          305
+        ],
+        "is_correct": false,
+        "answer_description": "`Are you like some tea?` โครงสร้างผิดไวยากรณ์ เพราะ `like` ที่นี่เป็นกริยาหลักไม่ใช้กับ `be` แบบนี้ รูปที่ถูกคือ `Would you like some tea?`"
+      }
+    ]
+  },
+  {
+    "question": "You ___ want to back up your files before installing.",
+    "question_knowledge_ids": [
+      416,
+      424,
+      425,
+      430
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "might",
+        "knowledge_ids": [
+          424,
+          430
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูป __might want to + base verb__ ใช้ให้คำแนะนำแบบนุ่มนวล เช่น `You might want to back up your files.` ฟังสุภาพกว่าการสั่ง และเหมาะในบริบทที่ต้องรักษาน้ำเสียงมืออาชีพ."
+      },
+      {
+        "index": 2,
+        "text": "must",
+        "knowledge_ids": [
+          423,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`must` ให้ความรู้สึกบังคับ/เข้มงวด เช่น `You must back up your files.` ซึ่งไม่ตรงกับโทนสุภาพแบบแนะนำ หากต้องการนุ่มนวลให้ใช้ `might want to` หรือ `should`"
+      },
+      {
+        "index": 3,
+        "text": "will",
+        "knowledge_ids": [
+          421,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`will` พูดถึงอนาคตหรือความตั้งใจ เช่น `You will back up your files.` ไม่ใช่รูปแนะนำอย่างสุภาพ จึงไม่เหมาะกับ register แบบสุภาพ"
+      },
+      {
+        "index": 4,
+        "text": "can",
+        "knowledge_ids": [
+          426,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`can` เน้นความสามารถ/ความเป็นไปได้ เช่น `You can back up your files.` ไม่สื่อคำแนะนำที่นุ่มนวลเท่ารูป `might want to`"
+      }
+    ]
+  },
+  {
+    "question": "___ you mind closing the door?",
+    "question_knowledge_ids": [
+      194,
+      197,
+      416,
+      426,
+      428,
+      430,
+      441
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Would",
+        "knowledge_ids": [
+          428,
+          441,
+          430
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างสุภาพคือ __Would you mind + V-ing__ เช่น `Would you mind closing the door?` แปลว่า \"จะรังเกียจไหมถ้าช่วยปิดประตู\" ฟังนุ่มกว่าการสั่งตรง ๆ"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          381
+        ],
+        "is_correct": false,
+        "answer_description": "`Do you mind to close...` ผิดรูป เพราะหลัง `mind` ต้องใช้ **V-ing** ไม่ใช่ `to + verb`. รูปที่ถูกคือ `Do you mind closing the door?` หรือสุภาพยิ่งขึ้น `Would you mind closing the door?`"
+      },
+      {
+        "index": 3,
+        "text": "Could",
+        "knowledge_ids": [
+          426,
+          428,
+          441,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`Could you mind...` ไม่ใช้ร่วมกันแบบนี้ `Could you` ใช้กับกริยาหลักตรง ๆ เช่น `Could you close the door?` ถ้าจะใช้ `mind` ให้ใช้ `Would you mind + V-ing`"
+      },
+      {
+        "index": 4,
+        "text": "Will",
+        "knowledge_ids": [
+          421,
+          441,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`Will you mind...` ไม่เป็นธรรมชาติ รูปมาตรฐานคือ `Would you mind + V-ing` เช่น `Would you mind waiting here?`"
+      }
+    ]
+  },
+  {
+    "question": "___ it be possible to reschedule the meeting?",
+    "question_knowledge_ids": [
+      194,
+      197,
+      416,
+      424,
+      426,
+      428,
+      430,
+      441
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Would",
+        "knowledge_ids": [
+          428,
+          441,
+          430
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคสุภาพทางธุรกิจนิยมใช้ __Would it be possible to + base verb__ เช่น `Would it be possible to reschedule the meeting?` เป็นการขอร้องที่ลดแรงกดดันและให้เกียรติคู่สนทนา"
+      },
+      {
+        "index": 2,
+        "text": "Could",
+        "knowledge_ids": [
+          426,
+          428,
+          441,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`Could it be possible...` ฟังซ้ำซ้อนและไม่เป็นธรรมชาติ ปกติใช้ `Would it be possible...` หรือ `Could we reschedule the meeting?` แทน"
+      },
+      {
+        "index": 3,
+        "text": "Will",
+        "knowledge_ids": [
+          421,
+          441,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`Will it be possible...` ฟังตรงเกินไปและไม่สุภาพเท่าที่ควรในงานทางการ รูป `Would it be possible...` นุ่มนวลกว่า"
+      },
+      {
+        "index": 4,
+        "text": "Can",
+        "knowledge_ids": [
+          426,
+          441,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`Can it be possible...` ผิดธรรมชาติและซ้ำซ้อน ใช้ `Can we reschedule?` (กันเอง) หรือ `Would it be possible to reschedule...?` (สุภาพ) จะดีกว่า"
+      }
+    ]
+  },
+  {
+    "question": "I'm afraid I ___ help with that.",
+    "question_knowledge_ids": [
+      193,
+      416,
+      426,
+      425,
+      430
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "can't",
+        "knowledge_ids": [
+          193,
+          249,
+          426,
+          430
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปสุภาพของการปฏิเสธคือ __I'm afraid + I can't + base verb__ เช่น `I'm afraid I can't help with that.` น้ำเสียงสุภาพเพราะใส่ `I'm afraid` เพื่อลดความกระด้างของการปฏิเสธ"
+      },
+      {
+        "index": 2,
+        "text": "won't",
+        "knowledge_ids": [
+          193,
+          249,
+          421,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`I won't help` ฟังแข็งและอาจเสียมารยาท เพราะสื่อว่า \"ไม่ยอมช่วย\" ไม่ใช่ \"ช่วยไม่ได้\" ถ้าอยากสุภาพให้ใช้ `I'm afraid I can't...`"
+      },
+      {
+        "index": 3,
+        "text": "shouldn't",
+        "knowledge_ids": [
+          193,
+          249,
+          425,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`I shouldn't help` สื่อแปลก ๆ ว่า \"ไม่ควรช่วย\" ซึ่งไม่ใช่รูปปฏิเสธสุภาพมาตรฐาน หากตั้งใจจะบอกว่าไม่สามารถช่วย ให้ใช้ `I can't` และเติมตัวทำให้นุ่มเช่น `I'm afraid...`"
+      },
+      {
+        "index": 4,
+        "text": "wouldn't",
+        "knowledge_ids": [
+          428,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`I wouldn't help` ดูท้าทาย/แข็งเกินไปสำหรับการปฏิเสธทางสุภาพ ทางเลือกที่ดีกว่าคือ `I'm afraid I can't help with that.`"
+      }
+    ]
+  },
+  {
+    "question": "___ I help you with your luggage?",
+    "question_knowledge_ids": [
+      194,
+      197,
+      416,
+      424,
+      426,
+      430,
+      441
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "May",
+        "knowledge_ids": [
+          424,
+          441,
+          430
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อต้องการเสนอความช่วยเหลืออย่างสุภาพ ใช้ __May I + base verb__ เช่น `May I help you with your luggage?` ใช้ในงานบริการหรือสถานการณ์ทางการได้ดี"
+      },
+      {
+        "index": 2,
+        "text": "Can",
+        "knowledge_ids": [
+          426,
+          441,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`Can I help you?` ใช้ได้ทั่วไปและเป็นมิตร แต่ถ้าต้องการโทนทางการ/สุภาพเป็นพิเศษ `May I help you?` จะเหมาะกว่า โดยเฉพาะในบริบทงานบริการ"
+      },
+      {
+        "index": 3,
+        "text": "Would",
+        "knowledge_ids": [
+          428,
+          441,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`Would I help you?` โครงสร้างนี้ไม่ใช่รูปเสนอความช่วยเหลือมาตรฐาน ถ้าใช้ `Would` ควรเป็น `Would you like some help?` ซึ่งเปลี่ยนความหมายเป็นชวนรับความช่วยเหลือ"
+      },
+      {
+        "index": 4,
+        "text": "Should",
+        "knowledge_ids": [
+          425,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`Should I help you?` ฟังเหมือนถามว่าควรช่วยไหม ไม่ใช่ข้อเสนอสุภาพตรง ๆ รูปที่เหมาะคือ `May I help you?`"
+      }
+    ]
+  },
+  {
+    "question": "___ you be able to send the files by Friday?",
+    "question_knowledge_ids": [
+      194,
+      197,
+      416,
+      424,
+      426,
+      428,
+      430,
+      441
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Would",
+        "knowledge_ids": [
+          428,
+          441,
+          430
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปขอความร่วมมืออย่างสุภาพคือ __Would you be able to + base verb__ เช่น `Would you be able to send the files by Friday?` ทำให้คำขอนุ่มนวลและเปิดโอกาสให้ปฏิเสธได้อย่างสุภาพ"
+      },
+      {
+        "index": 2,
+        "text": "Could",
+        "knowledge_ids": [
+          424,
+          426,
+          441,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`Could you be able to...` ซ้ำซ้อน เพราะ `could` และ `be able to` ต่างก็สื่อความสามารถอยู่แล้ว ถ้าจะใช้ `could` ให้พูด `Could you send the files by Friday?` แทน"
+      },
+      {
+        "index": 3,
+        "text": "Will",
+        "knowledge_ids": [
+          421,
+          441,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`Will you be able to...` ฟังตรงกว่าและความสุภาพน้อยกว่า `Would you be able to...` ในงานทางการหรือกับลูกค้า แนะนำใช้ `Would`"
+      },
+      {
+        "index": 4,
+        "text": "Can",
+        "knowledge_ids": [
+          426,
+          441,
+          430
+        ],
+        "is_correct": false,
+        "answer_description": "`Can you be able to...` ผิดเชิงความหมายเพราะซ้ำซ้อน ใช้ `Can you send the files by Friday?` (กันเอง) หรือ `Would you be able to...` (สุภาพ) จะดีกว่า"
+      }
+    ]
+  },
+  {
+    "question": "Visitors ___ not enter beyond this point.",
+    "question_knowledge_ids": [
+      423,
+      505
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "may",
+        "knowledge_ids": [
+          423
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ในประกาศ/ป้ายอย่างเป็นทางการนิยมใช้ __may not__ เพื่อสื่อข้อห้ามอย่างสุภาพ เช่น `Visitors may not enter beyond this point.` ฟังเป็นทางการกว่าการใช้ `can't`"
+      },
+      {
+        "index": 2,
+        "text": "can",
+        "knowledge_ids": [
+          426
+        ],
+        "is_correct": false,
+        "answer_description": "`cannot/can't` แม้สื่อข้อห้ามได้ แต่ให้โทนไม่เป็นทางการเท่า `may not` ในภาษาป้ายราชการหรือสถาบันมักใช้ `may not`"
+      },
+      {
+        "index": 3,
+        "text": "will",
+        "knowledge_ids": [
+          421
+        ],
+        "is_correct": false,
+        "answer_description": "`will not` สื่ออนาคต/ความตั้งใจ ไม่ใช่ข้อห้ามเชิงกฎ เช่น `Visitors will not enter...` ฟังแปลกสำหรับป้ายประกาศ ควรใช้ `may not`"
+      },
+      {
+        "index": 4,
+        "text": "should",
+        "knowledge_ids": [
+          425
+        ],
+        "is_correct": false,
+        "answer_description": "`should not` เป็นคำแนะนำว่าไม่ควร ไม่ใช่ข้อห้ามตามกฎ ระดับความเข้มงวดน้อยกว่า `may not`"
+      }
+    ]
+  },
+  {
+    "question": "___ you possibly send me the report today?",
+    "question_knowledge_ids": [
+      194,
+      197,
+      416,
+      417,
+      426,
+      430,
+      441,
+      504,
+      581
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Could",
+        "knowledge_ids": [
+          197,
+          426,
+          428,
+          430,
+          441,
+          504
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างสุภาพมากคือ __Could you possibly + base verb__ เช่น `Could you possibly send me the report today?` คำว่า **possibly** ช่วยทำให้คำขอเบาลงและเกรงใจมากขึ้น"
+      },
+      {
+        "index": 2,
+        "text": "Can",
+        "knowledge_ids": [
+          426,
+          430,
+          441,
+          504
+        ],
+        "is_correct": false,
+        "answer_description": "`Can you possibly...` ใช้ได้แต่ยังน้อยสุภาพกว่า `Could you possibly...` โดยเฉพาะในงานทางการ เลือก `Could` จะเหมาะกว่า เช่น `Could you possibly confirm by 5 pm?`"
+      },
+      {
+        "index": 3,
+        "text": "Will",
+        "knowledge_ids": [
+          421,
+          430,
+          441
+        ],
+        "is_correct": false,
+        "answer_description": "`Will you possibly...` ฟังไม่เป็นธรรมชาติ และโทนค่อนข้างตรงไปตรงมา หากต้องการสุภาพให้ใช้ `Could you possibly...`"
+      },
+      {
+        "index": 4,
+        "text": "May",
+        "knowledge_ids": [
+          424,
+          430,
+          441
+        ],
+        "is_correct": false,
+        "answer_description": "`May you...` ไม่ใช้เพื่อขอร้องแบบนี้ `May` มักใช้ `May I...` เพื่อขออนุญาต เช่น `May I leave now?` ไม่ใช่ `May you...`"
+      }
+    ]
+  }
+]

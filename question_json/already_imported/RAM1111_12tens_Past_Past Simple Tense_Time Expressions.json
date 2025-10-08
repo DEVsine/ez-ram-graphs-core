@@ -1,0 +1,321 @@
+[
+  {
+    "question": "We moved to Tokyo ___ 2015.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "in 2015",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะการพูดถึงปีแบบช่วงเวลาที่จบไปแล้วใช้รูปแบบ **__in + ปี__** เช่น `in 2015` สอดคล้องกับ Past Simple. ตัวอย่าง: `We moved to Tokyo in 2015.` หรือ `I graduated in 2020.`"
+      },
+      {
+        "index": 2,
+        "text": "since 2015",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **since** ใช้กับช่วงเวลาที่เริ่มในอดีตและต่อเนื่องถึงปัจจุบัน มักใช้กับ **Present Perfect** เช่น `I have lived here since 2015.` แต่ประโยคนี้เป็น Past Simple ที่จบแล้ว."
+      },
+      {
+        "index": 3,
+        "text": "for 2015",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **for** ใช้กับระยะเวลา (duration) เช่น `for two years` ไม่ใช้กับปีเดี่ยวๆ แบบ `for 2015`. ตัวอย่างที่ถูก: `I worked there for two years.`"
+      },
+      {
+        "index": 4,
+        "text": "ago 2015",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปแบบ **ago** ต้องวางหลังจำนวนเวลา เช่น `two years ago` ไม่วางหน้า **ปี** แบบ `ago 2015`. ตัวอย่างที่ถูก: `I left two years ago.`"
+      }
+    ]
+  },
+  {
+    "question": "They got married ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "two years ago",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้รูปแบบ **__number + time period + ago__** เพื่อบอกเวลาที่ผ่านมา เช่น `two years ago`. ตัวอย่าง: `They got married two years ago.` หรือ `I moved here three months ago.`"
+      },
+      {
+        "index": 2,
+        "text": "since two years",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **since** ต้องตามด้วยจุดเริ่มเวลา (point in time) เช่น `since 2022` ไม่ใช่ระยะเวลา เช่น `since two years` ซึ่งผิด. ถ้าจะใช้ระยะเวลาใช้ **for** เช่น `for two years` (แต่จะเข้ากับ Present Perfect มากกว่า)."
+      },
+      {
+        "index": 3,
+        "text": "for two years",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะ **for + ระยะเวลา** เน้นความต่อเนื่อง มักใช้กับ **Present Perfect** เช่น `They have been married for two years.` แต่ประโยคนี้ต้องการบอก “เมื่อกี่ปีที่แล้ว” แบบ Past Simple."
+      },
+      {
+        "index": 4,
+        "text": "two years before",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **before** ต้องอ้างอิงเวลาอีกจุดหนึ่ง เช่น `two years before the war.` ถ้าไม่มีจุดอ้างอิง ใช้ `ago` แทน เช่น `two years ago`."
+      }
+    ]
+  },
+  {
+    "question": "She called me ___ night.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "last",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้รูปแบบ **__last + ช่วงเวลา__** เพื่อบอกช่วงเวลาที่จบไปแล้ว เช่น `last night`. ตัวอย่าง: `She called me last night.` หรือ `We met last week.`"
+      },
+      {
+        "index": 2,
+        "text": "yesterday",
+        "is_correct": false,
+        "answer_description": "เกือบถูก แต่ใส่กับคำว่า `night` ต้องใช้ `last night` ไม่ใช้ `yesterday night` (เจ้าของภาษาไม่พูดแบบนี้). ถ้าอยากใช้ yesterday ให้พูดว่า `She called me yesterday.`"
+      },
+      {
+        "index": 3,
+        "text": "ago",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **ago** ต้องตามหลังจำนวนเวลา เช่น `two hours ago` ไม่ใช้เดี่ยวๆ ต่อท้าย `night`. ตัวอย่างที่ถูก: `She called me two nights ago.`"
+      },
+      {
+        "index": 4,
+        "text": "previous",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `previous` เป็น adjective ต้องมีคำนามตามหลัง เช่น `the previous night`. ในช่องว่างนี้ต้องการคำเดียวที่เติมกับ `night` ได้คือ `last` → `last night`."
+      }
+    ]
+  },
+  {
+    "question": "We visited our grandparents ___ Saturday.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "last",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้รูปแบบ **__last + วันในสัปดาห์__** เพื่อพูดถึงวันในอดีตที่จบไปแล้ว เช่น `last Saturday`. ตัวอย่าง: `We visited our grandparents last Saturday.`"
+      },
+      {
+        "index": 2,
+        "text": "in",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **in** ใช้กับเดือน/ปี/ช่วงเวลา (in June, in 2020, in the morning) ไม่ใช้กับวันในสัปดาห์. ถ้าจะใช้บุพบทกับวัน ใช้ **on** เช่น `on Saturday`."
+      },
+      {
+        "index": 3,
+        "text": "on last",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่ใช้ **on** นำหน้า `last + วัน` เราพูดว่า **`last Saturday`** เลย ไม่พูด `on last Saturday`. ถ้าไม่มี `last` ค่อยใช้ `on Saturday` ได้."
+      },
+      {
+        "index": 4,
+        "text": "at",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **at** ใช้กับเวลาเจาะจง (at 3 p.m.) หรือเทศกาลสั้นๆ (at the weekend - แบบอังกฤษ) ไม่ใช้กับชื่อวันแบบเดี่ยวในรูปนี้."
+      }
+    ]
+  },
+  {
+    "question": "I saw that movie ___ 2019.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "in 2019",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้รูปแบบ **__in + ปี__** เพื่อบอกปีที่เกิดเหตุการณ์ในอดีต เช่น `in 2019`. ตัวอย่าง: `I saw that movie in 2019.` หรือ `He moved to Canada in 2011.`"
+      },
+      {
+        "index": 2,
+        "text": "on 2019",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **on** ใช้กับวัน/วันที่ เช่น `on Monday`, `on May 5th`. ปีต้องใช้ **in** เช่น `in 2019`."
+      },
+      {
+        "index": 3,
+        "text": "at 2019",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **at** ใช้กับเวลาเจาะจง (เช่น `at 7 p.m.`) หรือบางสำนวน (`at night`). ปีต้องใช้ **in** เช่น `in 2019`."
+      },
+      {
+        "index": 4,
+        "text": "by 2019",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ **by** แปลว่า “ไม่เกิน/ภายใน” ใช้เน้นเส้นตาย ไม่ใช่บอกเวลาอดีตแบบธรรมดา เช่น `By 2019, I had seen it.` (มักเข้ากับ Past Perfect). ที่นี่ควรใช้ `in 2019`."
+      }
+    ]
+  },
+  {
+    "question": "The company hired me ___ May 5th, 2018.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "on",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะวันที่ใช้ **__on + วันที่__** เช่น `on May 5th, 2018`. ตัวอย่าง: `The company hired me on May 5th, 2018.` หรือ `We met on July 1st.`"
+      },
+      {
+        "index": 2,
+        "text": "in",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **in** ใช้กับเดือน/ปี เช่น `in May`, `in 2018` แต่เมื่อมีวันที่เจาะจง ต้องใช้ **on** เช่น `on May 5th`."
+      },
+      {
+        "index": 3,
+        "text": "at",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **at** ใช้กับเวลา (at 9 a.m.) หรือสำนวนบางอย่าง (at night) ไม่ใช้กับ “วันที่” แบบนี้."
+      },
+      {
+        "index": 4,
+        "text": "by",
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย เพราะ **by** หมายถึง “ไม่เกิน/ภายใน” เช่น `by May 5th` จะสื่อเส้นตาย ไม่ใช่วันเกิดเหตุในอดีตแบบจบไปแล้ว."
+      }
+    ]
+  },
+  {
+    "question": "He broke his arm ___ he was ten.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "when",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **__when + past clause__** เพื่อบอกเวลาในอดีตที่เกิดเหตุ เช่น `when he was ten`. ตัวอย่าง: `He broke his arm when he was ten.` หรือ `I moved out when I graduated.`"
+      },
+      {
+        "index": 2,
+        "text": "while",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะ **while** มักตามด้วย **Past Continuous** เพื่อเน้นการกระทำที่กำลังดำเนินอยู่ เช่น `while he was playing`. ที่นี่เป็นอายุ (สถานะ) จึงใช้ `when` เหมาะกว่า."
+      },
+      {
+        "index": 3,
+        "text": "since",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **since** ใช้บอกจุดเริ่มและต่อเนื่องถึงปัจจุบัน (Present Perfect) เช่น `since he was ten` (ตั้งแต่อายุสิบ) ไม่ได้บอกเหตุการณ์เดี่ยวในอดีต."
+      },
+      {
+        "index": 4,
+        "text": "for",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **for** ใช้บอกรยะเวลา เช่น `for ten years` ไม่ใช่บอกเวลาแบบเหตุการณ์จุดเดียวในอดีต."
+      }
+    ]
+  },
+  {
+    "question": "We met ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the day before yesterday",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง สำนวนอดีตที่ชัดเจนคือ **__the day before yesterday__** (เมื่อวานซืน) ใช้กับ Past Simple ได้ตรงๆ. ตัวอย่าง: `We met the day before yesterday.` หรือ `I finished it the day before yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "before two days",
+        "is_correct": false,
+        "answer_description": "ผิด เจ้าของภาษาไม่พูด `before two days` ต้องใช้ **`two days ago`** แทน เช่น `We met two days ago.`"
+      },
+      {
+        "index": 3,
+        "text": "two days since",
+        "is_correct": false,
+        "answer_description": "ผิด โครงสร้างถูกคือ **since + จุดเริ่มเวลา** ไม่ใช่ `two days since`. ถ้าจะสื่อ “เมื่อสองวันก่อน” ใช้ `two days ago` หรือ `the day before yesterday`."
+      },
+      {
+        "index": 4,
+        "text": "two days earlier",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ `earlier` เป็นรูปเปรียบเทียบ ต้องมีจุดอ้างอิงเวลา เช่น `Two days earlier, we met.` ถ้าไม่มีบริบทอ้างอิง ควรใช้ `two days ago` ตรงๆ."
+      }
+    ]
+  },
+  {
+    "question": "I finished the report ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "an hour ago",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้รูปแบบ **__number + time period + ago__** เพื่อบอกว่าก่อนหน้านี้เท่าไร เช่น `an hour ago`. ตัวอย่าง: `I finished the report an hour ago.` หรือ `She left five minutes ago.`"
+      },
+      {
+        "index": 2,
+        "text": "since an hour",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **since** ไม่ได้ใช้กับระยะเวลาแบบนี้ ต้องใช้กับ “จุดเริ่มเวลา” เช่น `since 3 p.m.` และมักเข้ากับ Present Perfect (`I have worked since 3 p.m.`)."
+      },
+      {
+        "index": 3,
+        "text": "for an hour",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **for + ระยะเวลา** แปลว่า “เป็นเวลา...” เน้นระยะเวลาที่ทำบางอย่างต่อเนื่อง ไม่ใช่บอกว่า “เมื่อไหร่” ที่เสร็จ. ตัวอย่างที่ถูกกับ for: `I worked for an hour.`"
+      },
+      {
+        "index": 4,
+        "text": "last hour",
+        "is_correct": false,
+        "answer_description": "ผิด เจ้าของภาษาไม่ใช้ `last hour` เพื่อบอกเวลาที่ผ่านมา มักใช้กับวัน/สัปดาห์/เดือน เช่น `last night`, `last week`. ถ้าจะบอกชั่วโมงที่ผ่านมา ใช้ `an hour ago`."
+      }
+    ]
+  },
+  {
+    "question": "He left the company ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "last June",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **__last + เดือน/สัปดาห์/คืน/วัน__** เพื่อชี้ช่วงเวลาที่จบไปแล้ว เช่น `last June`. ตัวอย่าง: `He left the company last June.` หรือ `I traveled last summer.`"
+      },
+      {
+        "index": 2,
+        "text": "in last June",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่ใช้ `in` นำหน้า `last + ช่วงเวลา`. เราพูดว่า `last June` ตรงๆ หรือถ้าจะใช้ `in` ก็ต้องใช้กับเดือนเดี่ยว เช่น `in June`."
+      },
+      {
+        "index": 3,
+        "text": "on last June",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `on` ไม่ใช้กับ `last + เดือน`. ใช้ `on` กับวันที่หรือวันในสัปดาห์ เช่น `on June 5th` หรือ `on Monday`."
+      },
+      {
+        "index": 4,
+        "text": "June ago",
+        "is_correct": false,
+        "answer_description": "ผิด โครงสร้าง **ago** ต้องตามหลัง “จำนวนเวลา” ไม่ใช่ชื่อเดือน เช่น `two months ago`. ดังนั้น `June ago` จึงผิด."
+      }
+    ]
+  },
+  {
+    "question": "My grandparents moved here ___ the 1990s.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "in",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **__in + ช่วงเวลา (ทศวรรษ/ศตวรรษ/ปี)__** เช่น `in the 1990s`. ตัวอย่าง: `My grandparents moved here in the 1990s.` หรือ `Many changes happened in the 20th century.`"
+      },
+      {
+        "index": 2,
+        "text": "on",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **on** ใช้กับวัน/วันที่ เช่น `on Monday`, `on May 5th` ไม่ใช้กับทศวรรษ (`the 1990s`)."
+      },
+      {
+        "index": 3,
+        "text": "at",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **at** ใช้กับเวลาเจาะจง (`at 6 p.m.`) หรือสำนวน (`at night`) ไม่ใช้กับทศวรรษ."
+      },
+      {
+        "index": 4,
+        "text": "by",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ **by** สื่อความหมาย “ภายใน/ไม่เกิน” เช่น `by the 1990s` จะเน้นเส้นตายมากกว่า ไม่ได้บอกเวลาที่เกิดเหตุการณ์อย่างธรรมดาแบบ Past Simple."
+      }
+    ]
+  }
+]

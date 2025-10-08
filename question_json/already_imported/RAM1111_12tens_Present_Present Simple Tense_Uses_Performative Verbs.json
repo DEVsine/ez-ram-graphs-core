@@ -1,0 +1,321 @@
+[
+  {
+    "question": "I ___ for being late.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "apologize",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกริยาเชิงกระทำ (**performative verb**) อย่าง **apologize** มักใช้ **Present Simple** เมื่อต้องการ “ทำการขอโทษในขณะพูด” โครงสร้างคือ __`I + apologize + for ...`__. ตัวอย่าง: `I apologize for being late.` ซึ่งการพูดแบบนี้ถือว่าได้ขอโทษจริง ๆ แล้ว"
+      },
+      {
+        "index": 2,
+        "text": "am apologizing",
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะกับบริบท performative เพราะ `am apologizing` เป็น **Present Continuous** ใช้เน้นกระบวนการ ไม่ใช่การประกาศการกระทำในขณะนั้น เช่น `I am apologizing now` ฟังดูแปลกกว่า `I apologize` ที่กระชับและทำหน้าที่ขอโทษทันที"
+      },
+      {
+        "index": 3,
+        "text": "apologized",
+        "is_correct": false,
+        "answer_description": "ผิดที่เป็น **Past Simple** (`apologized`) ซึ่งหมายถึงขอโทษไปแล้วในอดีต ไม่สอดคล้องกับการ “ทำการขอโทษตอนนี้” เช่น `Yesterday, I apologized for that.` ต่างจาก `I apologize for being late.`"
+      },
+      {
+        "index": 4,
+        "text": "will apologize",
+        "is_correct": false,
+        "answer_description": "ผิดที่เป็นอนาคต (`will apologize`) หมายถึงจะขอโทษในภายหลัง แต่ที่ต้องการคือการขอโทษทันทีในตอนพูด เช่น `I will apologize later` ไม่เท่ากับ `I apologize now`"
+      }
+    ]
+  },
+  {
+    "question": "We ___ that the meeting starts at 9.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "agree",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยา **agree** ในความหมายประกาศการเห็นพ้อง ใช้ **Present Simple** เพื่อทำการตกลงในขณะพูด โครงสร้าง __`We + agree + (that ...)`__. ตัวอย่าง: `We agree that the meeting starts at 9.` คือประกาศความเห็นพ้อง ณ ตอนนี้"
+      },
+      {
+        "index": 2,
+        "text": "are agreeing",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะในเชิง performative เพราะ `are agreeing` เป็น **Continuous** ซึ่งไม่ค่อยใช้กับกริยาเชิงประกาศแบบนี้ เรามักใช้ `We agree ...` เพื่อระบุการตกลงอย่างเป็นทางการมากกว่า เช่น `We agree to the terms.`"
+      },
+      {
+        "index": 3,
+        "text": "agrees",
+        "is_correct": false,
+        "answer_description": "ผิดที่รูปกริยาไม่ตรงกับประธาน `We` เพราะ **We** ต้องใช้กริยารูปพื้นฐาน `agree` ไม่ใช่ `agrees` เช่น `We agree`, แต่ `She agrees`"
+      },
+      {
+        "index": 4,
+        "text": "agreed",
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะ `agreed` เป็น **Past Simple** หมายถึงตกลงไปแล้วในอดีต แต่ประโยคนี้กำลัง “ประกาศการตกลงตอนนี้” จึงควรใช้ `agree`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ to help you with your project.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "promise",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยา **promise** เป็น **performative verb** ที่ใช้ **Present Simple** เพื่อ “ทำการให้สัญญา” ในขณะพูด โครงสร้าง __`I + promise + to + V1`__. ตัวอย่าง: `I promise to help you with your project.` คือการให้สัญญาเดี๋ยวนั้นเลย"
+      },
+      {
+        "index": 2,
+        "text": "am promising",
+        "is_correct": false,
+        "answer_description": "ไม่เป็นธรรมชาติสำหรับ performative เพราะรูป **Present Continuous** (`am promising`) เน้นกระบวนการ มากกว่าการประกาศให้สัญญาทันที เราพูดว่า `I promise to help you` จะชัดและเป็นทางการกว่า"
+      },
+      {
+        "index": 3,
+        "text": "promises",
+        "is_correct": false,
+        "answer_description": "รูปกริยาไม่ตรงกับประธาน `I` เพราะ `I` ใช้ `promise` ไม่ใช่ `promises` เช่น `I promise ...` แต่ `He promises ...`"
+      },
+      {
+        "index": 4,
+        "text": "promised",
+        "is_correct": false,
+        "answer_description": "เป็นกาลอดีต ซึ่งสื่อว่าให้สัญญาไปแล้วก่อนหน้านี้ เช่น `I promised to help last week.` แต่ที่นี่ต้องการประกาศสัญญาในตอนนี้ จึงใช้ `I promise ...`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ that I did not take the money.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "deny",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยา **deny** ใช้ **Present Simple** เพื่อทำการ “ปฏิเสธ” ในขณะพูด โครงสร้าง __`I + deny + that ...`__. ตัวอย่าง: `I deny that I took the money.` คือการประกาศปฏิเสธเดี๋ยวนั้น"
+      },
+      {
+        "index": 2,
+        "text": "am denying",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะในบริบท performative เพราะเป็น **Present Continuous** ซึ่งไม่จำเป็นและฟังดูไม่เป็นธรรมชาติ เราใช้ `I deny that ...` เพื่อประกาศการปฏิเสธอย่างชัดเจน"
+      },
+      {
+        "index": 3,
+        "text": "denies",
+        "is_correct": false,
+        "answer_description": "รูปกริยาผิดกับประธาน `I` เพราะ `I` ต้องใช้ `deny` ส่วน `denies` ใช้กับ `he/she/it` เช่น `She denies the claim.`"
+      },
+      {
+        "index": 4,
+        "text": "denied",
+        "is_correct": false,
+        "answer_description": "เป็นกาลอดีต แปลว่าปฏิเสธไปแล้วก่อนหน้า ไม่ใช่การประกาศปฏิเสธในเวลานี้ ที่ถูกควรใช้ `I deny ...`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ that you try a different method.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "suggest",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยา **suggest** เป็น performative ที่ใช้ **Present Simple** เพื่อ “ทำการเสนอแนะ” ตอนพูด โครงสร้างทั่วไป __`I + suggest + (that) + S + V`__ หรือ `I suggest trying ...` ตัวอย่าง: `I suggest that you try a different method.`"
+      },
+      {
+        "index": 2,
+        "text": "am suggesting",
+        "is_correct": false,
+        "answer_description": "ไม่จำเป็นต้องใช้ **Continuous** ในการประกาศข้อเสนอแนะในตอนนี้ เพราะ performatives ใช้ **Present Simple** จะเป็นธรรมชาติกว่า เช่น `I suggest you try ...`"
+      },
+      {
+        "index": 3,
+        "text": "suggests",
+        "is_correct": false,
+        "answer_description": "รูปกริยาไม่ตรงกับประธาน `I` เพราะ `I` ใช้ `suggest` ไม่ใช่ `suggests` เช่น `I suggest ...` แต่ `He suggests ...`"
+      },
+      {
+        "index": 4,
+        "text": "suggested",
+        "is_correct": false,
+        "answer_description": "เป็นกาลอดีต ซึ่งหมายถึงเสนอไปแล้วก่อนหน้า ไม่ใช่การ “เสนอแนะเดี๋ยวนี้” จึงไม่ตรงโจทย์ performative"
+      }
+    ]
+  },
+  {
+    "question": "I ___ on paying for dinner.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "insist",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยา **insist** ใช้กับโครงสร้างบุพบท `on` ตามด้วย **gerund**: __`insist on + V-ing`__ และในฐานะ performative ใช้ **Present Simple** เพื่อยืนยันทันที ตัวอย่าง: `I insist on paying for dinner.`"
+      },
+      {
+        "index": 2,
+        "text": "am insisting",
+        "is_correct": false,
+        "answer_description": "แม้ใช้ได้ในบางบริบท แต่สำหรับการประกาศยืนยันแบบ performative เราใช้ **Present Simple** จะชัดกว่า เช่น `I insist on paying.` มากกว่า `I am insisting on paying.`"
+      },
+      {
+        "index": 3,
+        "text": "insists",
+        "is_correct": false,
+        "answer_description": "รูปกริยาไม่สอดคล้องกับประธาน `I` เพราะ `insists` ใช้กับ `he/she/it` เท่านั้น ที่ถูกคือ `I insist ...`"
+      },
+      {
+        "index": 4,
+        "text": "insist to pay",
+        "is_correct": false,
+        "answer_description": "โครงสร้างผิด กริยา **insist** ไม่ใช้ `to + V1` แต่ต้องใช้ `on + V-ing` เช่นที่ถูกคือ `insist on paying`, ไม่ใช่ `insist to pay`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ you that the data is accurate.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "assure",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **assure** เป็น performative ที่ใช้เพื่อ “ให้ความมั่นใจ/รับรอง” โครงสร้างคือ __`assure + object + that ...`__ และใช้ **Present Simple** เมื่อต้องการประกาศตอนนี้ ตัวอย่าง: `I assure you that the data is accurate.`"
+      },
+      {
+        "index": 2,
+        "text": "am assuring",
+        "is_correct": false,
+        "answer_description": "รูป **Continuous** ไม่จำเป็นสำหรับ performative ที่ประกาศในขณะพูด ควรใช้ `I assure you that ...` เพื่อความชัดเจนและเป็นทางการกว่า"
+      },
+      {
+        "index": 3,
+        "text": "assures",
+        "is_correct": false,
+        "answer_description": "รูปกริยาไม่ตรงกับประธาน `I` เพราะ `assures` ใช้กับ `he/she/it` เช่น `She assures us that ...` ส่วน `I` ต้องใช้ `assure`"
+      },
+      {
+        "index": 4,
+        "text": "assured",
+        "is_correct": false,
+        "answer_description": "เป็นกาลอดีต หมายถึงรับรองไปแล้วก่อนหน้านี้ เช่น `I assured you yesterday.` แต่ประโยคนี้คือการรับรองเดี๋ยวนี้ จึงควรใช้ `assure`"
+      }
+    ]
+  },
+  {
+    "question": "We ___ the event open.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "declare",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **declare** เป็นกริยาเชิงประกาศ (performative) ใช้ **Present Simple** เมื่อทำพิธีเปิด/ประกาศทันที โครงสร้าง __`We + declare + object + complement`__. ตัวอย่าง: `We declare the event open.` คือประกาศเปิดงานเดี๋ยวนั้น"
+      },
+      {
+        "index": 2,
+        "text": "are declaring",
+        "is_correct": false,
+        "answer_description": "ไม่จำเป็นต้องใช้ **Continuous** ในพิธีการประกาศ เพราะ performative ใช้ **Present Simple** จะฟังชัดและเป็นทางการกว่า เช่น `We declare ...`"
+      },
+      {
+        "index": 3,
+        "text": "declares",
+        "is_correct": false,
+        "answer_description": "รูปกริยาไม่ตรงกับประธานพหูพจน์ `We` เพราะ `declares` ใช้กับเอกพจน์ `he/she/it` ที่ถูกคือ `We declare ...`"
+      },
+      {
+        "index": 4,
+        "text": "declared",
+        "is_correct": false,
+        "answer_description": "เป็นอดีตกาล ซึ่งสื่อว่าได้ประกาศไปแล้วก่อนหน้านี้ ไม่ใช่การประกาศในขณะนี้ จึงไม่ตรงกับการใช้ performative"
+      }
+    ]
+  },
+  {
+    "question": "I ___ you to save your work often.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "advise",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **advise** ใช้เพื่อ “ให้คำแนะนำ” และเป็น performative เมื่อพูดตอนนี้ โครงสร้าง __`advise + object + to + V1`__. ตัวอย่าง: `I advise you to save your work often.`"
+      },
+      {
+        "index": 2,
+        "text": "am advising",
+        "is_correct": false,
+        "answer_description": "รูป **Present Continuous** ไม่จำเป็นในบริบทประกาศคำแนะนำ ใช้ **Present Simple** จะกระชับและเป็นทางการ เช่น `I advise you to ...`"
+      },
+      {
+        "index": 3,
+        "text": "advises",
+        "is_correct": false,
+        "answer_description": "ไม่ตรงกับประธาน `I` เพราะ `advises` ใช้กับ `he/she/it` เช่น `She advises him to ...` ส่วน `I` ต้องใช้ `advise`"
+      },
+      {
+        "index": 4,
+        "text": "advised",
+        "is_correct": false,
+        "answer_description": "เป็นอดีตกาล แปลว่าแนะนำไปแล้วก่อนหน้านี้ เช่น `I advised you yesterday.` แต่ที่นี่ต้องการประกาศตอนนี้"
+      }
+    ]
+  },
+  {
+    "question": "I ___ you that there will be consequences.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "warn",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **warn** ใช้เพื่อ “เตือน” และเป็น performative เมื่อพูดปัจจุบัน โครงสร้าง __`warn + object + that ...`__ หรือ `warn + object + to + V1` ก็ได้ ตัวอย่าง: `I warn you that there will be consequences.`"
+      },
+      {
+        "index": 2,
+        "text": "am warning",
+        "is_correct": false,
+        "answer_description": "แม้ใช้ได้ในบางบริบท แต่สำหรับการประกาศเตือนทันที **Present Simple** ชัดเจนกว่า เช่น `I warn you ...` จึงดีกว่า `I am warning you ...` ในเชิงพิธีการ/เป็นทางการ"
+      },
+      {
+        "index": 3,
+        "text": "warns",
+        "is_correct": false,
+        "answer_description": "รูปกริยาไม่ตรงกับประธาน `I` เพราะ `warns` ใช้กับ `he/she/it` เช่น `He warns them ...` ส่วน `I` ต้องใช้ `warn`"
+      },
+      {
+        "index": 4,
+        "text": "warned",
+        "is_correct": false,
+        "answer_description": "เป็นอดีตกาล แปลว่าได้เตือนไปแล้ว ไม่ใช่การเตือนในขณะนี้ เช่น `I warned you before.`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ your invitation with thanks.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "accept",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **accept** ใช้เป็น performative เพื่อ “ยอมรับ/รับคำเชิญ” ตอนพูด โครงสร้าง __`I + accept + object`__. ตัวอย่าง: `I accept your invitation with thanks.` พูดแล้วถือว่ายอมรับทันที"
+      },
+      {
+        "index": 2,
+        "text": "am accepting",
+        "is_correct": false,
+        "answer_description": "ไม่จำเป็นต้องใช้ **Continuous** ในการประกาศการยอมรับ เพราะการประกาศทำด้วย **Present Simple** จะชัดกว่า เช่น `I accept your offer.`"
+      },
+      {
+        "index": 3,
+        "text": "accepts",
+        "is_correct": false,
+        "answer_description": "รูปกริยาไม่ตรงกับประธาน `I` เพราะ `accepts` ใช้กับบุคคลที่สามเอกพจน์ เช่น `She accepts the offer.` ที่ถูกคือ `I accept ...`"
+      },
+      {
+        "index": 4,
+        "text": "accepted",
+        "is_correct": false,
+        "answer_description": "เป็นอดีตกาล หมายถึงรับคำเชิญไปแล้วก่อนหน้านี้ เช่น `I accepted your invitation yesterday.` ไม่ใช่การประกาศยอมรับตอนนี้"
+      }
+    ]
+  }
+]

@@ -1,0 +1,540 @@
+[
+  {
+    "question": "By the time we arrived, the movie ___.",
+    "question_knowledge_ids": [
+      216,
+      285,
+      281,
+      280,
+      286,
+      316
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had already started",
+        "knowledge_ids": [
+          280,
+          286
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างกับ time expression **by the time** คือ __`by the time + past simple, had + V3`__ ดังนั้นต้องใช้ `had already started`. ตัวอย่าง: `By the time we arrived, the movie had already started.` ใช้ **already** วางระหว่าง `had` กับ V3 เพื่อบอกว่าเหตุการณ์เกิดขึ้นก่อนเวลาในอดีตอย่างชัดเจน"
+      },
+      {
+        "index": 2,
+        "text": "already started",
+        "knowledge_ids": [
+          289,
+          286
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยาช่วย **had** ใน **past perfect** ควรเป็น `had already started`. ถ้าใช้แค่วลี `already started` จะกลายเป็นโครงสร้างไม่สมบูรณ์ เช่น `the movie already started` ซึ่งเป็น **past simple** และไม่สอดคล้องกับ `by the time` ที่ต้องการลำดับเวลาก่อน-หลังชัดเจน"
+      },
+      {
+        "index": 3,
+        "text": "had start",
+        "knowledge_ids": [
+          291,
+          235
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **past perfect** ต้องใช้รูป `had + V3` แต่คำว่า `start` เป็น V1 ควรเป็น `started`. ตัวอย่างที่ถูก: `had started` หรือ `had already started`"
+      },
+      {
+        "index": 4,
+        "text": "was already started",
+        "knowledge_ids": [
+          267,
+          553
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **passive** ในอดีตต่อเนื่อง (หรือดูเหมือน past continuous/passive) ซึ่งไม่ตรงความหมายที่ต้องการลำดับเหตุการณ์ก่อน-หลังด้วย **past perfect**. ควรใช้ `had already started` เช่น `The movie had already started`"
+      }
+    ]
+  },
+  {
+    "question": "Before she moved to London, she ___ in New York for five years.",
+    "question_knowledge_ids": [
+      229,
+      281,
+      280,
+      270
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had lived",
+        "knowledge_ids": [
+          280,
+          270
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกับ **before** เรามักใช้ __`had + V3`__ เพื่อบอกเหตุการณ์ที่เกิดขึ้น **ก่อน** เหตุการณ์อดีตอีกอันหนึ่ง เช่น `Before she moved, she had lived in New York for five years.` ใช้ได้ดีกับระยะเวลา (for + ช่วงเวลา) เพื่อเน้นความสมบูรณ์ก่อนเหตุการณ์ถัดมา"
+      },
+      {
+        "index": 2,
+        "text": "lived",
+        "knowledge_ids": [
+          289
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดตรงที่ไม่เน้นลำดับเวลาก่อน-หลังอย่างชัดเจน หากใช้ past simple ทั้งคู่ (`lived` และ `moved`) อาจไม่ชัดว่าเหตุการณ์ไหนเกิดก่อน. โครงสร้างที่ชัดคือ `Before she moved, she had lived ...`"
+      },
+      {
+        "index": 3,
+        "text": "had been live",
+        "knowledge_ids": [
+          291,
+          234
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะ **had + been + live** ไม่ถูกต้องตามไวยากรณ์ ควรเป็น `had lived` (past perfect simple) หรือถ้าจะใช้ต่อเนื่องควรเป็น `had been living`. สำหรับประโยคนี้ `had lived` ชัดและพอเพียง"
+      },
+      {
+        "index": 4,
+        "text": "was living",
+        "knowledge_ids": [
+          252,
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **past continuous** เน้นช่วงกำลังเกิด ไม่ได้เน้นว่าเสร็จสิ้นก่อนเหตุการณ์อื่น. สำหรับลำดับเวลาก่อน-หลังกับ **before** ให้ใช้ `had lived` เช่น `Before she moved, she had lived ...`"
+      }
+    ]
+  },
+  {
+    "question": "After I ___ my homework, I went to bed.",
+    "question_knowledge_ids": [
+      284,
+      281,
+      280
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had finished",
+        "knowledge_ids": [
+          280
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างกับ **after** ที่เน้นว่า “ทำเสร็จแล้วก่อนอีกเหตุการณ์” คือ __`after + had + V3, past simple`__. ตัวอย่าง: `After I had finished my homework, I went to bed.` ช่วยเน้นลำดับว่าเสร็จการบ้านก่อนแล้วค่อยเข้านอน"
+      },
+      {
+        "index": 2,
+        "text": "finished",
+        "knowledge_ids": [
+          281
+        ],
+        "is_correct": false,
+        "answer_description": "แม้บางครั้งจะพบ `after + past simple` ได้ แต่ที่โจทย์ต้องการคือการเน้นลำดับเวลาก่อน-หลังแบบชัดเจนด้วย **past perfect**. ควรใช้ `had finished` เพื่อแสดงว่าเสร็จสิ้นก่อน `went to bed`"
+      },
+      {
+        "index": 3,
+        "text": "have finished",
+        "knowledge_ids": [
+          289
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **present perfect** ใช้กับปัจจุบัน ไม่สอดคล้องกับบริบทอดีต. รูปที่ถูกคือ `had finished` ใน **past perfect**"
+      },
+      {
+        "index": 4,
+        "text": "was finishing",
+        "knowledge_ids": [
+          278
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น **past continuous** เน้นกำลังกระทำ ไม่ได้บอกว่า “เสร็จแล้วก่อนอีกเหตุการณ์”. ควรใช้ `had finished` เพื่อชี้ลำดับเวลาชัดเจน"
+      }
+    ]
+  },
+  {
+    "question": "I realized I ___ seen the ocean before.",
+    "question_knowledge_ids": [
+      280,
+      282,
+      375
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had never",
+        "knowledge_ids": [
+          279
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตำแหน่งของ **never** ใน **past perfect** คือ __`had + never + V3`__. ตัวอย่าง: `I realized I had never seen the ocean before.` รูปนี้เน้นว่าก่อนเวลาที่ตระหนักรู้ ในอดีตนั้น “ไม่เคยเห็น” มาก่อนเลย"
+      },
+      {
+        "index": 2,
+        "text": "never had",
+        "knowledge_ids": [
+          280
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดตำแหน่งคำวิเศษณ์ เพราะควรเป็น `had + never + V3` ไม่ใช่ `never had + V3`. ตัวอย่างที่ถูก: `I had never seen ...`"
+      },
+      {
+        "index": 3,
+        "text": "have never",
+        "knowledge_ids": [
+          289,
+          375
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น **present perfect** (`have/has + V3`) ซึ่งใช้กับปัจจุบัน ไม่ตรงกับเหตุการณ์อดีตที่มีลำดับเวลา. ควรเป็น `had never seen`"
+      },
+      {
+        "index": 4,
+        "text": "never",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะประโยคขาดกริยาช่วย **had** ใน **past perfect**. โครงสร้างที่สมบูรณ์คือ `had never seen`"
+      }
+    ]
+  },
+  {
+    "question": "When the teacher came in, the students ___ their books.",
+    "question_knowledge_ids": [
+      260,
+      281,
+      280,
+      286
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had already opened",
+        "knowledge_ids": [
+          280,
+          286
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างเพื่อเน้นว่าเหตุการณ์ของนักเรียนเกิดก่อนครูเข้ามา คือ __`had + already + V3`__. ตัวอย่าง: `When the teacher came in, the students had already opened their books.` ใช้ **already** วางระหว่าง `had` กับ V3 เพื่อเน้นว่า “ทำเสร็จแล้วก่อนหน้านั้น”"
+      },
+      {
+        "index": 2,
+        "text": "already opened",
+        "knowledge_ids": [
+          289,
+          286
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะขาด **had** ซึ่งจำเป็นสำหรับ **past perfect**. ควรเป็น `had already opened` เพื่อชี้ลำดับก่อน-หลังอย่างชัดเจน"
+      },
+      {
+        "index": 3,
+        "text": "had open",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะต้องใช้ V3 หลัง `had`. คำว่า `open` เป็น V1 ควรเปลี่ยนเป็น `opened`: `had opened` หรือ `had already opened`"
+      },
+      {
+        "index": 4,
+        "text": "were already opened",
+        "knowledge_ids": [
+          267,
+          553
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็นรูป **passive**/ลักษณะสถานะ ไม่ได้บอกลำดับเหตุการณ์ชัดเจนแบบ **past perfect**. ทางที่ถูกคือ `had already opened` เพื่อเน้นว่าพวกเขา “ได้เปิด” ก่อนครูเข้ามา"
+      }
+    ]
+  },
+  {
+    "question": "By 2010, scientists ___ a vaccine for the disease yet.",
+    "question_knowledge_ids": [
+      215,
+      285,
+      286,
+      280
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had not discovered",
+        "knowledge_ids": [
+          286,
+          280
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างกับ **by + ปี/เวลา** เพื่อบอกว่า ณ เวลานั้น “ยังไม่” เกิดขึ้นคือ __`had not (hadn't) + V3 + yet`__. ตัวอย่าง: `By 2010, scientists had not discovered a vaccine yet.` ใช้ **yet** เพื่อเน้นว่ายังไม่เกิดขึ้นจนถึงจุดเวลานั้น"
+      },
+      {
+        "index": 2,
+        "text": "did not discover",
+        "knowledge_ids": [
+          300
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **past simple** ซึ่งไม่เน้นจุดอ้างอิงเวลาแบบ `by 2010` ว่าเสร็จหรือยัง. ควรใช้ **past perfect**: `had not discovered ... yet`"
+      },
+      {
+        "index": 3,
+        "text": "have not discovered",
+        "knowledge_ids": [
+          366
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น **present perfect** ใช้กับช่วงเวลาถึงปัจจุบัน ไม่ใช่จุดอ้างอิงในอดีต (`2010`). ต้องใช้ `had not discovered ... yet`"
+      },
+      {
+        "index": 4,
+        "text": "hadn't been discovering",
+        "knowledge_ids": [
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น **past perfect continuous** ซึ่งเน้นกระบวนการต่อเนื่อง ไม่เหมาะเมื่อพูดถึง “ยังไม่ค้นพบ (เสร็จเป็นผล)” ที่เป็นผลลัพธ์ชัดเจน. รูปที่กระชับและถูกคือ `had not discovered ... yet`"
+      }
+    ]
+  },
+  {
+    "question": "No sooner ___ we left than it started to rain.",
+    "question_knowledge_ids": [
+      285,
+      581,
+      288
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had",
+        "knowledge_ids": [
+          581
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง สำนวน **no sooner ... than** ใช้โครงสร้างกลับประธาน: __`No sooner had + subject + V3 than + past simple`__. ตัวอย่าง: `No sooner had we left than it started to rain.` ใช้เพื่อเน้นว่าเหตุการณ์หนึ่งเกิดขึ้นทันทีที่อีกเหตุการณ์หนึ่งเพิ่งเกิด"
+      },
+      {
+        "index": 2,
+        "text": "did",
+        "knowledge_ids": [
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสำนวนนี้ไม่ใช้ **did** แต่ใช้ **had** ตามด้วย V3. โครงสร้างที่ถูกคือ `No sooner had we left than ...` ไม่ใช่ `No sooner did we leave than ...`"
+      },
+      {
+        "index": 3,
+        "text": "have",
+        "knowledge_ids": [
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นกริยาช่วยของ **present perfect** ไม่สอดคล้องกับสำนวนในอดีต. ต้องใช้ `had` + V3: `No sooner had we left than ...`"
+      },
+      {
+        "index": 4,
+        "text": "were",
+        "knowledge_ids": [
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็นกริยา **be** ในอดีต ไม่ตรงโครงสร้างสำนวน. โครงสร้างมาตรฐานคือ `No sooner had + S + V3 + than + past simple`"
+      }
+    ]
+  },
+  {
+    "question": "Hardly ___ the lights when the show began.",
+    "question_knowledge_ids": [
+      581,
+      288,
+      281
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had they turned off",
+        "knowledge_ids": [
+          581
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กับสำนวน **hardly ... when** ใช้รูปกลับประธาน: __`Hardly had + subject + V3 when + past simple`__. ตัวอย่าง: `Hardly had they turned off the lights when the show began.` แปลว่า “เพิ่งปิดไฟได้ไม่นาน การแสดงก็เริ่มทันที”"
+      },
+      {
+        "index": 2,
+        "text": "they had turned off",
+        "knowledge_ids": [
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะขาดรูปกลับประธานที่จำเป็นกับสำนวนนี้. ต้องเป็น `Hardly had they turned off ...` ไม่ใช่ `Hardly they had turned off ...`"
+      },
+      {
+        "index": 3,
+        "text": "had turned off they",
+        "knowledge_ids": [
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดลำดับคำ แม้จะมี `had` และ V3 แต่ตำแหน่งประธานผิด. โครงสร้างถูกคือ `Hardly had they turned off ...`"
+      },
+      {
+        "index": 4,
+        "text": "were turning off",
+        "knowledge_ids": [
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น **past continuous** ไม่สอดคล้องสำนวนที่เน้น “เพิ่งเกิดแล้วตามด้วยอีกเหตุการณ์ทันที”. ต้องใช้ **past perfect** แบบกลับประธาน: `Hardly had they turned off ... when ...`"
+      }
+    ]
+  },
+  {
+    "question": "By the time I called, she ___ to bed.",
+    "question_knowledge_ids": [
+      216,
+      285,
+      376,
+      280,
+      316
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had just gone",
+        "knowledge_ids": [
+          376,
+          280
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างกับ **by the time** คือ __`by the time + past simple, had + just + V3`__ เพื่อเน้นว่า “เพิ่งจะ” เกิดขึ้นก่อนอีกเหตุการณ์. ตัวอย่าง: `By the time I called, she had just gone to bed.` คำว่า **just** วางหลัง `had` และก่อน V3"
+      },
+      {
+        "index": 2,
+        "text": "just went",
+        "knowledge_ids": [
+          289,
+          376
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **past simple** (`went`) และวาง **just** แบบไม่ตรงกับรูป **past perfect** ที่ต้องการ. ควรใช้ `had just gone` เพื่อเข้ากับ `by the time`"
+      },
+      {
+        "index": 3,
+        "text": "has just gone",
+        "knowledge_ids": [
+          366,
+          376
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น **present perfect** (`has + V3`) ไม่เข้ากับบริบทอดีตที่มีจุดอ้างอิง (`By the time I called`). รูปที่ถูกคือ `had just gone`"
+      },
+      {
+        "index": 4,
+        "text": "had gone just",
+        "knowledge_ids": [
+          316
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดตำแหน่งของ **just** เพราะควรวางว่า `had just gone` ไม่ใช่ `had gone just`. ตัวอย่างที่ถูก: `She had just gone to bed.`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ to him until he apologized.",
+    "question_knowledge_ids": [
+      273,
+      287,
+      280,
+      249
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "hadn't spoken",
+        "knowledge_ids": [
+          249,
+          280
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กับ **until** ที่ชี้ว่าก่อนถึงจุดหนึ่ง “ยังไม่เกิด” ใช้รูปปฏิเสธของ **past perfect**: __`had not (hadn't) + V3 + until`__. ตัวอย่าง: `I hadn't spoken to him until he apologized.` เน้นว่าตลอดเวลาก่อนเขาขอโทษ เราไม่เคยพูดกับเขา"
+      },
+      {
+        "index": 2,
+        "text": "didn't speak",
+        "knowledge_ids": [
+          300,
+          273
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น **past simple** ซึ่งไม่เน้นช่วงยาว “จนกระทั่ง” อย่างชัดเจน. ใช้ `hadn't spoken ... until` จะสื่อว่าไม่เคยเกิดขึ้นเลยก่อนถึงจุดนั้น"
+      },
+      {
+        "index": 3,
+        "text": "haven't spoken",
+        "knowledge_ids": [
+          366
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น **present perfect** ใช้กับปัจจุบัน ไม่เข้ากับบริบทอดีต. คำตอบที่ถูกคือ `hadn't spoken`"
+      },
+      {
+        "index": 4,
+        "text": "wasn't speaking",
+        "knowledge_ids": [
+          278
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็น **past continuous** เน้นกำลังกระทำในช่วงหนึ่ง ไม่ใช่การ “ยังไม่เกิดจนถึงจุดหนึ่ง”. โครงสร้างที่เหมาะคือ `hadn't spoken ... until`"
+      }
+    ]
+  },
+  {
+    "question": "By the time I found my keys, my friends ___ without me.",
+    "question_knowledge_ids": [
+      285,
+      280,
+      281,
+      286
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had already left",
+        "knowledge_ids": [
+          280,
+          285,
+          286
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะต้องใช้ __`had + already + V3`__ เพื่อบอกว่าเพื่อนๆ ออกไปก่อนที่ฉันจะหาเจอกุญแจ. ตัวอย่าง: `By the time I found my keys, my friends had already left without me.` คำว่า **already** วางระหว่าง `had` กับ V3"
+      },
+      {
+        "index": 2,
+        "text": "already left",
+        "knowledge_ids": [
+          289,
+          286
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยาช่วย **had** ทำให้ไม่เป็น **past perfect**. ต้องเป็น `had already left` เพื่อให้สอดคล้องกับ `By the time ...`"
+      },
+      {
+        "index": 3,
+        "text": "had leave",
+        "knowledge_ids": [
+          291,
+          279
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปกริยา เพราะหลัง `had` ต้องตามด้วย V3 (`left`), ไม่ใช่ V1 (`leave`). รูปที่ถูกคือ `had left` หรือ `had already left`"
+      },
+      {
+        "index": 4,
+        "text": "were left",
+        "knowledge_ids": [
+          290,
+          267
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดความหมายและรูปแบบ เพราะ `were left` เป็น **passive** แปลว่า “ถูกทิ้งไว้” ไม่ใช่ “ออกไปแล้ว”. ควรใช้ `had already left` เพื่อสื่อว่าพวกเขาไปแล้วก่อนหน้า"
+      }
+    ]
+  }
+]

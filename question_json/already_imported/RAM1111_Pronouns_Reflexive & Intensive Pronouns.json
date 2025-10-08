@@ -1,0 +1,321 @@
+[
+  {
+    "question": "She made the cake ___, without any help.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "herself",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นการใช้สรรพนามสะท้อนตัว (**reflexive pronoun**) เพื่อบอกว่าเธอทำด้วยตัวของเธอเอง โครงสร้างที่ใช้คือ **`Subject + verb + reflexive pronoun`** เช่น `She made the cake herself.` นี่คือการเน้นว่าผู้กระทำและผู้รับการกระทำเป็นคนเดียวกัน ตัวอย่างเพิ่ม: `I fixed the bike myself.`"
+      },
+      {
+        "index": 2,
+        "text": "her",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `her` เป็น **object pronoun** ไม่ใช่ **reflexive pronoun** เมื่อตัวประธานกับกรรมเป็นคนเดียวกันต้องใช้รูป -self/-selves เช่น `She helped herself.` ถ้าใช้ `her` จะกลายเป็นช่วย “คนอื่น” ไม่ใช่ตัวเอง"
+      },
+      {
+        "index": 3,
+        "text": "hers",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `hers` เป็น **possessive pronoun** (ของเธอ) ไม่ได้ใช้เป็นกรรมของกริยาเพื่อสะท้อนตัวเอง ประโยคอย่าง `She made the cake hers` เปลี่ยนความหมายไปคนละเรื่อง ควรใช้ `herself` เพื่อสื่อว่า “ทำเอง”"
+      },
+      {
+        "index": 4,
+        "text": "she",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `she` เป็น **subject pronoun** ใช้เป็นประธาน ไม่ใช่กรรมที่สะท้อนกลับมาหาประธาน ตัวอย่างผิด: `She made the cake she.` ควรใช้ `herself` เพื่อให้ถูกต้อง: `She made the cake herself.`"
+      }
+    ]
+  },
+  {
+    "question": "The CEO ___ signed the letter to show commitment.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "himself",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง นี่คือการใช้ **intensive (emphatic) pronoun** เพื่อเน้นย้ำว่า CEO เป็นคนลงนามเอง โครงสร้างเน้นคือ **`Noun/Pronoun + intensive pronoun`** เช่น `The CEO himself signed the letter.` ประโยคยังถูกแม้ตัดคำเน้นออก: `The CEO signed the letter.`"
+      },
+      {
+        "index": 2,
+        "text": "his",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `his` เป็น **possessive adjective/pronoun** ไม่ได้ใช้เพื่อเน้นประธาน ถ้าใช้จะกลายเป็นบอกความเป็นเจ้าของ ไม่ใช่การเน้นการกระทำ เช่นที่ถูกต้องต้องเป็น `himself` เพื่อเน้นว่า “ทำเอง”"
+      },
+      {
+        "index": 3,
+        "text": "him",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `him` เป็น **object pronoun** ไม่ใช่คำเน้น ถ้าต้องการเน้นตัวประธานให้ใช้รูป -self อย่าง `himself` เช่น `The manager himself approved it.`"
+      },
+      {
+        "index": 4,
+        "text": "he",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `he` เป็น **subject pronoun** และตำแหน่งในช่องว่างต้องการคำเน้น/สะท้อน ไม่ใช่ประธานใหม่ ตัวอย่างที่ถูก: `He himself signed the letter.` ไม่ใช่แทรก `he` กลางประโยค"
+      }
+    ]
+  },
+  {
+    "question": "Be careful with the knife, or you might cut ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "yourself",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะผู้ทำกริยา `you` และผู้รับผลคือคนเดิม จึงใช้ **reflexive pronoun** รูป **`yourself`** โครงสร้างชัดๆ คือ **`Subject (you) + verb + yourself`** เช่น `You might cut yourself.` อีกตัวอย่าง: `Don’t hurt yourself.`"
+      },
+      {
+        "index": 2,
+        "text": "you",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเมื่อประธานกับกรรมเป็นคนเดียวกัน ต้องใช้รูปสะท้อนตัว -self ไม่ใช้ `you` ตัวอย่างผิด: `You might cut you.` ควรเป็น `You might cut yourself.`"
+      },
+      {
+        "index": 3,
+        "text": "yours",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `yours` เป็น **possessive pronoun** ใช้แปลว่า “ของคุณ” ไม่ใช่เป็นกรรมสะท้อนของกริยา ประโยคต้องใช้ `yourself` เพื่อสื่อว่า “บาดตัวเอง”"
+      },
+      {
+        "index": 4,
+        "text": "yourselves",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `yourselves` ใช้กับประธานพหูพจน์ `you` (หลายคน) แต่ประโยคนี้พูดกับคนเดียว (มีบริบทเตือนคนตรงหน้า) จึงควรใช้ `yourself` เช่น `Be careful, or you might cut yourself.`"
+      }
+    ]
+  },
+  {
+    "question": "We enjoyed ___ at the festival.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "ourselves",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกริยา `enjoy` เมื่อตามด้วยกรรมที่หมายถึงตัวผู้พูดเองต้องใช้ **reflexive pronoun** เช่น **`enjoy + oneself`** โครงสร้างที่ถูกคือ **`We + enjoyed + ourselves`** เช่น `We enjoyed ourselves at the festival.` ตัวอย่างคล้ายกัน: `They enjoyed themselves at the party.`"
+      },
+      {
+        "index": 2,
+        "text": "us",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `enjoy` เมื่อหมายถึง “สนุกกับตัวเอง/เพลิดเพลิน” ต้องใช้รูปสะท้อน `oneself` ไม่ใช่ `us` ประโยค `We enjoyed us` ฟังแปลกและผิดหลัก ควรเป็น `We enjoyed ourselves.`"
+      },
+      {
+        "index": 3,
+        "text": "our",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `our` เป็น **possessive adjective** (ของเรา) ใช้ขยายนาม ไม่ใช่เป็นกรรมของกริยา `enjoy` เช่น `our time` ใช้ได้ แต่ในช่องว่างต้องการสรรพนามสะท้อน `ourselves`"
+      },
+      {
+        "index": 4,
+        "text": "we",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `we` เป็น **subject pronoun** ไม่ใช่กรรมสะท้อนของกริยา โครงสร้างที่ถูกควรเป็น `We enjoyed ourselves.` ไม่ใช่ `We enjoyed we.`"
+      }
+    ]
+  },
+  {
+    "question": "Did you do all the homework by ___?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "yourself",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **reflexive pronoun** หลังบุพบท `by` เพื่อสื่อว่า “ด้วยตัวเอง/ลำพัง” โครงสร้างที่พบบ่อยคือ **`by + reflexive pronoun`** เช่น `by myself/yourself/herself` ตัวอย่าง: `I finished it by myself.` และ `Did you do it by yourself?`"
+      },
+      {
+        "index": 2,
+        "text": "you",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `by` ที่สื่อความหมาย “ด้วยตัวเอง” ต้องใช้รูป -self ไม่ใช่ `you` ประโยคที่ถูกต้องคือ `by yourself` เช่น `He solved the problem by himself.`"
+      },
+      {
+        "index": 3,
+        "text": "yours",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `yours` เป็น **possessive pronoun** ไม่ใช่รูปสะท้อนหลังบุพบท `by` รูปที่ถูกต้องคือ `by yourself` เมื่อคุยกับคนเดียว และ `by yourselves` เมื่อคุยกับหลายคน"
+      },
+      {
+        "index": 4,
+        "text": "yourselves",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะประโยคถามคนเดียว (ใช้ `you` เอกพจน์ตามน้ำเสียงทั่วไป) จึงควรใช้ `yourself` ถ้าเป็นหลายคนค่อยใช้ `by yourselves` เช่น `Did you guys do it by yourselves?`"
+      }
+    ]
+  },
+  {
+    "question": "The children blamed ___ for the broken window.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "themselves",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธานเป็นพหูพจน์ `The children` จึงใช้ **reflexive pronoun** รูป **`themselves`** โครงสร้างคือ **`Subject (plural) + verb + themselves`** เช่น `The children blamed themselves.` ตัวอย่างเพิ่ม: `They taught themselves to code.`"
+      },
+      {
+        "index": 2,
+        "text": "them",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `them` เป็น **object pronoun** ธรรมดา ไม่ได้สื่อว่ากระทำกับตัวเอง ถ้าต้องการสื่อว่าเด็กๆ โทษตัวเอง ต้องใช้ `themselves` ไม่ใช่ `them`"
+      },
+      {
+        "index": 3,
+        "text": "theirselves",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `theirselves` เป็นรูปที่ไม่เป็นมาตรฐาน รูปที่ถูกต้องคือ **`themselves`** จำง่ายๆ: สำหรับ `they` ใช้ `themselves` เช่น `They hurt themselves.`"
+      },
+      {
+        "index": 4,
+        "text": "itself",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `itself` ใช้กับประธานเอกพจน์ที่เป็นสิ่งของ/สัตว์ (เมื่อต้องการสื่อเป็นกลาง) แต่ประธานที่นี่เป็นคนหลายคน `children` จึงต้องใช้ `themselves`"
+      }
+    ]
+  },
+  {
+    "question": "I woke up late and had to make breakfast by ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "myself",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ `by + **myself**` เพื่อบอกว่า “ด้วยตัวฉันเอง/ลำพัง” โครงสร้างเน้นคือ **`by + reflexive pronoun`** เช่น `by myself/yourself/herself` ตัวอย่าง: `I fixed the computer by myself.`"
+      },
+      {
+        "index": 2,
+        "text": "me",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `by` ที่ให้ความหมาย “ด้วยตัวเอง” ต้องใช้รูป -self ไม่ใช่ `me` ประโยคที่ถูกต้องคือ `by myself` ไม่ใช่ `by me` ในความหมายนี้"
+      },
+      {
+        "index": 3,
+        "text": "mine",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `mine` เป็น **possessive pronoun** ใช้แทนคำนามที่เป็นของฉัน ไม่ได้ใช้หลัง `by` เพื่อสื่อ “ทำเอง” รูปที่ถูกคือ `by myself`"
+      },
+      {
+        "index": 4,
+        "text": "ourselves",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานในประโยคคือ `I` ซึ่งเป็นเอกพจน์ ต้องใช้ `myself` ไม่ใช่พหูพจน์ `ourselves` ตัวอย่างเทียบ: `We made breakfast by ourselves.`"
+      }
+    ]
+  },
+  {
+    "question": "The machine ___ turns off after ten minutes.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "itself",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **intensive/emphatic** หรือสะท้อนได้ตามบริบทเพื่อเน้นว่าตัวเครื่องทำงานเอง โครงสร้างคือ **`Noun + itself + verb`** เช่น `The door itself opens automatically.` ประโยคตัวอย่าง: `The machine itself turns off after ten minutes.`"
+      },
+      {
+        "index": 2,
+        "text": "himself",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `himself` ใช้กับประธานผู้ชาย (he) ไม่ใช่สิ่งของ/เครื่องจักร เครื่องจักรใช้ `it/itself` เช่น `It turns off by itself.`"
+      },
+      {
+        "index": 3,
+        "text": "it",
+        "is_correct": false,
+        "answer_description": "ผิดในแง่การเน้น เพราะประโยคนี้ต้องการเน้นว่า “ปิดเอง” จึงใช้รูป -self เพื่อสื่อการกระทำด้วยตัวเอง เช่น `The machine itself turns off...` ถ้าใช้ `it` เฉยๆ จะขาดน้ำหนักการเน้น"
+      },
+      {
+        "index": 4,
+        "text": "themselves",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `themselves` ใช้กับประธานพหูพจน์ `they` แต่ `The machine` เป็นเอกพจน์ จึงต้องใช้ `itself` เท่านั้น"
+      }
+    ]
+  },
+  {
+    "question": "He looked at ___ in the mirror and smiled.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "himself",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นการมอง “ตัวเอง” ในกระจก จึงใช้ **reflexive pronoun** รูป **`himself`** โครงสร้าง: **`He + looked at + himself`** เช่น `He looked at himself in the mirror.` ตัวอย่างคล้าย: `She looked at herself before the interview.`"
+      },
+      {
+        "index": 2,
+        "text": "him",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะถ้าใช้ `him` จะสื่อว่าเขามอง “ชายคนอื่น” ไม่ใช่ตัวเอง เมื่อต้องการสื่อว่าประธานกับกรรมเป็นคนเดียวกันต้องใช้รูป -self เช่น `himself`"
+      },
+      {
+        "index": 3,
+        "text": "hisself",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `hisself` เป็นรูปที่ไม่เป็นมาตรฐาน รูปที่ถูกต้องคือ **`himself`** จำให้แม่น: `he → himself` ไม่ใช่ `hisself`"
+      },
+      {
+        "index": 4,
+        "text": "itself",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `itself` ใช้กับประธานสิ่งของ/สัตว์ในเชิงกลางๆ แต่ประธานที่นี่เป็นผู้ชาย `he` ต้องใช้ `himself` เท่านั้น"
+      }
+    ]
+  },
+  {
+    "question": "I don't need any help; I can handle it ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "myself",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้รูป **reflexive pronoun** เพื่อบอกว่า “ทำเองได้” โครงสร้างเน้นคือ **`can + verb + it + myself`** หรือรูปคำวลี **`by myself`** เช่น `I can handle it myself.` และ `I can do it by myself.`"
+      },
+      {
+        "index": 2,
+        "text": "me",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะตำแหน่งนี้ต้องการสรรพนามสะท้อน -self เพื่อสื่อว่าทำเอง ไม่ใช่ `me` ตัวอย่างที่ถูกคือ `I can handle it myself.`"
+      },
+      {
+        "index": 3,
+        "text": "mine",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `mine` เป็น **possessive pronoun** ใช้บอกความเป็นเจ้าของ ไม่ได้ใช้แทน `myself` ในความหมาย “ฉันทำเองได้” ควรใช้ `myself` หรือ `by myself`"
+      },
+      {
+        "index": 4,
+        "text": "ourselves",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ `I` เอกพจน์ ต้องจับคู่กับ `myself` ไม่ใช่ `ourselves` เทียบให้เห็น: `We can handle it ourselves.`"
+      }
+    ]
+  },
+  {
+    "question": "You yourselves said it was a good idea, so don't change ___ now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "yourselves",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคแรกใช้ **intensive pronoun** `yourselves` เพื่อเน้นว่า “พวกคุณเองพูด” ส่วนช่องว่างท้ายประโยคก็ยังอ้างถึงกลุ่มเดิมแบบสะท้อน จึงใช้ **`yourselves`** เช่นกัน โครงสร้างเน้น: **`You + yourselves`** (เน้น) และ **`change yourselves`** (สะท้อน) ตัวอย่าง: `You yourselves chose it; don’t blame yourselves.`"
+      },
+      {
+        "index": 2,
+        "text": "yourself",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะบริบทพูดกับ “หลายคน” (มี `You yourselves`) ต้องใช้พหูพจน์ `yourselves` ไม่ใช่เอกพจน์ `yourself` ตัวอย่างเทียบ: `You yourself` (คนเดียว) vs `You yourselves` (หลายคน)"
+      },
+      {
+        "index": 3,
+        "text": "you",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะตำแหน่งนี้ต้องการรูปสะท้อน -selves เพื่อสื่อว่าเปลี่ยนตัวเอง ไม่ใช่ `you` ธรรมดา ประโยคที่ถูก: `don’t change yourselves now.`"
+      },
+      {
+        "index": 4,
+        "text": "your",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `your` เป็น **possessive adjective** ใช้ขยายนาม เช่น `your idea` แต่ที่นี่ตำแหน่งต้องการกรรมของกริยา “change” และต้องเป็นรูปสะท้อน `yourselves`"
+      }
+    ]
+  }
+]

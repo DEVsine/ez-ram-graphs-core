@@ -1,0 +1,575 @@
+[
+  {
+    "question": "___ he like coffee?",
+    "question_knowledge_ids": [
+      194,
+      288,
+      381,
+      416,
+      420,
+      389,
+      380,
+      407
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Does",
+        "knowledge_ids": [
+          389,
+          380,
+          407,
+          420
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคคำถาม Yes/No ใน **Present Simple** กับประธานเอกพจน์ (he/she/it) ใช้รูป __Does + subject + V1__ เช่น `Does he like coffee?` ใช้ `like` เป็น **V1 (ไม่เติม -s)** เพราะมี `does` ช่วยแล้ว."
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          389,
+          380,
+          420
+        ],
+        "is_correct": false,
+        "answer_description": "เกือบถูกแต่ยังไม่ตรง เพราะ **he** เป็นเอกพจน์ควรใช้ **Does** ไม่ใช่ **Do** รูปที่ถูกคือ `Does he like coffee?` ถ้าเป็นพหูพจน์เช่น `they` ค่อยใช้ `Do they like coffee?`."
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "knowledge_ids": [
+          305,
+          340,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `is` ใช้กับกริยา **be** หรือ **V-ing** เช่น `Is he drinking coffee?` แต่ประโยคนี้ต้องการถามนิสัย/ความจริงทั่วไป จึงใช้โครงสร้าง `Does + V1`."
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "knowledge_ids": [
+          419,
+          571
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `has` ใช้ในโครงสร้าง **Present Perfect** เช่น `Has he finished?` ที่ตามด้วย **V3** แต่ประโยคนี้เป็น Present Simple ควรใช้ `Does he like ...?`"
+      }
+    ]
+  },
+  {
+    "question": "___ you see the movie last night?",
+    "question_knowledge_ids": [
+      194,
+      288,
+      381,
+      416,
+      439,
+      300,
+      311
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Did",
+        "knowledge_ids": [
+          439,
+          300,
+          382,
+          311
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นคำถาม **Past Simple** จึงใช้รูป __Did + subject + V1__ เช่น `Did you see the movie last night?` ระวังให้ใช้ `see` (V1) ไม่ใช่ `saw` หลัง `did`."
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          439
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `last night` ชี้เวลาอดีต ต้องใช้ **Past Simple** กับ `did` ไม่ใช่ `do` ตัวอย่างที่ถูกต้อง: `Did you see ...?`"
+      },
+      {
+        "index": 3,
+        "text": "Have",
+        "knowledge_ids": [
+          419
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Have` จะพาไปสู่ **Present Perfect** (`Have you seen ...?`) ซึ่งไม่ระบุเวลาแบบจบชัดเจน เช่น `last night` ดังนั้นควรใช้ `Did you see ...?`"
+      },
+      {
+        "index": 4,
+        "text": "Are",
+        "knowledge_ids": [
+          305,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `are` ใช้กับ **be + V-ing** (Continuous) หรือคำคุณศัพท์ เช่น `Are you watching...?` แต่ประโยคนี้ถามเหตุการณ์อดีตจบแล้ว ต้องใช้ `Did + V1`."
+      }
+    ]
+  },
+  {
+    "question": "___ she studying now?",
+    "question_knowledge_ids": [
+      194,
+      305,
+      321,
+      328,
+      318,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Is",
+        "knowledge_ids": [
+          305,
+          321,
+          318
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะนี่คือคำถาม **Present Continuous** ใช้รูป __Is + subject + V-ing__ เช่น `Is she studying now?` คำว่า `now` บอกการกระทำกำลังเกิดขึ้นในตอนนี้."
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "knowledge_ids": [
+          389,
+          420
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `does` ใช้กับ **Present Simple** (`Does she study...`) ไม่ใช่รูป **V-ing** หากมี `studying` ต้องใช้ `is/are/am` นำหน้า."
+      },
+      {
+        "index": 3,
+        "text": "Has",
+        "knowledge_ids": [
+          419
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `has` จะตามด้วย **V3** ใน Present Perfect เช่น `Has she studied?` แต่ที่นี่เป็น `studying` (V-ing) ต้องใช้ `is`."
+      },
+      {
+        "index": 4,
+        "text": "Did",
+        "knowledge_ids": [
+          439
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `did` เป็น Past Simple (`Did she study...`) และต้องตามด้วย V1 ไม่ใช่ V-ing รูปที่ถูกคือ `Is she studying now?`"
+      }
+    ]
+  },
+  {
+    "question": "___ they have a car?",
+    "question_knowledge_ids": [
+      194,
+      381,
+      416,
+      420,
+      389
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "knowledge_ids": [
+          389,
+          420
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อ **have** เป็นกริยาหลักหมายถึง \"มี\" ใน Present Simple เราใช้ __Do + subject + V1__ จึงเป็น `Do they have a car?` ไม่ต้องใช้ `has/have` ซ้ำหลัง auxiliary."
+      },
+      {
+        "index": 2,
+        "text": "Are",
+        "knowledge_ids": [
+          305,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `are` ใช้กับ `be` ไม่ได้ใช้ถามการครอบครองด้วย `have` โครงสร้างอย่าง `Are they have a car?` ผิด ต้องเป็น `Do they have a car?` หรือ `Have they got a car?`"
+      },
+      {
+        "index": 3,
+        "text": "Have",
+        "knowledge_ids": [
+          571,
+          419
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในรูปแบบนี้ เพราะถ้าจะใช้ `Have` นำหน้า ต้องใช้โครงสร้าง **Have (they) got ...?** เช่น `Have they got a car?` แต่ประโยคนี้ไม่มี `got` จึงไม่ถูก."
+      },
+      {
+        "index": 4,
+        "text": "Did",
+        "knowledge_ids": [
+          439
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `did` เป็นอดีต ถ้าจะใช้ `did` ต้องเป็นอดีตเช่น `Did they have a car last year?` แต่ประโยคนี้เป็นปัจจุบันทั่วไป จึงต้องใช้ `Do`."
+      }
+    ]
+  },
+  {
+    "question": "___ you finished your homework?",
+    "question_knowledge_ids": [
+      194,
+      419,
+      286
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Have",
+        "knowledge_ids": [
+          419,
+          286
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง นี่คือ **Present Perfect** จึงใช้รูป __Have/Has + subject + V3__ เช่น `Have you finished your homework?` คำว่า `finished` เป็น **V3** แปลว่า \"ทำเสร็จแล้ว\"."
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          439
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะถ้าใช้ `do` ต้องตามด้วย **V1** เช่น `Do you finish...` ซึ่งความหมายไม่ใช่ถามว่า \"ทำเสร็จแล้วหรือยัง\" ควรใช้ Present Perfect: `Have you finished ...?`"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "knowledge_ids": [
+          305,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `are` จะใช้กับ **V-ing** (`Are you finishing...?`) ซึ่งเน้นกำลังกระทำ ไม่ใช่สถานะเสร็จแล้ว แบบที่ Present Perfect ต้องการ."
+      },
+      {
+        "index": 4,
+        "text": "Did",
+        "knowledge_ids": [
+          439
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `did` เป็น Past Simple และต้องตามด้วย V1 (`Did you finish...`) ใช้เมื่อระบุเวลาชัดเจนในอดีต แต่ที่นี่เน้นผลลัพธ์ปัจจุบัน ควรใช้ `Have you finished...?`"
+      }
+    ]
+  },
+  {
+    "question": "___ we park here?",
+    "question_knowledge_ids": [
+      194,
+      542,
+      426,
+      430
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Can",
+        "knowledge_ids": [
+          426,
+          430
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นคำถามขออนุญาต/ความสามารถ ใช้กริยาช่วย **modal** รูป __Modal + subject + V1__ เช่น `Can we park here?` ตัวอย่างอื่น: `Can I sit here?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          439
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `do` ไม่ได้ใช้ถามอนุญาตแบบนี้ โครงสร้าง `Do we park here?` ฟังแปลกและไม่เป็นธรรมชาติ ควรใช้ modal: `Can we park here?`"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "knowledge_ids": [
+          305,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `are` จะตามด้วย V-ing หรือคำคุณศัพท์ เช่น `Are we parking here now?` ซึ่งถามกำลังกระทำ ไม่ใช่การขออนุญาต."
+      },
+      {
+        "index": 4,
+        "text": "Have",
+        "knowledge_ids": [
+          419
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `have` จะใช้กับ Present Perfect (`Have we parked...?`) ที่ตามด้วย V3 ไม่ใช่รูปขออนุญาต ซึ่งควรใช้ `Can`."
+      }
+    ]
+  },
+  {
+    "question": "___ it ready yet?",
+    "question_knowledge_ids": [
+      194,
+      305,
+      318
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Is",
+        "knowledge_ids": [
+          305,
+          318
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นคำถามด้วยกริยา **be** กับคำคุณศัพท์ `ready` ใช้รูป __Be + subject + complement__ แบบสลับเป็น __Be + subject__ ในคำถาม: `Is it ready yet?`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "knowledge_ids": [
+          439
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `does` ใช้กับกริยาหลักไม่ใช่คำคุณศัพท์ ถ้าเป็น `ready` ซึ่งเป็น adj ต้องใช้ `is/are/am` เช่น `Is it ready?`"
+      },
+      {
+        "index": 3,
+        "text": "Has",
+        "knowledge_ids": [
+          419
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `has` จะตามด้วย V3 ใน Present Perfect (`Has it finished?`) แต่ที่นี่เป็นคุณศัพท์ `ready` ต้องใช้ `is`."
+      },
+      {
+        "index": 4,
+        "text": "Did",
+        "knowledge_ids": [
+          439
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `did` เป็นอดีตและใช้กับ V1 ไม่ใช้กับคำคุณศัพท์ โครงสร้างที่ถูกคือ `Is it ready yet?`"
+      }
+    ]
+  },
+  {
+    "question": "___ they at the meeting yesterday?",
+    "question_knowledge_ids": [
+      194,
+      305,
+      318,
+      262,
+      263,
+      311
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Were",
+        "knowledge_ids": [
+          305,
+          263,
+          311
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นคำถามด้วย **past of be** สำหรับประธานพหูพจน์ ใช้รูป __Were + subject + complement__ เช่น `Were they at the meeting yesterday?` คำว่า `yesterday` ชี้ว่าเป็นอดีต."
+      },
+      {
+        "index": 2,
+        "text": "Did",
+        "knowledge_ids": [
+          439
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `did` ใช้กับกริยาหลัก V1 ไม่ใช่กับ **be** โครงสร้าง `Did they at the meeting...` ผิด ต้องใช้ `Were they ...?`"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "knowledge_ids": [
+          305,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `are` เป็นปัจจุบัน แต่มี `yesterday` บอกอดีต ต้องใช้รูปอดีตของ be คือ `were` ตัวอย่าง: `Were they late yesterday?`"
+      },
+      {
+        "index": 4,
+        "text": "Have",
+        "knowledge_ids": [
+          419
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `have` จะพาไป Present Perfect (`Have they been...?`) ซึ่งต่างความหมาย และมักไม่ใช้คู่กับเวลาอดีตชัดเจนอย่าง `yesterday`."
+      }
+    ]
+  },
+  {
+    "question": "___ she call you later?",
+    "question_knowledge_ids": [
+      194,
+      542,
+      421,
+      430,
+      203
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Will",
+        "knowledge_ids": [
+          421,
+          430,
+          203
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็นคำถามถึงอนาคต ใช้ modal **will** รูป __Will + subject + V1__ เช่น `Will she call you later?` ตัวอย่างเพิ่ม: `Will they arrive on time?`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "knowledge_ids": [
+          439
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `does` เป็น Present Simple ไม่ใช่อนาคต ประโยค `Does she call you later?` ฟังไม่เป็นธรรมชาติ ควรใช้ `Will she call...`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "knowledge_ids": [
+          305,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `is` จะใช้กับ V-ing (`Is she calling later?`) ซึ่งสื่อแผนที่วางไว้ แต่ถ้าถามทั่วไปเกี่ยวกับอนาคต ใช้ `Will` ตรงกว่า."
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "knowledge_ids": [
+          419
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `has` เป็น Present Perfect และจะตามด้วย V3 (`Has she called?`) ซึ่งเป็นอดีตถึงปัจจุบัน ไม่ใช่อนาคต."
+      }
+    ]
+  },
+  {
+    "question": "___ you coming to the party?",
+    "question_knowledge_ids": [
+      194,
+      305,
+      321,
+      318
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Are",
+        "knowledge_ids": [
+          305,
+          321,
+          318
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นคำถาม **Present Continuous** ใช้รูป __Are + subject + V-ing__ เช่น `Are you coming to the party?` ใช้ถามแผนหรือสิ่งที่กำลังจะเกิดในอนาคตอันใกล้ก็ได้."
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          439
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `do` ใช้กับ V1 (`Do you come...`) ซึ่งไม่ใช่รูปแผน/การกำลังจะทำ สำหรับ `coming` ที่เป็น V-ing ต้องใช้ `are`."
+      },
+      {
+        "index": 3,
+        "text": "Have",
+        "knowledge_ids": [
+          419
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `have` จะตามด้วย V3 ใน Present Perfect (`Have you come?`) ไม่ใช่ V-ing ดังนั้นรูปนี้ใช้ `Are you coming ...?`"
+      },
+      {
+        "index": 4,
+        "text": "Will",
+        "knowledge_ids": [
+          421
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ตรงความหมายที่ใช้ V-ing ในประโยคนี้ แม้ `Will you come to the party?` จะถูกในอีกโครงสร้างหนึ่ง แต่กับ `coming` ต้องใช้ `are` ไม่ใช่ `will`."
+      }
+    ]
+  },
+  {
+    "question": "___ you like spicy food?",
+    "question_knowledge_ids": [
+      194,
+      288,
+      381,
+      389,
+      413,
+      569,
+      581
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Don't",
+        "knowledge_ids": [
+          249,
+          381,
+          387,
+          569,
+          389
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง นี่คือคำถามแบบ **negative Yes/No** ใน Present Simple สำหรับประธาน `you` ใช้รูป __Don't + subject + V1__ เช่น `Don't you like spicy food?` ใช้เพื่อแสดงความประหลาดใจหรือคาดไว้ตรงข้าม."
+      },
+      {
+        "index": 2,
+        "text": "Are",
+        "knowledge_ids": [
+          305,
+          318,
+          340,
+          346
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `are` ใช้กับ **be** ไม่ได้ใช้กับกริยาหลัก `like` ถ้าจะใช้ `are` ต้องเป็นโครงสร้างเช่น `Are you hungry?` ไม่ใช่ `Are you like ...?`"
+      },
+      {
+        "index": 3,
+        "text": "Isn't",
+        "knowledge_ids": [
+          304,
+          413,
+          583
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `isn't` ใช้กับประธานเอกพจน์ (he/she/it) หรือกับคำนามเอกพจน์ ไม่เข้ากับ `you` และยังไม่เข้ากับกริยา `like` ซึ่งไม่ใช่ `be`."
+      },
+      {
+        "index": 4,
+        "text": "Haven't",
+        "knowledge_ids": [
+          419,
+          413,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `haven't` จะตามด้วย V3 ใน Present Perfect (`Haven't you eaten?`) แต่ประโยคนี้เป็น Present Simple กับกริยา `like` ต้องใช้ `Don't you like ...?`"
+      }
+    ]
+  }
+]

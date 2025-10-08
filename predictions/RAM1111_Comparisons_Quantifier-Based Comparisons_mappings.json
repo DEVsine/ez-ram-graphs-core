@@ -1,0 +1,518 @@
+[
+  {
+    "question": "We need ___ chairs than last time.",
+    "question_knowledge_ids": [
+      464,
+      472,
+      474,
+      530,
+      532
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "fewer",
+        "knowledge_ids": [
+          474,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะนับได้ (chairs) ต้องใช้ __fewer + plural countable noun__ เพื่อบอกว่ามีจำนวนน้อยกว่า เช่น `We need fewer chairs than last time.` ตัวอย่างใช้งาน: `There are fewer people today.`"
+      },
+      {
+        "index": 2,
+        "text": "less",
+        "knowledge_ids": [
+          474,
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **less** ใช้กับนามนับไม่ได้ เช่น `less water`, ไม่ใช่นามนับได้พหูพจน์อย่าง `chairs` ตัวอย่างที่ถูก: `We need less sugar.` แต่กับเก้าอี้ต้องใช้ `fewer chairs`"
+      },
+      {
+        "index": 3,
+        "text": "more",
+        "knowledge_ids": [
+          462,
+          464,
+          472
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคเปรียบเทียบบอกว่าต้องการ \"น้อยกว่า\" ไม่ใช่ \"มากกว่า\" ถ้าจะบอกมากกว่าจริง ๆ จะเป็น `We need more chairs than last time.` แต่บริบทนี้ต้องการรูปที่แปลว่า \"น้อยลง\""
+      },
+      {
+        "index": 4,
+        "text": "many",
+        "knowledge_ids": [
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **many** เป็นตัวบอกปริมาณเดี่ยว ๆ ไม่ใช่รูปเปรียบเทียบ และไม่สามารถวางเดี่ยว ๆ ในช่องว่างนี้ได้ ต้องใช้รูปเปรียบเทียบเช่น `fewer` หรือ `more` เช่น `We need fewer chairs.`"
+      }
+    ]
+  },
+  {
+    "question": "We have ___ time than we expected.",
+    "question_knowledge_ids": [
+      464,
+      472,
+      474,
+      517,
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "less",
+        "knowledge_ids": [
+          474,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **time** เป็นนามนับไม่ได้ จึงใช้ __less + uncountable noun__ เพื่อบอกว่ามีปริมาณน้อยกว่า เช่น `We have less time than we expected.` ตัวอย่าง: `I need less sugar.`"
+      },
+      {
+        "index": 2,
+        "text": "fewer",
+        "knowledge_ids": [
+          474,
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **fewer** ใช้กับนามนับได้พหูพจน์ เช่น `fewer tickets` แต่คำว่า `time` นับไม่ได้ จึงใช้ `less time` ไม่ใช่ `fewer time`"
+      },
+      {
+        "index": 3,
+        "text": "few",
+        "knowledge_ids": [
+          517,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **few** เป็นตัวบอกปริมาณสำหรับนามนับได้พหูพจน์ และไม่ใช่รูปเปรียบเทียบ เช่น `few friends` ส่วนประโยคนี้เป็นการเปรียบเทียบ ต้องใช้ `less time`"
+      },
+      {
+        "index": 4,
+        "text": "little",
+        "knowledge_ids": [
+          517
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **little** ใช้บอกปริมาณน้อยกับนามนับไม่ได้ แต่ไม่ใช่รูปเปรียบเทียบ เช่น `little time` ถ้าจะเปรียบเทียบต้องใช้ `less time`"
+      }
+    ]
+  },
+  {
+    "question": "She bought ___ apples than I did.",
+    "question_knowledge_ids": [
+      464,
+      472,
+      474,
+      525,
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "more",
+        "knowledge_ids": [
+          464,
+          472
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ `apples` เป็นนามนับได้พหูพจน์ ใช้ __more + plural countable noun__ เพื่อบอกว่า \"มากกว่า\" เช่น `She bought more apples than I did.` ตัวอย่างใช้งาน: `We need more chairs.`"
+      },
+      {
+        "index": 2,
+        "text": "much",
+        "knowledge_ids": [
+          525,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **much** ใช้กับนามนับไม่ได้ เช่น `much water` และไม่ใช่รูปเปรียบเทียบของนามนับได้ ถ้าจะเปรียบเทียบกับ `apples` ต้องใช้ `more apples`"
+      },
+      {
+        "index": 3,
+        "text": "less",
+        "knowledge_ids": [
+          474,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **less** ใช้กับนามนับไม่ได้เป็นหลัก เช่น `less time` ถ้าจะพูดว่าน้อยกว่ากับนามนับได้ต้องใช้ `fewer apples` ไม่ใช่ `less apples`"
+      },
+      {
+        "index": 4,
+        "text": "many",
+        "knowledge_ids": [
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **many** เป็นตัวบอกปริมาณธรรมดา ไม่ใช่รูปเปรียบเทียบ และวางลอย ๆ ที่ช่องว่างนี้ไม่ได้ ต้องใช้ `more apples` หรือ `fewer apples` ตามความหมาย"
+      }
+    ]
+  },
+  {
+    "question": "There isn’t ___ sugar as before.",
+    "question_knowledge_ids": [
+      468,
+      469,
+      470,
+      474,
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "as much",
+        "knowledge_ids": [
+          468,
+          474,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ `sugar` เป็นนามนับไม่ได้ ต้องใช้โครงสร้าง __not as much + uncountable noun + as__ เช่น `There isn’t as much sugar as before.` ตัวอย่าง: `I don’t have as much time as you.`"
+      },
+      {
+        "index": 2,
+        "text": "as many",
+        "knowledge_ids": [
+          468,
+          474,
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **as many** ใช้กับนามนับได้พหูพจน์ เช่น `as many books as` แต่ `sugar` นับไม่ได้ จึงต้องใช้ `as much sugar as`"
+      },
+      {
+        "index": 3,
+        "text": "so much",
+        "knowledge_ids": [
+          469,
+          470
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในโครงสร้างนี้ เพราะรูปเทียบเท่าใช้ `as ... as` ไม่ใช่ `so ... as` ในประโยคบอกเล่าแบบนี้ เช่นควรเป็น `as much sugar as` ไม่ใช่ `so much sugar as`"
+      },
+      {
+        "index": 4,
+        "text": "so many",
+        "knowledge_ids": [
+          469,
+          470,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดสองชั้น: ใช้ `so ... as` แทน `as ... as` และใช้ **many** กับนามนับไม่ได้ (`sugar`) ตัวอย่างที่ถูกต้องควรเป็น `There isn’t as much sugar as before.`"
+      }
+    ]
+  },
+  {
+    "question": "I don’t have ___ books as you.",
+    "question_knowledge_ids": [
+      468,
+      469,
+      530,
+      532
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "as many",
+        "knowledge_ids": [
+          468,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ `books` เป็นนามนับได้พหูพจน์ ใช้ __not as many + plural countable noun + as__ เช่น `I don’t have as many books as you.` ตัวอย่าง: `We don’t sell as many tickets as last year.`"
+      },
+      {
+        "index": 2,
+        "text": "as much",
+        "knowledge_ids": [
+          468,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **as much** ใช้กับนามนับไม่ได้ เช่น `as much water as` ไม่เหมาะกับ `books` ที่นับได้พหูพจน์"
+      },
+      {
+        "index": 3,
+        "text": "so many",
+        "knowledge_ids": [
+          469,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในโครงสร้างนี้ เพราะการเปรียบเทียบเท่ากันใช้ `as ... as` ไม่ใช่ `so ... as` จึงควรเป็น `as many books as`"
+      },
+      {
+        "index": 4,
+        "text": "so much",
+        "knowledge_ids": [
+          469,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ทั้ง `so ... as` แทน `as ... as` และใช้ `much` ซึ่งเหมาะกับนามนับไม่ได้ ไม่ใช่ `books`"
+      }
+    ]
+  },
+  {
+    "question": "We sold far ___ tickets this week than last week.",
+    "question_knowledge_ids": [
+      464,
+      470,
+      474,
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "fewer",
+        "knowledge_ids": [
+          474,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ตัวเน้นอย่าง `far` หน้าคำเปรียบเทียบได้: __far + comparative (fewer) + plural noun__ เช่น `far fewer tickets` เพื่อบอกว่าน้อยกว่ามาก ตัวอย่าง: `This year we have far fewer orders.`"
+      },
+      {
+        "index": 2,
+        "text": "less",
+        "knowledge_ids": [
+          474,
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `tickets` เป็นนามนับได้พหูพจน์ ต้องใช้ `fewer tickets` ไม่ใช่ `less tickets` แม้จะมีตัวเน้น `far` ก็ตาม"
+      },
+      {
+        "index": 3,
+        "text": "more",
+        "knowledge_ids": [
+          462,
+          464,
+          472
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะความหมายต้องการสื่อว่าน้อยลง ไม่ใช่มากขึ้น ถ้าจะบอกว่ามากขึ้นจึงใช้ `far more tickets` แต่บริบทนี้ต้องการ `far fewer tickets`"
+      },
+      {
+        "index": 4,
+        "text": "many",
+        "knowledge_ids": [
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `many` ไม่ใช่รูปเปรียบเทียบ และวางหลัง `far` แบบนี้ไม่ได้ ต้องใช้รูป comparative เช่น `far fewer` หรือ `far more`"
+      }
+    ]
+  },
+  {
+    "question": "They’ve got too ___ homework to finish tonight.",
+    "question_knowledge_ids": [
+      517,
+      530,
+      532
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "much",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง `homework` เป็นนามนับไม่ได้ จึงใช้ __too much + uncountable noun__ เช่น `too much homework` ตัวอย่าง: `I drank too much water.`"
+      },
+      {
+        "index": 2,
+        "text": "many",
+        "knowledge_ids": [
+          517,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **many** ใช้กับนามนับได้พหูพจน์ แต่ `homework` นับไม่ได้ หากจะใช้กับงานแบบนับได้ควรเปลี่ยนเป็น `too many assignments`"
+      },
+      {
+        "index": 3,
+        "text": "few",
+        "knowledge_ids": [
+          517,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **few** เป็นตัวบอกปริมาณหมายถึง \"น้อย\" กับนามนับได้พหูพจน์ และไม่เข้ากับโครงสร้าง `too + quantifier` ในความหมายนี้ เช่นควรเป็น `too much homework`"
+      },
+      {
+        "index": 4,
+        "text": "little",
+        "knowledge_ids": [
+          517
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `too little` ให้ความหมายว่า \"น้อยเกินไป\" ซึ่งตรงข้ามกับบริบทที่บอกว่ามีการบ้าน \"มากเกินไป\" ควรใช้ `too much homework`"
+      }
+    ]
+  },
+  {
+    "question": "Could you print two ___ copies for the meeting?",
+    "question_knowledge_ids": [
+      523,
+      462,
+      464
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "more",
+        "knowledge_ids": [
+          462,
+          464
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อบอกให้เพิ่มจำนวน ใช้รูป __number + more + plural countable noun__ เช่น `two more copies` ประโยคตัวอย่าง: `We need three more chairs.`"
+      },
+      {
+        "index": 2,
+        "text": "much",
+        "knowledge_ids": [
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **much** ใช้กับนามนับไม่ได้ และไม่เข้ากับตัวเลขตรงหน้า (`two`) โครงสร้างที่ถูกต้องคือ `two more copies`"
+      },
+      {
+        "index": 3,
+        "text": "another",
+        "knowledge_ids": [
+          523
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **another** ใช้กับเอกพจน์และหมายถึง \"อีกหนึ่ง\" เช่น `another copy` แต่ที่นี่ต้องการ \"อีกสอง\" และเป็นพหูพจน์ ควรใช้ `two more copies`"
+      },
+      {
+        "index": 4,
+        "text": "most",
+        "knowledge_ids": [
+          466,
+          467
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **most** แปลว่า \"ที่สุด/ส่วนมาก\" ไม่ใช่การเพิ่มจำนวนเฉพาะ เช่น `two most copies` ไม่ถูก ต้องใช้ `two more copies`"
+      }
+    ]
+  },
+  {
+    "question": "Only ___ people showed up for the early session.",
+    "question_knowledge_ids": [
+      517,
+      530
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "a few",
+        "knowledge_ids": [
+          517
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย เพราะ `a few` แปลว่า \"มีบ้างพอใช้\" ไม่ได้เน้นว่าจำนวนน้อยเป็นพิเศษ ถ้าต้องการสื่อว่า \"น้อยมาก\" ใช้ `as few as` หรือ `very few`"
+      },
+      {
+        "index": 2,
+        "text": "as few as",
+        "knowledge_ids": [
+          468,
+          469,
+          517
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __as few as + plural countable noun__ เพื่อเน้นว่าจำนวนน้อยกว่าที่คาด เช่น `Only as few as ten people showed up.` ตัวอย่าง: `As few as three students passed.`"
+      },
+      {
+        "index": 3,
+        "text": "as little as",
+        "knowledge_ids": [
+          468,
+          469,
+          517
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **as little as** ใช้กับนามนับไม่ได้ เช่น `as little as $5` แต่ `people` เป็นนามนับได้พหูพจน์ จึงควรใช้ `as few as`"
+      },
+      {
+        "index": 4,
+        "text": "few",
+        "knowledge_ids": [
+          517
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดสไตล์การเน้น เพราะ `Only few people` ไม่เป็นธรรมชาติ ควรใช้ `Only a few` (บอกว่ามีน้อยบ้าง) หรือ `Only very few`/`as few as` เพื่อเน้นว่าน้อยมาก"
+      }
+    ]
+  },
+  {
+    "question": "The ___ emails we answer now, the ___ we have later.",
+    "question_knowledge_ids": [
+      464,
+      465,
+      474,
+      530,
+      532
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "more; less",
+        "knowledge_ids": [
+          465,
+          474
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็นโครงสร้างคู่ __the + comparative, the + comparative__ เช่น `The more emails we answer now, the less we have later.` ใช้ `more` กับนามนับได้พหูพจน์ (`emails`) และ `less` กับปริมาณรวมในส่วนหลัง"
+      },
+      {
+        "index": 2,
+        "text": "more; fewer",
+        "knowledge_ids": [
+          465,
+          474,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเล็กน้อยที่ความหมายรวมส่วนหลัง `the fewer we have later` จะเน้นจำนวนเมล (นับได้) ก็พอได้ แต่โดยทั่วไปส่วนหลังหมายถึงปริมาณงานรวม ใช้ `the less` ธรรมชาติกว่า เช่น `the less work`"
+      },
+      {
+        "index": 3,
+        "text": "much; fewer",
+        "knowledge_ids": [
+          525,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปแรกต้องใช้ comparative `more` ไม่ใช่ `much` เดี่ยว ๆ และส่วนหลังควรสัมพันธ์เชิงปริมาณรวม จึงใช้ `less` จะเหมาะกว่า"
+      },
+      {
+        "index": 4,
+        "text": "many; less",
+        "knowledge_ids": [
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้างนี้ต้องใช้รูปเปรียบเทียบ `the more ... the less` ไม่ใช่ตัวบอกปริมาณพื้นฐานอย่าง `many` จึงควรเป็น `The more emails..., the less...`"
+      }
+    ]
+  }
+]

@@ -1,0 +1,321 @@
+[
+  {
+    "question": "___ she your teacher?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคคำถามที่มีกริยา **be** ต้องสลับเป็น __Be + subject__ เช่น `Is she your teacher?` แพตเทิร์นคือ __Is/Are/Am + S + complement?__. ตัวอย่างอื่น: `Are they ready?`, `Am I late?`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเมื่อมี **be (is/are/am)** เป็นกริยาหลัก ห้ามใช้ **do/does** ช่วยอีก เช่น `Does she your teacher?` ใช้ไม่ได้ ต้องใช้ `Is she your teacher?` ตามโครงสร้าง **be-question**."
+      },
+      {
+        "index": 3,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจาก **Do** ใช้กับกริยาปกติ (main verb) ไม่ใช่กับ **be** เช่นควรเป็น `Do you like pizza?` แต่ถ้าเป็น **be** ต้องถามว่า `Is she your teacher?`."
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **has/have** ใช้กับ **present perfect** หรือ `have got` ไม่เหมาะกับประโยคที่มี **be** เป็นกริยาหลัก เช่นไม่ควรถาม `Has she your teacher?`."
+      }
+    ]
+  },
+  {
+    "question": "___ he play tennis on weekends?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Does",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคคำถาม **Present Simple** กับประธานเอกพจน์บุรุษที่ 3 ใช้แพตเทิร์น __Does + S + base verb?__ เช่น `Does he play tennis?` และกริยาหลักต้องเป็นรูป **base** ไม่เติม -s."
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do** ใช้กับ I/you/we/they แต่ประธานคือ **he** ต้องใช้ **Does** เช่น `Does he play...?` ไม่ใช่ `Do he play...?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประโยคนี้ใช้กริยาปกติ **play** ไม่ใช่กริยา **be** ถ้าใช้ **Is** จะต้องตามด้วย verb-ing เช่น `Is he playing?` ซึ่งเปลี่ยนเป็น Present Continuous แล้ว."
+      },
+      {
+        "index": 4,
+        "text": "Did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Did** เป็นคำช่วยของ **Past Simple** แต่ในประโยคมีตัวบอกเวลาเป็นนิสัย (on weekends) จึงใช้ **Present Simple** ด้วย `Does he play...?`"
+      }
+    ]
+  },
+  {
+    "question": "Where ___ they live?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "do",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคำถาม WH กับกริยาปกติคือ __Wh-word + do/does + S + base verb__ เช่น `Where do they live?` ตัวอย่างเพิ่ม: `What do they eat?`, `When do they arrive?`"
+      },
+      {
+        "index": 2,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะถ้าใช้ **are** ต้องตามด้วยรูป `subject + complement` หรือ `verb-ing` เช่น `Where are they living?` (Continuous) แต่ประโยคนี้ใช้กริยาปกติ **live** รูป base จึงต้องใช้ **do**."
+      },
+      {
+        "index": 3,
+        "text": "does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **does** ใช้กับประธานเอกพจน์ (he/she/it) แต่ประธานคือ **they** ต้องใช้ **do** เช่น `Where do they live?`"
+      },
+      {
+        "index": 4,
+        "text": "did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **did** เป็นรูปอดีต ถ้าจะใช้ต้องเป็น `Where did they live?` (ถามอดีต) แต่ที่นี่ไม่มีตัวบอกเวลาอดีต และกริยาเป็นรูปปัจจุบัน."
+      }
+    ]
+  },
+  {
+    "question": "When ___ you arrive yesterday?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "did",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง สำหรับคำถาม **Past Simple** ใช้แพตเทิร์น __Wh-word + did + S + base verb__ เช่น `When did you arrive yesterday?` ตัวอย่างเพิ่ม: `What did you eat last night?`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะมีคำว่า **yesterday** ชัดเจนว่าเป็นอดีต ต้องใช้ **did** ไม่ใช่ **do** รูปปัจจุบัน เช่นควรเป็น `When did you arrive...?`"
+      },
+      {
+        "index": 3,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **are** ใช้กับกริยา **be** หรือรูป Continuous (`are arriving`) ซึ่งไม่ตรงกับ Past Simple ที่ต้องใช้ **did + base verb**."
+      },
+      {
+        "index": 4,
+        "text": "have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **have** จะเปลี่ยนความหมายเป็น Present Perfect (`When have you arrived?`) ซึ่งปกติไม่ใช้ถามเวลาเฉพาะอย่าง **yesterday**."
+      }
+    ]
+  },
+  {
+    "question": "___ you finished the report yet?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Have",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นคำถาม **Present Perfect** ใช้แพตเทิร์น __Have/Has + S + past participle__ เช่น `Have you finished the report yet?` ตัวอย่าง: `Has she done her homework?`"
+      },
+      {
+        "index": 2,
+        "text": "Did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **yet** มักไปกับ **Present Perfect** มากกว่า ถ้าใช้ **Did** จะเป็น Past Simple (`Did you finish...?`) ซึ่งไม่สอดคล้องการใช้ **yet** ในความหมาย “เสร็จหรือยัง” แบบต่อเนื่อง."
+      },
+      {
+        "index": 3,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do** ใช้กับ Present Simple ของกริยาปกติ แต่ที่นี่ต้องการโครงสร้าง **have + V3** (`finished`) จึงต้องใช้ **Have**."
+      },
+      {
+        "index": 4,
+        "text": "Are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Are** เป็นกริยา **be** ถ้าจะใช้ต้องตามด้วย `verb-ing` หรือส่วนเติมเต็ม เช่น `Are you finishing the report?` ซึ่งไม่ใช่ Present Perfect."
+      }
+    ]
+  },
+  {
+    "question": "___ she drive to work, or does she take the bus?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Can",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็นคำถามที่มีกริยาช่วย **modal** ใช้แพตเทิร์น __Modal + S + base verb__ เช่น `Can she drive to work?` ตัวอย่างอื่น: `Should I call him?`, `Will they join us?`"
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะถ้าใช้ **Does** จะกลายเป็น `Does she drive...` ซึ่งเป็น Present Simple ทั่วไป ไม่ใช่คำถามความสามารถแบบ **Can** ที่ประโยคตั้งใจถาม."
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจาก **Is** ใช้กับ **be** และถ้าถามการกระทำปกติ ไม่ใช่รูป Continuous จะไม่ใช้ `Is she drive...` (ผิดโครงสร้าง) ต้องเป็น `Can she drive...` หรือ `Does she drive...?`"
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Has** จะพาไปสู่ Present Perfect (`Has she driven...`) ซึ่งเปลี่ยนความหมายเป็นถามว่าเคยขับแล้วหรือยัง ไม่ใช่ถามความสามารถหรือทางเลือกในปัจจุบัน."
+      }
+    ]
+  },
+  {
+    "question": "Who ___ the window last night?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "broke",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นคำถามที่ **Who** เป็นประธาน ใช้แพตเทิร์น __Wh-subject + past/present verb__ โดยไม่ใช้ **did** เช่น `Who broke the window last night?` ตัวอย่าง: `Who called you?`"
+      },
+      {
+        "index": 2,
+        "text": "did break",
+        "is_correct": false,
+        "answer_description": "ผิด ในคำถามที่ **Who** เป็นประธาน ไม่ต้องใช้ **did** ช่วย ถ้าเขียน `Who did break the window?` จะกลายเป็นเน้นย้ำ (emphatic) ซึ่งไม่ใช่รูปพื้นฐานที่ควรใช้."
+      },
+      {
+        "index": 3,
+        "text": "does break",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเวลาเป็นอดีต (มี `last night`) ต้องใช้กริยาช่อง 2 (`broke`) ไม่ใช้ `does break` ซึ่งเป็นปัจจุบันเน้นย้ำและผิดเวลา."
+      },
+      {
+        "index": 4,
+        "text": "is breaking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูป **Continuous** ไม่เข้ากับตัวบอกเวลาอดีตที่เสร็จแล้ว (`last night`) และคำถามแบบนี้ไม่ใช่ถามกำลังกระทำอยู่ ณ ขณะนั้น."
+      }
+    ]
+  },
+  {
+    "question": "How long ___ you been waiting here?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "have",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคำถาม **Present Perfect Continuous** คือ __Wh-word + have/has + S + been + V-ing__ เช่น `How long have you been waiting here?` ตัวอย่าง: `How long has she been studying English?`"
+      },
+      {
+        "index": 2,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะถ้าใช้ **are** ต้องเป็น `How long are you waiting?` ซึ่งไม่สื่อความต่อเนื่องตั้งแต่อดีตถึงปัจจุบันแบบ Present Perfect Continuous."
+      },
+      {
+        "index": 3,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจากโครงสร้างนี้ต้องใช้ **have/has + been + V-ing** ไม่ใช่ **do/does** เช่น `How long have you been waiting?` ไม่ใช่ `How long do you been waiting?`"
+      },
+      {
+        "index": 4,
+        "text": "did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **did** เป็นอดีตธรรมดา และไม่เข้ากับรูป **been waiting** ถ้าจะใช้อดีตควรถามว่า `How long did you wait?` ซึ่งความหมายต่างกัน."
+      }
+    ]
+  },
+  {
+    "question": "___ there any milk in the fridge?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง สำหรับโครงสร้าง **there is/are** แบบคำถาม ใช้แพตเทิร์น __Is/Are + there + noun phrase?__ เช่น `Is there any milk in the fridge?` ตัวอย่าง: `Are there any bananas on the table?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้าง **there is/are** ไม่ใช้ **do/does** ในการตั้งคำถาม ต้องสลับ **be** มาไว้หน้า `there` เท่านั้น เช่น `Is there...?`"
+      },
+      {
+        "index": 3,
+        "text": "Does",
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลเดียวกับ **Do** คือคำถามรูป **there is/are** ต้องใช้ **be** ไม่ใช่ **do/does** เช่น `Is there any milk...?`"
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Has** จะทำให้เป็น Present Perfect (`Has there been...`) ซึ่งซับซ้อนเกินความจำเป็นและเปลี่ยนรูปแบบจาก **there is/are** พื้นฐาน."
+      }
+    ]
+  },
+  {
+    "question": "Could you tell me where the station ___?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็น **indirect question** (คำถามทางอ้อม) ต้องใช้แพตเทิร์น __wh-clause + subject + verb__ โดยไม่สลับที่ เช่น `where the station is` ตัวอย่าง: `Do you know what time it is?`"
+      },
+      {
+        "index": 2,
+        "text": "does",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใน **indirect question** ไม่ใช้ **do/does**-support และไม่สลับคำ เช่น `where the station does` ใช้ไม่ได้ ต้องเป็น `where the station is`."
+      },
+      {
+        "index": 3,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **the station** เป็นเอกพจน์ ต้องใช้ **is** ไม่ใช่ **are** เช่นเดียวกับประโยคบอกเล่า `The station is near here.`"
+      },
+      {
+        "index": 4,
+        "text": "is it",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปนี้เป็นการสลับเป็นคำถามแบบตรง (`where is it`) แต่ในประโยคทางอ้อมต้องกลับเป็นลำดับ **subject + verb**: `where it is` หรือ `where the station is`."
+      }
+    ]
+  },
+  {
+    "question": "Why ___ you late so often?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อกริยาหลักเป็น **be** ในคำถาม WH ใช้แพตเทิร์น __Wh-word + be + subject__ เช่น `Why are you late so often?` ตัวอย่าง: `Why is he angry?`, `Why are they tired?`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **do** ใช้กับกริยาปกติ ไม่ใช่กับ **be** ถ้าใช้ `Why do you late...?` จะผิด ต้องใช้ `Why are you late...?`"
+      },
+      {
+        "index": 3,
+        "text": "did",
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจากเป็นคำถามปัจจุบัน (มี `so often` บอกความถี่) ไม่ใช่อดีต ถ้าจะใช้อดีตควรถามว่า `Why were you late yesterday?`"
+      },
+      {
+        "index": 4,
+        "text": "have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **have** จะพาไปสู่โครงสร้าง Perfect (`Why have you been late?`) ซึ่งเปลี่ยนความหมายและไม่ตรงกับประโยคทั่วไปที่ใช้ **be** + adjective (`are ... late`)."
+      }
+    ]
+  }
+]

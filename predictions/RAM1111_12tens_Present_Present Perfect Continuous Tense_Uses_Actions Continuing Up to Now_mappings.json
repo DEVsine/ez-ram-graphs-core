@@ -1,0 +1,532 @@
+[
+  {
+    "question": "She ___ for her exam since morning.",
+    "question_knowledge_ids": [
+      217,
+      354,
+      366,
+      367,
+      361,
+      419
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "has been studying",
+        "knowledge_ids": [
+          419,
+          361,
+          217,
+          354,
+          366
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปประโยคนี้พูดถึงการกระทำที่เริ่มในอดีตและยังต่อเนื่องถึงปัจจุบัน ใช้ __have/has been + V-ing__ จึงได้ `She has been studying since morning.` ตัวบอกเวลาอย่าง **since** ชี้จุดเริ่มต้น เช่น `since 7 a.m.` เพื่อเน้นความต่อเนื่องถึงตอนนี้"
+      },
+      {
+        "index": 2,
+        "text": "has studied",
+        "knowledge_ids": [
+          371,
+          366,
+          374
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Present Perfect Simple** (`has studied`) มักเน้น “ผลลัพธ์” หรือ “ประสบการณ์” มากกว่า “ความต่อเนื่อง” เช่น `She has studied three chapters.` แต่ถ้าต้องการเน้นทำมาตลอดจนถึงตอนนี้ ควรใช้ `has been studying`"
+      },
+      {
+        "index": 3,
+        "text": "is studying",
+        "knowledge_ids": [
+          328,
+          329,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Present Continuous** (`is studying`) เน้น “กำลังทำตอนนี้” แต่ไม่ชี้ระยะเวลาต่อเนื่องจากอดีตถึงปัจจุบัน คำว่า **since morning** บอกความต่อเนื่อง จึงควรใช้ `has been studying` เช่น `She has been studying since morning.`"
+      },
+      {
+        "index": 4,
+        "text": "studied",
+        "knowledge_ids": [
+          306,
+          307,
+          382
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple** (เหตุการณ์จบไปแล้วในอดีต) เช่น `She studied in the morning.` แต่ที่นี่มี **since morning** ซึ่งสื่อว่าทำต่อเนื่องมาถึงปัจจุบัน จึงต้องใช้ `has been studying`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ in this city for three years now.",
+    "question_knowledge_ids": [
+      217,
+      354,
+      366,
+      367,
+      419
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been living",
+        "knowledge_ids": [
+          419,
+          361,
+          217,
+          354,
+          366
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีช่วงเวลาชัดเจน **for three years now** แปลว่าทำต่อเนื่องมาจนถึงตอนนี้ ใช้ __have/has been + V-ing__ → `I have been living in this city for three years now.` ตัวอย่างอีกแบบ: `I have been living here since 2022.`"
+      },
+      {
+        "index": 2,
+        "text": "have lived",
+        "knowledge_ids": [
+          366,
+          367,
+          371
+        ],
+        "is_correct": false,
+        "answer_description": "กึ่งถูกกึ่งผิดในความหมายทั่วไป แต่ข้อสอบนี้เน้น “ความต่อเนื่องจนถึงตอนนี้” แบบชัด ใช้ **Perfect Continuous** จะตรงกว่า `have been living` ถ้าใช้ `have lived` มักเน้นผลว่าอยู่มาแล้วกี่ปี ไม่เน้นภาพการดำเนินต่อเนื่อง"
+      },
+      {
+        "index": 3,
+        "text": "am living",
+        "knowledge_ids": [
+          328,
+          330,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจุด เพราะ **am living** เน้นช่วงปัจจุบันเฉยๆ ไม่สื่อว่าเริ่มตั้งแต่อดีตและยาวมาถึงตอนนี้ คำว่า **for three years now** ต้องการความต่อเนื่อง จึงควรใช้ `have been living` เช่น `I have been living here for three years.`"
+      },
+      {
+        "index": 4,
+        "text": "lived",
+        "knowledge_ids": [
+          306,
+          307,
+          382
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple** ใช้กับเหตุการณ์ที่จบไปแล้ว เช่น `I lived in this city in 2019.` แต่ประโยคนี้ยังคงอาศัยอยู่ถึงตอนนี้ จึงต้องใช้ `have been living`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ the report all day, so they're tired.",
+    "question_knowledge_ids": [
+      202,
+      361,
+      366,
+      419
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been working on",
+        "knowledge_ids": [
+          419,
+          361,
+          366
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีตัวบอกเวลา **all day** แสดงความต่อเนื่องถึงปัจจุบัน ใช้โครงสร้าง __have/has been + V-ing__ → `They have been working on the report all day.` ตัวอย่างใช้จริง: `We've been working on this project since morning.`"
+      },
+      {
+        "index": 2,
+        "text": "have worked on",
+        "knowledge_ids": [
+          371,
+          366
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจุด เพราะ `have worked on` เน้นผลว่าเคยทำหรือทำเสร็จบางส่วน ไม่เน้นภาพการทำยาวต่อเนื่องทั้งวัน คำว่า **all day** ควรใช้ `have been working on` เพื่อสื่อการดำเนินต่อเนื่อง"
+      },
+      {
+        "index": 3,
+        "text": "are working on",
+        "knowledge_ids": [
+          328,
+          329
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **are working on** เน้น “กำลังทำตอนนี้” แต่ไม่ได้ชี้ว่าทำมาตลอดทั้งวัน คำว่า **all day** ควรใช้รูปต่อเนื่องจากอดีตถึงปัจจุบัน คือ `have been working on`"
+      },
+      {
+        "index": 4,
+        "text": "worked on",
+        "knowledge_ids": [
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple** เช่น `They worked on the report yesterday.` ซึ่งจบไปแล้ว แต่ที่นี่เชื่อมกับผลตอนนี้ (เลยเหนื่อย) และมี **all day** จึงควรเป็น `have been working on`"
+      }
+    ]
+  },
+  {
+    "question": "How long ___ English?",
+    "question_knowledge_ids": [
+      218,
+      360,
+      419,
+      366
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have you been learning",
+        "knowledge_ids": [
+          418,
+          419,
+          218,
+          360
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำถามระยะเวลาใช้ __How long + have/has + been + V-ing__ เพื่อถามสิ่งที่เริ่มในอดีตและต่อเนื่องถึงปัจจุบัน เช่น `How long have you been learning English?` คำตอบตัวอย่าง: `I have been learning English for five years.`"
+      },
+      {
+        "index": 2,
+        "text": "have you learned",
+        "knowledge_ids": [
+          371,
+          366
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจุด เพราะ `have you learned` มักถามผล/ปริมาณ เช่น `How many words have you learned?` แต่ถ้าถาม “นานแค่ไหน” ต้องใช้รูปต่อเนื่อง `have you been learning`"
+      },
+      {
+        "index": 3,
+        "text": "are you learning",
+        "knowledge_ids": [
+          321,
+          328
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **are you learning** เน้นสถานะปัจจุบัน ไม่ได้ถามความยาวของช่วงเวลา ถ้าต้องการถามระยะเวลาต่อเนื่องต้องใช้ `How long have you been learning English?`"
+      },
+      {
+        "index": 4,
+        "text": "did you learn",
+        "knowledge_ids": [
+          314,
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple** และสื่อว่าจบไปแล้ว เช่น `When did you learn English?` แต่คำถามนี้ต้องการระยะเวลายาวต่อเนื่องจนถึงตอนนี้ จึงใช้ `have you been learning`"
+      }
+    ]
+  },
+  {
+    "question": "It ___ for hours; the streets are wet.",
+    "question_knowledge_ids": [
+      361,
+      366,
+      419
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "has been raining",
+        "knowledge_ids": [
+          419,
+          361,
+          366
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคนี้มีผลในปัจจุบัน (ถนนเปียก) และบอกระยะเวลา **for hours** ใช้ __has been + V-ing__ → `It has been raining for hours.` อีกตัวอย่าง: `It has been raining all morning.`"
+      },
+      {
+        "index": 2,
+        "text": "rained",
+        "knowledge_ids": [
+          306,
+          307
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple** สื่อว่าฝนตกและจบไปแล้ว ไม่เชื่อมผลปัจจุบัน แต่ในที่นี้ถนนยังเปียกและมี **for hours** ควรใช้ `has been raining`"
+      },
+      {
+        "index": 3,
+        "text": "is raining",
+        "knowledge_ids": [
+          328,
+          335
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่ตรง เพราะ `is raining` แค่บอกว่าตอนนี้ฝนกำลังตก แต่ไม่ได้ชี้ว่าตกมาหลายชั่วโมงจนถึงตอนนี้ คำว่า **for hours** ต้องใช้ `has been raining` เพื่อเน้นความต่อเนื่อง"
+      },
+      {
+        "index": 4,
+        "text": "has rained",
+        "knowledge_ids": [
+          371
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจุด เพราะ `has rained` เน้นผลเกิดขึ้น ไม่เน้นความยาวต่อเนื่อง การจะสื่อว่าตกมาตลอดจนถึงตอนนี้ควรใช้ `has been raining`"
+      }
+    ]
+  },
+  {
+    "question": "We ___ for a bus for 20 minutes now.",
+    "question_knowledge_ids": [
+      217,
+      354,
+      419,
+      366
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been waiting",
+        "knowledge_ids": [
+          419,
+          361,
+          217,
+          354,
+          366
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง มีช่วงเวลา **for 20 minutes now** แสดงการรอที่เริ่มในอดีตและยังต่อเนื่องถึงตอนนี้ ใช้ __have/has been + V-ing__ → `We have been waiting for a bus for 20 minutes now.` ใช้ได้กับคำถามด้วย: `How long have you been waiting?`"
+      },
+      {
+        "index": 2,
+        "text": "are waiting",
+        "knowledge_ids": [
+          328,
+          329
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจุด เพราะ `are waiting` เน้น “กำลังรออยู่ตอนนี้” แต่ไม่เน้นระยะเวลาที่ต่อเนื่องจากอดีต คำว่า **for 20 minutes now** ต้องใช้ `have been waiting` เพื่อสื่อความต่อเนื่อง"
+      },
+      {
+        "index": 3,
+        "text": "waited",
+        "knowledge_ids": [
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เป็น **Past Simple** สื่อว่ารอและจบไปแล้ว เช่น `We waited for a bus yesterday.` แต่ประโยคนี้ยังคงรออยู่ถึงตอนนี้ จึงต้องใช้ `have been waiting`"
+      },
+      {
+        "index": 4,
+        "text": "have waited",
+        "knowledge_ids": [
+          366,
+          371,
+          374
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจุด เพราะ `have waited` เน้นผลว่าได้รอมา แต่ไม่เน้นภาพการรอต่อเนื่อง ถ้าต้องการสื่อว่ารอต่อเนื่อง 20 นาทีจนถึงตอนนี้ ควรใช้ `have been waiting`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ the guitar lately.",
+    "question_knowledge_ids": [
+      378,
+      366,
+      419
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "has been practicing",
+        "knowledge_ids": [
+          419,
+          361,
+          378
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำว่า **lately**/ **recently** มักใช้กับการกระทำที่เกิดขึ้นเรื่อยๆ ช่วงที่ผ่านมาและอาจยังดำเนินต่อ ใช้ __has been + V-ing__ → `He has been practicing the guitar lately.` ตัวอย่าง: `I've been reading a lot lately.`"
+      },
+      {
+        "index": 2,
+        "text": "practices",
+        "knowledge_ids": [
+          398,
+          407,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Simple** ใช้บอกนิสัย/ความจริงทั่วไป เช่น `He practices every day.` แต่คำว่า **lately** สื่อช่วงที่ผ่านมาแบบต่อเนื่อง ควรใช้ `has been practicing`"
+      },
+      {
+        "index": 3,
+        "text": "has practiced",
+        "knowledge_ids": [
+          371,
+          378
+        ],
+        "is_correct": false,
+        "answer_description": "กึ่งได้แต่ไม่ตรงโฟกัส เพราะ `has practiced` เน้นผลว่าได้ฝึกมาแล้ว ในขณะที่ **lately** บ่งชี้กิจกรรมที่เกิดซ้ำๆ และต่อเนื่องช่วงที่ผ่านมา ซึ่งเหมาะกับ `has been practicing` มากกว่า"
+      },
+      {
+        "index": 4,
+        "text": "practiced",
+        "knowledge_ids": [
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple** เช่น `He practiced last night.` ซึ่งจบไปแล้ว แต่ **lately** สื่อความต่อเนื่องช่วงที่ผ่านมา จึงควรใช้ `has been practicing`"
+      }
+    ]
+  },
+  {
+    "question": "My eyes hurt because I ___ at screens since 9 a.m.",
+    "question_knowledge_ids": [
+      217,
+      354,
+      366,
+      419
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been staring",
+        "knowledge_ids": [
+          419,
+          361,
+          217,
+          354,
+          366
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง มี **since 9 a.m.** ชี้จุดเริ่มและต่อเนื่องถึงปัจจุบัน ใช้ __have/has been + V-ing__ → `I have been staring at screens since 9 a.m.` ตัวอย่าง: `She has been working since early morning.`"
+      },
+      {
+        "index": 2,
+        "text": "stared",
+        "knowledge_ids": [
+          306,
+          382
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เป็น **Past Simple** สื่อว่าทำและจบไปแล้ว เช่น `I stared at screens yesterday.` แต่ประโยคนี้ต่อเนื่องถึงตอนนี้ (ตาเลยล้า) จึงต้องใช้ `have been staring`"
+      },
+      {
+        "index": 3,
+        "text": "am staring",
+        "knowledge_ids": [
+          328,
+          335
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจุด เพราะ `am staring` แค่บอกว่าทำตอนนี้ ไม่ได้บอกว่าทำมาตั้งแต่ 9 โมงและยังต่อเนื่องอยู่ คำว่า **since 9 a.m.** ควรใช้ `have been staring`"
+      },
+      {
+        "index": 4,
+        "text": "have stared",
+        "knowledge_ids": [
+          371,
+          374
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `have stared` เน้นผลมากกว่าความยืดต่อเนื่อง ถ้าจะสื่อทำมาตลอดจนถึงตอนนี้ ต้องใช้รูปต่อเนื่อง `have been staring`"
+      }
+    ]
+  },
+  {
+    "question": "Why are you out of breath? I ___.",
+    "question_knowledge_ids": [
+      361,
+      366,
+      419
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been running",
+        "knowledge_ids": [
+          419,
+          361,
+          366
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้เพื่ออธิบาย “สาเหตุที่เห็นตอนนี้” (หอบ) ซึ่งเกิดจากการกระทำที่ต่อเนื่องมาจนถึงปัจจุบัน ใช้ __have/has been + V-ing__ → `I have been running.` ตัวอย่างคล้ายกัน: `You're wet—have you been walking in the rain?`"
+      },
+      {
+        "index": 2,
+        "text": "ran",
+        "knowledge_ids": [
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Past Simple** (`ran`) สื่อว่าจบไปแล้ว ไม่เชื่อมกับอาการตอนนี้เท่ารูปต่อเนื่อง หากต้องการชี้เหตุผลของสภาพปัจจุบัน ควรใช้ `have been running`"
+      },
+      {
+        "index": 3,
+        "text": "was running",
+        "knowledge_ids": [
+          251,
+          256
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Continuous** ใช้เล่าเหตุการณ์ที่กำลังเกิดในอดีตช่วงหนึ่ง ไม่ได้โยงถึงสภาพตอนนี้ ตัวที่ตรงคือ `have been running` เพื่อเชื่อมผลปัจจุบัน (หอบ)"
+      },
+      {
+        "index": 4,
+        "text": "am running",
+        "knowledge_ids": [
+          328
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจุด เพราะ `am running` แค่บอกว่ากำลังวิ่งตอนนี้ ไม่ได้เน้นว่าทำมาต่อเนื่องจนทำให้หอบในตอนนี้ ซึ่งควรใช้ `have been running`"
+      }
+    ]
+  },
+  {
+    "question": "The kids ___ quietly in their room for the past hour.",
+    "question_knowledge_ids": [
+      366,
+      367,
+      419
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been playing",
+        "knowledge_ids": [
+          419,
+          361,
+          366,
+          367
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง มีตัวบอกเวลา **for the past hour** ชี้ว่าทำมาต่อเนื่องจนถึงตอนนี้ ใช้ __have/has been + V-ing__ → `The kids have been playing quietly in their room for the past hour.` อีกตัวอย่าง: `They have been studying all evening.`"
+      },
+      {
+        "index": 2,
+        "text": "played",
+        "knowledge_ids": [
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple** ซึ่งสื่อว่าเหตุการณ์จบไปแล้ว เช่น `The kids played yesterday.` แต่ที่นี่บอกช่วงเวลาที่ยาวถึงปัจจุบัน ควรใช้ `have been playing`"
+      },
+      {
+        "index": 3,
+        "text": "are playing",
+        "knowledge_ids": [
+          328,
+          331
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดจุด เพราะ `are playing` บอกว่ากำลังเล่นตอนนี้ แต่ไม่เน้นว่าทำมาตลอด 1 ชั่วโมงที่ผ่านมา คำว่า **for the past hour** จึงควรใช้ `have been playing`"
+      },
+      {
+        "index": 4,
+        "text": "have played",
+        "knowledge_ids": [
+          366,
+          371
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `have played` เน้นผลว่าได้เล่นมา แต่ไม่ชัดเรื่องความต่อเนื่องยาวตลอดชั่วโมงที่ผ่านมา หากต้องการสื่อการดำเนินต่อเนื่อง ใช้ `have been playing`"
+      }
+    ]
+  }
+]

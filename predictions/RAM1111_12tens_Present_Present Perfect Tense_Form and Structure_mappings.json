@@ -1,0 +1,560 @@
+[
+  {
+    "question": "She ___ her homework.",
+    "question_knowledge_ids": [
+      380,
+      419,
+      371,
+      291
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "has finished",
+        "knowledge_ids": [
+          419,
+          371,
+          380
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะโครงสร้าง **Present Perfect** คือ __has/have + past participle (V3)__ และประธานเป็นบุคคลที่ 3 เอกพจน์ (She) จึงใช้ `has + V3`. ตัวอย่าง: `She has finished her homework.` หรือ `He has eaten already.`"
+      },
+      {
+        "index": 2,
+        "text": "has finish",
+        "knowledge_ids": [
+          291,
+          419
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **has** ต้องใช้กริยาช่องที่ 3 (V3) ไม่ใช่รูปพื้นฐาน (base form). รูปที่ถูกควรเป็น `has finished` เช่น: `She has finished her homework.` ไม่ใช่ `has finish`."
+      },
+      {
+        "index": 3,
+        "text": "have finished",
+        "knowledge_ids": [
+          364,
+          380
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **She** ต้องใช้ **has** ไม่ใช่ **have**. โครงสร้างที่ถูกคือ `She has finished...` ส่วน `have finished` ใช้กับ `I/you/we/they` เช่น `They have finished.`"
+      },
+      {
+        "index": 4,
+        "text": "finished",
+        "knowledge_ids": [
+          289,
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดตัวช่วย **has/have** ทำให้กลายเป็น Past Simple เฉยๆ. ถ้าจะใช้ Present Perfect ต้องเป็น `has finished` เช่น `She has finished her homework.`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ the report yet.",
+    "question_knowledge_ids": [
+      419,
+      286,
+      249,
+      381,
+      291
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "haven't submitted",
+        "knowledge_ids": [
+          419,
+          286,
+          249
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคปฏิเสธใน **Present Perfect** ใช้รูป __have/has + not + V3__ และคำว่า **yet** มักวางท้ายประโยค. ตัวอย่าง: `They haven't submitted the report yet.` หรือ `I haven't eaten yet.`"
+      },
+      {
+        "index": 2,
+        "text": "haven't submit",
+        "knowledge_ids": [
+          291,
+          286
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **haven't/hasn't** ต้องใช้กริยา **V3** ไม่ใช่ base form. รูปที่ถูกต้องคือ `haven't submitted` เช่น `They haven't submitted it yet.`"
+      },
+      {
+        "index": 3,
+        "text": "don't submit",
+        "knowledge_ids": [
+          387,
+          381
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่เป็นรูป **Present Simple** ไม่ใช่ **Present Perfect** และใช้ไม่ได้กับ **yet** ที่สื่อ “ยังไม่” จนถึงตอนนี้. ควรใช้ `haven't submitted ... yet` เช่น `They haven't submitted the report yet.`"
+      },
+      {
+        "index": 4,
+        "text": "didn't submit",
+        "knowledge_ids": [
+          300,
+          382
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple** ซึ่งเน้นเวลาที่เกิดขึ้นในอดีต ไม่ใช่ผลจนถึงปัจจุบัน. กับ **yet** ใช้ Present Perfect จะเหมาะกว่า เช่น `They haven't submitted it yet.`"
+      }
+    ]
+  },
+  {
+    "question": "___ you ever been to Japan?",
+    "question_knowledge_ids": [
+      194,
+      381,
+      368,
+      581,
+      419
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Have",
+        "knowledge_ids": [
+          419,
+          581
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคำถามของ **Present Perfect** คือ __Have/Has + subject + V3__ และวาง **ever** หน้า V3 เพื่อถามประสบการณ์. ตัวอย่าง: `Have you ever been to Japan?` หรือ `Have they ever tried sushi?`"
+      },
+      {
+        "index": 2,
+        "text": "Has",
+        "knowledge_ids": [
+          408,
+          381
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **you** ต้องใช้ **Have** ไม่ใช่ **Has**. ถ้าเป็น `he/she/it` จึงค่อยใช้ `Has` เช่น `Has he ever been to Japan?`"
+      },
+      {
+        "index": 3,
+        "text": "Do",
+        "knowledge_ids": [
+          315,
+          381
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำถาม **Present Perfect** ไม่ใช้ `Do/Does` แต่ใช้ `Have/Has`. ตัวอย่างที่ถูกต้อง: `Have you ever been...` ไม่ใช่ `Do you ever been...`"
+      },
+      {
+        "index": 4,
+        "text": "Did",
+        "knowledge_ids": [
+          300,
+          281
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Did` เป็นของ **Past Simple** และจะตามด้วย base form เช่น `Did you go...` แต่โจทย์นี้ถามประสบการณ์โดยใช้ **Present Perfect** ควรเป็น `Have you ever been...`"
+      }
+    ]
+  },
+  {
+    "question": "How long ___ here?",
+    "question_knowledge_ids": [
+      195,
+      218,
+      360,
+      419,
+      381
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have you lived",
+        "knowledge_ids": [
+          419,
+          218,
+          360
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำถามระยะเวลาใช้ **How long** + โครงสร้าง __Have/Has + subject + V3__. ใช้กับสถานการณ์ที่เริ่มในอดีตและยังต่อเนื่อง เช่น `How long have you lived here?` หรือ `How long has she worked here?`"
+      },
+      {
+        "index": 2,
+        "text": "do you live",
+        "knowledge_ids": [
+          406,
+          391
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `do you live` เป็น **Present Simple** ใช้บอกความจริงทั่วไป ไม่เน้นระยะเวลาต่อเนื่องถึงปัจจุบัน. ถ้าถาม “นานแค่ไหนแล้ว” ควรใช้ `How long have you lived...`"
+      },
+      {
+        "index": 3,
+        "text": "are you living",
+        "knowledge_ids": [
+          328,
+          330
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous** เน้นชั่วคราวตอนนี้ ไม่ใช่ประสบการณ์ต่อเนื่องยาว. คำถามที่ถูกต้องคือ `How long have you lived here?`"
+      },
+      {
+        "index": 4,
+        "text": "did you live",
+        "knowledge_ids": [
+          307,
+          281
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `did you live` เป็น **Past Simple** ใช้กับช่วงเวลาที่จบไปแล้ว. ถ้าสถานะยังจริงอยู่ตอนนี้ ใช้ `have you lived` จะถูกต้องกว่า"
+      }
+    ]
+  },
+  {
+    "question": "She has worked ___ 2019.",
+    "question_knowledge_ids": [
+      374,
+      354,
+      419
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "since",
+        "knowledge_ids": [
+          272,
+          374
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **since** กับ “จุดเริ่มต้นเวลา” และตามด้วยปี/วัน/เวลา เช่น __since + 2019__. ตัวอย่าง: `She has worked since 2019.` หรือ `I have lived here since Monday.`"
+      },
+      {
+        "index": 2,
+        "text": "for",
+        "knowledge_ids": [
+          217,
+          354
+        ],
+        "is_correct": false,
+        "answer_description": "เกือบใช่ แต่ **for** ใช้กับ “ช่วงระยะเวลา” เช่น `for two years`, ไม่ใช้กับปีตรงๆ. ถ้าจะใช้ `for` ควรเป็น `She has worked for four years.`"
+      },
+      {
+        "index": 3,
+        "text": "from",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด ใน **Present Perfect** ต้องใช้ `since` เพื่อบอกจุดเริ่มต้น ไม่ใช้ `from`. ตัวอย่างที่ถูก: `She has worked since 2019.`"
+      },
+      {
+        "index": 4,
+        "text": "by",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **by** ใช้บอกเส้นตาย/ก่อนถึงเวลา เช่น `by 5 pm`, ไม่ใช่บอกจุดเริ่มต้นของระยะเวลาใน Present Perfect. ควรใช้ `since 2019` ในกรณีนี้"
+      }
+    ]
+  },
+  {
+    "question": "He has ___ finished the task.",
+    "question_knowledge_ids": [
+      376,
+      316,
+      419
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "already",
+        "knowledge_ids": [
+          376,
+          316
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำว่า **already** มักวางระหว่าง **has/have** กับ **V3** ใน **Present Perfect**: โครงสร้าง __have/has + already + V3__. ตัวอย่าง: `He has already finished the task.` หรือ `They have already left.`"
+      },
+      {
+        "index": 2,
+        "text": "yet",
+        "knowledge_ids": [
+          286
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **yet** ใช้กับประโยคปฏิเสธ/คำถาม และวางท้ายประโยค เช่น `He hasn't finished yet.` หรือ `Have you finished yet?` ไม่วางกลางแบบนี้"
+      },
+      {
+        "index": 3,
+        "text": "ever",
+        "knowledge_ids": [
+          375
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **ever** ใช้ในคำถามเกี่ยวกับประสบการณ์ (`Have you ever...`) ไม่ใช้ในประโยคบอกเล่าทั่วไปแบบนี้. ตัวอย่างที่ถูกต้อง: `Have you ever finished a marathon?`"
+      },
+      {
+        "index": 4,
+        "text": "never",
+        "knowledge_ids": [
+          375
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **never** ให้ความหมายปฏิเสธและมักวางหลัง has/have เช่น `He has never finished on time.` ไม่ใช่คำที่ใช้แทน **already** ในประโยคบอกเล่า"
+      }
+    ]
+  },
+  {
+    "question": "— Has Tom called you? — Yes, ___.",
+    "question_knowledge_ids": [
+      353,
+      381,
+      419,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "he has",
+        "knowledge_ids": [
+          353,
+          419,
+          380
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำตอบสั้นของ **Present Perfect** ใช้โครงสร้าง __Yes/No, + subject + have/has__. ตัวอย่าง: `Yes, he has.` หรือ `No, they haven't.`"
+      },
+      {
+        "index": 2,
+        "text": "he have",
+        "knowledge_ids": [
+          364,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **he** ต้องใช้ **has** ไม่ใช่ **have**. คำตอบสั้นที่ถูกคือ `Yes, he has.`"
+      },
+      {
+        "index": 3,
+        "text": "he did",
+        "knowledge_ids": [
+          353,
+          257
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `did` เป็นของ Past Simple ไม่ใช่ Present Perfect. กับคำถาม `Has Tom called...` ควรตอบ `Yes, he has.`"
+      },
+      {
+        "index": 4,
+        "text": "he calls",
+        "knowledge_ids": [
+          412,
+          398
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่เป็นรูป Present Simple ไม่ใช่คำตอบสั้นของ Present Perfect. รูปที่ถูกต้องคือ `Yes, he has.`"
+      }
+    ]
+  },
+  {
+    "question": "The tickets ___ sold out.",
+    "question_knowledge_ids": [
+      290,
+      419,
+      291
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "have been",
+        "knowledge_ids": [
+          290,
+          419
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **Present Perfect Passive** คือ __have/has + been + V3__. ตัวอย่างประโยคเต็ม: `The tickets have been sold out.` หรือ `The letters have been sent.`"
+      },
+      {
+        "index": 2,
+        "text": "have be",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะในรูป Passive ต้องใช้ `been` ไม่ใช่ `be` หลัง have/has. โครงสร้างที่ถูกคือ `have/has + been + V3` เช่น `have been sold`"
+      },
+      {
+        "index": 3,
+        "text": "has been",
+        "knowledge_ids": [
+          380,
+          290
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเป็นพหูพจน์ `The tickets` ต้องใช้ **have been** ไม่ใช่ **has been**. ตัวอย่างที่ถูก: `The tickets have been sold out.`"
+      },
+      {
+        "index": 4,
+        "text": "are",
+        "knowledge_ids": [
+          290,
+          386
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `are` เป็น Present Simple ไม่ใช่ Present Perfect Passive. ถ้าจะสื่อผลถึงปัจจุบันจากอดีต ควรใช้ `have been sold out`"
+      }
+    ]
+  },
+  {
+    "question": "Sara has ___ to the bank; she is back now.",
+    "question_knowledge_ids": [
+      372,
+      419,
+      371
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "been",
+        "knowledge_ids": [
+          372
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อคน “ไปมาแล้วและกลับมาแล้ว” ใช้ __has/have + been to__. ตัวอย่าง: `Sara has been to the bank.` หรือ `I have been to London.`"
+      },
+      {
+        "index": 2,
+        "text": "gone",
+        "knowledge_ids": [
+          372
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **has gone to** ใช้เมื่อคน “ยังไปอยู่/ยังไม่กลับ”. แต่ในประโยคบอกว่า `she is back now` แสดงว่าเธอกลับมาแล้ว จึงต้องใช้ `has been to`"
+      },
+      {
+        "index": 3,
+        "text": "went",
+        "knowledge_ids": [
+          299,
+          281
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `went` เป็น Past Simple ไม่ใช่ Present Perfect และไม่เข้ากับบริบทที่เน้นผลจนถึงตอนนี้. รูปที่ถูกต้องคือ `has been to` ตามด้วยสถานที่"
+      },
+      {
+        "index": 4,
+        "text": "go",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดตัวช่วย **has** และรูปกริยาไม่ใช่ V3. โครงสร้างที่ถูกสำหรับ Present Perfect คือ `has/have + V3` เช่น `has been`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ my keys; I can't find them.",
+    "question_knowledge_ids": [
+      419,
+      371,
+      370,
+      291
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "'ve lost",
+        "knowledge_ids": [
+          419,
+          371,
+          352
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Present Perfect** เพื่อบอกผลที่กระทบถึงตอนนี้ และรูปย่อ __I've + V3__ ก็ถูกต้อง. ตัวอย่าง: `I've lost my keys.` หรือ `She's broken her phone.`"
+      },
+      {
+        "index": 2,
+        "text": "have lose",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **have** ต้องเป็น **V3** (`lost`) ไม่ใช่ base form (`lose`). รูปที่ถูกต้องคือ `have lost` เช่น `I have lost my keys.`"
+      },
+      {
+        "index": 3,
+        "text": "lost",
+        "knowledge_ids": [
+          289,
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ Past Simple โดยไม่มี **have/has** ซึ่งไม่สื่อผลถึงปัจจุบันชัดเจน. ถ้าต้องการเน้นว่าตอนนี้หาไม่เจอ ควรใช้ `I've lost my keys.`"
+      },
+      {
+        "index": 4,
+        "text": "am losing",
+        "knowledge_ids": [
+          328,
+          329
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous** สื่อว่ากำลังทำอยู่ตอนนี้ต่อเนื่อง ซึ่งไม่ตรงความหมาย. รูปที่ถูกคือ Present Perfect: `I've lost my keys.`"
+      }
+    ]
+  },
+  {
+    "question": "We ___ any updates so far.",
+    "question_knowledge_ids": [
+      193,
+      366,
+      371,
+      377
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "haven't received",
+        "knowledge_ids": [
+          193,
+          366,
+          371,
+          377
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ประโยคปฏิเสธใน **Present Perfect** กับวลีเวลาอย่าง **so far**: โครงสร้าง __have/has + not + V3__. ตัวอย่าง: `We haven't received any updates so far.` หรือ `I haven't heard anything so far.`"
+      },
+      {
+        "index": 2,
+        "text": "didn't receive",
+        "knowledge_ids": [
+          300,
+          382
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `so far` ชี้ถึงช่วงเวลาจนถึงตอนนี้ ควรใช้ Present Perfect ไม่ใช่ Past Simple. ควรเป็น `haven't received` แทน `didn't receive`"
+      },
+      {
+        "index": 3,
+        "text": "don't receive",
+        "knowledge_ids": [
+          387,
+          398
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่เป็น Present Simple ซึ่งบอกความจริงทั่วไป ไม่ใช่ผลสะสมจนถึงปัจจุบัน. รูปที่ถูกคือ `haven't received ... so far`"
+      },
+      {
+        "index": 4,
+        "text": "haven't receive",
+        "knowledge_ids": [
+          291,
+          419,
+          234
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `haven't` ต้องใช้กริยา **V3** (`received`) ไม่ใช่ base form (`receive`). รูปที่ถูกต้องคือ `haven't received`"
+      }
+    ]
+  }
+]

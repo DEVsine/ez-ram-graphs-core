@@ -1,0 +1,558 @@
+[
+  {
+    "question": "She ___ dinner in the kitchen right now.",
+    "question_knowledge_ids": [
+      318,
+      324,
+      328,
+      335,
+      340,
+      344
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is cooking",
+        "knowledge_ids": [
+          318,
+          324,
+          328
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้องจ้า โครงสร้างประโยคบอกเล่า Present Continuous คือ __Subject + am/is/are + V-ing__. เช่น `She is cooking dinner right now.` แปลว่าเธอกำลังทำอาหารอยู่ตอนนี้ ซึ่งตรงกับสถานการณ์กำลังเกิดขึ้นในขณะพูด"
+      },
+      {
+        "index": 2,
+        "text": "cooks",
+        "knowledge_ids": [
+          397,
+          398,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดนะ เพราะ `cooks` เป็นรูป **Present Simple** ใช้พูดถึงความจริงหรือกิจวัตร เช่น `She cooks every day.` แต่ประโยคนี้มีคำบอกเวลา `right now` จึงควรใช้ **is + V-ing**: `She is cooking`"
+      },
+      {
+        "index": 3,
+        "text": "are cooking",
+        "knowledge_ids": [
+          318,
+          380,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเป็นเอกพจน์ `She` ต้องใช้ **is** ไม่ใช่ **are** รูปที่ถูกคือ `She is cooking` ไม่ใช่ `She are cooking`"
+      },
+      {
+        "index": 4,
+        "text": "is cook",
+        "knowledge_ids": [
+          324,
+          317,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่รูปกริยา เพราะหลัง **be** ต้องเป็น **V-ing** ไม่ใช่ฐานกริยา `cook` ดังนั้นต้องเป็น `is cooking` ไม่ใช่ `is cook`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ to the office at the moment.",
+    "question_knowledge_ids": [
+      318,
+      324,
+      328,
+      335,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "am walking",
+        "knowledge_ids": [
+          318,
+          324,
+          350,
+          328
+        ],
+        "is_correct": true,
+        "answer_description": "เยี่ยมเลย ใช้ __Subject + am/is/are + V-ing__ กับประธาน `I` ต้องใช้ `am` เป็น `I am walking to the office at the moment.` ตัวอย่างการใช้: `I'm walking now.`"
+      },
+      {
+        "index": 2,
+        "text": "walk",
+        "knowledge_ids": [
+          397,
+          398,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะ `walk` เป็น **Present Simple** ใช้กับกิจวัตร เช่น `I walk to the office every day.` แต่มี `at the moment` จึงควรใช้ `am walking`"
+      },
+      {
+        "index": 3,
+        "text": "am walk",
+        "knowledge_ids": [
+          318,
+          291,
+          317
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปกริยา หลัง `am` ต้องใช้ **V-ing** ดังนั้นควรเป็น `am walking` ไม่ใช่ `am walk` เช่น `I am walking now.`"
+      },
+      {
+        "index": 4,
+        "text": "are walking",
+        "knowledge_ids": [
+          318,
+          364,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่กริยา **be** เพราะประธาน `I` ต้องใช้ `am` ไม่ใช่ `are` ควรเป็น `I am walking`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ a new project this week.",
+    "question_knowledge_ids": [
+      318,
+      324,
+      328,
+      331,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are starting",
+        "knowledge_ids": [
+          318,
+          324,
+          331
+        ],
+        "is_correct": true,
+        "answer_description": "ตอบถูกจ้า โครงสร้างยืนยันคือ __Subject + am/is/are + V-ing__ และประธานพหูพจน์ `They` ใช้ `are`: `They are starting a new project this week.` ตัวอย่างอีกประโยค: `They are working together now.`"
+      },
+      {
+        "index": 2,
+        "text": "is starting",
+        "knowledge_ids": [
+          318,
+          380,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะใช้ `is` กับประธานพหูพจน์ `They` ต้องใช้ `are` เสมอ รูปที่ถูกคือ `They are starting ...`"
+      },
+      {
+        "index": 3,
+        "text": "start",
+        "knowledge_ids": [
+          397,
+          398,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะ `start` เป็น **Present Simple** เหมาะกับตารางเวลาหรือข้อเท็จจริงทั่วไป เช่น `They start at 9 am every day.` แต่ที่นี่เน้นช่วงเวลานี้ `this week` แบบกำลังกระทำ"
+      },
+      {
+        "index": 4,
+        "text": "are start",
+        "knowledge_ids": [
+          324,
+          317,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปกริยา หลัง `are` ต้องเป็น **V-ing** ควรเป็น `are starting` ไม่ใช่ `are start` เช่น `They are starting now.`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ for the bus now.",
+    "question_knowledge_ids": [
+      318,
+      324,
+      328,
+      335,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is waiting",
+        "knowledge_ids": [
+          318,
+          324,
+          328
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง Present Continuous คือ __Subject + am/is/are + V-ing__: `He is waiting for the bus now.` ใช้เมื่อเหตุการณ์กำลังเกิดขึ้นตอนนี้ เช่น `He is waiting right now.`"
+      },
+      {
+        "index": 2,
+        "text": "waits",
+        "knowledge_ids": [
+          397,
+          398,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็นรูป **Present Simple** (`waits`) ที่ใช้กับกิจวัตร เช่น `He waits every morning.` แต่คำว่า `now` ต้องใช้ `is waiting`"
+      },
+      {
+        "index": 3,
+        "text": "are waiting",
+        "knowledge_ids": [
+          318,
+          380,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่รูป `be` เพราะ `He` เป็นเอกพจน์ ต้องใช้ `is` ไม่ใช่ `are` รูปถูกคือ `He is waiting`"
+      },
+      {
+        "index": 4,
+        "text": "is wait",
+        "knowledge_ids": [
+          324,
+          317,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปกริยา หลัง `is` ต้องใช้ **V-ing** ไม่ใช่กริยารูปฐาน ควรเป็น `is waiting`"
+      }
+    ]
+  },
+  {
+    "question": "We ___ a movie together tonight.",
+    "question_knowledge_ids": [
+      318,
+      324,
+      328,
+      332,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are watching",
+        "knowledge_ids": [
+          318,
+          324,
+          332
+        ],
+        "is_correct": true,
+        "answer_description": "ใช่เลย ประธาน `We` ใช้ `are` ตามโครงสร้าง __Subject + am/is/are + V-ing__: `We are watching a movie together tonight.` ตัวอย่าง: `We are studying for the test now.`"
+      },
+      {
+        "index": 2,
+        "text": "is watching",
+        "knowledge_ids": [
+          318,
+          380,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `We` ต้องใช้ `are` ไม่ใช่ `is` รูปที่ถูกต้องคือ `We are watching ...`"
+      },
+      {
+        "index": 3,
+        "text": "watch",
+        "knowledge_ids": [
+          397,
+          398,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ใช่ เพราะ `watch` เป็น **Present Simple** ที่บอกกิจวัตร เช่น `We watch movies every Friday.` แต่ประโยคนี้พูดถึงแผนที่กำลังกระทำ/ชั่วคราว"
+      },
+      {
+        "index": 4,
+        "text": "are watch",
+        "knowledge_ids": [
+          324,
+          317,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่รูปกริยา ต้องเป็น **V-ing** หลัง `are` ดังนั้นควรเป็น `are watching` ไม่ใช่ `are watch`"
+      }
+    ]
+  },
+  {
+    "question": "The cat ___ under the table.",
+    "question_knowledge_ids": [
+      318,
+      324,
+      328,
+      340,
+      344
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is sleeping",
+        "knowledge_ids": [
+          318,
+          324,
+          328
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้องจ้า โครงสร้างยืนยัน: __Subject + am/is/are + V-ing__ และ `The cat` เป็นเอกพจน์จึงใช้ `is`: `The cat is sleeping under the table.` ตัวอย่าง: `It is sleeping now.`"
+      },
+      {
+        "index": 2,
+        "text": "are sleeping",
+        "knowledge_ids": [
+          318,
+          380,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `The cat` เป็นเอกพจน์ ต้องใช้ `is` ไม่ใช่ `are` รูปถูกคือ `is sleeping`"
+      },
+      {
+        "index": 3,
+        "text": "sleep",
+        "knowledge_ids": [
+          411,
+          397
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่กาลและรูปแบบ `sleep` เป็น Present Simple เหมาะกับข้อเท็จจริงทั่วไป ไม่ใช่การกระทำที่กำลังเกิดขึ้นตอนนี้ เช่นควรเป็น `is sleeping`"
+      },
+      {
+        "index": 4,
+        "text": "is sleep",
+        "knowledge_ids": [
+          324,
+          317,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปคำกริยา หลัง `is` ต้องตามด้วย **V-ing** จึงควรเป็น `is sleeping` แทน `is sleep`"
+      }
+    ]
+  },
+  {
+    "question": "I'm busy; I ___ an email to my boss.",
+    "question_knowledge_ids": [
+      318,
+      324,
+      328,
+      340,
+      349
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "am writing",
+        "knowledge_ids": [
+          318,
+          324,
+          328
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง! ใช้ __Subject + am/is/are + V-ing__ และคำกริยา `write` ต้องเปลี่ยนเป็น `writing` (ตัด e แล้วเติม -ing): `I am writing an email to my boss.` ตัวอย่าง: `I am writing now.`"
+      },
+      {
+        "index": 2,
+        "text": "am write",
+        "knowledge_ids": [
+          317,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `am` ต้องเป็น **V-ing** ไม่ใช่กริยารูปฐาน ควรใช้ `am writing` เช่น `I am writing an email.`"
+      },
+      {
+        "index": 3,
+        "text": "am writting",
+        "knowledge_ids": [
+          349,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "สะกดผิด กริยา `write` เมื่อลงท้าย e ให้ตัด e แล้วเติม -ing เป็น `writing` ไม่ต้องเพิ่มตัว t เป็นสองตัว ตัวอย่างที่ถูก: `I am writing now.`"
+      },
+      {
+        "index": 4,
+        "text": "write",
+        "knowledge_ids": [
+          397,
+          398,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก เพราะเป็น **Present Simple** เหมาะกับนิสัย/กิจวัตร เช่น `I write emails every day.` ที่นี่ต้องการการกระทำที่กำลังเกิด: `am writing`"
+      }
+    ]
+  },
+  {
+    "question": "Listen! The children ___ in the garden.",
+    "question_knowledge_ids": [
+      318,
+      324,
+      328,
+      335,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are playing",
+        "knowledge_ids": [
+          318,
+          324,
+          328
+        ],
+        "is_correct": true,
+        "answer_description": "ดีมาก คำสั่ง `Listen!` ชี้ว่ากำลังเกิดตอนนี้ ใช้ __Subject + am/is/are + V-ing__: `The children are playing in the garden.` ตัวอย่าง: `They are playing now.`"
+      },
+      {
+        "index": 2,
+        "text": "play",
+        "knowledge_ids": [
+          397,
+          398,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `play` เป็น Present Simple ใช้กับกิจวัตร เช่น `The children play every afternoon.` แต่ตอนนี้เป็นเหตุการณ์กำลังเกิดขึ้น"
+      },
+      {
+        "index": 3,
+        "text": "is playing",
+        "knowledge_ids": [
+          318,
+          380,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่ `be` เพราะประธาน `The children` เป็นพหูพจน์ ต้องใช้ `are` ไม่ใช่ `is` รูปที่ถูกคือ `are playing`"
+      },
+      {
+        "index": 4,
+        "text": "are play",
+        "knowledge_ids": [
+          324,
+          317,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปกริยา เพราะหลัง `are` ต้องเป็น **V-ing** จึงควรเป็น `are playing` ไม่ใช่ `are play`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ a photo of the sunset.",
+    "question_knowledge_ids": [
+      318,
+      324,
+      328,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is taking",
+        "knowledge_ids": [
+          318,
+          324,
+          328
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้องนะ โครงสร้าง Present Continuous คือ __Subject + am/is/are + V-ing__: `She is taking a photo of the sunset.` ตัวอย่าง: `She is taking pictures now.`"
+      },
+      {
+        "index": 2,
+        "text": "is take",
+        "knowledge_ids": [
+          317,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปกริยา หลัง `is` ต้องตามด้วย **V-ing** จึงควรเป็น `is taking` ไม่ใช่ `is take`"
+      },
+      {
+        "index": 3,
+        "text": "takes",
+        "knowledge_ids": [
+          385,
+          407,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดกาล เพราะเป็น **Present Simple** ใช้กับกิจวัตร เช่น `She takes photos every weekend.` แต่ที่นี่ต้องการเหตุการณ์กำลังทำอยู่ `is taking`"
+      },
+      {
+        "index": 4,
+        "text": "are taking",
+        "knowledge_ids": [
+          318,
+          380,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่ `be` เพราะประธาน `She` เป็นเอกพจน์ ต้องใช้ `is` ไม่ใช่ `are` ดังนั้นควรเป็น `She is taking ...`"
+      }
+    ]
+  },
+  {
+    "question": "Be quiet, please. The baby ___.",
+    "question_knowledge_ids": [
+      318,
+      324,
+      328,
+      335,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is sleeping",
+        "knowledge_ids": [
+          318,
+          324,
+          328
+        ],
+        "is_correct": true,
+        "answer_description": "ใช่แล้ว ประโยคนี้บอกเหตุการณ์ที่เกิดตอนนี้ ใช้ __Subject + am/is/are + V-ing__: `The baby is sleeping.` ตัวอย่าง: `He is sleeping now, don't make noise.`"
+      },
+      {
+        "index": 2,
+        "text": "sleep",
+        "knowledge_ids": [
+          411,
+          397
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `sleep` เป็น Present Simple ไม่สื่อว่ากำลังเกิดตอนนี้ ตัวที่ถูกต้องคือ `is sleeping`"
+      },
+      {
+        "index": 3,
+        "text": "are sleeping",
+        "knowledge_ids": [
+          318,
+          380,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่ `be` ประธาน `The baby` เป็นเอกพจน์ ต้องใช้ `is` ไม่ใช่ `are` ดังนั้นควรเป็น `is sleeping`"
+      },
+      {
+        "index": 4,
+        "text": "is sleep",
+        "knowledge_ids": [
+          324,
+          317,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปคำกริยา หลัง `is` ต้องเป็น **V-ing** จึงควรเขียน `is sleeping` ไม่ใช่ `is sleep`"
+      }
+    ]
+  }
+]

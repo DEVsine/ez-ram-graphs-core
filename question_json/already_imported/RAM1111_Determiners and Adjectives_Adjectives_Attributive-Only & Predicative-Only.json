@@ -1,0 +1,292 @@
+[
+  {
+    "question": "He fell ___ during the movie.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "asleep",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำว่า **asleep** เป็นคุณศัพท์แบบ **predicative-only** ใช้ตามหลังกริยาเชื่อม เช่น `be/feel/fall` โครงสร้างที่ถูกคือ __`fall + asleep`__. ตัวอย่าง: `He fell asleep during the movie.` หรือ `The baby is asleep.`"
+      },
+      {
+        "index": 2,
+        "text": "sleeping",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `sleeping` เป็นรูป -ing (present participle) ใช้ขยายคำนาม เช่น `a sleeping baby` ไม่ได้ใช้ตามหลัง `fall` เพื่อบอกสภาพที่เกิดขึ้นทันที ควรใช้ `fell asleep` เช่น `He fell asleep.`"
+      },
+      {
+        "index": 3,
+        "text": "sleep",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `sleep` เป็นคำนามหรือกริยา ไม่ใช่คุณศัพท์สำหรับตามหลังกริยาเชื่อม โครงสร้างที่ถูกคือ `fall + adjective` ดังนั้นต้องใช้ `asleep` เช่น `He fell asleep.` ไม่ใช่ `He fell sleep.`"
+      },
+      {
+        "index": 4,
+        "text": "awake",
+        "is_correct": false,
+        "answer_description": "ผิดทางความหมาย ประโยคสื่อว่าเขาเผลอหลับระหว่างดูหนัง จึงต้องใช้ `asleep` ไม่ใช่ `awake` ตัวอย่างเปรียบเทียบ: `He stayed awake during the movie.` (ตื่น) vs `He fell asleep during the movie.` (หลับ)"
+      }
+    ]
+  },
+  {
+    "question": "The ___ reason for the delay is traffic.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "main",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **main** เป็นคุณศัพท์ที่ใช้แบบ **attributive-only** คือวางหน้า นาม โครงสร้างที่ถูกคือ __`the + main + noun`__. ตัวอย่าง: `The main reason is traffic.` และ `Our main goal is safety.`"
+      },
+      {
+        "index": 2,
+        "text": "afraid",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `afraid` เป็นคุณศัพท์แบบ **predicative-only** ใช้ตามหลัง `be` เช่น `She is afraid of dogs.` ไม่สามารถวางหน้า **reason** ว่า `the afraid reason` ได้"
+      },
+      {
+        "index": 3,
+        "text": "asleep",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `asleep` ใช้แบบ **predicative-only** เช่น `The baby is asleep.` จึงไม่สามารถวางเป็น `the asleep reason` ได้"
+      },
+      {
+        "index": 4,
+        "text": "alone",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `alone` เป็น **predicative-only** เช่น `He is alone.` ไม่สามารถใช้หน้า **reason** เป็น `the alone reason` ได้"
+      }
+    ]
+  },
+  {
+    "question": "The ___ president will speak tonight.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "former",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **former** เป็นคุณศัพท์แบบ **attributive-only** ใช้วางหน้า นาม เพื่อหมายถึง “อดีต–” โครงสร้างที่ถูกคือ __`former + noun`__. ตัวอย่าง: `the former president`, `my former boss called me yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "afraid",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `afraid` ใช้แบบ **predicative-only** ตามหลังกริยาเชื่อม เช่น `The president is afraid.` ไม่สามารถพูด `the afraid president` เพื่อความหมายปกติได้"
+      },
+      {
+        "index": 3,
+        "text": "asleep",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `asleep` เป็น **predicative-only** ใช้ตามหลัง `be` เช่น `The child is asleep.` การวาง `the asleep president` จึงผิดธรรมชาติและผิดหลักการใช้"
+      },
+      {
+        "index": 4,
+        "text": "alone",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `alone` ก็เป็น **predicative-only** เช่น `He is alone.` ไม่ใช้วางหน้า นาม ดังนั้น `the alone president` จึงไม่ถูก"
+      }
+    ]
+  },
+  {
+    "question": "This book is ___ reading.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "worth",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง `worth` เป็นคุณศัพท์ที่ใช้แบบ **predicative-only** ในโครงสร้างคงที่ __`be + worth + gerund (V-ing)`__. ตัวอย่าง: `This book is worth reading.` และ `The trip is worth taking.`"
+      },
+      {
+        "index": 2,
+        "text": "worthy",
+        "is_correct": false,
+        "answer_description": "เกือบถูก แต่รูปนี้ต้องใช้ `worthy of + noun/gerund` เช่น `This book is worthy of reading.` หรือ `worthy of attention` ไม่สามารถใช้ `be worthy reading` ตรงๆ ได้"
+      },
+      {
+        "index": 3,
+        "text": "worthless",
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย `worthless` แปลว่า “ไร้ค่า” และปกติใช้โครงสร้าง `be worthless` เช่น `The idea is worthless.` ไม่สามารถตามด้วย V-ing แบบ `worthless reading` ได้"
+      },
+      {
+        "index": 4,
+        "text": "main",
+        "is_correct": false,
+        "answer_description": "ผิด `main` เป็น **attributive-only** ใช้วางหน้า นาม เช่น `the main idea` ไม่ใช้ตามหลัง `be` ในรูป `is main reading`"
+      }
+    ]
+  },
+  {
+    "question": "What an ___ disaster!",
+    "choices": [
+      {
+        "index": 1,
+        "text": "utter",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **utter** มักใช้แบบ **attributive-only** เพื่อเน้นความสุดๆ วางหน้า นาม โครงสร้างคือ __`an/what an + utter + noun`__. ตัวอย่าง: `an utter disaster`, `utter nonsense`"
+      },
+      {
+        "index": 2,
+        "text": "afraid",
+        "is_correct": false,
+        "answer_description": "ผิด `afraid` เป็น **predicative-only** เช่น `She is afraid.` จึงไม่สามารถบอกว่า `an afraid disaster` ได้ เพราะไม่ใช่คุณสมบัติที่ใช้ขยายนามแบบนี้"
+      },
+      {
+        "index": 3,
+        "text": "asleep",
+        "is_correct": false,
+        "answer_description": "ผิด `asleep` ใช้หลังกริยาเชื่อม เช่น `The baby is asleep.` ไม่ใช้ขยายนามว่า `an asleep disaster`"
+      },
+      {
+        "index": 4,
+        "text": "alone",
+        "is_correct": false,
+        "answer_description": "ผิด `alone` เป็น **predicative-only** เช่น `He is alone.` ไม่ได้ใช้หน้า นาม จึงไม่ถูกในตำแหน่งนี้"
+      }
+    ]
+  },
+  {
+    "question": "I'm ___ you came.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "glad",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง `glad` ใช้แบบ **predicative** ตามหลัง `be` และตามด้วยประโยคหรือ that-clause ได้ โครงสร้างคือ __`be + glad + (that) clause`__. ตัวอย่าง: `I'm glad you came.` หรือ `She's glad that he called.`"
+      },
+      {
+        "index": 2,
+        "text": "main",
+        "is_correct": false,
+        "answer_description": "ผิด `main` เป็น **attributive-only** ใช้วางหน้า นาม เช่น `the main point` จึงวางหลัง `be` แล้วตามด้วยประโยคไม่ได้ เช่น `I'm main you came` ผิด"
+      },
+      {
+        "index": 3,
+        "text": "former",
+        "is_correct": false,
+        "answer_description": "ผิด `former` ใช้หน้า นาม เท่านั้น เช่น `my former boss` ไม่ได้ตามหลัง `be` เพื่อบอกอารมณ์หรือความรู้สึกแบบ `I'm former...`"
+      },
+      {
+        "index": 4,
+        "text": "mere",
+        "is_correct": false,
+        "answer_description": "ผิด `mere` เป็น **attributive-only** ใช้หน้า นาม เช่น `a mere detail` ไม่สามารถใช้ว่า `I'm mere...`"
+      }
+    ]
+  },
+  {
+    "question": "It was a ___ suggestion, not a decision.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "mere",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **mere** เป็นคุณศัพท์แบบ **attributive-only** ใช้วางหน้า นาม เพื่อสื่อว่า “แค่/เพียง” โครงสร้างคือ __`a + mere + noun`__. ตัวอย่าง: `a mere suggestion`, `a mere child`"
+      },
+      {
+        "index": 2,
+        "text": "afraid",
+        "is_correct": false,
+        "answer_description": "ผิด `afraid` ใช้แบบ **predicative-only** ตามหลัง `be` เช่น `She is afraid.` จึงไม่ใช้หน้า นามว่า `an afraid suggestion`"
+      },
+      {
+        "index": 3,
+        "text": "asleep",
+        "is_correct": false,
+        "answer_description": "ผิด `asleep` ใช้หลัง `be` เช่น `The cat is asleep.` ไม่สามารถใช้ว่า `an asleep suggestion` ได้"
+      },
+      {
+        "index": 4,
+        "text": "alone",
+        "is_correct": false,
+        "answer_description": "ผิด `alone` ก็เป็น **predicative-only** เช่น `He is alone.` ไม่ใช้ขยายนามตรงๆ จึงผิดในตำแหน่งนี้"
+      }
+    ]
+  },
+  {
+    "question": "The twins look so ___ that I always confuse them.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "alike",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง `alike` เป็นคุณศัพท์แบบ **predicative-only** ใช้ตามหลังกริยาเชื่อม เช่น `be/look/seem` โครงสร้างคือ __`look + alike`__. ตัวอย่าง: `The twins look alike.` หรือ `They are alike in many ways.`"
+      },
+      {
+        "index": 2,
+        "text": "like",
+        "is_correct": false,
+        "answer_description": "ผิดโครงสร้าง `like` เป็นบุพบท ต้องตามด้วยนาม/สรรพนาม เช่น `They look like each other.` ไม่ใช้เป็นคุณศัพท์เดี่ยวๆ หลัง `look` แบบ `look like` + complement ที่เป็นคำเดียว"
+      },
+      {
+        "index": 3,
+        "text": "alive",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะประโยคสื่อเรื่อง “หน้าตาคล้าย” ไม่ใช่ “มีชีวิต” คำว่า `alive` ใช้เป็นส่วนเติมเต็มหลัง `be` เช่น `The fish is alive.` แต่ไม่สื่อความหมาย “คล้ายกัน”"
+      },
+      {
+        "index": 4,
+        "text": "main",
+        "is_correct": false,
+        "answer_description": "ผิด `main` เป็น **attributive-only** วางหน้า นาม เช่น `the main road` ไม่ใช้ตามหลัง `look` เพื่อบอกลักษณะ"
+      }
+    ]
+  },
+  {
+    "question": "Our ___ concern is safety.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "chief",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **chief** มักใช้แบบ **attributive-only** เพื่อหมายถึง “หลัก/สำคัญที่สุด” วางหน้า นาม โครงสร้างคือ __`possessive + chief + noun`__ เช่น `our chief concern`. ตัวอย่าง: `Our chief aim is to help.`"
+      },
+      {
+        "index": 2,
+        "text": "afraid",
+        "is_correct": false,
+        "answer_description": "ผิด `afraid` เป็น **predicative-only** ใช้ตามหลัง `be` เช่น `We are afraid.` ไม่สามารถวางหน้า นามว่า `our afraid concern` ได้"
+      },
+      {
+        "index": 3,
+        "text": "asleep",
+        "is_correct": false,
+        "answer_description": "ผิด `asleep` ใช้ตามหลังกริยาเชื่อม เช่น `The child is asleep.` ไม่ใช่ `our asleep concern`"
+      },
+      {
+        "index": 4,
+        "text": "alone",
+        "is_correct": false,
+        "answer_description": "ผิด `alone` เป็น **predicative-only** เช่น `She is alone.` และไม่สามารถใช้ขยายนามว่า `our alone concern`"
+      }
+    ]
+  },
+  {
+    "question": "Dinner is ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "ready",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง `ready` ใช้แบบ **predicative** ตามหลัง `be` เพื่อบอกสภาพความพร้อม โครงสร้างคือ __`be + ready (+ for/to...)`__. ตัวอย่าง: `Dinner is ready.` หรือ `We are ready to start.`"
+      },
+      {
+        "index": 2,
+        "text": "main",
+        "is_correct": false,
+        "answer_description": "ผิด `main` เป็น **attributive-only** เช่น `the main course` ไม่ได้ใช้ว่า `Dinner is main.`"
+      },
+      {
+        "index": 3,
+        "text": "former",
+        "is_correct": false,
+        "answer_description": "ผิด `former` ใช้หน้า นาม เช่น `the former manager` ไม่ใช่ตามหลัง `be` อย่าง `Dinner is former`"
+      },
+      {
+        "index": 4,
+        "text": "mere",
+        "is_correct": false,
+        "answer_description": "ผิด `mere` เป็น **attributive-only** เช่น `a mere detail` ไม่ได้ใช้ตามหลังกริยาเชื่อม `be` เช่น `Dinner is mere`"
+      }
+    ]
+  }
+]

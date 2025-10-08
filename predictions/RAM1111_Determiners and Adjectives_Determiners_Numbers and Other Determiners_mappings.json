@@ -1,0 +1,550 @@
+[
+  {
+    "question": "We have ___ sugar left in the jar.",
+    "question_knowledge_ids": [
+      517,
+      518,
+      530,
+      532,
+      537
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "some",
+        "knowledge_ids": [
+          518,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **some** กับประโยคบอกเล่า โดยเฉพาะกับคำนามนับไม่ได้อย่าง **sugar** โครงสร้างที่ถูกคือ **`some + uncountable noun`** เช่น `some sugar`. ตัวอย่าง: `We have some sugar left in the jar.`"
+      },
+      {
+        "index": 2,
+        "text": "any",
+        "knowledge_ids": [
+          518,
+          194,
+          193
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะ **any** มักใช้กับประโยคปฏิเสธหรือคำถามมากกว่า เช่น `We don’t have any sugar.` หรือ `Do we have any sugar?` ถ้าจะใช้ในบอกเล่า ต้องเป็นกรณีพิเศษที่เน้น “ไม่จำกัดปริมาณ” ซึ่งไม่ใช่กรณีนี้"
+      },
+      {
+        "index": 3,
+        "text": "many",
+        "knowledge_ids": [
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **many** ใช้กับคำนามนับได้พหูพจน์ ไม่ใช้กับคำนามนับไม่ได้อย่าง **sugar** โครงสร้างที่ถูกของ many คือ `many + plural countable noun` เช่น `many books` ไม่ใช่ `many sugar`"
+      },
+      {
+        "index": 4,
+        "text": "few",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **few** ใช้กับคำนามนับได้พหูพจน์ ไม่ใช้นับไม่ได้อย่าง **sugar** ถ้าต้องการสื่อ “มีน้อย” กับนับไม่ได้ควรใช้ **little/a little** เช่น `a little sugar`"
+      }
+    ]
+  },
+  {
+    "question": "Do you have ___ friends here?",
+    "question_knowledge_ids": [
+      518,
+      520,
+      530,
+      532,
+      537,
+      194
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "many",
+        "knowledge_ids": [
+          520,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **friends** เป็นคำนามนับได้พหูพจน์ จึงใช้ **`many + plural countable noun`** และเหมาะกับประโยคคำถาม เช่น `Do you have many friends here?` ตัวอย่างใช้งาน: `I don’t have many friends in this city.`"
+      },
+      {
+        "index": 2,
+        "text": "much",
+        "knowledge_ids": [
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **much** ใช้กับคำนามนับไม่ได้ เช่น `much water` ไม่ใช่กับคำนามนับได้พหูพจน์อย่าง `friends` ในประโยคคำถามนี้จึงไม่เข้ากัน"
+      },
+      {
+        "index": 3,
+        "text": "a little",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **a little** ใช้กับคำนามนับไม่ได้ เช่น `a little time` ไม่ใช้กับคำนามนับได้พหูพจน์อย่าง `friends` ถ้าจะใช้ความหมายคล้ายกันกับนับได้ควรเป็น **a few friends**"
+      },
+      {
+        "index": 4,
+        "text": "little",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **little** ใช้กับคำนามนับไม่ได้ และยังให้ความหมายเชิงลบว่า “น้อยจนแทบไม่มี” เช่น `I have little time.` แต่ `friends` เป็นนับได้พหูพจน์ จึงไม่เข้ากัน"
+      }
+    ]
+  },
+  {
+    "question": "She has ___ close friends at school, so she isn’t lonely.",
+    "question_knowledge_ids": [
+      517,
+      520,
+      530,
+      532,
+      537
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "a few",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **a few** ใช้กับคำนามนับได้พหูพจน์ และมีนัยบวกว่า “มีอยู่บ้างพอใช้” โครงสร้างที่ถูกคือ **`a few + plural countable noun`** เช่น `a few friends`. ตัวอย่าง: `She has a few close friends, so she isn’t lonely.`"
+      },
+      {
+        "index": 2,
+        "text": "few",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด แม้ใช้กับนามพหูพจน์ได้ แต่ **few** มีนัยลบว่า “น้อยจนแทบไม่มี” ซึ่งขัดกับส่วนหลังที่บอกว่าเธอไม่เหงา เช่น `She has few close friends, so she feels lonely.`"
+      },
+      {
+        "index": 3,
+        "text": "a little",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **a little** ใช้กับคำนามนับไม่ได้ เช่น `a little money` แต่ **friends** เป็นคำนามนับได้พหูพจน์ จึงใช้ **a few friends** แทน"
+      },
+      {
+        "index": 4,
+        "text": "many",
+        "knowledge_ids": [
+          520,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะกับบริบท เพราะประโยคต้องการสื่อว่ามี “อยู่บ้างพอใช้” ไม่ได้เยอะมาก ถ้าพูดว่า **many** จะสื่อว่า “เยอะ” เช่น `She has many close friends.` ซึ่งต่างความหมาย"
+      }
+    ]
+  },
+  {
+    "question": "There is ___ time before the movie, so we can grab a snack.",
+    "question_knowledge_ids": [
+      517,
+      530,
+      532,
+      537
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "a little",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **a little** ใช้กับคำนามนับไม่ได้ เช่น **time** และมีนัยบวกว่า “มีอยู่บ้างพอใช้” โครงสร้างที่ถูกคือ **`a little + uncountable noun`** เช่น `a little time`. ตัวอย่าง: `There is a little time before the movie.`"
+      },
+      {
+        "index": 2,
+        "text": "little",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะ **little** มีนัยลบว่า “น้อยจนไม่พอ” ขัดกับส่วนที่บอกว่าเรายังพอไปกินของว่างได้ เช่น `There is little time, so we can’t go anywhere.`"
+      },
+      {
+        "index": 3,
+        "text": "a few",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **a few** ใช้กับคำนามนับได้พหูพจน์ แต่ **time** เป็นคำนามนับไม่ได้ จึงต้องใช้ **a little time** ไม่ใช่ `a few time`"
+      },
+      {
+        "index": 4,
+        "text": "few",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจาก **few** ใช้กับคำนามนับได้พหูพจน์ ไม่ใช้นับไม่ได้อย่าง **time** และยังให้นัยลบว่า “น้อยจนแทบไม่มี” อีกด้วย"
+      }
+    ]
+  },
+  {
+    "question": "___ the students has a laptop.",
+    "question_knowledge_ids": [
+      519,
+      520,
+      380,
+      530,
+      532,
+      537
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Each of",
+        "knowledge_ids": [
+          519,
+          380
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **Each of + plural noun** แต่กริยาตามหลังเป็นเอกพจน์ เช่น `Each of the students has ...` โครงสร้างที่ควรจำคือ **`Each of + plural noun + singular verb`**. ตัวอย่าง: `Each of the students has a laptop.`"
+      },
+      {
+        "index": 2,
+        "text": "Every of",
+        "knowledge_ids": [
+          519,
+          529
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูป **Every of** ไม่ใช้กับคำนามพหูพจน์ ต้องใช้ `every + singular noun` เช่น `Every student has a laptop.` จึงไม่สามารถเขียน `Every of the students` ได้"
+      },
+      {
+        "index": 3,
+        "text": "All of",
+        "knowledge_ids": [
+          520,
+          380
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่สอดคล้องกริยา ถ้าใช้ **All of the students** กริยาควรเป็นพหูพจน์ `have` ไม่ใช่ `has` ตัวอย่างที่ถูก: `All of the students have a laptop.`"
+      },
+      {
+        "index": 4,
+        "text": "Both of",
+        "knowledge_ids": [
+          520,
+          380
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Both of** ใช้กับจำนวนสองเท่านั้น และกริยาต้องเป็นพหูพจน์ เช่น `Both of the students have laptops.` ที่นี่ไม่ได้จำกัดว่าเป็นสองคนและกริยาก็เป็นเอกพจน์"
+      }
+    ]
+  },
+  {
+    "question": "___ option is acceptable, so choose one.",
+    "question_knowledge_ids": [
+      520,
+      537
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Either",
+        "knowledge_ids": [
+          520
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **Either** ใช้กับตัวเลือกสองอย่าง หมายถึง “อย่างใดอย่างหนึ่งก็ได้” โครงสร้างคือ **`Either + singular noun + singular verb`** เช่น `Either option is fine.` ตัวอย่าง: `Either option is acceptable, so choose one.`"
+      },
+      {
+        "index": 2,
+        "text": "Neither",
+        "knowledge_ids": [
+          520
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะ **Neither** หมายถึง “ไม่อย่างใดอย่างหนึ่งเลย” ซึ่งขัดกับส่วนที่บอกว่าให้เลือกหนึ่ง เช่น `Neither option is acceptable.` จะสื่อว่าเลือกไม่ได้เลย"
+      },
+      {
+        "index": 3,
+        "text": "Both",
+        "knowledge_ids": [
+          520
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Both** ใช้กับสองสิ่งพร้อมกันและตามด้วยคำนามพหูพจน์ เช่น `Both options are acceptable.` แต่ประโยคนี้ต้องการให้เลือกอย่างใดอย่างหนึ่ง"
+      },
+      {
+        "index": 4,
+        "text": "All",
+        "knowledge_ids": [
+          520
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **All** ใช้กับสามสิ่งขึ้นไปหรือกลุ่มทั่วไป และต้องตามด้วยพหูพจน์ เช่น `All options are acceptable.` ประโยคนี้พูดถึงตัวเลือกสองอย่างและให้เลือกหนึ่ง"
+      }
+    ]
+  },
+  {
+    "question": "___ my parents are teachers.",
+    "question_knowledge_ids": [
+      520,
+      537
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Both of",
+        "knowledge_ids": [
+          520
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **Both of** ใช้กับสองคน/สองสิ่งและกริยาตามเป็นพหูพจน์ โครงสร้างคือ **`Both of + plural noun/pronoun + plural verb`** เช่น `Both of my parents are teachers.` ตัวอย่าง: `Both of my friends are here.`"
+      },
+      {
+        "index": 2,
+        "text": "Either of",
+        "knowledge_ids": [
+          520
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Either of** หมายถึง “อย่างใดอย่างหนึ่ง” และกริยามักใช้เอกพจน์ เช่น `Either of my parents is...` ซึ่งไม่ตรงกับความหมายว่าพ่อแม่ “ทั้งสองคน” เป็นครู"
+      },
+      {
+        "index": 3,
+        "text": "Neither of",
+        "knowledge_ids": [
+          520
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Neither of** หมายถึง “ไม่ทั้งสอง” เช่น `Neither of my parents is a teacher.` ซึ่งตรงข้ามกับความหมายที่ต้องการสื่อในประโยค"
+      },
+      {
+        "index": 4,
+        "text": "All of",
+        "knowledge_ids": [
+          520
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดธรรมชาติ เพราะ **All of** มักใช้กับสามคนขึ้นไป เช่น `All of my classmates are here.` ใช้กับพ่อแม่สองคนควรเลือก **Both of**"
+      }
+    ]
+  },
+  {
+    "question": "I don’t like this seat. Can I have ___ one?",
+    "question_knowledge_ids": [
+      523,
+      537
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "another",
+        "knowledge_ids": [
+          523
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **another** ใช้กับนามเอกพจน์ที่นับได้ หมายถึง “อีกหนึ่งอัน/อีกอันหนึ่ง” โครงสร้างคือ **`another + singular countable noun`** หรือใช้ลอยๆหมายถึง “อันอื่นอีกหนึ่ง” ตัวอย่าง: `Can I have another one?`"
+      },
+      {
+        "index": 2,
+        "text": "other",
+        "knowledge_ids": [
+          523
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **other** ต้องตามด้วยคำนามพหูพจน์หรือใช้เป็นคำนามพหูพจน์ `others` เช่น `other seats` ส่วนกรณี “อีกหนึ่งอัน” ควรใช้ **another**"
+      },
+      {
+        "index": 3,
+        "text": "others",
+        "knowledge_ids": [
+          523
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **others** เป็นคำนามพหูพจน์หมายถึง “คนอื่นๆ/สิ่งอื่นๆ” ไม่ใช้ตามหลัง `have` ในรูปนี้เพื่อหมายถึง “อีกอันหนึ่ง” ซึ่งควรเป็น **another one**"
+      },
+      {
+        "index": 4,
+        "text": "the other",
+        "knowledge_ids": [
+          523
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะ **the other** มักใช้เมื่อมีสองตัวเลือกที่ชัดเจนหมายถึง “อีกอันที่เหลือ” เช่น `I have two pens. One is blue, the other is black.` ที่นี่ไม่ได้ระบุว่ามีแค่สองที่นั่ง"
+      }
+    ]
+  },
+  {
+    "question": "___ people in this town walk to work.",
+    "question_knowledge_ids": [
+      520,
+      563,
+      537
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Most",
+        "knowledge_ids": [
+          563
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อตามด้วยคำนามทั่วไปใช้ **`Most + noun`** โดยไม่ต้องมี `of` เช่น `Most people walk to work.` โครงสร้างที่ถูกคือ **Most + plural countable noun** ในบริบทนี้"
+      },
+      {
+        "index": 2,
+        "text": "Most of",
+        "knowledge_ids": [
+          563
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ครบ เพราะ **Most of** ต้องตามด้วยตัวระบุ เช่น `the/my/these/those/teachers` ตัวอย่างที่ถูก: `Most of the people in this town walk to work.` ไม่ใช่ `Most of people`"
+      },
+      {
+        "index": 3,
+        "text": "Many of",
+        "knowledge_ids": [
+          520,
+          563
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ครบเช่นกัน เพราะ **Many of** ต้องตามด้วยตัวระบุ เช่น `the/my/these` เช่น `Many of the people...` ถ้าไม่มีตัวระบุควรใช้ `Many people` แทน"
+      },
+      {
+        "index": 4,
+        "text": "The most",
+        "knowledge_ids": [
+          563
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย **The most** มักใช้เป็นขั้นสุด เช่น `the most people` ในบริบทเปรียบเทียบเฉพาะเจาะจง ไม่ใช่ใช้ลอยๆหมายถึง “ส่วนใหญ่” แบบ `Most people`"
+      }
+    ]
+  },
+  {
+    "question": "We saw ___ mistakes in the report.",
+    "question_knowledge_ids": [
+      530,
+      532,
+      537
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "several",
+        "knowledge_ids": [
+          530
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **several** ใช้กับคำนามนับได้พหูพจน์ หมายถึง “หลาย” แต่ไม่มากเกินไป โครงสร้างคือ **`several + plural countable noun`** เช่น `several mistakes`. ตัวอย่าง: `We found several mistakes in the report.`"
+      },
+      {
+        "index": 2,
+        "text": "much",
+        "knowledge_ids": [
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **much** ใช้กับคำนามนับไม่ได้ ไม่ใช้กับ `mistakes` ซึ่งเป็นคำนามนับได้พหูพจน์ จึงควรใช้ `many mistakes` หรือ `several mistakes`"
+      },
+      {
+        "index": 3,
+        "text": "little",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **little** ใช้กับคำนามนับไม่ได้ และมีนัยว่า “น้อยจนแทบไม่มี” เช่น `little time` แต่ `mistakes` เป็นนับได้พหูพจน์"
+      },
+      {
+        "index": 4,
+        "text": "a little",
+        "knowledge_ids": [
+          517,
+          530
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจาก **a little** ใช้กับคำนามนับไม่ได้ เช่น `a little water` หากต้องการบอกว่ามีข้อผิดพลาดอยู่บ้างกับคำนามนับได้ ควรใช้ **a few mistakes** หรือ **several mistakes**"
+      }
+    ]
+  },
+  {
+    "question": "There aren’t ___ chairs in the room, so some people have to stand.",
+    "question_knowledge_ids": [
+      339,
+      518,
+      530,
+      532
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "enough",
+        "knowledge_ids": [
+          518,
+          530,
+          532
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **enough** เพื่อบอกว่า “พอ/ไม่พอ” โครงสร้างคือ **`enough + plural countable noun`** เช่น `enough chairs` โดยในประโยคปฏิเสธ: `There aren’t enough chairs in the room.`"
+      },
+      {
+        "index": 2,
+        "text": "much",
+        "knowledge_ids": [
+          518,
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **much** ใช้กับคำนามนับไม่ได้ ไม่ใช่คำนามนับได้พหูพจน์อย่าง `chairs` ถ้าจะใช้กับนับได้ควรเป็น `many chairs`"
+      },
+      {
+        "index": 3,
+        "text": "few",
+        "knowledge_ids": [
+          517,
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรงความหมาย ประโยคนี้เน้นว่า “ไม่พอ” ควรใช้ **enough** ส่วน **few chairs** จะสื่อว่า “มีน้อย” แต่ไม่ชัดว่า “พอ/ไม่พอ” เช่น `There are few chairs`"
+      },
+      {
+        "index": 4,
+        "text": "some",
+        "knowledge_ids": [
+          518,
+          530,
+          532
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่สอดคล้องกับความหมาย “ไม่พอ” เพราะ **some chairs** แค่บอกว่ามีอยู่บ้าง เช่น `There are some chairs` แต่ไม่ได้สื่อว่าจำนวนเพียงพอหรือไม่"
+      }
+    ]
+  }
+]

@@ -1,0 +1,577 @@
+[
+  {
+    "question": "I will be working ___.",
+    "question_knowledge_ids": [
+      196,
+      200
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "at this time tomorrow",
+        "knowledge_ids": [
+          196,
+          200,
+          201
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ Future Continuous ใช้กับเวลาเฉพาะในอนาคต เช่น **at this time tomorrow** เพื่อบอกว่าช่วงเวลานั้น “กำลังทำอยู่” โครงสร้างคือ __will be + V-ing + time expression__. ตัวอย่าง: `I will be working at this time tomorrow.`"
+      },
+      {
+        "index": 2,
+        "text": "by this time tomorrow",
+        "knowledge_ids": [
+          215,
+          225,
+          205,
+          231
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **by** เน้น “ก่อนถึงเวลา” ซึ่งเข้ากับ **Future Perfect** มากกว่า (`will have + V3`) ไม่ใช่ Future Continuous ที่เน้น “กำลังกระทำในช่วงนั้น” เช่นควรเป็น `I will have finished by this time tomorrow` (ไม่ใช่กำลังกระทำ)."
+      },
+      {
+        "index": 3,
+        "text": "now",
+        "knowledge_ids": [
+          250
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **now** คือเวลาปัจจุบัน ควรใช้ **Present Continuous** (`am/is/are + V-ing`) มากกว่า ไม่ใช่ Future Continuous ตัวอย่างที่ถูกกับ now: `I am working now.`"
+      },
+      {
+        "index": 4,
+        "text": "yesterday evening",
+        "knowledge_ids": [
+          311
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นเวลาในอดีต ควรใช้ **Past Simple** หรือ **Past Continuous** เช่น `I was working yesterday evening.` Future Continuous ใช้กับเวลาในอนาคตที่ระบุชัดเจน เช่น `at 8 p.m. tomorrow`."
+      }
+    ]
+  },
+  {
+    "question": "They will be flying to Tokyo ___.",
+    "question_knowledge_ids": [
+      196,
+      201,
+      243
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "at 6 a.m. next Friday",
+        "knowledge_ids": [
+          196,
+          201,
+          243
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นเวลาเฉพาะเจาะจงในอนาคต (**at 6 a.m. next Friday**) เหมาะกับ Future Continuous เพื่อบอกว่าช่วงเวลานั้นกำลังอยู่บนเครื่อง โครงสร้าง: __will be + V-ing + specific future time__. ตัวอย่าง: `They will be flying to Tokyo at 6 a.m. next Friday.`"
+      },
+      {
+        "index": 2,
+        "text": "in 1999",
+        "knowledge_ids": [
+          313,
+          307
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นอดีตที่จบไปแล้ว (ปี 1999) จึงไม่ใช้กับ Future Continuous ควรเป็น Past Tense เช่น `They flew to Tokyo in 1999.`"
+      },
+      {
+        "index": 3,
+        "text": "every day",
+        "knowledge_ids": [
+          398,
+          404
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **every day** บอกนิสัย/ความเคยชิน ควรใช้ **Present Simple** เช่น `They fly to Tokyo every day.` Future Continuous ใช้กับเวลาเฉพาะในอนาคต เช่น `at 6 a.m. tomorrow`."
+      },
+      {
+        "index": 4,
+        "text": "by next Friday",
+        "knowledge_ids": [
+          215,
+          225,
+          205,
+          231,
+          243
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **by next Friday** เน้นเสร็จสิ้นก่อนถึงกำหนด เหมาะกับ Future Perfect (`will have + V3`) เช่น `They will have arrived by next Friday.` ไม่ได้เน้น “กำลังกระทำช่วงเวลาใดช่วงเวลาหนึ่ง”."
+      }
+    ]
+  },
+  {
+    "question": "She will be taking an exam ___.",
+    "question_knowledge_ids": [
+      196,
+      200
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "this time next week",
+        "knowledge_ids": [
+          196,
+          200
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **this time next week** เป็นสำนวนเวลาเฉพาะในอนาคตที่ใช้บ่อยกับ Future Continuous โครงสร้าง: __will be + V-ing + this time next ...__. ตัวอย่าง: `She will be taking an exam this time next week.`"
+      },
+      {
+        "index": 2,
+        "text": "last week at this time",
+        "knowledge_ids": [
+          311,
+          261
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นอดีต ควรใช้ **Past Continuous** เช่น `She was taking an exam last week at this time.` ไม่ใช่ Future Continuous ที่พูดถึงอนาคต."
+      },
+      {
+        "index": 3,
+        "text": "right now",
+        "knowledge_ids": [
+          250,
+          328
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **right now** คือปัจจุบัน ควรใช้ **Present Continuous** เช่น `She is taking an exam right now.` อนาคตต้องมีเวลาอนาคตชัด ๆ เช่น `tomorrow at 9 a.m.`"
+      },
+      {
+        "index": 4,
+        "text": "by next week",
+        "knowledge_ids": [
+          215,
+          225,
+          205,
+          231,
+          243
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **by next week** สื่อความเสร็จสิ้นก่อนถึงสัปดาห์หน้า เหมาะกับ **Future Perfect** เช่น `She will have finished the exam by next week.` ไม่ใช่การกำลังทำอยู่ในช่วงเวลาหนึ่ง."
+      }
+    ]
+  },
+  {
+    "question": "We will be having dinner ___.",
+    "question_knowledge_ids": [
+      196,
+      201,
+      242
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "at around 8 p.m. tomorrow",
+        "knowledge_ids": [
+          196,
+          201,
+          242
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะระบุช่วงเวลาในอนาคตชัดเจน (**at around 8 p.m. tomorrow**) เหมาะกับ Future Continuous โครงสร้างมาตรฐาน: __will be + V-ing + specific future time__. ตัวอย่าง: `We will be having dinner at around 8 p.m. tomorrow.`"
+      },
+      {
+        "index": 2,
+        "text": "when we arrived",
+        "knowledge_ids": [
+          314
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นเวลาที่เกี่ยวกับอดีต (`arrived`) ถ้าจะใช้อนาคตควรเป็น time clause ปัจจุบัน เช่น `when we arrive` กับประธานหลักเป็น Future เช่น `We will be having dinner when we arrive.`"
+      },
+      {
+        "index": 3,
+        "text": "all day yesterday",
+        "knowledge_ids": [
+          202,
+          311
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นอดีตทั้งวัน ควรใช้ **Past Continuous** เช่น `We were having dinner...` (แต่จริง ๆ dinner ไม่กินทั้งวัน) ที่ถูกกับอนาคตคือ `tomorrow evening`, `at 8 p.m. tomorrow`."
+      },
+      {
+        "index": 4,
+        "text": "by 8 p.m. tomorrow",
+        "knowledge_ids": [
+          215,
+          225,
+          205,
+          231,
+          242
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **by 8 p.m.** เน้นเสร็จก่อนถึงเวลา เหมาะกับ **Future Perfect** เช่น `We will have finished dinner by 8 p.m. tomorrow.` ไม่ใช่รูปที่บอกว่ากำลังกินอยู่ตอนนั้น."
+      }
+    ]
+  },
+  {
+    "question": "___, the kids will be sleeping.",
+    "question_knowledge_ids": [
+      196,
+      201
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "At midnight tonight",
+        "knowledge_ids": [
+          201,
+          196
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นเวลาเฉพาะในอนาคตใกล้ (**at midnight tonight**) เหมาะกับ Future Continuous เพื่อบอกว่าช่วงเวลานั้นเด็ก ๆ กำลังนอนอยู่ โครงสร้าง: __At + specific time + , + S + will be + V-ing__. ตัวอย่าง: `At midnight tonight, the kids will be sleeping.`"
+      },
+      {
+        "index": 2,
+        "text": "Since last year",
+        "knowledge_ids": [
+          272,
+          307
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **since** ใช้กับจุดเริ่มต้นในอดีตต่อเนื่องถึงปัจจุบัน เหมาะกับ **Present Perfect (Continuous)** มากกว่า เช่น `They have been sleeping since...` ซึ่งไม่สอดคล้องกับ Future Continuous."
+      },
+      {
+        "index": 3,
+        "text": "By midnight tonight",
+        "knowledge_ids": [
+          215,
+          225,
+          205,
+          231
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **by** สื่อว่า “ไม่เกินเวลานั้น” และมักใช้กับ **Future Perfect** (`will have + V3`) เช่น `They will have fallen asleep by midnight tonight.` ไม่ได้บอกกำลังนอนอยู่ ณ เวลานั้น."
+      },
+      {
+        "index": 4,
+        "text": "In the mornings",
+        "knowledge_ids": [
+          398,
+          405
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นความถี่/นิสัย (habit) ควรใช้ **Present Simple** เช่น `The kids sleep in the mornings.` Future Continuous ต้องการเวลาอนาคตที่ระบุชัดเจน เช่น `tomorrow at midnight`."
+      }
+    ]
+  },
+  {
+    "question": "He will be driving ___.",
+    "question_knowledge_ids": [
+      196,
+      202,
+      242
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "during the meeting tomorrow",
+        "knowledge_ids": [
+          202,
+          242,
+          196
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **during + คำนามเวลา** ใช้บอกช่วงเวลา ซึ่งเข้ากับ Future Continuous เพื่อเน้น “กำลังกระทำ” ในช่วงนั้น โครงสร้าง: __will be + V-ing + during + time/event__. ตัวอย่าง: `He will be driving during the meeting tomorrow.`"
+      },
+      {
+        "index": 2,
+        "text": "since 8 a.m. tomorrow",
+        "knowledge_ids": [
+          272,
+          242
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **since** ใช้กับอดีตต่อเนื่องถึงปัจจุบัน/อนาคต ไม่เข้ากับ **tomorrow** แบบนี้ โครงสร้างที่ถูกของ since คือ `have/has been + V-ing since...` ไม่ใช่ Future Continuous."
+      },
+      {
+        "index": 3,
+        "text": "last night",
+        "knowledge_ids": [
+          311
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นเวลาในอดีต ควรใช้ **Past** เช่น `He was driving last night.` Future Continuous ต้องมีเวลาอนาคต เช่น `tomorrow`, `next Monday`."
+      },
+      {
+        "index": 4,
+        "text": "by the meeting tomorrow",
+        "knowledge_ids": [
+          215,
+          225,
+          205,
+          231,
+          242
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **by** เน้นเสร็จก่อนการประชุม เหมาะกับ **Future Perfect** เช่น `He will have arrived by the meeting tomorrow.` ไม่ใช่รูปที่บอกว่ากำลังขับอยู่ระหว่างนั้น."
+      }
+    ]
+  },
+  {
+    "question": "We will be waiting for you ___.",
+    "question_knowledge_ids": [
+      196,
+      236
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "when you arrive",
+        "knowledge_ids": [
+          236,
+          196
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ time clause ที่ขึ้นต้นด้วย **when** ต้องใช้ **Present Simple** (`you arrive`) ขณะที่ประโยคหลักใช้ Future (ที่นี่คือ Future Continuous) โครงสร้างรวมคือ: __Main: will be + V-ing + when + Subject + Present Simple__. ตัวอย่าง: `We will be waiting for you when you arrive.`"
+      },
+      {
+        "index": 2,
+        "text": "when you will arrive",
+        "knowledge_ids": [
+          236
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใน **when-clause** ห้ามใช้ will ต้องใช้ **Present Simple** เช่น `when you arrive` ไม่ใช่ `when you will arrive`. ตัวอย่างที่ถูก: `We will be waiting for you when you arrive.`"
+      },
+      {
+        "index": 3,
+        "text": "until yesterday",
+        "knowledge_ids": [
+          273,
+          311
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นอ้างอิงอดีต ควรใช้ Past หรือ Present Perfect (`We waited until yesterday.`) ไม่ใช่อนาคตแบบ Future Continuous."
+      },
+      {
+        "index": 4,
+        "text": "by the time you arrive",
+        "knowledge_ids": [
+          216,
+          225,
+          205,
+          231
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **by the time + Present Simple** มักจับคู่กับ **Future Perfect** เพื่อเน้นว่า “เสร็จสิ้นก่อนถึงตอนนั้น” เช่น `We will have finished by the time you arrive.` ไม่ใช่บอกว่ากำลังรออยู่."
+      }
+    ]
+  },
+  {
+    "question": "She will be working from home ___.",
+    "question_knowledge_ids": [
+      196,
+      202,
+      242
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "all morning tomorrow",
+        "knowledge_ids": [
+          202,
+          242,
+          196
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **all + ช่วงเวลาในอนาคต** เช่น `all morning tomorrow` ใช้ได้ดีกับ Future Continuous เพื่อเน้นกิจกรรมที่ดำเนินต่อเนื่อง โครงสร้าง: __will be + V-ing + all + period + (future word)__. ตัวอย่าง: `She will be working from home all morning tomorrow.`"
+      },
+      {
+        "index": 2,
+        "text": "every morning",
+        "knowledge_ids": [
+          398,
+          405
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นความถี่ (habit) เหมาะกับ **Present Simple** เช่น `She works from home every morning.` ไม่ใช่ Future Continuous ที่เน้นช่วงเวลาเฉพาะ."
+      },
+      {
+        "index": 3,
+        "text": "for two hours now",
+        "knowledge_ids": [
+          217,
+          366
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสำนวน **for ... now** สื่อว่าดำเนินมาตั้งแต่ก่อนหน้าและยังต่อเนื่อง เหมาะกับ **Present Perfect Continuous** เช่น `She has been working for two hours now.`"
+      },
+      {
+        "index": 4,
+        "text": "last Monday",
+        "knowledge_ids": [
+          311
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นอดีตที่จบแล้ว ควรใช้ Past เช่น `She worked from home last Monday.` Future Continuous ต้องมีเวลาอนาคต เช่น `tomorrow morning`."
+      }
+    ]
+  },
+  {
+    "question": "We will be watching the game ___.",
+    "question_knowledge_ids": [
+      196,
+      201,
+      243
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "at 7 p.m. next Monday",
+        "knowledge_ids": [
+          201,
+          243,
+          196
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นเวลาเฉพาะในอนาคต (**at 7 p.m. next Monday**) พอดีกับ Future Continuous ที่บอกว่าช่วงเวลานั้นกำลังชมเกมอยู่ โครงสร้าง: __will be + V-ing + at + specific future time__. ตัวอย่าง: `We will be watching the game at 7 p.m. next Monday.`"
+      },
+      {
+        "index": 2,
+        "text": "by 7 p.m. next Monday",
+        "knowledge_ids": [
+          215,
+          225,
+          205,
+          231,
+          243
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **by 7 p.m.** เน้นเสร็จสิ้นก่อนเวลา เหมาะกับ Future Perfect เช่น `We will have finished the game by 7 p.m. next Monday.` ไม่ใช่กำลังชมอยู่ในเวลานั้น."
+      },
+      {
+        "index": 3,
+        "text": "this morning",
+        "knowledge_ids": [
+          336
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นช่วงเช้าของวันนี้ (ที่ผ่านมา/ปัจจุบัน) ไม่ใช่อนาคต ถ้าจะพูดปัจจุบันกำลังกระทำใช้ `are watching this morning` แต่หัวข้อนี้เน้นเวลาอนาคตเฉพาะของ Future Continuous."
+      },
+      {
+        "index": 4,
+        "text": "every next Monday",
+        "knowledge_ids": [
+          398,
+          243
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นสำนวนที่ไม่ธรรมชาติ และยังสื่อความถี่ (habit) ซึ่งเข้ากับ **Present Simple** มากกว่า หากจะบอกนิสัยควรพูด `every Monday` เช่น `We watch the game every Monday.`"
+      }
+    ]
+  },
+  {
+    "question": "He will be studying ___, so don't call.",
+    "question_knowledge_ids": [
+      196,
+      200
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "at this time the day after tomorrow",
+        "knowledge_ids": [
+          196,
+          200
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นการระบุเวลาอนาคตเฉพาะเจาะจง (**at this time the day after tomorrow**) เข้ากับ Future Continuous โครงสร้าง: __will be + V-ing + at this time + (future point)__. ตัวอย่าง: `He will be studying at this time the day after tomorrow, so don't call.`"
+      },
+      {
+        "index": 2,
+        "text": "yesterday at this time",
+        "knowledge_ids": [
+          311,
+          261
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะอ้างถึงอดีต ควรใช้ **Past Continuous** เช่น `He was studying yesterday at this time.` ไม่ใช่อนาคตแบบ Future Continuous."
+      },
+      {
+        "index": 3,
+        "text": "by the day after tomorrow",
+        "knowledge_ids": [
+          215,
+          225,
+          205,
+          231
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **by + เวลาอนาคต** เน้นเสร็จสิ้นก่อนเวลานั้น เหมาะกับ **Future Perfect** เช่น `He will have finished by the day after tomorrow.` ไม่ได้บอกว่ากำลังอ่านอยู่ในช่วงเวลาใด."
+      },
+      {
+        "index": 4,
+        "text": "at present",
+        "knowledge_ids": [
+          250,
+          335
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **at present** คือเวลาปัจจุบัน ควรใช้ **Present Continuous** เช่น `He is studying at present.` หัวข้อนี้ต้องการเวลาในอนาคตที่ระบุเจาะจง."
+      }
+    ]
+  },
+  {
+    "question": "I will be answering emails ___.",
+    "question_knowledge_ids": [
+      196,
+      200,
+      201,
+      215,
+      242
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "between 2 and 3 p.m. tomorrow",
+        "knowledge_ids": [
+          196,
+          242
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะบอกช่วงเวลาอนาคตที่ชัดเจน (**between 2 and 3 p.m. tomorrow**) เหมาะกับ Future Continuous ที่เน้น “กำลังกระทำ” ในช่วงนั้น โครงสร้าง: __will be + V-ing + between ... tomorrow__. ตัวอย่าง: `I will be answering emails between 2 and 3 p.m. tomorrow.`"
+      },
+      {
+        "index": 2,
+        "text": "by 3 p.m. tomorrow",
+        "knowledge_ids": [
+          215,
+          225,
+          205,
+          231,
+          242
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **by 3 p.m.** เน้นเสร็จสิ้นก่อน 3 โมง เหมาะกับ **Future Perfect** เช่น `I will have answered the emails by 3 p.m. tomorrow.` ไม่ใช่กำลังตอบอยู่ในช่วงเวลานั้น."
+      },
+      {
+        "index": 3,
+        "text": "every afternoon",
+        "knowledge_ids": [
+          398,
+          404,
+          405
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นความถี่/ตารางประจำ ควรใช้ **Present Simple** เช่น `I answer emails every afternoon.` Future Continuous ต้องการเวลาอนาคตเฉพาะ."
+      },
+      {
+        "index": 4,
+        "text": "since 2 p.m. tomorrow",
+        "knowledge_ids": [
+          272,
+          354,
+          220,
+          242
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **since + เวลาอนาคต** ใช้ไม่ได้ และรูปที่เข้ากับ since คือ **Perfect (Continuous)** เช่น `I will have been answering emails since 2 p.m. (by 4 p.m.)` ไม่ใช่ Future Continuous แบบนี้."
+      }
+    ]
+  }
+]

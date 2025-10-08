@@ -1,0 +1,462 @@
+[
+  {
+    "question": "___ it rain tomorrow, the match will be postponed.",
+    "question_knowledge_ids": [
+      481,
+      495,
+      500,
+      502
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "If",
+        "knowledge_ids": [
+          481,
+          495,
+          502
+        ],
+        "is_correct": false,
+        "answer_description": "เกือบถูก แต่ขาดเครื่องหมายจุลภาคเมื่อวาง if-clause ไว้หน้า main clause ตามหลักต้องเขียนเป็น `If it rain tomorrow, ...` และยังต้องใช้กริยา **rains** ให้สอดคล้องกับประธานด้วย"
+      },
+      {
+        "index": 2,
+        "text": "If,",
+        "knowledge_ids": [
+          502
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอาเครื่องหมายจุลภาคไว้หลังคำว่า **If** โดยตรง ซึ่งไม่ถูกต้อง โครงสร้างต้องเป็น `If + clause, main clause` เช่น `If it rains tomorrow, the match will be postponed.`"
+      },
+      {
+        "index": 3,
+        "text": "If it rains,",
+        "knowledge_ids": [
+          500,
+          502
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเมื่อวาง if-clause ไว้หน้า ให้ใช้รูปประโยค **__If + present simple, main clause (will/can/...)__** และใส่จุลภาคคั่นก่อน main clause ตัวอย่าง: `If it rains, the match will be postponed.`"
+      },
+      {
+        "index": 4,
+        "text": "If it rains",
+        "knowledge_ids": [
+          481,
+          495,
+          502
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดจุลภาคก่อน main clause เมื่อ if-clause อยู่ข้างหน้า ควรเป็น `If it rains, the match will be postponed.` เพื่อแสดงจุดหยุดสั้นๆ (prosody) ให้ชัด"
+      }
+    ]
+  },
+  {
+    "question": "We will start the meeting ___ everyone arrives on time.",
+    "question_knowledge_ids": [
+      481,
+      495,
+      502
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "if",
+        "knowledge_ids": [
+          481,
+          495
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อตามด้วย if-clause ที่อยู่ท้ายประโยค ไม่ต้องใส่จุลภาค โครงสร้างคือ **__Main clause + if + clause (no comma)__** เช่น `We will start the meeting if everyone arrives on time.`"
+      },
+      {
+        "index": 2,
+        "text": "if,",
+        "knowledge_ids": [
+          502
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่ใส่จุลภาคหน้าประโยคย่อยที่ตามหลัง main clause ในกรณีนี้ไม่ต้องมี comma เช่น `We will start the meeting if ...`"
+      },
+      {
+        "index": 3,
+        "text": ", if",
+        "knowledge_ids": [
+          502
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะวางจุลภาคก่อนคำว่า if โดยไม่จำเป็น เมื่อตามรูปแบบ main clause + if-clause ไม่ต้องมี comma เช่น `We will start the meeting if ...`"
+      },
+      {
+        "index": 4,
+        "text": ", if,",
+        "knowledge_ids": [
+          502
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดแน่นอน เพราะใส่ comma เกินความจำเป็นทั้งสองฝั่ง if-clause โครงสร้างที่ถูกคือต่อกันไปเลย: `... meeting if everyone arrives on time.`"
+      }
+    ]
+  },
+  {
+    "question": "___ you need any help, call me.",
+    "question_knowledge_ids": [
+      481,
+      499,
+      500,
+      502
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Should",
+        "knowledge_ids": [
+          499
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่พอ เพราะรูป **inversion** ต้องเป็น `Should + subject + base verb` ไม่ใช่ใส่ Should เดี่ยวๆ เช่น `Should you need ...`"
+      },
+      {
+        "index": 2,
+        "text": "Should you need,",
+        "knowledge_ids": [
+          499,
+          502
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็นการกลับคำ (inversion) แทน if: **__Should + subject + base verb, main clause__** และต้องใส่จุลภาคคั่น เช่น `Should you need any help, call me.`"
+      },
+      {
+        "index": 3,
+        "text": "Should you needing,",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง Should ต้องใช้กริยา **base form** ไม่ใช่ `needing` ตัวอย่างที่ถูก: `Should you need any help, ...`"
+      },
+      {
+        "index": 4,
+        "text": "Should you need",
+        "knowledge_ids": [
+          499
+        ],
+        "is_correct": false,
+        "answer_description": "เกือบถูก แต่ขาดจุลภาคก่อน main clause เมื่อนำอนุประโยคขึ้นหน้า ควรเป็น `Should you need any help, call me.`"
+      }
+    ]
+  },
+  {
+    "question": "___ I you, I would apologize.",
+    "question_knowledge_ids": [
+      482,
+      500,
+      502
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "If were",
+        "knowledge_ids": [
+          509
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดทั้งการเรียงคำและโครงสร้าง ควรเป็น `If I were you, ...` หรือรูปกลับคำ `Were I you, ...`"
+      },
+      {
+        "index": 2,
+        "text": "Were I",
+        "knowledge_ids": [
+          499
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ครบ เพราะรูปกลับคำควรใส่จุลภาคและประโยคเต็ม เช่น `Were I you, I would apologize.`"
+      },
+      {
+        "index": 3,
+        "text": "Were I you,",
+        "knowledge_ids": [
+          499,
+          502
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็นการกลับคำแบบสมมติ (subjunctive) ใช้รูป **__Were + subject + complement, main clause__** เช่น `Were I you, I would apologize.`"
+      },
+      {
+        "index": 4,
+        "text": "If I were,",
+        "knowledge_ids": [
+          482,
+          502
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะขาดส่วนเติมเต็ม `you` ทำให้อนุประโยคไม่สมบูรณ์ ต้องเป็น `If I were you, ...` หรือกลับคำ `Were I you, ...`"
+      }
+    ]
+  },
+  {
+    "question": "___ we left earlier, we would catch the first train.",
+    "question_knowledge_ids": [
+      499,
+      500,
+      502
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Had",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ยังไม่พอ ต้องใช้รูปกลับคำเต็มๆ `Had + subject + past participle, ...` เช่น `Had we left earlier, ...`"
+      },
+      {
+        "index": 2,
+        "text": "Had we left earlier",
+        "knowledge_ids": [
+          499
+        ],
+        "is_correct": false,
+        "answer_description": "เกือบถูก แต่เมื่ออนุประโยคขึ้นต้น ต้องใส่จุลภาคก่อน main clause เช่น `Had we left earlier, we would ...`"
+      },
+      {
+        "index": 3,
+        "text": "Had we left earlier,",
+        "knowledge_ids": [
+          499,
+          502
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **__Had + subject + past participle, main clause__** ใช้แทน `If we had left earlier, ...` และต้องใส่จุลภาคคั่นอนุประโยคกับประโยคหลัก"
+      },
+      {
+        "index": 4,
+        "text": "Had we leaving earlier,",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง Had ต้องใช้ **past participle** ไม่ใช่ `leaving` ที่เป็น V-ing ที่ถูกคือ `Had we left earlier, ...`"
+      }
+    ]
+  },
+  {
+    "question": "Unless you call me ___ I won’t know the update.",
+    "question_knowledge_ids": [
+      486,
+      508,
+      502
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": ",",
+        "knowledge_ids": [
+          502
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเมื่อวางอนุประโยคไว้ข้างหน้า (เริ่มด้วย Unless) จึงต้องใส่จุลภาค แต่ในประโยคนี้อนุประโยคอยู่ข้างหน้าอยู่แล้ว? ตรวจดู: ที่จริงคำว่า Unless อยู่ต้นประโยค จุลภาคควรอยู่หลังอนุประโยค ไม่ใช่ตรงช่องว่างกลางประโยค"
+      },
+      {
+        "index": 2,
+        "text": "then",
+        "knowledge_ids": [
+          508
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `then` ไม่จำเป็นและทำให้ประโยคฟุ่มเฟือย โครงสร้างที่ถูกคือ `Unless + clause, main clause` โดยไม่มีคำเสริมกลางประโยค"
+      },
+      {
+        "index": 3,
+        "text": "—",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิดเครื่องหมาย วรรคตอนมาตรฐานของอนุประโยคเงื่อนไขใช้ **comma** เมื่ออนุประโยคนำหน้า ไม่ใช้ em dash ตรงกลาง"
+      },
+      {
+        "index": 4,
+        "text": ",",
+        "knowledge_ids": [
+          502
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะอนุประโยคขึ้นต้นด้วย `Unless` ต้องคั่นด้วยจุลภาคก่อนประโยคหลัก โครงสร้าง **__Unless + clause, main clause__** เช่น `Unless you call me, I won’t know the update.`"
+      }
+    ]
+  },
+  {
+    "question": "If you study hard, ___ you will pass the exam.",
+    "question_knowledge_ids": [
+      501,
+      502
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "then",
+        "knowledge_ids": [
+          501
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำว่า **then** เป็นตัวเลือกเสริมได้หลัง if-clause และไม่ต้องมีจุลภาคเพิ่ม โครงสร้างคือ **__If + clause, then + main clause__** เช่น `If you study hard, then you will pass.`"
+      },
+      {
+        "index": 2,
+        "text": ", then",
+        "knowledge_ids": [
+          501,
+          502
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะมี comma เกิน จำไว้ว่าเรามี comma อยู่แล้วหลัง if-clause ไม่ต้องใส่ comma ก่อน `then` อีก เช่น `If ..., then you will ...`"
+      },
+      {
+        "index": 3,
+        "text": ",",
+        "knowledge_ids": [
+          502
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะจะได้ comma ติดกันสองจุด (หลัง if-clause และในช่องว่าง) ทำให้ประโยคสะดุด ควรใช้ `then` ตรงๆ หรือเว้นว่าง"
+      },
+      {
+        "index": 4,
+        "text": "",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทข้อนี้ เพราะโจทย์ต้องการเชื่อมด้วยคำที่สอดคล้องกับจังหวะเสียง (prosody) ให้ชัดเจน ใส่ `then` ทำให้ความต่อเนื่องชัดกว่า: `If ..., then ...`"
+      }
+    ]
+  },
+  {
+    "question": "We could go hiking if the weather improves ___ we can stay home.",
+    "question_knowledge_ids": [
+      494,
+      502
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": ";",
+        "knowledge_ids": [
+          494
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อมีสองประโยคอิสระเชื่อมด้วยความขัดแย้งเบาๆ หลัง if-clause ท้ายประโยคแรก สามารถใช้ **__;__** คั่นได้ โครงสร้าง **__Main + if-clause; main clause__** เช่น `We could go hiking if the weather improves; we can stay home.`"
+      },
+      {
+        "index": 2,
+        "text": ",",
+        "knowledge_ids": [
+          502
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะจะเกิด comma splice เชื่อมสองประโยคอิสระด้วย comma เฉยๆ ไม่ถูก ควรใช้ **semicolon** หรือ **conjunction**"
+      },
+      {
+        "index": 3,
+        "text": ".",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะในบริบทนี้ แม้ใช้จุดได้ แต่โจทย์ต้องการการเชื่อมที่คงจังหวะต่อเนื่อง ถ้าใช้จุด จะตัดจังหวะเกินไป"
+      },
+      {
+        "index": 4,
+        "text": ":",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ colon ใช้แสดงรายการหรือคำอธิบายตามหลัง ไม่ได้เชื่อมสองประโยคเท่าเทียมกันในเงื่อนไขนี้"
+      }
+    ]
+  },
+  {
+    "question": "___ he ask, tell him we’ve already left.",
+    "question_knowledge_ids": [
+      481,
+      495,
+      500,
+      502,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "If",
+        "knowledge_ids": [
+          481,
+          495
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ครบ เพราะต้องมีประธานและกริยาครบใน if-clause เช่น `If he asks, ...` หรือใช้รูปกลับคำ `Should he ask, ...`"
+      },
+      {
+        "index": 2,
+        "text": "If he asks,",
+        "knowledge_ids": [
+          500,
+          502
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างเงื่อนไขเมื่อขึ้นต้นประโยคต้องคั่นด้วยจุลภาค: **__If + present simple, imperative/main clause__** ตัวอย่าง: `If he asks, tell him we’ve already left.`"
+      },
+      {
+        "index": 3,
+        "text": "If he ask,",
+        "knowledge_ids": [
+          380,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดที่กริยา เพราะประธานเอกพจน์ต้องใช้ `asks` ไม่ใช่ `ask` ตัวอย่างที่ถูก: `If he asks, tell him...`"
+      },
+      {
+        "index": 4,
+        "text": "If he asks",
+        "knowledge_ids": [
+          481,
+          495
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดจุลภาคก่อนประโยคหลักเมื่อ if-clause อยู่ข้างหน้า ต้องเป็น `If he asks, tell him ...`"
+      }
+    ]
+  },
+  {
+    "question": "Were it not for your support ___ we couldn’t have finished on time.",
+    "question_knowledge_ids": [
+      499,
+      502
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": ",",
+        "knowledge_ids": [
+          502
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อใช้รูปกลับคำ `Were it not for ...` นำหน้า ต้องใส่จุลภาคคั่นก่อนประโยคหลัก โครงสร้าง **__Were + subject + not for + noun, main clause__** เช่น `Were it not for your support, we couldn’t have finished on time.`"
+      },
+      {
+        "index": 2,
+        "text": ";",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิดในที่นี้ เพราะหลังอนุประโยคขึ้นต้น เราใช้ comma ไม่ใช่ semicolon Semicolon เหมาะเมื่อคั่นสองประโยคอิสระที่สมบูรณ์ทั้งสองฝั่ง"
+      },
+      {
+        "index": 3,
+        "text": ":",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจาก colon ใช้อธิบายหรือขยายความ ไม่ได้คั่นอนุประโยคเงื่อนไขที่ขึ้นต้นประโยค"
+      },
+      {
+        "index": 4,
+        "text": "—",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิดสไตล์การเขียนมาตรฐาน ในงานวิชาการหรือทั่วไป เราใช้ comma คั่นอนุประโยคเงื่อนไข ไม่ใช้ em dash"
+      }
+    ]
+  }
+]

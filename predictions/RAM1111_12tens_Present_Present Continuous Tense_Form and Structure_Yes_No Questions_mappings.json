@@ -1,0 +1,542 @@
+[
+  {
+    "question": "___ she studying for the exam right now?",
+    "question_knowledge_ids": [
+      194,
+      305,
+      321,
+      328,
+      338,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Is",
+        "knowledge_ids": [
+          318,
+          321,
+          340
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างคำถามแบบ Yes/No ของ **Present Continuous** คือ __Is/Am/Are + subject + V-ing?__ ดังนั้นใช้ `Is she studying ...?` ได้พอดีเลย เช่น: `Is she studying for the exam right now?` — Yes, she is."
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "knowledge_ids": [
+          346,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Does** ใช้กับ Present Simple ไม่ใช่ Present Continuous ถ้าจะถามปัจจุบันต่อเนื่องต้องใช้ **be + V-ing** เช่น: `Is she studying now?` ไม่ใช่ `Does she studying now?`"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "knowledge_ids": [
+          338,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **she** ต้องใช้ **is** ไม่ใช่ **are** โครงสร้างที่ถูกต้องคือ `Is she studying ...?` ตัวอย่างที่ถูกกับ are คือ `Are they studying now?`"
+      },
+      {
+        "index": 4,
+        "text": "Do",
+        "knowledge_ids": [
+          346,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do** เป็นของ Present Simple และตามด้วยกริยาช่องหนึ่ง ไม่ใช่ V-ing ใน Present Continuous ต้องใช้ `Is/Am/Are + V-ing` เช่น `Is she studying?`"
+      }
+    ]
+  },
+  {
+    "question": "___ you working from home today?",
+    "question_knowledge_ids": [
+      194,
+      305,
+      321,
+      328,
+      338,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Are",
+        "knowledge_ids": [
+          318,
+          321,
+          340
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง สำหรับประธาน **you** ใช้ __Are + subject + V-ing?__ จึงได้ `Are you working from home today?` เช่นใช้ถามเพื่อนตอนเช้า: `Are you working from home today?` — Yes, I am."
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          346,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do** เป็นโครงสร้างของ Present Simple (`Do you work...?`) แต่ที่นี่ต้องการ Present Continuous ซึ่งใช้ **be + V-ing** เช่น `Are you working...?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "knowledge_ids": [
+          338,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** ใช้กับประธานเอกพจน์ เช่น **he/she/it** แต่ประธานคือ **you** ต้องใช้ **Are** เช่น `Are you working...?`"
+      },
+      {
+        "index": 4,
+        "text": "Be",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่ใช้คำว่า **Be** ตรงๆ ในประโยค ให้เลือกผันทิ้งเป็น `am/is/are` เสมอ เช่น `Are you working...?` ไม่ใช่ `Be you working...?`"
+      }
+    ]
+  },
+  {
+    "question": "___ they playing football at the park now?",
+    "question_knowledge_ids": [
+      194,
+      305,
+      321,
+      328,
+      338,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Are",
+        "knowledge_ids": [
+          318,
+          321,
+          340
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน **they** ใช้ __Are + subject + V-ing?__ จึงได้ `Are they playing football at the park now?` เช่น: `Are they playing football now?` — Yes, they are."
+      },
+      {
+        "index": 2,
+        "text": "Is",
+        "knowledge_ids": [
+          338,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** ใช้กับ **he/she/it** ไม่เข้ากับประธานพหูพจน์ **they** ตัวที่ถูกคือ **Are** เช่น `Are they playing...?`"
+      },
+      {
+        "index": 3,
+        "text": "Do",
+        "knowledge_ids": [
+          346,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **Present Simple** (`Do they play...?`) แต่ประโยคนี้ต้องการ **กำลังกระทำตอนนี้** จึงต้องใช้ `Are + V-ing` เช่น `Are they playing...?`"
+      },
+      {
+        "index": 4,
+        "text": "Have",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Have** จะไปทาง Present Perfect มากกว่า และไม่ใช้กับโครงสร้าง Present Continuous ในคำถาม Yes/No แบบนี้ ควรเป็น `Are they playing...?`"
+      }
+    ]
+  },
+  {
+    "question": "___ he talking to the manager at the moment?",
+    "question_knowledge_ids": [
+      194,
+      305,
+      321,
+      328,
+      338,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Is",
+        "knowledge_ids": [
+          318,
+          321,
+          340
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __Is + subject + V-ing?__ กับประธาน **he** จึงได้ `Is he talking to the manager at the moment?` เช่น: `Is he talking to the manager now?` — No, he isn’t."
+      },
+      {
+        "index": 2,
+        "text": "Does",
+        "knowledge_ids": [
+          346,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Does** เป็นของ Present Simple (`Does he talk...`) แต่เราต้องการ Present Continuous ซึ่งใช้ `is + V-ing` เช่น `Is he talking...?`"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "knowledge_ids": [
+          338,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Are** ไม่ใช้กับ **he** ต้องใช้ **Is** แทน โครงสร้างที่ถูกคือ `Is he talking ...?`"
+      },
+      {
+        "index": 4,
+        "text": "Will",
+        "knowledge_ids": [
+          421
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Will** เป็นอนาคต (`Will he talk...?`) ไม่ใช่ปัจจุบันต่อเนื่อง ถ้าถามสิ่งที่กำลังเกิดตอนนี้ต้องใช้ `Is he talking...?`"
+      }
+    ]
+  },
+  {
+    "question": "___ I interrupting you?",
+    "question_knowledge_ids": [
+      194,
+      305,
+      321,
+      328,
+      338,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Am",
+        "knowledge_ids": [
+          318,
+          321,
+          340,
+          350
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อประธานเป็น **I** ต้องใช้ __Am + subject + V-ing?__ จึงได้ `Am I interrupting you?` เช่นเวลาขัดจังหวะเพื่อน: `Am I interrupting you?` — No, you’re fine."
+      },
+      {
+        "index": 2,
+        "text": "Is",
+        "knowledge_ids": [
+          338,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** ใช้กับ **he/she/it** ไม่ใช่ **I** กรณีนี้ต้องใช้ **Am** เช่น `Am I interrupting you?`"
+      },
+      {
+        "index": 3,
+        "text": "Are",
+        "knowledge_ids": [
+          338,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Are** ใช้กับ **you/we/they** แต่ประธานคือ **I** จึงต้องใช้ **Am** เช่น `Am I interrupting...?`"
+      },
+      {
+        "index": 4,
+        "text": "Do",
+        "knowledge_ids": [
+          346,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นโครงสร้าง Present Simple (`Do I interrupt...?`) แต่เราต้องการถามเหตุการณ์ที่กำลังเกิดตอนนี้ ต้องใช้ `Am I + V-ing?`"
+      }
+    ]
+  },
+  {
+    "question": "___ it raining outside?",
+    "question_knowledge_ids": [
+      194,
+      305,
+      321,
+      328,
+      338,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Is",
+        "knowledge_ids": [
+          318,
+          321,
+          340
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน **it** ใช้ __Is + subject + V-ing?__ จึงได้ `Is it raining outside?` ตัวอย่างสถานการณ์: มองออกไปนอกหน้าต่างแล้วถาม `Is it raining outside?` — Yes, it is."
+      },
+      {
+        "index": 2,
+        "text": "Are",
+        "knowledge_ids": [
+          338,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Are** ไม่เข้ากับประธานเอกพจน์ **it** ต้องใช้ **Is** เช่น `Is it raining?`"
+      },
+      {
+        "index": 3,
+        "text": "Does",
+        "knowledge_ids": [
+          346,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Does** เป็น Present Simple และตามด้วยกริยาช่องหนึ่ง (`Does it rain?`) ไม่ใช่ V-ing ถ้าจะถามตอนนี้ต้องใช้ `Is it raining?`"
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Has** จะใช้กับ Perfect Tense (`Has it rained?`) ไม่ใช่ Present Continuous โครงสร้างที่ถูกคือ `Is it raining?`"
+      }
+    ]
+  },
+  {
+    "question": "___ we meeting at 6 p.m. tonight?",
+    "question_knowledge_ids": [
+      194,
+      305,
+      321,
+      328,
+      332,
+      338,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Are",
+        "knowledge_ids": [
+          318,
+          321,
+          332,
+          340
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กับประธาน **we** ใช้ __Are + subject + V-ing?__ จึงได้ `Are we meeting at 6 p.m. tonight?` ใช้ถามแผนที่จัดไว้แล้ว เช่น: `Are we meeting at 6 tonight?` — Yes, we are."
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          346,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do** เป็น Present Simple (`Do we meet...`) ไม่สื่อถึงแผน/กำลังกำหนดการตอนนี้ ใน Present Continuous ต้องใช้ `Are we meeting...?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "knowledge_ids": [
+          338,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** ใช้กับเอกพจน์ **he/she/it** แต่ประธานคือ **we** ต้องใช้ **Are** เช่น `Are we meeting...?`"
+      },
+      {
+        "index": 4,
+        "text": "Will",
+        "knowledge_ids": [
+          421,
+          245
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Will** เป็นอนาคตทั่วไป (`Will we meet...?`) แต่โจทย์เน้นรูป **Present Continuous** สำหรับแผนที่กำหนดแล้ว ซึ่งต้องใช้ `Are we meeting...?`"
+      }
+    ]
+  },
+  {
+    "question": "___ your brother studying abroad this year?",
+    "question_knowledge_ids": [
+      194,
+      305,
+      321,
+      328,
+      331,
+      338,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Is",
+        "knowledge_ids": [
+          318,
+          321,
+          340
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธานจริงคือ **your brother** (เอกพจน์) จึงใช้ __Is + subject + V-ing?__ ได้เป็น `Is your brother studying abroad this year?` เช่น: `Is your brother studying abroad this year?` — No, he isn’t."
+      },
+      {
+        "index": 2,
+        "text": "Are",
+        "knowledge_ids": [
+          338,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Are** ใช้กับพหูพจน์หรือ you/we/they แต่ **your brother** เป็นเอกพจน์ ต้องใช้ **Is** เช่น `Is your brother studying...?`"
+      },
+      {
+        "index": 3,
+        "text": "Does",
+        "knowledge_ids": [
+          346,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Present Simple (`Does your brother study...?`) ไม่ใช่ Present Continuous ถ้าจะใช้ต่อเนื่องต้องเป็น `Is your brother studying...?`"
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "knowledge_ids": [
+          408,
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Has** นำไปสู่ Perfect Tense (`Has your brother studied...?`) ซึ่งโครงสร้างต่างจาก Present Continuous ที่ต้องใช้ `Is + V-ing`"
+      }
+    ]
+  },
+  {
+    "question": "___ the kids making noise upstairs?",
+    "question_knowledge_ids": [
+      194,
+      305,
+      321,
+      328,
+      338,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Are",
+        "knowledge_ids": [
+          318,
+          321,
+          340
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **the kids** เป็นพหูพจน์ จึงใช้ __Are + subject + V-ing?__ ได้เป็น `Are the kids making noise upstairs?` เช่น: `Are the kids making noise upstairs?` — Yes, they are."
+      },
+      {
+        "index": 2,
+        "text": "Is",
+        "knowledge_ids": [
+          338,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** ใช้กับเอกพจน์ แต่ **the kids** เป็นพหูพจน์ ต้องใช้ **Are** เช่น `Are the kids making...?`"
+      },
+      {
+        "index": 3,
+        "text": "Do",
+        "knowledge_ids": [
+          346,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่คือ Present Continuous ไม่ใช่ Present Simple โครงสร้างที่ถูกคือ `Are + plural subject + V-ing` ไม่ใช่ `Do + base verb`"
+      },
+      {
+        "index": 4,
+        "text": "Were",
+        "knowledge_ids": [
+          251,
+          262,
+          263
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Were** เป็นรูปอดีตต่อเนื่อง (Past Continuous) แต่ประโยคนี้มีคำใบ้เวลาเป็นปัจจุบัน ควรใช้ `Are the kids making...?`"
+      }
+    ]
+  },
+  {
+    "question": "___ your parents waiting for you outside?",
+    "question_knowledge_ids": [
+      194,
+      305,
+      321,
+      328,
+      338,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Are",
+        "knowledge_ids": [
+          318,
+          321,
+          340
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน **your parents** เป็นพหูพจน์ ใช้ __Are + subject + V-ing?__ ได้เป็น `Are your parents waiting for you outside?` เช่น: `Are your parents waiting outside?` — Yes, they are."
+      },
+      {
+        "index": 2,
+        "text": "Is",
+        "knowledge_ids": [
+          338,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** ใช้กับเอกพจน์ แต่ **parents** เป็นพหูพจน์ ต้องใช้ **Are** เช่น `Are your parents waiting ...?`"
+      },
+      {
+        "index": 3,
+        "text": "Do",
+        "knowledge_ids": [
+          346,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นโครงสร้าง Present Simple (`Do your parents wait...?`) ซึ่งไม่สื่อถึงการรออยู่ตอนนี้ ควรใช้ `Are ... waiting?`"
+      },
+      {
+        "index": 4,
+        "text": "Have",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Have** จะใช้กับ Perfect Tense (`Have your parents waited...?`) ไม่ใช่ Present Continuous โครงสร้างที่ถูกคือ `Are your parents waiting ...?`"
+      }
+    ]
+  }
+]

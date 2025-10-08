@@ -1,0 +1,292 @@
+[
+  {
+    "question": "The documents ___ by the manager right now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are being checked",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็น **Present Continuous Passive** โครงสร้างคือ __am/is/are + being + V3__. ใช้เมื่อเหตุการณ์กำลังเกิดขึ้นตอนนี้ เช่น `The documents are being checked by the manager right now.` ตัวอย่างการใช้คล้ายกัน: `The files are being reviewed at the moment.`"
+      },
+      {
+        "index": 2,
+        "text": "are checked",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่คือ **Present Simple Passive** (`are + V3`) ใช้บอกความจริงทั่วไปหรือเหตุการณ์ที่เกิดเป็นประจำ ไม่ใช่ตอนนี้ เช่น `The documents are checked every Monday.` แต่ในโจทย์มีคำว่า `right now` จึงต้องใช้ `are being checked`."
+      },
+      {
+        "index": 3,
+        "text": "are checking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **Present Continuous Active** (`be + V-ing`) แปลว่า \"กำลังกำลังตรวจเอกสาร\" โดยเอกสารเป็นผู้กระทำ ซึ่งไม่สมเหตุ เช่น `The documents are checking` ผิด ต้องเป็น passive: `are being checked`."
+      },
+      {
+        "index": 4,
+        "text": "are being check",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `being` ต้องใช้ **V3** ไม่ใช่รูปฐาน (`check`). รูปที่ถูกต้องคือ `being + checked` เช่น `They are being checked now.`"
+      }
+    ]
+  },
+  {
+    "question": "Dinner ___ by my dad at the moment.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is being cooked",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตรงกับแพทเทิร์น **Present Continuous Passive**: __am/is/are + being + V3__. ใช้บอกว่ากำลังถูกทำอยู่ตอนนี้ เช่น `Dinner is being cooked by my dad at the moment.` ตัวอย่างคล้ายกัน: `The soup is being prepared now.`"
+      },
+      {
+        "index": 2,
+        "text": "is cooked",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Simple Passive** (`is + V3`) ใช้บอกกิจวัตรหรือความจริงทั่วไป เช่น `Dinner is cooked every Sunday.` แต่โจทย์มี `at the moment` จึงต้องใช้ `is being cooked`."
+      },
+      {
+        "index": 3,
+        "text": "is cooking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป **active** แปลว่า \"มื้อค่ำกำลังกำลังทำอาหาร\" ซึ่งไม่ใช่ผู้กระทำที่แท้จริง ควรใช้ passive เพื่อให้ประธาน (Dinner) เป็นผู้ถูกกระทำ: `is being cooked`."
+      },
+      {
+        "index": 4,
+        "text": "is being cook",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `being` ต้องตามด้วย **V3** ไม่ใช่รูปฐาน `cook`. ที่ถูกคือ `is being cooked` เช่นในประโยค `Dinner is being cooked now.`"
+      }
+    ]
+  },
+  {
+    "question": "A new bridge ___ over the river this year.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is being built",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **Present Continuous Passive**: __am/is/are + being + V3__. ใช้เมื่อการก่อสร้างกำลังดำเนินอยู่ช่วงนี้ เช่น `A new bridge is being built over the river this year.` อีกตัวอย่าง: `A school is being built in our town.`"
+      },
+      {
+        "index": 2,
+        "text": "is built",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Simple Passive** เหมาะกับข้อเท็จจริงทั่วไป เช่น `A bridge is built with steel.` แต่บริบทสื่อถึงการดำเนินต่อเนื่องปีนี้ จึงต้องใช้ `is being built`."
+      },
+      {
+        "index": 3,
+        "text": "is building",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป active และทำให้ `bridge` กลายเป็นผู้กระทำ ซึ่งไม่สมเหตุ. ควรใช้ passive เพื่อชี้ว่า \"สะพานถูกสร้าง\": `is being built`."
+      },
+      {
+        "index": 4,
+        "text": "are being built",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเป็นเอกพจน์ `A new bridge` ต้องใช้ `is` ไม่ใช่ `are`. รูปที่ถูกต้องคือ `is being built`."
+      }
+    ]
+  },
+  {
+    "question": "Our phones ___ by the technician now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are being repaired",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **Present Continuous Passive** คือ __am/is/are + being + V3__. ใช้กับประธานพหูพจน์ `phones` จึงเป็น `are being repaired` เช่น `Our phones are being repaired by the technician now.`"
+      },
+      {
+        "index": 2,
+        "text": "are repaired",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `are repaired` เป็น **Present Simple Passive** ใช้พูดถึงเรื่องปกติทั่วไป เช่น `Phones are repaired here every day.` แต่มีคำว่า `now` จึงต้องใช้ `are being repaired`."
+      },
+      {
+        "index": 3,
+        "text": "are repairing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น active แปลว่า \"โทรศัพท์ของพวกเรากำลังซ่อมอะไรสักอย่าง\" ซึ่งไม่ใช่ความหมายที่ต้องการ ต้องใช้ passive: `are being repaired` เพื่อบอกว่าโทรศัพท์กำลังถูกซ่อม."
+      },
+      {
+        "index": 4,
+        "text": "are being repair",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `being` ต้องตามด้วย **V3** (repaired) ไม่ใช่รูปฐาน `repair`. รูปที่ถูกคือ `are being repaired` เช่น `They are being repaired now.`"
+      }
+    ]
+  },
+  {
+    "question": "The room ___ by the cleaners at the moment.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is being cleaned",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตามรูปแบบ **Present Continuous Passive**: __am/is/are + being + V3__. ใช้เมื่อตอนนี้กำลังเกิดการทำความสะอาด เช่น `The room is being cleaned by the cleaners at the moment.` ตัวอย่างเพิ่ม: `The office is being cleaned now.`"
+      },
+      {
+        "index": 2,
+        "text": "is cleaned",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่คือ **Present Simple Passive** ใช้กับกิจวัตร เช่น `The room is cleaned every morning.` แต่คำว่า `at the moment` บอกว่ากำลังเกิดขึ้นตอนนี้ ต้องใช้ `is being cleaned`."
+      },
+      {
+        "index": 3,
+        "text": "is cleaning",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น active ทำให้ห้องกลายเป็นผู้ทำความสะอาดเอง ซึ่งไม่ถูก. ควรใช้ passive: `is being cleaned` เพื่อแสดงว่าห้องถูกทำความสะอาด."
+      },
+      {
+        "index": 4,
+        "text": "is being clean",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `being` ต้องใช้ **V3** `cleaned` ไม่ใช่คำคุณศัพท์/รูปฐาน `clean`. รูปถูกคือ `is being cleaned`."
+      }
+    ]
+  },
+  {
+    "question": "The reports ___ carefully right now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are being reviewed",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **Passive** แบบกำลังกระทำคือ __am/is/are + being + V3__. ใช้กับประธานพหูพจน์ `reports`: `The reports are being reviewed carefully right now.` ตัวอย่าง: `The applications are being reviewed this week.`"
+      },
+      {
+        "index": 2,
+        "text": "are reviewed",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Simple Passive** ใช้บอกความถี่ เช่น `The reports are reviewed every week.` แต่มีคำว่า `right now` จึงต้องใช้ `are being reviewed`."
+      },
+      {
+        "index": 3,
+        "text": "are reviewing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น active และทำให้ `reports` เป็นผู้กระทำ แปลว่า \"รายงานกำลังพิจารณาใครบางคน\" ซึ่งไม่สมเหตุ. ต้องใช้ passive: `are being reviewed`."
+      },
+      {
+        "index": 4,
+        "text": "are being review",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `being` ต้องตามด้วย **V3** (`reviewed`). รูปถูกคือ `are being reviewed` เช่น `They are being reviewed now.`"
+      }
+    ]
+  },
+  {
+    "question": "The songs ___ live on the radio this morning.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are being played",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **Present Continuous Passive**: __am/is/are + being + V3__. ใช้เมื่อเพลงกำลังถูกเปิดตอนเช้านี้ เช่น `The songs are being played live on the radio this morning.` อีกตัวอย่าง: `The requests are being played now.`"
+      },
+      {
+        "index": 2,
+        "text": "are played",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Simple Passive** (`are + V3`) ใช้บอกสิ่งที่เกิดเป็นประจำ เช่น `The songs are played every day.` แต่บริบท `this morning` บอกช่วงเวลาปัจจุบันที่กำลังเกิดขึ้น จึงใช้ `are being played` จะชัดกว่า."
+      },
+      {
+        "index": 3,
+        "text": "are playing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น active ทำให้เพลงเป็นผู้กระทำ แปลแปลกๆ ว่า \"เพลงกำลังเล่น\" โดยไม่มีผู้กระทำ. ในสถานีวิทยุ เรามักเน้นว่าเพลงถูกเปิดโดยดีเจ จึงใช้ passive: `are being played`."
+      },
+      {
+        "index": 4,
+        "text": "is being played",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน `The songs` เป็นพหูพจน์ ต้องใช้ `are` ไม่ใช่ `is`. รูปที่ถูกคือ `are being played`."
+      }
+    ]
+  },
+  {
+    "question": "The wall ___ blue by the painters now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is being painted",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตามแพทเทิร์น **Present Continuous Passive**: __am/is/are + being + V3__. ใช้บอกว่ากำลังทาสีอยู่ตอนนี้ เช่น `The wall is being painted blue by the painters now.` ตัวอย่างคล้าย: `The fence is being painted today.`"
+      },
+      {
+        "index": 2,
+        "text": "is painted",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `is painted` เป็น **Present Simple Passive** มักใช้บอกสภาพหรือความจริงทั่วไป เช่น `The wall is painted blue every year.` แต่คำว่า `now` ชี้ว่ากำลังเกิดขึ้น ต้องใช้ `is being painted`."
+      },
+      {
+        "index": 3,
+        "text": "is painting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น active แปลว่า \"กำแพงกำลังทาสี\" ซึ่งไม่ตรงความหมาย. ต้องใช้ passive: `is being painted` เพื่อให้ประธานเป็นผู้ถูกกระทำ."
+      },
+      {
+        "index": 4,
+        "text": "are being painted",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน `The wall` เป็นเอกพจน์ ต้องใช้ `is` ไม่ใช่ `are`. รูปถูกคือ `is being painted`."
+      }
+    ]
+  },
+  {
+    "question": "The patients ___ by the doctors at the clinic right now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are being examined",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็นรูป **Present Continuous Passive**: __am/is/are + being + V3__. ใช้กับประธานพหูพจน์ `patients`: `The patients are being examined by the doctors right now.` อีกตัวอย่าง: `The players are being examined after the match.`"
+      },
+      {
+        "index": 2,
+        "text": "are examined",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Simple Passive** ใช้บอกกิจวัตร เช่น `The patients are examined every morning.` แต่โจทย์เน้น `right now` จึงควรใช้ `are being examined`."
+      },
+      {
+        "index": 3,
+        "text": "are examining",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น active ทำให้ `patients` เป็นผู้ตรวจคนอื่น แปลผิดความจริง. ต้องใช้ passive: `are being examined` เพื่อบอกว่าคนไข้กำลังถูกตรวจ."
+      },
+      {
+        "index": 4,
+        "text": "are being examine",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `being` ต้องตามด้วย **V3** (`examined`) ไม่ใช่ `examine`. รูปที่ถูกคือ `are being examined`."
+      }
+    ]
+  },
+  {
+    "question": "The game ___ on TV as we speak.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "is being broadcast",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตรงกับ **Present Continuous Passive**: __am/is/are + being + V3__. บริบท `as we speak` ชี้ว่ากำลังเกิดขึ้นตอนนี้ เช่น `The game is being broadcast on TV as we speak.` อีกตัวอย่าง: `The show is being broadcast live now.`"
+      },
+      {
+        "index": 2,
+        "text": "is broadcast",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Simple Passive** ใช้บอกความจริงทั่วไป เช่น `The game is broadcast every Sunday.` แต่ที่นี่เป็นเหตุการณ์กำลังดำเนิน จึงต้องใช้ `is being broadcast`."
+      },
+      {
+        "index": 3,
+        "text": "is broadcasting",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น active ทำให้เกมเป็นผู้แพร่ภาพเอง ซึ่งไม่ถูก. ต้องใช้ passive: `is being broadcast` เพื่อเน้นว่าเกมถูกถ่ายทอด."
+      },
+      {
+        "index": 4,
+        "text": "is being broadcasted",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะคำกริยา `broadcast` รูป **V3** เหมือนรูปฐานคือ `broadcast` ไม่เติม `-ed`. รูปถูกคือ `is being broadcast` เช่น `It is being broadcast now.`"
+      }
+    ]
+  }
+]

@@ -1,0 +1,292 @@
+[
+  {
+    "question": "If she ___ the deadline, she would have submitted the report on time.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had known",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **Third Conditional** คือ __`if + past perfect`__ และ __`would have + V3`__ เพื่อพูดถึงเหตุการณ์ในอดีตที่สวนทางกับความจริง เช่น `If she had known the deadline, she would have submitted the report on time.` แปลว่าอดีตเธอไม่รู้เส้นตาย เลยส่งไม่ทัน"
+      },
+      {
+        "index": 2,
+        "text": "knew",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `knew` เป็น **past simple** ซึ่งใช้กับ **Second Conditional** ไม่ใช่ Third Conditional ถ้าจะให้ถูกต้องในบริบทอดีตไม่เป็นจริง ต้องใช้ `had known` เช่น `If she had known, she would have submitted...`"
+      },
+      {
+        "index": 3,
+        "text": "would know",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะห้ามใช้ `would` ใน if-clause โครงสร้างที่ถูกต้องคือ `if + past perfect` เช่น `If she had known...` ตัวอย่างที่ผิด: `If she would know, ...`"
+      },
+      {
+        "index": 4,
+        "text": "has known",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `has known` เป็น **present perfect** ไม่สอดคล้องกับ Third Conditional ที่ต้องใช้ **past perfect** (`had + V3`) เช่น `had known`"
+      }
+    ]
+  },
+  {
+    "question": "They would have caught the earlier train if they ___ earlier.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had left",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ Third Conditional: __`would have + V3`__ (ผล) + __`if + past perfect`__ (เงื่อนไข) ดังนั้น `had left` ตรงตามรูป เช่น `They would have caught the earlier train if they had left earlier.`"
+      },
+      {
+        "index": 2,
+        "text": "left",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `left` เป็น past simple ซึ่งใช้กับ Second Conditional มากกว่า แต่ที่นี่ผลลัพธ์เกิดขึ้นในอดีต ต้องใช้ **past perfect** เช่น `had left`"
+      },
+      {
+        "index": 3,
+        "text": "would leave",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ if-clause ห้ามใช้ `would` ใน Third Conditional โครงสร้างถูกคือ `if + had + V3` เช่น `if they had left`"
+      },
+      {
+        "index": 4,
+        "text": "have left",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น present perfect (`have left`) ไม่ใช่ past perfect รูปที่ถูกต้องคือ `had left` เพื่อบอกเหตุการณ์ที่ไม่เกิดขึ้นในอดีต"
+      }
+    ]
+  },
+  {
+    "question": "If I ___ your message, I would have replied immediately.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had seen",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง Third Conditional คือ __`if + had + V3`__ เช่น `had seen` และผลเป็น __`would have + V3`__ เช่น `would have replied` ตัวอย่าง: `If I had seen your message, I would have replied immediately.`"
+      },
+      {
+        "index": 2,
+        "text": "saw",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `saw` เป็น past simple ไม่ใช่ past perfect สำหรับ Third Conditional ต้องใช้ `had seen` เพื่อชี้ว่าอดีตจริงๆไม่ได้เห็น"
+      },
+      {
+        "index": 3,
+        "text": "would have seen",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา `would have` มาอยู่ใน if-clause ซึ่งไม่ถูก โครงสร้างที่ถูกคือ `If + past perfect` เช่น `If I had seen ...`"
+      },
+      {
+        "index": 4,
+        "text": "have seen",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น present perfect ไม่ตรงกับ Third Conditional ที่ต้องใช้ past perfect (`had seen`) ใน if-clause"
+      }
+    ]
+  },
+  {
+    "question": "Had we ___ the risks, we wouldn’t have invested so quickly.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "known",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง นี่เป็นรูปย่อแบบกลับคำ (`inversion`) ของ Third Conditional: __`Had + subject + V3`__ แทน `If we had known...` เช่น `Had we known the risks, we wouldn’t have invested so quickly.`"
+      },
+      {
+        "index": 2,
+        "text": "knew",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `knew` เป็น past simple และไม่เข้ากับรูปกลับคำ `Had we ...` ต้องใช้ V3 (`known`) ตามหลัง `had` เสมอ"
+      },
+      {
+        "index": 3,
+        "text": "been knowing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `been knowing` ไม่ใช้กับกริยา stative อย่าง `know` และไม่เข้ากับโครงสร้าง Third Conditional ที่ต้องเป็น `had + V3`"
+      },
+      {
+        "index": 4,
+        "text": "have known",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น present perfect (`have known`) แต่รูปกลับคำต้องเป็น `Had + V3` เช่น `Had we known ...`"
+      }
+    ]
+  },
+  {
+    "question": "If the alarm ___, the staff would have evacuated sooner.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had worked",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ Third Conditional: __`if + past perfect`__ → `had worked` และผลเป็น __`would have + V3`__ เช่น `would have evacuated` ตัวอย่าง: `If the alarm had worked, the staff would have evacuated sooner.`"
+      },
+      {
+        "index": 2,
+        "text": "worked",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ past simple (`worked`) ไม่พอสำหรับ Third Conditional ที่พูดถึงอดีตที่ไม่ได้เกิด ต้องใช้ past perfect (`had worked`)"
+      },
+      {
+        "index": 3,
+        "text": "would work",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนำ `would` มาไว้ใน if-clause ซึ่งผิดหลัก ควรใช้ `if + had + V3` เช่น `if the alarm had worked`"
+      },
+      {
+        "index": 4,
+        "text": "has worked",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น present perfect (`has worked`) ไม่ใช่ past perfect ที่ Third Conditional ต้องการ"
+      }
+    ]
+  },
+  {
+    "question": "She might have won the competition if she ___ more.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had practiced",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง Third Conditional อนุญาตให้ใช้ modal perfect ในผลลัพธ์ได้ เช่น `might have won` และเงื่อนไขต้องเป็น __`if + had + V3`__ → `had practiced` เช่น `She might have won if she had practiced more.`"
+      },
+      {
+        "index": 2,
+        "text": "practiced",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น past simple ไม่ใช่ past perfect สำหรับ Third Conditional ต้องใช้ `had practiced` เพื่อเน้นว่าอดีตจริงๆเธอไม่ได้ซ้อม"
+      },
+      {
+        "index": 3,
+        "text": "would have practiced",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา `would have` มาไว้ใน if-clause ซึ่งผิดรูปแบบ มาตรฐานคือ `if + past perfect` เช่น `if she had practiced`"
+      },
+      {
+        "index": 4,
+        "text": "has practiced",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น present perfect (`has practiced`) ไม่ใช่ past perfect (`had practiced`) ที่ต้องใช้ใน Third Conditional"
+      }
+    ]
+  },
+  {
+    "question": "If you hadn’t missed the turn, we ___ in traffic for an hour.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "wouldn’t have been stuck",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ผลลัพธ์ใน Third Conditional ใช้ __`would(n’t) have + V3`__ ที่นี่ใช้รูป passive `been stuck` จึงได้ `wouldn’t have been stuck` เช่น `we wouldn’t have been stuck in traffic`"
+      },
+      {
+        "index": 2,
+        "text": "won’t have been stuck",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `won’t have` เป็นอนาคตสมบูรณ์ ไม่สอดคล้องกับเงื่อนไขในอดีตของ Third Conditional ต้องใช้ `would have + V3`"
+      },
+      {
+        "index": 3,
+        "text": "weren’t stuck",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น past simple (`weren’t`) ไม่ใช่รูปผลของ Third Conditional ซึ่งควรเป็น `wouldn’t have been stuck`"
+      },
+      {
+        "index": 4,
+        "text": "wouldn’t be stuck",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `wouldn’t be stuck` เป็น Second/Type 2 (ผลปัจจุบัน) แต่ที่นี่พูดถึงผลในอดีต ต้องใช้ `wouldn’t have been stuck`"
+      }
+    ]
+  },
+  {
+    "question": "Had he ___ earlier, he would have caught the last bus.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "left",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็นรูปกลับคำของ Third Conditional: __`Had + subject + V3`__ ที่นี่ `leave` ช่อง 3 คือ `left` เช่น `Had he left earlier, he would have caught the last bus.`"
+      },
+      {
+        "index": 2,
+        "text": "had left",
+        "is_correct": false,
+        "answer_description": "ผิดในรูปแบบนี้ เพราะเมื่อใช้รูปกลับคำ `Had he ...` แล้ว ห้ามใส่ `had` ซ้ำหลังประธาน ควรเป็น `Had he left ...` ไม่ใช่ `Had he had left ...`"
+      },
+      {
+        "index": 3,
+        "text": "would have left",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะในส่วนกลับคำต้องขึ้นต้นด้วย `Had` ไม่ใช่ `would have` โครงสร้างที่ถูกคือ `Had he left, ...`"
+      },
+      {
+        "index": 4,
+        "text": "was leaving",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น past continuous ไม่ตรงกับ Third Conditional ที่ต้องใช้ past perfect หรือรูปกลับคำ `Had + V3`"
+      }
+    ]
+  },
+  {
+    "question": "If they ___ the instructions carefully, they wouldn’t have made that mistake.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had read",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง Third Conditional: __`if + had + V3`__ เช่น `had read` และผลเป็น __`wouldn’t have + V3`__ เช่น `wouldn’t have made` ตัวอย่าง: `If they had read the instructions carefully, ...`"
+      },
+      {
+        "index": 2,
+        "text": "read",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `read` (past simple) ไม่ใช่ past perfect ที่ต้องใช้ใน if-clause ของ Third Conditional รูปที่ถูกคือ `had read`"
+      },
+      {
+        "index": 3,
+        "text": "were reading",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น past continuous ซึ่งไม่แสดงเงื่อนไขอดีตที่ไม่เกิดจริง ต้องใช้ `had + V3` เช่น `had read`"
+      },
+      {
+        "index": 4,
+        "text": "would have read",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ if-clause ของ Third Conditional ห้ามใช้ `would have` ต้องใช้ `had + V3` เท่านั้น เช่น `if they had read`"
+      }
+    ]
+  },
+  {
+    "question": "I could have helped you if you ___ me earlier.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "had told",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ Third Conditional โดยมี modal perfect ในผล (`could have helped`) และเงื่อนไขเป็น __`if + had + V3`__ → `had told` เช่น `I could have helped you if you had told me earlier.`"
+      },
+      {
+        "index": 2,
+        "text": "told",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น past simple ไม่ใช่ past perfect ที่ต้องใช้ใน Third Conditional ควรเป็น `had told`"
+      },
+      {
+        "index": 3,
+        "text": "would tell",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ if-clause ไม่ใช้ `would` ใน Third Conditional โครงสร้างถูกต้องคือ `if + had + V3` เช่น `if you had told me`"
+      },
+      {
+        "index": 4,
+        "text": "have told",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น present perfect (`have told`) ไม่ตรงกับ **past perfect** ที่ต้องใช้ใน Third Conditional (`had told`)"
+      }
+    ]
+  }
+]

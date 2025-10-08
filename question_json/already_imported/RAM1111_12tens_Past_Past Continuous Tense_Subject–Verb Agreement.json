@@ -1,0 +1,321 @@
+[
+  {
+    "question": "He ___ to the bus stop when it started to rain.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "was walking",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **He** เป็นเอกพจน์ จึงใช้รูป **was + V-ing** ใน Past Continuous โครงสร้างคือ __was/were + V-ing__. ตัวอย่าง: `He was walking to the bus stop when it started to rain.` ใช้เพื่อบอกว่ากำลังทำกริยาอย่างต่อเนื่องในอดีตตอนที่เหตุการณ์อีกอย่างเข้ามาแทรก"
+      },
+      {
+        "index": 2,
+        "text": "were walking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **were** ใช้กับประธานพหูพจน์ เช่น **they, we** ไม่ใช้กับ **he**. ถ้าจะใช้กับเอกพจน์ต้องเป็น `He was walking...` ไม่ใช่ `He were walking...`"
+      },
+      {
+        "index": 3,
+        "text": "is walking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Continuous** (`is + V-ing`) แต่ประโยคนี้เป็นเหตุการณ์ในอดีต มีตัวบอกเวลา `when it started to rain` จึงต้องใช้รูปอดีตต่อเนื่อง: `He was walking...`"
+      },
+      {
+        "index": 4,
+        "text": "walk",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นกริยารูปพื้นฐาน (ไม่ต่อเนื่องและไม่เป็นอดีต) ไม่สอดคล้องกับ Past Continuous. โครงสร้างที่ถูกต้องคือ `was/were + V-ing` เช่น `was walking`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ dinner while I called.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "were having",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **They** เป็นพหูพจน์ ต้องใช้ **were + V-ing** โครงสร้าง Past Continuous คือ __was/were + V-ing__. ตัวอย่าง: `They were having dinner while I called.` แปลว่ากำลังกินข้าวอยู่ในช่วงที่ฉันโทรมา"
+      },
+      {
+        "index": 2,
+        "text": "was having",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **was** ใช้กับเอกพจน์ (I, he, she, it) แต่ประธานคือ **they** ซึ่งเป็นพหูพจน์ ต้องใช้ `were having` เช่น: `They were having dinner.`"
+      },
+      {
+        "index": 3,
+        "text": "had",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Past Simple (`had`) ไม่ใช่รูปกำลังกระทำต่อเนื่องในอดีต ถ้าจะสื่อว่ากำลังกินอยู่ ต้องใช้ `were having` เช่น: `They were having dinner...`"
+      },
+      {
+        "index": 4,
+        "text": "are having",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Present Continuous (ปัจจุบัน) แต่ประโยคพูดถึงเหตุการณ์ในอดีต (while I called) จึงต้องใช้ Past Continuous: `were having`"
+      }
+    ]
+  },
+  {
+    "question": "The dog ___ loudly last night.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "was barking",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **The dog** เป็นเอกพจน์ ใช้ **was + V-ing** ตามรูป Past Continuous โครงสร้างคือ __was/were + V-ing__. ตัวอย่าง: `The dog was barking loudly last night.` ใช้เมื่อบอกการกระทำที่กำลังเกิดขึ้นช่วงหนึ่งในอดีต"
+      },
+      {
+        "index": 2,
+        "text": "were barking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **were** ใช้กับพหูพจน์ แต่ **the dog** เป็นเอกพจน์ จึงต้องเป็น `was barking` ไม่ใช่ `were barking`"
+      },
+      {
+        "index": 3,
+        "text": "barked",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Past Simple เน้นผลหรือเหตุการณ์สั้นๆ ไม่ใช่การกระทำต่อเนื่อง ถ้าจะเน้นว่ากำลังเห่าเป็นช่วงๆ ใช้ `was barking`"
+      },
+      {
+        "index": 4,
+        "text": "is barking",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Present Continuous (ปัจจุบัน) แต่มีตัวบอกเวลา **last night** ชัดเจนว่าเป็นอดีต จึงควรใช้ `was barking`"
+      }
+    ]
+  },
+  {
+    "question": "My friends and I ___ for the exam all night.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "were studying",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธานรวมกันด้วย **and** (My friends and I) ถือว่าเป็นพหูพจน์ ใช้ **were + V-ing** โครงสร้าง Past Continuous คือ __was/were + V-ing__. ตัวอย่าง: `My friends and I were studying for the exam all night.`"
+      },
+      {
+        "index": 2,
+        "text": "was studying",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ **was** กับเอกพจน์ แต่ประธานเป็นพหูพจน์ (รวม `friends` กับ `I`) จึงต้องเป็น `were studying`"
+      },
+      {
+        "index": 3,
+        "text": "study",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปพื้นฐาน ไม่ใช่รูป Past Continuous ที่ต้องการ ถ้าจะให้ถูกต้องควรเป็น `were studying` เพื่อสื่อว่ากำลังอ่านทั้งคืน"
+      },
+      {
+        "index": 4,
+        "text": "are studying",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Present Continuous (ปัจจุบัน) แต่ประโยคสื่ออดีต (all night ในอดีต) ควรใช้ `were studying`"
+      }
+    ]
+  },
+  {
+    "question": "The team ___ losing in the first half.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "was",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ในมาตรฐานอเมริกัน **team** นับเป็นเอกพจน์ (เป็นหน่วยเดียว) จึงใช้ **was + V-ing**: โครงสร้างคือ __was/were + V-ing__. ตัวอย่าง: `The team was losing in the first half.` หมายถึงช่วงครึ่งแรกทีมกำลังตามหลังอยู่"
+      },
+      {
+        "index": 2,
+        "text": "were",
+        "is_correct": false,
+        "answer_description": "ผิด สำหรับรูปมาตรฐานอเมริกัน **team** ถือเป็นเอกพจน์ จึงไม่ใช้ `were losing` แต่ถ้าเป็นอังกฤษอาจเห็นใช้พหูพจน์ได้ในบางบริบท อย่างไรก็ตามสำหรับแบบฝึกนี้ให้ยึด `was losing`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นปัจจุบัน (Present) แต่ประโยคนี้เป็นอดีตต่อเนื่อง ต้องใช้ `was losing` ไม่ใช่ `is losing`"
+      },
+      {
+        "index": 4,
+        "text": "lose",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปพื้นฐาน ไม่ใช่ Past Continuous ที่ต้องการ โครงสร้างที่ถูกต้องคือ `was losing`"
+      }
+    ]
+  },
+  {
+    "question": "Each student ___ working on a different project.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "was",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำว่า **Each** ทำให้ประธานเป็นเอกพจน์แม้จะพูดถึงหลายคน จึงใช้ **was + V-ing** โครงสร้างคือ __was/were + V-ing__. ตัวอย่าง: `Each student was working on a different project.`"
+      },
+      {
+        "index": 2,
+        "text": "were",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Each** ทำให้ประธานเป็นเอกพจน์ ต้องใช้ `was` ไม่ใช่ `were` เช่น: `Each student was working...`"
+      },
+      {
+        "index": 3,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นปัจจุบันและยังไม่ตรงกับเอกพจน์ด้วย รูปที่ถูกต้องในอดีตต่อเนื่องคือ `was working`"
+      },
+      {
+        "index": 4,
+        "text": "work",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดรูปต่อเนื่องและกาลอดีต Past Continuous ต้องใช้ `was/were + V-ing` เช่น `was working`"
+      }
+    ]
+  },
+  {
+    "question": "There ___ a car blocking the driveway at 8 p.m.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "was",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **There + be** จะผันตามคำนามจริงที่ตามมา คำว่า **a car** เป็นเอกพจน์ จึงใช้ **was** และ Past Continuous ต้องตามด้วย V-ing: ตัวเต็มคือ `There was a car blocking...` (__was + V-ing/participle phrase__). เช่น: `There was a car blocking the driveway.`"
+      },
+      {
+        "index": 2,
+        "text": "were",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **a car** เป็นเอกพจน์ ต้องใช้ `was` ไม่ใช่ `were` ถ้าเป็นพหูพจน์ เช่น `cars` จึงจะใช้ `There were cars blocking...`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นปัจจุบัน แต่ประโยคมีเวลาเฉพาะ `at 8 p.m.` ในอดีต (ตามบริบท) และเราต้องการรูปอดีต จึงควรใช้ `was`"
+      },
+      {
+        "index": 4,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยสองเหตุผล: เป็นปัจจุบัน และยังไม่ตรงกับเอกพจน์ด้วย แบบที่ถูกคือ `There was a car...`"
+      }
+    ]
+  },
+  {
+    "question": "A number of players ___ warming up on the field.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "were",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง วลี **a number of + plural noun** ถือเป็นพหูพจน์ จึงใช้ **were + V-ing** โครงสร้าง Past Continuous คือ __was/were + V-ing__. ตัวอย่าง: `A number of players were warming up on the field.`"
+      },
+      {
+        "index": 2,
+        "text": "was",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **a number of + players** ทำหน้าที่เป็นพหูพจน์ ต้องใช้ `were` ไม่ใช่ `was` อย่าสับสนกับ **the number of** ที่ถือเป็นเอกพจน์"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นปัจจุบัน และยังไม่ตรงกับพหูพจน์ด้วย รูปที่ถูกต้องคือ `were warming up`"
+      },
+      {
+        "index": 4,
+        "text": "warming",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่มีกริยา **be** มาช่วย Past Continuous ต้องเป็น `was/were + V-ing` ไม่ใช่ใส่ `V-ing` เดี่ยวๆ"
+      }
+    ]
+  },
+  {
+    "question": "The police ___ searching the area.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "were",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำว่า **police** ถือเป็นพหูพจน์ จึงใช้ **were + V-ing** โครงสร้าง Past Continuous คือ __was/were + V-ing__. ตัวอย่าง: `The police were searching the area.`"
+      },
+      {
+        "index": 2,
+        "text": "was",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **police** เป็นพหูพจน์ ไม่ใช้ `was searching` ต้องใช้ `were searching` แทน เช่น `The police were...`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นปัจจุบัน และยังไม่ตรงกับพหูพจน์ด้วย Past Continuous ที่ถูกต้องคือ `were searching`"
+      },
+      {
+        "index": 4,
+        "text": "search",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่มีรูปต่อเนื่องและไม่มีกริยา be ช่วย โครงสร้างที่ถูกต้องคือ `were searching` ไม่ใช่ `police search` ในบริบทนี้"
+      }
+    ]
+  },
+  {
+    "question": "Neither Tom nor his brothers ___ sleeping at midnight.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "were",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กับโครงสร้าง **Neither A nor B** กริยาจะเห็นด้วยกับส่วนที่อยู่ใกล้ที่สุด คือ **his brothers** (พหูพจน์) จึงใช้ **were + V-ing** โครงสร้างคือ __was/were + V-ing__. ตัวอย่าง: `Neither Tom nor his brothers were sleeping at midnight.`"
+      },
+      {
+        "index": 2,
+        "text": "was",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะต้องผันตามคำนามที่อยู่ใกล้สุดหลัง **nor** คือ **brothers** (พหูพจน์) จึงควรใช้ `were sleeping` ไม่ใช่ `was sleeping`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นปัจจุบัน และยังไม่ตรงกับพหูพจน์อีกด้วย รูปที่ถูกต้องในอดีตต่อเนื่องคือ `were sleeping`"
+      },
+      {
+        "index": 4,
+        "text": "sleep",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่ใช่รูปต่อเนื่องและไม่มี **be** ช่วย Past Continuous ต้องเป็น `was/were + V-ing` เช่น `were sleeping`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ not listening when the teacher asked the question.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "was",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน **I** ใน Past Continuous ใช้รูป **was** และในประโยคปฏิเสธจะเป็น `was not/wasn't + V-ing` โครงสร้างคือ __was/were + not + V-ing__. ตัวอย่าง: `I was not listening when the teacher asked the question.`"
+      },
+      {
+        "index": 2,
+        "text": "were",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **I** ไม่ใช้ `were` (ยกเว้นในประโยคสมมติบางกรณี) ใน Past Continuous กับ I ต้องใช้ `was (not) listening`"
+      },
+      {
+        "index": 3,
+        "text": "am",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นปัจจุบัน (am) แต่เหตุการณ์เกิดในอดีตและเป็นรูปต่อเนื่อง ต้องใช้ `was not listening`"
+      },
+      {
+        "index": 4,
+        "text": "did",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `did` เป็นตัวช่วยของ Past Simple ไม่ใช่ Past Continuous รูปที่ถูกคือ `was not/wasn't listening`"
+      }
+    ]
+  }
+]

@@ -1,0 +1,321 @@
+[
+  {
+    "question": "I stayed home ___ it was raining.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "because",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเชื่อมสาเหตุแบบประโยค + ประโยค ใช้ __because + clause__ ได้เลย เช่น `I stayed home because it was raining.` แพตเทิร์นนี้บอก “เพราะว่า...” โดยตามหลังด้วยประโยคที่มีประธานและกริยา เช่น `because I was tired` หรือ `because she didn't call`."
+      },
+      {
+        "index": 2,
+        "text": "so",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **so** ใช้บอก “ดังนั้น/ผลลัพธ์” ไม่ใช่บอกสาเหตุ และมักอยู่หน้าประโยคผล เช่น `It was raining, so I stayed home.` ในช่องว่างนี้ต้องการคำบอกสาเหตุหน้าประโยคสาเหตุ จึงควรใช้ `because`."
+      },
+      {
+        "index": 3,
+        "text": "therefore",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **therefore** เป็นคำเชื่อมผลลัพธ์ (conjunctive adverb) และมักใช้หลังเครื่องหมาย `;` หรือขึ้นต้นประโยคใหม่ เช่น `It was raining; therefore, we stayed home.` แต่ที่นี่ช่องว่างต้องการคำเชื่อมสาเหตุ."
+      },
+      {
+        "index": 4,
+        "text": "due to",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **due to** ต้องตามด้วยคำนาม/วลีคำนาม ไม่ใช่ประโยคเต็ม เช่น `due to the rain` ถูก แต่ `due to it was raining` ผิด โครงสร้างที่ถูกควรเป็น `because it was raining`."
+      }
+    ]
+  },
+  {
+    "question": "The flight was delayed ___ heavy fog.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "due to",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ __due to + noun phrase__ ใช้หน้าคำนาม/วลีคำนาม เช่น `due to heavy fog` หรือ `due to traffic` ตัวอย่างประโยค: `The flight was delayed due to heavy fog.`"
+      },
+      {
+        "index": 2,
+        "text": "because",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **because** ต้องตามด้วยประโยค (clause) เช่น `because there was heavy fog` ไม่ใช่คำนามโดดๆ การเขียน `because heavy fog` จึงไม่สมบูรณ์."
+      },
+      {
+        "index": 3,
+        "text": "so",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **so** ใช้เชื่อม “ผลลัพธ์” ไม่ใช่ “เหตุ” และไม่วางหน้าคำนามแบบนี้ ตัวอย่างที่ถูกของ so คือ `There was heavy fog, so the flight was delayed.`"
+      },
+      {
+        "index": 4,
+        "text": "as a result",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **as a result** เป็นตัวเชื่อมผลลัพธ์ และมักใช้ขึ้นต้นประโยคผล เช่น `Heavy fog covered the city; as a result, the flight was delayed.` ไม่ใช้หน้าคำนามเพื่อบอกเหตุ."
+      }
+    ]
+  },
+  {
+    "question": "It was raining; ___, we stayed home.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "therefore",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะรูปแบบผลลัพธ์ทางการใช้ __clause; therefore, clause__ เช่น `It was raining; therefore, we stayed home.` คำว่า **therefore** แปลว่า “ดังนั้น/เพราะฉะนั้น” และเน้นผลที่ตามมา."
+      },
+      {
+        "index": 2,
+        "text": "because",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **because** เป็นตัวเชื่อมสาเหตุ ไม่ใช่ผลลัพธ์ โครงสร้าง `; because,` ก็ไม่ถูกด้วย หากจะใช้ because ต้องเป็น `We stayed home because it was raining.`"
+      },
+      {
+        "index": 3,
+        "text": "since",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **since** ใช้บอกสาเหตุ เช่น `Since it was raining, we stayed home.` แต่ในตำแหน่งนี้หลัง `;` ต้องการคำเชื่อมผลลัพธ์แบบวลีเชื่อม (conjunctive adverb) อย่าง `therefore`."
+      },
+      {
+        "index": 4,
+        "text": "owing to",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **owing to** ต้องตามด้วยคำนาม/วลีคำนาม และใช้ในอนุประโยคเหตุ ไม่ใช่หลัง `;` เพื่อเชื่อมประโยคผล เช่น `We stayed home owing to the rain.`"
+      }
+    ]
+  },
+  {
+    "question": "___ I was sick, I didn't go to school.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Since",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __Since + clause, clause__ เพื่อบอกเหตุที่วางไว้ต้นประโยค เช่น `Since I was sick, I didn't go to school.` นอกจากนี้ `Because/As` ก็ใช้ได้คล้ายกันในโครงสร้างนี้."
+      },
+      {
+        "index": 2,
+        "text": "Therefore",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Therefore** เป็นคำเชื่อมผล ไม่ใช่เหตุ และมักใช้หลังประโยคสาเหตุ เช่น `I was sick; therefore, I didn't go to school.` ไม่ใช้ขึ้นต้นเพื่อบอกเหตุแบบนี้."
+      },
+      {
+        "index": 3,
+        "text": "So",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **so** เป็นตัวเชื่อมผลลัพธ์กลางประโยค: `I was sick, so I didn't go to school.` การขึ้นต้นประโยคด้วย `So I was sick, ...` เพื่อบอกเหตุถือว่าไม่เป็นทางการและความหมายเพี้ยน."
+      },
+      {
+        "index": 4,
+        "text": "Due to",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Due to** ต้องตามด้วยคำนาม/วลีคำนาม เช่น `Due to illness, I didn't go to school.` แต่ที่นี่ตามด้วยประโยค `I was sick` จึงไม่ตรงรูปแบบ."
+      }
+    ]
+  },
+  {
+    "question": "___ your help, we finished early.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Thanks to",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะใช้ __Thanks to + noun/gerund__ เพื่อบอกสาเหตุในเชิงบวก เช่น `Thanks to your help, we finished early.` ยังใช้กับสิ่งอื่นได้ เช่น `Thanks to good weather, the event was a success.`"
+      },
+      {
+        "index": 2,
+        "text": "Because",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **because** ต้องตามด้วยประโยคเต็ม เช่น `because you helped us` ไม่ใช่คำนามเดี่ยว `your help` โครงสร้างหน้าคำนามควรใช้ `thanks to/because of/due to`."
+      },
+      {
+        "index": 3,
+        "text": "So",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **so** ใช้เชื่อมผล ไม่ใช่เหตุ และไม่วางหน้าคำนามแบบนี้ ตัวอย่างที่ถูกคือ `You helped us, so we finished early.`"
+      },
+      {
+        "index": 4,
+        "text": "As a result",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **as a result** เป็นวลีเชื่อมผลลัพธ์และต้องตามด้วยประโยค เช่น `As a result, we finished early.` ถ้าจะตามด้วยคำนามต้องใช้ `as a result of + noun` เช่น `as a result of your help`."
+      }
+    ]
+  },
+  {
+    "question": "He was tired, ___ he went to bed early.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "so",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเชื่อมประโยคผลลัพธ์ด้วยสหบท (coordinating conjunction) ใช้ __clause, so clause__ เช่น `He was tired, so he went to bed early.` รูปแบบนี้ถูกตามหลักไวยากรณ์และใช้ได้ทั้งเขียนและพูด."
+      },
+      {
+        "index": 2,
+        "text": "therefore",
+        "is_correct": false,
+        "answer_description": "ผิดในบริบทนี้ เพราะถ้าจะใช้ **therefore** ควรเป็น `He was tired; therefore, he went to bed early.` การเขียน `He was tired, therefore he went...` มักถือเป็น comma splice ซึ่งไม่เป็นทางการ."
+      },
+      {
+        "index": 3,
+        "text": "as a result",
+        "is_correct": false,
+        "answer_description": "ผิดในรูปนี้ เพราะ **as a result** เป็นคำเชื่อมผลแบบวลี ต้องเขียน `He was tired; as a result, he went to bed early.` ไม่ใช่คั่นด้วยจุลภาคเพียงตัวเดียวก่อนหน้า."
+      },
+      {
+        "index": 4,
+        "text": "because",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **because** ใช้บอกเหตุ ไม่ใช่ผล ถ้าจะใช้ต้องสลับเป็น `He went to bed early because he was tired.` ซึ่งเปลี่ยนโครงสร้างประโยค."
+      }
+    ]
+  },
+  {
+    "question": "We canceled the picnic ___ the storm.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "because of",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ __because of + noun/gerund__ เช่น `because of the storm` หรือ `because of arriving late` ตัวอย่าง: `We canceled the picnic because of the storm.` ชัดเจนว่า “เพราะพายุ” เป็นสาเหตุ."
+      },
+      {
+        "index": 2,
+        "text": "because",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะถ้าใช้ **because** ต้องตามด้วยประโยค เช่น `because there was a storm` แต่ที่นี่เป็นคำนาม `the storm` จึงไม่ครบโครงสร้าง."
+      },
+      {
+        "index": 3,
+        "text": "since",
+        "is_correct": false,
+        "answer_description": "ผิดในรูปนี้ เพราะ **since** ต้องตามด้วยประโยค เช่น `since a storm hit` ไม่ใช่คำนามเดี่ยวๆ แบบ `the storm`."
+      },
+      {
+        "index": 4,
+        "text": "so",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **so** ใช้เชื่อมผล: `There was a storm, so we canceled the picnic.` ไม่ใช้วางหน้าคำนามเพื่อบอกเหตุ."
+      }
+    ]
+  },
+  {
+    "question": "The road was flooded; ___, the match was postponed.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "as a result",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้โครงสร้างผลลัพธ์แบบเป็นทางการ __clause; as a result, clause__ เช่น `The road was flooded; as a result, the match was postponed.` แปลว่า “ผลก็คือ/ดังนั้น”."
+      },
+      {
+        "index": 2,
+        "text": "because of",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **because of** ต้องตามด้วยคำนาม ไม่ใช่เชื่อมสองประโยคด้วย `;` รูปแบบที่ถูกของ because of คือ `The match was postponed because of the flooded road.`"
+      },
+      {
+        "index": 3,
+        "text": "so",
+        "is_correct": false,
+        "answer_description": "ผิดในรูปนี้ เพราะถ้าจะใช้ **so** ไม่ควรมีเครื่องหมาย `;` หน้า so ควรใช้จุลภาค: `The road was flooded, so the match was postponed.`"
+      },
+      {
+        "index": 4,
+        "text": "thanks to",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **thanks to** ใช้บอกเหตุเชิงบวกและต้องตามด้วยคำนาม เช่น `thanks to the volunteers` แต่ที่นี่ต้องการคำเชื่อมผลลัพธ์ระหว่างสองประโยค."
+      }
+    ]
+  },
+  {
+    "question": "The data were incomplete; ___, we could not draw conclusions.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "thus",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ __clause; thus, clause__ ใช้บอกผลลัพธ์ในสไตล์ทางการ เช่น `The data were incomplete; thus, we could not draw conclusions.` คำว่า **thus** เทียบได้กับ “ดังนั้น/เพราะฉะนั้น”."
+      },
+      {
+        "index": 2,
+        "text": "because",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **because** เป็นตัวเชื่อมเหตุ ไม่ใช่ผล และไม่ใช้หลังอัฒภาค `;` แบบนี้ หากจะใช้ต้องสลับเป็น `We could not draw conclusions because the data were incomplete.`"
+      },
+      {
+        "index": 3,
+        "text": "due to",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **due to** ต้องตามด้วยคำนาม/วลีคำนาม เช่น `due to incomplete data` ไม่ได้ใช้เชื่อมสองประโยคหลัง `;`."
+      },
+      {
+        "index": 4,
+        "text": "because of",
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลเดียวกับ `due to` คือ **because of** ต้องตามด้วยคำนาม เช่น `because of incomplete data` ไม่ใช่เชื่อมสองประโยค."
+      }
+    ]
+  },
+  {
+    "question": "The match was canceled ___ the heavy rain.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "owing to",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ __owing to + noun/gerund__ เช่น `owing to the heavy rain` ใช้แทน `because of/due to` ได้ในเชิงเป็นทางการเล็กน้อย ตัวอย่าง: `The match was canceled owing to the heavy rain.`"
+      },
+      {
+        "index": 2,
+        "text": "because",
+        "is_correct": false,
+        "answer_description": "ผิดในรูปนี้ เพราะ **because** ต้องตามด้วยประโยค เช่น `because it rained heavily` ไม่ใช่คำนาม `the heavy rain`."
+      },
+      {
+        "index": 3,
+        "text": "therefore",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **therefore** เป็นคำเชื่อมผลลัพธ์ ไม่ใช่เหตุ ถ้าจะใช้ต้องเขียน `It rained heavily; therefore, the match was canceled.`"
+      },
+      {
+        "index": 4,
+        "text": "as a result",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **as a result** ใช้เชื่อมประโยคผลลัพธ์ ไม่ใช่วางหน้าคำนาม หากจะใช้หน้าคำนามต้องเป็น `as a result of the heavy rain`."
+      }
+    ]
+  },
+  {
+    "question": "___ the weather was bad, we stayed inside.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Because",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __Because + clause, clause__ เพื่อบอกเหตุ เช่น `Because the weather was bad, we stayed inside.` โครงสร้างนี้ชัดเจนว่า “เพราะ...จึง...”."
+      },
+      {
+        "index": 2,
+        "text": "Therefore",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Therefore** เป็นคำเชื่อมผล และไม่ใช้ขึ้นต้นเพื่อแนะนำเหตุแบบนี้ รูปแบบที่ถูกคือ `The weather was bad; therefore, we stayed inside.`"
+      },
+      {
+        "index": 3,
+        "text": "Because of",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **because of** ต้องตามด้วยคำนาม เช่น `Because of the bad weather, we stayed inside.` แต่ที่นี่ตามด้วยประโยค `the weather was bad` จึงไม่ตรงแพตเทิร์น."
+      },
+      {
+        "index": 4,
+        "text": "So",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **So** เป็นตัวเชื่อมผลลัพธ์กลางประโยค ไม่ควรขึ้นต้นประโยคเพื่อบอกเหตุแบบนี้ ที่ถูกคือ `The weather was bad, so we stayed inside.`"
+      }
+    ]
+  }
+]

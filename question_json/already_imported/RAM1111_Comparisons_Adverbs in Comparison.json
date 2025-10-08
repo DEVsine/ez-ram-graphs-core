@@ -1,0 +1,292 @@
+[
+  {
+    "question": "She sings ___ than her sister.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "more beautifully",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกริยาวิเศษณ์ลงท้ายด้วย -ly ต้องเปรียบเทียบขั้นกว่าโดยใช้ __more + adverb + than__ เช่น `She sings more beautifully than her sister.` ลองจำแพทเทิร์นนี้ไว้: **more + adverb(-ly) + than** ใช้เมื่อขยายกริยาและต้องการเทียบ 2 สิ่ง/คน."
+      },
+      {
+        "index": 2,
+        "text": "beautiful",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `beautiful` เป็น **adjective** ไม่ใช่ **adverb** เราต้องใช้กริยาวิเศษณ์เพื่อขยายกริยา `sings` เช่น `beautifully` หรือรูปเปรียบเทียบ `more beautifully` ไม่ใช้ adjective มาวางตรงนี้."
+      },
+      {
+        "index": 3,
+        "text": "most beautifully",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่คือขั้นสุด (superlative) ควรใช้เมื่อเปรียบเทียบกับหลายคนและปกติต้องมี `the` เช่น `She sings the most beautifully in the class.` แต่ประโยคนี้มี `than` แปลว่าเทียบแค่ 2 คน ต้องใช้ขั้นกว่า."
+      },
+      {
+        "index": 4,
+        "text": "more beautiful",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ **adjective** (`beautiful`) แทนที่จะใช้ **adverb** (`beautifully`) เวลาขยายกริยา `sing` ต้องใช้กริยาวิเศษณ์ เช่น `She sings more beautifully than her sister.` ไม่ใช่ `more beautiful`."
+      }
+    ]
+  },
+  {
+    "question": "He arrived ___ than usual.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "earlier",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำกริยาวิเศษณ์สั้นอย่าง **early** เปลี่ยนเป็นขั้นกว่าโดยเติม -er ได้เป็น __earlier__ เช่น `He arrived earlier than usual.` แพทเทิร์นคือ **adverb (short) + -er + than**."
+      },
+      {
+        "index": 2,
+        "text": "more early",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `early` เป็นคำสั้นที่ทำขั้นกว่าโดยเติม `-er` ไม่ใช้ `more` ตัวอย่างที่ถูกต้องคือ `arrive earlier than...` ไม่ใช่ `more early than...`"
+      },
+      {
+        "index": 3,
+        "text": "earlyer",
+        "is_correct": false,
+        "answer_description": "ผิดเรื่องการสะกด คำถูกคือ `earlier` (เปลี่ยน y เป็น i แล้วเติม -er) เช่น `He arrived earlier than usual.` ไม่ใช้ `earlyer` นะ."
+      },
+      {
+        "index": 4,
+        "text": "most early",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่เป็นรูปขั้นสุด (และยังผิดรูป) ถ้าจะเป็นขั้นสุดของ `early` ต้องใช้ `earliest` เช่น `He arrived (the) earliest.` แต่ประโยคนี้มี `than` จึงต้องใช้ขั้นกว่า `earlier`."
+      }
+    ]
+  },
+  {
+    "question": "Jason speaks French ___ than I do.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "better",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะรูปเปรียบเทียบของกริยาวิเศษณ์ **well** คือ __better__ ไม่ใช่ `more well` เช่น `Jason speaks French better than I do.` จำคู่คำนี้ไว้: **well → better → best**."
+      },
+      {
+        "index": 2,
+        "text": "weller",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `well` ไม่ทำขั้นกว่าโดยเติม -er รูปที่ถูกคือ `better` เช่น `He plays better than before.` รูป `weller` ไม่มีในมาตรฐาน."
+      },
+      {
+        "index": 3,
+        "text": "more well",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `well` เป็นคำไม่ปกติ (irregular) รูปขั้นกว่าคือ `better` ไม่ใช้ `more well` ตัวอย่างที่ถูกต้อง: `He speaks better than me.`"
+      },
+      {
+        "index": 4,
+        "text": "best",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `best` เป็นขั้นสุด (superlative) ใช้เมื่อเปรียบเทียบกับหลายคน ไม่ใช่เทียบแค่สองคนด้วย `than` เช่น `Jason speaks French best in the class.` แต่ประโยคนี้ต้องใช้ขั้นกว่า `better`."
+      }
+    ]
+  },
+  {
+    "question": "The team played ___ than last week.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "worse",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปเปรียบเทียบของกริยาวิเศษณ์/คำคุณศัพท์ **bad/badly** คือ __worse__ เช่น `The team played worse than last week.` จำชุดนี้: **badly → worse → worst**."
+      },
+      {
+        "index": 2,
+        "text": "more badly",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `badly` เป็นคำไม่ปกติ ใช้ `worse` แทน `more badly` ตัวอย่างที่ถูกต้อง: `They performed worse than before.`"
+      },
+      {
+        "index": 3,
+        "text": "baddier",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่มีคำว่า `baddier` ในไวยากรณ์อังกฤษ รูปที่ถูกคือ `worse` เช่น `played worse than...`"
+      },
+      {
+        "index": 4,
+        "text": "worst",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `worst` เป็นขั้นสุด ใช้เมื่อเทียบกับหลายเหตุการณ์หรือหลายทีม เช่น `the team played the worst this season.` ที่นี่มี `than` จึงต้องใช้ขั้นกว่า `worse`."
+      }
+    ]
+  },
+  {
+    "question": "We meet ___ than before.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "more often",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำวิเศษณ์ที่เป็นวลีอย่าง **often** ใช้ขั้นกว่าด้วย __more + adverb__ ได้ เช่น `We meet more often than before.` แพทเทิร์นคือ __more + adverb + than__ เมื่อเทียบความถี่."
+      },
+      {
+        "index": 2,
+        "text": "oftener",
+        "is_correct": false,
+        "answer_description": "แม้บางพจนานุกรมจะระบุว่า `oftener` มีได้ แต่ในการใช้งานสมัยใหม่มักใช้ `more often` มากกว่า เพื่อให้เป็นธรรมชาติ เช่น `meet more often than...` จึงแนะนำให้ใช้แบบมาตรฐาน."
+      },
+      {
+        "index": 3,
+        "text": "most often",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเป็นรูปขั้นสุด (superlative) และไม่มีบริบทเทียบกับหลายสิ่ง ที่นี่มี `than` แปลว่าเทียบ 2 ช่วงเวลา ต้องใช้ขั้นกว่า `more often` ไม่ใช่ `most often`."
+      },
+      {
+        "index": 4,
+        "text": "more many times",
+        "is_correct": false,
+        "answer_description": "ผิดรูป วลี `many times` ไม่ใช่กริยาวิเศษณ์ และต่อกับ `more` ตรงๆ แบบนี้ไม่เป็นธรรมชาติ ทางที่ถูกคือใช้กริยาวิเศษณ์ `often`: `We meet more often than before.`"
+      }
+    ]
+  },
+  {
+    "question": "She runs ___ Tom.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "as quickly as",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างเปรียบเทียบเท่ากันใช้ __as + adverb + as__ เช่น `She runs as quickly as Tom.` ใช้เมื่อบอกว่าความเร็วเท่ากันพอดี."
+      },
+      {
+        "index": 2,
+        "text": "so quickly as",
+        "is_correct": false,
+        "answer_description": "ผิดในประโยคบอกเล่า โครงสร้าง `so ... as` มักใช้ในประโยคปฏิเสธ เช่น `She doesn’t run so quickly as Tom.` สำหรับบอกเล่าควรใช้ `as ... as`."
+      },
+      {
+        "index": 3,
+        "text": "as quick as",
+        "is_correct": false,
+        "answer_description": "ผิดชนิดคำ เพราะหลัง `as` ตัวแรกต้องเป็น **adverb** เพื่อขยายกริยา `runs` คำที่ถูกคือ `quickly` ไม่ใช่ `quick` ดังนั้นควรเป็น `as quickly as`."
+      },
+      {
+        "index": 4,
+        "text": "quickly as",
+        "is_correct": false,
+        "answer_description": "ผิดรูปเพราะขาด `as` ตัวหน้า โครงสร้างต้องครบเป็น `as + adverb + as` เช่น `as quickly as` ไม่ใช่ `quickly as` เฉยๆ."
+      }
+    ]
+  },
+  {
+    "question": "He finished ___ earlier than expected.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "much",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้คำเน้นระดับกับขั้นกว่าได้ เช่น __much + comparative adverb__ → `much earlier` ตัวอย่าง: `He finished much earlier than expected.` ใช้ `far` หรือ `a lot` ก็ได้ในความหมายเดียวกัน."
+      },
+      {
+        "index": 2,
+        "text": "more",
+        "is_correct": false,
+        "answer_description": "ผิดตำแหน่ง `more` ใช้ประกอบหน้ากริยาวิเศษณ์ที่ยังไม่เป็นขั้นกว่า เช่น `more quickly` แต่คำว่า `earlier` เป็นขั้นกว่าแล้ว จึงควรใช้คำเน้นอย่าง `much/far/a lot` แทน."
+      },
+      {
+        "index": 3,
+        "text": "very",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `very` ใช้กับขั้นปกติของ adjective/adverb เช่น `very early` ไม่ค่อยใช้กับรูปขั้นกว่า ดังนั้นควรเป็น `much earlier` ไม่ใช่ `very earlier`."
+      },
+      {
+        "index": 4,
+        "text": "so",
+        "is_correct": false,
+        "answer_description": "ไม่เป็นธรรมชาติในโครงสร้างนี้ หากจะใช้ `so` มักตามด้วยผลลัพธ์ เช่น `so early that...` สำหรับการเน้นขั้นกว่าให้ใช้ `much earlier` จะถูกต้องกว่า."
+      }
+    ]
+  },
+  {
+    "question": "They reply ___ than before.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "less promptly",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง การเปรียบเทียบ “น้อยกว่า/ไม่เร็วเท่าเดิม” ใช้ __less + adverb + than__ เช่น `They reply less promptly than before.` ใช้กับกริยาวิเศษณ์ลงท้าย -ly ได้เป็นธรรมชาติ."
+      },
+      {
+        "index": 2,
+        "text": "promptlier",
+        "is_correct": false,
+        "answer_description": "ผิดรูปการสร้างคำ `promptly` ไม่ทำขั้นกว่าด้วย -er แบบนี้ ควรใช้ `more/less promptly` เช่น `reply more promptly` หรือ `reply less promptly`."
+      },
+      {
+        "index": 3,
+        "text": "more prompt",
+        "is_correct": false,
+        "answer_description": "ผิดชนิดคำ `prompt` เป็น **adjective** แต่ที่นี่ต้องใช้ **adverb** เพื่อขยายกริยา `reply` จึงควรเป็น `more promptly` หรือ `less promptly` แทน."
+      },
+      {
+        "index": 4,
+        "text": "the least promptly",
+        "is_correct": false,
+        "answer_description": "ผิดระดับ นี่เป็นขั้นสุด (superlative) บอกว่า \"ช้าที่สุด\" เมื่อเทียบกับหลายตัวเลือก แต่ประโยคนี้มี `than` บอกการเทียบสองช่วงเวลา ควรใช้ขั้นกว่า `less promptly`."
+      }
+    ]
+  },
+  {
+    "question": "Among all the candidates, Maria answered ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the most confidently",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ขั้นสุดของกริยาวิเศษณ์ที่ลงท้าย -ly ใช้ __the most + adverb__ เช่น `Maria answered the most confidently.` ใช้เมื่อเทียบกับหลายคนทั้งหมด."
+      },
+      {
+        "index": 2,
+        "text": "more confidently",
+        "is_correct": false,
+        "answer_description": "ผิดระดับ นี่เป็นขั้นกว่า ใช้เมื่อเทียบแค่สองคน/สิ่ง ถ้าบริบทคือ \"among all\" ต้องใช้ขั้นสุด: `the most confidently` ไม่ใช่ `more confidently`."
+      },
+      {
+        "index": 3,
+        "text": "the most confident",
+        "is_correct": false,
+        "answer_description": "ผิดชนิดคำ `confident` เป็น **adjective** แต่เราต้องการ **adverb** เพื่อขยายกริยา `answered` คำที่ถูกคือ `confidently` เช่น `answered the most confidently`."
+      },
+      {
+        "index": 4,
+        "text": "the more confident",
+        "is_correct": false,
+        "answer_description": "ผิดทั้งระดับและชนิดคำ ใช้ `more` (ขั้นกว่า) แถมใช้ **adjective** `confident` แทน **adverb** ที่ถูกต้องคือ `the most confidently` เพื่อเป็นขั้นสุด."
+      }
+    ]
+  },
+  {
+    "question": "Of all the players, Leo trains ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "the hardest",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำวิเศษณ์สั้นอย่าง **hard** ทำขั้นสุดด้วยการเติม -est ได้เป็น __the hardest__ เช่น `Leo trains the hardest.` ใช้เมื่อเทียบกับทุกคนในกลุ่มทั้งหมด."
+      },
+      {
+        "index": 2,
+        "text": "harder",
+        "is_correct": false,
+        "answer_description": "ผิดระดับ เพราะ `harder` เป็นขั้นกว่า (เทียบ 2 คน) แต่ประโยคมี `Of all the players` ชี้ว่าต้องใช้ขั้นสุด `the hardest`."
+      },
+      {
+        "index": 3,
+        "text": "the more hard",
+        "is_correct": false,
+        "answer_description": "ผิดรูป `hard` เป็นคำสั้น ไม่ใช้ `more` ในการทำขั้นกว่า/สุด ใช้ `harder/the hardest` เช่น `trains the hardest`."
+      },
+      {
+        "index": 4,
+        "text": "hardly",
+        "is_correct": false,
+        "answer_description": "ผิดความหมาย `hardly` แปลว่า \"แทบจะไม่\" ไม่ได้แปลว่า \"อย่างหนัก\" ตัวอย่าง `He hardly trains` = เขาแทบไม่ได้ซ้อม ซึ่งคนละความหมายกับ `trains hard`."
+      }
+    ]
+  }
+]

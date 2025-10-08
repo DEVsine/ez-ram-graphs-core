@@ -1,0 +1,321 @@
+[
+  {
+    "question": "This book is ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "mine",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะใช้ **possessive pronoun** แทนคำนามได้โดยไม่ต้องมีนามตามหลัง โครงสร้างที่ใช้กับกริยา be คือ __be + possessive pronoun__. ตัวอย่าง: `This book is mine.` และ `That seat is mine.`"
+      },
+      {
+        "index": 2,
+        "text": "my",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **my** เป็น **possessive adjective** ต้องตามด้วยคำนาม เช่น `my book`. ถ้าจะยืนเดี่ยวหลังกริยา be ต้องใช้ `mine` เช่น `This book is mine.`"
+      },
+      {
+        "index": 3,
+        "text": "me",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **me** เป็น **object pronoun** ไม่ได้บอกความเป็นเจ้าของ เช่น `Give me the book.` ถ้าจะบอกว่าเป็นของเรา ต้องใช้ `mine` เช่น `This is mine.`"
+      },
+      {
+        "index": 4,
+        "text": "myself",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **myself** เป็น **reflexive pronoun** ใช้เน้นตัวเองหรือสะท้อนกลับ ไม่ใช่ความเป็นเจ้าของ เช่น `I did it myself.` ประโยคนี้ต้องการรูป `mine` เพื่อบอกว่าเป็นของเรา"
+      }
+    ]
+  },
+  {
+    "question": "Is that car ___?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "theirs",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **possessive pronoun** เพื่อแทน `their car` เมื่อไม่ต้องการพูดซ้ำ โครงสร้างคำถามกับ be คือ __be + possessive pronoun__ เช่น: `Is that car theirs?` หรือ `Are these keys theirs?`"
+      },
+      {
+        "index": 2,
+        "text": "their",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **their** เป็น **possessive adjective** ต้องตามด้วยคำนาม เช่น `their car`. ในตำแหน่งหลัง be แบบยืนเดี่ยวควรใช้ `theirs` เช่น `That car is theirs.`"
+      },
+      {
+        "index": 3,
+        "text": "them",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **them** เป็น **object pronoun** ไม่ได้สื่อความเป็นเจ้าของ เช่น `I saw them.` หากจะบอกว่าเป็นของพวกเขา ให้ใช้ `theirs` เช่น `Is that theirs?`"
+      },
+      {
+        "index": 4,
+        "text": "thems",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปนี้ไม่มีจริงในไวยากรณ์อังกฤษ ไม่ใช้ `thems`. รูปที่ถูกคือ `theirs` เช่น `Is that car theirs?`"
+      }
+    ]
+  },
+  {
+    "question": "Those seats are ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "ours",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **possessive pronoun** แทน `our seats` โดยไม่ต้องมีคำนามตามหลัง โครงสร้างคือ __be + possessive pronoun__ เช่น: `Those seats are ours.` และ `This table is ours.`"
+      },
+      {
+        "index": 2,
+        "text": "our",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **our** เป็น **possessive adjective** ต้องตามด้วยคำนาม เช่น `our seats`. ถ้าต้องการยืนเดี่ยวหลัง be ให้ใช้ `ours` เช่น `Those seats are ours.`"
+      },
+      {
+        "index": 3,
+        "text": "we",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **we** เป็น **subject pronoun** ไม่ใช่รูปแสดงความเป็นเจ้าของ ถ้าจะบอกว่าเป็นของพวกเรา ต้องใช้ `ours` เช่น `They are ours.` ไม่ใช่ `They are we.`"
+      },
+      {
+        "index": 4,
+        "text": "us",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **us** เป็น **object pronoun** ใช้เป็นกรรมของกริยา/บุพบท เช่น `Give us a call.` ในที่นี้ต้องใช้ `ours` เพื่อบอกความเป็นเจ้าของ"
+      }
+    ]
+  },
+  {
+    "question": "The red umbrella is Anna's, but the blue one is ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "hers",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **possessive pronoun** แทน `her umbrella` โดยไม่ต้องมีคำนามตาม โครงสร้างเทียบกันได้ชัดคือ __A's ... but ... is + possessive pronoun__ เช่น: `The red umbrella is Anna's, but the blue one is hers.`"
+      },
+      {
+        "index": 2,
+        "text": "her",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **her** เป็น **possessive adjective** ต้องตามด้วยคำนาม เช่น `her umbrella`. ตรงนี้ไม่มีคำนามตามหลัง ต้องใช้ `hers` เช่น `the blue one is hers.`"
+      },
+      {
+        "index": 3,
+        "text": "she",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **she** เป็น **subject pronoun** ไม่ใช่รูปความเป็นเจ้าของ เช่น `She is kind.` ถ้าจะพูดว่าเป็นของผู้หญิงคนนั้น ใช้ `hers` เช่น `This is hers.`"
+      },
+      {
+        "index": 4,
+        "text": "her's",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `her's` เป็นรูปสะกดผิด รูปถูกคือ **hers** ไม่มีอัปอสตรอฟี เช่น: `That bag is hers.` การเติม 's ใช้กับชื่อ/คำนาม ไม่ใช้กับ possessive pronoun"
+      }
+    ]
+  },
+  {
+    "question": "Whose jacket is this? — It's ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "his",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **possessive pronoun** ตอบคำถามความเป็นเจ้าของได้โดยยืนเดี่ยว โครงสร้างตอบคือ __It + be + possessive pronoun__ เช่น: `It's his.` หรือ `It's hers.`"
+      },
+      {
+        "index": 2,
+        "text": "him",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **him** เป็น **object pronoun** ใช้เป็นกรรมของกริยา/บุพบท เช่น `I saw him.` ถ้าใช้ตอบความเป็นเจ้าของควรเป็น `his` เช่น `It's his.`"
+      },
+      {
+        "index": 3,
+        "text": "he",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **he** เป็น **subject pronoun** ใช้เป็นประธานเท่านั้น เช่น `He is here.` ในที่นี้ต้องการรูปความเป็นเจ้าของ จึงใช้ `his`"
+      },
+      {
+        "index": 4,
+        "text": "he's",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `he's` = `he is/has` ไม่ได้บอกความเป็นเจ้าของ เช่น `He's late.` การตอบคำถามนี้ต้องใช้ `his` เช่น `It's his.`"
+      }
+    ]
+  },
+  {
+    "question": "I forgot my charger. Can I use ___?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "yours",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **possessive pronoun** แทน `your charger` เมื่อไม่อยากพูดคำนามซ้ำ โครงสร้างขออนุญาตแบบย่อคือ __use + possessive pronoun__ เช่น: `Can I use yours?` หรือ `Can I borrow yours?`"
+      },
+      {
+        "index": 2,
+        "text": "your",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **your** เป็น **possessive adjective** ต้องมีคำนามตาม เช่น `your charger`. ถ้าจะยืนเดี่ยวให้ใช้ `yours` เช่น `Can I use yours?`"
+      },
+      {
+        "index": 3,
+        "text": "you",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **you** เป็น **subject/object pronoun** ไม่ใช่รูปความเป็นเจ้าของ เช่น `I saw you.` ต้องใช้ `yours` เพื่อสื่อว่า “ของคุณ” เช่น `Is this yours?`"
+      },
+      {
+        "index": 4,
+        "text": "you's",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปนี้ไม่มีในภาษาอังกฤษ มักสะกดผิดจาก `yours`. รูปที่ถูกต้องคือ `yours` เช่น `This pen is yours.`"
+      }
+    ]
+  },
+  {
+    "question": "Our team scored two goals, and ___ scored three.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "theirs",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **possessive pronoun** ทดแทน `their team` หรือ `their side` ในบริบทกีฬา โครงสร้างเทียบผลคือ __A ..., and + possessive pronoun + verb__ เช่น: `Our team scored two, and theirs scored three.`"
+      },
+      {
+        "index": 2,
+        "text": "their",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **their** ต้องตามด้วยคำนาม เช่น `their team`. ถ้าจะยืนเดี่ยวแทนกลุ่ม/ทีม ใช้ `theirs` เช่น `Ours won, and theirs lost.`"
+      },
+      {
+        "index": 3,
+        "text": "they",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **they** เป็นประธาน แต่ที่นี่ต้องการคำที่แทนคำนามพร้อมความเป็นเจ้าของ ถ้าจะใช้ประธานจริงๆ ต้องพูดเต็มว่า `their team` ไม่ใช่ `they` ลอยๆ"
+      },
+      {
+        "index": 4,
+        "text": "them",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **them** เป็นกรรม ไม่สื่อความเป็นเจ้าของ เช่น `We played against them.` ที่ถูกต้องคือ `theirs` เพื่อสื่อ “ของพวกเขา/ทีมของเขา”"
+      }
+    ]
+  },
+  {
+    "question": "This isn't my pen; it's ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "yours",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **possessive pronoun** แทน `your pen` หลังเครื่องหมายอัฒภาคหรือกริยา be ได้ โครงสร้างคือ __It + be + possessive pronoun__ เช่น: `It's yours.` หรือ `It's hers.`"
+      },
+      {
+        "index": 2,
+        "text": "your",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **your** ต้องมีคำนามตาม เช่น `your pen`. ที่นี่หลัง be ต้องใช้รูปยืนเดี่ยว `yours` เช่น `This isn't my pen; it's yours.`"
+      },
+      {
+        "index": 3,
+        "text": "you",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **you** ไม่ได้บอกความเป็นเจ้าของ เป็นเพียงสรรพนามบุคคล เช่น `You are here.` ควรใช้ `yours` เพื่อหมายถึง “ปากกาของคุณ”"
+      },
+      {
+        "index": 4,
+        "text": "your's",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `your's` เป็นการสะกดผิด รูปที่ถูกคือ **yours** ไม่มีอัปอสตรอฟี ตัวอย่างที่ถูกต้อง: `Is this yours or mine?`"
+      }
+    ]
+  },
+  {
+    "question": "My house is smaller than ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "theirs",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เวลาพูดเปรียบเทียบและตัดคำนามซ้ำ ใช้ **possessive pronoun** แทนคำนามที่หายไป โครงสร้างคือ __than + possessive pronoun__ เช่น: `My house is smaller than theirs.`"
+      },
+      {
+        "index": 2,
+        "text": "their",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **their** ต้องมีคำนามตาม เช่น `their house`. ถ้าจะไม่พูดคำนามซ้ำ ให้ใช้ `theirs` เช่น `Ours is newer than theirs.`"
+      },
+      {
+        "index": 3,
+        "text": "they",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **they** ไม่ได้บอกความเป็นเจ้าของ และใช้เป็นประธานเท่านั้น เช่น `They live nearby.` ที่ถูกคือ `theirs` เพื่อแทน `their house`"
+      },
+      {
+        "index": 4,
+        "text": "them",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **them** เป็นกรรมของกริยา/บุพบท ไม่ใช่ความเป็นเจ้าของ เช่น `I saw them.` ต้องใช้ `theirs` ในการเปรียบเทียบเพื่อแทนคำนาม"
+      }
+    ]
+  },
+  {
+    "question": "Is this seat taken, or is it ___?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "mine",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **possessive pronoun** เพื่อถามว่าที่นั่งนี้เป็นของเราไหม โครงสร้างคำถามคือ __be + possessive pronoun__ เช่น: `Is it mine?` หรือ `Is this one yours or mine?`"
+      },
+      {
+        "index": 2,
+        "text": "my",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **my** ต้องตามด้วยคำนาม เช่น `my seat`. เมื่อยืนเดี่ยวหลัง be ให้ใช้ `mine` เช่น `Is it mine?`"
+      },
+      {
+        "index": 3,
+        "text": "me",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **me** เป็นกรรม ไม่ได้แสดงความเป็นเจ้าของ เช่น `Give me a seat.` ต้องใช้ `mine` เพื่อสื่อว่า “ของฉัน”"
+      },
+      {
+        "index": 4,
+        "text": "I'm",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `I'm` = `I am` เป็นประธาน+กริยา ไม่ใช่คำบอกความเป็นเจ้าของ ตัวอย่างที่ถูก: `Is it mine?`"
+      }
+    ]
+  },
+  {
+    "question": "After the meeting, the laptops on the table were ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "theirs",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **possessive pronoun** ยืนเดี่ยวหลังกริยา be เพื่อชี้ว่าของใคร โครงสร้างคือ __be + possessive pronoun__ เช่น: `The laptops were theirs.` หรือ `These are ours.`"
+      },
+      {
+        "index": 2,
+        "text": "their",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **their** ต้องตามด้วยคำนาม เช่น `their laptops`. หลัง be แบบยืนเดี่ยวต้องใช้ `theirs` เช่น `They are theirs.`"
+      },
+      {
+        "index": 3,
+        "text": "them",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **them** เป็นกรรม ไม่ได้แสดงความเป็นเจ้าของ เช่น `We saw them.` ถ้าจะบอกว่าเป็นของพวกเขา ใช้ `theirs`"
+      },
+      {
+        "index": 4,
+        "text": "they're",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `they're` = `they are` เป็นรูปย่อของประธาน+กริยา ไม่ใช่คำที่แสดงความเป็นเจ้าของ ตัวอย่างที่ถูก: `The laptops are theirs.`"
+      }
+    ]
+  }
+]

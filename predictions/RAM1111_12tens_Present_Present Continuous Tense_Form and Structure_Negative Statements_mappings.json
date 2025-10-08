@@ -1,0 +1,641 @@
+[
+  {
+    "question": "She ___ to music right now.",
+    "question_knowledge_ids": [
+      328,
+      329,
+      318,
+      324,
+      320,
+      340,
+      335
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is not listening",
+        "knowledge_ids": [
+          320,
+          318,
+          324,
+          340
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปปฏิเสธของ **Present Continuous** คือ __am/is/are + not + V-ing__ ดังนั้น `She is not listening to music right now.` ใช้ได้เลย. ตัวอย่างใช้งาน: `She isn't listening; she's studying.` เห็นไหมว่าโครงสร้างชัดเจนและต่อเนื่องกับเวลาปัจจุบัน."
+      },
+      {
+        "index": 2,
+        "text": "does not listen",
+        "knowledge_ids": [
+          340,
+          387,
+          398,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่คือรูป **Present Simple Negative** (`do/does not + V1`) ซึ่งใช้บอกความจริงทั่วไปหรือความถี่ ไม่ใช่เหตุการณ์กำลังเกิดขึ้นตอนนี้. ถ้าจะสื่อว่า “ตอนนี้ไม่ได้ฟัง” ต้องใช้ `is not listening` เช่น `She is not listening right now.`"
+      },
+      {
+        "index": 3,
+        "text": "isn't listen",
+        "knowledge_ids": [
+          291,
+          340,
+          320
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **isn't** ต้องเป็นกริยา `V-ing` ไม่ใช่รูปพื้นฐาน. รูปที่ถูกคือ `isn't listening` เช่น `She isn't listening now.`"
+      },
+      {
+        "index": 4,
+        "text": "are not listening",
+        "knowledge_ids": [
+          364,
+          318,
+          320
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **She** ต้องใช้ **is** ไม่ใช่ **are**. ที่ถูกต้องคือ `She is not listening...` เช่น `She isn't listening to music.`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ dinner at the moment.",
+    "question_knowledge_ids": [
+      328,
+      329,
+      318,
+      324,
+      320,
+      340,
+      335
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "am not cooking",
+        "knowledge_ids": [
+          320,
+          318,
+          324,
+          340,
+          350
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างปฏิเสธของ **I** ใน Present Continuous คือ __am + not + V-ing__. ตัวอย่าง: `I am not cooking dinner at the moment; I'm ordering food.` นี่สื่อว่าช่วงเวลานี้ไม่ได้ทำอยู่จริงๆ"
+      },
+      {
+        "index": 2,
+        "text": "is not cooking",
+        "knowledge_ids": [
+          364,
+          318,
+          320
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **I** ต้องใช้ **am** ไม่ใช่ **is**. โครงสร้างที่ถูกต้องคือ `I am not cooking...` เช่น `I am not cooking tonight.`"
+      },
+      {
+        "index": 3,
+        "text": "amn't cooking",
+        "knowledge_ids": [
+          319,
+          352
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด รูปย่อ **amn't** ไม่ใช่มาตรฐานในการเขียน/พูดทั่วไปในภาษาอังกฤษ. ใช้ `I'm not cooking` หรือ `I am not cooking` จะถูกต้องกว่า เช่น `I'm not cooking now.`"
+      },
+      {
+        "index": 4,
+        "text": "do not cook",
+        "knowledge_ids": [
+          387,
+          398,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปปฏิเสธของ **Present Simple** ใช้พูดความเคยชิน เช่น `I do not cook on weekdays.` แต่ประโยคนี้มีตัวบอกเวลา `at the moment` จึงควรใช้ `am not cooking`."
+      }
+    ]
+  },
+  {
+    "question": "They ___ the bus now; they’re walking.",
+    "question_knowledge_ids": [
+      328,
+      329,
+      318,
+      324,
+      320,
+      340,
+      335
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are not taking",
+        "knowledge_ids": [
+          320,
+          318,
+          324,
+          340,
+          263
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __are + not + V-ing__ กับประธานพหูพจน์ `They`. ประโยคที่สมบูรณ์คือ `They are not taking the bus now; they're walking.` ตัวอย่างเพิ่มเติม: `They aren't taking a taxi tonight.`"
+      },
+      {
+        "index": 2,
+        "text": "aren't take",
+        "knowledge_ids": [
+          291,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **aren't** ต้องตามด้วยรูป **V-ing** ไม่ใช่ V1. ที่ถูกคือ `aren't taking` เช่น `They aren't taking the bus.`"
+      },
+      {
+        "index": 3,
+        "text": "do not taking",
+        "knowledge_ids": [
+          291,
+          387
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอาโครงสร้าง **do not** มารวมกับ **V-ing** ซึ่งคนละสูตรกัน. Present Continuous ต้องใช้ `are not + V-ing` เช่น `are not taking` ไม่ใช่ `do not taking`."
+      },
+      {
+        "index": 4,
+        "text": "is not taking",
+        "knowledge_ids": [
+          364,
+          318,
+          263
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **They** เป็นพหูพจน์ ต้องใช้ **are** ไม่ใช่ **is**. รูปที่ถูกต้องคือ `They are not taking...`"
+      }
+    ]
+  },
+  {
+    "question": "The dog ___ under the table.",
+    "question_knowledge_ids": [
+      328,
+      329,
+      318,
+      324,
+      320,
+      340,
+      335
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is not sleeping",
+        "knowledge_ids": [
+          320,
+          318,
+          324,
+          340,
+          351
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธานเอกพจน์ `The dog` ใช้ __is + not + V-ing__. ตัวอย่าง: `The dog is not sleeping under the table; it's playing.` รูปย่อก็ใช้ได้: `The dog isn't sleeping...`"
+      },
+      {
+        "index": 2,
+        "text": "are not sleeping",
+        "knowledge_ids": [
+          364,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเอกพจน์ต้องใช้ **is** ไม่ใช่ **are**. ควรเป็น `The dog is not sleeping...`"
+      },
+      {
+        "index": 3,
+        "text": "does not sleep",
+        "knowledge_ids": [
+          387,
+          398,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด นี่คือ Present Simple Negative ใช้บอกความเคยชิน เช่น `The dog does not sleep in the daytime.` แต่ประโยคนี้กำลังพูด “ตอนนี้” ควรใช้ `is not sleeping`."
+      },
+      {
+        "index": 4,
+        "text": "isn't sleep",
+        "knowledge_ids": [
+          291,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **isn't** ต้องเป็น `V-ing`. รูปที่ถูกต้องคือ `isn't sleeping` เช่น `The dog isn't sleeping now.`"
+      }
+    ]
+  },
+  {
+    "question": "We ___ for an exam this week.",
+    "question_knowledge_ids": [
+      328,
+      329,
+      318,
+      324,
+      320,
+      340,
+      331,
+      336
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are not studying",
+        "knowledge_ids": [
+          320,
+          318,
+          324,
+          340
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __are + not + V-ing__ กับ `We`. ประโยคสมบูรณ์: `We are not studying for an exam this week.` ตัวอย่างใช้งาน: `We aren't studying tonight; we're resting.`"
+      },
+      {
+        "index": 2,
+        "text": "do not study",
+        "knowledge_ids": [
+          387,
+          398,
+          331,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Present Simple** ซึ่งเน้นกิจวัตรหรือข้อเท็จจริงทั่วไป เช่น `We do not study on Sundays.` ส่วน `this week` บ่งชี้ช่วงเวลาชั่วคราว ควรใช้ `are not studying`."
+      },
+      {
+        "index": 3,
+        "text": "are n't study",
+        "knowledge_ids": [
+          291,
+          319
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด มีสองอย่าง: เว้นวรรคผิดในรูปย่อ และใช้ V1 แทนที่จะเป็น **V-ing**. ที่ถูกคือ `aren't studying` หรือ `are not studying`."
+      },
+      {
+        "index": 4,
+        "text": "is not studying",
+        "knowledge_ids": [
+          364,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน `We` ต้องใช้ **are** ไม่ใช่ **is**. รูปถูกคือ `We are not studying...`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ with us; he's in a meeting.",
+    "question_knowledge_ids": [
+      328,
+      329,
+      318,
+      324,
+      320,
+      340,
+      335
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is not coming",
+        "knowledge_ids": [
+          320,
+          318,
+          324,
+          340,
+          351
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างปฏิเสธคือ __is + not + V-ing__ สำหรับ `He/She/It`. ตัวอย่าง: `He is not coming with us today; he's busy.` รูปย่อ: `He isn't coming with us.`"
+      },
+      {
+        "index": 2,
+        "text": "does not coming",
+        "knowledge_ids": [
+          291,
+          387
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะปนสูตร ใช้ **does not** ร่วมกับ **V-ing** ไม่ได้. ถ้าจะใช้ Present Continuous ต้องเป็น `is not coming` ไม่ใช่ `does not coming`."
+      },
+      {
+        "index": 3,
+        "text": "are not coming",
+        "knowledge_ids": [
+          364,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน `He` ต้องใช้ **is** ไม่ใช่ **are**. ควรเขียนว่า `He is not coming...`"
+      },
+      {
+        "index": 4,
+        "text": "isn't come",
+        "knowledge_ids": [
+          291,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **isn't** ต้องตามด้วย **V-ing**. ที่ถูกคือ `isn't coming` เช่น `He isn't coming today.`"
+      }
+    ]
+  },
+  {
+    "question": "You ___ TV; you’re reading.",
+    "question_knowledge_ids": [
+      328,
+      329,
+      318,
+      324,
+      320,
+      340,
+      335
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are not watching",
+        "knowledge_ids": [
+          320,
+          318,
+          324,
+          340
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __are + not + V-ing__ กับ `You`. ตัวอย่าง: `You are not watching TV right now; you're reading.` รูปย่อก็ได้: `You aren't watching TV.`"
+      },
+      {
+        "index": 2,
+        "text": "do not watching",
+        "knowledge_ids": [
+          291,
+          387
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา `do not` มาใช้กับ **V-ing** ซึ่งไม่เข้ากัน. ถ้าจะใช้ปัจจุบันต่อเนื่อง ต้องเป็น `are not watching`."
+      },
+      {
+        "index": 3,
+        "text": "is not watching",
+        "knowledge_ids": [
+          364,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน `You` ต้องใช้ **are** ไม่ใช่ **is**. รูปที่ถูกคือ `You are not watching...`"
+      },
+      {
+        "index": 4,
+        "text": "aren't watch",
+        "knowledge_ids": [
+          291,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `aren't` ต้องเป็น **V-ing** ไม่ใช่ V1. ที่ถูกต้องคือ `aren't watching` เช่น `You aren't watching TV now.`"
+      }
+    ]
+  },
+  {
+    "question": "It ___ today, so bring water.",
+    "question_knowledge_ids": [
+      328,
+      329,
+      318,
+      324,
+      320,
+      340,
+      335
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is not raining",
+        "knowledge_ids": [
+          320,
+          318,
+          324,
+          340,
+          351
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน `It` ใช้ __is + not + V-ing__. ประโยคที่สมบูรณ์คือ `It is not raining today, so bring water.` ตัวอย่างอีกอัน: `It isn't raining at the moment.`"
+      },
+      {
+        "index": 2,
+        "text": "does not rain",
+        "knowledge_ids": [
+          387,
+          397,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Present Simple ใช้กับข้อเท็จจริงทั่วไป เช่น `It does not rain in the desert.` แต่เรากำลังพูดถึงสภาพอากาศตอนนี้ ควรใช้ `is not raining`."
+      },
+      {
+        "index": 3,
+        "text": "isn't rain",
+        "knowledge_ids": [
+          291,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `isn't` ต้องใช้ **V-ing**. รูปที่ถูกต้องคือ `isn't raining` เช่น `It isn't raining now.`"
+      },
+      {
+        "index": 4,
+        "text": "are not raining",
+        "knowledge_ids": [
+          364,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเอกพจน์ `It` ต้องใช้ **is** ไม่ใช่ **are**. ควรเป็น `It is not raining...`"
+      }
+    ]
+  },
+  {
+    "question": "My friends and I ___ to the gym tonight.",
+    "question_knowledge_ids": [
+      328,
+      329,
+      318,
+      324,
+      320,
+      340,
+      335
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are not going",
+        "knowledge_ids": [
+          320,
+          318,
+          324,
+          340
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธานรวม `My friends and I` ถือเป็นพหูพจน์ ใช้ __are + not + V-ing__. เช่น `My friends and I are not going to the gym tonight.` หรือ `We aren't going tonight.`"
+      },
+      {
+        "index": 2,
+        "text": "do not going",
+        "knowledge_ids": [
+          291,
+          387
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ `do not` กับ **V-ing** ไม่ได้. ถ้าจะใช้ปัจจุบันต่อเนื่องต้องเป็น `are not going` ไม่ใช่ `do not going`."
+      },
+      {
+        "index": 3,
+        "text": "is not going",
+        "knowledge_ids": [
+          364,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเป็นพหูพจน์ ต้องใช้ **are**. ที่ถูกคือ `My friends and I are not going...`"
+      },
+      {
+        "index": 4,
+        "text": "aren't go",
+        "knowledge_ids": [
+          291,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `aren't` ต้องตามด้วย **V-ing**. รูปที่ถูกคือ `aren't going` เช่น `We aren't going tonight.`"
+      }
+    ]
+  },
+  {
+    "question": "The children ___ quietly; they’re arguing.",
+    "question_knowledge_ids": [
+      328,
+      329,
+      318,
+      324,
+      320,
+      340,
+      335
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are not playing",
+        "knowledge_ids": [
+          320,
+          318,
+          324,
+          340
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธานพหูพจน์ `The children` ใช้ __are + not + V-ing__. ตัวอย่าง: `The children are not playing quietly; they're arguing.` รูปย่อ: `The children aren't playing...`"
+      },
+      {
+        "index": 2,
+        "text": "do not play",
+        "knowledge_ids": [
+          387,
+          398,
+          411
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Present Simple ซึ่งหมายถึงความเคยชิน เช่น `They do not play chess.` แต่ประโยคนี้บอกสถานการณ์ตอนนี้ ควรใช้ `are not playing`."
+      },
+      {
+        "index": 3,
+        "text": "is not playing",
+        "knowledge_ids": [
+          364,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `The children` เป็นพหูพจน์ ต้องใช้ **are**. รูปที่ถูกคือ `The children are not playing...`"
+      },
+      {
+        "index": 4,
+        "text": "aren't play",
+        "knowledge_ids": [
+          291,
+          340
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `aren't` ต้องตามด้วย **V-ing**. ที่ถูกต้องคือ `aren't playing` เช่น `They aren't playing now.`"
+      }
+    ]
+  },
+  {
+    "question": "My brother ___ his phone now; he's working.",
+    "question_knowledge_ids": [
+      193,
+      328,
+      329,
+      320,
+      340,
+      318,
+      338
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is not using",
+        "knowledge_ids": [
+          193,
+          328,
+          320,
+          340,
+          318,
+          338
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __is + not + V-ing__ สำหรับประธานเอกพจน์ `My brother`. ประโยคเต็ม: `My brother is not using his phone now; he's working.` ตัวอย่างเพิ่ม: `He isn't using it at the moment.`"
+      },
+      {
+        "index": 2,
+        "text": "does not use",
+        "knowledge_ids": [
+          387,
+          411,
+          347
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Present Simple ซึ่งสื่อนิสัย เช่น `He does not use his phone at work (usually).` แต่คำว่า `now` ชี้สถานการณ์ตอนนี้ ควรใช้ `is not using`."
+      },
+      {
+        "index": 3,
+        "text": "isn't use",
+        "knowledge_ids": [
+          291,
+          320,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง `isn't` ต้องตามด้วย **V-ing**. รูปที่ถูกคือ `isn't using` เช่น `He isn't using his phone now.`"
+      },
+      {
+        "index": 4,
+        "text": "are not using",
+        "knowledge_ids": [
+          383,
+          338,
+          320
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเอกพจน์ต้องใช้ **is** ไม่ใช่ **are**. ควรเป็น `My brother is not using...`"
+      }
+    ]
+  }
+]

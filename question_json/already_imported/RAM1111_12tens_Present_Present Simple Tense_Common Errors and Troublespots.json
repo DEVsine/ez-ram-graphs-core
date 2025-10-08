@@ -1,0 +1,321 @@
+[
+  {
+    "question": "She ___ to school every day.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "goes",
+        "is_correct": true,
+        "answer_description": "ถูกต้องจ้า เพราะประธาน **บุคคลที่ 3 เอกพจน์ (she/he/it)** ต้องเติม `-s/-es` ที่กริยาหลัก โครงสร้างคือ __Subject (he/she/it) + V(s/es)__ เช่น: `She goes to school every day.` หรือ `He watches TV at night.`"
+      },
+      {
+        "index": 2,
+        "text": "go",
+        "is_correct": false,
+        "answer_description": "ยังไม่ถูก เพราะประธานเป็น **she** ต้องใช้กริยาที่เติม `-s/-es` ไม่ใช่รูปฐาน อย่างเช่นควรเป็น `She goes...` ไม่ใช่ `She go...` ถ้าเป็นประธานพหูพจน์ค่อยใช้ `go` เช่น `They go to school.`"
+      },
+      {
+        "index": 3,
+        "text": "is go",
+        "is_correct": false,
+        "answer_description": "ผิดเพราะเอา **be (is)** มาวางหน้า **กริยารูปฐาน** ซึ่งไม่ใช่โครงสร้างของ Present Simple สำหรับกริยาปกติ ควรใช้กริยาหลักตัวเดียว เช่น `She goes...` ไม่ใช่ `She is go...`"
+      },
+      {
+        "index": 4,
+        "text": "going",
+        "is_correct": false,
+        "answer_description": "ผิดรูปกริยา เพราะ `going` ต้องมี **be** นำหน้าเพื่อทำ Progressive (`is going`) แต่ที่นี่เราพูดถึงนิสัย/กิจวัตร (Present Simple) จึงควรเป็น `She goes to school every day.`"
+      }
+    ]
+  },
+  {
+    "question": "___ he like coffee?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "Does",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยคคำถาม Present Simple ใช้ __Does + subject + base verb__ เมื่อประธานเป็น **he/she/it** ตัวอย่าง: `Does he like coffee?` หรือ `Does she play piano?` กริยาหลักต้องเป็นรูปฐาน `like` ไม่เติม -s นะ"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "is_correct": false,
+        "answer_description": "เกือบได้! แต่ `Do` ใช้กับประธานพหูพจน์/ I/ you/ we/ they เช่น `Do they like coffee?` สำหรับ **he** ต้องใช้ `Does` และกริยาหลักคงรูปฐาน: `Does he like...?`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "is_correct": false,
+        "answer_description": "ผิดประเภท เพราะ `Is` ใช้กับกริยา **be** ไม่ได้ใช้สร้างคำถามกับกริยาปกติอย่าง `like` เช่นถ้าจะใช้ `is` ต้องเป็นโครงสร้าง `Is he late?` (adjective) ไม่ใช่ `Is he like coffee?`"
+      },
+      {
+        "index": 4,
+        "text": "Has",
+        "is_correct": false,
+        "answer_description": "`Has` ใช้กับการมี/เป็นเจ้าของ เช่น `He has a car.` แต่ไม่ใช้สร้างคำถาม Present Simple กับกริยาปกติแบบ `like` ต้องใช้ `Does` เช่น `Does he like coffee?`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ eat meat.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "doesn't",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างปฏิเสธของ Present Simple สำหรับ **he/she/it** คือ __doesn't + base verb__ เช่น `He doesn't eat meat.` หรือ `She doesn't like milk.` จำให้แม่นว่า `eat` ต้องเป็นรูปฐาน ไม่เติม -s แล้ว"
+      },
+      {
+        "index": 2,
+        "text": "don't",
+        "is_correct": false,
+        "answer_description": "ผิดกลุ่มประธาน เพราะ `don't` ใช้กับ I/ you/ we/ they เช่น `They don't eat meat.` สำหรับ **he** ต้องใช้ `doesn't` และกริยาหลักเป็นรูปฐาน `eat`"
+      },
+      {
+        "index": 3,
+        "text": "isn't",
+        "is_correct": false,
+        "answer_description": "ไม่ถูก เพราะ `isn't` เป็นรูปปฏิเสธของ **be** และต้องตามด้วย adj./noun/ V-ing ไม่ใช่กริยาปกติ เช่น `He isn't hungry.` ไม่ใช่ `He isn't eat meat.`"
+      },
+      {
+        "index": 4,
+        "text": "hasn't",
+        "is_correct": false,
+        "answer_description": "`hasn't` ใช้กับความหมาย “ไม่มี” เช่น `He hasn't a car.` (ไม่ค่อยใช้ในอเมริกันอังกฤษ) แต่ไม่ใช้ปฏิเสธกริยาปกติอย่าง `eat` ต้องใช้ `doesn't + base verb` เช่น `He doesn't eat meat.`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ happy about the result.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเมื่อมี **adjective** (`happy`) ต้องใช้กริยา **be** โครงสร้างคือ __Subject + be (am/is/are) + adjective__ เช่น `They are happy.` หรือ `She is excited.`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "is_correct": false,
+        "answer_description": "ผิดชนิดกริยา เราไม่ใช้ `do` หน้าคำคุณศัพท์ ต้องใช้ **be** เช่น `They are happy.` ถ้าใช้ `do` จะถูกเมื่อทำคำถาม/ปฏิเสธกับกริยาปกติ เช่น `They do not play.`"
+      },
+      {
+        "index": 3,
+        "text": "does",
+        "is_correct": false,
+        "answer_description": "ผิดสองเรื่อง ทั้งใช้กริยาผิดชนิด (ควรใช้ **be**) และยังไม่สอดคล้องกับประธานพหูพจน์ `They` ด้วย ควรเป็น `They are happy.`"
+      },
+      {
+        "index": 4,
+        "text": "have",
+        "is_correct": false,
+        "answer_description": "`have` ใช้กับการมี/เป็นเจ้าของ เช่น `They have a car.` แต่ถ้าจะบอกสภาพ/ความรู้สึก (adjective) ต้องใช้ **be**: `They are happy.`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ cook dinner on weekdays.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "usually",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตำแหน่งของ **adverb of frequency** (usually, often, always) กับกริยาปกติคือ __adverb + main verb__ เช่น `I usually cook dinner.` หรือ `They often study at night.`"
+      },
+      {
+        "index": 2,
+        "text": "am usually",
+        "is_correct": false,
+        "answer_description": "วางผิดโครงสร้าง `am` ใช้กับ adjective/ V-ing เช่น `I am usually busy.` แต่เมื่อมีกริยาปกติ `cook` ไม่ต้องใช้ `am` ให้วาง adverb หน้า `cook` เป็น `I usually cook...`"
+      },
+      {
+        "index": 3,
+        "text": "usually am",
+        "is_correct": false,
+        "answer_description": "สลับตำแหน่งผิด และยังใช้ `am` โดยไม่จำเป็นเมื่อมีกริยาปกติ ควรเป็น `I usually cook...` ถ้าจะใช้ `be` ต้องตามด้วย adjective เช่น `I am usually tired.`"
+      },
+      {
+        "index": 4,
+        "text": "am",
+        "is_correct": false,
+        "answer_description": "ขาดส่วนขยาย `am` อย่างเดียวไม่พอ และไม่เข้ากับกริยาปกติ `cook` โครงสร้างที่ถูกคือ `I usually cook dinner.` เพื่อบอกความถี่ของกิจวัตร"
+      }
+    ]
+  },
+  {
+    "question": "They are ___ on time for meetings.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "usually",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกับกริยา **be** ตำแหน่งของ adverb of frequency คือ __be + adverb + complement__ เช่น `They are usually on time.` หรือ `She is often late.`"
+      },
+      {
+        "index": 2,
+        "text": "are usually",
+        "is_correct": false,
+        "answer_description": "คำนี้ซ้ำกริยา `are` ทำให้ประโยคกลายเป็น `They are are usually...` ซึ่งผิด ที่ถูกคือวาง adverb หลัง `are` อย่างเดียว: `They are usually on time.`"
+      },
+      {
+        "index": 3,
+        "text": "usually are",
+        "is_correct": false,
+        "answer_description": "สลับตำแหน่งผิดกับกริยา **be** เพราะควรเป็น `are + adverb` ไม่ใช่ `adverb + are` ตัวอย่างที่ถูก: `They are usually on time.`"
+      },
+      {
+        "index": 4,
+        "text": "usual",
+        "is_correct": false,
+        "answer_description": "`usual` เป็น **adjective** ไม่ใช่ adverb จึงวางหลัง `are` โดยไม่มีคำนามตามไม่ได้ ควรใช้ adverb `usually`: `They are usually on time.`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ this song very well.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "knows",
+        "is_correct": true,
+        "answer_description": "ใช่เลย กริยา `know` เป็น **stative verb** ไม่ค่อยใช้รูปกำลังกระทำในความหมายนี้ โครงสร้างประโยคกิจวัตรคือ __Subject (he/she/it) + V(s/es)__ เช่น `He knows this song.` หรือ `She loves music.`"
+      },
+      {
+        "index": 2,
+        "text": "is knowing",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `know` เป็น stative verb ปกติไม่ใช้รูป `be + V-ing` ในความหมาย “รู้” เช่นควรใช้ `He knows this song.` ไม่ใช่ `He is knowing this song.`"
+      },
+      {
+        "index": 3,
+        "text": "know",
+        "is_correct": false,
+        "answer_description": "ยังไม่เติม -s ให้เข้ากับประธาน **he** ใน Present Simple ควรเป็น `He knows...` ถ้าเป็น `I/you/they` ถึงจะใช้ `know` เช่น `They know this song.`"
+      },
+      {
+        "index": 4,
+        "text": "is know",
+        "is_correct": false,
+        "answer_description": "โครงสร้างผิด เพราะเอา `is` มาหน้ากริยารูปฐาน ซึ่งไม่ใช่รูป Present Simple ที่ถูกต้อง ควรเป็น `He knows this song.`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ two brothers.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "has",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน **she** ต้องใช้ `has` ไม่ใช่ `have` โครงแบบคือ __he/she/it + has__ เช่น `She has two brothers.` และ `He has a bike.`"
+      },
+      {
+        "index": 2,
+        "text": "have",
+        "is_correct": false,
+        "answer_description": "ผิดการผันกริยา เพราะ `have` ใช้กับ I/you/we/they ถ้าเป็น **she** ต้องใช้ `has` เช่น `She has two brothers.`"
+      },
+      {
+        "index": 3,
+        "text": "is having",
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะในความหมาย “มี/เป็นเจ้าของ” ซึ่งใช้ Present Simple ดีกว่า: `She has two brothers.` รูป `is having` ใช้ได้ในความหมายกิจกรรมชั่วคราว เช่น `She is having lunch.`"
+      },
+      {
+        "index": 4,
+        "text": "does have",
+        "is_correct": false,
+        "answer_description": "`does have` ใช้เพื่อเน้นหรือในคำถาม/ปฏิเสธ เช่น `She doesn't have...` หรือ `Does she have...?` แต่ประโยคบอกเล่าปกติควรเป็น `She has two brothers.`"
+      }
+    ]
+  },
+  {
+    "question": "The train ___ at 9 p.m. every day.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "leaves",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ตารางเวลา/กำหนดการใช้ Present Simple โครงสร้างคือ __Subject (singular) + V(s/es)__ เช่น `The train leaves at 9 p.m.` และ `The bus arrives at noon.`"
+      },
+      {
+        "index": 2,
+        "text": "is leaving",
+        "is_correct": false,
+        "answer_description": "ผิดสำนวนสำหรับ “ตารางเวลาปกติ” เพราะมักใช้ Present Simple ไม่ใช่ Present Continuous ที่นี่ควรเป็น `The train leaves at 9 p.m.`"
+      },
+      {
+        "index": 3,
+        "text": "leave",
+        "is_correct": false,
+        "answer_description": "ไม่ตรงกับประธานเอกพจน์ `The train` ควรผันเป็น `leaves` เช่น `The train leaves...` ถ้าเป็นพหูพจน์ค่อยใช้ `leave` เช่น `The trains leave...`"
+      },
+      {
+        "index": 4,
+        "text": "does leaves",
+        "is_correct": false,
+        "answer_description": "ผิดสองชั้น เพราะถ้าใช้ `does` กริยาหลักต้องเป็นรูปฐาน `leave` ไม่เติม -s และรูปนี้ไม่ได้อยู่ในประโยคคำถาม/ปฏิเสธด้วย รูปที่ถูกคือ `The train leaves...`"
+      }
+    ]
+  },
+  {
+    "question": "There ___ many books on the table.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "are",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ `many books` เป็นพหูพจน์ จึงใช้ __There are + plural noun__ เช่น `There are many books on the table.` หรือ `There are two cats in the yard.`"
+      },
+      {
+        "index": 2,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `is` ใช้กับคำนามเอกพจน์ เช่น `There is a book on the table.` แต่ที่นี่เป็น `many books` จึงต้องใช้ `are`"
+      },
+      {
+        "index": 3,
+        "text": "be",
+        "is_correct": false,
+        "answer_description": "`be` เป็นรูปฐาน ไม่สามารถใช้ตรงๆ ในประโยคบอกเล่า ต้องผันให้ตรงกับจำนวน เช่น `There are...` หรือ `There is...`"
+      },
+      {
+        "index": 4,
+        "text": "has",
+        "is_correct": false,
+        "answer_description": "ใช้กริยาผิดชนิด โครงสร้าง `There + be` เท่านั้น ไม่ใช้ `have` เช่นควรเป็น `There are many books...` ไม่ใช่ `There has many books...`"
+      }
+    ]
+  },
+  {
+    "question": "Where ___ your parents live?",
+    "choices": [
+      {
+        "index": 1,
+        "text": "do",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธาน `your parents` เป็นพหูพจน์ ใช้ __Do + subject + base verb__ เช่น `Where do your parents live?` หรือ `Do they work here?` กริยาหลักต้องเป็นรูปฐาน `live`"
+      },
+      {
+        "index": 2,
+        "text": "does",
+        "is_correct": false,
+        "answer_description": "`does` ใช้กับ he/she/it เท่านั้น แต่ `parents` เป็นพหูพจน์ จึงต้องใช้ `do` ตัวอย่างที่ถูก: `Where do your parents live?`"
+      },
+      {
+        "index": 3,
+        "text": "are",
+        "is_correct": false,
+        "answer_description": "ผิดชนิดกริยา เพราะคำถามนี้ต้องใช้กับกริยาปกติ `live` ไม่ใช่ `be` ถ้าใช้ `are` โครงสร้างจะเป็นคนละแบบ เช่น `Where are your parents?`"
+      },
+      {
+        "index": 4,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิดทั้งชนิดและจำนวน ประธานเป็นพหูพจน์ (`parents`) และคำถามนี้ต้องใช้ `do-support` กับกริยาปกติ: `Where do your parents live?`"
+      }
+    ]
+  }
+]

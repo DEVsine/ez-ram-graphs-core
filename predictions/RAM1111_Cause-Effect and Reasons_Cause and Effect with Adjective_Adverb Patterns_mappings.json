@@ -1,0 +1,541 @@
+[
+  {
+    "question": "The movie was ___ boring that I fell asleep.",
+    "question_knowledge_ids": [
+      452,
+      526
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "so",
+        "knowledge_ids": [
+          452
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง นี่คือแพตเทิร์นผลลัพธ์ __so + adjective/adverb + that + clause__ เพื่อบอก “สาเหตุ–ผล” เช่น `The movie was so boring that I fell asleep.` สาเหตุคือมันน่าเบื่อมาก ผลคือฉันเผลอหลับไป ตัวอย่างเพิ่ม: `He ran so fast that nobody could catch him.`"
+      },
+      {
+        "index": 2,
+        "text": "such",
+        "knowledge_ids": [
+          453
+        ],
+        "is_correct": false,
+        "answer_description": "เกือบถูก แต่ **such** ต้องใช้กับคำนามในแพตเทิร์น `such + (a/an) + adjective + noun + that + clause` เช่น `It was such a boring movie that...` ประโยคนี้มีแค่ adjective (**boring**) ไม่มีคำนาม จึงใช้ **so** ดีกว่า"
+      },
+      {
+        "index": 3,
+        "text": "too",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": false,
+        "answer_description": "**too** ใช้กับโครงสร้าง `too + adj/adv + to + V` เพื่อสื่อว่า “มากเกินไปจนทำไม่ได้” เช่น `too boring to watch.` แต่ประโยคนี้ตามด้วย `that + clause` จึงต้องใช้ **so ... that** ไม่ใช่ **too ... to**"
+      },
+      {
+        "index": 4,
+        "text": "very",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": false,
+        "answer_description": "**very** แค่เน้นความหมาย ไม่ได้สร้างเหตุ–ผลชัดเจน และไม่ใช้กับ `that + clause` เช่น `The movie was very boring.` จบได้ แต่ถ้าต้องการผลลัพธ์ต้องใช้ `so ... that` เช่น `so boring that I fell asleep.`"
+      }
+    ]
+  },
+  {
+    "question": "It was ___ an interesting story that everyone listened.",
+    "question_knowledge_ids": [
+      452,
+      453,
+      526
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "such",
+        "knowledge_ids": [
+          453
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง แพตเทิร์นผลลัพธ์คือ __such + (a/an) + adjective + noun + that + clause__ เช่น `such an interesting story that everyone listened.` สาเหตุคือเรื่องน่าสนใจมาก ผลคือทุกคนตั้งใจฟัง ตัวอย่างเพิ่ม: `It was such a hot day that we stayed inside.`"
+      },
+      {
+        "index": 2,
+        "text": "so",
+        "knowledge_ids": [
+          452
+        ],
+        "is_correct": false,
+        "answer_description": "**so** ใช้กับ adjective/adverb เดี่ยวๆ ไม่ตามด้วยคำนาม เช่น `so interesting that...` แต่ในประโยคนี้มีคำนาม **story** จึงควรใช้ **such** เพื่อเชื่อมกับคำนาม: `such an interesting story that...`"
+      },
+      {
+        "index": 3,
+        "text": "too",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": false,
+        "answer_description": "**too** มักใช้กับ `too + adj + to + V` เช่น `too interesting to ignore.` แต่ประโยคนี้ใช้ `that + clause` เพื่อบอกผลลัพธ์ จึงไม่เข้ากับ **too ... to**"
+      },
+      {
+        "index": 4,
+        "text": "very",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": false,
+        "answer_description": "**very** ไม่ได้เชื่อมเหตุ–ผลกับ `that` เช่น `very interesting` เฉยๆ ถ้าจะบอกผลลัพธ์ต้องใช้ `such ... that` หรือ `so ... that` ตามโครงสร้างที่ถูกต้อง"
+      }
+    ]
+  },
+  {
+    "question": "He was ___ tired to continue working.",
+    "question_knowledge_ids": [
+      526
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "too",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง แพตเทิร์นผลลัพธ์เชิงลบคือ __too + adjective/adverb + to + verb__ แปลว่า “มากเกินไปจนทำ X ไม่ได้” เช่น `too tired to continue working.` ตัวอย่างเพิ่ม: `The box is too heavy to lift.`"
+      },
+      {
+        "index": 2,
+        "text": "so",
+        "knowledge_ids": [
+          452
+        ],
+        "is_correct": false,
+        "answer_description": "ถ้าใช้ **so** ต้องตามด้วย `that + clause` เช่น `so tired that he couldn't continue working.` แต่ในประโยคนี้ตามด้วย `to + V` จึงไม่เข้ารูปแบบของ **so ... that**"
+      },
+      {
+        "index": 3,
+        "text": "very",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": false,
+        "answer_description": "**very** แค่ขยายความ ไม่ได้บอกผลลัพธ์ว่า “ทำไม่ได้” เช่น `very tired to continue` ผิดโครงสร้าง ต้องใช้ **too ... to** หรือ `so ... that` แทน"
+      },
+      {
+        "index": 4,
+        "text": "enough",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "**enough** ใช้กับรูป `adj + enough to + V` เพื่อสื่อว่า “พอที่จะทำได้” ซึ่งตรงข้ามกับใจความของประโยคนี้ ตัวอย่างที่ถูกกับ enough: `strong enough to lift it.`"
+      }
+    ]
+  },
+  {
+    "question": "The soup is ___ enough to burn your tongue.",
+    "question_knowledge_ids": [
+      526
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "hot",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้แพตเทิร์นผลลัพธ์เชิงบวก __adjective + enough + to + verb__ เช่น `hot enough to burn your tongue.` หมายถึงร้อนพอจนทำให้ลิ้นพองได้ ตัวอย่างเพิ่ม: `He is old enough to drive.`"
+      },
+      {
+        "index": 2,
+        "text": "very",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": false,
+        "answer_description": "**very** ไม่สามารถวางหน้า `enough` ได้ (`very enough` ผิด) และไม่สร้างความหมาย “พอที่จะ...” รูปที่ถูกคือ `adj + enough` เช่น `hot enough`"
+      },
+      {
+        "index": 3,
+        "text": "too",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": false,
+        "answer_description": "**too** เป็นอีกแพตเทิร์นหนึ่งคือ `too + adj + to + V` เช่น `too hot to eat.` แต่ในประโยคนี้มีคำว่า **enough** แล้ว จึงต้องใช้ `adj + enough` ไม่ใช่ `too + adj`"
+      },
+      {
+        "index": 4,
+        "text": "so",
+        "knowledge_ids": [
+          452
+        ],
+        "is_correct": false,
+        "answer_description": "ถ้าใช้ **so** จะต้องเป็น `so + adj + that + clause` เช่น `so hot that it could burn your tongue.` แต่ช่องว่างนี้ต้องการคำคุณศัพท์ก่อน `enough` จึงไม่ใช่ **so**"
+      }
+    ]
+  },
+  {
+    "question": "We had ___ time to finish the test.",
+    "question_knowledge_ids": [
+      526
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "enough",
+        "knowledge_ids": [],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง แพตเทิร์นคือ __enough + noun + to + verb__ เช่น `enough time to finish the test.` แปลว่ามีเวลาพอที่จะทำข้อสอบเสร็จ ตัวอย่างเพิ่ม: `We have enough money to buy it.`"
+      },
+      {
+        "index": 2,
+        "text": "sufficiently",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": false,
+        "answer_description": "**sufficiently** เป็น adverb และมักใช้หน้า adjective/participle เช่น `sufficiently large.` แต่หน้า `time` (คำนาม) ควรใช้ `enough + noun` เช่น `enough time` จะธรรมชาติกว่า"
+      },
+      {
+        "index": 3,
+        "text": "too",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": false,
+        "answer_description": "**too** สื่อ “มากเกินไป” ไม่ใช่ “เพียงพอ” และไม่เข้ากับ `noun + to + V` แบบนี้ ถ้าจะใช้ **too** ต้องเป็นรูป `too + adj/adv + to + V` เช่น `too tired to continue.`"
+      },
+      {
+        "index": 4,
+        "text": "so",
+        "knowledge_ids": [
+          452
+        ],
+        "is_correct": false,
+        "answer_description": "ถ้าใช้ **so** กับผลลัพธ์ จะเป็น `so + adj/adv + that + clause` ไม่ใช่ `so + noun` ในประโยคนี้ ต้องการ `enough + noun` เพื่อสื่อความหมาย “พอที่จะ...”"
+      }
+    ]
+  },
+  {
+    "question": "The match was canceled ___ the heavy rain.",
+    "question_knowledge_ids": [
+      447,
+      454,
+      449,
+      450,
+      458,
+      459
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "because of",
+        "knowledge_ids": [
+          454
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __because of + noun/gerund__ เพื่อบอกสาเหตุ เช่น `because of the heavy rain.` ตัวอย่างเพิ่ม: `The flight was delayed because of fog.` โครงสร้างนี้ชี้เหตุ (ฝนตกหนัก) และผล (ยกเลิกการแข่งขัน) ชัดเจน"
+      },
+      {
+        "index": 2,
+        "text": "because",
+        "knowledge_ids": [
+          447,
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "**because** ต้องตามด้วยประโยค (subject + verb) เช่น `because it rained heavily.` แต่หลังช่องว่างเป็นคำนามวลี (**the heavy rain**) จึงควรใช้ `because of`"
+      },
+      {
+        "index": 3,
+        "text": "so",
+        "knowledge_ids": [
+          449,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "**so** ใช้เพื่อบอกผล และมักเชื่อมสองประโยค เช่น `It rained heavily, so the match was canceled.` ที่นี่ต้องการส่วนแสดง “สาเหตุ” หน้าเนื้อหาเดิม จึงไม่ใช่ **so**"
+      },
+      {
+        "index": 4,
+        "text": "therefore",
+        "knowledge_ids": [
+          450,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "**therefore** เป็น adverb เชื่อมผลลัพธ์ระหว่างประโยค เช่น `It rained; therefore, the match was canceled.` แต่ในช่องว่างนี้เราต้องการบุพบทบอกสาเหตุ (`because of + noun`)"
+      }
+    ]
+  },
+  {
+    "question": "She missed the bus; ___, she arrived late.",
+    "question_knowledge_ids": [
+      450,
+      458,
+      447
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "therefore",
+        "knowledge_ids": [
+          450,
+          458
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้คำวิเศษณ์เชื่อมผลลัพธ์ __therefore__ เพื่อบอกเหตุ–ผลระหว่างประโยค เช่น `She missed the bus; therefore, she arrived late.` ตัวอย่างเพิ่ม: `It rained; therefore, the game was postponed.`"
+      },
+      {
+        "index": 2,
+        "text": "because",
+        "knowledge_ids": [
+          447
+        ],
+        "is_correct": false,
+        "answer_description": "**because** ใช้ขึ้นต้นประโยคสาเหตุ ไม่ใช่คั่นกลางเพื่อบอกผล เช่น `She arrived late because she missed the bus.` รูปในโจทย์ต้องการคำเชื่อมผลลัพธ์หลังเครื่องหมายอัฒภาค"
+      },
+      {
+        "index": 3,
+        "text": "such that",
+        "knowledge_ids": [
+          452,
+          453
+        ],
+        "is_correct": false,
+        "answer_description": "**such that** มักใช้ในภาษาทางการ/เทคนิค และไม่ใช่ตัวเชื่อมผลระหว่างสองประโยคอย่างธรรมชาติ ตัวอย่างที่ผิดธรรมชาติ: `She missed the bus; such that she arrived late.` ควรใช้ `therefore` หรือ `as a result`"
+      },
+      {
+        "index": 4,
+        "text": "due to",
+        "knowledge_ids": [
+          455
+        ],
+        "is_correct": false,
+        "answer_description": "**due to** เป็นวลีบุพบทที่ใช้กับคำนาม เช่น `due to traffic.` ไม่สามารถวางเดี่ยวๆ คั่นประโยคหลังอัฒภาคเพื่อบอกผลได้ ควรใช้คำวิเศษณ์เชื่อมอย่าง `therefore`"
+      }
+    ]
+  },
+  {
+    "question": "The new policy will ___ increased productivity.",
+    "question_knowledge_ids": [
+      458,
+      451
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "result in",
+        "knowledge_ids": [
+          451
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง แพตเทิร์นสาเหตุ–ผลคือ __result in + noun__ แปลว่า “ก่อให้เกิด/ส่งผลให้” เช่น `will result in increased productivity.` ตัวอย่างเพิ่ม: `Poor planning can result in delays.`"
+      },
+      {
+        "index": 2,
+        "text": "result from",
+        "knowledge_ids": [
+          451
+        ],
+        "is_correct": false,
+        "answer_description": "**result from** ใช้บอกแหล่งที่มาของผล (คือสาเหตุ) เช่น `Delays result from poor planning.` แต่ในประโยคนี้ต้องการกริยาที่ชี้ว่า “นโยบายใหม่จะก่อให้เกิดอะไร” จึงต้องใช้ `result in`"
+      },
+      {
+        "index": 3,
+        "text": "lead from",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "วลี **lead from** ไม่ใช้ในความหมายเหตุ–ผลแบบนี้ ควรใช้ `lead to + noun` เช่น `will lead to increased productivity.` ดังนั้น `lead from` จึงผิดโครงสร้างและความหมาย"
+      },
+      {
+        "index": 4,
+        "text": "due to",
+        "knowledge_ids": [
+          455
+        ],
+        "is_correct": false,
+        "answer_description": "**due to** เป็นวลีบุพบท ต้องวางหลัง `be` หรือใช้หน้า `noun` เพื่อบอกสาเหตุ เช่น `The delay was due to traffic.` ที่นี่ต้องการกริยาแสดงผลลัพธ์ จึงไม่เหมาะ"
+      }
+    ]
+  },
+  {
+    "question": "He spoke ___ that no one could understand.",
+    "question_knowledge_ids": [
+      452,
+      526
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "so quickly",
+        "knowledge_ids": [
+          452
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้แพตเทิร์นผลลัพธ์ __so + adverb + that + clause__ เช่น `so quickly that no one could understand.` สาเหตุ: พูดเร็วมาก ผล: ไม่มีใครเข้าใจ ตัวอย่างเพิ่ม: `She worked so hard that she got promoted.`"
+      },
+      {
+        "index": 2,
+        "text": "such quickly",
+        "knowledge_ids": [
+          453
+        ],
+        "is_correct": false,
+        "answer_description": "**such** ต้องตามด้วยคำนาม (`such + adj + noun`) ไม่ใช้กับ adverb เดี่ยวๆ เช่น `such quick speech that...` ถึงจะพอได้ แต่คำตอบในช่องนี้ควรเป็น `so quickly`"
+      },
+      {
+        "index": 3,
+        "text": "too quickly",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": false,
+        "answer_description": "**too ... to** ใช้กับ `to + V` เช่น `too quickly to be understood.` แต่ประโยคนี้ตามด้วย `that + clause` จึงต้องใช้ `so ... that` แทน"
+      },
+      {
+        "index": 4,
+        "text": "very quickly",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": false,
+        "answer_description": "**very** ไม่สามารถเชื่อมกับ `that + clause` เพื่อบอกผลลัพธ์ได้ เช่น `very quickly that...` ผิดรูป ต้องใช้ `so + adverb + that` เพื่อสื่อเหตุ–ผล"
+      }
+    ]
+  },
+  {
+    "question": "Her careless driving resulted ___ an accident.",
+    "question_knowledge_ids": [
+      548,
+      451
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "in",
+        "knowledge_ids": [
+          548,
+          451
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง วลีผลลัพธ์คือ __result in + noun__ แปลว่า “ทำให้เกิด/ส่งผลให้” เช่น `resulted in an accident.` ตัวอย่างเพิ่ม: `The storm resulted in power outages.`"
+      },
+      {
+        "index": 2,
+        "text": "from",
+        "knowledge_ids": [
+          451
+        ],
+        "is_correct": false,
+        "answer_description": "**result from** ใช้บอกว่า “เกิดจาก” สาเหตุ เช่น `The accident resulted from careless driving.` แต่ในประโยคนี้ประธานคือการขับรถประมาท (สาเหตุ) ต้องชี้ผลด้วย `result in`"
+      },
+      {
+        "index": 3,
+        "text": "to",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ไม่ใช้ **result to** ในความหมายนี้ โครงสร้างที่ถูกต้องคือ `result in + noun` หรือ `result from + noun` เท่านั้น เช่น `result in an accident.`"
+      },
+      {
+        "index": 4,
+        "text": "of",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "**of** ไม่ใช่บุพบทที่ใช้กับกริยา `result` เพื่อบอกเหตุ–ผล โครงสร้างมาตรฐานคือ `result in` (ชี้ผล) และ `result from` (ชี้เหตุ)"
+      }
+    ]
+  },
+  {
+    "question": "He runs ___ fast to be caught.",
+    "question_knowledge_ids": [
+      452,
+      453
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "too",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง แพตเทิร์นผลลัพธ์เชิงลบคือ __too + adverb/adjective + to + verb__ เช่น `too fast to be caught.` ความหมายคือ “เร็วเกินไปจนจับไม่ได้” ตัวอย่างเพิ่ม: `The water is too cold to swim in.`"
+      },
+      {
+        "index": 2,
+        "text": "so",
+        "knowledge_ids": [
+          452
+        ],
+        "is_correct": false,
+        "answer_description": "ถ้าใช้ **so** ต้องตามด้วย `that + clause` เช่น `so fast that nobody can catch him.` แต่ในประโยคนี้เป็น `to + V` จึงต้องใช้ `too ... to`"
+      },
+      {
+        "index": 3,
+        "text": "very",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": false,
+        "answer_description": "**very** ไม่แสดงผลลัพธ์ว่า “ทำไม่ได้” และไม่เข้ากับ `to + V` แบบนี้ เช่น `very fast to be caught` ผิดรูป ควรใช้ `too fast to be caught`"
+      },
+      {
+        "index": 4,
+        "text": "such",
+        "knowledge_ids": [
+          453
+        ],
+        "is_correct": false,
+        "answer_description": "**such** ใช้กับคำนาม: `such + (a/an) + adj + noun + that + clause` ไม่ใช้กับ adverb อย่าง `fast` เดี่ยวๆ ดังนั้นไม่เข้ากับรูปประโยคนี้"
+      }
+    ]
+  },
+  {
+    "question": "She spoke ___ that everyone in the hall could hear her.",
+    "question_knowledge_ids": [
+      452,
+      453
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "so loudly",
+        "knowledge_ids": [
+          452
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้แพตเทิร์นผลลัพธ์ __so + adverb + that + clause__ เช่น `so loudly that everyone could hear.` สาเหตุ: พูดดังมาก ผล: ทุกคนได้ยิน ตัวอย่างเพิ่ม: `He typed so slowly that he missed the deadline.`"
+      },
+      {
+        "index": 2,
+        "text": "loud enough",
+        "knowledge_ids": [
+          452
+        ],
+        "is_correct": false,
+        "answer_description": "แม้ `adj/adv + enough + to + V` จะถูกหลัก แต่ประโยคนี้ตามด้วย `that + clause` จึงต้องใช้ `so ... that` หากอยากใช้ `enough` ต้องเปลี่ยนเป็น `She spoke loudly enough to be heard.`"
+      },
+      {
+        "index": 3,
+        "text": "such loudly",
+        "knowledge_ids": [
+          453
+        ],
+        "is_correct": false,
+        "answer_description": "**such** ต้องใช้กับคำนาม (`such + adj + noun`) ไม่ใช้กับ adverb อย่าง `loudly` โครงสร้างนี้จึงผิด เช่น `such a loud voice that...` จะถูกกว่า"
+      },
+      {
+        "index": 4,
+        "text": "too loudly",
+        "knowledge_ids": [
+          526
+        ],
+        "is_correct": false,
+        "answer_description": "`too + adv + to + V` ใช้กับ `to + V` เช่น `too loudly to ignore.` แต่ประโยคนี้ใช้ `that + clause` เพื่อบอกผลลัพธ์ จึงต้องใช้ `so + adv + that`"
+      }
+    ]
+  }
+]

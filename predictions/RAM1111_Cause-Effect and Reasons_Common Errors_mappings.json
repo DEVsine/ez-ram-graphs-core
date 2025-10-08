@@ -1,0 +1,522 @@
+[
+  {
+    "question": "I stayed home ___ it was raining.",
+    "question_knowledge_ids": [
+      447,
+      449,
+      454,
+      455,
+      459,
+      457
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "because",
+        "knowledge_ids": [
+          447,
+          457
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __because + clause (ประโยค)__ เพื่อบอกสาเหตุ เช่น `because it was raining` มีประธาน+กริยา ครบถ้วน ตัวอย่าง: `I stayed home because it was raining.` หรือ `She left early because she was sick.`"
+      },
+      {
+        "index": 2,
+        "text": "because of",
+        "knowledge_ids": [
+          454,
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **because of** ต้องตามด้วย **นาม/วลี** ไม่ใช่ประโยค เช่น `because of the rain` ไม่ใช่ `because of it was raining`. ถ้าจะใช้ because of ให้แก้เป็น `I stayed home because of the rain.`"
+      },
+      {
+        "index": 3,
+        "text": "so",
+        "knowledge_ids": [
+          449,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในช่องว่างนี้ เพราะ **so** ใช้เชื่อม “ผลลัพธ์” ไม่ใช่ “สาเหตุ” โครงสร้างจะเป็น `... , so + result` เช่น `It was raining, so I stayed home.` แต่ประโยคนี้ต้องการใส่เหตุในช่องว่าง"
+      },
+      {
+        "index": 4,
+        "text": "due to",
+        "knowledge_ids": [
+          455,
+          461
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **due to** ใช้เหมือนคำคุณศัพท์ขยายคำนาม และควรตามด้วย **นาม/วลี** เช่น `due to the rain`. หากจะเริ่มด้วย due to ต้องเขียนเป็น `I stayed home due to the rain.` ไม่ใช่ `due to it was raining`"
+      }
+    ]
+  },
+  {
+    "question": "He didn't come ___ his illness.",
+    "question_knowledge_ids": [
+      454,
+      447,
+      459,
+      457
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "because of",
+        "knowledge_ids": [
+          454
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ __because of + noun/gerund__ เช่น `because of his illness` หรือ `because of being sick`. ตัวอย่าง: `He didn't come because of his illness.` และ `The match was canceled because of the rain.`"
+      },
+      {
+        "index": 2,
+        "text": "because",
+        "knowledge_ids": [
+          447,
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **because** ต้องตามด้วย **clause** (มีประธาน+กริยา) เช่น `because he was ill` ไม่ใช่ `because his illness`. ถ้าจะใช้ because ให้เขียนว่า `He didn't come because he was ill.`"
+      },
+      {
+        "index": 3,
+        "text": "so",
+        "knowledge_ids": [
+          449
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **so** ใช้บอกผลลัพธ์ เช่น `He was ill, so he didn't come.` แต่ในช่องว่างนี้ต้องการคำบอก “สาเหตุ” ที่วางหน้าวลีคำนาม (`his illness`) จึงต้องเป็น `because of`"
+      },
+      {
+        "index": 4,
+        "text": "therefore",
+        "knowledge_ids": [
+          450
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในโครงสร้างนี้ เพราะ **therefore** เป็น **conjunctive adverb** ใช้เชื่อมประโยคกับประโยค โดยมักใช้ `; therefore,` เช่น `He was ill; therefore, he didn't come.` ไม่ใช้เติมในช่องว่างหน้า `his illness` แบบนี้"
+      }
+    ]
+  },
+  {
+    "question": "She was tired, ___ she went to bed early.",
+    "question_knowledge_ids": [
+      449,
+      458,
+      457
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "so",
+        "knowledge_ids": [
+          449,
+          458
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างผลลัพธ์คือ __clause , so + clause__ เช่น `She was tired, so she went to bed early.` ใช้ **so** เพื่อบอก “ผล” ที่เกิดตามมาอีกประโยคหนึ่ง ตัวอย่างเพิ่ม: `It rained, so we stayed inside.`"
+      },
+      {
+        "index": 2,
+        "text": "because",
+        "knowledge_ids": [
+          447
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **because** ต้องตามด้วยประโยคสาเหตุ ไม่ใช่ผลลัพธ์แบบนี้ หากอยากใช้ because ให้กลับลำดับเป็น `She went to bed early because she was tired.` หรือ `Because she was tired, she went to bed early.`"
+      },
+      {
+        "index": 3,
+        "text": "because of",
+        "knowledge_ids": [
+          454
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **because of** ต้องตามด้วย **นาม/วลี** ไม่ใช่ตามด้วยประโยคผลลัพธ์ เช่น `because of tiredness` ต้องสลับโครงสร้างเป็น `She went to bed early because of tiredness.`"
+      },
+      {
+        "index": 4,
+        "text": "therefore",
+        "knowledge_ids": [
+          450,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "เกือบถูกแต่ไม่เข้ากับเครื่องหมายวรรคตอนนี้ ถ้าใช้ **therefore** ควรเป็น `She was tired; therefore, she went to bed early.` ไม่ใช่คอมม่าตัวเดียวหน้า therefore แบบ `, therefore` โดยไม่ใช้เครื่องหมายให้ถูกต้อง"
+      }
+    ]
+  },
+  {
+    "question": "___ he was late, he missed the bus.",
+    "question_knowledge_ids": [
+      447,
+      457,
+      455,
+      449,
+      450
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Because",
+        "knowledge_ids": [
+          447
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __Because + clause , clause__ เพื่อขึ้นประโยคสาเหตุที่นำหน้า เช่น `Because he was late, he missed the bus.` ตัวอย่างเพิ่ม: `Because it rained, the game was canceled.`"
+      },
+      {
+        "index": 2,
+        "text": "So",
+        "knowledge_ids": [
+          449
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **So** ไม่ได้ใช้เป็นตัวขึ้นประโยคสาเหตุ แต่ใช้เชื่อมเพื่อบอกผล เช่น `He was late, so he missed the bus.` อย่าสับสนระหว่างตำแหน่งของสาเหตุ (because) กับผล (so)"
+      },
+      {
+        "index": 3,
+        "text": "Therefore",
+        "knowledge_ids": [
+          450
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในตำแหน่งนี้ เพราะ **Therefore** เป็นคำเชื่อมผลที่ใช้ระหว่างประโยค เช่น `He was late; therefore, he missed the bus.` ไม่ใช้ขึ้นต้นอนุประโยคสาเหตุแบบ `Therefore he was late, ...`"
+      },
+      {
+        "index": 4,
+        "text": "Due to",
+        "knowledge_ids": [
+          455,
+          461
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **due to** ควรตามด้วย **นาม/วลี** เพื่อขยายคำนาม เช่น `Due to his lateness, he missed the bus.` แต่ที่นี่ตามด้วยประโยค (`he was late`) จึงไม่ถูก"
+      }
+    ]
+  },
+  {
+    "question": "He missed the train; ___, he arrived late.",
+    "question_knowledge_ids": [
+      450,
+      451,
+      458
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "therefore",
+        "knowledge_ids": [
+          450
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __; therefore,__ เป็น **conjunctive adverb** เชื่อม “เหตุ → ผล” ระหว่างประโยคเต็ม เช่น `He missed the train; therefore, he arrived late.` อีกตัวอย่าง: `It rained heavily; therefore, the match was canceled.`"
+      },
+      {
+        "index": 2,
+        "text": "because",
+        "knowledge_ids": [
+          447
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **because** ใช้เชื่อมสาเหตุเข้ากับประโยคหลัก ไม่ได้ใช้หลังอัฒภาคแบบนี้ โครงสร้างควรเป็น `He arrived late because he missed the train.`"
+      },
+      {
+        "index": 3,
+        "text": "that's why",
+        "knowledge_ids": [
+          451
+        ],
+        "is_correct": false,
+        "answer_description": "แม้ความหมายใกล้เคียง แต่รูปแบบหลังอัฒภาคมักใช้ **conjunctive adverb** เช่น `therefore` มากกว่า หากจะใช้ `that's why` ควรเขียนเป็น `He missed the train. That's why he arrived late.` แยกเป็นสองประโยค"
+      },
+      {
+        "index": 4,
+        "text": "because of",
+        "knowledge_ids": [
+          454
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **because of** ต้องตามด้วยคำนาม/วลี ไม่ใช่ขึ้นต้นส่วนเชื่อมผลหลังอัฒภาค ถ้าจะใช้ให้เขียนว่า `He arrived late because of the missed train.`"
+      }
+    ]
+  },
+  {
+    "question": "The reason I called you ___ I need your help.",
+    "question_knowledge_ids": [
+      457,
+      459
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is that",
+        "knowledge_ids": [
+          457
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างมาตรฐานคือ __The reason + clause + is that + clause__ เช่น `The reason I called you is that I need your help.` ตัวอย่างเพิ่ม: `The reason we left early is that we had another meeting.`"
+      },
+      {
+        "index": 2,
+        "text": "is because",
+        "knowledge_ids": [
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเชิงหลักการเพราะซ้ำซ้อน (redundant) “reason” กับ “because” ซ้ำความหมาย ไม่ควรใช้ `The reason ... is because ...` ให้แก้เป็น `is that` จะชัดและเป็นทางการกว่า"
+      },
+      {
+        "index": 3,
+        "text": "because",
+        "knowledge_ids": [
+          447
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในโครงสร้างนี้ เพราะขาดกริยาเชื่อม `is` และรูปแบบไม่ครบ ถ้าจะใช้ because ให้สลับเป็น `I called you because I need your help.`"
+      },
+      {
+        "index": 4,
+        "text": "due to",
+        "knowledge_ids": [
+          455
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **due to** ต้องตามด้วยนาม/วลี ไม่ใช่ตามด้วยประโยค `I need your help` ถ้าจะใช้โครงสร้างนี้ควรเป็น `The reason ... is that ...`"
+      }
+    ]
+  },
+  {
+    "question": "Flooding often ___ heavy rain.",
+    "question_knowledge_ids": [
+      451,
+      458,
+      447,
+      454
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "results from",
+        "knowledge_ids": [
+          451
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __result from + cause__ = “เกิดจาก” เช่น `Flooding results from heavy rain.` ตัวอย่างเพิ่ม: `Many problems result from poor planning.`"
+      },
+      {
+        "index": 2,
+        "text": "results in",
+        "knowledge_ids": [
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดทิศ เพราะ **result in + effect** = “ก่อให้เกิด” แต่ประธานคือ `Flooding` (ผล) ไม่ใช่สาเหตุ จึงใช้ `result from` ไม่ใช่ `result in` เช่น `Heavy rain results in flooding.` จึงกลับกัน"
+      },
+      {
+        "index": 3,
+        "text": "causes",
+        "knowledge_ids": [
+          451
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `Flooding` ไม่ได้ “ทำให้เกิด” ฝนหนัก ในความเป็นจริงเป็นผลของฝนหนัก ถ้าอยากใช้ `cause` ให้เขียนว่า `Heavy rain causes flooding.`"
+      },
+      {
+        "index": 4,
+        "text": "because of",
+        "knowledge_ids": [
+          454,
+          459
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในเชิงรูปประโยค เพราะจะได้ `Flooding often because of heavy rain` ซึ่งขาดกริยาเอก ภาษาจริงต้องเขียนเต็มว่า `Flooding often happens because of heavy rain.` หรือใช้ `results from` จะกระชับกว่า"
+      }
+    ]
+  },
+  {
+    "question": "The new policy ___ customers confused.",
+    "question_knowledge_ids": [
+      451,
+      458
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "makes",
+        "knowledge_ids": [
+          451
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __make + object + adjective__ เช่น `makes customers confused` หรือดีกว่าเป็น `makes customers confused/confused customers` ตัวอย่าง: `The announcement made everyone nervous.`"
+      },
+      {
+        "index": 2,
+        "text": "causes",
+        "knowledge_ids": [
+          451
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในโครงสร้างนี้ เพราะ `cause` ไม่ตามด้วย `object + adjective` ต้องเป็น `cause + noun` เช่น `causes confusion among customers.` ถ้าจะใช้ cause ให้เขียนว่า `The new policy causes confusion.`"
+      },
+      {
+        "index": 3,
+        "text": "results",
+        "knowledge_ids": [
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `result` ในฐานะกริยาต้องใช้เป็น `result in + noun` ไม่ใช่ตามด้วย `object + adjective` รูปที่ถูกคือ `The new policy results in confusion.`"
+      },
+      {
+        "index": 4,
+        "text": "leads",
+        "knowledge_ids": [
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะโครงสร้างไม่ครบ ต้องเป็น `lead to + noun` ไม่ใช่ตามด้วย `object + adjective` เช่น `The new policy leads to confusion.` ดังนั้นตัวเลือกนี้ยังขาดคำบุพบท `to` และคำนาม"
+      }
+    ]
+  },
+  {
+    "question": "It was ___ a difficult exam that many students failed.",
+    "question_knowledge_ids": [
+      452,
+      453,
+      458
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "such",
+        "knowledge_ids": [
+          453
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง __such + a/an + adjective + noun + that + result__ เช่น `such a difficult exam that ...` ตัวอย่าง: `It was such a hot day that we stayed inside.`"
+      },
+      {
+        "index": 2,
+        "text": "so",
+        "knowledge_ids": [
+          452
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในที่นี้ เพราะ **so** ใช้กับคำคุณศัพท์/กริยาวิเศษณ์เดี่ยวๆ: `so + adj/adv + that` เช่น `so difficult that...` แต่มีคำนาม `exam` จึงต้องใช้ `such + a/an + adj + noun`"
+      },
+      {
+        "index": 3,
+        "text": "therefore",
+        "knowledge_ids": [
+          450
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **therefore** เป็นคำเชื่อมผลระหว่างประโยค ไม่ใช่ตัวเติมในโครงสร้าง `such ... that` ถ้าจะใช้ต้องแยกประโยค เช่น `It was a very difficult exam; therefore, many students failed.`"
+      },
+      {
+        "index": 4,
+        "text": "because",
+        "knowledge_ids": [
+          447
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้างนี้ต้องการรูปแบบ **เหตุ-ผลแบบเน้นระดับ** (`such ... that`) ไม่ใช่การบอกสาเหตุทั่วไปแบบ `because`. ถ้าใช้ because จะได้ประโยคอีกแบบ เช่น `Many students failed because the exam was difficult.`"
+      }
+    ]
+  },
+  {
+    "question": "We left early ___ avoid the traffic.",
+    "question_knowledge_ids": [
+      481
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "to",
+        "knowledge_ids": [
+          481
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ __to + base verb__ เพื่อบอก “จุดประสงค์/เหตุผล” แบบสั้น เช่น `to avoid` ตัวอย่าง: `We left early to avoid the traffic.` หรือ `She moved to study abroad.`"
+      },
+      {
+        "index": 2,
+        "text": "for",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะถ้าใช้ **for** ต้องตามด้วย **คำนาม/gerund** เช่น `for avoiding the traffic` แต่เป็นทางการและฟังไม่ธรรมชาติเท่า `to avoid` ในประโยคนี้"
+      },
+      {
+        "index": 3,
+        "text": "because",
+        "knowledge_ids": [
+          447
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะในช่องว่างนี้ ถ้าจะใช้ **because** ต้องตามด้วยประโยค เช่น `because we wanted to avoid the traffic.` แต่โครงสร้างที่กระชับและธรรมชาติคือ `to avoid`"
+      },
+      {
+        "index": 4,
+        "text": "because of",
+        "knowledge_ids": [
+          454
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **because of** ต้องตามด้วยคำนาม/วลี ไม่ใช่กริยารูปธรรมดา ถ้าจะใช้ต้องเขียนเป็น `because of the traffic` ซึ่งเปลี่ยนความหมายจาก \"จุดประสงค์\" เป็น \"สาเหตุ\""
+      }
+    ]
+  },
+  {
+    "question": "Because it was raining, ___ we stayed indoors.",
+    "question_knowledge_ids": [
+      447,
+      458,
+      514
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Ø (leave it blank)",
+        "knowledge_ids": [
+          514
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ห้ามใช้โครงสร้างซ้ำซ้อนแบบ `because ... , so ...` ให้ใช้ __Because + clause , clause__ โดยไม่ต้องเติมคำเชื่อมผลอีก เช่น `Because it was raining, we stayed indoors.`"
+      },
+      {
+        "index": 2,
+        "text": "so",
+        "knowledge_ids": [
+          449,
+          458
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นความผิดพลาดยอดฮิต `because ... , so ...` ซ้ำความหมายของเหตุ-ผลเกินไป ควรเลือกอย่างใดอย่างหนึ่ง เช่น `Because it was raining, we stayed indoors.` หรือ `It was raining, so we stayed indoors.`"
+      },
+      {
+        "index": 3,
+        "text": "therefore",
+        "knowledge_ids": [
+          450,
+          458,
+          461
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใส่ **therefore** จะกลายเป็นซ้ำซ้อนเช่นกัน และโครงสร้างเครื่องหมายวรรคตอนจะผิด ถ้าจะใช้ therefore ไม่ต้องมี because: `It was raining; therefore, we stayed indoors.`"
+      },
+      {
+        "index": 4,
+        "text": "that's why",
+        "knowledge_ids": [
+          458,
+          461
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะจะซ้ำความหมายกับ `Because ...` เช่นเดียวกับ `so`. ถ้าจะใช้ `that's why` ให้ตัด because ออก: `It was raining. That's why we stayed indoors.`"
+      }
+    ]
+  }
+]

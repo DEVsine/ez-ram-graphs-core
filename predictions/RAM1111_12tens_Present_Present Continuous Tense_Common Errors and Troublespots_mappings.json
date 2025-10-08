@@ -1,0 +1,548 @@
+[
+  {
+    "question": "She ___ to her mom right now.",
+    "question_knowledge_ids": [
+      328,
+      329,
+      335,
+      318,
+      324,
+      340,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is talking",
+        "knowledge_ids": [
+          328,
+          329,
+          318,
+          324,
+          340
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเหตุการณ์กำลังเกิดขึ้นตอนนี้ ต้องใช้รูป __be + V-ing__ → `is talking`. ใช้ได้เมื่อมีตัวบอกเวลาอย่าง *right now/now/at the moment* เช่น `She is talking to her mom right now.`"
+      },
+      {
+        "index": 2,
+        "text": "talks",
+        "knowledge_ids": [
+          411,
+          347,
+          398,
+          380
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `talks` เป็น **Present Simple** ใช้กับนิสัย/ความจริงทั่วไป ไม่ใช่เหตุการณ์ที่กำลังเกิดขึ้นตอนนี้ เช่น `She talks to her mom every Sunday.` แต่ถ้า “ตอนนี้” ต้องใช้ `is talking`."
+      },
+      {
+        "index": 3,
+        "text": "talking",
+        "knowledge_ids": [
+          209,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยา **be** หน้า V-ing โครงสร้างที่ถูกคือ **be + V-ing** เช่น `She is talking…` ไม่ใช่ `She talking…`."
+      },
+      {
+        "index": 4,
+        "text": "is talk",
+        "knowledge_ids": [
+          209,
+          324,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะหลัง **be** ต้องตามด้วย **V-ing** ไม่ใช่รูป base verb ตัวอย่างที่ถูก: `is talking` ไม่ใช่ `is talk`."
+      }
+    ]
+  },
+  {
+    "question": "I ___ the soup to check the salt.",
+    "question_knowledge_ids": [
+      328,
+      335,
+      318,
+      324,
+      340,
+      401,
+      344
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "am tasting",
+        "knowledge_ids": [
+          328,
+          318,
+          324,
+          340
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะหมายถึงการกระทำชั่วคราวที่กำลังทำอยู่ ใช้รูป __am + V-ing__ → `am tasting`. เช่น `I am tasting the soup now to check the salt.`"
+      },
+      {
+        "index": 2,
+        "text": "am liking",
+        "knowledge_ids": [
+          401,
+          265,
+          348
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **like** เป็นกริยา **stative** (กริยาสถานะ) ปกติไม่ใช้รูปต่อเนื่อง เช่นควรใช้ `I like this soup.` ถ้าต้องการบอกการชิมชั่วคราวให้ใช้ `am tasting`."
+      },
+      {
+        "index": 3,
+        "text": "taste",
+        "knowledge_ids": [
+          411,
+          398
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะ เพราะกำลังชิมอยู่ตอนนี้ควรใช้ **Present Continuous** `am tasting`. `taste` แบบธรรมดาใช้กับความจริงทั่วไป เช่น `The soup tastes salty.`"
+      },
+      {
+        "index": 4,
+        "text": "am taste",
+        "knowledge_ids": [
+          209,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูป หลัง **am** ต้องตามด้วย **V-ing** ดังนั้นควรเป็น `am tasting` ไม่ใช่ `am taste`."
+      }
+    ]
+  },
+  {
+    "question": "He is ___ a letter at the moment.",
+    "question_knowledge_ids": [
+      328,
+      335,
+      318,
+      324,
+      340,
+      349
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "writing",
+        "knowledge_ids": [
+          328,
+          324,
+          340
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยา **write** เมื่อลงท้ายด้วย -ing ต้องสะกดเป็น `writing` (ตัด **e** ท้ายออก) ตามรูป __be + V-ing__ เช่น `He is writing a letter right now.`"
+      },
+      {
+        "index": 2,
+        "text": "writting",
+        "knowledge_ids": [
+          291,
+          349
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดการสะกด ไม่ต้องเติม `t` ซ้ำ คำที่ถูกคือ `writing` เพราะ **write → writing** (ตัด e ออกแล้วเติม -ing)."
+      },
+      {
+        "index": 3,
+        "text": "writes",
+        "knowledge_ids": [
+          411,
+          351
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดบริบท เพราะ `writes` เป็น **Present Simple** ใช้กับกิจวัตร ไม่ใช่เหตุการณ์ที่กำลังเกิดขึ้นตอนนี้ ซึ่งควรใช้ `is writing`."
+      },
+      {
+        "index": 4,
+        "text": "write",
+        "knowledge_ids": [
+          384
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูป ต้องใช้ **V-ing** หลัง **be** ใน Present Continuous ดังนั้นควรเป็น `is writing` ไม่ใช่ `is write`."
+      }
+    ]
+  },
+  {
+    "question": "The kids ___ in the yard now.",
+    "question_knowledge_ids": [
+      328,
+      335,
+      318,
+      324,
+      340,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are playing",
+        "knowledge_ids": [
+          328,
+          318,
+          324,
+          340,
+          263
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประธานพหูพจน์ `the kids` ต้องใช้ __are + V-ing__ → `are playing`. ตัวบอกเวลาคือ `now` แปลว่ากำลังเล่นตอนนี้ เช่น `The kids are playing in the yard now.`"
+      },
+      {
+        "index": 2,
+        "text": "is playing",
+        "knowledge_ids": [
+          383,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะใช้ **is** กับประธานพหูพจน์ `kids` ต้องใช้ **are** → `are playing` ไม่ใช่ `is playing`."
+      },
+      {
+        "index": 3,
+        "text": "play",
+        "knowledge_ids": [
+          411,
+          398
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะกับสถานการณ์ขณะนี้ `now` เพราะ `play` เป็น Present Simple สื่อถึงนิสัยหรือความถี่ เช่น `The kids play every day.`"
+      },
+      {
+        "index": 4,
+        "text": "are play",
+        "knowledge_ids": [
+          209,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูป หลัง **are** ต้องเป็น **V-ing** ดังนั้นควรเป็น `are playing` ไม่ใช่ `are play`."
+      }
+    ]
+  },
+  {
+    "question": "She ___ always taking my pens.",
+    "question_knowledge_ids": [
+      333,
+      316,
+      414,
+      318
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "knowledge_ids": [
+          333,
+          318
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้างแสดงความรำคาญใช้ __be + always + V-ing__ เพื่อเน้นพฤติกรรมที่เกิดซ้ำจนกวนใจ เช่น `She is always taking my pens.` ใช้ได้เพื่อสื่ออารมณ์บ่นเล็กๆ."
+      },
+      {
+        "index": 2,
+        "text": "does",
+        "knowledge_ids": [
+          346,
+          315
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้างนี้เป็น **Continuous** ต้องใช้ **be** ไม่ใช่ **do/does** เช่น `She is always taking...` ไม่ใช่ `She does always taking...`"
+      },
+      {
+        "index": 3,
+        "text": "are",
+        "knowledge_ids": [
+          383,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะประธาน `She` เป็นเอกพจน์บุรุษที่ 3 ต้องใช้ **is** ไม่ใช่ **are**."
+      },
+      {
+        "index": 4,
+        "text": "has",
+        "knowledge_ids": [
+          408
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดโครงสร้าง Present Continuous ไม่ใช้ **has** แต่ใช้ **be + V-ing** ดังนั้นต้องเป็น `is always taking`."
+      }
+    ]
+  },
+  {
+    "question": "We ___ dinner now.",
+    "question_knowledge_ids": [
+      328,
+      329,
+      335,
+      318,
+      324,
+      340
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are having",
+        "knowledge_ids": [
+          328,
+          318,
+          340
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เหตุการณ์กำลังกินข้าวตอนนี้ ใช้ __are + V-ing__ → `are having`. ตัวอย่าง: `We are having dinner now.`"
+      },
+      {
+        "index": 2,
+        "text": "have",
+        "knowledge_ids": [
+          411,
+          398
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่ตรง เพราะ `have` (Present Simple) ใช้พูดถึงตารางหรือนิสัย เช่น `We have dinner at 7 pm every day.` หากกำลังเกิดตอนนี้ควรใช้ `are having`."
+      },
+      {
+        "index": 3,
+        "text": "are have",
+        "knowledge_ids": [
+          209,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูป หลัง **are** ต้องตามด้วย **V-ing** จึงควรเป็น `are having` ไม่ใช่ `are have`."
+      },
+      {
+        "index": 4,
+        "text": "having",
+        "knowledge_ids": [
+          209,
+          324
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดกริยา **be** หน้า V-ing โครงสร้างที่ถูกคือ `We are having…` ไม่ใช่ `We having…`."
+      }
+    ]
+  },
+  {
+    "question": "We ___ the dentist tomorrow at 3.",
+    "question_knowledge_ids": [
+      332,
+      245,
+      318,
+      340,
+      242
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are seeing",
+        "knowledge_ids": [
+          332,
+          340,
+          242
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ Present Continuous กับแผนการที่จัดการแล้วในอนาคต ใส่เวลาเฉพาะเจาะจงได้ เช่น `tomorrow at 3`. โครงสร้างคือ __be + V-ing__ → `We are seeing the dentist tomorrow at 3.`"
+      },
+      {
+        "index": 2,
+        "text": "see",
+        "knowledge_ids": [
+          345,
+          400,
+          242
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่แม่นพอ แม้ Present Simple ใช้กับตารางเวลาได้ แต่กับแผนส่วนตัวที่นัดหมายแล้วนิยมใช้ **Present Continuous** เช่น `are seeing` จะชัดกว่า."
+      },
+      {
+        "index": 3,
+        "text": "are see",
+        "knowledge_ids": [
+          209,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูป เพราะหลัง **are** ต้องใช้ **V-ing** ควรเป็น `are seeing` ไม่ใช่ `are see`."
+      },
+      {
+        "index": 4,
+        "text": "will sees",
+        "knowledge_ids": [
+          291,
+          247,
+          421
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปสองจุด: `will` ตามด้วย base verb เท่านั้น และ `sees` เป็นรูปเอกพจน์บุรุษที่ 3 จึงควรเป็น `will see` แต่ในบริบทแผนแน่นอน เราใช้ `are seeing` ดีกว่า."
+      }
+    ]
+  },
+  {
+    "question": "I ___ not working this weekend.",
+    "question_knowledge_ids": [
+      304,
+      320,
+      318,
+      335
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "am",
+        "knowledge_ids": [
+          304,
+          320,
+          318
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปปฏิเสธของ Present Continuous คือ __am/is/are + not + V-ing__ ดังนั้น `I am not working this weekend.` ชัดเจนว่าแผนคือไม่ทำงานสุดสัปดาห์นี้."
+      },
+      {
+        "index": 2,
+        "text": "amn't",
+        "knowledge_ids": [
+          319,
+          352
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดการใช้ เพราะภาษาอังกฤษมาตรฐานไม่ใช้ `amn't` ในประโยคบอกเล่า ให้ใช้ `am not` เช่น `I am not working…`"
+      },
+      {
+        "index": 3,
+        "text": "don't",
+        "knowledge_ids": [
+          346,
+          387
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดโครงสร้าง เพราะ **don't** ใช้กับ Present Simple (`I don't work on Sundays.`) แต่ประโยคนี้เป็น Continuous ต้องใช้ `am not working`."
+      },
+      {
+        "index": 4,
+        "text": "do",
+        "knowledge_ids": [
+          346,
+          315
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจากโครงสร้างปฏิเสธของ Continuous ไม่ใช้ **do/does** แต่ใช้ **be + not + V-ing** เช่น `am not working`."
+      }
+    ]
+  },
+  {
+    "question": "___ you coming to the meeting right now?",
+    "question_knowledge_ids": [
+      305,
+      321,
+      581,
+      288,
+      335
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Are",
+        "knowledge_ids": [
+          305,
+          321,
+          581
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง รูปคำถามของ Present Continuous คือ __Be + subject + V-ing?__ จึงใช้ `Are you coming…?` ตัวอย่าง: `Are you coming to the meeting right now?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          413,
+          346,
+          389
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do/Does** ใช้สร้างคำถามใน Present Simple ไม่ใช่ Present Continuous ที่กำลังเกิดขึ้นตอนนี้."
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "knowledge_ids": [
+          383,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดสอดคล้องกับประธาน `you` ซึ่งต้องใช้ **are** ไม่ใช่ **is** โครงสร้างที่ถูกคือ `Are you…?`"
+      },
+      {
+        "index": 4,
+        "text": "Did",
+        "knowledge_ids": [
+          382,
+          306
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเนื่องจาก `Did` เป็นอดีตกาล และไม่ใช่โครงสร้างของ Present Continuous ที่ต้องใช้ **be + V-ing**."
+      }
+    ]
+  },
+  {
+    "question": "She ___ the answer now.",
+    "question_knowledge_ids": [
+      328,
+      335,
+      401,
+      344,
+      411,
+      351,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "knows",
+        "knowledge_ids": [
+          401,
+          351,
+          380
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยา **know** เป็นกริยา **stative** ปกติไม่ใช้รูปต่อเนื่อง เมื่อหมายถึงความรู้/ความเชื่อ จึงใช้ Present Simple: `She knows the answer.` ในบริบท `now` ก็ยังใช้ Simple ได้เพราะเป็นสภาพความจริง ไม่ใช่การกระทำกำลังทำ."
+      },
+      {
+        "index": 2,
+        "text": "is knowing",
+        "knowledge_ids": [
+          265,
+          348
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **know** เป็นกริยาสถานะที่ไม่ใช้กับ **be + V-ing** ในความหมาย “รู้” ตัวอย่างที่ถูกคือ `She knows the answer.`"
+      },
+      {
+        "index": 3,
+        "text": "is know",
+        "knowledge_ids": [
+          209,
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดรูปสองชั้น ทั้งใช้ **be** กับกริยาที่ไม่เป็น V-ing และ **know** เป็น stative จึงควรใช้ `knows` ไม่ใช่ `is know`."
+      },
+      {
+        "index": 4,
+        "text": "know",
+        "knowledge_ids": [
+          384,
+          412
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดสอดคล้องกับประธาน `She` ที่ต้องเติม -s ใน Present Simple เป็น `knows`. รูปที่ถูกคือ `She knows the answer.`"
+      }
+    ]
+  }
+]

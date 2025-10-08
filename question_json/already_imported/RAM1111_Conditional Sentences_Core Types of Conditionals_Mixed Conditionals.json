@@ -1,0 +1,292 @@
+[
+  {
+    "question": "If I had left earlier, I ___ at the meeting now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "would be",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง นี่คือ **mixed conditional** แบบผลปัจจุบันจากเงื่อนไขในอดีต โครงสร้างที่ใช้คือ __If + past perfect, would + base verb__ เช่น `If I had left earlier, I would be at the meeting now.` แปลว่าเพราะเมื่อก่อนไม่ได้ออกเร็วจึงส่งผลให้ตอนนี้ไม่ได้อยู่ในการประชุม"
+      },
+      {
+        "index": 2,
+        "text": "would have been",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `would have been` ให้ผลที่เกิดขึ้นในอดีต ไม่ใช่ตอนนี้ ถ้าจะพูดถึงผลปัจจุบันต้องใช้ `would be` เช่น `... I would be at the meeting now` ไม่ใช่ `... would have been ... now`"
+      },
+      {
+        "index": 3,
+        "text": "will be",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `will be` เป็นอนาคตจริง (real future) ไม่ใช่สภาพสมมติที่ย้อนอดีต ตัวนี้ไม่เข้ากับรูป `If I had left earlier, ...` ซึ่งเป็นเงื่อนไขอดีตแบบสมมติ"
+      },
+      {
+        "index": 4,
+        "text": "am",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้กริยาแท้ `am` แบบข้อเท็จจริงปัจจุบัน แต่ประโยคนี้เป็นสถานการณ์สมมติจากอดีต ต้องใช้รูปสมมติ `would + base` เช่น `would be`"
+      }
+    ]
+  },
+  {
+    "question": "If she were more patient, she ___ the argument yesterday.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "would have handled",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง นี่คือ **mixed conditional** แบบเงื่อนไขปัจจุบันให้ผลในอดีต โครงสร้างคือ __If + past simple (unreal present), would have + V3__ เช่น `If she were more patient, she would have handled the argument yesterday.` หมายถึงปัจจุบันเธอไม่ค่อยอดทน ทำให้เมื่อวานจัดการเรื่องนั้นได้ไม่ดี"
+      },
+      {
+        "index": 2,
+        "text": "would handle",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `would handle` ให้ผลปัจจุบัน/อนาคต ไม่ใช่เหตุการณ์ที่เกิดไปแล้วเมื่อวาน ถ้าพูดถึงเมื่อวานต้องใช้ `would have + V3`"
+      },
+      {
+        "index": 3,
+        "text": "handled",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `handled` เป็นอดีตกาลเรียบ ไม่สื่อความสมมติและไม่ผูกกับเงื่อนไข ถ้าจะบอกผลอดีตจากเงื่อนไขปัจจุบัน ให้ใช้ `would have handled`"
+      },
+      {
+        "index": 4,
+        "text": "had handled",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `had handled` เป็น past perfect แต่ในประโยคต้องการผลลัพธ์สมมติของอดีต จึงต้องใช้ `would have + V3` หลังเงื่อนไขสมมติปัจจุบัน (`were`)"
+      }
+    ]
+  },
+  {
+    "question": "If he hadn't missed the train, he ___ in the office now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "would be",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **mixed conditional** ที่เล่าถึงอดีต (พลาดรถไฟ) ส่งผลถึงปัจจุบัน โครงสร้าง __If + past perfect, would + base__ เช่น `If he hadn't missed the train, he would be in the office now.` ตัวอย่างใช้จริง: `If I had gone to bed early, I would feel better now.`"
+      },
+      {
+        "index": 2,
+        "text": "would have been",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นผลในอดีต ไม่ใช่สถานะปัจจุบัน คำว่า `now` ชี้ชัดว่าต้องใช้ `would be` เพื่อบอกผลตอนนี้"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `is` เป็นข้อเท็จจริง ไม่ใช่ประโยคสมมติ หากจะสมมติผลปัจจุบันต้องใช้ `would be`"
+      },
+      {
+        "index": 4,
+        "text": "will be",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `will be` เป็นอนาคตจริง ไม่สอดคล้องกับ `If he hadn't missed the train` ซึ่งเป็นเงื่อนไขสมมติในอดีต"
+      }
+    ]
+  },
+  {
+    "question": "If they had saved more money, they ___ a house now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "would own",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **mixed conditional** อดีตมีผลต่อปัจจุบัน โครงสร้างคือ __If + past perfect, would + base__ ดังตัวอย่าง `If they had saved more money, they would own a house now.` ใช้ในกรณีอยากบอกว่าตอนนี้ยังไม่มีบ้านเพราะเมื่อก่อนออมเงินไม่พอ"
+      },
+      {
+        "index": 2,
+        "text": "would have owned",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสื่อว่า “เคยเป็นเจ้าของในอดีต” ซึ่งขัดกับคำว่า `now` ที่ระบุผลปัจจุบัน จึงต้องใช้ `would own`"
+      },
+      {
+        "index": 3,
+        "text": "will own",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `will own` เป็นอนาคตจริง ไม่ใช่ผลสมมติปัจจุบันจากอดีต"
+      },
+      {
+        "index": 4,
+        "text": "owned",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `owned` เป็นอดีตกาลเรียบ ไม่แสดงความสมมติ และไม่เชื่อมกับเงื่อนไขในอดีตแบบ `If + past perfect`"
+      }
+    ]
+  },
+  {
+    "question": "If I were you, I ___ that risky investment last year.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "would have avoided",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **mixed conditional** ที่ใช้ `If I were you` (สภาพปัจจุบันไม่จริง) แล้วให้ผลในอดีต ใช้ __would have + V3__ เช่น `I would have avoided that risky investment last year.` ตัวอย่างคล้ายกัน: `If I were you, I would have told her the truth.`"
+      },
+      {
+        "index": 2,
+        "text": "avoid",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น present simple ไม่สื่อผลที่เกิดขึ้น “ปีที่แล้ว” ถ้าจะพูดถึงอดีตต้องใช้ `would have + V3`"
+      },
+      {
+        "index": 3,
+        "text": "would avoid",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `would avoid` ให้ผลปัจจุบัน/อนาคต แต่ประโยคนี้มีตัวบ่งชี้เวลา `last year` จึงต้องใช้ `would have avoided`"
+      },
+      {
+        "index": 4,
+        "text": "had avoided",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น past perfect โดยไม่มีผลสมมติ และไม่เข้ากับรูปประโยคหลักที่ต้องการ `would have + V3` หลังสภาพสมมติ `If I were you`"
+      }
+    ]
+  },
+  {
+    "question": "If it hadn't rained, the ground ___ wet now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "wouldn't be",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็นผลปัจจุบันจากเงื่อนไขอดีต ใช้ __If + past perfect, would (not) + base__ เช่น `If it hadn't rained, the ground wouldn't be wet now.` แปลว่าตอนนี้พื้นยังเปียก เพราะฝนตกไปก่อนหน้านี้"
+      },
+      {
+        "index": 2,
+        "text": "wouldn't have been",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `wouldn't have been` บอกผลในอดีต ไม่ตรงกับคำว่า `now` ที่ชี้ผลปัจจุบัน ต้องใช้ `wouldn't be`"
+      },
+      {
+        "index": 3,
+        "text": "isn't",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `isn't` เป็นข้อเท็จจริงปัจจุบัน ไม่ใช่ประโยคสมมติที่เกิดจากอดีต หากจะสมมติควรใช้ `wouldn't be`"
+      },
+      {
+        "index": 4,
+        "text": "won't be",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `won't be` เป็นอนาคตจริง ไม่เข้ากับ `If it hadn't rained` ซึ่งเป็นเงื่อนไขสมมติในอดีต"
+      }
+    ]
+  },
+  {
+    "question": "If she spoke French, she ___ that job two years ago.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "would have gotten",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง นี่คือ **mixed conditional**: เงื่อนไขปัจจุบันไม่จริง (`spoke` = unreal present) ส่งผลในอดีต ใช้ __would have + V3__ เช่น `If she spoke French, she would have gotten that job two years ago.` ตัวอย่างอีกแบบ: `If I knew the code, I would have fixed it yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "will get",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `will get` เป็นอนาคตจริง ไม่เกี่ยวกับเหตุการณ์ “สองปีก่อน” ซึ่งเป็นอดีต"
+      },
+      {
+        "index": 3,
+        "text": "would get",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `would get` ให้ผลปัจจุบัน/อนาคต แต่ในประโยคมี `two years ago` ระบุอดีต จึงต้องใช้ `would have gotten`"
+      },
+      {
+        "index": 4,
+        "text": "got",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `got` เป็นอดีตกาลเรียบ ไม่ใช่ผลสมมติที่ผูกกับเงื่อนไข ถ้าต้องการสมมติผลอดีตให้ใช้ `would have + V3`"
+      }
+    ]
+  },
+  {
+    "question": "If we had taken the earlier flight, we ___ dinner at home now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "would be having",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **mixed conditional**: __If + past perfect, would be + V-ing__ ใช้เมื่อต้องการชี้ให้เห็นกิจกรรมที่กำลังจะเกิด/กำลังเกิดในปัจจุบันจากเงื่อนไขอดีต เช่น `we would be having dinner at home now.` ตัวอย่างเพิ่ม: `If I had left work on time, I would be relaxing now.`"
+      },
+      {
+        "index": 2,
+        "text": "would have had",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `would have had` บอกผลในอดีตจบไปแล้ว ขัดกับ `now` ที่บอกผลปัจจุบันต่อเนื่อง"
+      },
+      {
+        "index": 3,
+        "text": "have",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปข้อเท็จจริง ไม่ใช่สภาพสมมติจากอดีต ต้องใช้ `would be having` เพื่อสื่อความเป็นไปได้ตอนนี้"
+      },
+      {
+        "index": 4,
+        "text": "will be having",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นอนาคตจริง ไม่เข้ากับ `If we had taken...` ซึ่งเป็นเงื่อนไขสมมติในอดีต"
+      }
+    ]
+  },
+  {
+    "question": "If he weren't allergic to nuts, he ___ the cake yesterday.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "would have eaten",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็น **mixed conditional** ที่เงื่อนไขปัจจุบันไม่จริง (`weren't allergic`) ส่งผลในอดีต ใช้ __would have + V3__ เช่น `he would have eaten the cake yesterday.` แปลว่าเพราะตอนนี้เขาแพ้ถั่ว เลยเมื่อวานไม่สามารถกินเค้กได้"
+      },
+      {
+        "index": 2,
+        "text": "eats",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `eats` เป็น present simple ไม่ตรงกับ `yesterday` ซึ่งเป็นอดีต และไม่สื่อความสมมติ"
+      },
+      {
+        "index": 3,
+        "text": "would eat",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `would eat` เป็นผลปัจจุบัน/อนาคต แต่ประโยคพูดถึงอดีต (`yesterday`) จึงควรใช้ `would have eaten`"
+      },
+      {
+        "index": 4,
+        "text": "had eaten",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น past perfect โดยไม่มีชั้นเชิงสมมติในประโยคหลัก แบบที่ถูกคือ `would have + V3` หลังเงื่อนไขไม่จริงปัจจุบัน"
+      }
+    ]
+  },
+  {
+    "question": "If I had listened to your advice, I ___ in this trouble now.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "wouldn't be",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เป็นผลปัจจุบันจากอดีต ใช้ __If + past perfect, would (not) + base__ เช่น `If I had listened to your advice, I wouldn't be in this trouble now.` ตัวอย่างเพิ่ม: `If she had studied, she would be more confident now.`"
+      },
+      {
+        "index": 2,
+        "text": "wouldn't have been",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะสื่อผลในอดีต แต่ประโยคนี้มี `now` ชัดเจนว่าพูดถึงสถานการณ์ปัจจุบัน จึงต้องใช้ `wouldn't be`"
+      },
+      {
+        "index": 3,
+        "text": "am not",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นข้อเท็จจริง ไม่ใช่สภาพสมมติจากอดีต ถ้าเป็นสมมติควรใช้ `wouldn't be`"
+      },
+      {
+        "index": 4,
+        "text": "won't be",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `won't be` เป็นอนาคตจริง ไม่สอดคล้องกับเงื่อนไขอดีต `If I had listened ...` และผลปัจจุบัน `now`"
+      }
+    ]
+  }
+]

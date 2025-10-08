@@ -24,6 +24,9 @@ class OpenAIProvider:
                 model=cfg.model,
                 input=payload_msgs,
                 # response_format={"type": "json_object"} if cfg.json_only else None,
+                reasoning={
+                    "effort": "minimal"
+                },
                 text={"format": {"type": "json_object"}} if cfg.json_only else None,
             )
         except Exception as e:  # pragma: no cover

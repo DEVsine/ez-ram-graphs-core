@@ -1,0 +1,659 @@
+[
+  {
+    "question": "___ you like coffee?",
+    "question_knowledge_ids": [
+      194,
+      288,
+      315,
+      381,
+      420,
+      389,
+      340,
+      318,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Do",
+        "knowledge_ids": [
+          389,
+          381,
+          315,
+          420
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำถามกริยาแท้ใน **Present Simple** ต้องใช้โครงสร้าง __Do/Does + subject + base verb?__. ตัวอย่างเช่น `Do you like coffee?` หรือ `Do they play soccer?` โดยกริยาหลักใช้รูปดิกชันนารี (ไม่มี s, ไม่ผัน)."
+      },
+      {
+        "index": 2,
+        "text": "Are",
+        "knowledge_ids": [
+          305,
+          340,
+          318,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **are** ใช้ถามกับกริยา **be** หรือรูปต่อเนื่อง ไม่ใช่กับกริยาแท้อย่าง **like**. ตัวอย่างที่ถูกกับ be คือ `Are you ready?` แต่ถ้าถามความชอบต้องใช้ `Do you like coffee?` ไม่ใช่ `Are you like coffee?`"
+      },
+      {
+        "index": 3,
+        "text": "Did",
+        "knowledge_ids": [
+          300,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Did** เป็นรูปอดีต (Past Simple) แต่ประโยคนี้พูดถึงความจริงทั่วไปในปัจจุบัน. ถ้าจะถามเรื่องอดีตค่อยใช้ `Did you like the coffee yesterday?` แต่ตอนนี้ควรเป็น `Do you like coffee?`"
+      },
+      {
+        "index": 4,
+        "text": "Does",
+        "knowledge_ids": [
+          389,
+          381,
+          315,
+          420,
+          407
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดเพราะประธานคือ **you** ต้องใช้ **Do** ไม่ใช่ **Does**. โครงสร้างที่ถูกต้องคือ `Do you like coffee?` ส่วน `Does` ใช้กับประธานเอกพจรบุคคลที่ 3 เช่น `Does she like coffee?`"
+      }
+    ]
+  },
+  {
+    "question": "___ she play the piano?",
+    "question_knowledge_ids": [
+      194,
+      288,
+      315,
+      381,
+      420,
+      389,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Does",
+        "knowledge_ids": [
+          389,
+          381,
+          315,
+          420,
+          407
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธานเป็นเอกพจน์บุคคลที่สาม (**she**) จึงใช้โครงสร้าง __Does + subject + base verb?__. ตัวอย่างที่ถูกคือ `Does she play the piano?` และเมื่อมี **Does** แล้ว กริยาหลักต้องเป็นรูปพื้นฐาน `play` ไม่เติม s."
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          389,
+          381,
+          315,
+          420
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do** ใช้กับประธาน **I/you/we/they** ไม่ใช่ **she**. ประโยคที่ถูกต้องคือ `Does she play the piano?` ไม่ใช่ `Do she play...`"
+      },
+      {
+        "index": 3,
+        "text": "Is",
+        "knowledge_ids": [
+          305,
+          340,
+          318,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เนื่องจากกริยาหลักคือ **play** (กริยาแท้) จึงต้องใช้ **do-support** ไม่ใช่ **be-verb**. ถ้าจะใช้ **is** ต้องเป็นรูปต่อเนื่อง เช่น `Is she playing the piano?` (กำลังกระทำตอนนี้)."
+      },
+      {
+        "index": 4,
+        "text": "Did",
+        "knowledge_ids": [
+          300,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Did** เป็นรูปอดีต แต่ประโยคนี้เป็นปัจจุบันทั่วไป. ถ้าถามอดีตค่อยใช้ `Did she play the piano yesterday?`"
+      }
+    ]
+  },
+  {
+    "question": "___ he at home now?",
+    "question_knowledge_ids": [
+      194,
+      305,
+      340,
+      318,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Is",
+        "knowledge_ids": [
+          305,
+          340,
+          318
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นประโยคคำถามกับกริยา **be** และประธานคือ **he** จึงใช้ __Is + subject + complement?__. ตัวอย่าง: `Is he at home now?` หรือ `Is he ready?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          389,
+          381,
+          315,
+          420,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Do** ไม่ใช้กับกริยา **be**. หากเป็นประโยค be-verb ต้องสลับ **be** ขึ้นหน้า เช่น `Is he at home?` ไม่ใช่ `Do he at home?`"
+      },
+      {
+        "index": 3,
+        "text": "Does",
+        "knowledge_ids": [
+          389,
+          381,
+          315,
+          420,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Does** ใช้กับกริยาแท้ (เช่น `Does he work?`) ไม่ใช่กับ **be**. สำหรับ be-verb ถูกต้องคือ `Is he ...?`"
+      },
+      {
+        "index": 4,
+        "text": "Are",
+        "knowledge_ids": [
+          305,
+          340,
+          318,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธาน **he** ต้องใช้ **is** ไม่ใช่ **are**. ตัวอย่างคู่ที่ถูก: `I am / You are / He is / They are`"
+      }
+    ]
+  },
+  {
+    "question": "___ you free tomorrow?",
+    "question_knowledge_ids": [
+      194,
+      305,
+      340,
+      318,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Are",
+        "knowledge_ids": [
+          305,
+          340,
+          318
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นคำถามกับกริยา **be** และประธานคือ **you** จึงใช้โครงสร้าง __Am/Is/Are + subject + complement?__. ตัวอย่างที่ถูกคือ `Are you free tomorrow?` หรือ `Are you available at 3 p.m.?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          389,
+          381,
+          315,
+          420,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **free** เป็นคุณศัพท์ จึงต้องใช้ **be-verb** ไม่ใช่ **do-support**. รูปที่ถูกคือ `Are you free tomorrow?` ไม่ใช่ `Do you free tomorrow?`"
+      },
+      {
+        "index": 3,
+        "text": "Did",
+        "knowledge_ids": [
+          300,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Did** เป็นอดีต และยังใช้กับกริยาแท้ ไม่ใช่กับคุณศัพท์. ประโยคนี้ต้องใช้ `Are you ...?` เนื่องจากเป็นสภาพ/คุณลักษณะในปัจจุบัน/อนาคตใกล้ๆ."
+      },
+      {
+        "index": 4,
+        "text": "Is",
+        "knowledge_ids": [
+          305,
+          340,
+          318,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **Is** ใช้กับประธานเอกพจน์บุคคลที่สาม เช่น `Is he free?` แต่ประธานคือ **you** จึงต้องใช้ `Are you ...?`"
+      }
+    ]
+  },
+  {
+    "question": "Where ___ they live?",
+    "question_knowledge_ids": [
+      195,
+      302,
+      391,
+      315,
+      381,
+      420,
+      380
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "do",
+        "knowledge_ids": [
+          391,
+          315,
+          381,
+          420
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นคำถาม Wh- กับกริยาแท้ใน **Present Simple** จึงใช้ __Wh-word + do/does + subject + base verb__. ตัวอย่าง: `Where do they live?` หรือ `What do you eat for breakfast?`"
+      },
+      {
+        "index": 2,
+        "text": "are",
+        "knowledge_ids": [
+          570,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **are** ใช้กับ be-verb ไม่เข้ากับกริยาแท้ **live**. ถ้าจะใช้ **are** ต้องเป็นโครงสร้างต่อเนื่อง เช่น `Where are they living now?` (กำลังอาศัยอยู่ช่วงนี้)."
+      },
+      {
+        "index": 3,
+        "text": "does",
+        "knowledge_ids": [
+          391,
+          315,
+          381,
+          420,
+          407,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **they** ต้องใช้ **do** ไม่ใช่ **does**. โครงสร้างที่ถูกต้องคือ `Where do they live?`"
+      },
+      {
+        "index": 4,
+        "text": "did",
+        "knowledge_ids": [
+          300,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **did** เป็นอดีต แต่ประโยคนี้ถามเป็นปัจจุบันทั่วไป. ถ้าถามอดีตต้องเป็น `Where did they live last year?`"
+      }
+    ]
+  },
+  {
+    "question": "What ___ your name?",
+    "question_knowledge_ids": [
+      195,
+      302,
+      570,
+      318
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "knowledge_ids": [
+          570,
+          318
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำถามนี้ใช้ **be-verb** กับประธานที่ตามหลัง `What` คือ `your name` (เอกพจน์) จึงใช้ __Is + subject + ...?__. ตัวอย่างที่ถูกคือ `What is your name?`"
+      },
+      {
+        "index": 2,
+        "text": "does",
+        "knowledge_ids": [
+          391,
+          315,
+          381,
+          420,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **does** ใช้กับกริยาแท้ ไม่ใช่กับโครงสร้างแนะนำตัวที่ต้องใช้ **be**. ตัวอย่างผิด: `What does your name?` ควรเป็น `What is your name?`"
+      },
+      {
+        "index": 3,
+        "text": "do",
+        "knowledge_ids": [
+          391,
+          315,
+          381,
+          420,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลเดียวกันกับ `does` คือใช้กับกริยาแท้ แต่ที่นี่เป็นคำนาม + be-verb. รูปที่ถูกคือ `What is your name?` ไม่ใช่ `What do your name?`"
+      },
+      {
+        "index": 4,
+        "text": "are",
+        "knowledge_ids": [
+          570,
+          318,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `your name` เป็นเอกพจน์ ต้องใช้ **is** ไม่ใช่ **are**. ตัวอย่างคู่ที่ถูก: `What is your name?` และ `What are your hobbies?` (อันหลังเป็นพหูพจน์)"
+      }
+    ]
+  },
+  {
+    "question": "When ___ you arrive?",
+    "question_knowledge_ids": [
+      195,
+      302,
+      391,
+      315,
+      381,
+      420
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "did",
+        "knowledge_ids": [
+          300
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะถามถึง **อดีต** ใช้โครงสร้าง __Wh-word + Did + subject + base verb__. ตัวอย่างเช่น `When did you arrive?` หรือ `Where did she go?`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "knowledge_ids": [
+          391,
+          315,
+          381,
+          420
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **do** เป็นปัจจุบัน แต่มีบริบทถามอดีต (เช่น มาถึงเมื่อไหร่ที่ผ่านมาแล้ว). หากต้องการถามปัจจุบันทั่วไปค่อยใช้ `When do you arrive (usually)?`"
+      },
+      {
+        "index": 3,
+        "text": "are",
+        "knowledge_ids": [
+          570,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **are** ใช้กับ be-verb หรือรูปต่อเนื่อง ไม่ใช่กับกริยาแท้ **arrive** ในอดีต. ถ้าจะใช้ต่อเนื่องค่อยเป็น `When are you arriving?` (แผนในอนาคตหรือกำลังจะเกิด)."
+      },
+      {
+        "index": 4,
+        "text": "were",
+        "knowledge_ids": [
+          570,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะถึงแม้จะเป็นอดีต แต่ **were** ใช้กับ be-verb เท่านั้น เช่น `When were you at the office?` ประโยคนี้ใช้กริยาแท้ `arrive` จึงต้องใช้ `Did + arrive`"
+      }
+    ]
+  },
+  {
+    "question": "What ___ you doing?",
+    "question_knowledge_ids": [
+      195,
+      322,
+      321,
+      570,
+      318
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are",
+        "knowledge_ids": [
+          321,
+          570,
+          318
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นประโยคคำถาม **Present Continuous** ใช้โครงสร้าง __Wh-word + Am/Is/Are + subject + V-ing?__. ตัวอย่าง: `What are you doing?` หรือ `What is he doing?`"
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "knowledge_ids": [
+          391,
+          315,
+          381,
+          420,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **do** ใช้กับ **Present Simple** ไม่ใช่รูปต่อเนื่อง. ถ้าจะถามกิจวัตรทั่วไปค่อยใช้ `What do you do?` (หมายถึงทำงานอะไร) แต่ถ้าถามว่ากำลังทำอะไรตอนนี้ต้องเป็น `What are you doing?`"
+      },
+      {
+        "index": 3,
+        "text": "did",
+        "knowledge_ids": [
+          300,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นอดีต และยังไม่เข้ากับรูปต่อเนื่อง **V-ing**. ถ้าจะถามอดีตแบบต่อเนื่องต้องใช้ `was/were` เช่น `What were you doing at 8 p.m.?`"
+      },
+      {
+        "index": 4,
+        "text": "is",
+        "knowledge_ids": [
+          321,
+          570,
+          318,
+          383
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานคือ **you** ต้องใช้ **are** ไม่ใช่ **is**. ตัวอย่างคู่ที่ถูก: `What are you doing?` และ `What is she doing?`"
+      }
+    ]
+  },
+  {
+    "question": "___ I open the window?",
+    "question_knowledge_ids": [
+      194,
+      417,
+      426,
+      430,
+      381
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Can",
+        "knowledge_ids": [
+          426,
+          430
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะคำถามขออนุญาต/ความสามารถใช้ **modal verb** โครงสร้าง __Modal + subject + base verb?__. ตัวอย่าง: `Can I open the window?` หรือสุภาพขึ้น `May I open the window?`"
+      },
+      {
+        "index": 2,
+        "text": "Do",
+        "knowledge_ids": [
+          381,
+          315,
+          420,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่ใช้ **do-support** กับ **modal meaning** แบบขออนุญาต. ประโยค `Do I open the window?` ฟังแปลกและไม่เป็นธรรมชาติ ควรใช้ `Can I ...?` หรือ `May I ...?`"
+      },
+      {
+        "index": 3,
+        "text": "Am",
+        "knowledge_ids": [
+          570,
+          318,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **am** เป็น be-verb และตามด้วยคุณศัพท์/คำนาม ไม่ใช่กริยาแท้รูป base. ตัวอย่างที่ถูกกับ **am** เช่น `Am I late?` ไม่ใช่ `Am I open the window?`"
+      },
+      {
+        "index": 4,
+        "text": "Will",
+        "knowledge_ids": [
+          421,
+          430,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "แม้ **Will** จะเป็น modal ได้ แต่ใช้ถามเกี่ยวกับอนาคต/ความตั้งใจ มากกว่าการขออนุญาตทันทีตอนนี้. สำหรับการขอเปิดหน้าต่าง ควรใช้ `Can I open the window?` หรือ `May I open the window?` ที่เหมาะกว่า."
+      }
+    ]
+  },
+  {
+    "question": "How many brothers ___ she have?",
+    "question_knowledge_ids": [
+      195,
+      302,
+      391,
+      315,
+      381,
+      420,
+      380,
+      407,
+      408
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "does",
+        "knowledge_ids": [
+          391,
+          315,
+          381,
+          420,
+          407,
+          408
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเป็นคำถาม **Wh- + do-support** ใน Present Simple กับประธาน **she** จึงใช้ __Does + subject + base verb__. ตัวอย่าง: `How many brothers does she have?` และกริยาหลักต้องเป็นรูปฐาน `have` ไม่เติม s."
+      },
+      {
+        "index": 2,
+        "text": "do",
+        "knowledge_ids": [
+          391,
+          315,
+          381,
+          420,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเป็นเอกพจน์บุคคลที่สาม (**she**) ต้องใช้ **does** ไม่ใช่ **do**. รูปที่ถูกคือ `How many brothers does she have?`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "knowledge_ids": [
+          570,
+          318,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้างนี้ใช้กริยาแท้ **have** ไม่ใช่ be-verb. ถ้าจะใช้ **is** ต้องเปลี่ยนรูปเป็นคำนาม/คุณศัพท์ เช่น `How many brothers is she responsible for?` ซึ่งเป็นอีกความหมายหนึ่ง"
+      },
+      {
+        "index": 4,
+        "text": "has",
+        "knowledge_ids": [
+          408,
+          413
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเมื่อมี **does** ในคำถามแล้ว กริยาหลักต้องเป็นรูปฐาน `have` ไม่ใช่ `has`. ตัวอย่างผิด: `How many brothers does she has?` ตัวอย่างถูก: `How many brothers does she have?`"
+      }
+    ]
+  },
+  {
+    "question": "Who ___ in this room?",
+    "question_knowledge_ids": [
+      195,
+      288,
+      305,
+      318,
+      380,
+      392,
+      570
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "knowledge_ids": [
+          305,
+          318,
+          380,
+          570
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **Who** ทำหน้าที่เป็นประธานในประโยคคำถาม และตามด้วย **be-verb** เอกพจน์: โครงสร้าง __Who + is + ...?__. ตัวอย่างธรรมชาติคือ `Who is in this room?` ถึงแม้คำตอบอาจมีหลายคน แต่คำถามมาตรฐานใช้ `is`"
+      },
+      {
+        "index": 2,
+        "text": "are",
+        "knowledge_ids": [
+          305,
+          318,
+          380,
+          570
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด แม้จะคิดว่ามีหลายคนในห้อง แต่ในคำถามที่ **Who** เป็นประธาน มาตรฐานใช้รูปเอกพจน์ `is`. ตัวอย่างที่ถูกคือ `Who is in this room?` ไม่ใช่ `Who are in this room?`"
+      },
+      {
+        "index": 3,
+        "text": "do",
+        "knowledge_ids": [
+          315,
+          381,
+          389,
+          420,
+          569
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้างนี้ใช้กับ **be-verb** ไม่ใช่กริยาแท้ที่ต้องการ **do-support**. ประโยคที่ถูกคือ `Who is in this room?` ไม่ใช่ `Who do in this room?`"
+      },
+      {
+        "index": 4,
+        "text": "does",
+        "knowledge_ids": [
+          315,
+          381,
+          389,
+          420,
+          569
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด ด้วยเหตุผลเดียวกับ `do` คือไม่ใช่โครงสร้างกริยาแท้ และ `does` ใช้กับประธานบุคคลที่สามเอกพจน์เมื่อเป็นกริยาแท้เท่านั้น. รูปที่ถูกคือ `Who is in this room?`"
+      }
+    ]
+  }
+]

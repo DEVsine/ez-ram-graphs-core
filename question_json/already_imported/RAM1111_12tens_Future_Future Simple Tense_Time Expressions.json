@@ -1,0 +1,321 @@
+[
+  {
+    "question": "I will call you ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "tomorrow",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **tomorrow** เป็นคำบอกเวลาในอนาคตที่ใช้กับ Future Simple ได้ชัดเจน โครงแบบคือ **will + V1 + time expression** เช่น: `I will call you tomorrow.` เน้นการนัดหมายหรือสิ่งที่จะเกิดขึ้นข้างหน้า ตัวอย่างเพิ่ม: `She will arrive tomorrow morning.`"
+      },
+      {
+        "index": 2,
+        "text": "yesterday",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **yesterday** เป็นอดีต ไม่เข้ากับ **will** ซึ่งใช้อนาคต ถ้าจะพูดถึงอดีตควรใช้ Past Simple เช่น `I called you yesterday.` สำหรับอนาคตควรใช้คำอย่าง `tomorrow/next week`"
+      },
+      {
+        "index": 3,
+        "text": "now",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **now** หมายถึงตอนนี้ (ปัจจุบัน) ไม่ใช่อนาคต ถ้าจะบอกว่ากำลังโทรตอนนี้ จะใช้ Present Continuous เช่น `I am calling you now.` แต่โจทย์ใช้ **will** จึงควรเป็นเวลาอนาคต"
+      },
+      {
+        "index": 4,
+        "text": "last night",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **last night** เป็นอดีต (เมื่อคืน) ไม่เข้ากับ **will** ที่เป็นอนาคต โครงสร้างอดีตที่ถูกต้องจะเป็น `I called you last night.` แต่ถ้าอนาคตต้องใช้ `tonight/tomorrow` เป็นต้น"
+      }
+    ]
+  },
+  {
+    "question": "They will meet ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "this afternoon",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ **this afternoon** เป็นคำบอกเวลาเฉพาะในอนาคตใกล้ เหมาะกับ Future Simple โครงแบบที่ใช้คือ **will + V1 + time expression** เช่น `They will meet this afternoon.` ตัวอย่างเพิ่ม: `We will study this evening.`"
+      },
+      {
+        "index": 2,
+        "text": "last week",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **last week** เป็นอดีต ถ้าจะใช้กับอดีตควรเปลี่ยนกริยาเป็น Past Simple เช่น `They met last week.` แต่ในโจทย์มี **will** จึงต้องเป็นเวลาอนาคต"
+      },
+      {
+        "index": 3,
+        "text": "yesterday",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **yesterday** เป็นอดีต ไม่สอดคล้องกับ **will** ที่พูดถึงอนาคต หากอยากเล่าที่เกิดไปแล้วต้องใช้ `They met yesterday.`"
+      },
+      {
+        "index": 4,
+        "text": "two days ago",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **ago** ใช้กับอดีตเสมอ เช่น `They met two days ago.` แต่ประโยคนี้ใช้อนาคตด้วย **will** จึงควรเป็น `in two days` แทนหากพูดถึงอนาคต"
+      }
+    ]
+  },
+  {
+    "question": "We will finish the report ___ two days.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "in",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **in + ระยะเวลา** เพื่อบอกว่าจะเกิดขึ้นในอนาคตกี่เวลาจากตอนนี้ โครงแบบที่ควรจำคือ **will + V1 + in + time period** เช่น `We will finish the report in two days.` ตัวอย่างเพิ่ม: `She will call you in an hour.`"
+      },
+      {
+        "index": 2,
+        "text": "for",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **for + ระยะเวลา** เน้น “ความยาวของช่วงเวลา” ไม่ได้บอกจุดเวลาในอนาคต เช่น `for two days` = นานสองวัน แต่ที่ต้องการคืออีกกี่วันจากนี้ ควรใช้ `in two days`"
+      },
+      {
+        "index": 3,
+        "text": "since",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **since** ใช้กับจุดเริ่มต้นในอดีต (มักคู่กับ Present Perfect) เช่น `since 2020` ไม่ได้ใช้เพื่อบอกว่าจะเสร็จในอีกกี่วันจากตอนนี้ จึงไม่เข้ากับ Future Simple ในที่นี้"
+      },
+      {
+        "index": 4,
+        "text": "ago",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **ago** ใช้กับอดีตเสมอ เช่น `two days ago` = เมื่อสองวันที่แล้ว ตรงข้ามกับสิ่งที่โจทย์ต้องการซึ่งเป็นอนาคต ควรใช้ `in two days`"
+      }
+    ]
+  },
+  {
+    "question": "The game will start ___ 7 p.m.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "at",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะเวลาตรงจุดใช้ **at + clock time** โครงแบบคือ **will + V1 + at + เวลา** เช่น `The game will start at 7 p.m.` ตัวอย่างเพิ่ม: `The movie will begin at 6:30.`"
+      },
+      {
+        "index": 2,
+        "text": "in",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **in** ใช้กับช่วงเวลาอย่างเดือน/ปี/ช่วงเวลา (`in May`, `in 2026`, `in the morning`) ไม่ใช้กับเวลาเป็นนาฬิกา ถ้าเป็นเวลาแบบ 7 p.m. ต้องใช้ `at`"
+      },
+      {
+        "index": 3,
+        "text": "on",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **on** ใช้กับวัน/วันที่ เช่น `on Monday`, `on July 4th` แต่ไม่ใช้กับเวลาเป็นนาฬิกา สำหรับเวลาเจาะจงต้องใช้ `at 7 p.m.`"
+      },
+      {
+        "index": 4,
+        "text": "by",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **by + เวลา** หมายถึง “ไม่เกินเวลา...” เน้น deadline มากกว่าเวลาเริ่ม ถ้าต้องการบอกเวลาเริ่มชัด ๆ ต้องใช้ `at 7 p.m.`"
+      }
+    ]
+  },
+  {
+    "question": "She will travel to Japan ___ month.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "next",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะใช้ **next + ช่วงเวลา** เพื่อบอกอนาคต เช่น **next month/next week** โครงแบบคือ **will + V1 + next + time period**: `She will travel to Japan next month.` ตัวอย่างเพิ่ม: `I will move next year.`"
+      },
+      {
+        "index": 2,
+        "text": "last",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **last** บอกอดีต เช่น `last month` ถ้าจะเล่าอนาคตต้องใช้ `next month` ไม่ใช่ `last month`"
+      },
+      {
+        "index": 3,
+        "text": "every",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **every month** บอกความถี่เชิงนิสัย (Present Simple) มากกว่า เช่น `She travels every month.` แต่โจทย์ใช้ **will** เพื่อเหตุการณ์อนาคตเฉพาะครั้ง"
+      },
+      {
+        "index": 4,
+        "text": "previous",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **previous month** หมายถึงเดือนก่อนหน้า (อดีต) ไม่ใช่อนาคต และยังต้องมี article/โครงสร้างประกอบ เช่น `the previous month` ซึ่งไม่ตรงความหมายที่โจทย์ต้องการ"
+      }
+    ]
+  },
+  {
+    "question": "I'll see you ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "next Monday",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง คำว่า **next Monday** เป็น time expression ที่ชี้อนาคตชัดเจน โครงแบบที่ควรจำคือ **will + V1 + [next + day/date]** เช่น `I'll see you next Monday.` ตัวอย่างเพิ่ม: `We will meet next Friday.`"
+      },
+      {
+        "index": 2,
+        "text": "last Monday",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **last Monday** หมายถึงวันจันทร์ที่แล้ว (อดีต) ถ้าจะใช้กับอดีตต้องเปลี่ยนเป็น Past Simple เช่น `I saw you last Monday.`"
+      },
+      {
+        "index": 3,
+        "text": "every Monday",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **every Monday** สื่อความถี่เป็นประจำ (Present Simple) เช่น `I see you every Monday.` ประโยคโจทย์ใช้ **will** เพื่อการนัดในอนาคตครั้งถัดไป"
+      },
+      {
+        "index": 4,
+        "text": "on Monday ago",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นโครงสร้างที่ไม่ถูก ทั้งการใช้ **ago** คู่กับ `on Monday` ก็ผิดหลัก อีกทั้ง **ago** ใช้กับอดีตล้วน ๆ เช่น `two days ago` ไม่ใช้กับอนาคต"
+      }
+    ]
+  },
+  {
+    "question": "We will probably move ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "soon",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **soon** เป็นคำบอกเวลาในอนาคตอันใกล้ ใช้กับ Future Simple ได้ดี โครงแบบที่ใช้คือ **will + V1 + soon** เช่น `We will move soon.` ตัวอย่างเพิ่ม: `She will call soon.`"
+      },
+      {
+        "index": 2,
+        "text": "yesterday",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **yesterday** เป็นอดีต ไม่เข้ากับ **will** ถ้าอยากพูดถึงเหตุการณ์ที่เกิดไปแล้ว ควรใช้ Past Simple เช่น `We moved yesterday.`"
+      },
+      {
+        "index": 3,
+        "text": "now",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **now** คือเวลาปัจจุบัน ไม่ใช่อนาคต ถ้าจะสื่อว่ากำลังย้ายตอนนี้ ใช้ Present Continuous เช่น `We are moving now.`"
+      },
+      {
+        "index": 4,
+        "text": "already",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **already** มักใช้กับ Present Perfect เพื่อบอกว่าเกิดขึ้นแล้ว เช่น `We have already moved.` ไม่ใช่การบอกเวลาในอนาคตแบบ Future Simple"
+      }
+    ]
+  },
+  {
+    "question": "The results will come out ___.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "tonight",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง **tonight** เป็น time expression ที่พูดถึงค่ำนี้ในอนาคตใกล้ เหมาะกับ Future Simple โครงแบบคือ **will + V1 + tonight**: `The results will come out tonight.` ตัวอย่างเพิ่ม: `I will study tonight.`"
+      },
+      {
+        "index": 2,
+        "text": "last night",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **last night** คือเมื่อคืน (อดีต) ถ้าพูดถึงอดีตต้องใช้ Past Simple เช่น `The results came out last night.`"
+      },
+      {
+        "index": 3,
+        "text": "yesterday night",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูปนี้ไม่เป็นธรรมชาติในภาษาอังกฤษ มักใช้ `last night` แทน และก็ยังเป็นอดีตไม่เข้ากับ **will**"
+      },
+      {
+        "index": 4,
+        "text": "nowadays",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **nowadays** หมายถึงทุกวันนี้ (ทั่วไป/ต่อเนื่อง) ไม่ใช่จุดเวลาหนึ่งในอนาคต ถ้าจะพูดค่ำนี้ให้ใช้ `tonight`"
+      }
+    ]
+  },
+  {
+    "question": "The store will open ___ spring.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "in",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **in + ฤดูกาล/เดือน/ปี** เพื่อบอกช่วงเวลาในอนาคต โครงแบบคือ **will + V1 + in + season/month/year** เช่น `The store will open in spring.` ตัวอย่างเพิ่ม: `They will launch in July.`"
+      },
+      {
+        "index": 2,
+        "text": "on",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **on** ใช้กับวัน/วันที่ เช่น `on Monday`, `on July 4th` แต่ไม่ใช้กับฤดูกาล จึงควรใช้ `in spring`"
+      },
+      {
+        "index": 3,
+        "text": "at",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **at** ใช้กับเวลาตรงจุด (`at 7 p.m.`) หรือสถานที่/วลีบางอย่าง ไม่ใช่กับฤดูกาล เวลาเป็นช่วงกว้างต้องใช้ `in`"
+      },
+      {
+        "index": 4,
+        "text": "by",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **by spring** หมายถึง “ไม่เกินฤดูใบไม้ผลิ” เน้น deadline ซึ่งต่างความหมายจากการบอกว่าจะเปิดในช่วงฤดูกาลนั้นพอดี"
+      }
+    ]
+  },
+  {
+    "question": "He will start his new job the day ___ tomorrow.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "after",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง วลี **the day after tomorrow** หมายถึง “มะรืนนี้” เป็น time expression สำหรับอนาคต โครงแบบที่ควรจำและขีดเส้นใต้คือ **the day __after__ tomorrow** เช่น `He will start his new job the day after tomorrow.` ตัวอย่างเพิ่ม: `We will travel the day after tomorrow.`"
+      },
+      {
+        "index": 2,
+        "text": "before",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **the day before tomorrow** ไม่ใช้ในภาษาอังกฤษทั่วไป และความหมายจะสับสน ถ้าจะพูด “เมื่อวาน” ใช้ `yesterday` หรือ `the day before today` ก็ไม่เป็นธรรมชาติ"
+      },
+      {
+        "index": 3,
+        "text": "later",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **later** เดี่ยว ๆ ไม่เข้ากับโครงสร้าง `the day ___ tomorrow` ถ้าจะใช้ควรเขียนเป็นวลีอื่น เช่น `He will start later.` แต่ไม่ตรงรูปแบบที่โจทย์ต้องการ"
+      },
+      {
+        "index": 4,
+        "text": "ago",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **ago** ใช้กับอดีตเสมอ เช่น `two days ago` ซึ่งตรงข้ามกับความหมายของอนาคตในวลีนี้ ที่ถูกต้องคือ `the day after tomorrow`"
+      }
+    ]
+  },
+  {
+    "question": "I will send the files ___ the evening.",
+    "choices": [
+      {
+        "index": 1,
+        "text": "in",
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะใช้ **in the evening** เพื่อบอกช่วงเวลาทั่วไปในวันเดียวกัน โครงแบบคือ **will + V1 + in the morning/afternoon/evening** เช่น `I will send the files in the evening.` ตัวอย่างเพิ่ม: `She will study in the morning.`"
+      },
+      {
+        "index": 2,
+        "text": "at",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **at** ใช้กับเวลาตรงจุด (`at 7 p.m.`) หรือ `at night` เป็นข้อยกเว้น แต่ไม่ใช้กับ `the evening` ดังนั้นที่ถูกคือ `in the evening`"
+      },
+      {
+        "index": 3,
+        "text": "on",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **on** ใช้กับวัน/วันที่ (`on Monday`, `on July 4th`) ไม่ใช้กับช่วงเวลาอย่างเช้า/บ่าย/เย็น จึงควรใช้ `in the evening`"
+      },
+      {
+        "index": 4,
+        "text": "by",
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **by the evening** เน้นว่า “ไม่เกินเย็น” (deadline) ซึ่งเปลี่ยนความหมายจากการบอกช่วงเวลาที่จะทำ ถ้าต้องการระบุช่วงเวลาเฉย ๆ ให้ใช้ `in the evening`"
+      }
+    ]
+  }
+]

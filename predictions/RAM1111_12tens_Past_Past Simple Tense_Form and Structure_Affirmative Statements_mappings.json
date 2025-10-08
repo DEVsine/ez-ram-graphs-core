@@ -1,0 +1,501 @@
+[
+  {
+    "question": "Yesterday, she ___ to the library.",
+    "question_knowledge_ids": [
+      306,
+      311,
+      382,
+      299,
+      291
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "went",
+        "knowledge_ids": [
+          306,
+          311,
+          299
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ Past Simple บอกเล่าใช้รูป **V2** ของกริยาแท้ โครงสร้างคือ __Subject + V2__ เช่น `She went to the library.` ใช้กับกริยาไม่ปกติ (irregular) อย่าง **go → went** ตัวอย่างเพิ่ม: `She went home early yesterday.`"
+      },
+      {
+        "index": 2,
+        "text": "goes",
+        "knowledge_ids": [
+          380,
+          307
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **goes** คือ Present Simple (V1+s) ไม่ใช่ Past Simple ถ้าเล่าถึงอดีตต้องใช้ **went** เช่น: `She went to the library yesterday.` ไม่ใช้ `She goes...` เมื่อมีคำบอกเวลาอดีตอย่าง **yesterday**"
+      },
+      {
+        "index": 3,
+        "text": "go",
+        "knowledge_ids": [
+          295,
+          382
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **go** เป็นรูปฐาน (V1) ใช้ไม่ได้กับ Past Simple บอกเล่า ต้องเปลี่ยนเป็น V2 คือ **went** เช่น: `She went to the library.`"
+      },
+      {
+        "index": 4,
+        "text": "was go",
+        "knowledge_ids": [
+          264,
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นการใช้ **be + V1** ซึ่งไม่ใช่โครงสร้าง Past Simple บอกเล่า และไม่ใช่ Past Continuous ด้วย ถ้าจะเป็น Past Simple ต้องใช้ `went` เช่น: `She went to the library.`"
+      }
+    ]
+  },
+  {
+    "question": "We ___ dinner at 7 pm last night.",
+    "question_knowledge_ids": [
+      306,
+      311,
+      259,
+      382,
+      408,
+      299
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "had",
+        "knowledge_ids": [
+          306
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **V2** ของกริยา **have → had** ตามโครงสร้าง __Subject + V2__ เช่น `We had dinner at 7 pm last night.` ใช้กับเวลาที่ชัดเจนในอดีตอย่าง `last night` ได้ดี"
+      },
+      {
+        "index": 2,
+        "text": "have",
+        "knowledge_ids": [
+          307,
+          382
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **have** เป็นรูปปัจจุบัน (V1) แต่ประโยคมีตัวบอกเวลาอดีต `last night` จึงต้องใช้ **had** เช่น: `We had dinner...`"
+      },
+      {
+        "index": 3,
+        "text": "has",
+        "knowledge_ids": [
+          408,
+          307
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **has** ใช้กับประธานเอกพจน์บุรุษที่ 3 (he/she/it) และเป็นรูปปัจจุบัน ไม่ใช่อดีต ในที่นี้ประธานคือ **We** และเวลาเป็นอดีต จึงต้องใช้ `had`"
+      },
+      {
+        "index": 4,
+        "text": "were having",
+        "knowledge_ids": [
+          251,
+          259,
+          256
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะนี่คือรูป **Past Continuous** (`be + V-ing`) ไม่ใช่ Past Simple บอกเล่า ถ้าต้องการ Past Simple ให้ใช้ `had` เช่น: `We had dinner at 7 pm last night.`"
+      }
+    ]
+  },
+  {
+    "question": "They ___ a new house in 2019.",
+    "question_knowledge_ids": [
+      306,
+      313,
+      382,
+      299,
+      291
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "bought",
+        "knowledge_ids": [
+          306,
+          299
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยา **buy** เป็น irregular verb รูปอดีตคือ **bought** ตามแบบ __Subject + V2__ เช่น `They bought a new house in 2019.` ใช้เล่าเหตุการณ์เสร็จสิ้นในอดีต"
+      },
+      {
+        "index": 2,
+        "text": "buyed",
+        "knowledge_ids": [
+          291,
+          299
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **buy** เป็นกริยาไม่ปกติ จึงไม่เติม -ed รูปที่ถูกต้องคือ **bought** เช่น: `They bought a new house...` ไม่ใช้ `buyed`"
+      },
+      {
+        "index": 3,
+        "text": "buy",
+        "knowledge_ids": [
+          382
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **buy** เป็นรูปปัจจุบัน (V1) แต่ประโยคมีปีระบุชัดเจนในอดีต `in 2019` จึงต้องใช้ V2 `bought`"
+      },
+      {
+        "index": 4,
+        "text": "were buying",
+        "knowledge_ids": [
+          278,
+          251
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด นี่คือ **Past Continuous** เน้นเหตุการณ์กำลังดำเนินอยู่ในอดีต แต่ประโยคต้องการ Past Simple บอกผลสำเร็จ ใช้ `bought` ดีกว่า เช่น: `They bought a new house in 2019.`"
+      }
+    ]
+  },
+  {
+    "question": "He ___ very tired after the match.",
+    "question_knowledge_ids": [
+      306,
+      309,
+      311,
+      318,
+      262
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was",
+        "knowledge_ids": [
+          262,
+          386
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยา **be** ในอดีตใช้ **was/were** ตามประธาน สำหรับ **he** ใช้ **was** โครงสร้างคือ __Subject + was/were + complement__ เช่น `He was very tired after the match.`"
+      },
+      {
+        "index": 2,
+        "text": "is",
+        "knowledge_ids": [
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **is** เป็นรูปปัจจุบัน แต่ประโยคเล่าถึงเหตุการณ์หลังจบการแข่งขัน (อดีต) จึงควรใช้ `was` เช่น: `He was very tired...`"
+      },
+      {
+        "index": 3,
+        "text": "were",
+        "knowledge_ids": [
+          263
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **were** ใช้กับประธานพหูพจน์ (they, you, we) หรือ `I` ในบางกรณีสมมติ แต่สำหรับ **he** ต้องใช้ `was` เช่น: `He was very tired.`"
+      },
+      {
+        "index": 4,
+        "text": "beed",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด ไม่มีรูป **beed** ในภาษาอังกฤษ รูปอดีตของ **be** คือ **was/were** ตัวอย่างที่ถูก: `He was tired after the match.`"
+      }
+    ]
+  },
+  {
+    "question": "The movie ___ at 8 p.m. last Friday.",
+    "question_knowledge_ids": [
+      306,
+      311,
+      382,
+      299
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "started",
+        "knowledge_ids": [
+          306
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยา **start** เป็นกริยาปกติ เติม -ed เป็น **started** ใน Past Simple โครงสร้าง __Subject + V2__ เช่น `The movie started at 8 p.m. last Friday.`"
+      },
+      {
+        "index": 2,
+        "text": "starts",
+        "knowledge_ids": [
+          400,
+          307
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **starts** เป็นปัจจุบัน ไม่สอดคล้องกับ `last Friday` ซึ่งชี้อดีต ต้องใช้ `started` เช่น: `The movie started...`"
+      },
+      {
+        "index": 3,
+        "text": "start",
+        "knowledge_ids": [
+          295,
+          382
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด รูปฐาน (V1) ใช้ไม่ได้กับ Past Simple บอกเล่า ต้องเปลี่ยนเป็น V2 `started` เช่น: `The movie started at 8 p.m.`"
+      },
+      {
+        "index": 4,
+        "text": "was started",
+        "knowledge_ids": [
+          267,
+          290
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดสำหรับบริบทนี้ เพราะเป็น **passive voice** ซึ่งไม่จำเป็น ประโยคปกติใช้ active `The movie started...` โครงสร้าง Past Simple บอกเล่าคือ `Subject + V2` ไม่ใช่ `was + V3`"
+      }
+    ]
+  },
+  {
+    "question": "I ___ my keys on the bus.",
+    "question_knowledge_ids": [
+      306,
+      382,
+      299
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "lost",
+        "knowledge_ids": [
+          306,
+          299
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ V2 ของ **lose → lost** ตามโครงสร้าง __Subject + V2__ เช่น `I lost my keys on the bus.` เป็นเหตุการณ์จบแล้วในอดีต"
+      },
+      {
+        "index": 2,
+        "text": "lose",
+        "knowledge_ids": [
+          382
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **lose** เป็นรูปปัจจุบัน (V1) ไม่ใช่อดีต ต้องใช้ `lost` เช่น: `I lost my keys.`"
+      },
+      {
+        "index": 3,
+        "text": "loses",
+        "knowledge_ids": [
+          380,
+          307
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **loses** ใช้กับประธานเอกพจน์บุรุษที่ 3 ในปัจจุบัน แต่ประธานคือ **I** และเวลาเป็นอดีต จึงต้องใช้ `lost`"
+      },
+      {
+        "index": 4,
+        "text": "was losing",
+        "knowledge_ids": [
+          251,
+          266
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูป Past Continuous (`was + V-ing`) แต่ประโยคเล่าเหตุการณ์จบแล้ว ใช้ Past Simple ดีกว่า: `I lost my keys on the bus.`"
+      }
+    ]
+  },
+  {
+    "question": "My parents ___ Japan in 2005.",
+    "question_knowledge_ids": [
+      306,
+      313,
+      382,
+      299
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "visited",
+        "knowledge_ids": [
+          306
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้กริยาปกติเติม -ed เป็น **visited** ตามโครงสร้าง __Subject + V2__ เช่น `My parents visited Japan in 2005.` มีปีบอกเวลาอดีตชัดเจน"
+      },
+      {
+        "index": 2,
+        "text": "visit",
+        "knowledge_ids": [
+          307,
+          382
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **visit** เป็นรูปฐาน (V1) ไม่ใช่อดีต เมื่อมีปีระบุอดีตอย่าง `in 2005` ควรใช้ `visited`"
+      },
+      {
+        "index": 3,
+        "text": "visits",
+        "knowledge_ids": [
+          407,
+          307
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **visits** เป็นปัจจุบันบุรุษที่ 3 เอกพจน์ แต่ประธานคือ **My parents** (พหูพจน์) และพูดถึงอดีต ต้องใช้ `visited`"
+      },
+      {
+        "index": 4,
+        "text": "were visiting",
+        "knowledge_ids": [
+          251
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Past Continuous แต่ประโยคนี้เล่าข้อเท็จจริงครั้งเดียวจบในอดีต ใช้ Past Simple `visited` ชัดกว่า เช่น: `They visited Japan in 2005.`"
+      }
+    ]
+  },
+  {
+    "question": "The cat ___ under the table all afternoon.",
+    "question_knowledge_ids": [
+      306,
+      382,
+      299
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "slept",
+        "knowledge_ids": [
+          306,
+          299
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยา **sleep** รูป V2 คือ **slept** ใช้ตามโครงสร้าง __Subject + V2__ เช่น `The cat slept under the table all afternoon.` บอกเหตุการณ์ที่เกิดและจบในอดีต"
+      },
+      {
+        "index": 2,
+        "text": "sleep",
+        "knowledge_ids": [
+          382
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปฐาน (V1) ไม่ใช่อดีต ต้องใช้ `slept` เช่น: `The cat slept under the table.`"
+      },
+      {
+        "index": 3,
+        "text": "sleeps",
+        "knowledge_ids": [
+          307
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปปัจจุบันบุรุษที่ 3 เอกพจน์ แต่เราต้องการอดีต คำที่ถูกคือ `slept`"
+      },
+      {
+        "index": 4,
+        "text": "was slept",
+        "knowledge_ids": [
+          267,
+          290
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น passive voice ที่ไม่เหมาะกับความหมายนี้ ปกติเราใช้ active: `The cat slept...` โครงสร้าง Past Simple บอกเล่าคือ `Subject + V2`"
+      }
+    ]
+  },
+  {
+    "question": "She ___ the email two hours ago.",
+    "question_knowledge_ids": [
+      306,
+      312,
+      382,
+      299
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "sent",
+        "knowledge_ids": [
+          306,
+          299
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง กริยา **send** รูปอดีตคือ **sent** ใช้ตามโครงสร้าง __Subject + V2__ เช่น `She sent the email two hours ago.` คำว่า **ago** ชี้ชัดว่าเป็นอดีต"
+      },
+      {
+        "index": 2,
+        "text": "send",
+        "knowledge_ids": [
+          382
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปฐาน (V1) ใช้ไม่ได้กับอดีตที่มีตัวบอกเวลาอย่าง `two hours ago` ต้องใช้ `sent`"
+      },
+      {
+        "index": 3,
+        "text": "sends",
+        "knowledge_ids": [
+          307
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปปัจจุบันบุรุษที่ 3 เอกพจน์ แต่ประโยคมี `ago` ซึ่งบอกอดีต ต้องใช้ `sent` เช่น: `She sent...`"
+      },
+      {
+        "index": 4,
+        "text": "was sending",
+        "knowledge_ids": [
+          251
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Past Continuous (`was + V-ing`) แต่ประโยคต้องการ Past Simple บอกเล่า ใช้ `sent` ให้จบในเหตุการณ์เดียว"
+      }
+    ]
+  },
+  {
+    "question": "There ___ a big storm last night.",
+    "question_knowledge_ids": [
+      306,
+      311,
+      339,
+      262
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "was",
+        "knowledge_ids": [
+          339,
+          262
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง **There be** ในอดีตใช้ **was/were** กับคำนามเอกพจน์ใช้ **was** ตามแบบ __There + was/were + noun__ เช่น `There was a big storm last night.`"
+      },
+      {
+        "index": 2,
+        "text": "were",
+        "knowledge_ids": [
+          339,
+          263
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **were** ใช้กับพหูพจน์ แต่ `a big storm` เป็นเอกพจน์ จึงต้องใช้ `was` เช่น: `There was a big storm...`"
+      },
+      {
+        "index": 3,
+        "text": "is",
+        "knowledge_ids": [
+          318
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็นรูปปัจจุบัน แต่มีคำบอกเวลาอดีต `last night` จึงควรใช้ `was` เช่น: `There was...`"
+      },
+      {
+        "index": 4,
+        "text": "be",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **be** เป็นรูปฐาน ไม่ใช้ใน Past Simple บอกเล่า โครงสร้างที่ถูกคือ `There was a big storm last night.`"
+      }
+    ]
+  }
+]

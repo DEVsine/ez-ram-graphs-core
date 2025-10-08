@@ -1,0 +1,488 @@
+[
+  {
+    "question": "___ of these books do you want to buy?",
+    "question_knowledge_ids": [
+      195,
+      302,
+      567,
+      575
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Which",
+        "knowledge_ids": [
+          575
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **interrogative determiner** คำว่า __which + of + plural noun__ เมื่อมีตัวเลือกจำกัด เช่น `Which of these books do you want to buy?` ลองจำแพตเทิร์น: __which of these/those + nouns__. ตัวอย่างอีก: `Which of these shirts fits you best?`"
+      },
+      {
+        "index": 2,
+        "text": "What",
+        "knowledge_ids": [
+          575
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในโครงสร้างนี้ เพราะไม่ใช้ `what of these ...` แบบนี้ ถ้าจะถามกว้างๆ ใช้ `What book do you want?` แต่เมื่อมีตัวเลือกชัด (these books) ต้องใช้ **which**. ตัวอย่างที่ผิด: `What of these books do you want?`"
+      },
+      {
+        "index": 3,
+        "text": "Whose",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **whose** ใช้ถามความเป็นเจ้าของ เช่น __whose + noun__ เช่น `Whose book is this?` ที่นี่เราไม่ได้ถามว่าเป็นของใคร แต่ถามให้เลือกเล่มจากกลุ่มหนังสือ"
+      },
+      {
+        "index": 4,
+        "text": "When",
+        "knowledge_ids": [
+          195,
+          302
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **when** เป็นคำถามเกี่ยวกับเวลา ไม่ใช่ตัวกำหนดหน้านาม (determiner) สำหรับการเลือกจากตัวเลือก ต้องใช้ **which**. ตัวอย่างถูก: `Which of these pens is yours?`"
+      }
+    ]
+  },
+  {
+    "question": "___ keys are on the desk?",
+    "question_knowledge_ids": [
+      195,
+      302,
+      567
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Whose",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **interrogative determiner** __whose + noun__ เพื่อถามความเป็นเจ้าของ เช่น `Whose keys are on the desk?` แพตเทิร์นที่ควรจำ: __whose + thing__ เพื่อถามว่าเป็นของใคร เช่น `Whose car is parked here?`"
+      },
+      {
+        "index": 2,
+        "text": "Who",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **who** เป็นสรรพนามถาม ‘ใคร’ ไม่ใช่ตัวกำหนดนามหน้านาม จึงวางหน้า `keys` ไม่ได้ เช่น `Who keys` ผิด. ต้องใช้ `Whose keys ...` เพื่อถามว่า ‘กุญแจของใคร’"
+      },
+      {
+        "index": 3,
+        "text": "Who's",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **who's** คือย่อของ `who is`/`who has` ไม่ใช่คำถามความเป็นเจ้าของ เช่น `Who's keys` ผิดรูป. ที่ถูกคือ `Whose keys are on the desk?`"
+      },
+      {
+        "index": 4,
+        "text": "Which",
+        "knowledge_ids": [
+          575
+        ],
+        "is_correct": false,
+        "answer_description": "ยังไม่เหมาะ เพราะ **which** ใช้เลือกจากตัวเลือก ไม่ได้ถามเจ้าของ ถ้าจะใช้ which ต้องมีตัวเลือกชัด เช่น `Which keys, the red ones or the blue ones?` แต่ประโยคนี้ถามว่า ‘ของใคร’ จึงต้องใช้ **whose**"
+      }
+    ]
+  },
+  {
+    "question": "The girl ___ brother plays the piano is my friend.",
+    "question_knowledge_ids": [
+      567
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "whose",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **relative determiner** __whose + noun__ เพื่อนำประโยคย่อยที่บอกความเป็นเจ้าของ เช่น `The girl whose brother plays the piano is my friend.` แพตเทิร์น: __noun + whose + noun + verb__ เช่น `the man whose car broke down`"
+      },
+      {
+        "index": 2,
+        "text": "who's",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **who's** = `who is/has` ไม่ได้แสดงความเป็นเจ้าของ เช่น `the girl who's brother ...` ผิด. ถ้าจะใช้ให้ถูก: `the girl who's playing the piano` (เป็นคนที่กำลังเล่น) แต่ที่นี่ต้องการความเป็นเจ้าของ = **whose**"
+      },
+      {
+        "index": 3,
+        "text": "who",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **who** เป็นสรรพนามเชื่อมแทนคน ไม่ได้ทำหน้าที่เป็น determiner หน้านาม `brother` เพื่อบอกความเป็นเจ้าของ จึงต้องใช้ **whose** แทน เช่น `the girl whose brother ...`"
+      },
+      {
+        "index": 4,
+        "text": "which",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **which** ใช้กับสิ่งของ/สัตว์มากกว่า และในที่นี้ต้องการรูปบอกความเป็นเจ้าของหน้าคำนาม `brother` ซึ่งต้องใช้ **whose**. ตัวอย่างเปรียบเทียบ: `the company whose logo changed` (ถูก)"
+      }
+    ]
+  },
+  {
+    "question": "The company ___ profits increased last year is hiring new staff.",
+    "question_knowledge_ids": [
+      567
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "whose",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **relative determiner** __whose + noun__ ได้กับคนและสิ่งของ เช่น `The company whose profits increased ...` แพตเทิร์น: __noun + whose + noun + verb__ เช่น `the city whose streets are clean`"
+      },
+      {
+        "index": 2,
+        "text": "who's",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **who's** = `who is/has` ไม่ใช่รูปความเป็นเจ้าของ และยังใช้กับคนเท่านั้น เช่น `the company who's profits ...` ผิด. ต้องใช้ `whose profits` เพื่อบอกว่า ‘กำไรของบริษัท’"
+      },
+      {
+        "index": 3,
+        "text": "which",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิดในหน้าที่นี้ เพราะ `which profits increased` จะกลายเป็นสรรพนามแทนทั้งประโยค ไม่ได้บอกความเป็นเจ้าของหน้าคำนาม `profits`. รูปที่ถูกคือ __whose profits__"
+      },
+      {
+        "index": 4,
+        "text": "that",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **that** ไม่สามารถทำหน้าที่เป็น determiner แสดงความเป็นเจ้าของหน้าคำนามได้ จะใช้ได้ในรูป `profits that increased ...` ซึ่งเปลี่ยนโครงสร้างความหมายไป"
+      }
+    ]
+  },
+  {
+    "question": "The building, the roof ___ was damaged, needs repair.",
+    "question_knowledge_ids": [
+      567,
+      559
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "of which",
+        "knowledge_ids": [
+          559
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง โครงสร้าง __the + noun, the + noun + of which + verb__ ใช้แทน **whose** สำหรับสิ่งของในสำนวนทางการ เช่น `The building, the roof of which was damaged, needs repair.` แพตเทิร์นที่เน้น: __noun, noun + of which + verb__"
+      },
+      {
+        "index": 2,
+        "text": "whose",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": false,
+        "answer_description": "ใกล้เคียงและหลายครั้งใช้ได้ เช่น `The building, whose roof was damaged, ...` แต่ในประโยคนี้ช่องว่างอยู่หลัง `the roof` จึงต้องเติมวลี `of which` ให้ครบโครงสร้าง `the roof of which ...` ไม่ใช่ `the roof whose ...`"
+      },
+      {
+        "index": 3,
+        "text": "which",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะขาดบุพบท `of` โครงสร้างที่ถูกต้องคือ `the roof __of which__ was damaged` ไม่ใช่ `the roof which was damaged` (ซึ่งจะหมายถึง “หลังคาที่เสียหาย” โดยไม่มีการชี้ความเป็นเจ้าของกับ building)"
+      },
+      {
+        "index": 4,
+        "text": "that",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะรูป `the roof that was damaged` เปลี่ยนความหมายเป็นจำกัดความหลังคาเฉยๆ และไม่เชื่อมความเป็นเจ้าของกับ `the building` แบบที่ต้องการในประโยคอธิบายส่วนขยาย"
+      }
+    ]
+  },
+  {
+    "question": "___ time does the train leave?",
+    "question_knowledge_ids": [
+      195,
+      302,
+      574
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "What",
+        "knowledge_ids": [
+          574
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **interrogative determiner** __what + noun__ เพื่อถามชนิด/ข้อมูลของนาม เช่น `What time does the train leave?` จดแพตเทิร์น: __what time / what day / what size__"
+      },
+      {
+        "index": 2,
+        "text": "Which",
+        "knowledge_ids": [
+          575
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในบริบททั่วไป เพราะ `which time` ไม่ค่อยใช้ ยกเว้นมีตัวเลือกเวลาชัดเจน เช่น ตารางที่มี 2 ตัวเลือก ถ้าถามปกติใช้ `What time ...?`"
+      },
+      {
+        "index": 3,
+        "text": "Whose",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **whose** ใช้ถามความเป็นเจ้าของ เช่น `Whose ticket is this?` ไม่ได้ใช้ถามเวลา จึงใช้ `What time ...?` แทน"
+      },
+      {
+        "index": 4,
+        "text": "When",
+        "knowledge_ids": [
+          195,
+          302
+        ],
+        "is_correct": false,
+        "answer_description": "ผิดในรูปนี้ เพราะ `When time does ...` ไม่ถูก ต้องเป็น `When does the train leave?` (ไม่มีคำว่า time) หรือ `What time does the train leave?` ซึ่งเป็นคำถามเฉพาะเจาะจงกว่า"
+      }
+    ]
+  },
+  {
+    "question": "___ color do you prefer, blue or green?",
+    "question_knowledge_ids": [
+      195,
+      302,
+      575
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "Which",
+        "knowledge_ids": [
+          575
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะมีตัวเลือกชัดเจน (blue or green) ใช้ **interrogative determiner** __which + noun__ เช่น `Which color do you prefer, blue or green?` แพตเทิร์น: __which + noun + (from A or B)__"
+      },
+      {
+        "index": 2,
+        "text": "What",
+        "knowledge_ids": [
+          575
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะเมื่อมีตัวเลือกจำกัด เราใช้ **which** มากกว่า `what`. `What color do you prefer?` ใช้ได้เมื่อถามกว้างๆ ไม่มีตัวเลือกกำกับ"
+      },
+      {
+        "index": 3,
+        "text": "Whose",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **whose** ใช้ถามเจ้าของ เช่น `Whose color` ไม่มีความหมายที่ชัดเจนในบริบทนี้ เราไม่ได้ถามว่า “สีของใคร” แต่ถามให้เลือกสี"
+      },
+      {
+        "index": 4,
+        "text": "Who",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **who** ใช้ถาม ‘ใคร’ ไม่ใช่ตัวกำหนดหน้านามเพื่อการเลือกสี ต้องใช้ **which** กับนาม `color` เช่น `Which color ...`"
+      }
+    ]
+  },
+  {
+    "question": "I don’t know ___ bag is hers.",
+    "question_knowledge_ids": [
+      567
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "which",
+        "knowledge_ids": [
+          575
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **interrogative determiner** ในประโยคคำถามอ้อม: __which + noun__ เช่น `I don't know which bag is hers.` แพตเทิร์นที่ควรจำ: __I don't know / Tell me + which + noun + verb__"
+      },
+      {
+        "index": 2,
+        "text": "what",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิดในความเป็นธรรมชาติ เพราะ `what bag is hers` ฟังแปลกในบริบทเลือกจากหลายใบ ปกติถ้ามีหลายตัวเลือกให้ใช้ **which**. ตัวอย่างถูก: `I don't know which pen to use.`"
+      },
+      {
+        "index": 3,
+        "text": "whose",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะ `whose bag is hers` ซ้ำความหมาย (ของใคร ... เป็นของเธอ) และโครงสร้างงงๆ ถ้าจะใช้ **whose** ให้ถามเจ้าของตรงๆ เช่น `Whose bag is this?`"
+      },
+      {
+        "index": 4,
+        "text": "who",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **who** เป็นสรรพนาม ไม่ใช่ determiner วางหน้านาม `bag` ไม่ได้ รูปที่ถูกคือ `which bag` เพื่อเลือกจากหลายใบ"
+      }
+    ]
+  },
+  {
+    "question": "I visited the museum ___ opening hours are very long.",
+    "question_knowledge_ids": [
+      567
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "whose",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ใช้ **relative determiner** __whose + noun__ กับสิ่งของได้ เช่น `the museum whose opening hours are very long` แพตเทิร์น: __place/thing + whose + noun + verb__ เช่น `a book whose cover is torn`"
+      },
+      {
+        "index": 2,
+        "text": "which",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิดในหน้าที่นี้ เพราะ `which opening hours` ไม่ได้แสดงความเป็นเจ้าของ จำเป็นต้องใช้ **whose** เพื่อเชื่อม `opening hours` กับ `the museum`. ตัวอย่างที่ถูก: `the company whose policy changed`"
+      },
+      {
+        "index": 3,
+        "text": "who's",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **who's** = `who is/has` ไม่แสดงความเป็นเจ้าของ และยังใช้กับ ‘คน’ ไม่ใช่สถานที่. ต้องใช้ `whose opening hours ...`"
+      },
+      {
+        "index": 4,
+        "text": "that",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **that** ไม่สามารถทำหน้าที่เป็น determiner หน้านามเพื่อบอกความเป็นเจ้าของ เช่น `that opening hours` ใช้ไม่ได้ ควรใช้ `whose opening hours`"
+      }
+    ]
+  },
+  {
+    "question": "I can’t decide ___ of the two courses to take.",
+    "question_knowledge_ids": [
+      195,
+      302,
+      575
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "which",
+        "knowledge_ids": [
+          575
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เมื่อมีตัวเลือกจำกัด (of the two) ใช้ **interrogative determiner** __which + of + plural/number + noun__ เช่น `Which of the two courses` แพตเทิร์น: __which of the two/many + plural noun__"
+      },
+      {
+        "index": 2,
+        "text": "what",
+        "knowledge_ids": [
+          575
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะโครงสร้าง `what of the two ...` ไม่ใช้ เมื่อมีตัวเลือกชัด ต้องใช้ **which**. ตัวอย่างถูก: `Which of these options is better?`"
+      },
+      {
+        "index": 3,
+        "text": "whose",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **whose** ถามเจ้าของ ไม่ใช่การเลือกจากตัวเลือก เช่น `whose of the two` ไม่มีความหมายที่ถูกต้อง ที่นี่ต้องใช้ **which** เพื่อเลือกคอร์ส"
+      },
+      {
+        "index": 4,
+        "text": "that",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **that** ไม่ใช่ตัวกำหนดคำถาม ใช้ในอนุประโยคสัมพันธ์แบบจำกัดความได้ แต่ไม่ใช้ในโครงสร้าง `___ of the two` เพื่อถามเลือก"
+      }
+    ]
+  },
+  {
+    "question": "Could you tell me ___ room we are supposed to use?",
+    "question_knowledge_ids": [
+      195,
+      302,
+      575,
+      585,
+      567
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "which",
+        "knowledge_ids": [
+          575,
+          585
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง ประโยคคำถามอ้อมใช้ **interrogative determiner** __which + noun__ เช่น `which room` เพื่อเลือกจากหลายห้อง เช่น `Could you tell me which room we are supposed to use?` แพตเทิร์น: __tell me/know + which + noun__"
+      },
+      {
+        "index": 2,
+        "text": "what",
+        "knowledge_ids": [
+          575,
+          585
+        ],
+        "is_correct": false,
+        "answer_description": "ไม่เหมาะ เพราะเมื่อเลือกจากตัวเลือกเฉพาะ (หลายห้อง) ควรใช้ **which** มากกว่า `what`. `What room` ใช้ได้บ้างในภาษาพูดทั่วไป แต่ในการเลือกเฉพาะควรใช้ `which room` เพื่อความชัด"
+      },
+      {
+        "index": 3,
+        "text": "whose",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **whose** ใช้ถามเจ้าของ เช่น `Whose room is this?` แต่ประโยคนี้ถาม “ใช้ห้องไหน” จึงต้องใช้ `which room`"
+      },
+      {
+        "index": 4,
+        "text": "who",
+        "knowledge_ids": [
+          567
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **who** ใช้ถามคน ไม่ใช่ determiner วางหน้านาม `room` ไม่ได้ ต้องใช้ `which room` เพื่อเลือกห้อง"
+      }
+    ]
+  }
+]

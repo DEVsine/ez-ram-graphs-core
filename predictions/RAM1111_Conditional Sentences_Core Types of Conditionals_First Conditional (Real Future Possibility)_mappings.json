@@ -1,0 +1,486 @@
+[
+  {
+    "question": "If it ___ tomorrow, we will cancel the trip.",
+    "question_knowledge_ids": [
+      481,
+      495
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "rains",
+        "knowledge_ids": [
+          495
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประโยค First Conditional ใช้โครงสร้าง **If + Present Simple, will + V1** ดังนั้นหลัง If ต้องเป็น `rains` (Present Simple). โครงสร้างที่ถูกต้องขีดเส้นใต้คือ: __If + Present Simple__, __will + base verb__ เช่น `If it rains tomorrow, we will cancel the trip.`"
+      },
+      {
+        "index": 2,
+        "text": "will rain",
+        "knowledge_ids": [
+          495,
+          507
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะในอนุประโยคที่ขึ้นต้นด้วย **If** ห้ามใช้ **will** ต้องใช้ Present Simple แทน เช่นควรเป็น `If it rains, ...` ไม่ใช่ `If it will rain, ...`. ตัวอย่างถูกต้อง: `If it rains, we will stay home.`"
+      },
+      {
+        "index": 3,
+        "text": "rained",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ **rained** เป็น Past Simple ซึ่งไม่ใช่รูปที่ใช้ใน First Conditional (ใช้กับ Present Simple). ตัวอย่างเปรียบเทียบ: ถูก `If it rains, we will cancel.` ผิด `If it rained, we will cancel.`"
+      },
+      {
+        "index": 4,
+        "text": "is raining",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ **Present Continuous** หลัง If ซึ่งไม่ได้เป็นรูปมาตรฐานของ First Conditional สำหรับกฎทั่วไปในอนาคต. โครงสร้างที่ถูกคือ `If + Present Simple` เช่น `If it rains, ...` ไม่ใช่ `If it is raining, ...`"
+      }
+    ]
+  },
+  {
+    "question": "If she ___ early, will you call me?",
+    "question_knowledge_ids": [
+      481,
+      495,
+      194
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "arrives",
+        "knowledge_ids": [
+          495
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะหลัง **If** ต้องใช้ **Present Simple** ดังนั้น `arrives` จึงเหมาะสมที่สุด และประโยคหลักใช้ `will` ได้. โครงสร้างที่ถูกต้องคือ __If + Present Simple__, __will + V1__ เช่น `If she arrives early, I will tell you.`"
+      },
+      {
+        "index": 2,
+        "text": "will arrive",
+        "knowledge_ids": [
+          495,
+          507
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่ใช้ **will** ในอนุประโยค If; ต้องใช้ Present Simple แทน. รูปที่ถูก: `If she arrives early, will you call me?`"
+      },
+      {
+        "index": 3,
+        "text": "is arriving",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ **Present Continuous** ซึ่งไม่ใช่รูปมาตรฐานของ First Conditional ที่ต้องการกฎทั่วไปในอนาคต. ใช้ `arrives` จะถูกต้องกว่า: `If she arrives early, ...`"
+      },
+      {
+        "index": 4,
+        "text": "arrive",
+        "knowledge_ids": [
+          380,
+          384
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเป็นบุรุษเอกพจน์ (she) ต้องเติม **-s** ใน Present Simple ให้เป็น `arrives`. ตัวอย่างถูก: `If she arrives, we will start.`"
+      }
+    ]
+  },
+  {
+    "question": "We will miss the bus if we ___ now.",
+    "question_knowledge_ids": [
+      481,
+      495,
+      249
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "don’t leave",
+        "knowledge_ids": [
+          495,
+          249
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะ First Conditional ใช้รูป **Present Simple** ในส่วน If (หรือประโยคเงื่อนไข) แม้จะเป็นปฏิเสธก็ใช้ `do/does + not + V1`. โครงสร้างที่ขีดเส้นใต้: __If + Present Simple (negative)__ , __will + V1__ เช่น `We will miss the bus if we don’t leave now.`"
+      },
+      {
+        "index": 2,
+        "text": "won’t leave",
+        "knowledge_ids": [
+          495,
+          247
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใส่ **will** ในส่วนเงื่อนไข ซึ่งขัดกับกฎ First Conditional ที่ต้องใช้ Present Simple หลัง If. ควรเป็น `if we don’t leave` ไม่ใช่ `if we won’t leave`."
+      },
+      {
+        "index": 3,
+        "text": "aren’t leaving",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ **Present Continuous** แทนที่จะเป็น **Present Simple** ในโครงสร้างมาตรฐาน. ใช้รูปธรรมดาจะชัดกว่า: `if we don’t leave`."
+      },
+      {
+        "index": 4,
+        "text": "didn’t leave",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น **Past Simple** ซึ่งไม่ใช่ First Conditional แต่ใกล้กับ Second Conditional แทน. รูปที่ถูกคือ Present Simple: `if we don’t leave`."
+      }
+    ]
+  },
+  {
+    "question": "If you ___ harder, you will pass the exam.",
+    "question_knowledge_ids": [
+      481,
+      495
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "study",
+        "knowledge_ids": [
+          495
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะหลัง If ใช้ **Present Simple** โดยใช้กริยาช่องฐาน `study` (ประธาน you ไม่ต้องเติม -s). โครงสร้างเน้น: __If + Present Simple__, __will + V1__ เช่น `If you study harder, you will pass.`"
+      },
+      {
+        "index": 2,
+        "text": "will study",
+        "knowledge_ids": [
+          495,
+          247
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะในอนุประโยค If ห้ามใช้ **will** ใช้ Present Simple เท่านั้น. ตัวอย่างถูก: `If you study, you will pass.`"
+      },
+      {
+        "index": 3,
+        "text": "studies",
+        "knowledge_ids": [
+          380,
+          407
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `you` ไม่เติม **-s** ใน Present Simple จึงไม่ใช้ `studies`. รูปที่ถูกคือ `you study` เช่น `If you study, ...`"
+      },
+      {
+        "index": 4,
+        "text": "studied",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Past Simple ซึ่งเป็นรูปของ Second Conditional ถ้าต้องการสมมติ ไม่ใช่เหตุการณ์จริงในอนาคต. ที่ถูกคือ Present Simple: `If you study, you will pass.`"
+      }
+    ]
+  },
+  {
+    "question": "I won’t go to the beach if it ___ too windy.",
+    "question_knowledge_ids": [
+      481,
+      495,
+      249
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "is",
+        "knowledge_ids": [
+          303,
+          380
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะหลัง If ใช้ **Present Simple** ของกริยา be คือ `is` (ประธาน it). โครงสร้างที่ถูกคือ __If + Present Simple__, __will/won’t + V1__ เช่น `I won’t go if it is too windy.`"
+      },
+      {
+        "index": 2,
+        "text": "will be",
+        "knowledge_ids": [
+          495,
+          250
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่ใช้ **will** ในส่วน If-clause ตามกฎ First Conditional. ต้องเป็น `if it is ...` ไม่ใช่ `if it will be ...`"
+      },
+      {
+        "index": 3,
+        "text": "was",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `was` เป็น Past Simple ไม่ใช่รูปที่ใช้ใน First Conditional. ควรใช้ `is` เช่น `if it is too windy`."
+      },
+      {
+        "index": 4,
+        "text": "being",
+        "knowledge_ids": [
+          291
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `being` เป็นรูป V-ing ของ be ซึ่งไม่ใช่ Present Simple. โครงสร้างมาตรฐานต้องใช้ `is/are/am` หลัง If."
+      }
+    ]
+  },
+  {
+    "question": "If they ___ the price, more people will buy it.",
+    "question_knowledge_ids": [
+      481,
+      495
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "lower",
+        "knowledge_ids": [
+          384
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะใช้ **Present Simple** ใน If-clause: `they lower` (ประธานพหูพจน์ไม่เติม -s). โครงสร้างเน้น: __If + Present Simple__, __will + V1__ เช่น `If they lower the price, more people will buy it.`"
+      },
+      {
+        "index": 2,
+        "text": "lowers",
+        "knowledge_ids": [
+          380,
+          407
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `they` เป็นพหูพจน์ จึงไม่เติม **-s** ที่กริยาใน Present Simple. ควรเป็น `they lower` ไม่ใช่ `they lowers`."
+      },
+      {
+        "index": 3,
+        "text": "will lower",
+        "knowledge_ids": [
+          495,
+          247
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเอา **will** มาไว้ใน If-clause ซึ่งผิดกฎของ First Conditional. ต้องใช้ `If they lower ..., more people will ...`"
+      },
+      {
+        "index": 4,
+        "text": "lowered",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Past Simple ใช้กับ Second Conditional มากกว่า. ที่ถูกคือ Present Simple: `If they lower the price, ...`"
+      }
+    ]
+  },
+  {
+    "question": "Will you still go out if it ___ to snow?",
+    "question_knowledge_ids": [
+      481,
+      495,
+      194
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "starts",
+        "knowledge_ids": [
+          495
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะหลัง If ต้องเป็น **Present Simple** และประธาน `it` จึงเติม **-s** เป็น `starts`. โครงสร้างหลักของ First Conditional คือ __If + Present Simple__, __will + V1__ เช่น `If it starts to snow, I will stay home.`"
+      },
+      {
+        "index": 2,
+        "text": "will start",
+        "knowledge_ids": [
+          495,
+          507
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะห้ามใช้ **will** ในส่วน If-clause. ตัวอย่างที่ถูก: `if it starts to snow` ไม่ใช่ `if it will start to snow`."
+      },
+      {
+        "index": 3,
+        "text": "start",
+        "knowledge_ids": [
+          384
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะประธานเป็นเอกพจน์ `it` ต้องเติม **-s** ให้เป็น `starts`. รูปถูก: `If it starts to snow, ...`"
+      },
+      {
+        "index": 4,
+        "text": "is starting",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใช้ Present Continuous ซึ่งไม่ใช่รูปมาตรฐานที่ใช้สอนใน First Conditional. ควรใช้ Present Simple: `starts`."
+      }
+    ]
+  },
+  {
+    "question": "If we don’t hurry, we ___ the beginning of the show.",
+    "question_knowledge_ids": [
+      481,
+      495
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "will miss",
+        "knowledge_ids": [],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะในประโยคหลักของ First Conditional ใช้ **will + V1** เพื่อบอกผลลัพธ์ในอนาคต. โครงสร้างชัดเจนคือ __If + Present Simple__, __will + V1__ เช่น `If we don’t hurry, we will miss the beginning of the show.`"
+      },
+      {
+        "index": 2,
+        "text": "miss",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะในเมนคลอสของ First Conditional ควรใช้ **will + V1** เพื่อชี้ผลในอนาคต ไม่ใช่ใช้ Present Simple ตรงๆ. รูปที่ถูก: `we will miss`."
+      },
+      {
+        "index": 3,
+        "text": "missed",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Past Simple ซึ่งไม่สอดคล้องกับการพยากรณ์อนาคตใน First Conditional. ต้องใช้ `will miss` เพื่อบอกผลที่จะเกิดขึ้น."
+      },
+      {
+        "index": 4,
+        "text": "are missing",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Present Continuous ไม่ใช่รูปที่ใช้ในเมนคลอสของ First Conditional เพื่อบอกผลในอนาคต. ใช้ `will miss` จะชัดเจนและถูกกฎ."
+      }
+    ]
+  },
+  {
+    "question": "You will feel better if you ___ some rest.",
+    "question_knowledge_ids": [
+      481,
+      495
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "get",
+        "knowledge_ids": [
+          384
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะหลัง If ต้องเป็น **Present Simple** และ `you get` เป็นรูปพื้นฐานที่ตรงกฎ. โครงสร้างสำคัญ: __If + Present Simple__, __will + V1__ เช่น `You will feel better if you get some rest.`"
+      },
+      {
+        "index": 2,
+        "text": "will get",
+        "knowledge_ids": [
+          495,
+          247
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะไม่ใช้ **will** ใน If-clause. ต้องเป็น `if you get` ไม่ใช่ `if you will get`."
+      },
+      {
+        "index": 3,
+        "text": "got",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Past Simple ซึ่งไม่ใช่รูปของ First Conditional. ตัวอย่างที่ถูก: `if you get some rest`."
+      },
+      {
+        "index": 4,
+        "text": "are getting",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Present Continuous ไม่ใช่รูปมาตรฐานที่ใช้ใน If-clause ของ First Conditional. ใช้ `get` จะถูกต้อง."
+      }
+    ]
+  },
+  {
+    "question": "If he ___ his phone, he will call you back.",
+    "question_knowledge_ids": [
+      481,
+      495
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "finds",
+        "knowledge_ids": [
+          495
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะประธาน `he` ใน Present Simple ต้องเติม **-s** เป็น `finds` และเมนคลอสใช้ `will + V1`. โครงสร้าง First Conditional คือ __If + Present Simple__, __will + V1__ เช่น `If he finds his phone, he will call you back.`"
+      },
+      {
+        "index": 2,
+        "text": "will find",
+        "knowledge_ids": [
+          495,
+          247
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใส่ **will** ใน If-clause ซึ่งผิดกฎของ First Conditional. ควรเป็น `If he finds ...`"
+      },
+      {
+        "index": 3,
+        "text": "found",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `found` เป็น Past Simple ใช้กับ Second Conditional มากกว่า. ที่ถูกคือ `finds` ใน Present Simple."
+      },
+      {
+        "index": 4,
+        "text": "is finding",
+        "knowledge_ids": [],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะเป็น Present Continuous ซึ่งไม่ใช่รูปมาตรฐานของ First Conditional ในการบอกความเป็นไปได้จริงในอนาคต. ใช้ `finds` จะเหมาะกว่า."
+      }
+    ]
+  },
+  {
+    "question": "If you ___ late again, the manager will be angry.",
+    "question_knowledge_ids": [
+      481,
+      486,
+      495,
+      507
+    ],
+    "choices": [
+      {
+        "index": 1,
+        "text": "are",
+        "knowledge_ids": [
+          495
+        ],
+        "is_correct": true,
+        "answer_description": "ถูกต้อง เพราะกริยา **be** ใน Present Simple กับประธาน `you` ใช้รูป `are` และเมนคลอสใช้ `will`. โครงสร้างที่ถูกต้องคือ __If + Present Simple__, __will + V1__ เช่น `If you are late again, the manager will be angry.`"
+      },
+      {
+        "index": 2,
+        "text": "will be",
+        "knowledge_ids": [
+          495,
+          507
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะใน If-clause ห้ามใช้ **will** ต้องใช้รูป Present Simple ของ be (`are/is/am`). ดังนั้นควรเป็น `If you are late again, ...`"
+      },
+      {
+        "index": 3,
+        "text": "were",
+        "knowledge_ids": [
+          498,
+          509
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `were` เป็น Past Simple/รูปสมมติ ซึ่งไม่ใช่ First Conditional. ต้องใช้ Present Simple: `are`."
+      },
+      {
+        "index": 4,
+        "text": "being",
+        "knowledge_ids": [
+          291,
+          303
+        ],
+        "is_correct": false,
+        "answer_description": "ผิด เพราะ `being` เป็น V-ing ไม่ใช่ Present Simple ที่ต้องใช้หลัง If. รูปที่ถูกคือ `are` เช่น `If you are late again, ...`"
+      }
+    ]
+  }
+]
